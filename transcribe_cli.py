@@ -1,4 +1,4 @@
-"""CPU YouTube transcription for a cloud shell; no GUI or account cookies."""
+"""CPU transcription of YouTube or local audio; no GUI or account cookies."""
 import argparse
 import hashlib
 import json
@@ -122,10 +122,29 @@ def srt_time(seconds):
 
 
 def settings(args):
-    return {"video_id": video_id(args.url), "language": args.language,
+    config = {"language": args.language,
             "model": args.model, "threads": args.threads, "beam_size": args.beam_size,
             "device": "cpu", "compute_type": "int8", "vad_filter": False,
             "condition_on_previous_text": True, "start": args.start, "end": args.end}
+    audio_file = getattr(args, "audio_file", None)
+    if bool(args.url) == (audio_file is not None):
+        raise ValueError("--url 与 --audio-file 必须且只能提供一个")
+    if audio_file is None:
+        # Preserve existing YouTube checkpoint keys.
+        config["video_id"] = video_id(args.url)
+    else:
+        audio_file = Path(audio_file).expanduser().resolve()
+        if not audio_file.is_file():
+            raise ValueError(f"音频文件不存在或不是普通文件：{audio_file}")
+        with audio_file.open("rb") as stream:
+            digest = hashlib.file_digest(stream, "sha256").hexdigest()
+        if audio_file.stat().st_size == 0:
+            raise ValueError(f"音频文件为空：{audio_file}")
+        # Content identity prevents unrelated uploads from sharing a checkpoint,
+        # and permits resuming the same file after it has been moved or renamed.
+        config.update(source_type="audio_file", audio_sha256=digest,
+                      source_id="audio-" + digest[:24])
+    return config
 
 
 def task_key(config):
@@ -183,10 +202,21 @@ def run(args):
         from faster_whisper import WhisperModel
         from faster_whisper.audio import decode_audio
         phase = time.monotonic()
-        audio, metadata, reused = cached_audio(args.url, args.state_dir / "audio-cache")
+        if config.get("source_type") == "audio_file":
+            audio = Path(args.audio_file).expanduser().resolve()
+            metadata, reused = {"title": audio.name}, False
+            report["source"] = {"type": "audio_file", "path": str(audio),
+                                "sha256": config["audio_sha256"]}
+            report["download_skipped"] = True
+            report["timings_seconds"]["local_source_selection"] = time.monotonic() - phase
+            report["timings_seconds"]["download_or_cache"] = 0.0
+        else:
+            audio, metadata, reused = cached_audio(args.url, args.state_dir / "audio-cache")
+            report["timings_seconds"]["download_or_cache"] = time.monotonic() - phase
+            report["source"] = {"type": "youtube", "url": args.url}
+            report["download_skipped"] = False
         report["used_cached_audio"] = reused
         report["title"] = metadata["title"]
-        report["timings_seconds"]["download_or_cache"] = time.monotonic() - phase
         if stop_requested(args):
             return paused()
         phase = time.monotonic()
@@ -251,7 +281,8 @@ def run(args):
             report["timings_seconds"]["transcription"] = time.monotonic() - phase
         # Complete outputs are atomic. Each new completed run uses its own folder.
         for extension in ("txt", "srt"):
-            path = output / (config["video_id"] + "." + extension)
+            identifier = config.get("source_id", config.get("video_id"))
+            path = output / (identifier + "." + extension)
             temporary = path.with_suffix(path.suffix + ".tmp")
             with temporary.open("w", encoding="utf-8") as stream:
                 for index, segment in enumerate(job["segments"], 1):
@@ -278,8 +309,10 @@ def run(args):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="YouTube 云端 CPU 转文字（无需窗口）")
-    parser.add_argument("--url", required=True)
+    parser = argparse.ArgumentParser(description="YouTube 或本地音频云端 CPU 转文字（无需窗口）")
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--url", help="YouTube 视频链接")
+    source.add_argument("--audio-file", type=Path, help="本地音频文件路径（跳过 YouTube 下载）")
     parser.add_argument("--language", choices=("auto", "zh", "en"), default="auto")
     parser.add_argument("--model", choices=("small", "medium", "large-v3"), default="medium")
     parser.add_argument("--threads", type=int, default=6)

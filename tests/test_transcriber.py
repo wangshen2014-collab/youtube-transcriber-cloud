@@ -1,4 +1,6 @@
 import argparse
+import contextlib
+import io
 import json
 from pathlib import Path
 import sys
@@ -100,6 +102,24 @@ class TranscriptionTests(unittest.TestCase):
 
 
 class InputTests(unittest.TestCase):
+    def test_source_arguments_are_mutually_exclusive_and_required(self):
+        for argv in ([], ["--url", "https://youtu.be/abcdefghijk", "--audio-file", "audio.wav"]):
+            with self.subTest(argv=argv), contextlib.redirect_stderr(io.StringIO()):
+                with self.assertRaises(SystemExit) as error:
+                    cli.main(argv)
+                self.assertEqual(error.exception.code, 2)
+
+    def test_invalid_local_files_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            empty = root / "empty.wav"
+            empty.touch()
+            for path in (root / "missing.wav", root, empty):
+                with self.subTest(path=path):
+                    self.assertEqual(cli.main(["--audio-file", str(path),
+                                               "--state-dir", str(root / "state")]), 2)
+            self.assertFalse(list(root.rglob("run-report.json")))
+
     def test_time_formats(self):
         for value, seconds in [("90", 90), ("02:15", 135), ("90:00", 5400), ("01:02:15", 3735)]:
             self.assertEqual(cli.timestamp(value), seconds)
@@ -120,6 +140,54 @@ class InputTests(unittest.TestCase):
             path.write_text("{broken", encoding="utf-8")
             with self.assertRaises(json.JSONDecodeError):
                 cli.read_json(path)
+
+
+class LocalAudioTests(TranscriptionTests):
+    """Run the same output, time-range, and resume checks for local inputs."""
+
+    def setUp(self):
+        super().setUp()
+        self.args.url = None
+        self.args.audio_file = Path(self.folder.name) / "中文录音.wav"
+        self.args.audio_file.write_bytes(b"local audio fixture")
+        self.no_download = patch.object(cli, "cached_audio",
+                                       side_effect=AssertionError("Local audio must not download"))
+        self.downloader = self.no_download.start()
+        self.addCleanup(self.no_download.stop)
+
+    def tearDown(self):
+        self.downloader.assert_not_called()
+
+    def test_local_source_metadata_and_safe_output_names(self):
+        self.assertEqual(cli.run(self.args), 0)
+        report = cli.read_json(next(self.args.output_dir.rglob("run-report.json")))
+        self.assertTrue(report["download_skipped"])
+        self.assertFalse(report["used_cached_audio"])
+        self.assertEqual(report["timings_seconds"]["download_or_cache"], 0)
+        self.assertEqual(report["source"]["path"], str(self.args.audio_file.resolve()))
+        self.assertEqual(report["source"]["type"], "audio_file")
+        self.assertEqual(report["source"]["sha256"], report["settings"]["audio_sha256"])
+        self.assertNotIn("video_id", report["settings"])
+        self.assertEqual(next(self.args.output_dir.rglob("*.txt")).stem,
+                         report["settings"]["source_id"])
+
+    def test_content_identity_survives_rename_and_changes_with_contents(self):
+        original = cli.settings(self.args)
+        renamed = self.args.audio_file.with_name("renamed.wav")
+        self.args.audio_file.rename(renamed)
+        self.args.audio_file = renamed
+        self.assertEqual(cli.settings(self.args), original)
+        renamed.write_bytes(b"different audio of same name")
+        self.assertNotEqual(cli.task_key(cli.settings(self.args)), cli.task_key(original))
+
+    def test_decode_failure_is_reported_without_download_fallback(self):
+        with patch("faster_whisper.audio.decode_audio", side_effect=ValueError("invalid audio")):
+            self.assertEqual(cli.run(self.args), 1)
+        report = cli.read_json(next(self.args.output_dir.rglob("run-report.json")))
+        self.assertEqual(report["status"], "failed")
+        self.assertEqual(report["error"], "invalid audio")
+        self.assertTrue(report["download_skipped"])
+        self.assertFalse(list(self.args.output_dir.rglob("*.txt")))
 
 
 if __name__ == "__main__":

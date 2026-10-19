@@ -1,6 +1,7 @@
 # YouTube Transcriber Cloud / YouTube 云端视频转文字
 
 将 YouTube 音频交给 faster-whisper 转录，输出保留原语言的 TXT 和 SRT。
+也支持直接读取上传到工作区的本地音频，跳过 YouTube 下载。
 这是原 Windows 应用的独立命令行版本，适合在 Linux / Codex Cloud 进行实验。
 不需要打开桌面窗口，也不调用 OpenAI 转录 API。
 
@@ -36,13 +37,23 @@ yt-dlp 跟随安装时可用版本，实际版本写入报告；无需改变推�
 # 只转录 2分15秒至8分40秒，明确中文
 .venv/bin/python transcribe_cli.py --url 'https://www.youtube.com/watch?v=VIDEO_ID' \
   --language zh --start 02:15 --end 08:40
+
+# 本地音频，自动检测语言，转录 00:30–03:30
+.venv/bin/python transcribe_cli.py --audio-file '/path/to/uploaded-audio.mp3' \
+  --start 00:30 --end 03:30
 ```
+
+`--url` 与 `--audio-file` 必须且只能提供一个。本地文件直接交给音频解码器，
+不调用 yt-dlp、不复制到 YouTube 音频缓存。文件必须存在、可读且非空。
+两种输入都使用 multilingual medium / CPU int8 / 6线程 / beam 3，
+`condition_on_previous_text=True`，VAD 关闭；默认自动检测语言。
 
 把 VIDEO_ID 换成真实的 11 位视频 ID。支持 watch、youtu.be、shorts、live 链接。
 时间可以是整数秒、分:秒、时:分:秒。结束留空表示到结尾，超过视频长度则截到结尾。
 SRT 时间戳对应**原始视频时间**，不会从片段的零秒重新计时。
 自动语言检测只分析所选音频。首次仍下载并解码完整音频，然后截取所选范围；
 缩小范围节省的是模型转录计算，不保证省下载流量或完整音频解码内存。
+本地音频同样先完整解码再裁剪；SRT 时间戳对应输入音频的原始时间。
 
 每次完成的新任务使用唯一目录：
 
@@ -55,6 +66,8 @@ outputs/<时间戳-随机ID>/
 
 报告包含模型参数、依赖版本、检测语言、音频长度、分阶段耗时和 Linux 进程峰值内存。
 模型首次下载的时间算在 model_load；第二次需与首次冷启动区分。
+本地音频输出文件名为 `audio-<内容SHA256前24位>.txt/.srt`，报告记录来源路径、
+完整 SHA256、`download_skipped: true` 和零下载耗时。加载模型仍需已缓存模型或模型下载网络。
 每次调用的耗时独立记录，续做报告不是整个历史任务的累计耗时。
 
 ## 暂停与续做
@@ -62,6 +75,8 @@ outputs/<时间戳-随机ID>/
 按 Ctrl+C 或发送 SIGTERM：在下载/模型加载返回、或语音片段保存后暂停，退出码 75。
 也可指定 `--pause-file state/pause.flag`，创建该文件来请求暂停，恢复前删除它。
 然后用相同链接、模型、语言、线程、beam、开始结束时间重新运行。
+本地音频用相同 `--audio-file` 和参数续做；检查点按完整文件内容 SHA256 区分，
+相同内容改名或移动后仍可续做，内容变化则创建新任务，避免混入旧文件的转录。
 检查点保存在 state/checkpoints/，音频在 state/audio-cache/，模型在 models/。
 可通过 --state-dir、--model-dir 或 YT_STATE_DIR、YT_MODEL_DIR 配置路径。
 
