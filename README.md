@@ -1,4 +1,72 @@
-# YouTube Transcriber Cloud / YouTube 云端视频转文字
+# 音频转文字：本地下载 → 上传音频 → 云端转录
+
+## 日常使用（推荐）
+
+**本地：** 打开 YouTube 视频转文字，右上角选择「仅下载音频」。
+粘贴链接，默认下载完整音频；也可选择「自定义时间段」，再点击「下载音频」。
+输出文件以 YouTube 视频标题命名，默认在 `C:\Youtube音频输出`。
+片段导出为 M4A，例如 `视频标题 [00-00-30 至 00-03-30].m4a`。
+完整音频复制原始音轨，不加载 Whisper；片段用现有 PyAV 导出 AAC，无需安装 ffmpeg 命令。
+首次下载仍会缓存完整源音频，再导出所选范围。
+
+**云端：** 选择连接本仓库的 Codex 环境，上传音频，直接说：
+
+> 转录这个音频，默认完整转录，交给 GitHub 执行，返回结果并检查文字。
+
+若只转部分，说「只转录 02:15–08:40」。本地已截取的片段在云端从 00:00 开始计时。
+AGENTS.md 已包含这些日常默认操作，不需要每次粘贴长提示词。
+
+**结果：** GitHub Actions 运行实际转录，完成后生成包含 TXT/SRT/JSON 的结果包，
+原文件名保留在结果文件名中。**结果保留 60 天**，到期由 GitHub 自动删除。
+结果不提交到 Git 历史，普通下载通常需要登录 GitHub。代理/插件不能直接读取时，
+Codex 可通过已授权 API 下载，再解压分析；不能承诺任意浏览工具仅凭链接就能读取。
+
+### 一条命令
+
+提交工具仅使用 Python 标准库，不需要先在 Codex Cloud 下载模型：
+
+```bash
+# 全文（默认）：计算实际发生在 GitHub Actions
+python3 cloud_job.py --audio-file '/path/to/上传音频.m4a' --wait --download-dir outputs/github
+
+# 部分
+python3 cloud_job.py --audio-file '/path/to/上传音频.m4a' --start 02:15 --end 08:40 --wait --download-dir outputs/github
+
+# 中途关闭对话也不会停止远端计算。使用已返回任务 ID 查询/下载，不要重新提交同一份音频。
+python3 cloud_job.py --job 'yt-job-返回的任务ID' --wait --download-dir outputs/github
+```
+
+现有 GitHub 登录若向任务提供可用的 Git 凭据，脚本会尝试复用。否则首次需要在
+**Codex 环境的安全配置**中设置 `GH_TOKEN`，选择仅限此仓库的细粒度令牌，权限为
+Contents: Read and write、Actions: Read and write（Metadata 只读）。
+新建令牌可在 GitHub Settings → Developer settings → Personal access tokens → Fine-grained tokens。
+不要把令牌贴进聊天、README、命令行参数或 Git 提交。
+仓库公开，但开始运行任务仍需要写入授权；连接仓库不一定等于具备 API 授权。
+
+首次需要启用仓库 Actions（若被禁用）。代码内置工作流，无需 Google 登录。
+Codex Cloud 出口需要 `api.github.com`、`uploads.github.com` 和 GitHub 文件重定向主机，
+GitHub Actions runner 另外下载模型；Codex Cloud 不需要访问 YouTube。
+
+### 保留时间和公开范围
+
+- 本地源音频缓存：沿用应用可选保留策略，默认最后使用后 7 天。
+- 本地导出音频：导出后 7 天，到期在应用启动/每小时检查时永久删除；
+  仅处理新版本登记且未被用户修改/替换的导出文件，不清理 TXT/SRT 或其他文件。
+  应用未运行或电脑关闭时无法执行清理，会在下次运行处理；不保证整点物理删除。
+- 输入音频：通过当前**公开仓库**的临时 Release 传输，属于公开文件。
+  工作流结束后立即删除该 Release 与专用 tag，失败遗留每天检查并清理超过 7 天的记录。
+  GitHub 定时任务可能延迟或被停用，因此这是清理策略，不是精确到秒的输入文件 TTL。
+- TXT/SRT/报告：通过 Actions Artifacts 原生 `retention-days: 60` 保存。
+  仓库设置的最大保留期限应至少 60 天；实际 `expires_at` 在查询结果中返回。
+- 文字内容不写进运行日志/Git 历史。运行日志仍可能包含文件名、错误、语言和计时；
+  它遵循仓库独立的日志保留设置。若需日志也 60 天，在 Settings → Actions → General 设置。
+- 下载到手机、贴进聊天或保存在其他服务的副本，遵循各自保存规则，不会随结果包一起消失。
+- 当前仓库公开。只提交你接受公开的音频/转录内容。
+
+GitHub Runner 使用 240 分钟任务上限。失败时查看 Actions 日志；任务未成功不得声称已转录。
+GitHub 环境是否支持下载 YouTube 尚未验证；日常入口直接用已上传音频。
+
+## 原始 CLI 与开发说明
 
 将 YouTube 音频交给 faster-whisper 转录，输出保留原语言的 TXT 和 SRT。
 也支持直接读取上传到工作区的本地音频，跳过 YouTube 下载。

@@ -1,6 +1,31 @@
 # Cloud task instructions
 
-This repository runs YouTube audio transcription. Use the CLI; do not build a GUI.
+This repository is a simple uploaded-audio transcription product. Desktop downloader
+source lives in desktop/. Do not modify the user's installed Windows app during a cloud task.
+
+## Everyday workflow (default)
+
+- When the user uploads audio and says to transcribe, default to the ENTIRE file.
+  Only add --start/--end when the user explicitly requests a range.
+- Use `python3 cloud_job.py --audio-file "PATH" --wait --download-dir outputs/github`.
+  This submits actual computation to GitHub Actions and returns a 60-day artifact.
+  You do NOT need to install Whisper in the Codex environment for this route.
+- Run tool calls with yields/polling so the user can keep steering; do not create a
+  new submission just because a wait was interrupted. Reuse the printed --job ID.
+- If GitHub authorization is unavailable, tell the user to configure GH_TOKEN as
+  an environment secret. Never ask them to paste a token into chat. Do not claim
+  repo connection automatically supplies API upload/dispatch permission.
+- The user has authorized public audio/results in this repository. They are NOT
+  committed to Git history. Inputs are temporary Release assets, deleted after
+  the run; orphan cleanup targets only tool-tagged transfers older than seven days.
+- Results expire after 60 days via native artifact retention. Report actual
+  expires_at; do not describe local task files/chat copies as having that same TTL.
+- Download the artifact via the helper when authorized. Safely inspect its TXT,
+  SRT and JSON, report language and timings, and provide actual run/artifact links.
+  Public artifact downloads can still require GitHub authentication.
+- Google Drive and ChatGPT Library upload are not part of this product.
+
+## Direct CLI / debugging
 
 1. If necessary run `bash scripts/setup.sh` (Linux, Python 3.11 recommended).
 2. Run `.venv/bin/python transcribe_cli.py --url "URL"` with the user's requested

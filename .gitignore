@@ -13,3 +13,8 @@ models/
 *.webm
 *.mp3
 *.wav
+*.m4a
+*.flac
+*.ogg
+*.zip
+incoming/
