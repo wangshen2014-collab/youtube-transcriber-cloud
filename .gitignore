@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+outputs/
+state/
+audio-cache/
+models/
+*.webm
+*.mp3
+*.wav
