@@ -13,6 +13,20 @@ from cloud_job import GitHub, MARKER, validate_tag, delete_transfer
 
 
 def prepare(api, tag):
+    youtube_url = os.getenv('YOUTUBE_URL', '').strip()
+    if youtube_url:
+        from transcribe_cli import video_id, timestamp
+        identifier = video_id(youtube_url)
+        start = timestamp(os.getenv('RANGE_START', '0') or '0')
+        end = timestamp(os.environ['RANGE_END']) if os.getenv('RANGE_END', '').strip() else None
+        language = os.getenv('AUDIO_LANGUAGE', 'auto') or 'auto'
+        if language not in ('auto', 'zh', 'en') or (end is not None and end <= start):
+            raise ValueError('无效语言或时间段')
+        Path('incoming').mkdir(exist_ok=True)
+        spec = {'source_type': 'youtube', 'url': 'https://www.youtube.com/watch?v=' + identifier,
+                'original_name': identifier, 'start': start, 'end': end, 'language': language}
+        Path('incoming/request.json').write_text(json.dumps(spec), encoding='utf-8')
+        return
     validate_tag(tag)
     release = api.call('GET', 'releases/tags/' + tag)
     if release.get('body') != MARKER:
@@ -44,8 +58,8 @@ def transcribe():
     if start < 0 or (end is not None and float(end) <= start):
         raise ValueError('无效时间段')
     # Call the tested CLI with numeric ranges; no shell interpolation of user inputs.
-    args = ['--audio-file', str(Path('incoming') / spec['audio_filename']),
-            '--language', spec['language'], '--start', str(int(start)), '--output-dir', 'outputs']
+    source_args = ['--url', spec['url']] if spec.get('source_type') == 'youtube' else ['--audio-file', str(Path('incoming') / spec['audio_filename'])]
+    args = source_args + ['--language', spec['language'], '--start', str(int(start)), '--output-dir', 'outputs']
     if end is not None:
         args += ['--end', str(int(end))]
     result = transcribe_cli.main(args)
@@ -53,8 +67,9 @@ def transcribe():
         # Metadata is bundled with results, not echoed to the public job log.
         for report_path in Path('outputs').glob('*/run-report.json'):
             report = json.loads(report_path.read_text(encoding='utf-8'))
-            report['source']['original_name'] = spec['original_name']
-            name = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', Path(spec['original_name']).stem).strip().rstrip('.')[:120] or '音频'
+            original_name = report.get('title', spec['original_name']) if spec.get('source_type') == 'youtube' else spec['original_name']
+            report['source']['original_name'] = original_name
+            name = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', Path(original_name).stem).strip().rstrip('.')[:120] or '音频'
             if start or end is not None:
                 name += f' [{int(start)}s-{int(end) if end is not None else "end"}s]'
             for suffix in ('.txt', '.srt'):

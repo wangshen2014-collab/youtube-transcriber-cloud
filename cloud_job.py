@@ -69,17 +69,23 @@ def validate_tag(tag):
 
 
 def submit(args, api):
-    from transcribe_cli import timestamp
+    from transcribe_cli import timestamp, video_id
     start = timestamp(args.start)
     end = timestamp(args.end) if args.end else None
     if end is not None and end <= start:
         raise ValueError('结束时间必须晚于开始时间')
+    tag = 'yt-job-' + time.strftime('%Y%m%d%H%M%S', time.gmtime()) + '-' + uuid.uuid4().hex[:12]
+    if getattr(args, 'url', None):
+        url = 'https://www.youtube.com/watch?v=' + video_id(args.url)
+        api.call('POST', 'actions/workflows/transcribe.yml/dispatches', {'ref': 'main', 'inputs': {
+            'job_tag': tag, 'youtube_url': url, 'start': str(int(start)),
+            'end': str(int(end)) if end is not None else '', 'language': args.language}})
+        return tag
     audio = args.audio_file.expanduser().resolve()
     if not audio.is_file() or audio.stat().st_size == 0:
         raise ValueError('音频文件不存在或为空')
     if audio.stat().st_size > 512 * 1024 * 1024:
         raise ValueError('本入口单个音频上限为 512 MiB，请先在本地选择片段')
-    tag = 'yt-job-' + time.strftime('%Y%m%d%H%M%S', time.gmtime()) + '-' + uuid.uuid4().hex[:12]
     suffix = audio.suffix.lower()
     if not re.fullmatch(r'\.[a-z0-9]{1,8}', suffix):
         suffix = '.audio'
@@ -156,10 +162,11 @@ def download_results(api, result, destination):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description='上传音频并交给 GitHub 转录，结果保留 60 天')
+    parser = argparse.ArgumentParser(description='提交 YouTube 链接或音频，交给 GitHub 转录，结果保留 60 天')
     parser.add_argument('--repo', default=os.getenv('YT_GITHUB_REPO', REPO))
     source = parser.add_mutually_exclusive_group(required=True)
     source.add_argument('--audio-file', type=Path)
+    source.add_argument('--url', help='由 GitHub 下载 YouTube 音频；本进程不连接 YouTube')
     source.add_argument('--job', help='查询或下载已经提交的任务，无需重新转录')
     parser.add_argument('--start', default='0')
     parser.add_argument('--end')
@@ -183,7 +190,7 @@ def main(argv=None):
                 return 4
             time.sleep(15)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        if args.download_dir and result.get('conclusion') == 'success':
+        if args.download_dir and result.get('status') == 'completed' and result.get('artifacts'):
             download_results(api, result, args.download_dir)
         return 0 if result.get('conclusion') in (None, 'success') else 1
     except (OSError, ValueError, RuntimeError) as exc:

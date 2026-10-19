@@ -5,6 +5,12 @@ source lives in desktop/. Do not modify the user's installed Windows app during 
 
 ## Everyday workflow (default)
 
+- When the user gives a YouTube URL, use
+  `python3 cloud_job.py --url "URL" --wait --download-dir outputs/github`.
+  GitHub Actions downloads it; the Codex task only talks to GitHub. Default to full
+  video unless the user selects a time range. Do not promise download success.
+- A mobile browser can also use the repository's Actions → transcribe.yml →
+  Run workflow form: youtube_url plus optional start/end, leave job_tag blank.
 - When the user uploads audio and says to transcribe, default to the ENTIRE file.
   Only add --start/--end when the user explicitly requests a range.
 - Use `python3 cloud_job.py --audio-file "PATH" --wait --download-dir outputs/github`.

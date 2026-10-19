@@ -1,12 +1,32 @@
-name: 音频转文字
-run-name: 转录 · ${{ inputs.job_tag }}
+name: 视频或音频转文字
+run-name: 转录 · ${{ inputs.job_tag || inputs.youtube_url }}
 on:
   workflow_dispatch:
     inputs:
       job_tag:
-        description: 由 cloud_job.py 返回的音频任务 ID
-        required: true
+        description: 上传音频时由工具填写，直接粘贴 YouTube 链接时留空
+        required: false
         type: string
+      youtube_url:
+        description: YouTube 链接（手机直接粘贴，或由 Codex 提交）
+        required: false
+        type: string
+      start:
+        description: 开始时间，默认从头（如 02:15）
+        default: '0'
+        type: string
+      end:
+        description: 结束时间，留空转到结尾（如 08:40）
+        required: false
+        type: string
+      language:
+        description: 视频语言
+        type: choice
+        default: auto
+        options:
+          - auto
+          - zh
+          - en
 permissions:
   contents: write
 jobs:
@@ -16,34 +36,40 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       JOB_TAG: ${{ inputs.job_tag }}
+      YOUTUBE_URL: ${{ inputs.youtube_url }}
+      RANGE_START: ${{ inputs.start }}
+      RANGE_END: ${{ inputs.end }}
+      AUDIO_LANGUAGE: ${{ inputs.language }}
       PYTHONUNBUFFERED: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: 接收音频
+      - name: 接收链接或音频
         run: python scripts/github_runner.py prepare
       - name: 安装转录环境
         run: bash scripts/setup.sh
       - name: 转录（默认完整音频）
         run: .venv/bin/python scripts/github_runner.py transcribe
       - name: 保存结果（60 天后自动过期）
+        if: always()
         id: artifact
         uses: actions/upload-artifact@v4
         with:
-          name: transcripts-${{ inputs.job_tag }}
+          name: transcripts-${{ inputs.job_tag || github.run_id }}
           path: |
             outputs/**/*.txt
             outputs/**/*.srt
             outputs/**/run-report.json
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 60
       - name: 返回结果链接
+        if: ${{ always() && steps.artifact.outputs.artifact-url != '' }}
         env:
           RESULT_URL: ${{ steps.artifact.outputs.artifact-url }}
         run: |
-          printf '## 转录完成\n\n[下载 TXT、SRT 和运行报告](%s)\n\n结果保留 60 天。\n' "$RESULT_URL" >> "$GITHUB_STEP_SUMMARY"
+          printf '## 任务文件\n\n[下载结果或失败报告](%s)\n\n请核对运行状态；成功时包含 TXT/SRT。结果保留 60 天。\n' "$RESULT_URL" >> "$GITHUB_STEP_SUMMARY"
       - name: 清理临时音频传输
-        if: always()
+        if: ${{ always() && inputs.job_tag != '' && inputs.youtube_url == '' }}
         run: python scripts/github_runner.py cleanup

@@ -2,6 +2,27 @@
 
 ## 日常使用（推荐）
 
+### 手机只粘贴链接（实验入口）
+
+无需安装手机 App。登录 GitHub 后，用手机浏览器打开：
+
+**[打开转录表单](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/actions/workflows/transcribe.yml)**
+
+选择 **Run workflow**，在 `youtube_url` 粘贴链接，`job_tag` 留空，直接运行。
+默认转录全文；需要时填写 `start` / `end`。完成后在该次运行的 Artifacts 下载结果包。
+这个入口由 GitHub Actions 直接下载 YouTube，不经过 Codex Cloud 的 YouTube 代理。
+能否下载取决于 GitHub runner 实际访问结果，不能保证 YouTube 接受所有云端请求。
+
+也可以在连接本仓库的 Codex 对话里发链接，说「用 GitHub 转录这个链接」：
+
+```bash
+python3 cloud_job.py --url 'https://www.youtube.com/watch?v=VIDEO_ID' --wait --download-dir outputs/github
+```
+
+链接提交只需要访问 `api.github.com`；此时无需上传音频，也不需要 `uploads.github.com`。
+Codex 环境仍须允许 GitHub API 并有任务写入授权。结果下载需要 GitHub 文件重定向主机。
+若 GitHub 下载也遇到登录/机器人限制，下面的本地下载再上传路径仍然可用。
+
 **本地：** 打开 YouTube 视频转文字，右上角选择「仅下载音频」。
 粘贴链接，默认下载完整音频；也可选择「自定义时间段」，再点击「下载音频」。
 输出文件以 YouTube 视频标题命名，默认在 `C:\Youtube音频输出`。

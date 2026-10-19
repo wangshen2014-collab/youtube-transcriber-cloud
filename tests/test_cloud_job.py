@@ -50,6 +50,19 @@ class CloudJobTests(unittest.TestCase):
             cloud_job.submit(self.args, api)
         self.assertEqual(api.calls, [])
 
+    def test_youtube_link_only_dispatches_without_upload(self):
+        self.args.url = 'https://youtu.be/abcdefghijk?si=share'
+        self.args.audio_file = None
+        self.args.start = '00:30'; self.args.end = '03:30'
+        api = FakeAPI()
+        cloud_job.submit(self.args, api)
+        self.assertEqual(len(api.calls), 1)
+        inputs = api.calls[0][2]['inputs']
+        self.assertEqual(inputs['youtube_url'], 'https://www.youtube.com/watch?v=abcdefghijk')
+        self.assertEqual(inputs['start'], '30')
+        self.assertEqual(inputs['end'], '210')
+        self.assertIsNone(api.payload)
+
     def test_dispatch_failure_deletes_staging_release(self):
         api = FakeAPI(fail_dispatch=True)
         with self.assertRaises(RuntimeError):
