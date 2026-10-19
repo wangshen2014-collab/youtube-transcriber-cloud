@@ -22,6 +22,7 @@ bash scripts/setup.sh
 
 依赖保留 faster-whisper 1.2.1、CTranslate2 4.4.0（与现有本机版本一致）。
 旧版 CTranslate2 依赖 pkg_resources，因此限制 setuptools<81。
+PyAV 固定为 16.0.1；19.x 移除了 faster-whisper 1.2.1 解码时仍使用的 `metadata_errors` 参数。
 yt-dlp 跟随安装时可用版本，实际版本写入报告；无需改变推理依赖即可更新它：
 
 ```bash

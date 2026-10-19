@@ -7,6 +7,7 @@ import sys
 import tempfile
 import types
 import unittest
+import wave
 from unittest.mock import patch
 
 import transcribe_cli as cli
@@ -99,6 +100,23 @@ class TranscriptionTests(unittest.TestCase):
         report = cli.read_json(next(self.args.output_dir.rglob("run-report.json")))
         self.assertEqual(report["status"], "failed")
         self.assertFalse(list(self.args.output_dir.rglob("*.txt")))
+
+
+class AudioDecodeTests(unittest.TestCase):
+    def test_real_wav_decodes_with_installed_pyav(self):
+        from faster_whisper.audio import decode_audio
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "音频.wav"
+            with wave.open(str(path), "wb") as audio:
+                audio.setnchannels(1)
+                audio.setsampwidth(2)
+                audio.setframerate(8000)
+                audio.writeframes(b"\x00\x00" * 8000)
+            samples = decode_audio(str(path), sampling_rate=cli.SAMPLE_RATE)
+            self.assertEqual(len(samples), cli.SAMPLE_RATE)
+            self.assertEqual(samples.dtype.name, "float32")
+            self.assertTrue((samples == 0).all())
 
 
 class InputTests(unittest.TestCase):

@@ -163,7 +163,7 @@ def peak_ram_mb():
 def versions():
     from importlib.metadata import version
     result = {"python": sys.version.split()[0]}
-    for package in ("faster-whisper", "ctranslate2", "yt-dlp"):
+    for package in ("faster-whisper", "ctranslate2", "yt-dlp", "av"):
         try:
             result[package] = version(package)
         except Exception:
