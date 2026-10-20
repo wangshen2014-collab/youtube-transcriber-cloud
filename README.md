@@ -12,3 +12,4 @@
 - [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第003段 _01-00-00 至 01-13-55_.m4a](jobs/9725d5fa93bbf9e38351b88e/README.md) <!-- job:9725d5fa93bbf9e38351b88e -->
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/879454e7b084e9b9410d7ade/README.md) <!-- job:879454e7b084e9b9410d7ade -->
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/dc14dfd9e7334b40c9d47d99/README.md) <!-- job:dc14dfd9e7334b40c9d47d99 -->
+- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第003段 _01-00-00 至 01-19-02_.m4a](jobs/aaead86a18018c1fb94037c9/README.md) <!-- job:aaead86a18018c1fb94037c9 -->
