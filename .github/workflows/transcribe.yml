@@ -1,5 +1,5 @@
 name: 视频或音频转文字
-run-name: 转录 · ${{ inputs.job_tag || inputs.youtube_url }}
+run-name: 转录 · ${{ inputs.job_tag || inputs.audio_url || inputs.youtube_url }}
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +9,14 @@ on:
         type: string
       youtube_url:
         description: YouTube 链接（手机直接粘贴，或由 Codex 提交）
+        required: false
+        type: string
+      audio_url:
+        description: GitHub Release 页面或音频附件链接（无需重复上传）
+        required: false
+        type: string
+      asset_name:
+        description: 同一 Release 有多个音频时，填写要转录的完整附件名；否则留空
         required: false
         type: string
       start:
@@ -37,6 +45,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       JOB_TAG: ${{ inputs.job_tag }}
       YOUTUBE_URL: ${{ inputs.youtube_url }}
+      AUDIO_URL: ${{ inputs.audio_url }}
+      ASSET_NAME: ${{ inputs.asset_name }}
       RANGE_START: ${{ inputs.start }}
       RANGE_END: ${{ inputs.end }}
       AUDIO_LANGUAGE: ${{ inputs.language }}
@@ -71,5 +81,5 @@ jobs:
         run: |
           printf '## 任务文件\n\n[下载结果或失败报告](%s)\n\n请核对运行状态；成功时包含 TXT/SRT。结果保留 60 天。\n' "$RESULT_URL" >> "$GITHUB_STEP_SUMMARY"
       - name: 清理临时音频传输
-        if: ${{ always() && inputs.job_tag != '' && inputs.youtube_url == '' }}
+        if: ${{ always() && inputs.job_tag != '' && inputs.youtube_url == '' && inputs.audio_url == '' }}
         run: python scripts/github_runner.py cleanup

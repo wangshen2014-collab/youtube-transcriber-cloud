@@ -2,6 +2,34 @@
 
 ## 日常使用（推荐）
 
+### 自己上传 Release，再交给 GitHub 转录（推荐，省去 Codex 传音频）
+
+在本仓库 Releases 创建发布，把音频放在说明文字框外的 **binaries / Assets 文件上传区**，
+点击 Publish。然后把整个 Release 页面链接交给 Codex 即可；也支持单个附件直链。
+
+```bash
+# 页面只有一个音频时自动选取。默认从头到尾。
+python3 cloud_job.py --release-url 'https://github.com/wangshen2014-collab/youtube-transcriber-cloud/releases/tag/音频'
+
+# 部分转录
+python3 cloud_job.py --release-url 'RELEASE页面或附件链接' --start 00:30 --end 03:30
+
+# 多个音频时必须明确指定一个，避免转错文件
+python3 cloud_job.py --release-url 'RELEASE页面链接' --asset-name '完整附件名.webm'
+```
+
+提交后返回任务 ID。没有 --wait 时不持续轮询，GitHub 自己运行；之后用 --job 查询或下载。
+Codex 只发出 GitHub API 任务请求，不下载音频，不创建新 Release，不重新上传。
+本入口支持单个 512 MiB 以内的 webm/m4a/mp3/wav/flac/ogg/opus/aac/mp4 音频附件。
+
+**完全不使用 Codex：** 手机或电脑打开下方的转录表单，Run workflow，
+把 Release 页面/附件链接粘到 **audio_url**，留空 youtube_url 和 job_tag。
+默认全文；可以填写 start/end。完成后在 Artifacts 下载 TXT/SRT/报告，保留 60 天。
+有多个音频时在 asset_name 填入完整附件名。
+
+你手动创建的 Release 和附件**不会被程序删除**；只自动清理脚本专用临时传输记录。
+因此手动音频的保留时间由你控制，不属于结果包的 60 天过期策略。
+
 ### 手机只粘贴链接（实验入口）
 
 无需安装手机 App。登录 GitHub 后，用手机浏览器打开：
@@ -12,6 +40,7 @@
 默认转录全文；需要时填写 `start` / `end`。完成后在该次运行的 Artifacts 下载结果包。
 这个入口由 GitHub Actions 直接下载 YouTube，不经过 Codex Cloud 的 YouTube 代理。
 能否下载取决于 GitHub runner 实际访问结果，不能保证 YouTube 接受所有云端请求。
+实测 GitHub runner 曾被 YouTube 要求登录确认非机器人；推荐先使用 Release 音频路径。
 
 也可以在连接本仓库的 Codex 对话里发链接，说「用 GitHub 转录这个链接」：
 

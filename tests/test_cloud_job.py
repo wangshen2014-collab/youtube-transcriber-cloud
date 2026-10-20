@@ -1,6 +1,8 @@
 import argparse
+import contextlib
 import io
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -62,6 +64,61 @@ class CloudJobTests(unittest.TestCase):
         self.assertEqual(inputs['start'], '30')
         self.assertEqual(inputs['end'], '210')
         self.assertIsNone(api.payload)
+
+    def test_release_link_dispatches_without_upload(self):
+        self.args.release_url = 'https://github.com/test/repo/releases/tag/%E9%9F%B3%E9%A2%91'
+        self.args.audio_file = None
+        api = FakeAPI()
+        cloud_job.submit(self.args, api)
+        self.assertEqual(len(api.calls), 1)
+        self.assertEqual(api.calls[0][2]['inputs']['audio_url'], self.args.release_url)
+        self.assertEqual(api.calls[0][2]['inputs']['end'], '')
+        self.assertIsNone(api.payload)
+
+    def test_release_page_and_direct_attachment_url_parsing(self):
+        self.assertEqual(cloud_job.release_reference('https://github.com/test/repo/releases/tag/%E9%9F%B3%E9%A2%91'),
+                         ('test/repo', '音频', None))
+        self.assertEqual(cloud_job.release_reference('https://github.com/test/repo/releases/download/%E9%9F%B3%E9%A2%91/name%20one.webm'),
+                         ('test/repo', '音频', 'name one.webm'))
+        with self.assertRaises(ValueError):
+            cloud_job.release_reference('https://other.example/test/repo/releases/tag/audio')
+
+    def test_release_page_downloads_single_audio_on_runner(self):
+        from scripts.github_runner import prepare
+        url = 'https://github.com/test/repo/releases/download/audio/title.webm'
+        asset = {'name': 'title.webm', 'size': 3, 'browser_download_url': url, 'state': 'uploaded'}
+        api = FakeAPI()
+        with contextlib.chdir(self.temp.name), patch.dict(os.environ, {
+            'AUDIO_URL': 'https://github.com/test/repo/releases/tag/audio',
+            'YOUTUBE_URL': '', 'RANGE_START': '0', 'RANGE_END': '', 'AUDIO_LANGUAGE': 'auto'}), \
+                patch.object(api, 'call', return_value={'draft': False, 'assets': [asset]}), \
+                patch('scripts.github_runner.urlopen', return_value=io.BytesIO(b'abc')):
+            prepare(api, '')
+            spec = json.loads(Path('incoming/request.json').read_text(encoding='utf-8'))
+            self.assertEqual(spec['source_type'], 'release_audio')
+            self.assertEqual(spec['original_name'], 'title.webm')
+            self.assertEqual(Path('incoming/input.webm').read_bytes(), b'abc')
+
+    def test_ambiguous_release_needs_an_explicit_asset(self):
+        from scripts.github_runner import resolve_release_audio
+        assets = [{'name': 'one.webm'}, {'name': 'two.m4a'}]
+        api = FakeAPI()
+        with patch.object(api, 'call', return_value={'draft': False, 'assets': assets}):
+            with self.assertRaisesRegex(ValueError, 'asset_name'):
+                resolve_release_audio(api, 'https://github.com/test/repo/releases/tag/audio')
+
+    def test_phone_form_prepares_link_without_a_release(self):
+        from scripts.github_runner import prepare
+        api = FakeAPI()
+        with contextlib.chdir(self.temp.name), patch.dict(os.environ, {
+            'YOUTUBE_URL': 'https://youtu.be/abcdefghijk', 'RANGE_START': '02:15',
+            'RANGE_END': '', 'AUDIO_LANGUAGE': 'auto'}):
+            prepare(api, '')
+            spec = json.loads(Path('incoming/request.json').read_text(encoding='utf-8'))
+            self.assertEqual(spec['source_type'], 'youtube')
+            self.assertEqual(spec['start'], 135)
+            self.assertIsNone(spec['end'])
+            self.assertEqual(api.calls, [])
 
     def test_dispatch_failure_deletes_staging_release(self):
         api = FakeAPI(fail_dispatch=True)

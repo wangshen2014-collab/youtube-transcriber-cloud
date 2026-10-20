@@ -5,6 +5,15 @@ source lives in desktop/. Do not modify the user's installed Windows app during 
 
 ## Everyday workflow (default)
 
+- If the user provides a GitHub Release page or audio asset link, submit
+  `python3 cloud_job.py --release-url "URL"` (default FULL audio), then return the
+  task ID/run link. Do NOT download or re-upload the source inside Codex.
+  Do NOT continuously poll unless the user explicitly asks to wait for results.
+  For several audio assets, ask which one or use the user's filename/asset URL.
+  Manual Release assets must not be deleted by cleanup; only tagged staging assets
+  belong to the automatic input cleanup policy.
+- The browser Actions form accepts the same page/asset URL in audio_url, with
+  optional asset_name/start/end. This path needs no Codex and no YouTube access.
 - When the user gives a YouTube URL, use
   `python3 cloud_job.py --url "URL" --wait --download-dir outputs/github`.
   GitHub Actions downloads it; the Codex task only talks to GitHub. Default to full

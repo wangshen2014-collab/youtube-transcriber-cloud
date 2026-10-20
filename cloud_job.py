@@ -9,7 +9,7 @@ import sys
 import tempfile
 import time
 from urllib.error import HTTPError
-from urllib.parse import urlencode, urlparse
+from urllib.parse import urlencode, urlparse, unquote
 from urllib.request import Request, urlopen
 import uuid
 import zipfile
@@ -68,6 +68,29 @@ def validate_tag(tag):
     return tag
 
 
+def release_reference(url):
+    """Parse a GitHub release page or attached-file URL, never an arbitrary host."""
+    parsed = urlparse(url)
+    parts = parsed.path.strip('/').split('/')
+    if (parsed.scheme != 'https' or parsed.hostname != 'github.com' or
+            parsed.username or parsed.password or parsed.port or len(parts) < 5 or
+            parts[2] != 'releases' or parts[3] not in ('tag', 'download')):
+        raise ValueError('请提供 https://github.com/所有者/仓库/releases/tag/标签 或 Release 附件链接')
+    repo = '/'.join(parts[:2])
+    if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repo):
+        raise ValueError('无效仓库名称')
+    filename = None
+    tag_parts = parts[4:]
+    if parts[3] == 'download':
+        if len(parts) < 6:
+            raise ValueError('Release 附件链接缺少文件名')
+        tag_parts, filename = parts[4:-1], unquote(parts[-1])
+    tag = unquote('/'.join(tag_parts))
+    if not tag:
+        raise ValueError('Release 标签为空')
+    return repo, tag, filename
+
+
 def submit(args, api):
     from transcribe_cli import timestamp, video_id
     start = timestamp(args.start)
@@ -75,6 +98,16 @@ def submit(args, api):
     if end is not None and end <= start:
         raise ValueError('结束时间必须晚于开始时间')
     tag = 'yt-job-' + time.strftime('%Y%m%d%H%M%S', time.gmtime()) + '-' + uuid.uuid4().hex[:12]
+    release_url = getattr(args, 'release_url', None)
+    if not release_url and getattr(args, 'url', None) and urlparse(args.url).hostname == 'github.com':
+        release_url = args.url
+    if release_url:
+        release_reference(release_url)
+        api.call('POST', 'actions/workflows/transcribe.yml/dispatches', {'ref': 'main', 'inputs': {
+            'job_tag': tag, 'audio_url': release_url, 'asset_name': getattr(args, 'asset_name', None) or '',
+            'start': str(int(start)), 'end': str(int(end)) if end is not None else '',
+            'language': args.language}})
+        return tag
     if getattr(args, 'url', None):
         url = 'https://www.youtube.com/watch?v=' + video_id(args.url)
         api.call('POST', 'actions/workflows/transcribe.yml/dispatches', {'ref': 'main', 'inputs': {
@@ -167,7 +200,9 @@ def main(argv=None):
     source = parser.add_mutually_exclusive_group(required=True)
     source.add_argument('--audio-file', type=Path)
     source.add_argument('--url', help='由 GitHub 下载 YouTube 音频；本进程不连接 YouTube')
+    source.add_argument('--release-url', '--audio-url', dest='release_url', help='GitHub Release 页面或音频附件链接，由 GitHub 直接下载')
     source.add_argument('--job', help='查询或下载已经提交的任务，无需重新转录')
+    parser.add_argument('--asset-name', help='Release 有多个音频时指定完整附件名')
     parser.add_argument('--start', default='0')
     parser.add_argument('--end')
     parser.add_argument('--language', choices=('auto', 'zh', 'en'), default='auto')
