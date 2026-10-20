@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "6997df9f996efa8737b61785028d52e1761d6d1f9493870eb24f9e80f0462b4b",
+    "source_id": "audio-6997df9f996efa8737b61785"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": true,
+  "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/9e4ef591da164616aed2e321/20261020-203141-eeebabc6",
+  "timings_seconds": {
+    "local_source_selection": 0.00026691899984143674,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.8766421870022896,
+    "model_load": 3.250497378001455,
+    "transcription": 2322.8170018569945,
+    "total_this_invocation": 2328.337502233
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/002bddf7-aea5-4394-b542-2c4850ef532f/EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第002段 [00-30-00 至 01-00-00].m4a",
+    "sha256": "6997df9f996efa8737b61785028d52e1761d6d1f9493870eb24f9e80f0462b4b",
+    "original_name": "EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第002段 [00-30-00 至 01-00-00].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第002段 [00-30-00 至 01-00-00].m4a",
+  "audio_duration_seconds": 1800.0,
+  "selected_start": 0.0,
+  "selected_end": 1800.0,
+  "language_probability": 1,
+  "segment_count": 824,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1800.0,
+  "peak_ram_mb": 2546.4,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
