@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:03,920
+The second audio file is processed after the first one.
+
+2
+00:00:04,640 --> 00:00:07,360
+The original language should be preserved.
+
