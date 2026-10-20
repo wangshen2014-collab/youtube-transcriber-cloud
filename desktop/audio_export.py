@@ -12,6 +12,77 @@ class ExportPaused(Exception):
     pass
 
 
+MAX_UPLOAD_BYTES = 30_000_000  # Decimal MB: stay below both interpretations of 32 MB.
+
+
+def export_upload_audio(source, output_dir, title, identifier, start=0, end=None,
+                        partial=False, should_pause=lambda: False,
+                        status=lambda message: None, max_bytes=MAX_UPLOAD_BYTES,
+                        chunk_seconds=1800):
+    """Export original small files, otherwise bounded, independently playable M4A parts.
+
+    Keep absolute source ranges in names; each part itself starts at zero. Only
+    files created by this call are rolled back on pause/failure, never the cache.
+    """
+    source = Path(source)
+    if max_bytes <= 0 or chunk_seconds <= 0:
+        raise ValueError('音频分段大小和时长必须大于零')
+    created = []
+    try:
+        if partial or source.stat().st_size <= max_bytes:
+            path = export_audio(source, output_dir, title, identifier, start, end,
+                                partial, should_pause)
+            created.append(path)
+            if path.stat().st_size <= max_bytes:
+                return created
+            path.unlink()
+            created.clear()
+
+        import av
+        with av.open(str(source)) as container:
+            audio = next((s for s in container.streams if s.type == 'audio'), None)
+            if audio is None:
+                raise ValueError('文件不包含音轨')
+            duration = (float(audio.duration * audio.time_base)
+                        if audio.duration is not None and audio.time_base else
+                        float(container.duration / av.time_base) if container.duration is not None else None)
+        stop = min(float(end), duration) if end is not None and duration is not None else (
+            float(end) if end is not None else duration)
+        if stop is None:
+            raise ValueError('无法读取音频时长，不能安全自动分段；请指定结束时间后重试')
+        if stop <= start:
+            raise ValueError('指定时间段没有音频，请检查开始和结束时间')
+        status('音频超过 30 MB，正在自动分段；每段最多 30 分钟，并检查实际文件大小…')
+
+        def export_range(left, right):
+            if should_pause():
+                raise ExportPaused()
+            number = len(created) + 1
+            status(f'正在导出第 {number:03d} 段：{clock_label(left)} 至 {clock_label(right)}…')
+            path = export_audio(source, output_dir, f'{title} 第{number:03d}段', identifier,
+                                start=left, end=right, partial=True, should_pause=should_pause)
+            created.append(path)
+            if path.stat().st_size > max_bytes:
+                path.unlink()
+                created.pop()
+                if right - left <= 1:
+                    raise ValueError('音频分段仍超过大小限制，无法安全导出')
+                middle = (left + right) / 2
+                export_range(left, middle)
+                export_range(middle, right)
+
+        position = float(start)
+        while position < stop:
+            next_position = min(position + chunk_seconds, stop)
+            export_range(position, next_position)
+            position = next_position
+        return created
+    except BaseException:
+        for path in created:
+            path.unlink(missing_ok=True)
+        raise
+
+
 def safe_name(title):
     return re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title).strip().rstrip('.')[:100] or 'YouTube'
 

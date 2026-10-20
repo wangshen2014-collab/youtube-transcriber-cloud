@@ -11,9 +11,9 @@ import ctypes
 import uuid
 from datetime import datetime
 from pathlib import Path
-from tkinter import Tk, Toplevel, StringVar, Text, END, DISABLED, NORMAL, filedialog, messagebox
+from tkinter import Tk, Toplevel, StringVar, BooleanVar, Text, END, DISABLED, NORMAL, filedialog, messagebox
 from tkinter import ttk
-from audio_export import export_audio, ExportPaused, track_export, cleanup_exports
+from audio_export import export_audio, export_upload_audio, ExportPaused, track_export, cleanup_exports
 
 APP_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = APP_DIR / "config.json"
@@ -246,6 +246,7 @@ class App:
         self.performance = StringVar(value=CONFIG.get("performance_profile", "Balanced"))
         self.decoding = StringVar(value="均衡（推荐）")
         self.operation = StringVar(value="转录文字（默认）")
+        self.split_audio = BooleanVar(value=False)
         self.range_mode = StringVar(value="完整视频（默认）")
         self.range_start = StringVar(value="")
         self.range_end = StringVar(value="")
@@ -306,7 +307,10 @@ class App:
         ttk.Label(range_fields, text="结束").pack(side="left")
         self.range_end_entry = ttk.Entry(range_fields, textvariable=self.range_end, width=10, state=DISABLED)
         self.range_end_entry.pack(side="left", padx=4)
-        ttk.Label(outer, text="格式：分:秒或时:分:秒；结束留空表示到视频结尾。", foreground="#555555").grid(column=1, row=9, columnspan=2, sticky="w", pady=(0,5))
+        download_options = ttk.Frame(outer)
+        download_options.grid(column=1, row=9, columnspan=2, sticky="w", pady=(0,5))
+        ttk.Label(download_options, text="结束留空到结尾。", foreground="#555555").pack(side="left")
+        ttk.Checkbutton(download_options, text="自动拆分音频（仅下载，每份不超过 30 MB）", variable=self.split_audio).pack(side="left")
         ttk.Label(outer, text="音频缓存保留时间:").grid(column=0, row=10, sticky="w", pady=5)
         retention = ttk.Combobox(outer, textvariable=self.cache_retention, values=["48 小时", "7 天（推荐）", "30 天", "手动清理前一直保留"], state="readonly", width=24)
         retention.grid(column=1, row=10, sticky="w", pady=5)
@@ -513,6 +517,7 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
                 "quality": self.quality.get(), "decoding": self.decoding.get(),
                 "output": self.output.get(), "range_start": range_start, "range_end": range_end,
                 "operation": "download_audio" if self.operation.get() == "仅下载音频" else "transcribe",
+                "split_audio": self.split_audio.get(),
                 "state": "queued", "created_at": time.time()}
         with self.tasks_lock:
             self.tasks.append(task)
@@ -594,15 +599,24 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             if task.get("operation") == "download_audio":
                 self.emit("status", "正在导出音频到输出目录…" if not custom_range else "正在截取所选音频片段，导出后从 00:00 开始计时…")
                 try:
-                    audio_output = export_audio(audio_path, output_dir, title, info.get("id", "audio"),
+                    if task.get("split_audio", False):
+                        audio_outputs = export_upload_audio(audio_path, output_dir, title, info.get("id", "audio"),
                                                 start=range_start, end=range_end, partial=custom_range,
-                                                should_pause=self.pause_requested.is_set)
+                                                should_pause=self.pause_requested.is_set,
+                                                status=lambda message: self.emit("status", message))
+                    else:
+                        audio_outputs = [export_audio(audio_path, output_dir, title, info.get("id", "audio"),
+                                                      start=range_start, end=range_end, partial=custom_range,
+                                                      should_pause=self.pause_requested.is_set)]
                 except ExportPaused:
                     return self.pause_task(task)
-                track_export(audio_output)
-                task["audio_output"] = str(audio_output)
+                for audio_output in audio_outputs:
+                    track_export(audio_output)
+                    self.emit("status", f"音频已导出：{audio_output.name}（{audio_output.stat().st_size / 1_000_000:.2f} MB）")
+                task["audio_output"] = str(audio_outputs[0])
+                task["audio_outputs"] = [str(path) for path in audio_outputs]
                 self.mark_task(task, "completed")
-                self.emit("audio_done", str(audio_output))
+                self.emit("audio_done", "\n".join(str(path) for path in audio_outputs))
                 return
             from faster_whisper import WhisperModel
             models = {"Fast": "small", "Balanced": "medium", "Accurate": "large-v3", "快速（small）": "small", "均衡（medium，推荐）": "medium", "高精度（large-v3）": "large-v3"}
