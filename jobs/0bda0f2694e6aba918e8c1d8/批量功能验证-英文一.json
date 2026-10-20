@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e61876d9f9bfb132030b7906ad2417bfeec82a3841f7c1c03a267de5ab523bd2",
+    "source_id": "audio-e61876d9f9bfb132030b7906"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "18.1.0"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "C:\\CodeX\\小工具开发\\youtube-transcriber-cloud\\outputs\\batch-smoke\\0bda0f2694e6aba918e8c1d8\\20261020-092430-42087225",
+  "timings_seconds": {
+    "local_source_selection": 0.0,
+    "download_or_cache": 0.0,
+    "audio_decode": 0.030999999959021807,
+    "model_load": 4.155999999959022,
+    "transcription": 11.578000000212342,
+    "total_this_invocation": 16.234000000171363
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "C:\\CodeX\\小工具开发\\youtube-transcriber-cloud\\outputs\\batch-smoke-input\\批量功能验证-英文一.wav",
+    "sha256": "e61876d9f9bfb132030b7906ad2417bfeec82a3841f7c1c03a267de5ab523bd2",
+    "original_name": "批量功能验证-英文一.wav"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "批量功能验证-英文一.wav",
+  "audio_duration_seconds": 8.3774375,
+  "selected_start": 0.0,
+  "selected_end": 8.3774375,
+  "language_probability": 0.9905762672424316,
+  "segment_count": 2,
+  "detected_language": "en",
+  "last_completed_audio_second": 7.84,
+  "peak_ram_mb": null,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

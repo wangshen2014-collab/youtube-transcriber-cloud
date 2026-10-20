@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e61876d9f9bfb132030b7906ad2417bfeec82a3841f7c1c03a267de5ab523bd2",
+    "source_id": "audio-e61876d9f9bfb132030b7906"
+  },
+  "title": "批量功能验证-英文一.wav",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0bda0f2694e6aba918e8c1d8/%E6%89%B9%E9%87%8F%E5%8A%9F%E8%83%BD%E9%AA%8C%E8%AF%81-%E8%8B%B1%E6%96%87%E4%B8%80.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0bda0f2694e6aba918e8c1d8/%E6%89%B9%E9%87%8F%E5%8A%9F%E8%83%BD%E9%AA%8C%E8%AF%81-%E8%8B%B1%E6%96%87%E4%B8%80.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0bda0f2694e6aba918e8c1d8/%E6%89%B9%E9%87%8F%E5%8A%9F%E8%83%BD%E9%AA%8C%E8%AF%81-%E8%8B%B1%E6%96%87%E4%B8%80.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0bda0f2694e6aba918e8c1d8/%E6%89%B9%E9%87%8F%E5%8A%9F%E8%83%BD%E9%AA%8C%E8%AF%81-%E8%8B%B1%E6%96%87%E4%B8%80.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0bda0f2694e6aba918e8c1d8",
+  "saved_at": 1792513488.2876792
+}
