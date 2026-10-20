@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "44cc8dcbcf5b1989300f18f0a660667901db7f888bea6419d82f0c83ed25cdef",
+    "source_id": "audio-44cc8dcbcf5b1989300f18f0"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/dc14dfd9e7334b40c9d47d99/20261020-220102-9467b48a",
+  "timings_seconds": {
+    "local_source_selection": 0.00022189899755176157,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.0049269649971393,
+    "model_load": 3.826291042001685,
+    "transcription": 2176.249931245002,
+    "total_this_invocation": 2182.588545877996
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/e9b2ddbd-2c18-4f7b-b322-51d6404359df/EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 [00-30-00 至 01-00-00].m4a",
+    "sha256": "44cc8dcbcf5b1989300f18f0a660667901db7f888bea6419d82f0c83ed25cdef",
+    "original_name": "EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 [00-30-00 至 01-00-00].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 [00-30-00 至 01-00-00].m4a",
+  "audio_duration_seconds": 1800.0,
+  "selected_start": 0.0,
+  "selected_end": 1800.0,
+  "language_probability": 0.9910596013069153,
+  "segment_count": 1166,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1799.72,
+  "peak_ram_mb": 2548.4,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
