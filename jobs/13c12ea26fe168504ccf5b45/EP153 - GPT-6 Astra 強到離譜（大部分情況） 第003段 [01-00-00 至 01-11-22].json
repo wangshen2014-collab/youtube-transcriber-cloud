@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65",
+    "source_id": "audio-126141f3b8f3250a97572190"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/13c12ea26fe168504ccf5b45/20261020-180405-1064bbcc",
+  "timings_seconds": {
+    "local_source_selection": 8.662600157549605e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 0.708640534998267,
+    "model_load": 3.89955681200081,
+    "transcription": 918.871165206001,
+    "total_this_invocation": 923.889678184998
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/1038d0df-1b4d-43d9-ac3f-923a54e8416f/EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 [01-00-00 至 01-11-22].m4a",
+    "sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65",
+    "original_name": "EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 [01-00-00 至 01-11-22].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 [01-00-00 至 01-11-22].m4a",
+  "audio_duration_seconds": 682.0053125,
+  "selected_start": 0.0,
+  "selected_end": 682.0053125,
+  "language_probability": 0.9890235662460327,
+  "segment_count": 315,
+  "detected_language": "zh",
+  "last_completed_audio_second": 682.0,
+  "peak_ram_mb": 2404.2,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
