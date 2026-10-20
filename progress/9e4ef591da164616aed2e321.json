@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "6997df9f996efa8737b61785028d52e1761d6d1f9493870eb24f9e80f0462b4b",
+    "source_id": "audio-6997df9f996efa8737b61785"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.54,
+      "text": "去擁有這麼多資產"
+    }
+  ],
+  "resume_from": 1.54,
+  "run_id": "20261020-203141-eeebabc6",
+  "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/9e4ef591da164616aed2e321/20261020-203141-eeebabc6",
+  "detected_language": "zh"
+}
