@@ -3,7 +3,45 @@
 This repository is a simple uploaded-audio transcription product. Desktop downloader
 source lives in desktop/. Do not modify the user's installed Windows app during a cloud task.
 
-## Everyday workflow (default)
+## Everyday workflow (default): Codex computes, GitHub stores results
+
+- When uploaded audio is supplied and the user says "全部转录" / "转录", run
+  `.venv/bin/python batch_transcribe.py "ATTACHMENT_PATH_1" "ATTACHMENT_PATH_2"`.
+  Enumerate ONLY this request's audio attachments. Do not sweep the whole workspace.
+  Default to full audio, auto language; preserve multilingual medium, CPU int8,
+  6 threads, beam 3, condition_on_previous_text true, VAD false, task=transcribe.
+- Run inference INSIDE the current Codex Cloud task. Never dispatch Actions unless
+  the user explicitly requests GitHub Actions. Do not run cloud_job.py by default.
+  This does not authorize using the user's Windows executor for cloud computation.
+- Install with `bash scripts/setup.sh` only if needed; reuse a working environment.
+  Use a long-lived terminal command with bounded tool yields. Do not abandon the
+  batch as an unattended daemon or promise it survives task termination.
+- The script processes files sequentially, writes local TXT/SRT/JSON/ZIP, and saves
+  each success to the dedicated public `transcripts` branch immediately. Return
+  the printed result index/file links; never print entire transcripts or binary data.
+  GitHub stores results and periodic text checkpoints, NOT source audio or models.
+  This route has NO automatic 60-day expiry (that was an Actions artifact policy).
+- Missing GitHub authorization must be resolved BEFORE inference. Reuse authorized
+  environment credentials; otherwise ask for secure setup providing Contents read/write
+  on this repo. Never request tokens in chat. Repo connection does not guarantee API
+  write access, and secret availability differs across environment/task phases.
+- Retry the same command after interruption. Local completed outputs are published
+  without inference again. Already published content+settings is skipped across tasks.
+  Periodic remote checkpoints can restore in a new task ONLY if the same audio bytes
+  are supplied again. The latest unsynced segment may need recomputation.
+- A failed item does not stop later items. Inspect `state/cloud-batch/batch-status.json`
+  and failed worker logs when needed. A cloud path is not a verified download link.
+- A Release link is an optional input transport: download the selected audio using
+  a normal binary HTTP download into `incoming/`, then use batch_transcribe.py.
+  For multiple assets clarify selection unless user asks to process all of them.
+  Never Base64-encode audio into model context or re-upload it unnecessarily.
+- Do not merge unrelated files. Only merge explicit user-selected parts or files
+  whose original time ranges and common video identity can be verified. Keep all
+  individual results, apply source offsets to SRT, publish a separately labelled merge.
+- Keep responses quiet during normal computation. Notify on useful completion,
+  failure or required user input. Never claim success without actual completed files.
+
+## Legacy GitHub Actions route (ONLY when explicitly requested)
 
 - If the user provides a GitHub Release page or audio asset link, submit
   `python3 cloud_job.py --release-url "URL"` (default FULL audio), then return the
@@ -59,7 +97,9 @@ source lives in desktop/. Do not modify the user's installed Windows app during 
 8. Do not read browser cookies, request user passwords, or bypass YouTube restrictions.
    If cloud downloading is blocked, report it and suggest a user-provided audio file
    for a future diagnostic; do not claim transcription succeeded.
-9. Never commit state/, models/, outputs/, media, OAuth credentials, or API keys.
+9. Never commit state/, models/, outputs/, media, OAuth credentials, or API keys to
+   the code branch. batch_transcribe.py may publish only allowlisted results and
+   text checkpoints to the separate transcripts branch with the user's authorization.
 10. Google Drive upload and ChatGPT Library saving are not implemented by this CLI.
     Use a separately authorized supported tool if available and explicitly requested.
     Otherwise return the actual files and explain any artifact access limitations.
