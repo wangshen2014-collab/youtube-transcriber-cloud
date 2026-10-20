@@ -28,6 +28,11 @@ class FakeAPI:
 
 class CloudJobTests(unittest.TestCase):
     def setUp(self):
+        # A workflow carries its real source URL in the environment. Test cases
+        # must explicitly isolate inputs rather than inherit that live request.
+        environment = patch.dict(os.environ, {'AUDIO_URL': '', 'YOUTUBE_URL': '',
+            'ASSET_NAME': '', 'RANGE_START': '0', 'RANGE_END': '', 'AUDIO_LANGUAGE': 'auto'})
+        environment.start(); self.addCleanup(environment.stop)
         self.temp = tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
         self.audio = Path(self.temp.name) / '中文标题.webm'
         self.audio.write_bytes(b'test audio')
