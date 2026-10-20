@@ -4,3 +4,4 @@
 内容公开，不自动过期。不要向本分支上传源音频。
 - [批量功能验证-英文一.wav](jobs/0bda0f2694e6aba918e8c1d8/README.md) <!-- job:0bda0f2694e6aba918e8c1d8 -->
 - [批量功能验证-英文二.wav](jobs/1e3b1880c89cdc6c77be9cb4/README.md) <!-- job:1e3b1880c89cdc6c77be9cb4 -->
+- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 _00-00-00 至 00-30-00_.m4a](jobs/cb7f7c78966e94288777eef5/README.md) <!-- job:cb7f7c78966e94288777eef5 -->
