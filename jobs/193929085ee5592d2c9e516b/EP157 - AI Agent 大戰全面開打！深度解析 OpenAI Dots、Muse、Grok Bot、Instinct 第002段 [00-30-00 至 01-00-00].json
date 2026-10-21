@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+    "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/ep157/part-2-outputs/20261020-085549-0bd9b7ed",
+  "timings_seconds": {
+    "local_source_selection": 8.775300011620857e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.870358183999997,
+    "model_load": 4.116502809999929,
+    "transcription": 2259.5861084359994,
+    "total_this_invocation": 2266.0049819789997
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/0e4f3b06-28da-4fec-b8ec-41c77ece3bd6/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+    "sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+    "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+  "audio_duration_seconds": 1800.0,
+  "selected_start": 0.0,
+  "selected_end": 1800.0,
+  "language_probability": 0.9870189428329468,
+  "segment_count": 1192,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1800.0,
+  "peak_ram_mb": 2549.4,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
