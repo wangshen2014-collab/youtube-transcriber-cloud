@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+    "source_id": "audio-a6fdff5f846218e832db1df8"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/20261021-101226-23805ae0",
+  "timings_seconds": {
+    "local_source_selection": 9.25170024856925e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 0.09217952599283308,
+    "model_load": 2.7309364289976656,
+    "transcription": 52.355287896003574,
+    "total_this_invocation": 55.559996885989676
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/f6d3e7ee-d84a-420f-8a67-e6853829761c/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+    "sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+    "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+  "audio_duration_seconds": 58.0053125,
+  "selected_start": 0.0,
+  "selected_end": 58.0053125,
+  "language_probability": 0.9972702860832214,
+  "segment_count": 18,
+  "detected_language": "zh",
+  "last_completed_audio_second": 58.0,
+  "peak_ram_mb": 1558.2,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
