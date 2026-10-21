@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+    "source_id": "audio-b7aa1dc185d571d4489c63ef"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/20261021-071616-fd706dc8",
+  "timings_seconds": {
+    "local_source_selection": 8.923400309868157e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.6512985229928745,
+    "model_load": 3.1632076289970428,
+    "transcription": 1910.1736719030014,
+    "total_this_invocation": 1918.4590244659921
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/61a3cae1-bdfc-4097-a70b-1905a7248045/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+    "sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+    "original_name": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+  "audio_duration_seconds": 1389.7375,
+  "selected_start": 0.0,
+  "selected_end": 1389.7375,
+  "language_probability": 0.9998107552528381,
+  "segment_count": 821,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1380.96,
+  "peak_ram_mb": 2263.6,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

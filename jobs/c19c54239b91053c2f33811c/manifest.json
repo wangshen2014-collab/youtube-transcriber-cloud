@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+    "source_id": "audio-b7aa1dc185d571d4489c63ef"
+  },
+  "title": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c19c54239b91053c2f33811c",
+  "saved_at": 1792568920.5361187
+}
