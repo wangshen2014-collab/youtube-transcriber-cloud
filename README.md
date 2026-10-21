@@ -22,3 +22,4 @@
 - [EP153 - GPT-6 Astra 強到離譜（大部分情況） _已上传分段合并_](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:916f8b04e567480876e5a65f -->
 - [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ _已上传分段合并_](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:fdb5c1b0b2a07f8f7d69fb83 -->
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ _已上传分段合并_](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:7b1d55830d73942e2bcb4e26 -->
+- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ _已上传分段合并-实际时长_](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:6c126974c8ea48f3689a7680 -->

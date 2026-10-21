@@ -1,0 +1,281 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge-actual-end",
+    "parts": [
+      "1f1e9185e84b8b9c20d7c0cb",
+      "80ed4a877ff6d859e5766255",
+      "b1259f375583b68d40083d16"
+    ],
+    "offsets_seconds": [
+      0,
+      1800,
+      3600
+    ],
+    "actual_end_seconds": 4139.6906875
+  },
+  "selected_start": 0,
+  "selected_end": 4139.6906875,
+  "audio_duration_seconds": 4139.6906875,
+  "segment_count": 1530,
+  "parts": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "edf2f0fff36cca5dfe461617998639c7a51d6ea2068b7be63f72aaf6890c6356",
+        "source_id": "audio-edf2f0fff36cca5dfe461617"
+      },
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1f1e9185e84b8b9c20d7c0cb/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1f1e9185e84b8b9c20d7c0cb/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1f1e9185e84b8b9c20d7c0cb/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1f1e9185e84b8b9c20d7c0cb/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/1f1e9185e84b8b9c20d7c0cb",
+      "saved_at": 1792539178.0868254
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "3c813618108457611f48b0d8af3244c88e5d0484cc761c613c63faa7fdcfd72a",
+        "source_id": "audio-3c813618108457611f48b0d8"
+      },
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/80ed4a877ff6d859e5766255/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/80ed4a877ff6d859e5766255/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/80ed4a877ff6d859e5766255/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/80ed4a877ff6d859e5766255/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/80ed4a877ff6d859e5766255",
+      "saved_at": 1792540883.3195999
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+        "source_id": "audio-22b7b7222a729f68763a0370"
+      },
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b1259f375583b68d40083d16/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-08-59%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b1259f375583b68d40083d16/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-08-59%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b1259f375583b68d40083d16/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-08-59%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b1259f375583b68d40083d16/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-08-59%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b1259f375583b68d40083d16",
+      "saved_at": 1792541491.789272
+    }
+  ],
+  "part_run_reports": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "edf2f0fff36cca5dfe461617998639c7a51d6ea2068b7be63f72aaf6890c6356",
+        "source_id": "audio-edf2f0fff36cca5dfe461617"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/1f1e9185e84b8b9c20d7c0cb/20261020-230010-dedf379c",
+      "timings_seconds": {
+        "local_source_selection": 8.366200199816376e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.7019238639986725,
+        "model_load": 3.2356902140018065,
+        "transcription": 1960.7232563569996,
+        "total_this_invocation": 1966.0758786250008
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/26a16f69-6fb7-4323-b64e-18260806971c/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+        "sha256": "edf2f0fff36cca5dfe461617998639c7a51d6ea2068b7be63f72aaf6890c6356",
+        "original_name": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 [00-00-00 至 00-30-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9919226169586182,
+      "segment_count": 726,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1800.0,
+      "peak_ram_mb": 2549.2,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "3c813618108457611f48b0d8af3244c88e5d0484cc761c613c63faa7fdcfd72a",
+        "source_id": "audio-3c813618108457611f48b0d8"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/80ed4a877ff6d859e5766255/20261020-233306-9c08ec92",
+      "timings_seconds": {
+        "local_source_selection": 9.888999920804054e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.61489097699814,
+        "model_load": 3.433901069998683,
+        "transcription": 1689.0424967979998,
+        "total_this_invocation": 1694.5218488969986
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/9b573063-b7da-44f8-aef4-c5f6586ee136/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+        "sha256": "3c813618108457611f48b0d8af3244c88e5d0484cc761c613c63faa7fdcfd72a",
+        "original_name": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 [00-30-00 至 01-00-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9909375905990601,
+      "segment_count": 651,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1800.0,
+      "peak_ram_mb": 2549.5,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+        "source_id": "audio-22b7b7222a729f68763a0370"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/b1259f375583b68d40083d16/20261021-000132-429297a2",
+      "timings_seconds": {
+        "local_source_selection": 0.00012003500160062686,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.8070421879965579,
+        "model_load": 3.0459469620036543,
+        "transcription": 594.0274588230022,
+        "total_this_invocation": 598.2989694139978
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/e945f93f-16b0-4f9c-94d0-a0938e3b8dc9/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a",
+        "sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+        "original_name": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a",
+      "audio_duration_seconds": 539.6906875,
+      "selected_start": 0.0,
+      "selected_end": 539.6906875,
+      "language_probability": 0.9962316155433655,
+      "segment_count": 153,
+      "detected_language": "zh",
+      "last_completed_audio_second": 539.34,
+      "peak_ram_mb": 2458.9,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    }
+  ],
+  "timings_seconds": {
+    "model_load": 9.715538246004144,
+    "transcription": 4243.793211978002,
+    "total_this_invocation": 4258.896696935997
+  },
+  "peak_ram_mb": 2549.5,
+  "validation": {
+    "source_offsets_verified_from_exact_1800_second_parts": true,
+    "filename_final_end_is_truncated_to_integer_seconds": true,
+    "final_duration_difference_seconds": 0.6906874999999673,
+    "all_transcribed_text_and_actual_final_timestamps_preserved": true
+  },
+  "note": "仅合并本批已上传分段。前三段起始偏移为0/1800/3600秒；文件名末尾时间取整，末段保留实际解码时长，不推测或裁剪末尾内容。"
+}
