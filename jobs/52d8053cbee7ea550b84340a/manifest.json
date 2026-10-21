@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+    "source_id": "audio-96a576748b2c75d659d6d9db"
+  },
+  "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/52d8053cbee7ea550b84340a",
+  "saved_at": 1792595781.0256467
+}
