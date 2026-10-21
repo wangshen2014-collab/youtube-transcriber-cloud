@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+    "source_id": "audio-08387fe5231c4889f61c0b0d"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.6000000000000005,
+      "text": "本频道的老观众一定知道,我是个坚定的习近平下台主义者"
+    },
+    {
+      "start": 4.6000000000000005,
+      "end": 8.96,
+      "text": "我认为无论是从政治逻辑还是从历史规律的角度来看"
+    },
+    {
+      "start": 8.96,
+      "end": 14.08,
+      "text": "说他全力稳固,他不下台,才是违反常识,违反逻辑和规律的"
+    },
+    {
+      "start": 14.08,
+      "end": 21.0,
+      "text": "只不过任何事都有个过程,就像厨子做饭掌握火候,人做事要等待时机一样"
+    },
+    {
+      "start": 21.0,
+      "end": 26.62,
+      "text": "今天借着六四的纪念日,我想从六四爆发的政治逻辑再投射到习时代"
+    },
+    {
+      "start": 26.62,
+      "end": 31.220000000000002,
+      "text": "和大家一起来探索习近平现在做错了哪件关键的事"
+    },
+    {
+      "start": 31.220000000000002,
+      "end": 38.14,
+      "text": "让我觉得已经成为他这个政权的命门,一触即发,如果不改正,迟早要下台"
+    },
+    {
+      "start": 38.14,
+      "end": 44.86,
+      "text": "我第一次全面了解六四,是初一暑假从电驴上下了奥国利大学中国问题研究专家"
+    },
+    {
+      "start": 44.86,
+      "end": 50.94,
+      "text": "杰尔米巴梅的那个三小时的天安门纪录片,其实就是大家都看过那个纪录片"
+    }
+  ],
+  "resume_from": 50.94,
+  "run_id": "20261021-064431-e36f34fb",
+  "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/20261021-064431-e36f34fb",
+  "detected_language": "zh"
+}
