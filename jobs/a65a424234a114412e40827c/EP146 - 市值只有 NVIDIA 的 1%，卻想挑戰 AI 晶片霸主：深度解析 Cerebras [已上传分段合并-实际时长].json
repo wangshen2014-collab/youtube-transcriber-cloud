@@ -1,0 +1,281 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge-actual-end",
+    "parts": [
+      "7ffb83f40526e3b85000aa45",
+      "9157a4c419f54ef0536785cf",
+      "0649b9512d33a6e289368e04"
+    ],
+    "offsets_seconds": [
+      0,
+      1800,
+      3600
+    ],
+    "actual_end_seconds": 4520.704
+  },
+  "selected_start": 0,
+  "selected_end": 4520.704,
+  "audio_duration_seconds": 4520.704,
+  "segment_count": 1556,
+  "parts": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "6a2ba2007d63a008de735540c032e100f915293d5dc175e6b30eb6a291c26fb8",
+        "source_id": "audio-6a2ba2007d63a008de735540"
+      },
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7ffb83f40526e3b85000aa45/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7ffb83f40526e3b85000aa45/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7ffb83f40526e3b85000aa45/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7ffb83f40526e3b85000aa45/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/7ffb83f40526e3b85000aa45",
+      "saved_at": 1792543583.095554
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d56e8a978649c19bf5eb9a79c2ca797087900a0b901adea7b93c3c79f4919085",
+        "source_id": "audio-d56e8a978649c19bf5eb9a79"
+      },
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9157a4c419f54ef0536785cf/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9157a4c419f54ef0536785cf/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9157a4c419f54ef0536785cf/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9157a4c419f54ef0536785cf/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/9157a4c419f54ef0536785cf",
+      "saved_at": 1792545440.4544
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d55c546d3b776d8dc4feca3c6250b67cb6ac70ec9aa90acb1607f074927cce2a",
+        "source_id": "audio-d55c546d3b776d8dc4feca3c"
+      },
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 [01-00-00 至 01-15-20].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0649b9512d33a6e289368e04/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-15-20%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0649b9512d33a6e289368e04/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-15-20%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0649b9512d33a6e289368e04/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-15-20%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0649b9512d33a6e289368e04/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-15-20%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0649b9512d33a6e289368e04",
+      "saved_at": 1792546393.01565
+    }
+  ],
+  "part_run_reports": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "6a2ba2007d63a008de735540c032e100f915293d5dc175e6b30eb6a291c26fb8",
+        "source_id": "audio-6a2ba2007d63a008de735540"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/7ffb83f40526e3b85000aa45/20261021-001140-b39fca41",
+      "timings_seconds": {
+        "local_source_selection": 8.414200419792905e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.6744849489987246,
+        "model_load": 3.3292702800026746,
+        "transcription": 2076.7936043299997,
+        "total_this_invocation": 2082.1844049650026
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/a86bd641-e34c-4645-8801-291ebc2bc357/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 [00-00-00 至 00-30-00].m4a",
+        "sha256": "6a2ba2007d63a008de735540c032e100f915293d5dc175e6b30eb6a291c26fb8",
+        "original_name": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 [00-00-00 至 00-30-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9922314882278442,
+      "segment_count": 620,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.92,
+      "peak_ram_mb": 2548.8,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d56e8a978649c19bf5eb9a79c2ca797087900a0b901adea7b93c3c79f4919085",
+        "source_id": "audio-d56e8a978649c19bf5eb9a79"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/9157a4c419f54ef0536785cf/20261021-004631-5b7b5ca7",
+      "timings_seconds": {
+        "local_source_selection": 8.59099964145571e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.8851139580001472,
+        "model_load": 3.3909770360041875,
+        "transcription": 1842.4771024760048,
+        "total_this_invocation": 1848.1605207829998
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/a4e5cf69-8403-4d2c-955d-21804b8c1196/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 [00-30-00 至 01-00-00].m4a",
+        "sha256": "d56e8a978649c19bf5eb9a79c2ca797087900a0b901adea7b93c3c79f4919085",
+        "original_name": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 [00-30-00 至 01-00-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9956449270248413,
+      "segment_count": 525,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.3600000000001,
+      "peak_ram_mb": 2549.1,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d55c546d3b776d8dc4feca3c6250b67cb6ac70ec9aa90acb1607f074927cce2a",
+        "source_id": "audio-d55c546d3b776d8dc4feca3c"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/0649b9512d33a6e289368e04/20261021-011728-8bd81f8d",
+      "timings_seconds": {
+        "local_source_selection": 8.249899838119745e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.8060248679976212,
+        "model_load": 2.8641999149986077,
+        "transcription": 939.2126650579958,
+        "total_this_invocation": 943.290459599004
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/83d661fb-9612-4386-8231-23ffa280cec1/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 [01-00-00 至 01-15-20].m4a",
+        "sha256": "d55c546d3b776d8dc4feca3c6250b67cb6ac70ec9aa90acb1607f074927cce2a",
+        "original_name": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 [01-00-00 至 01-15-20].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 [01-00-00 至 01-15-20].m4a",
+      "audio_duration_seconds": 920.704,
+      "selected_start": 0.0,
+      "selected_end": 920.704,
+      "language_probability": 0.9987233281135559,
+      "segment_count": 411,
+      "detected_language": "zh",
+      "last_completed_audio_second": 920.5400000000001,
+      "peak_ram_mb": 2440.0,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    }
+  ],
+  "timings_seconds": {
+    "model_load": 9.58444723100547,
+    "transcription": 4858.483371864,
+    "total_this_invocation": 4873.635385347006
+  },
+  "peak_ram_mb": 2549.1,
+  "validation": {
+    "source_offsets_verified_from_exact_1800_second_parts": true,
+    "filename_final_end_is_truncated_to_integer_seconds": true,
+    "final_duration_difference_seconds": 0.7039999999999509,
+    "all_transcribed_text_and_actual_final_timestamps_preserved": true
+  },
+  "note": "仅合并本批已上传分段。前三段起始偏移为0/1800/3600秒；文件名末尾时间取整，末段保留实际解码时长，不推测或裁剪末尾内容。"
+}
