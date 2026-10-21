@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+    "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+  },
+  "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/193929085ee5592d2c9e516b",
+  "saved_at": 1792595797.8757396
+}
