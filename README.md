@@ -25,3 +25,4 @@
 - [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ _已上传分段合并-实际时长_](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:6c126974c8ea48f3689a7680 -->
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras _已上传分段合并-实际时长_](jobs/a65a424234a114412e40827c/README.md) <!-- job:a65a424234a114412e40827c -->
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/5dab95373ff15511a4b19a61/README.md) <!-- job:5dab95373ff15511a4b19a61 -->
+- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/30353248c921ffeb86f6c046/README.md) <!-- job:30353248c921ffeb86f6c046 -->
