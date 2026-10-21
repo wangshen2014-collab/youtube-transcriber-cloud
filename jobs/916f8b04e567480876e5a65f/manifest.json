@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge",
+    "parts": [
+      "cb7f7c78966e94288777eef5",
+      "8ad0a0dcf8f3e88115b9f1cf",
+      "13c12ea26fe168504ccf5b45"
+    ]
+  },
+  "title": "EP153 - GPT-6 Astra 強到離譜（大部分情況） [已上传分段合并]",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/916f8b04e567480876e5a65f",
+  "saved_at": 1792546404.5468142
+}

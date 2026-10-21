@@ -19,3 +19,4 @@
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 _00-00-00 至 00-30-00_.m4a](jobs/7ffb83f40526e3b85000aa45/README.md) <!-- job:7ffb83f40526e3b85000aa45 -->
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 _00-30-00 至 01-00-00_.m4a](jobs/9157a4c419f54ef0536785cf/README.md) <!-- job:9157a4c419f54ef0536785cf -->
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 _01-00-00 至 01-15-20_.m4a](jobs/0649b9512d33a6e289368e04/README.md) <!-- job:0649b9512d33a6e289368e04 -->
+- [EP153 - GPT-6 Astra 強到離譜（大部分情況） _已上传分段合并_](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:916f8b04e567480876e5a65f -->
