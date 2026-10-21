@@ -29,3 +29,4 @@
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/5dab95373ff15511a4b19a61/README.md) <!-- job:5dab95373ff15511a4b19a61 -->
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/30353248c921ffeb86f6c046/README.md) <!-- job:30353248c921ffeb86f6c046 -->
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 _01-00-00 至 01-12-09_.m4a](jobs/52d8053cbee7ea550b84340a/README.md) <!-- job:52d8053cbee7ea550b84340a -->
+- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 _00-00-00 至 00-30-00_.m4a](jobs/9b71f7bc45f4f81c9a80e6b8/README.md) <!-- job:9b71f7bc45f4f81c9a80e6b8 -->
