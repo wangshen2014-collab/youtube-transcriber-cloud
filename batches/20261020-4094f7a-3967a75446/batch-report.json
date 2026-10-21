@@ -1,0 +1,136 @@
+{
+  "status": "completed",
+  "repository_commit": "4094f7a270c6dcca8282dcedbffa069d2b8cf298",
+  "uploaded_files": 18,
+  "identical_duplicates_skipped": 3,
+  "unique_audio_files": 15,
+  "merged_episodes": 5,
+  "audio_duration_seconds": 22119.424,
+  "detected_languages": [
+    "zh"
+  ],
+  "timings_seconds": {
+    "model_load": 55.876249294015,
+    "transcription": 26672.985925265,
+    "total_this_invocation": 26761.469021169
+  },
+  "timing_scope": "Sum of successful completion invocation reports; earlier interrupted or failed attempts are not included.",
+  "peak_ram_mb": 2549.6,
+  "inference_parameters": {
+    "model": "multilingual medium",
+    "device": "cpu",
+    "compute_type": "int8",
+    "threads": 6,
+    "beam_size": 3,
+    "condition_on_previous_text": true,
+    "vad_filter": false,
+    "task": "transcribe",
+    "language": "auto"
+  },
+  "episodes": [
+    {
+      "title": "EP153 - GPT-6 Astra 強到離譜（大部分情況）",
+      "key": "916f8b04e567480876e5a65f",
+      "files": {
+        "txt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/916f8b04e567480876e5a65f/EP153 - GPT-6 Astra 強到離譜（大部分情況） [已上传分段合并].txt",
+        "srt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/916f8b04e567480876e5a65f/EP153 - GPT-6 Astra 強到離譜（大部分情況） [已上传分段合并].srt",
+        "json": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/916f8b04e567480876e5a65f/EP153 - GPT-6 Astra 強到離譜（大部分情況） [已上传分段合并].json",
+        "zip": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/916f8b04e567480876e5a65f/EP153 - GPT-6 Astra 強到離譜（大部分情況） [已上传分段合并].zip"
+      },
+      "downloads": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/916f8b04e567480876e5a65f/EP153%20-%20GPT-6%20Astra%20%E5%BC%B7%E5%88%B0%E9%9B%A2%E8%AD%9C%EF%BC%88%E5%A4%A7%E9%83%A8%E5%88%86%E6%83%85%E6%B3%81%EF%BC%89%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/916f8b04e567480876e5a65f",
+      "audio_duration_seconds": 4282.0053124999995,
+      "segment_count": 1493
+    },
+    {
+      "title": "EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！",
+      "key": "fdb5c1b0b2a07f8f7d69fb83",
+      "files": {
+        "txt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/fdb5c1b0b2a07f8f7d69fb83/EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ [已上传分段合并].txt",
+        "srt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/fdb5c1b0b2a07f8f7d69fb83/EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ [已上传分段合并].srt",
+        "json": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/fdb5c1b0b2a07f8f7d69fb83/EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ [已上传分段合并].json",
+        "zip": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/fdb5c1b0b2a07f8f7d69fb83/EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ [已上传分段合并].zip"
+      },
+      "downloads": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fdb5c1b0b2a07f8f7d69fb83/EP151%20-%20NVIDIA%20%E7%9A%84%20CUDA%20%E8%AD%B7%E5%9F%8E%E6%B2%B3%E6%B6%88%E5%A4%B1%E4%B8%AD%EF%BC%8C%E4%BD%86%E8%80%81%E9%BB%83%E6%97%A9%E5%B7%B2%E6%83%B3%E5%88%B0%E4%B8%8B%E4%B8%80%E6%AD%A5%EF%BC%9FAI%20%E8%BC%94%E5%8A%A9%E7%9A%84%E5%80%8B%E4%BA%BA%E5%8C%96%20mRNA%20%E7%99%8C%E7%97%87%E7%99%82%E6%B3%95%E4%BE%86%E4%BA%86%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fdb5c1b0b2a07f8f7d69fb83/EP151%20-%20NVIDIA%20%E7%9A%84%20CUDA%20%E8%AD%B7%E5%9F%8E%E6%B2%B3%E6%B6%88%E5%A4%B1%E4%B8%AD%EF%BC%8C%E4%BD%86%E8%80%81%E9%BB%83%E6%97%A9%E5%B7%B2%E6%83%B3%E5%88%B0%E4%B8%8B%E4%B8%80%E6%AD%A5%EF%BC%9FAI%20%E8%BC%94%E5%8A%A9%E7%9A%84%E5%80%8B%E4%BA%BA%E5%8C%96%20mRNA%20%E7%99%8C%E7%97%87%E7%99%82%E6%B3%95%E4%BE%86%E4%BA%86%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fdb5c1b0b2a07f8f7d69fb83/EP151%20-%20NVIDIA%20%E7%9A%84%20CUDA%20%E8%AD%B7%E5%9F%8E%E6%B2%B3%E6%B6%88%E5%A4%B1%E4%B8%AD%EF%BC%8C%E4%BD%86%E8%80%81%E9%BB%83%E6%97%A9%E5%B7%B2%E6%83%B3%E5%88%B0%E4%B8%8B%E4%B8%80%E6%AD%A5%EF%BC%9FAI%20%E8%BC%94%E5%8A%A9%E7%9A%84%E5%80%8B%E4%BA%BA%E5%8C%96%20mRNA%20%E7%99%8C%E7%97%87%E7%99%82%E6%B3%95%E4%BE%86%E4%BA%86%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fdb5c1b0b2a07f8f7d69fb83/EP151%20-%20NVIDIA%20%E7%9A%84%20CUDA%20%E8%AD%B7%E5%9F%8E%E6%B2%B3%E6%B6%88%E5%A4%B1%E4%B8%AD%EF%BC%8C%E4%BD%86%E8%80%81%E9%BB%83%E6%97%A9%E5%B7%B2%E6%83%B3%E5%88%B0%E4%B8%8B%E4%B8%80%E6%AD%A5%EF%BC%9FAI%20%E8%BC%94%E5%8A%A9%E7%9A%84%E5%80%8B%E4%BA%BA%E5%8C%96%20mRNA%20%E7%99%8C%E7%97%87%E7%99%82%E6%B3%95%E4%BE%86%E4%BA%86%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/fdb5c1b0b2a07f8f7d69fb83",
+      "audio_duration_seconds": 4435.008,
+      "segment_count": 2040
+    },
+    {
+      "title": "EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！",
+      "key": "7b1d55830d73942e2bcb4e26",
+      "files": {
+        "txt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/7b1d55830d73942e2bcb4e26/EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ [已上传分段合并].txt",
+        "srt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/7b1d55830d73942e2bcb4e26/EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ [已上传分段合并].srt",
+        "json": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/7b1d55830d73942e2bcb4e26/EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ [已上传分段合并].json",
+        "zip": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/7b1d55830d73942e2bcb4e26/EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ [已上传分段合并].zip"
+      },
+      "downloads": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7b1d55830d73942e2bcb4e26/EP150%20-%20SpaceX%20%E7%9C%9F%E7%9A%84%E8%BF%BD%E4%B8%8A%E4%BA%86%EF%BC%81Google%20%E5%8D%B1%E9%9A%AA%E4%BA%86%EF%BC%9FMeta%20%E9%87%8D%E8%BF%94%E9%96%8B%E6%BA%90%EF%BD%9CBonus%EF%BC%9A%E5%93%88%E5%88%A9%E7%9A%84%E6%B0%9B%E5%9C%8D%E5%AD%B8%E9%99%A2%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7b1d55830d73942e2bcb4e26/EP150%20-%20SpaceX%20%E7%9C%9F%E7%9A%84%E8%BF%BD%E4%B8%8A%E4%BA%86%EF%BC%81Google%20%E5%8D%B1%E9%9A%AA%E4%BA%86%EF%BC%9FMeta%20%E9%87%8D%E8%BF%94%E9%96%8B%E6%BA%90%EF%BD%9CBonus%EF%BC%9A%E5%93%88%E5%88%A9%E7%9A%84%E6%B0%9B%E5%9C%8D%E5%AD%B8%E9%99%A2%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7b1d55830d73942e2bcb4e26/EP150%20-%20SpaceX%20%E7%9C%9F%E7%9A%84%E8%BF%BD%E4%B8%8A%E4%BA%86%EF%BC%81Google%20%E5%8D%B1%E9%9A%AA%E4%BA%86%EF%BC%9FMeta%20%E9%87%8D%E8%BF%94%E9%96%8B%E6%BA%90%EF%BD%9CBonus%EF%BC%9A%E5%93%88%E5%88%A9%E7%9A%84%E6%B0%9B%E5%9C%8D%E5%AD%B8%E9%99%A2%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7b1d55830d73942e2bcb4e26/EP150%20-%20SpaceX%20%E7%9C%9F%E7%9A%84%E8%BF%BD%E4%B8%8A%E4%BA%86%EF%BC%81Google%20%E5%8D%B1%E9%9A%AA%E4%BA%86%EF%BC%9FMeta%20%E9%87%8D%E8%BF%94%E9%96%8B%E6%BA%90%EF%BD%9CBonus%EF%BC%9A%E5%93%88%E5%88%A9%E7%9A%84%E6%B0%9B%E5%9C%8D%E5%AD%B8%E9%99%A2%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/7b1d55830d73942e2bcb4e26",
+      "audio_duration_seconds": 4742.016,
+      "segment_count": 2411
+    },
+    {
+      "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？",
+      "key": "6c126974c8ea48f3689a7680",
+      "files": {
+        "txt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/6c126974c8ea48f3689a7680/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ [已上传分段合并-实际时长].txt",
+        "srt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/6c126974c8ea48f3689a7680/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ [已上传分段合并-实际时长].srt",
+        "json": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/6c126974c8ea48f3689a7680/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ [已上传分段合并-实际时长].json",
+        "zip": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/6c126974c8ea48f3689a7680/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ [已上传分段合并-实际时长].zip"
+      },
+      "downloads": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6c126974c8ea48f3689a7680/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6c126974c8ea48f3689a7680/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6c126974c8ea48f3689a7680/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6c126974c8ea48f3689a7680/EP148%20-%20Kimi%20K3%20%E9%9C%87%E6%92%BC%E7%9F%BD%E8%B0%B7%EF%BC%81%E7%9C%9F%E7%9A%84%E9%80%99%E9%BA%BC%E5%BC%B7%E5%97%8E%EF%BC%9F%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/6c126974c8ea48f3689a7680",
+      "audio_duration_seconds": 4139.6906875,
+      "segment_count": 1530
+    },
+    {
+      "title": "EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras",
+      "key": "a65a424234a114412e40827c",
+      "files": {
+        "txt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/a65a424234a114412e40827c/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras [已上传分段合并-实际时长].txt",
+        "srt": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/a65a424234a114412e40827c/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras [已上传分段合并-实际时长].srt",
+        "json": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/a65a424234a114412e40827c/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras [已上传分段合并-实际时长].json",
+        "zip": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/merged/a65a424234a114412e40827c/EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras [已上传分段合并-实际时长].zip"
+      },
+      "downloads": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a65a424234a114412e40827c/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a65a424234a114412e40827c/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a65a424234a114412e40827c/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a65a424234a114412e40827c/EP146%20-%20%E5%B8%82%E5%80%BC%E5%8F%AA%E6%9C%89%20NVIDIA%20%E7%9A%84%201%25%EF%BC%8C%E5%8D%BB%E6%83%B3%E6%8C%91%E6%88%B0%20AI%20%E6%99%B6%E7%89%87%E9%9C%B8%E4%B8%BB%EF%BC%9A%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20Cerebras%20%5B%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6-%E5%AE%9E%E9%99%85%E6%97%B6%E9%95%BF%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/a65a424234a114412e40827c",
+      "audio_duration_seconds": 4520.704,
+      "segment_count": 1556
+    }
+  ],
+  "validation": {
+    "individual_results_checked": 15,
+    "merged_results_checked": 5,
+    "txt_matches_srt": true,
+    "srt_timestamps_valid": true,
+    "zip_crc_checks_passed": true,
+    "text_review": "bounded beginning/middle/end samples for each part; no word-for-word manual review"
+  },
+  "created_utc": "2026-10-21T01:36:56.086573+00:00"
+}
