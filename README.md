@@ -41,3 +41,4 @@
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？](jobs/8298c152135f54106cc38541/README.md) <!-- job:8298c152135f54106cc38541 -->
 - [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct](jobs/83831098f244cca347e10c92/README.md) <!-- job:83831098f244cca347e10c92 -->
 - [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:36231890e52d149f64c56fe0 -->
+- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！](jobs/cd279e49295f274194933cc9/README.md) <!-- job:cd279e49295f274194933cc9 -->
