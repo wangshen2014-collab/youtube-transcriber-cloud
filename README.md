@@ -32,3 +32,4 @@
 - [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 _00-00-00 至 00-30-00_.m4a](jobs/9b71f7bc45f4f81c9a80e6b8/README.md) <!-- job:9b71f7bc45f4f81c9a80e6b8 -->
 - [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 _00-30-00 至 01-00-00_.m4a](jobs/193929085ee5592d2c9e516b/README.md) <!-- job:193929085ee5592d2c9e516b -->
 - [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 _01-00-00 至 01-27-59_.m4a](jobs/a9e26bee00b4f73ee0980650/README.md) <!-- job:a9e26bee00b4f73ee0980650 -->
+- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 _00-00-00 至 00-30-00_.m4a](jobs/f1203c8f97d264765ed2381b/README.md) <!-- job:f1203c8f97d264765ed2381b -->
