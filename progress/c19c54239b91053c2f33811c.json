@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+    "source_id": "audio-b7aa1dc185d571d4489c63ef"
+  },
+  "segments": [],
+  "resume_from": 0.0,
+  "run_id": "20261021-071616-fd706dc8",
+  "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/20261021-071616-fd706dc8"
+}
