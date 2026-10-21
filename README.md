@@ -39,3 +39,4 @@
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/fe0318d66f894cec8a96d1b9/README.md) <!-- job:fe0318d66f894cec8a96d1b9 -->
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 _01-00-00 至 01-05-56_.m4a](jobs/0ac50ff6daa886280907b1ad/README.md) <!-- job:0ac50ff6daa886280907b1ad -->
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？](jobs/8298c152135f54106cc38541/README.md) <!-- job:8298c152135f54106cc38541 -->
+- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct](jobs/83831098f244cca347e10c92/README.md) <!-- job:83831098f244cca347e10c92 -->
