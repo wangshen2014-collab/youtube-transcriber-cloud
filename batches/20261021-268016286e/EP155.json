@@ -1,0 +1,201 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge-actual-end",
+    "parts": [
+      "5dab95373ff15511a4b19a61",
+      "30353248c921ffeb86f6c046",
+      "52d8053cbee7ea550b84340a"
+    ],
+    "offsets_seconds": [
+      0,
+      1800,
+      3600
+    ],
+    "actual_end_seconds": 4329.536
+  },
+  "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？",
+  "selected_start": 0,
+  "selected_end": 4329.536,
+  "audio_duration_seconds": 4329.536,
+  "segment_count": 2437,
+  "detected_language": [
+    "zh"
+  ],
+  "part_run_reports": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+        "source_id": "audio-79c4f8aa5a22bcb0d72276ce"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/20261021-074817-32992e32",
+      "timings_seconds": {
+        "local_source_selection": 0.00016519500059075654,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.7914472320117056,
+        "model_load": 3.1269298650004202,
+        "transcription": 2219.8069948570046,
+        "total_this_invocation": 2225.1724333629973
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/68b848c2-6ea5-44d0-b389-ed0af61d0e3b/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+        "sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+        "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9923502802848816,
+      "segment_count": 859,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.0,
+      "peak_ram_mb": 2557.6,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+        "source_id": "audio-0a02f5f2d7c279095c2c88d1"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/20261021-082523-3d59baba",
+      "timings_seconds": {
+        "local_source_selection": 8.252299448940903e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.9025366730056703,
+        "model_load": 2.8116852509992896,
+        "transcription": 2127.3961268529965,
+        "total_this_invocation": 2132.5297803680005
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/eefdd97a-69db-475e-8785-b66b885c3b9d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+        "sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+        "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.993516206741333,
+      "segment_count": 1312,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1800.0,
+      "peak_ram_mb": 2557.9,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+        "source_id": "audio-96a576748b2c75d659d6d9db"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/20261021-090056-0ee7f5ce",
+      "timings_seconds": {
+        "local_source_selection": 0.00022158698993735015,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.105599019996589,
+        "model_load": 4.9482455649995245,
+        "transcription": 719.9450745469949,
+        "total_this_invocation": 726.464788954996
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/24450d09-907b-4fe8-8e2f-cbe4e307472d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+        "sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+        "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+      "audio_duration_seconds": 729.536,
+      "selected_start": 0.0,
+      "selected_end": 729.536,
+      "language_probability": 0.9867008328437805,
+      "segment_count": 266,
+      "detected_language": "zh",
+      "last_completed_audio_second": 729.3000000000001,
+      "peak_ram_mb": 2513.7,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    }
+  ],
+  "timings_seconds": {
+    "model_load": 10.886860680999234,
+    "transcription": 5067.148196256996,
+    "total_this_invocation": 5084.167002685994
+  },
+  "peak_ram_mb": 2557.9,
+  "validation": {
+    "offsets_verified_from_exact_1800_second_parts": true,
+    "final_filename_rounding_difference_seconds": 0.5359999999999445,
+    "all_original_transcribed_text_preserved": true
+  },
+  "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+}

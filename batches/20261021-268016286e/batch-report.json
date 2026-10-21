@@ -1,0 +1,2382 @@
+{
+  "status": "completed",
+  "repository_commit": "4094f7a270c6dcca8282dcedbffa069d2b8cf298",
+  "new_inference_files": 11,
+  "reused_previous_EP157_files": 3,
+  "duplicate_audio_copies_skipped": 3,
+  "audio_duration_seconds": 19968.0509375,
+  "newly_transcribed_audio_duration_seconds": 14689.03225,
+  "detected_languages": [
+    "zh"
+  ],
+  "timings_seconds_new_inference": {
+    "model_load": 36.37306618198636,
+    "transcription": 16850.65296725901,
+    "total_this_invocation": 16915.512028170968
+  },
+  "timings_seconds_including_reused_EP157": {
+    "model_load": 82.00599615198632,
+    "transcription": 23816.86113082101,
+    "total_this_invocation": 23934.349253939967
+  },
+  "peak_ram_mb": 3086.0,
+  "inference_parameters": {
+    "model": "multilingual medium",
+    "device": "cpu",
+    "compute_type": "int8",
+    "threads": 6,
+    "beam_size": 3,
+    "condition_on_previous_text": true,
+    "vad_filter": false,
+    "task": "transcribe",
+    "language": "auto"
+  },
+  "lectures": [
+    {
+      "title": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+      "key": "7d800ec19f118df97586c893",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/ready/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/ready/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/ready/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/ready/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+          "source_id": "audio-08387fe5231c4889f61c0b0d"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/20261021-064431-e36f34fb",
+        "timings_seconds": {
+          "local_source_selection": 9.275900083594024e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 6.814329221990192,
+          "model_load": 4.478066796000348,
+          "transcription": 1891.867753974002,
+          "total_this_invocation": 1903.6773325579998
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/a536525a-9e80-4e3c-be69-7447f6a6ebee/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+          "sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+          "original_name": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+        "audio_duration_seconds": 1355.2094375,
+        "selected_start": 0.0,
+        "selected_end": 1355.2094375,
+        "language_probability": 0.9990354776382446,
+        "segment_count": 132,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1354.22,
+        "peak_ram_mb": 2234.6,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "result": {
+        "status": "completed",
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+          "source_id": "audio-08387fe5231c4889f61c0b0d"
+        },
+        "title": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+        "files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.json",
+          "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.zip"
+        },
+        "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/7d800ec19f118df97586c893",
+        "saved_at": 1792566977.1938999
+      }
+    },
+    {
+      "title": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+      "key": "c19c54239b91053c2f33811c",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/ready/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/ready/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/ready/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/ready/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+          "source_id": "audio-b7aa1dc185d571d4489c63ef"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/c19c54239b91053c2f33811c/20261021-071616-fd706dc8",
+        "timings_seconds": {
+          "local_source_selection": 8.923400309868157e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 4.6512985229928745,
+          "model_load": 3.1632076289970428,
+          "transcription": 1910.1736719030014,
+          "total_this_invocation": 1918.4590244659921
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/61a3cae1-bdfc-4097-a70b-1905a7248045/【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+          "sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+          "original_name": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+        "audio_duration_seconds": 1389.7375,
+        "selected_start": 0.0,
+        "selected_end": 1389.7375,
+        "language_probability": 0.9998107552528381,
+        "segment_count": 821,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1380.96,
+        "peak_ram_mb": 2263.6,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "result": {
+        "status": "completed",
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "b7aa1dc185d571d4489c63ef617c04cf8e87c5edde764f5ef3c87aa48432b6ed",
+          "source_id": "audio-b7aa1dc185d571d4489c63ef"
+        },
+        "title": "【习近平下台主义】第②讲：习近平是怎么搞砸中国经济的？.webm",
+        "files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.json",
+          "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c19c54239b91053c2f33811c/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A1%E8%AE%B2%EF%BC%9A%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%9E%E7%A0%B8%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%EF%BC%9F.zip"
+        },
+        "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c19c54239b91053c2f33811c",
+        "saved_at": 1792568920.5361187
+      }
+    }
+  ],
+  "individual_podcast_parts": [
+    {
+      "key": "5dab95373ff15511a4b19a61",
+      "path": "/workspace/attachments/68b848c2-6ea5-44d0-b389-ed0af61d0e3b/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+          "source_id": "audio-79c4f8aa5a22bcb0d72276ce"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/20261021-074817-32992e32",
+        "timings_seconds": {
+          "local_source_selection": 0.00016519500059075654,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7914472320117056,
+          "model_load": 3.1269298650004202,
+          "transcription": 2219.8069948570046,
+          "total_this_invocation": 2225.1724333629973
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/68b848c2-6ea5-44d0-b389-ed0af61d0e3b/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+          "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9923502802848816,
+        "segment_count": 859,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.0,
+        "peak_ram_mb": 2557.6,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 1,
+      "start": 0,
+      "end": 1800,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "30353248c921ffeb86f6c046",
+      "path": "/workspace/attachments/eefdd97a-69db-475e-8785-b66b885c3b9d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+          "source_id": "audio-0a02f5f2d7c279095c2c88d1"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/20261021-082523-3d59baba",
+        "timings_seconds": {
+          "local_source_selection": 8.252299448940903e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.9025366730056703,
+          "model_load": 2.8116852509992896,
+          "transcription": 2127.3961268529965,
+          "total_this_invocation": 2132.5297803680005
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/eefdd97a-69db-475e-8785-b66b885c3b9d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+          "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.993516206741333,
+        "segment_count": 1312,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2557.9,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 2,
+      "start": 1800,
+      "end": 3600,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "52d8053cbee7ea550b84340a",
+      "path": "/workspace/attachments/24450d09-907b-4fe8-8e2f-cbe4e307472d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/ready/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+          "source_id": "audio-96a576748b2c75d659d6d9db"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/20261021-090056-0ee7f5ce",
+        "timings_seconds": {
+          "local_source_selection": 0.00022158698993735015,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.105599019996589,
+          "model_load": 4.9482455649995245,
+          "transcription": 719.9450745469949,
+          "total_this_invocation": 726.464788954996
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/24450d09-907b-4fe8-8e2f-cbe4e307472d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+          "sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+          "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+        "audio_duration_seconds": 729.536,
+        "selected_start": 0.0,
+        "selected_end": 729.536,
+        "language_probability": 0.9867008328437805,
+        "segment_count": 266,
+        "detected_language": "zh",
+        "last_completed_audio_second": 729.3000000000001,
+        "peak_ram_mb": 2513.7,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 3,
+      "start": 3600,
+      "end": 4329,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "9b71f7bc45f4f81c9a80e6b8",
+      "path": "/workspace/attachments/cd08bf46-ba8b-4b11-a65b-1417c1c5a7bf/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/9b71f7bc45f4f81c9a80e6b8/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/9b71f7bc45f4f81c9a80e6b8/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/9b71f7bc45f4f81c9a80e6b8/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/9b71f7bc45f4f81c9a80e6b8/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+          "source_id": "audio-a54ec723285291dff29eae01"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": true,
+        "output_directory": "/workspace/scratch/ep157/part-1-outputs/20261020-081612-f9d1d908",
+        "timings_seconds": {
+          "local_source_selection": 9.334199995691961e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.9109987539999906,
+          "model_load": 37.73069195000005,
+          "transcription": 2323.975993393,
+          "total_this_invocation": 2364.009604405
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/6f28b4cf-44d5-4395-8eb5-29a55f3f9e54/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-00-00 至 00-30-00].m4a",
+          "sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+          "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.993300199508667,
+        "segment_count": 671,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 3086.0,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 1,
+      "start": 0,
+      "end": 1800,
+      "reused_previous_transcription": true
+    },
+    {
+      "key": "193929085ee5592d2c9e516b",
+      "path": "/workspace/attachments/2952e8fd-8b0a-40ef-8c0a-3598a1f562a3/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/193929085ee5592d2c9e516b/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/193929085ee5592d2c9e516b/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/193929085ee5592d2c9e516b/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/193929085ee5592d2c9e516b/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+          "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/ep157/part-2-outputs/20261020-085549-0bd9b7ed",
+        "timings_seconds": {
+          "local_source_selection": 8.775300011620857e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.870358183999997,
+          "model_load": 4.116502809999929,
+          "transcription": 2259.5861084359994,
+          "total_this_invocation": 2266.0049819789997
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/0e4f3b06-28da-4fec-b8ec-41c77ece3bd6/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+          "sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+          "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9870189428329468,
+        "segment_count": 1192,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2549.4,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 2,
+      "start": 1800,
+      "end": 3600,
+      "reused_previous_transcription": true
+    },
+    {
+      "key": "a9e26bee00b4f73ee0980650",
+      "path": "/workspace/attachments/25666294-7c7c-4a58-8163-79f7ca15fa74/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/a9e26bee00b4f73ee0980650/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/a9e26bee00b4f73ee0980650/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/a9e26bee00b4f73ee0980650/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/a9e26bee00b4f73ee0980650/ready/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+          "source_id": "audio-89df20eb99ac19ec4dfc29a5"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/ep157/part-3-outputs/20261020-093335-1377fd5c",
+        "timings_seconds": {
+          "local_source_selection": 0.00016132800010382198,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7818176949995177,
+          "model_load": 3.7857352099999844,
+          "transcription": 2382.6460617330004,
+          "total_this_invocation": 2388.822639385
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/4a1d94e8-a5ab-4f93-ab68-7b4107bf0db8/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [01-00-00 至 01-27-59].m4a",
+          "sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+          "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [01-00-00 至 01-27-59].m4a",
+        "audio_duration_seconds": 1679.0186875,
+        "selected_start": 0.0,
+        "selected_end": 1679.0186875,
+        "language_probability": 0.9922972321510315,
+        "segment_count": 839,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1679.0186875,
+        "peak_ram_mb": 2441.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 3,
+      "start": 3600,
+      "end": 5279,
+      "reused_previous_transcription": true
+    },
+    {
+      "key": "f1203c8f97d264765ed2381b",
+      "path": "/workspace/attachments/beee2355-c2d8-442f-865e-8079fdb49ed4/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+          "source_id": "audio-37b9a1229ffc39005e2d228f"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/20261021-091303-1946c887",
+        "timings_seconds": {
+          "local_source_selection": 9.339800453744829e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.8994594300020253,
+          "model_load": 3.531230535998475,
+          "transcription": 1819.6927629550046,
+          "total_this_invocation": 1825.5437314059964
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/beee2355-c2d8-442f-865e-8079fdb49ed4/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+          "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9913733601570129,
+        "segment_count": 660,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2557.6,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 1,
+      "start": 0,
+      "end": 1800,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "b5771d4a44932d9bf8422852",
+      "path": "/workspace/attachments/3286ca25-8199-4911-950b-8a50e4acb2ef/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+          "source_id": "audio-76a94669a0f4ba2e51964337"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/20261021-094329-2f5c5a37",
+        "timings_seconds": {
+          "local_source_selection": 9.124800271820277e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7301580359926447,
+          "model_load": 3.144346435001353,
+          "transcription": 1731.6476893880026,
+          "total_this_invocation": 1736.9550777500117
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/3286ca25-8199-4911-950b-8a50e4acb2ef/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+          "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.996436357498169,
+        "segment_count": 842,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2556.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 2,
+      "start": 1800,
+      "end": 3600,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "b6e8507941dddb3456c70b9f",
+      "path": "/workspace/attachments/f6d3e7ee-d84a-420f-8a67-e6853829761c/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/ready/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+          "source_id": "audio-a6fdff5f846218e832db1df8"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/20261021-101226-23805ae0",
+        "timings_seconds": {
+          "local_source_selection": 9.25170024856925e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.09217952599283308,
+          "model_load": 2.7309364289976656,
+          "transcription": 52.355287896003574,
+          "total_this_invocation": 55.559996885989676
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/f6d3e7ee-d84a-420f-8a67-e6853829761c/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+          "sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+          "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+        "audio_duration_seconds": 58.0053125,
+        "selected_start": 0.0,
+        "selected_end": 58.0053125,
+        "language_probability": 0.9972702860832214,
+        "segment_count": 18,
+        "detected_language": "zh",
+        "last_completed_audio_second": 58.0,
+        "peak_ram_mb": 1558.2,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 3,
+      "start": 3600,
+      "end": 3658,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "69911da33b464c3ecf29c864",
+      "path": "/workspace/attachments/df6c9ce9-34fb-4325-b92a-3e7debbc4fab/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+          "source_id": "audio-d7b4bda36c2b81314d62d263"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/20261021-101322-9e13cfc5",
+        "timings_seconds": {
+          "local_source_selection": 8.557300316169858e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.639830770000117,
+          "model_load": 2.6256929369992577,
+          "transcription": 1886.542333984995,
+          "total_this_invocation": 1891.1830576999928
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/df6c9ce9-34fb-4325-b92a-3e7debbc4fab/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+          "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9915165901184082,
+        "segment_count": 652,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.96,
+        "peak_ram_mb": 2556.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 1,
+      "start": 0,
+      "end": 1800,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "fe0318d66f894cec8a96d1b9",
+      "path": "/workspace/attachments/6907c97b-dcfc-4bda-8cc5-d36bcf5fc12e/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+          "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/20261021-104453-12958f20",
+        "timings_seconds": {
+          "local_source_selection": 9.115600551012903e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.722069064999232,
+          "model_load": 2.9047103369957767,
+          "transcription": 2081.4153042010003,
+          "total_this_invocation": 2086.463745575995
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/6907c97b-dcfc-4bda-8cc5-d36bcf5fc12e/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+          "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9969514608383179,
+        "segment_count": 1067,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.92,
+        "peak_ram_mb": 2556.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 2,
+      "start": 1800,
+      "end": 3600,
+      "reused_previous_transcription": false
+    },
+    {
+      "key": "0ac50ff6daa886280907b1ad",
+      "path": "/workspace/attachments/e449905d-69a5-41a7-b9ea-efdeab259d6b/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/ready/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].zip"
+      },
+      "report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+          "source_id": "audio-3bb3dd48861d003ae34b2d90"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/20261021-111940-6a89cca7",
+        "timings_seconds": {
+          "local_source_selection": 8.16550018498674e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.39255197599413805,
+          "model_load": 2.9080144019972067,
+          "transcription": 409.80996670000604,
+          "total_this_invocation": 413.5030591429968
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/e449905d-69a5-41a7-b9ea-efdeab259d6b/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+          "sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+          "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+        "audio_duration_seconds": 356.544,
+        "selected_start": 0.0,
+        "selected_end": 356.544,
+        "language_probability": 0.9960046410560608,
+        "segment_count": 298,
+        "detected_language": "zh",
+        "last_completed_audio_second": 356.5,
+        "peak_ram_mb": 2370.3,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      },
+      "number": 3,
+      "start": 3600,
+      "end": 3956,
+      "reused_previous_transcription": false
+    }
+  ],
+  "merged_podcasts": [
+    {
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？",
+      "key": "8298c152135f54106cc38541",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "5dab95373ff15511a4b19a61",
+          "30353248c921ffeb86f6c046",
+          "52d8053cbee7ea550b84340a"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 4329.536
+      },
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/8298c152135f54106cc38541/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ [分段合并].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/8298c152135f54106cc38541/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ [分段合并].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/8298c152135f54106cc38541/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ [分段合并].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/8298c152135f54106cc38541/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ [分段合并].zip"
+      },
+      "audio_duration_seconds": 4329.536,
+      "report": {
+        "status": "completed",
+        "settings": {
+          "source_type": "verified-parts-merge-actual-end",
+          "parts": [
+            "5dab95373ff15511a4b19a61",
+            "30353248c921ffeb86f6c046",
+            "52d8053cbee7ea550b84340a"
+          ],
+          "offsets_seconds": [
+            0,
+            1800,
+            3600
+          ],
+          "actual_end_seconds": 4329.536
+        },
+        "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？",
+        "selected_start": 0,
+        "selected_end": 4329.536,
+        "audio_duration_seconds": 4329.536,
+        "segment_count": 2437,
+        "detected_language": [
+          "zh"
+        ],
+        "part_run_reports": [
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+              "source_id": "audio-79c4f8aa5a22bcb0d72276ce"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/5dab95373ff15511a4b19a61/20261021-074817-32992e32",
+            "timings_seconds": {
+              "local_source_selection": 0.00016519500059075654,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.7914472320117056,
+              "model_load": 3.1269298650004202,
+              "transcription": 2219.8069948570046,
+              "total_this_invocation": 2225.1724333629973
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/68b848c2-6ea5-44d0-b389-ed0af61d0e3b/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+              "sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+              "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.9923502802848816,
+            "segment_count": 859,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1799.0,
+            "peak_ram_mb": 2557.6,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+              "source_id": "audio-0a02f5f2d7c279095c2c88d1"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/30353248c921ffeb86f6c046/20261021-082523-3d59baba",
+            "timings_seconds": {
+              "local_source_selection": 8.252299448940903e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.9025366730056703,
+              "model_load": 2.8116852509992896,
+              "transcription": 2127.3961268529965,
+              "total_this_invocation": 2132.5297803680005
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/eefdd97a-69db-475e-8785-b66b885c3b9d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+              "sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+              "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.993516206741333,
+            "segment_count": 1312,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1800.0,
+            "peak_ram_mb": 2557.9,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+              "source_id": "audio-96a576748b2c75d659d6d9db"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/52d8053cbee7ea550b84340a/20261021-090056-0ee7f5ce",
+            "timings_seconds": {
+              "local_source_selection": 0.00022158698993735015,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.105599019996589,
+              "model_load": 4.9482455649995245,
+              "transcription": 719.9450745469949,
+              "total_this_invocation": 726.464788954996
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/24450d09-907b-4fe8-8e2f-cbe4e307472d/EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+              "sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+              "original_name": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+            "audio_duration_seconds": 729.536,
+            "selected_start": 0.0,
+            "selected_end": 729.536,
+            "language_probability": 0.9867008328437805,
+            "segment_count": 266,
+            "detected_language": "zh",
+            "last_completed_audio_second": 729.3000000000001,
+            "peak_ram_mb": 2513.7,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          }
+        ],
+        "timings_seconds": {
+          "model_load": 10.886860680999234,
+          "transcription": 5067.148196256996,
+          "total_this_invocation": 5084.167002685994
+        },
+        "peak_ram_mb": 2557.9,
+        "validation": {
+          "offsets_verified_from_exact_1800_second_parts": true,
+          "final_filename_rounding_difference_seconds": 0.5359999999999445,
+          "all_original_transcribed_text_preserved": true
+        },
+        "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+      }
+    },
+    {
+      "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct",
+      "key": "83831098f244cca347e10c92",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "9b71f7bc45f4f81c9a80e6b8",
+          "193929085ee5592d2c9e516b",
+          "a9e26bee00b4f73ee0980650"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 5279.0186875
+      },
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/83831098f244cca347e10c92/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [分段合并].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/83831098f244cca347e10c92/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [分段合并].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/83831098f244cca347e10c92/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [分段合并].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/83831098f244cca347e10c92/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [分段合并].zip"
+      },
+      "audio_duration_seconds": 5279.0186875,
+      "report": {
+        "status": "completed",
+        "settings": {
+          "source_type": "verified-parts-merge-actual-end",
+          "parts": [
+            "9b71f7bc45f4f81c9a80e6b8",
+            "193929085ee5592d2c9e516b",
+            "a9e26bee00b4f73ee0980650"
+          ],
+          "offsets_seconds": [
+            0,
+            1800,
+            3600
+          ],
+          "actual_end_seconds": 5279.0186875
+        },
+        "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct",
+        "selected_start": 0,
+        "selected_end": 5279.0186875,
+        "audio_duration_seconds": 5279.0186875,
+        "segment_count": 2702,
+        "detected_language": [
+          "zh"
+        ],
+        "part_run_reports": [
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+              "source_id": "audio-a54ec723285291dff29eae01"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": true,
+            "output_directory": "/workspace/scratch/ep157/part-1-outputs/20261020-081612-f9d1d908",
+            "timings_seconds": {
+              "local_source_selection": 9.334199995691961e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.9109987539999906,
+              "model_load": 37.73069195000005,
+              "transcription": 2323.975993393,
+              "total_this_invocation": 2364.009604405
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/6f28b4cf-44d5-4395-8eb5-29a55f3f9e54/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-00-00 至 00-30-00].m4a",
+              "sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+              "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-00-00 至 00-30-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.993300199508667,
+            "segment_count": 671,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1800.0,
+            "peak_ram_mb": 3086.0,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+              "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/ep157/part-2-outputs/20261020-085549-0bd9b7ed",
+            "timings_seconds": {
+              "local_source_selection": 8.775300011620857e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.870358183999997,
+              "model_load": 4.116502809999929,
+              "transcription": 2259.5861084359994,
+              "total_this_invocation": 2266.0049819789997
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/0e4f3b06-28da-4fec-b8ec-41c77ece3bd6/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+              "sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+              "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [00-30-00 至 01-00-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.9870189428329468,
+            "segment_count": 1192,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1800.0,
+            "peak_ram_mb": 2549.4,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+              "source_id": "audio-89df20eb99ac19ec4dfc29a5"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/ep157/part-3-outputs/20261020-093335-1377fd5c",
+            "timings_seconds": {
+              "local_source_selection": 0.00016132800010382198,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.7818176949995177,
+              "model_load": 3.7857352099999844,
+              "transcription": 2382.6460617330004,
+              "total_this_invocation": 2388.822639385
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/4a1d94e8-a5ab-4f93-ab68-7b4107bf0db8/EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [01-00-00 至 01-27-59].m4a",
+              "sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+              "original_name": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct [01-00-00 至 01-27-59].m4a",
+            "audio_duration_seconds": 1679.0186875,
+            "selected_start": 0.0,
+            "selected_end": 1679.0186875,
+            "language_probability": 0.9922972321510315,
+            "segment_count": 839,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1679.0186875,
+            "peak_ram_mb": 2441.8,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          }
+        ],
+        "timings_seconds": {
+          "model_load": 45.632929969999964,
+          "transcription": 6966.208163562,
+          "total_this_invocation": 7018.837225769
+        },
+        "peak_ram_mb": 3086.0,
+        "validation": {
+          "offsets_verified_from_exact_1800_second_parts": true,
+          "final_filename_rounding_difference_seconds": 0.018687499999941792,
+          "all_original_transcribed_text_preserved": true
+        },
+        "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+      }
+    },
+    {
+      "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪",
+      "key": "36231890e52d149f64c56fe0",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "f1203c8f97d264765ed2381b",
+          "b5771d4a44932d9bf8422852",
+          "b6e8507941dddb3456c70b9f"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 3658.0053125
+      },
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/36231890e52d149f64c56fe0/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 [分段合并].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/36231890e52d149f64c56fe0/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 [分段合并].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/36231890e52d149f64c56fe0/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 [分段合并].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/36231890e52d149f64c56fe0/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 [分段合并].zip"
+      },
+      "audio_duration_seconds": 3658.0053125,
+      "report": {
+        "status": "completed",
+        "settings": {
+          "source_type": "verified-parts-merge-actual-end",
+          "parts": [
+            "f1203c8f97d264765ed2381b",
+            "b5771d4a44932d9bf8422852",
+            "b6e8507941dddb3456c70b9f"
+          ],
+          "offsets_seconds": [
+            0,
+            1800,
+            3600
+          ],
+          "actual_end_seconds": 3658.0053125
+        },
+        "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪",
+        "selected_start": 0,
+        "selected_end": 3658.0053125,
+        "audio_duration_seconds": 3658.0053125,
+        "segment_count": 1520,
+        "detected_language": [
+          "zh"
+        ],
+        "part_run_reports": [
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+              "source_id": "audio-37b9a1229ffc39005e2d228f"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/f1203c8f97d264765ed2381b/20261021-091303-1946c887",
+            "timings_seconds": {
+              "local_source_selection": 9.339800453744829e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.8994594300020253,
+              "model_load": 3.531230535998475,
+              "transcription": 1819.6927629550046,
+              "total_this_invocation": 1825.5437314059964
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/beee2355-c2d8-442f-865e-8079fdb49ed4/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+              "sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+              "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.9913733601570129,
+            "segment_count": 660,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1800.0,
+            "peak_ram_mb": 2557.6,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+              "source_id": "audio-76a94669a0f4ba2e51964337"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b5771d4a44932d9bf8422852/20261021-094329-2f5c5a37",
+            "timings_seconds": {
+              "local_source_selection": 9.124800271820277e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.7301580359926447,
+              "model_load": 3.144346435001353,
+              "transcription": 1731.6476893880026,
+              "total_this_invocation": 1736.9550777500117
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/3286ca25-8199-4911-950b-8a50e4acb2ef/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+              "sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+              "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.996436357498169,
+            "segment_count": 842,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1800.0,
+            "peak_ram_mb": 2556.8,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+              "source_id": "audio-a6fdff5f846218e832db1df8"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/b6e8507941dddb3456c70b9f/20261021-101226-23805ae0",
+            "timings_seconds": {
+              "local_source_selection": 9.25170024856925e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 0.09217952599283308,
+              "model_load": 2.7309364289976656,
+              "transcription": 52.355287896003574,
+              "total_this_invocation": 55.559996885989676
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/f6d3e7ee-d84a-420f-8a67-e6853829761c/EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+              "sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+              "original_name": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+            "audio_duration_seconds": 58.0053125,
+            "selected_start": 0.0,
+            "selected_end": 58.0053125,
+            "language_probability": 0.9972702860832214,
+            "segment_count": 18,
+            "detected_language": "zh",
+            "last_completed_audio_second": 58.0,
+            "peak_ram_mb": 1558.2,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          }
+        ],
+        "timings_seconds": {
+          "model_load": 9.406513399997493,
+          "transcription": 3603.695740239011,
+          "total_this_invocation": 3618.0588060419977
+        },
+        "peak_ram_mb": 2557.6,
+        "validation": {
+          "offsets_verified_from_exact_1800_second_parts": true,
+          "final_filename_rounding_difference_seconds": 0.005312500000002274,
+          "all_original_transcribed_text_preserved": true
+        },
+        "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+      }
+    },
+    {
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！",
+      "key": "cd279e49295f274194933cc9",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "69911da33b464c3ecf29c864",
+          "fe0318d66f894cec8a96d1b9",
+          "0ac50ff6daa886280907b1ad"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 3956.544
+      },
+      "files": {
+        "txt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/cd279e49295f274194933cc9/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ [分段合并].txt",
+        "srt": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/cd279e49295f274194933cc9/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ [分段合并].srt",
+        "json": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/cd279e49295f274194933cc9/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ [分段合并].json",
+        "zip": "/workspace/scratch/xi-lectures-20261021/podcasts/merged/cd279e49295f274194933cc9/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ [分段合并].zip"
+      },
+      "audio_duration_seconds": 3956.544,
+      "report": {
+        "status": "completed",
+        "settings": {
+          "source_type": "verified-parts-merge-actual-end",
+          "parts": [
+            "69911da33b464c3ecf29c864",
+            "fe0318d66f894cec8a96d1b9",
+            "0ac50ff6daa886280907b1ad"
+          ],
+          "offsets_seconds": [
+            0,
+            1800,
+            3600
+          ],
+          "actual_end_seconds": 3956.544
+        },
+        "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！",
+        "selected_start": 0,
+        "selected_end": 3956.544,
+        "audio_duration_seconds": 3956.544,
+        "segment_count": 2017,
+        "detected_language": [
+          "zh"
+        ],
+        "part_run_reports": [
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+              "source_id": "audio-d7b4bda36c2b81314d62d263"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/20261021-101322-9e13cfc5",
+            "timings_seconds": {
+              "local_source_selection": 8.557300316169858e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.639830770000117,
+              "model_load": 2.6256929369992577,
+              "transcription": 1886.542333984995,
+              "total_this_invocation": 1891.1830576999928
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/df6c9ce9-34fb-4325-b92a-3e7debbc4fab/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+              "sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+              "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.9915165901184082,
+            "segment_count": 652,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1799.96,
+            "peak_ram_mb": 2556.8,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+              "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/20261021-104453-12958f20",
+            "timings_seconds": {
+              "local_source_selection": 9.115600551012903e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 1.722069064999232,
+              "model_load": 2.9047103369957767,
+              "transcription": 2081.4153042010003,
+              "total_this_invocation": 2086.463745575995
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/6907c97b-dcfc-4bda-8cc5-d36bcf5fc12e/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+              "sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+              "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+            "audio_duration_seconds": 1800.0,
+            "selected_start": 0.0,
+            "selected_end": 1800.0,
+            "language_probability": 0.9969514608383179,
+            "segment_count": 1067,
+            "detected_language": "zh",
+            "last_completed_audio_second": 1799.92,
+            "peak_ram_mb": 2556.8,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          },
+          {
+            "settings": {
+              "language": "auto",
+              "model": "medium",
+              "threads": 6,
+              "beam_size": 3,
+              "device": "cpu",
+              "compute_type": "int8",
+              "vad_filter": false,
+              "condition_on_previous_text": true,
+              "start": 0.0,
+              "end": null,
+              "source_type": "audio_file",
+              "audio_sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+              "source_id": "audio-3bb3dd48861d003ae34b2d90"
+            },
+            "versions": {
+              "python": "3.12.14",
+              "faster-whisper": "1.2.1",
+              "ctranslate2": "4.4.0",
+              "yt-dlp": "2026.8.19",
+              "av": "16.0.1"
+            },
+            "status": "completed",
+            "resumed": false,
+            "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/20261021-111940-6a89cca7",
+            "timings_seconds": {
+              "local_source_selection": 8.16550018498674e-05,
+              "download_or_cache": 0.0,
+              "audio_decode": 0.39255197599413805,
+              "model_load": 2.9080144019972067,
+              "transcription": 409.80996670000604,
+              "total_this_invocation": 413.5030591429968
+            },
+            "source": {
+              "type": "audio_file",
+              "path": "/workspace/attachments/e449905d-69a5-41a7-b9ea-efdeab259d6b/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+              "sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+              "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a"
+            },
+            "download_skipped": true,
+            "used_cached_audio": false,
+            "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+            "audio_duration_seconds": 356.544,
+            "selected_start": 0.0,
+            "selected_end": 356.544,
+            "language_probability": 0.9960046410560608,
+            "segment_count": 298,
+            "detected_language": "zh",
+            "last_completed_audio_second": 356.5,
+            "peak_ram_mb": 2370.3,
+            "execution_backend": "direct-python-process",
+            "storage_backend": "github-git"
+          }
+        ],
+        "timings_seconds": {
+          "model_load": 8.438417675992241,
+          "transcription": 4377.767604886001,
+          "total_this_invocation": 4391.149862418984
+        },
+        "peak_ram_mb": 2556.8,
+        "validation": {
+          "offsets_verified_from_exact_1800_second_parts": true,
+          "final_filename_rounding_difference_seconds": 0.5439999999999827,
+          "all_original_transcribed_text_preserved": true
+        },
+        "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+      }
+    }
+  ],
+  "validation": {
+    "txt_matches_srt": true,
+    "srt_timestamps_valid": true,
+    "zip_crc_checks_passed": true,
+    "text_review": "Bounded opening, middle and ending samples reviewed; coherent discussion, original ASR spelling retained; no word-for-word accuracy certification."
+  },
+  "note": "EP157 full WEBM and supplied SRT were not transcribed separately; the three exact previously transcribed audio parts cover the supplied 00:00:00–01:27:59 range. Source files retained.",
+  "publication_status": "All twelve podcast parts and four verified episode merges published to public GitHub transcripts branch; two priority lectures previously published.",
+  "public_results": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+        "source_id": "audio-79c4f8aa5a22bcb0d72276ce"
+      },
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5dab95373ff15511a4b19a61/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5dab95373ff15511a4b19a61/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5dab95373ff15511a4b19a61/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5dab95373ff15511a4b19a61/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5dab95373ff15511a4b19a61",
+      "saved_at": 1792595761.0089
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+        "source_id": "audio-0a02f5f2d7c279095c2c88d1"
+      },
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/30353248c921ffeb86f6c046/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/30353248c921ffeb86f6c046/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/30353248c921ffeb86f6c046/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/30353248c921ffeb86f6c046/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/30353248c921ffeb86f6c046",
+      "saved_at": 1792595771.3454056
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+        "source_id": "audio-96a576748b2c75d659d6d9db"
+      },
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 [01-00-00 至 01-12-09].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/52d8053cbee7ea550b84340a/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-12-09%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/52d8053cbee7ea550b84340a",
+      "saved_at": 1792595781.0256467
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+        "source_id": "audio-a54ec723285291dff29eae01"
+      },
+      "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9b71f7bc45f4f81c9a80e6b8/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9b71f7bc45f4f81c9a80e6b8/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9b71f7bc45f4f81c9a80e6b8/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/9b71f7bc45f4f81c9a80e6b8/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/9b71f7bc45f4f81c9a80e6b8",
+      "saved_at": 1792595789.565034
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+        "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+      },
+      "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/193929085ee5592d2c9e516b/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/193929085ee5592d2c9e516b",
+      "saved_at": 1792595797.8757396
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+        "source_id": "audio-89df20eb99ac19ec4dfc29a5"
+      },
+      "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 [01-00-00 至 01-27-59].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a9e26bee00b4f73ee0980650/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-27-59%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a9e26bee00b4f73ee0980650/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-27-59%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a9e26bee00b4f73ee0980650/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-27-59%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/a9e26bee00b4f73ee0980650/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-27-59%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/a9e26bee00b4f73ee0980650",
+      "saved_at": 1792595806.2197359
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+        "source_id": "audio-37b9a1229ffc39005e2d228f"
+      },
+      "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/f1203c8f97d264765ed2381b/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/f1203c8f97d264765ed2381b/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/f1203c8f97d264765ed2381b/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/f1203c8f97d264765ed2381b/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/f1203c8f97d264765ed2381b",
+      "saved_at": 1792595814.7929487
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+        "source_id": "audio-76a94669a0f4ba2e51964337"
+      },
+      "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b5771d4a44932d9bf8422852/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b5771d4a44932d9bf8422852/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b5771d4a44932d9bf8422852/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b5771d4a44932d9bf8422852/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b5771d4a44932d9bf8422852",
+      "saved_at": 1792595822.3594906
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+        "source_id": "audio-a6fdff5f846218e832db1df8"
+      },
+      "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 [01-00-00 至 01-00-58].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6e8507941dddb3456c70b9f/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-00-58%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6e8507941dddb3456c70b9f/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-00-58%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6e8507941dddb3456c70b9f/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-00-58%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6e8507941dddb3456c70b9f/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-00-58%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b6e8507941dddb3456c70b9f",
+      "saved_at": 1792595831.5785053
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+        "source_id": "audio-d7b4bda36c2b81314d62d263"
+      },
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/69911da33b464c3ecf29c864/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/69911da33b464c3ecf29c864/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/69911da33b464c3ecf29c864/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/69911da33b464c3ecf29c864/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/69911da33b464c3ecf29c864",
+      "saved_at": 1792595840.7030416
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+        "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+      },
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/fe0318d66f894cec8a96d1b9",
+      "saved_at": 1792595849.5111017
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+        "source_id": "audio-3bb3dd48861d003ae34b2d90"
+      },
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0ac50ff6daa886280907b1ad/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-05-56%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0ac50ff6daa886280907b1ad/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-05-56%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0ac50ff6daa886280907b1ad/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-05-56%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0ac50ff6daa886280907b1ad/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-05-56%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0ac50ff6daa886280907b1ad",
+      "saved_at": 1792595858.1831262
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "5dab95373ff15511a4b19a61",
+          "30353248c921ffeb86f6c046",
+          "52d8053cbee7ea550b84340a"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 4329.536
+      },
+      "title": "EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/8298c152135f54106cc38541/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/8298c152135f54106cc38541/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/8298c152135f54106cc38541/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/8298c152135f54106cc38541/EP155%20-%20%E5%B8%AD%E6%8D%B2%20AI%20%E5%9C%88%E7%9A%84%20Jev%EF%BC%8C%E5%88%B0%E5%BA%95%E5%9C%A8%E7%B4%85%E4%BB%80%E9%BA%BC%EF%BC%9FAI%20Agent%20%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%94%B9%E4%BA%86%E5%97%8E%EF%BC%9F%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/8298c152135f54106cc38541",
+      "saved_at": 1792595866.405744
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "9b71f7bc45f4f81c9a80e6b8",
+          "193929085ee5592d2c9e516b",
+          "a9e26bee00b4f73ee0980650"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 5279.0186875
+      },
+      "title": "EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/83831098f244cca347e10c92/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/83831098f244cca347e10c92/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/83831098f244cca347e10c92/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/83831098f244cca347e10c92/EP157%20-%20AI%20Agent%20%E5%A4%A7%E6%88%B0%E5%85%A8%E9%9D%A2%E9%96%8B%E6%89%93%EF%BC%81%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%20OpenAI%20Dots%E3%80%81Muse%E3%80%81Grok%20Bot%E3%80%81Instinct%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/83831098f244cca347e10c92",
+      "saved_at": 1792595875.6773567
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "f1203c8f97d264765ed2381b",
+          "b5771d4a44932d9bf8422852",
+          "b6e8507941dddb3456c70b9f"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 3658.0053125
+      },
+      "title": "EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/36231890e52d149f64c56fe0/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/36231890e52d149f64c56fe0/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/36231890e52d149f64c56fe0/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/36231890e52d149f64c56fe0/EP158%20-%20AI%20%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%81%B0%E6%98%8E%EF%BC%8C%E7%A1%AC%E9%AB%94%E8%B7%9F%E5%BE%97%E4%B8%8A%E5%97%8E%EF%BC%9F%E5%BE%9E%E4%BE%9B%E9%9B%BB%E7%93%B6%E9%A0%B8%E5%88%B0%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%20_%20%E5%B0%88%E8%A8%AA%20%E8%8B%B1%E9%A3%9B%E5%87%8C%E5%8F%B0%E7%81%A3%E8%91%A3%E4%BA%8B%E7%B8%BD%E7%B6%93%E7%90%86%E9%99%B3%E5%BF%97%E8%B1%AA%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/36231890e52d149f64c56fe0",
+      "saved_at": 1792595884.4679458
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "verified-parts-merge-actual-end",
+        "parts": [
+          "69911da33b464c3ecf29c864",
+          "fe0318d66f894cec8a96d1b9",
+          "0ac50ff6daa886280907b1ad"
+        ],
+        "offsets_seconds": [
+          0,
+          1800,
+          3600
+        ],
+        "actual_end_seconds": 3956.544
+      },
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cd279e49295f274194933cc9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cd279e49295f274194933cc9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cd279e49295f274194933cc9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cd279e49295f274194933cc9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%5B%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/cd279e49295f274194933cc9",
+      "saved_at": 1792595891.9069173
+    }
+  ],
+  "peak_ram_mb_new_inference": 2557.9,
+  "peak_ram_scope": "peak_ram_mb includes historical reused EP157 reports; peak_ram_mb_new_inference covers only newly computed files."
+}

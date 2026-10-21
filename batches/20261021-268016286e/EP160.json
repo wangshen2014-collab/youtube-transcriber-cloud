@@ -1,0 +1,201 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge-actual-end",
+    "parts": [
+      "69911da33b464c3ecf29c864",
+      "fe0318d66f894cec8a96d1b9",
+      "0ac50ff6daa886280907b1ad"
+    ],
+    "offsets_seconds": [
+      0,
+      1800,
+      3600
+    ],
+    "actual_end_seconds": 3956.544
+  },
+  "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！",
+  "selected_start": 0,
+  "selected_end": 3956.544,
+  "audio_duration_seconds": 3956.544,
+  "segment_count": 2017,
+  "detected_language": [
+    "zh"
+  ],
+  "part_run_reports": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+        "source_id": "audio-d7b4bda36c2b81314d62d263"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/69911da33b464c3ecf29c864/20261021-101322-9e13cfc5",
+      "timings_seconds": {
+        "local_source_selection": 8.557300316169858e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.639830770000117,
+        "model_load": 2.6256929369992577,
+        "transcription": 1886.542333984995,
+        "total_this_invocation": 1891.1830576999928
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/df6c9ce9-34fb-4325-b92a-3e7debbc4fab/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+        "sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+        "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9915165901184082,
+      "segment_count": 652,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.96,
+      "peak_ram_mb": 2556.8,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+        "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/fe0318d66f894cec8a96d1b9/20261021-104453-12958f20",
+      "timings_seconds": {
+        "local_source_selection": 9.115600551012903e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.722069064999232,
+        "model_load": 2.9047103369957767,
+        "transcription": 2081.4153042010003,
+        "total_this_invocation": 2086.463745575995
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/6907c97b-dcfc-4bda-8cc5-d36bcf5fc12e/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+        "sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+        "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9969514608383179,
+      "segment_count": 1067,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.92,
+      "peak_ram_mb": 2556.8,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+        "source_id": "audio-3bb3dd48861d003ae34b2d90"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/scratch/xi-lectures-20261021/podcasts/outputs/0ac50ff6daa886280907b1ad/20261021-111940-6a89cca7",
+      "timings_seconds": {
+        "local_source_selection": 8.16550018498674e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.39255197599413805,
+        "model_load": 2.9080144019972067,
+        "transcription": 409.80996670000604,
+        "total_this_invocation": 413.5030591429968
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/e449905d-69a5-41a7-b9ea-efdeab259d6b/EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+        "sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+        "original_name": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 [01-00-00 至 01-05-56].m4a",
+      "audio_duration_seconds": 356.544,
+      "selected_start": 0.0,
+      "selected_end": 356.544,
+      "language_probability": 0.9960046410560608,
+      "segment_count": 298,
+      "detected_language": "zh",
+      "last_completed_audio_second": 356.5,
+      "peak_ram_mb": 2370.3,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    }
+  ],
+  "timings_seconds": {
+    "model_load": 8.438417675992241,
+    "transcription": 4377.767604886001,
+    "total_this_invocation": 4391.149862418984
+  },
+  "peak_ram_mb": 2556.8,
+  "validation": {
+    "offsets_verified_from_exact_1800_second_parts": true,
+    "final_filename_rounding_difference_seconds": 0.5439999999999827,
+    "all_original_transcribed_text_preserved": true
+  },
+  "timing_scope": "Sum of original completed part invocation reports, including reused EP157 transcription; excludes previous failed or paused invocations."
+}
