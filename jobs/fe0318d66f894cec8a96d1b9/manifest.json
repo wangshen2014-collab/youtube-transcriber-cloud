@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+    "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+  },
+  "title": "EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 [00-30-00 至 01-00-00].m4a",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/fe0318d66f894cec8a96d1b9/EP160%20-%20AI%20%E6%99%82%E4%BB%A3%E7%9A%84%E5%85%AC%E5%8F%B8%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%EF%BC%81%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E5%89%B5%E9%80%A0%E7%99%BE%E5%80%8D%E5%83%B9%E5%80%BC%EF%BC%9FAnthropic%E3%80%81SpaceXAI%20%E5%B7%B2%E7%B6%93%E8%AE%93%E6%88%91%E5%80%91%E7%9C%8B%E8%A6%8B%E7%AD%94%E6%A1%88%EF%BC%81%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/fe0318d66f894cec8a96d1b9",
+  "saved_at": 1792595849.5111017
+}
