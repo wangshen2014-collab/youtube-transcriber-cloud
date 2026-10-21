@@ -21,3 +21,4 @@
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 _01-00-00 至 01-15-20_.m4a](jobs/0649b9512d33a6e289368e04/README.md) <!-- job:0649b9512d33a6e289368e04 -->
 - [EP153 - GPT-6 Astra 強到離譜（大部分情況） _已上传分段合并_](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:916f8b04e567480876e5a65f -->
 - [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ _已上传分段合并_](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:fdb5c1b0b2a07f8f7d69fb83 -->
+- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ _已上传分段合并_](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:7b1d55830d73942e2bcb4e26 -->
