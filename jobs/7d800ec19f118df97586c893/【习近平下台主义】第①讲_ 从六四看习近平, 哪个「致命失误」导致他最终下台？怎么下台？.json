@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+    "source_id": "audio-08387fe5231c4889f61c0b0d"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/xi-lectures-20261021/outputs/7d800ec19f118df97586c893/20261021-064431-e36f34fb",
+  "timings_seconds": {
+    "local_source_selection": 9.275900083594024e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 6.814329221990192,
+    "model_load": 4.478066796000348,
+    "transcription": 1891.867753974002,
+    "total_this_invocation": 1903.6773325579998
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/a536525a-9e80-4e3c-be69-7447f6a6ebee/【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+    "sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+    "original_name": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+  "audio_duration_seconds": 1355.2094375,
+  "selected_start": 0.0,
+  "selected_end": 1355.2094375,
+  "language_probability": 0.9990354776382446,
+  "segment_count": 132,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1354.22,
+  "peak_ram_mb": 2234.6,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

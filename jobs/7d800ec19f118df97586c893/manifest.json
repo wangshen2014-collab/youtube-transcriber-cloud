@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "08387fe5231c4889f61c0b0d3e8fb891ca0342374043fe89fab7b5cd3f17a9b1",
+    "source_id": "audio-08387fe5231c4889f61c0b0d"
+  },
+  "title": "【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/7d800ec19f118df97586c893/%E3%80%90%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E4%B8%BB%E4%B9%89%E3%80%91%E7%AC%AC%E2%91%A0%E8%AE%B2_%20%E4%BB%8E%E5%85%AD%E5%9B%9B%E7%9C%8B%E4%B9%A0%E8%BF%91%E5%B9%B3%2C%20%E5%93%AA%E4%B8%AA%E3%80%8C%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF%E3%80%8D%E5%AF%BC%E8%87%B4%E4%BB%96%E6%9C%80%E7%BB%88%E4%B8%8B%E5%8F%B0%EF%BC%9F%E6%80%8E%E4%B9%88%E4%B8%8B%E5%8F%B0%EF%BC%9F.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/7d800ec19f118df97586c893",
+  "saved_at": 1792566977.1938999
+}

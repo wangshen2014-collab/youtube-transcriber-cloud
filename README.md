@@ -24,3 +24,4 @@
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ _已上传分段合并_](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:7b1d55830d73942e2bcb4e26 -->
 - [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ _已上传分段合并-实际时长_](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:6c126974c8ea48f3689a7680 -->
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras _已上传分段合并-实际时长_](jobs/a65a424234a114412e40827c/README.md) <!-- job:a65a424234a114412e40827c -->
+- [【习近平下台主义】第①讲_ 从六四看习近平, 哪个「致命失误」导致他最终下台？怎么下台？.webm](jobs/7d800ec19f118df97586c893/README.md) <!-- job:7d800ec19f118df97586c893 -->
