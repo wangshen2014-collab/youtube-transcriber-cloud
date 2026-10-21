@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+    "source_id": "audio-22b7b7222a729f68763a0370"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/scratch/batch-20261020-latest/outputs/cloud-batch/b1259f375583b68d40083d16/20261021-000132-429297a2",
+  "timings_seconds": {
+    "local_source_selection": 0.00012003500160062686,
+    "download_or_cache": 0.0,
+    "audio_decode": 0.8070421879965579,
+    "model_load": 3.0459469620036543,
+    "transcription": 594.0274588230022,
+    "total_this_invocation": 598.2989694139978
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/e945f93f-16b0-4f9c-94d0-a0938e3b8dc9/EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a",
+    "sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+    "original_name": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 [01-00-00 至 01-08-59].m4a",
+  "audio_duration_seconds": 539.6906875,
+  "selected_start": 0.0,
+  "selected_end": 539.6906875,
+  "language_probability": 0.9962316155433655,
+  "segment_count": 153,
+  "detected_language": "zh",
+  "last_completed_audio_second": 539.34,
+  "peak_ram_mb": 2458.9,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

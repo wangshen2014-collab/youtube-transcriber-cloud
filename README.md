@@ -15,3 +15,4 @@
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第003段 _01-00-00 至 01-19-02_.m4a](jobs/aaead86a18018c1fb94037c9/README.md) <!-- job:aaead86a18018c1fb94037c9 -->
 - [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/1f1e9185e84b8b9c20d7c0cb/README.md) <!-- job:1f1e9185e84b8b9c20d7c0cb -->
 - [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/80ed4a877ff6d859e5766255/README.md) <!-- job:80ed4a877ff6d859e5766255 -->
+- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 _01-00-00 至 01-08-59_.m4a](jobs/b1259f375583b68d40083d16/README.md) <!-- job:b1259f375583b68d40083d16 -->
