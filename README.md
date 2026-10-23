@@ -43,3 +43,4 @@
 - [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:36231890e52d149f64c56fe0 -->
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！](jobs/cd279e49295f274194933cc9/README.md) <!-- job:cd279e49295f274194933cc9 -->
 - [SOXX](jobs/6ec2f48e571b399c228e81d1/README.md) <!-- job:6ec2f48e571b399c228e81d1 -->
+- [错失一个时代 001](jobs/3624c671eae69253a1f2cb31/README.md) <!-- job:3624c671eae69253a1f2cb31 -->
