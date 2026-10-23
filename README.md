@@ -49,3 +49,4 @@
 - [AI投资分享 001](jobs/927803163329a53609fcba2a/README.md) <!-- job:927803163329a53609fcba2a -->
 - [AI投资分享 002](jobs/c4f5007a734828a14b5aba8a/README.md) <!-- job:c4f5007a734828a14b5aba8a -->
 - [AI投资分享 003](jobs/39c3e19d153a98ba5831f510/README.md) <!-- job:39c3e19d153a98ba5831f510 -->
+- [AI投资分享 004](jobs/3c068fe02e612f7fffa4313a/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
