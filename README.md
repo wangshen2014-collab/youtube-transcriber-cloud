@@ -50,3 +50,4 @@
 - [AI投资分享 002](jobs/c4f5007a734828a14b5aba8a/README.md) <!-- job:c4f5007a734828a14b5aba8a -->
 - [AI投资分享 003](jobs/39c3e19d153a98ba5831f510/README.md) <!-- job:39c3e19d153a98ba5831f510 -->
 - [AI投资分享 004](jobs/3c068fe02e612f7fffa4313a/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
+- [错失一个时代](jobs/552c4620925433d5e30446d6/README.md) <!-- job:552c4620925433d5e30446d6 -->
