@@ -1,0 +1,284 @@
+{
+  "collection_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/collections/528db679cde57bd2d2d17f94",
+  "zip_url": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/528db679cde57bd2d2d17f94/%E5%85%A8%E9%83%A8%E7%BB%93%E6%9E%9C_%E5%90%AB%E4%B8%A4%E7%BB%84%E5%90%88%E5%B9%B6.zip",
+  "results": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "c71749233405503d6e59dce33895d9d8b5958781bdd38de6e54c45696774f49d",
+        "source_id": "audio-c71749233405503d6e59dce3"
+      },
+      "title": "SOXX",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ec2f48e571b399c228e81d1/%E7%BE%8E%E8%82%A1%20%E5%8D%8A%E5%AF%BC%E4%BD%93SOXX%E6%88%90%E5%88%86%E8%82%A1%E5%85%A8%E9%98%B5%E4%BA%A1%EF%BC%81%E5%90%8E%E9%9D%A2%E6%80%8E%E4%B9%88%E7%8E%A9%EF%BC%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%81.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ec2f48e571b399c228e81d1/%E7%BE%8E%E8%82%A1%20%E5%8D%8A%E5%AF%BC%E4%BD%93SOXX%E6%88%90%E5%88%86%E8%82%A1%E5%85%A8%E9%98%B5%E4%BA%A1%EF%BC%81%E5%90%8E%E9%9D%A2%E6%80%8E%E4%B9%88%E7%8E%A9%EF%BC%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%81.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ec2f48e571b399c228e81d1/%E7%BE%8E%E8%82%A1%20%E5%8D%8A%E5%AF%BC%E4%BD%93SOXX%E6%88%90%E5%88%86%E8%82%A1%E5%85%A8%E9%98%B5%E4%BA%A1%EF%BC%81%E5%90%8E%E9%9D%A2%E6%80%8E%E4%B9%88%E7%8E%A9%EF%BC%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%81.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ec2f48e571b399c228e81d1/%E7%BE%8E%E8%82%A1%20%E5%8D%8A%E5%AF%BC%E4%BD%93SOXX%E6%88%90%E5%88%86%E8%82%A1%E5%85%A8%E9%98%B5%E4%BA%A1%EF%BC%81%E5%90%8E%E9%9D%A2%E6%80%8E%E4%B9%88%E7%8E%A9%EF%BC%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%81.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/6ec2f48e571b399c228e81d1",
+      "saved_at": 1792767811.4584286
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+        "source_id": "audio-450f2995a3c2a3480602687f"
+      },
+      "title": "错失一个时代 001",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3624c671eae69253a1f2cb31/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3624c671eae69253a1f2cb31/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3624c671eae69253a1f2cb31/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3624c671eae69253a1f2cb31/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/3624c671eae69253a1f2cb31",
+      "saved_at": 1792767820.0034363
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+        "source_id": "audio-e2a12aea0f3525c8302835db"
+      },
+      "title": "错失一个时代 002",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ea2fbf386dbc5b632609b3e/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ea2fbf386dbc5b632609b3e/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ea2fbf386dbc5b632609b3e/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/6ea2fbf386dbc5b632609b3e/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/6ea2fbf386dbc5b632609b3e",
+      "saved_at": 1792767827.7319906
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+        "source_id": "audio-35d555662e641906421345bd"
+      },
+      "title": "错失一个时代 003",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/4e8b1ad3caf1bc634e6fb1b3/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-03-41%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/4e8b1ad3caf1bc634e6fb1b3/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-03-41%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/4e8b1ad3caf1bc634e6fb1b3/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-03-41%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/4e8b1ad3caf1bc634e6fb1b3/%E3%80%902026-10-23%E6%9C%80%E6%96%B0%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%E3%80%91%E4%BD%86%E6%96%8C%E8%B0%88%E5%BD%93%E4%B8%8B%E6%8A%95%E8%B5%84%E6%9C%BA%E9%81%87%E9%87%8D%E7%82%B9%20%E3%80%8A%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%AF%94%E6%B3%A1%E6%B2%AB%E6%9B%B4%E8%B4%B5%E3%80%8B%E3%80%90%E6%96%87%E5%AD%97%E7%A8%BF%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%8E%E8%A7%A3%E8%AF%BB%E5%90%9B%E6%8E%A8%E7%89%B9X%E3%80%91%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-03-41%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/4e8b1ad3caf1bc634e6fb1b3",
+      "saved_at": 1792767835.086934
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+        "source_id": "audio-6824c0e45622d9348956eea4"
+      },
+      "title": "AI投资分享 001",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/927803163329a53609fcba2a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/927803163329a53609fcba2a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/927803163329a53609fcba2a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/927803163329a53609fcba2a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC001%E6%AE%B5%20%5B00-00-00%20%E8%87%B3%2000-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/927803163329a53609fcba2a",
+      "saved_at": 1792767889.0618644
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+        "source_id": "audio-451d4842dc3b9b9a4425722f"
+      },
+      "title": "AI投资分享 002",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4f5007a734828a14b5aba8a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4f5007a734828a14b5aba8a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4f5007a734828a14b5aba8a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4f5007a734828a14b5aba8a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC002%E6%AE%B5%20%5B00-30-00%20%E8%87%B3%2001-00-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c4f5007a734828a14b5aba8a",
+      "saved_at": 1792767897.2181902
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+        "source_id": "audio-0d74f6ac797c047331327a5a"
+      },
+      "title": "AI投资分享 003",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/39c3e19d153a98ba5831f510/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-30-00%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/39c3e19d153a98ba5831f510/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-30-00%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/39c3e19d153a98ba5831f510/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-30-00%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/39c3e19d153a98ba5831f510/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC003%E6%AE%B5%20%5B01-00-00%20%E8%87%B3%2001-30-00%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/39c3e19d153a98ba5831f510",
+      "saved_at": 1792767904.7818027
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+        "source_id": "audio-0d63c38619dc3d76b15a0c09"
+      },
+      "title": "AI投资分享 004",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3c068fe02e612f7fffa4313a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC004%E6%AE%B5%20%5B01-30-00%20%E8%87%B3%2001-33-07%5D.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3c068fe02e612f7fffa4313a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC004%E6%AE%B5%20%5B01-30-00%20%E8%87%B3%2001-33-07%5D.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3c068fe02e612f7fffa4313a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC004%E6%AE%B5%20%5B01-30-00%20%E8%87%B3%2001-33-07%5D.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3c068fe02e612f7fffa4313a/%E3%80%90%E5%85%A8%E7%A8%8B%E7%A1%AC%E6%A0%B8%E5%86%85%E5%AE%B9%E3%80%91%20%20%E4%BD%86%E6%96%8C%E6%9C%80%E6%96%B01%E5%B0%8F%E6%97%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E4%BA%AB%EF%BC%882026-8-16%E9%99%84%E6%96%87%E7%A8%BF%EF%BC%89%E8%A7%A3%E6%9E%90AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80%EF%BC%8C%E6%98%AF%E5%90%A6%E6%9C%89%E6%B3%A1%E6%B2%AB%EF%BC%8C%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%B4%A2%E5%AF%8C%E6%9C%BA%E4%BC%9A%20%E7%AC%AC004%E6%AE%B5%20%5B01-30-00%20%E8%87%B3%2001-33-07%5D.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/3c068fe02e612f7fffa4313a",
+      "saved_at": 1792767912.0024858
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "uploaded-parts-merge",
+        "parts": [
+          {
+            "sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+            "offset_seconds": 0
+          },
+          {
+            "sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+            "offset_seconds": 1800
+          },
+          {
+            "sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+            "offset_seconds": 3600
+          }
+        ]
+      },
+      "title": "错失一个时代",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/552c4620925433d5e30446d6/%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/552c4620925433d5e30446d6/%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/552c4620925433d5e30446d6/%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/552c4620925433d5e30446d6/%E9%94%99%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/552c4620925433d5e30446d6",
+      "saved_at": 1792767919.5954556
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "source_type": "uploaded-parts-merge",
+        "parts": [
+          {
+            "sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+            "offset_seconds": 0
+          },
+          {
+            "sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+            "offset_seconds": 1800
+          },
+          {
+            "sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+            "offset_seconds": 3600
+          },
+          {
+            "sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+            "offset_seconds": 5400
+          }
+        ]
+      },
+      "title": "AI投资机会和布局",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.zip"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/e5ce988718d03adef7a00b28",
+      "saved_at": 1792767926.9895875
+    }
+  ]
+}
