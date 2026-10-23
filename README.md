@@ -44,3 +44,4 @@
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！](jobs/cd279e49295f274194933cc9/README.md) <!-- job:cd279e49295f274194933cc9 -->
 - [SOXX](jobs/6ec2f48e571b399c228e81d1/README.md) <!-- job:6ec2f48e571b399c228e81d1 -->
 - [错失一个时代 001](jobs/3624c671eae69253a1f2cb31/README.md) <!-- job:3624c671eae69253a1f2cb31 -->
+- [错失一个时代 002](jobs/6ea2fbf386dbc5b632609b3e/README.md) <!-- job:6ea2fbf386dbc5b632609b3e -->
