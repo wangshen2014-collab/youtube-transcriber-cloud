@@ -1,0 +1,8 @@
+# AI投资机会和布局
+
+- [TXT](AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.txt)
+- [SRT](AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.srt)
+- [JSON](AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.json)
+- [ZIP](AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.zip) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.zip)
+
+由 Codex Cloud 转录，原始音频未上传到本分支。

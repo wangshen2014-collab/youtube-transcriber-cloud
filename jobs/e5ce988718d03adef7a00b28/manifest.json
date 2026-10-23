@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "uploaded-parts-merge",
+    "parts": [
+      {
+        "sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+        "offset_seconds": 0
+      },
+      {
+        "sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+        "offset_seconds": 1800
+      },
+      {
+        "sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+        "offset_seconds": 3600
+      },
+      {
+        "sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+        "offset_seconds": 5400
+      }
+    ]
+  },
+  "title": "AI投资机会和布局",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e5ce988718d03adef7a00b28/AI%E6%8A%95%E8%B5%84%E6%9C%BA%E4%BC%9A%E5%92%8C%E5%B8%83%E5%B1%80_%E5%B7%B2%E4%B8%8A%E4%BC%A0%E5%88%86%E6%AE%B5%E5%90%88%E5%B9%B6.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/e5ce988718d03adef7a00b28",
+  "saved_at": 1792767926.9895875
+}

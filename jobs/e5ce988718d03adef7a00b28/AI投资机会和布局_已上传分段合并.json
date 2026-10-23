@@ -1,0 +1,345 @@
+{
+  "status": "completed",
+  "operation": "merge-existing-transcriptions",
+  "settings": {
+    "source_type": "uploaded-parts-merge",
+    "parts": [
+      {
+        "sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+        "offset_seconds": 0
+      },
+      {
+        "sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+        "offset_seconds": 1800
+      },
+      {
+        "sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+        "offset_seconds": 3600
+      },
+      {
+        "sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+        "offset_seconds": 5400
+      }
+    ]
+  },
+  "title": "AI投资机会和布局",
+  "selected_start": 0,
+  "selected_end": 5587.9253125,
+  "nominal_filename_end_seconds": 5587,
+  "segment_count": 2729,
+  "detected_language": "zh",
+  "parts": [
+    {
+      "number": 1,
+      "original_name": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+      "offset_seconds": 0,
+      "duration_seconds": 1800.0,
+      "segment_count": 629,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+        "source_id": "audio-6824c0e45622d9348956eea4",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+          "source_id": "audio-6824c0e45622d9348956eea4"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-050200-3841ba6a",
+        "timings_seconds": {
+          "local_source_selection": 7.174699976530974e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.0557639600001494,
+          "model_load": 1.9575686129996939,
+          "transcription": 1184.049902803,
+          "total_this_invocation": 1187.351356482
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/d95b0458-4c20-4e8d-8c1c-b164f4ca78ae/【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9573634266853333,
+        "segment_count": 629,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.32,
+        "peak_ram_mb": 3176.9
+      }
+    },
+    {
+      "number": 2,
+      "original_name": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+      "offset_seconds": 1800,
+      "duration_seconds": 1800.0,
+      "segment_count": 1040,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+        "source_id": "audio-451d4842dc3b9b9a4425722f",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+          "source_id": "audio-451d4842dc3b9b9a4425722f"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-052148-4f45bd41",
+        "timings_seconds": {
+          "local_source_selection": 6.634900000790367e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.9877405180004644,
+          "model_load": 2.0294454470003984,
+          "transcription": 1268.0368030320005,
+          "total_this_invocation": 1271.3219389729993
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/9e572e4e-7b24-4d1c-af7f-8e10f9ec04ec/【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9599429368972778,
+        "segment_count": 1040,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.64,
+        "peak_ram_mb": 2549.3
+      }
+    },
+    {
+      "number": 3,
+      "original_name": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第003段 [01-00-00 至 01-30-00].m4a",
+      "audio_sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+      "offset_seconds": 3600,
+      "duration_seconds": 1800.0,
+      "segment_count": 1034,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+        "source_id": "audio-0d74f6ac797c047331327a5a",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+          "source_id": "audio-0d74f6ac797c047331327a5a"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-054259-8f801646",
+        "timings_seconds": {
+          "local_source_selection": 9.252899963030359e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.05842906900034,
+          "model_load": 2.055322365000393,
+          "transcription": 1170.6784287660003,
+          "total_this_invocation": 1174.0648437529999
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/bf77293d-d0cd-4ea4-9bc8-4c165fde069a/【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第003段 [01-00-00 至 01-30-00].m4a",
+          "sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第003段 [01-00-00 至 01-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9812348484992981,
+        "segment_count": 1034,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2549.2
+      }
+    },
+    {
+      "number": 4,
+      "original_name": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第004段 [01-30-00 至 01-33-07].m4a",
+      "audio_sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+      "offset_seconds": 5400,
+      "duration_seconds": 187.9253125,
+      "segment_count": 26,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+        "source_id": "audio-0d63c38619dc3d76b15a0c09",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+          "source_id": "audio-0d63c38619dc3d76b15a0c09"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-060233-cbed2f1c",
+        "timings_seconds": {
+          "local_source_selection": 6.411600043065846e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.12462560399944778,
+          "model_load": 1.9991840640004739,
+          "transcription": 150.86251529499987,
+          "total_this_invocation": 153.23390604799988
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/d4503a1d-7a1c-4ec5-9da2-aad750b95434/【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第004段 [01-30-00 至 01-33-07].m4a",
+          "sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会 第004段 [01-30-00 至 01-33-07].m4a",
+        "audio_duration_seconds": 187.9253125,
+        "selected_start": 0.0,
+        "selected_end": 187.9253125,
+        "language_probability": 0.9971199035644531,
+        "segment_count": 26,
+        "detected_language": "zh",
+        "last_completed_audio_second": 187.9253125,
+        "peak_ram_mb": 2371.3
+      }
+    }
+  ],
+  "original_transcription_seconds_sum": 3773.6276498960005,
+  "original_model_load_seconds_sum": 8.041520489000959,
+  "original_peak_ram_mb_max": 3176.9,
+  "merge_seconds": 0.029276946999743814,
+  "checks": {
+    "sequence_contiguous": true,
+    "common_title": true,
+    "duration_matches_filenames_within_one_second": true,
+    "srt_order_and_bounds": true,
+    "all_part_segments_preserved": true
+  },
+  "note": "仅合并本次已上传的连续分段；SRT 加回各段原始偏移，末段保留解码实际时长。文字未重写，未重新转录。"
+}

@@ -51,3 +51,4 @@
 - [AI投资分享 003](jobs/39c3e19d153a98ba5831f510/README.md) <!-- job:39c3e19d153a98ba5831f510 -->
 - [AI投资分享 004](jobs/3c068fe02e612f7fffa4313a/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
 - [错失一个时代](jobs/552c4620925433d5e30446d6/README.md) <!-- job:552c4620925433d5e30446d6 -->
+- [AI投资机会和布局](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:e5ce988718d03adef7a00b28 -->
