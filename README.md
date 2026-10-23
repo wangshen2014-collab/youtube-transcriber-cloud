@@ -47,3 +47,4 @@
 - [错失一个时代 002](jobs/6ea2fbf386dbc5b632609b3e/README.md) <!-- job:6ea2fbf386dbc5b632609b3e -->
 - [错失一个时代 003](jobs/4e8b1ad3caf1bc634e6fb1b3/README.md) <!-- job:4e8b1ad3caf1bc634e6fb1b3 -->
 - [AI投资分享 001](jobs/927803163329a53609fcba2a/README.md) <!-- job:927803163329a53609fcba2a -->
+- [AI投资分享 002](jobs/c4f5007a734828a14b5aba8a/README.md) <!-- job:c4f5007a734828a14b5aba8a -->
