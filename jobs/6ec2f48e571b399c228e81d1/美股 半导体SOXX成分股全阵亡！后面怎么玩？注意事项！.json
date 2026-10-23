@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "c71749233405503d6e59dce33895d9d8b5958781bdd38de6e54c45696774f49d",
+    "source_id": "audio-c71749233405503d6e59dce3"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": true,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-035628-c7be11dc",
+  "timings_seconds": {
+    "local_source_selection": 6.185200000174973e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.099747999000002,
+    "model_load": 28.29835248500001,
+    "transcription": 1306.545359497,
+    "total_this_invocation": 1339.231674697
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/1e4bf892-cb7e-499f-a2c7-6906bd0ba66f/美股 半导体SOXX成分股全阵亡！后面怎么玩？注意事项！.webm",
+    "sha256": "c71749233405503d6e59dce33895d9d8b5958781bdd38de6e54c45696774f49d"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "美股 半导体SOXX成分股全阵亡！后面怎么玩？注意事项！.webm",
+  "audio_duration_seconds": 2042.176,
+  "selected_start": 0.0,
+  "selected_end": 2042.176,
+  "language_probability": 0.9979350566864014,
+  "segment_count": 1118,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2041.2800000000002,
+  "peak_ram_mb": 3299.7
+}
