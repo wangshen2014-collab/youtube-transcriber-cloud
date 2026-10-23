@@ -1,0 +1,266 @@
+{
+  "status": "completed",
+  "operation": "merge-existing-transcriptions",
+  "settings": {
+    "source_type": "uploaded-parts-merge",
+    "parts": [
+      {
+        "sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+        "offset_seconds": 0
+      },
+      {
+        "sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+        "offset_seconds": 1800
+      },
+      {
+        "sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+        "offset_seconds": 3600
+      }
+    ]
+  },
+  "title": "错失一个时代",
+  "selected_start": 0,
+  "selected_end": 3821.0133125,
+  "nominal_filename_end_seconds": 3821,
+  "segment_count": 1967,
+  "detected_language": "zh",
+  "parts": [
+    {
+      "number": 1,
+      "original_name": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+      "offset_seconds": 0,
+      "duration_seconds": 1800.0,
+      "segment_count": 946,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+        "source_id": "audio-450f2995a3c2a3480602687f",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+          "source_id": "audio-450f2995a3c2a3480602687f"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-041951-28a286fe",
+        "timings_seconds": {
+          "local_source_selection": 7.094700004017795e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.9891293539999424,
+          "model_load": 1.9535668199998781,
+          "transcription": 1193.8225605070002,
+          "total_this_invocation": 1197.0497857429998
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/7fc86f6d-2114-450f-9ad5-3454cac429fc/【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9936560392379761,
+        "segment_count": 946,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1799.5600000000002,
+        "peak_ram_mb": 2549.2
+      }
+    },
+    {
+      "number": 2,
+      "original_name": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+      "offset_seconds": 1800,
+      "duration_seconds": 1800.0,
+      "segment_count": 927,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+        "source_id": "audio-e2a12aea0f3525c8302835db",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+          "source_id": "audio-e2a12aea0f3525c8302835db"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-043948-835e0beb",
+        "timings_seconds": {
+          "local_source_selection": 6.94840000505792e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.9826339330002156,
+          "model_load": 2.2865656260000833,
+          "transcription": 1201.168918456,
+          "total_this_invocation": 1204.7546603259998
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/d0cafd31-94f8-4ba2-8afe-1fe5fbb1fce5/【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9970366954803467,
+        "segment_count": 927,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1798.96,
+        "peak_ram_mb": 2549.2
+      }
+    },
+    {
+      "number": 3,
+      "original_name": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第003段 [01-00-00 至 01-03-41].m4a",
+      "audio_sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+      "offset_seconds": 3600,
+      "duration_seconds": 221.0133125,
+      "segment_count": 94,
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 6,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+        "source_id": "audio-35d555662e641906421345bd",
+        "task": "transcribe"
+      },
+      "original_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+          "source_id": "audio-35d555662e641906421345bd"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/20261023-045953-7e7ecf38",
+        "timings_seconds": {
+          "local_source_selection": 7.326000013563316e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.13889382699971975,
+          "model_load": 2.082696672000111,
+          "transcription": 124.65150161400015,
+          "total_this_invocation": 127.14361424200024
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/8a0c1643-52c9-4dd3-9ca2-affdf34d6cab/【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第003段 [01-00-00 至 01-03-41].m4a",
+          "sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "【2026-10-23最新重要内容】但斌谈当下投资机遇重点 《错失一个时代比泡沫更贵》【文字稿件发布于解读君推特X】 第003段 [01-00-00 至 01-03-41].m4a",
+        "audio_duration_seconds": 221.0133125,
+        "selected_start": 0.0,
+        "selected_end": 221.0133125,
+        "language_probability": 0.9981628060340881,
+        "segment_count": 94,
+        "detected_language": "zh",
+        "last_completed_audio_second": 207.12,
+        "peak_ram_mb": 2259.4
+      }
+    }
+  ],
+  "original_transcription_seconds_sum": 2519.6429805770003,
+  "original_model_load_seconds_sum": 6.322829118000072,
+  "original_peak_ram_mb_max": 2549.2,
+  "merge_seconds": 0.02092702599838958,
+  "checks": {
+    "sequence_contiguous": true,
+    "common_title": true,
+    "duration_matches_filenames_within_one_second": true,
+    "srt_order_and_bounds": true,
+    "all_part_segments_preserved": true
+  },
+  "note": "仅合并本次已上传的连续分段；SRT 加回各段原始偏移，末段保留解码实际时长。文字未重写，未重新转录。"
+}
