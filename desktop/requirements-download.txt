@@ -1,0 +1,3 @@
+# Local downloader only: keep matching EJS scripts when installing/updating yt-dlp.
+# This does not change Whisper/CTranslate2/PyAV dependencies.
+yt-dlp[default]>=2026.8.19

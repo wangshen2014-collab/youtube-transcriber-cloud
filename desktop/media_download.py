@@ -52,8 +52,12 @@ def login_options(task, work_dir):
 
 
 def friendly_error(error):
-    message = str(error)
+    message = re.sub(r'\x1b\[[0-?]*[ -/]*[@-~]', '', str(error))
     lower = message.lower()
+    if any(word in lower for word in ('n challenge', 'challenge solving', 'javascript runtime', 'yt-dlp-ejs')):
+        return 'YouTube 视频验证未完成，可能缺少或未启用匹配的 JavaScript/EJS 组件。请更新下载组件并检查应用 runtime 中的 Node（22或更新版本）；不是重新导出 Cookie 就能解决的问题。'
+    if 'requested format is not available' in lower or 'only images are available' in lower:
+        return '下载器未取得所需音视频格式（可能只拿到预览图片）。请查看前面的下载警告，检查 JavaScript/EJS 组件、会员登录权限及可用清晰度。'
     if 'cookie' in lower and ('copy' in lower or 'locked' in lower or 'permission' in lower):
         return '无法读取浏览器 Cookie 数据库，可能被占用。请手动关闭对应浏览器后重试；程序不会强制关闭浏览器。'
     if 'dpapi' in lower or 'app-bound' in lower or ('cookie' in lower and 'decrypt' in lower):
@@ -62,23 +66,48 @@ def friendly_error(error):
         return '此视频需要有效的登录或频道会员权限。请确认所选浏览器账号及会员等级可观看此视频，再勾选使用登录状态；已勾选则可能登录已失效。'
     if 'drm' in lower:
         return '此内容受 DRM 保护，当前工具不支持下载，不会尝试绕过保护。'
+    if 'ffmpeg not found' in lower or 'writing dash m4a' in lower:
+        return '未使用独立 ffmpeg 命令；本工具会用已有 PyAV 无损合并画面与声音并检查可播放性。'
+    if 'libdav1d' in lower:
+        return '本机音视频组件不能解码所选 AV1 格式，请优先使用兼容的 H.264 视频。'
     # Avoid logging signed request parameters, cookies, or verbose HTTP headers.
     message = re.sub(r'(https?://[^\s?]+)\?[^\s]+', r'\1?<请求参数已隐藏>', message)
     return message[:700]
 
 
 class QuietLogger:
+    def __init__(self, emit=None):
+        self.emit = emit
+        self.seen = set()
+
     def debug(self, _message):
         pass
 
     def info(self, _message):
         pass
 
-    def warning(self, _message):
-        pass
+    def warning(self, message):
+        # Surface safe diagnostics, never raw headers, cookie values or signed URLs.
+        cleaned = friendly_error(message)
+        if self.emit and cleaned not in self.seen:
+            self.emit('status', '下载提示：' + cleaned)
+            self.seen.add(cleaned)
 
     def error(self, _message):
         pass
+
+
+def runtime_options(app_dir=None):
+    """Prefer app-owned runtime so desktop launch never relies on Codex's PATH."""
+    app_dir = Path(app_dir) if app_dir else Path(__file__).resolve().parent
+    owned = app_dir / 'runtime' / 'node.exe'
+    node = str(owned) if owned.is_file() else shutil.which('node')
+    return {'js_runtimes': {'node': {'path': node}}} if node else {}
+
+
+def downloader_options(auth=None, emit=None):
+    return {'noplaylist': True, 'quiet': True, 'no_warnings': False,
+            'logger': QuietLogger(emit), **runtime_options(), **(auth or {})}
 
 
 def choose_formats(info, height):
@@ -87,7 +116,9 @@ def choose_formats(info, height):
               and f.get('height') and f['height'] <= height]
     if not videos:
         raise ValueError('没有可用的非 DRM 视频格式；请检查观看权限或更新下载组件')
-    video = max(videos, key=lambda f: (f['height'], f.get('ext') == 'mp4', f.get('fps') or 0, f.get('tbr') or 0))
+    video = max(videos, key=lambda f: (f['height'],
+        str(f.get('vcodec', '')).startswith(('avc1', 'h264')),
+        f.get('ext') == 'mp4', f.get('fps') or 0, f.get('tbr') or 0))
     if video.get('acodec') not in (None, 'none'):
         return [video]
     audios = [f for f in formats if f.get('acodec') not in (None, 'none') and f.get('vcodec') == 'none']
@@ -145,8 +176,7 @@ def download_video(url, output_dir, work_dir, height=720, auth=None,
     output_dir, work_dir = Path(output_dir), Path(work_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     work_dir.mkdir(parents=True, exist_ok=True)
-    options = {'noplaylist': True, 'quiet': True, 'no_warnings': True, 'logger': QuietLogger(),
-               **(auth or {})}
+    options = downloader_options(auth, emit)
     owned_target = None
 
     def progress(_data):

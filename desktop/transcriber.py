@@ -14,7 +14,7 @@ from pathlib import Path
 from tkinter import Tk, Toplevel, StringVar, BooleanVar, Text, END, DISABLED, NORMAL, filedialog, messagebox
 from tkinter import ttk
 from audio_export import export_audio, export_upload_audio, ExportPaused, track_export, cleanup_exports
-from media_download import login_options, download_video, friendly_error, QuietLogger
+from media_download import login_options, download_video, friendly_error, downloader_options
 
 APP_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = APP_DIR / "config.json"
@@ -124,7 +124,7 @@ def get_cached_or_download_audio(url, emit, force_download=False, auth=None):
     """Returns (audio_path, video_info, came_from_cache), keyed by video ID."""
     import yt_dlp
     AUDIO_CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    probe_options = {"quiet": True, "no_warnings": True, "noplaylist": True, "logger": QuietLogger(), **(auth or {})}
+    probe_options = downloader_options(auth, emit)
     with yt_dlp.YoutubeDL(probe_options) as ydl:
         video_info = ydl.extract_info(url, download=False)
     video_id = video_info.get("id")
@@ -141,7 +141,7 @@ def get_cached_or_download_audio(url, emit, force_download=False, auth=None):
         except OSError: pass
         videos.pop(video_id, None)
     emit("status", "正在下载最佳音频到本地缓存…")
-    options = {"format": "bestaudio/best", "outtmpl": str(AUDIO_CACHE_DIR / f"{video_id}.%(ext)s"), "noplaylist": True, "quiet": True, "no_warnings": True, "logger": QuietLogger(), **(auth or {})}
+    options = {**downloader_options(auth, emit), "format": "bestaudio/best", "outtmpl": str(AUDIO_CACHE_DIR / f"{video_id}.%(ext)s")}
     with yt_dlp.YoutubeDL(options) as ydl:
         downloaded_info = ydl.extract_info(url, download=True)
     candidates = [p for p in AUDIO_CACHE_DIR.glob(f"{video_id}.*") if p.name != CACHE_METADATA_PATH.name]
@@ -814,7 +814,7 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
     def update_ytdlp(self):
         self.append("正在更新下载组件…")
         def update():
-            result = subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "yt-dlp"], text=True, capture_output=True)
+            result = subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "yt-dlp[default]"], text=True, capture_output=True)
             self.emit("status", "下载组件更新" + ("完成。" if result.returncode == 0 else "失败：" + result.stderr[-500:]))
         threading.Thread(target=update, daemon=True).start()
 

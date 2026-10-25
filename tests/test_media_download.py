@@ -47,6 +47,11 @@ class MediaDownloadTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             media.choose_formats(self.info, 720)
 
+    def test_h264_wins_over_higher_bitrate_av1_at_same_resolution(self):
+        self.info['formats'].append({'format_id': 'av1', 'height': 1080, 'ext': 'mp4',
+            'vcodec': 'av01.0.08M.08', 'acodec': 'none', 'tbr': 99999})
+        self.assertEqual(media.choose_formats(self.info, 1080)[0]['format_id'], 'v1080')
+
     def fixtures(self):
         import av
         from fractions import Fraction
@@ -113,3 +118,26 @@ class MediaDownloadTests(unittest.TestCase):
         self.assertIn('系统加密', media.friendly_error('Failed to decrypt with DPAPI'))
         self.assertIn('手动关闭', media.friendly_error('Could not copy Chrome cookie database'))
         self.assertNotIn('SECRET', media.friendly_error('HTTP error https://example.org/file?token=SECRET'))
+
+    def test_runtime_prefers_app_owned_node_even_without_path(self):
+        runtime = self.root / 'runtime'; runtime.mkdir()
+        node = runtime / 'node.exe'; node.write_bytes(b'test-placeholder')
+        with mock.patch.object(media.shutil, 'which', return_value=None):
+            self.assertEqual(media.runtime_options(self.root), {'js_runtimes': {'node': {'path': str(node)}}})
+
+    def test_runtime_enables_path_node_explicitly(self):
+        with mock.patch.object(media.shutil, 'which', return_value='/trusted/bin/node'):
+            self.assertEqual(media.runtime_options(self.root), {'js_runtimes': {'node': {'path': '/trusted/bin/node'}}})
+
+    def test_important_warnings_are_visible_deduplicated_and_clean(self):
+        messages = []
+        logger = media.QuietLogger(lambda kind, value: messages.append((kind, value)))
+        logger.debug('Cookie: DO_NOT_LOG')
+        logger.warning('n challenge solving failed')
+        logger.warning('n challenge solving failed')
+        self.assertEqual(len(messages), 1)
+        self.assertIn('JavaScript/EJS', messages[0][1])
+        self.assertNotIn('DO_NOT_LOG', str(messages))
+        cleaned = media.friendly_error('\x1b[0;31mERROR:\x1b[0m Requested format is not available')
+        self.assertNotIn('\x1b', cleaned)
+        self.assertIn('预览图片', cleaned)
