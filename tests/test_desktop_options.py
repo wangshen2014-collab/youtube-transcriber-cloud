@@ -37,6 +37,8 @@ class DesktopOptionsTests(unittest.TestCase):
         checkbox = next(w for w in descendants(root)
                         if w.winfo_class() == 'TCheckbutton' and '自动拆分音频' in w.cget('text'))
         self.assertFalse(app.split_audio.get())
+        self.assertFalse(app.use_login.get())
+        self.assertEqual(app.login_browser.get(), '本地 Cookie 文件')
         app.url.set('https://www.youtube.com/watch?v=DuG4PXAe084')
         app.operation.set('仅下载音频')
         with mock.patch.object(app_module, 'atomic_write_json'), \
@@ -47,5 +49,17 @@ class DesktopOptionsTests(unittest.TestCase):
             app.start()
             checkbox.invoke()
         self.assertFalse(app.tasks[0]['split_audio'])
+        self.assertFalse(app.tasks[0]['use_login'])
+        self.assertEqual(app.tasks[0]['video_height'], 720)
         self.assertTrue(app.tasks[1]['split_audio'])
         self.assertFalse(app.split_audio.get())
+        app.operation.set('下载视频（含声音）')
+        app.video_quality.set('1080p')
+        app.on_operation_changed()
+        self.assertEqual(app.transcribe_btn.cget('text'), '下载视频')
+        with mock.patch.object(app_module, 'atomic_write_json'), \
+             mock.patch.object(app, 'ensure_scheduler'):
+            app.start()
+        self.assertEqual(app.tasks[-1]['operation'], 'download_video')
+        self.assertEqual(app.tasks[-1]['video_height'], 1080)
+        self.assertFalse(app.tasks[-1]['use_login'])

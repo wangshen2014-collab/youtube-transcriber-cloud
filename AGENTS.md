@@ -97,6 +97,11 @@ source lives in desktop/. Do not modify the user's installed Windows app during 
 8. Do not read browser cookies, request user passwords, or bypass YouTube restrictions.
    If cloud downloading is blocked, report it and suggest a user-provided audio file
    for a future diagnostic; do not claim transcription succeeded.
+   Exception: the local desktop downloader may use a specifically selected browser
+   or local cookie file ONLY after explicit human authorization. Never upload those
+   credentials to Codex Cloud/GitHub, try other browsers without consent, or bypass
+   OS encryption, DRM or missing membership rights. Member transcripts must not be
+   published to the public results branch without appropriate user/rights approval.
 9. Never commit state/, models/, outputs/, media, OAuth credentials, or API keys to
    the code branch. batch_transcribe.py may publish only allowlisted results and
    text checkpoints to the separate transcripts branch with the user's authorization.

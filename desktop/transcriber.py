@@ -14,6 +14,7 @@ from pathlib import Path
 from tkinter import Tk, Toplevel, StringVar, BooleanVar, Text, END, DISABLED, NORMAL, filedialog, messagebox
 from tkinter import ttk
 from audio_export import export_audio, export_upload_audio, ExportPaused, track_export, cleanup_exports
+from media_download import login_options, download_video, friendly_error, QuietLogger
 
 APP_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = APP_DIR / "config.json"
@@ -119,11 +120,11 @@ def cache_summary():
     total = sum(p.stat().st_size for p in files)
     return f"音频缓存：{len(files)} 个文件 / {total / 1024 / 1024:.1f} MB"
 
-def get_cached_or_download_audio(url, emit, force_download=False):
+def get_cached_or_download_audio(url, emit, force_download=False, auth=None):
     """Returns (audio_path, video_info, came_from_cache), keyed by video ID."""
     import yt_dlp
     AUDIO_CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    probe_options = {"quiet": True, "no_warnings": True, "noplaylist": True}
+    probe_options = {"quiet": True, "no_warnings": True, "noplaylist": True, "logger": QuietLogger(), **(auth or {})}
     with yt_dlp.YoutubeDL(probe_options) as ydl:
         video_info = ydl.extract_info(url, download=False)
     video_id = video_info.get("id")
@@ -140,7 +141,7 @@ def get_cached_or_download_audio(url, emit, force_download=False):
         except OSError: pass
         videos.pop(video_id, None)
     emit("status", "正在下载最佳音频到本地缓存…")
-    options = {"format": "bestaudio/best", "outtmpl": str(AUDIO_CACHE_DIR / f"{video_id}.%(ext)s"), "noplaylist": True, "quiet": True, "no_warnings": True}
+    options = {"format": "bestaudio/best", "outtmpl": str(AUDIO_CACHE_DIR / f"{video_id}.%(ext)s"), "noplaylist": True, "quiet": True, "no_warnings": True, "logger": QuietLogger(), **(auth or {})}
     with yt_dlp.YoutubeDL(options) as ydl:
         downloaded_info = ydl.extract_info(url, download=True)
     candidates = [p for p in AUDIO_CACHE_DIR.glob(f"{video_id}.*") if p.name != CACHE_METADATA_PATH.name]
@@ -226,7 +227,7 @@ class App:
     def __init__(self, root):
         self.root = root
         self.root.title("YouTube 视频转文字")
-        self.root.geometry("760x800")
+        self.root.geometry("820x900")
         self.root.minsize(650, 640)
         self.events = queue.Queue()
         self.tasks_lock = threading.Lock()
@@ -235,6 +236,8 @@ class App:
             # A process ending while a task ran leaves its checkpoint intact.
             if task.get("state") == "running":
                 task["state"] = "queued"
+            if task.get("use_login") and task.get("state") == "queued":
+                task["state"] = "paused"  # Renew consent after app restart.
         self.scheduler_thread = None
         self.running_task_id = None
         self.pause_requested = threading.Event()
@@ -247,6 +250,11 @@ class App:
         self.decoding = StringVar(value="均衡（推荐）")
         self.operation = StringVar(value="转录文字（默认）")
         self.split_audio = BooleanVar(value=False)
+        self.video_quality = StringVar(value="720p（推荐）")
+        self.use_login = BooleanVar(value=False)
+        self.login_browser = StringVar(value="本地 Cookie 文件")
+        self.browser_profile = StringVar(value="")
+        self.cookie_file = StringVar(value="")
         self.range_mode = StringVar(value="完整视频（默认）")
         self.range_start = StringVar(value="")
         self.range_end = StringVar(value="")
@@ -280,9 +288,9 @@ class App:
         header = ttk.Frame(outer)
         header.grid(column=0, row=0, columnspan=3, sticky="ew", pady=(0,14))
         ttk.Label(header, text="YouTube 视频转文字", font=("Microsoft YaHei UI", 16, "bold")).pack(side="left")
-        operation = ttk.Combobox(header, textvariable=self.operation, values=["转录文字（默认）", "仅下载音频"], state="readonly", width=20)
+        operation = ttk.Combobox(header, textvariable=self.operation, values=["转录文字（默认）", "仅下载音频", "下载视频（含声音）"], state="readonly", width=22)
         operation.pack(side="right")
-        operation.bind("<<ComboboxSelected>>", lambda _event: self.transcribe_btn.configure(text="下载音频" if self.operation.get() == "仅下载音频" else "开始转录"))
+        operation.bind("<<ComboboxSelected>>", self.on_operation_changed)
         ttk.Label(outer, text="YouTube 链接:").grid(column=0, row=1, sticky="w", pady=5)
         self.url_entry = ttk.Entry(outer, textvariable=self.url)
         self.url_entry.grid(column=1, row=1, columnspan=2, sticky="ew", pady=5)
@@ -309,8 +317,21 @@ class App:
         self.range_end_entry.pack(side="left", padx=4)
         download_options = ttk.Frame(outer)
         download_options.grid(column=1, row=9, columnspan=2, sticky="w", pady=(0,5))
-        ttk.Label(download_options, text="结束留空到结尾。", foreground="#555555").pack(side="left")
-        ttk.Checkbutton(download_options, text="自动拆分音频（仅下载，每份不超过 30 MB）", variable=self.split_audio).pack(side="left")
+        line = ttk.Frame(download_options); line.pack(anchor="w")
+        ttk.Label(line, text="结束留空到结尾。", foreground="#555555").pack(side="left")
+        ttk.Checkbutton(line, text="自动拆分音频（仅下载，每份不超过 30 MB）", variable=self.split_audio).pack(side="left")
+        line = ttk.Frame(download_options); line.pack(anchor="w", pady=3)
+        ttk.Label(line, text="视频清晰度：").pack(side="left")
+        ttk.Combobox(line, textvariable=self.video_quality, values=["720p（推荐）", "1080p"], state="readonly", width=16).pack(side="left")
+        ttk.Label(line, text="视频模式仅完整下载；不自动过期。", foreground="#555555").pack(side="left", padx=6)
+        line = ttk.Frame(download_options); line.pack(anchor="w", pady=3)
+        ttk.Checkbutton(line, text="授权使用本机登录状态（默认关闭）", variable=self.use_login, command=self.confirm_login).pack(side="left")
+        ttk.Combobox(line, textvariable=self.login_browser, values=["Chrome", "Edge", "Firefox", "本地 Cookie 文件"], state="readonly", width=18).pack(side="left")
+        line = ttk.Frame(download_options); line.pack(anchor="w", pady=3)
+        ttk.Label(line, text="浏览器配置（留空默认）：").pack(side="left")
+        ttk.Entry(line, textvariable=self.browser_profile, width=15).pack(side="left")
+        ttk.Button(line, text="选择本地 Cookie 文件", command=self.choose_cookie_file).pack(side="left", padx=6)
+        ttk.Label(download_options, textvariable=self.cookie_file, foreground="#555555", wraplength=580).pack(anchor="w")
         ttk.Label(outer, text="音频缓存保留时间:").grid(column=0, row=10, sticky="w", pady=5)
         retention = ttk.Combobox(outer, textvariable=self.cache_retention, values=["48 小时", "7 天（推荐）", "30 天", "手动清理前一直保留"], state="readonly", width=24)
         retention.grid(column=1, row=10, sticky="w", pady=5)
@@ -357,6 +378,20 @@ class App:
     def browse(self):
         folder = filedialog.askdirectory(initialdir=self.output.get() or str(DEFAULT_OUTPUT))
         if folder: self.output.set(folder)
+
+    def on_operation_changed(self, _event=None):
+        labels = {"仅下载音频": "下载音频", "下载视频（含声音）": "下载视频"}
+        self.transcribe_btn.configure(text=labels.get(self.operation.get(), "开始转录"))
+
+    def confirm_login(self):
+        if self.use_login.get() and not messagebox.askyesno("本机登录授权", "仅在本机读取你指定的浏览器或 Cookie 文件，用于你有权观看的 YouTube 视频。\n登录数据不会上传到 Codex 或 GitHub。使用账号下载可能触发风控或封号，不能保证所有会员视频可下载。\n是否授权本次打开应用期间的新任务使用此登录状态？"):
+            self.use_login.set(False)
+
+    def choose_cookie_file(self):
+        path = filedialog.askopenfilename(title="选择你自行导出的 YouTube Cookie 文件（不要上传）", filetypes=[("Cookie 文本", "*.txt"), ("全部文件", "*.*")])
+        if path:
+            self.cookie_file.set(path)
+            self.login_browser.set("本地 Cookie 文件")
 
     def on_range_changed(self, _event=None):
         state = NORMAL if self.range_mode.get() == "自定义时间段" else DISABLED
@@ -483,6 +518,9 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             self.scheduler_thread.start()
 
     def resume_incomplete_tasks(self):
+        authenticated = [t for t in self.tasks if t.get("state") in ("failed", "paused") and t.get("use_login")]
+        if authenticated and not messagebox.askyesno("恢复登录授权任务", "未完成任务需要读取已选择的本机浏览器或 Cookie 文件。是否重新授权并继续？"):
+            return
         with self.tasks_lock:
             count = 0
             for task in self.tasks:
@@ -511,13 +549,20 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             range_start, range_end = self.selected_range()
         except ValueError as exc:
             return messagebox.showwarning("转录范围", str(exc))
-        if self.operation.get() != "仅下载音频" and self.quality.get() == "高精度（large-v3）" and not messagebox.askyesno("高精度模式", "large-v3 模型较大，在 CPU 上可能需要较长时间。是否继续？"):
+        if self.operation.get() == "下载视频（含声音）" and (range_start or range_end is not None):
+            return messagebox.showwarning("视频下载", "视频模式目前只下载完整视频，请先选择完整视频；音频仍支持自定义时间段。")
+        if self.use_login.get() and self.login_browser.get() == "本地 Cookie 文件" and not Path(self.cookie_file.get()).is_file():
+            return messagebox.showwarning("登录状态", "请先选择本地 Cookie 文件；不要把文件上传到聊天或 GitHub。")
+        if self.operation.get() == "转录文字（默认）" and self.quality.get() == "高精度（large-v3）" and not messagebox.askyesno("高精度模式", "large-v3 模型较大，在 CPU 上可能需要较长时间。是否继续？"):
             return
         task = {"id": uuid.uuid4().hex, "url": url, "language": self.language.get(),
                 "quality": self.quality.get(), "decoding": self.decoding.get(),
                 "output": self.output.get(), "range_start": range_start, "range_end": range_end,
-                "operation": "download_audio" if self.operation.get() == "仅下载音频" else "transcribe",
+                "operation": {"仅下载音频": "download_audio", "下载视频（含声音）": "download_video"}.get(self.operation.get(), "transcribe"),
                 "split_audio": self.split_audio.get(),
+                "video_height": 1080 if self.video_quality.get() == "1080p" else 720,
+                "use_login": self.use_login.get(), "login_browser": self.login_browser.get(),
+                "browser_profile": self.browser_profile.get(), "cookie_file": self.cookie_file.get(),
                 "state": "queued", "created_at": time.time()}
         with self.tasks_lock:
             self.tasks.append(task)
@@ -575,7 +620,19 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             output_dir = Path(output_text).expanduser(); output_dir.mkdir(parents=True, exist_ok=True)
             job_dir = TEMP_DIR / f"job-{datetime.now():%Y%m%d-%H%M%S}-{os.getpid()}"
             job_dir.mkdir(parents=True, exist_ok=True)
-            audio_path, info, used_cache = get_cached_or_download_audio(url, self.emit)
+            auth = login_options(task, job_dir)
+            if task.get("operation") == "download_video":
+                try:
+                    path, info = download_video(url, output_dir, job_dir, task.get("video_height", 720),
+                                                auth, self.emit, self.pause_requested.is_set)
+                except ExportPaused:
+                    return self.pause_task(task)
+                task["video_output"] = str(path)
+                task["video_title"] = info.get("title", "YouTube")
+                self.mark_task(task, "completed")
+                self.emit("video_done", str(path))
+                return
+            audio_path, info, used_cache = get_cached_or_download_audio(url, self.emit, auth=auth)
             if self.pause_requested.is_set():
                 return self.pause_task(task)
             title = info.get("title", "YouTube transcript")
@@ -680,7 +737,7 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
                         raise
                     self.emit("status", "缓存音频无法解码，正在自动重新下载一次…")
                     remove_cached_audio_for_url(url)
-                    audio_path, info, used_cache = get_cached_or_download_audio(url, self.emit, force_download=True)
+                    audio_path, info, used_cache = get_cached_or_download_audio(url, self.emit, force_download=True, auth=auth)
                     audio_duration = float(info.get("duration") or 0)
             if task.get("txt_path") and task.get("srt_path"):
                 txt_path = Path(task["txt_path"]); srt_path = Path(task["srt_path"])
@@ -698,9 +755,7 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             checkpoint_path(task).unlink(missing_ok=True)
             self.mark_task(task, "completed")
         except Exception as exc:
-            message = str(exc)
-            if "Sign in" in message or "cookies" in message.lower() or "login" in message.lower(): message = "This video requires login/cookies or is restricted. The app will not access browser cookies. Try a public video."
-            elif "Unable to extract" in message or "ExtractorError" in message: message += "\nTry Update yt-dlp, then retry."
+            message = friendly_error(exc)
             self.mark_task(task, "failed", message)
             self.emit("task_error", message)
         finally:
@@ -739,6 +794,11 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
                     self.progress.set("音频下载：完成"); self.remaining.set("预计剩余时间：00:00:00")
                     self.pause_btn.configure(state=DISABLED); self.open_btn.configure(state=NORMAL)
                     self.append("音频已保存，可上传到云端转录：\n" + value)
+                elif kind == "video_done":
+                    self.job_started = None; self.progress_bar["value"] = 100
+                    self.progress.set("视频下载：完成"); self.remaining.set("预计剩余时间：00:00:00")
+                    self.pause_btn.configure(state=DISABLED); self.open_btn.configure(state=NORMAL)
+                    self.append("视频已保存（含声音，不自动删除）：\n" + value)
                 elif kind == "task_paused":
                     self.job_started = None; self.remaining.set("预计剩余时间：已暂停")
                     self.progress.set("转录进度：已暂停（可继续）")
