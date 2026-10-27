@@ -52,3 +52,4 @@
 - [AI投资分享 004](jobs/3c068fe02e612f7fffa4313a/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
 - [错失一个时代](jobs/552c4620925433d5e30446d6/README.md) <!-- job:552c4620925433d5e30446d6 -->
 - [AI投资机会和布局](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:e5ce988718d03adef7a00b28 -->
+- [再次提醒：AI泡沫离破裂不远了【汤山老王】.webm](jobs/c4cde4e82457ff7daf6bb902/README.md) <!-- job:c4cde4e82457ff7daf6bb902 -->

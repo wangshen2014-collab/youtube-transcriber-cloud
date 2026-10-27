@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e142972433ed4ed9e842e663bf10c569d6b842022b86e2c447403e3d3d36376b",
+    "source_id": "audio-e142972433ed4ed9e842e663"
+  },
+  "title": "再次提醒：AI泡沫离破裂不远了【汤山老王】.webm",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4cde4e82457ff7daf6bb902/%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%EF%BC%9AAI%E6%B3%A1%E6%B2%AB%E7%A6%BB%E7%A0%B4%E8%A3%82%E4%B8%8D%E8%BF%9C%E4%BA%86%E3%80%90%E6%B1%A4%E5%B1%B1%E8%80%81%E7%8E%8B%E3%80%91.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4cde4e82457ff7daf6bb902/%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%EF%BC%9AAI%E6%B3%A1%E6%B2%AB%E7%A6%BB%E7%A0%B4%E8%A3%82%E4%B8%8D%E8%BF%9C%E4%BA%86%E3%80%90%E6%B1%A4%E5%B1%B1%E8%80%81%E7%8E%8B%E3%80%91.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4cde4e82457ff7daf6bb902/%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%EF%BC%9AAI%E6%B3%A1%E6%B2%AB%E7%A6%BB%E7%A0%B4%E8%A3%82%E4%B8%8D%E8%BF%9C%E4%BA%86%E3%80%90%E6%B1%A4%E5%B1%B1%E8%80%81%E7%8E%8B%E3%80%91.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4cde4e82457ff7daf6bb902/%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92%EF%BC%9AAI%E6%B3%A1%E6%B2%AB%E7%A6%BB%E7%A0%B4%E8%A3%82%E4%B8%8D%E8%BF%9C%E4%BA%86%E3%80%90%E6%B1%A4%E5%B1%B1%E8%80%81%E7%8E%8B%E3%80%91.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c4cde4e82457ff7daf6bb902",
+  "saved_at": 1793071315.0587306
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e142972433ed4ed9e842e663bf10c569d6b842022b86e2c447403e3d3d36376b",
+    "source_id": "audio-e142972433ed4ed9e842e663"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch-ai-bubble/c4cde4e82457ff7daf6bb902/20261027-030153-e26afaa9",
+  "timings_seconds": {
+    "local_source_selection": 6.743099993400392e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.5840621440001996,
+    "model_load": 2.466397555000185,
+    "transcription": 1195.2540168279997,
+    "total_this_invocation": 1200.612628852
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/d968ef40-33f9-4388-8f21-3de15b1a3c56/再次提醒：AI泡沫离破裂不远了【汤山老王】.webm",
+    "sha256": "e142972433ed4ed9e842e663bf10c569d6b842022b86e2c447403e3d3d36376b",
+    "original_name": "再次提醒：AI泡沫离破裂不远了【汤山老王】.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "再次提醒：AI泡沫离破裂不远了【汤山老王】.webm",
+  "audio_duration_seconds": 1294.291875,
+  "selected_start": 0.0,
+  "selected_end": 1294.291875,
+  "language_probability": 0.9992675185203552,
+  "segment_count": 757,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1293.5,
+  "peak_ram_mb": 2128.2,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
