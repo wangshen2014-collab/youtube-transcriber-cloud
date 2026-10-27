@@ -1,0 +1,8 @@
+# 科技股暴跌，抄底机会到了吗？.webm
+
+- [TXT](%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3b49c9628aef4eb8a10c226a/%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.txt)
+- [SRT](%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3b49c9628aef4eb8a10c226a/%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.srt)
+- [JSON](%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3b49c9628aef4eb8a10c226a/%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.json)
+- [ZIP](%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.zip) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3b49c9628aef4eb8a10c226a/%E7%A7%91%E6%8A%80%E8%82%A1%E6%9A%B4%E8%B7%8C%EF%BC%8C%E6%8A%84%E5%BA%95%E6%9C%BA%E4%BC%9A%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F.zip)
+
+由 Codex Cloud 转录，原始音频未上传到本分支。
