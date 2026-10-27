@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "aa2b0ad35585c817e7354fb6e25cd225bd5572242418e8460466bb47d2713289",
+    "source_id": "audio-aa2b0ad35585c817e7354fb6"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch-tech-dip/3b49c9628aef4eb8a10c226a/20261027-032240-01929fe9",
+  "timings_seconds": {
+    "local_source_selection": 7.038600051600952e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.8470343899998625,
+    "model_load": 2.165513496999665,
+    "transcription": 672.3825646660007,
+    "total_this_invocation": 676.6967472169999
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/eb436e9c-5145-432b-a26f-7d4c7c46c385/科技股暴跌，抄底机会到了吗？.webm",
+    "sha256": "aa2b0ad35585c817e7354fb6e25cd225bd5572242418e8460466bb47d2713289",
+    "original_name": "科技股暴跌，抄底机会到了吗？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "科技股暴跌，抄底机会到了吗？.webm",
+  "audio_duration_seconds": 863.9680625,
+  "selected_start": 0.0,
+  "selected_end": 863.9680625,
+  "language_probability": 0.9998695850372314,
+  "segment_count": 474,
+  "detected_language": "zh",
+  "last_completed_audio_second": 860.0,
+  "peak_ram_mb": 2424.7,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

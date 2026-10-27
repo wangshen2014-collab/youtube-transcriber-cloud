@@ -53,3 +53,4 @@
 - [错失一个时代](jobs/552c4620925433d5e30446d6/README.md) <!-- job:552c4620925433d5e30446d6 -->
 - [AI投资机会和布局](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:e5ce988718d03adef7a00b28 -->
 - [再次提醒：AI泡沫离破裂不远了【汤山老王】.webm](jobs/c4cde4e82457ff7daf6bb902/README.md) <!-- job:c4cde4e82457ff7daf6bb902 -->
+- [科技股暴跌，抄底机会到了吗？.webm](jobs/3b49c9628aef4eb8a10c226a/README.md) <!-- job:3b49c9628aef4eb8a10c226a -->
