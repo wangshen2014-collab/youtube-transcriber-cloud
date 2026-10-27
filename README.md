@@ -56,3 +56,4 @@
 - [科技股暴跌，抄底机会到了吗？.webm](jobs/3b49c9628aef4eb8a10c226a/README.md) <!-- job:3b49c9628aef4eb8a10c226a -->
 - [对话儿童心理专家：AI时代小孩还要出国吗？.webm](jobs/74af59f8f870fe2fc2d9dd53/README.md) <!-- job:74af59f8f870fe2fc2d9dd53 -->
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/ffed881c3267ba611e3eeb19/README.md) <!-- job:ffed881c3267ba611e3eeb19 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/bc6978015b2f717d49651273/README.md) <!-- job:bc6978015b2f717d49651273 -->
