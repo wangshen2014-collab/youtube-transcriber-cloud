@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "4b350673e95a57d6521b38758f03292524ec8d6bfcfade5736021aa65d12100a",
+    "source_id": "audio-4b350673e95a57d6521b3875"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch-sun-child/ffed881c3267ba611e3eeb19/20261027-035629-2183481c",
+  "timings_seconds": {
+    "local_source_selection": 6.0371000472514424e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.0692204990000391,
+    "model_load": 2.0701577150002777,
+    "transcription": 1144.8547596439994,
+    "total_this_invocation": 1148.2916084629996
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/0f0e268a-298f-48b4-b817-7ac55471e27e/对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 [00-00-00 至 00-30-00].m4a",
+    "sha256": "4b350673e95a57d6521b38758f03292524ec8d6bfcfade5736021aa65d12100a",
+    "original_name": "对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 [00-00-00 至 00-30-00].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 [00-00-00 至 00-30-00].m4a",
+  "audio_duration_seconds": 1800.0,
+  "selected_start": 0.0,
+  "selected_end": 1800.0,
+  "language_probability": 0.9949613809585571,
+  "segment_count": 1099,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1800.0,
+  "peak_ram_mb": 2543.0,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
