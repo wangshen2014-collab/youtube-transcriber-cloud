@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "f449ce1a370b460608025b461c65ec11bf28f77f899941a96423ae0524f88703",
+    "source_id": "audio-f449ce1a370b460608025b46"
+  },
+  "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？ 第009段 [04-00-00 至 04-22-29].m4a",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c7bcf86998b098e34c3e4f61/%E5%AF%B9%E8%AF%9D%E5%AD%99%E5%AE%87%E6%99%A8%EF%BC%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8FAI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%9F%20%E7%AC%AC009%E6%AE%B5%20%5B04-00-00%20%E8%87%B3%2004-22-29%5D.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c7bcf86998b098e34c3e4f61/%E5%AF%B9%E8%AF%9D%E5%AD%99%E5%AE%87%E6%99%A8%EF%BC%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8FAI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%9F%20%E7%AC%AC009%E6%AE%B5%20%5B04-00-00%20%E8%87%B3%2004-22-29%5D.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c7bcf86998b098e34c3e4f61/%E5%AF%B9%E8%AF%9D%E5%AD%99%E5%AE%87%E6%99%A8%EF%BC%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8FAI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%9F%20%E7%AC%AC009%E6%AE%B5%20%5B04-00-00%20%E8%87%B3%2004-22-29%5D.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c7bcf86998b098e34c3e4f61/%E5%AF%B9%E8%AF%9D%E5%AD%99%E5%AE%87%E6%99%A8%EF%BC%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8A%93%E4%BD%8FAI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%9F%20%E7%AC%AC009%E6%AE%B5%20%5B04-00-00%20%E8%87%B3%2004-22-29%5D.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c7bcf86998b098e34c3e4f61",
+  "saved_at": 1793083604.2947836
+}
