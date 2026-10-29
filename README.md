@@ -65,3 +65,4 @@
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第008段 _03-30-00 至 04-00-00_.m4a](jobs/6aaedc452551198c405ad4a5/README.md) <!-- job:6aaedc452551198c405ad4a5 -->
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第009段 _04-00-00 至 04-22-29_.m4a](jobs/c7bcf86998b098e34c3e4f61/README.md) <!-- job:c7bcf86998b098e34c3e4f61 -->
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ _已上传分段合并_](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:aceaae67cfb627fc44a4251e -->
+- [美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm（large-v3 高精度校对）](jobs/9aeb01aaeddcd5892e2add44/README.md) <!-- job:9aeb01aaeddcd5892e2add44 -->

@@ -1,0 +1,347 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 6,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f",
+    "source_id": "audio-070cb12d844c3404282a8969",
+    "task": "transcribe"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/msft-goog-large-v3/20261029-042133-f4850518",
+  "timings_seconds": {
+    "local_source_selection": 0.00014499600000306145,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.270041143,
+    "model_load": 56.49872245399999,
+    "transcription": 2473.1634180849996,
+    "total_this_invocation": 2534.231096327
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/f8dc2843-c461-4402-be88-f8b0e8903349/美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+    "sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f",
+    "original_name": "美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+  "audio_duration_seconds": 2042.304,
+  "selected_start": 0.0,
+  "selected_end": 2042.304,
+  "language_probability": 0.9977312684059143,
+  "segment_count": 1106,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2041.1000000000001,
+  "peak_ram_mb": 5117.5,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git",
+  "transcript_edition": "reviewed-with-explicit-annotations",
+  "quality_review": {
+    "method": "主稿 large-v3 beam5 全文识别；同参数三处短片段重复识别；上下文术语拼写检查",
+    "changes": [
+      {
+        "start_seconds": 4.32,
+        "end_seconds": 7.14,
+        "type": "不确定性校注",
+        "before": "现在是美东时间20年10月28号",
+        "after": "现在是美东时间20年10月28号〔转录校注：年份识别存疑，未补写〕",
+        "evidence": "主识别与开场复核均为 20年，未推定完整年份"
+      },
+      {
+        "start_seconds": 56.3,
+        "end_seconds": 58.88,
+        "type": "名称拼写规范化",
+        "before": "像什么Marvel还有FT&T",
+        "after": "像什么Marvell还有FT&T",
+        "evidence": "半导体公司及财报上下文；原始识别 Marvel"
+      },
+      {
+        "start_seconds": 56.3,
+        "end_seconds": 58.88,
+        "type": "定点复核修订",
+        "before": "像什么Marvell还有FT&T",
+        "after": "像什么Marvell还有FTNT",
+        "evidence": "30:48–31:42 补充识别明确输出 FTNT"
+      },
+      {
+        "start_seconds": 58.88,
+        "end_seconds": 60.62,
+        "type": "名称拼写规范化",
+        "before": "Marvel跌了七八个点",
+        "after": "Marvell跌了七八个点",
+        "evidence": "半导体公司及财报上下文；原始识别 Marvel"
+      },
+      {
+        "start_seconds": 60.62,
+        "end_seconds": 62.74,
+        "type": "定点复核修订",
+        "before": "FT&T跌了25个点",
+        "after": "FTNT跌了25个点",
+        "evidence": "30:48–31:42 补充识别明确输出 FTNT"
+      },
+      {
+        "start_seconds": 1230.98,
+        "end_seconds": 1232.22,
+        "type": "名称拼写规范化",
+        "before": "比如说Marvel的财报",
+        "after": "比如说Marvell的财报",
+        "evidence": "半导体公司及财报上下文；原始识别 Marvel"
+      },
+      {
+        "start_seconds": 1293.42,
+        "end_seconds": 1297.02,
+        "type": "单位补全",
+        "before": "远超自身44%到45的预测",
+        "after": "远超自身44%到45%的预测",
+        "evidence": "20:20–22:45 补充识别明确输出 44%到45% 的预测；数字值不变"
+      },
+      {
+        "start_seconds": 1328.9,
+        "end_seconds": 1333.5,
+        "type": "同音字修订",
+        "before": "至去年这个OpenAI宣布对Azure做出巨额承诺以来呢",
+        "after": "自去年这个OpenAI宣布对Azure做出巨额承诺以来呢",
+        "evidence": "补充识别为 自去年OpenAI宣布"
+      },
+      {
+        "start_seconds": 1335.46,
+        "end_seconds": 1336.66,
+        "type": "不确定性校注",
+        "before": "也就是计价订单",
+        "after": "也就是计价订单〔转录校注：此处语境疑指“积压订单”，保留原始识别〕",
+        "evidence": "商业剩余履约业务上下文；补充识别仍为计价订单，未直接改写"
+      },
+      {
+        "start_seconds": 1366.14,
+        "end_seconds": 1369.66,
+        "type": "不确定性校注",
+        "before": "这个计价订单转化成收入的速度啊",
+        "after": "这个计价订单〔转录校注：此处语境疑指“积压订单”，保留原始识别〕转化成收入的速度啊",
+        "evidence": "商业剩余履约业务上下文；补充识别仍为计价订单，未直接改写"
+      },
+      {
+        "start_seconds": 1369.66,
+        "end_seconds": 1373.58,
+        "type": "不确定性校注",
+        "before": "比补充计价订单的速度更快",
+        "after": "比补充计价订单〔转录校注：此处语境疑指“积压订单”，保留原始识别〕的速度更快",
+        "evidence": "商业剩余履约业务上下文；补充识别仍为计价订单，未直接改写"
+      },
+      {
+        "start_seconds": 1819.1,
+        "end_seconds": 1821.1,
+        "type": "名称拼写规范化",
+        "before": "而且Marvel的财报也是",
+        "after": "而且Marvell的财报也是",
+        "evidence": "半导体公司及财报上下文；原始识别 Marvel"
+      },
+      {
+        "start_seconds": 1828.1,
+        "end_seconds": 1829.1,
+        "type": "名称拼写规范化",
+        "before": "Marvel的情况吗",
+        "after": "Marvell的情况吗",
+        "evidence": "半导体公司及财报上下文；原始识别 Marvel"
+      },
+      {
+        "start_seconds": 1863.1,
+        "end_seconds": 1865.1,
+        "type": "定点复核修订",
+        "before": "网络安全股像FT&T怎么跌这么多",
+        "after": "网络安全股像FTNT怎么跌这么多",
+        "evidence": "30:48–31:42 补充识别明确输出 FTNT"
+      },
+      {
+        "start_seconds": 1873.1,
+        "end_seconds": 1874.1,
+        "type": "名称拼写规范化",
+        "before": "Cross Strike是多少钱",
+        "after": "CrowdStrike是多少钱",
+        "evidence": "网络安全股公司名上下文；主识别 Cross Strike，补充识别 CrossTrack"
+      },
+      {
+        "start_seconds": 1876.1,
+        "end_seconds": 1877.1,
+        "type": "不确定性校注",
+        "before": "PMW的上限",
+        "after": "PMW〔转录校注：股票代码识别存疑，可能指 PANW〕的上限",
+        "evidence": "主识别与补充识别均为 PMW，未直接替换为 PANW"
+      }
+    ],
+    "numeric_values_preserved": true,
+    "review_reports": [
+      {
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 6,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": 80.0,
+          "source_type": "audio_file",
+          "audio_sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f",
+          "source_id": "audio-070cb12d844c3404282a8969"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/msft-goog-large-v3-review/20261029-050408-087e1c9c",
+        "timings_seconds": {
+          "local_source_selection": 7.844699985071202e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 3.923087343000134,
+          "model_load": 3.9509878570002,
+          "transcription": 84.75527847900003,
+          "total_this_invocation": 92.95077447099993
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/f8dc2843-c461-4402-be88-f8b0e8903349/美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+          "sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+        "audio_duration_seconds": 2042.304,
+        "selected_start": 0.0,
+        "selected_end": 80.0,
+        "language_probability": 0.997918426990509,
+        "segment_count": 33,
+        "detected_language": "zh",
+        "last_completed_audio_second": 79.7,
+        "peak_ram_mb": 3411.1
+      },
+      {
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 6,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 1220.0,
+          "end": 1365.0,
+          "source_type": "audio_file",
+          "audio_sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f",
+          "source_id": "audio-070cb12d844c3404282a8969"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/msft-goog-large-v3-review/20261029-050541-e823dd37",
+        "timings_seconds": {
+          "local_source_selection": 6.797100013500312e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 4.280125796999982,
+          "model_load": 3.733951627999886,
+          "transcription": 168.24624833100006,
+          "total_this_invocation": 176.53794349600003
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/f8dc2843-c461-4402-be88-f8b0e8903349/美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+          "sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+        "audio_duration_seconds": 2042.304,
+        "selected_start": 1220.0,
+        "selected_end": 1365.0,
+        "language_probability": 0.9986047148704529,
+        "segment_count": 65,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1365.0,
+        "peak_ram_mb": 3643.1
+      },
+      {
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 6,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 1848.0,
+          "end": 1902.0,
+          "source_type": "audio_file",
+          "audio_sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f",
+          "source_id": "audio-070cb12d844c3404282a8969"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/youtube-transcriber-cloud/outputs/msft-goog-large-v3-review/20261029-050838-680a2084",
+        "timings_seconds": {
+          "local_source_selection": 6.77020002513018e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 3.896723671000018,
+          "model_load": 3.577663389999998,
+          "transcription": 307.27286057100036,
+          "total_this_invocation": 315.0295018310003
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/f8dc2843-c461-4402-be88-f8b0e8903349/美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+          "sha256": "070cb12d844c3404282a896919e55b94229aff4abc23222d247469ce1afd8d6f"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm",
+        "audio_duration_seconds": 2042.304,
+        "selected_start": 1848.0,
+        "selected_end": 1902.0,
+        "language_probability": 0.9913841485977173,
+        "segment_count": 38,
+        "detected_language": "zh",
+        "last_completed_audio_second": 1902.0,
+        "peak_ram_mb": 5228.8
+      }
+    ],
+    "review_transcription_seconds_total": 560.2743873810005,
+    "limits": "不是人工逐字听校；不对视频中的财报数字作外部事实核验。疑点保留原始识别并加转录校注；原始无校注 TXT/SRT 和运行报告保留于 ZIP。"
+  }
+}
