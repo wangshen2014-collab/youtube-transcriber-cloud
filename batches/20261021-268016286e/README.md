@@ -1,8 +1,8 @@
 # 本批转录结果
 
-前两讲优先完成；EP155、EP157、EP158、EP160 已完成分段与合并。EP157 复用同字节、同参数的既有转录。
+EP155、EP157、EP158、EP160 已完成分段与合并。EP157 复用同字节、同参数的既有转录。
 
-- [全部结果 ZIP](lectures-EP155-EP157-EP158-EP160-published-results.zip)
+- [本批科技节目 ZIP](lectures-EP155-EP157-EP158-EP160-published-results.zip)
 - [批次运行报告](batch-report.json)
 
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/8298c152135f54106cc38541) · [TXT](EP155.txt) · [SRT](EP155.srt) · [JSON](EP155.json) · [ZIP](EP155.zip)
@@ -11,3 +11,5 @@
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/cd279e49295f274194933cc9) · [TXT](EP160.txt) · [SRT](EP160.srt) · [JSON](EP160.json) · [ZIP](EP160.zip)
 
 原始文件名保留在每集结果页面及 ZIP 内；此处短文件名是方便引用的相同内容副本。仅保存文字和报告，不保存源音频。
+
+已按用户要求移除两项内容及其包内副本；原始批次统计不代表目前保留数量。

@@ -28,6 +28,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 是报告，ZI
 
 | 节目／视频 | 版本 |
 | --- | --- |
+| [AI泡沫破灭？中国股市为何跌的这么惨？](catalog/5134964acba8c609.md) | 单项结果 1 |
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 2、单段 5 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
 | [两期美股节目_前科技股跳水_后天塌了_高精度合并](catalog/fee1474a40e88d26.md) | 合并版 1 |
@@ -48,9 +49,6 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 是报告，ZI
 | --- | --- |
 | [对话儿童心理专家：AI时代小孩还要出国吗？](catalog/74bbc2315efd2813.md) | 单项结果 1 |
 
-| 节目／视频 | 版本 |
-| --- | --- |
-
 ## 测试样例
 
 | 节目／视频 | 版本 |
@@ -65,4 +63,3 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 是报告，ZI
 - [batches/20261101-fupeng-24ba91301e](batches/20261101-fupeng-24ba91301e/README.md)
 - [batches/20261101-passive-income-54a82e726b](batches/20261101-passive-income-54a82e726b/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
-- [AI泡沫破灭？中国股市为何跌的这么惨？.webm](jobs/39657f3f4dc8af34e0523897/README.md) <!-- job:39657f3f4dc8af34e0523897 -->

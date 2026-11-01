@@ -2097,5 +2097,6 @@
     }
   ],
   "peak_ram_mb_new_inference": 2557.9,
-  "peak_ram_scope": "peak_ram_mb includes historical reused EP157 reports; peak_ram_mb_new_inference covers only newly computed files."
+  "peak_ram_scope": "peak_ram_mb includes historical reused EP157 reports; peak_ram_mb_new_inference covers only newly computed files.",
+  "redaction_note": "已按用户要求移除两项结果；原始批次总耗时和统计可能仍包含已移除项目，不代表当前包内文件数量。"
 }
