@@ -4,6 +4,7 @@ import json
 import re
 import time
 from urllib.parse import quote
+from result_catalog import build_catalog
 
 FORMAT = {'format': 'youtube-transcriber-results', 'version': 1}
 BRANCH = 'transcripts'
@@ -60,11 +61,18 @@ class ResultStore:
             changes = dict(files)
             if index_entry:
                 key, title = index_entry
-                old = (self.read('README.md') or '# 音频转录结果\n'.encode('utf-8')).decode('utf-8')
-                marker = f'<!-- job:{key} -->'
-                old = '\n'.join(line for line in old.splitlines() if marker not in line)
+                snapshot = self.api.call('GET', 'git/trees/' + head + '?recursive=1') if head else {'tree': []}
+                if snapshot.get('truncated'):
+                    raise ValueError('结果树被截断，拒绝发布不完整目录')
+                entries = {e['path']: e for e in snapshot['tree']}
+                for path, content in changes.items():
+                    if content is None:
+                        entries.pop(path, None)
+                    else:
+                        entries[path] = {'path': path, 'type': 'blob', 'sha': None}
+                changes.update(build_catalog(entries.values(), self.api.repo))
                 label = re.sub(r'[\[\]<>\r\n]', '_', title)
-                changes['README.md'] = (old + f'\n- [{label}](jobs/{key}/README.md) {marker}\n').encode('utf-8')
+                changes['README.md'] += f'\n最新保存：[{label}](jobs/{key}/README.md)\n'.encode('utf-8')
             for path, content in changes.items():
                 if content is None:
                     if self.read(path) is not None:

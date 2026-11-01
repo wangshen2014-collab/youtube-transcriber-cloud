@@ -1,5 +1,24 @@
 # 音频转文字：Codex 云端批量转录 → GitHub 保存结果
 
+## 查找已经转录好的内容
+
+**[打开转录资料库（按节目／视频分类）](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts)**
+
+日常找字幕只需收藏这个入口，无需切换分支或记住任务编号。资料库把合并版、单段、测试样例和批次归档分开，并提供 TXT/SRT/JSON/ZIP 链接。
+
+| 位置 | 保存什么 |
+| --- | --- |
+| `main` 分支 | 工具源码、使用说明，不是字幕文件夹 |
+| `transcripts` → `catalog/` | 按节目查找的目录，每次标准发布自动重建 |
+| `transcripts` → `jobs/` | 实际结果；任务编号是稳定存储标识，保留原路径 |
+| `transcripts` → `batches/`、`collections/` | 批次打包及副本，保留历史链接 |
+| `transcripts` → `progress/` | 未完成任务的文字检查点 |
+| [旧版 Actions 归档](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/blob/transcripts/LEGACY.md) | 有到期日的旧下载包；失败包可能仅有诊断信息 |
+| [Releases](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/releases) | 上传的原始音频，和转录文字分别存放 |
+
+整理保留全部结果文件、历史记录和原链接；相同 TXT 副本以 Git blob 标识标注。合并版只说明合并了已有内容，不证明覆盖原视频全片。现有目录按文件名归组，不代表重新核验转录准确性。
+
+
 **完整说明入口：[中文使用与交接指南](docs/使用与交接说明.md)**。
 包括本地下载 → Codex云端转录 → GitHub保存 → ChatGPT解读的操作步骤、部件地图、
 缓存与公开范围、暂停续做、故障处理和新对话交接指令。日常使用优先看该指南；下文保留开发及旧版入口资料。

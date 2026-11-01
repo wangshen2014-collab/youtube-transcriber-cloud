@@ -35,6 +35,10 @@ class MemoryAPI:
             return {'encoding': 'base64', 'content': self.blobs[files[name]]}
         if method == 'GET' and path.startswith('git/commits/'):
             return {'tree': {'sha': self.commits[path.split('/')[-1]]}}
+        if method == 'GET' and path.startswith('git/trees/'):
+            ref = path.split('/')[-1].split('?')[0]
+            files = self.trees[self.commits.get(ref, ref)]
+            return {'tree': [{'path': p, 'type': 'blob', 'sha': sha} for p, sha in files.items()], 'truncated': False}
         if method == 'POST' and path == 'git/blobs':
             key = f'b{len(self.blobs)}'; self.blobs[key] = body['content']
             return {'sha': key}
