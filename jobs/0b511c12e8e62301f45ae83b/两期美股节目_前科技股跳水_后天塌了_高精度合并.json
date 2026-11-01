@@ -1,0 +1,885 @@
+{
+  "status": "completed",
+  "operation": "ordered-two-programme-document-assembly",
+  "settings": {
+    "source_type": "ordered-two-episode-collection",
+    "parts": [
+      {
+        "order": 1,
+        "role": "前一天",
+        "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+        "raw_result_key": "5bd071f2feeecc0e9b56664f"
+      },
+      {
+        "order": 2,
+        "role": "后一天",
+        "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+        "raw_result_key": "c23e58a1a66b0e3c8c2c254d"
+      }
+    ],
+    "model": "large-v3",
+    "beam_size": 5,
+    "edition": "labelled-reviewed-v1"
+  },
+  "duration_seconds": 4204.8784375,
+  "detected_languages": [
+    "zh",
+    "zh"
+  ],
+  "segment_count": 2370,
+  "chapters": [
+    {
+      "position": 1,
+      "label": "第1期｜前一天",
+      "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？",
+      "original_name": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+      "source_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+      "duration_seconds": 2193.507875,
+      "merged_srt_offset_seconds": 0.0,
+      "raw_result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5bd071f2feeecc0e9b56664f",
+      "raw_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5bd071f2feeecc0e9b56664f/%E7%BE%8E%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4%E9%94%A6%E6%A0%87%E8%B5%9B%EF%BC%81AMZN%E3%80%81INTC%E8%B7%9F%E9%9A%8F%EF%BC%81%20QQQ%E3%80%81SOXX%E5%A4%9A%E7%A9%BA%E5%8D%9A%E5%BC%88%E5%BE%97%E5%A6%82%E4%BD%95%EF%BC%9FMSFT%E5%8F%91%E5%80%BA%E5%9B%9E%E5%90%90%EF%BC%8C%E5%8F%88%E4%B8%8D%E8%A1%8C%E4%BA%86%E5%90%97%EF%BC%9F.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5bd071f2feeecc0e9b56664f/%E7%BE%8E%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4%E9%94%A6%E6%A0%87%E8%B5%9B%EF%BC%81AMZN%E3%80%81INTC%E8%B7%9F%E9%9A%8F%EF%BC%81%20QQQ%E3%80%81SOXX%E5%A4%9A%E7%A9%BA%E5%8D%9A%E5%BC%88%E5%BE%97%E5%A6%82%E4%BD%95%EF%BC%9FMSFT%E5%8F%91%E5%80%BA%E5%9B%9E%E5%90%90%EF%BC%8C%E5%8F%88%E4%B8%8D%E8%A1%8C%E4%BA%86%E5%90%97%EF%BC%9F.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5bd071f2feeecc0e9b56664f/%E7%BE%8E%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4%E9%94%A6%E6%A0%87%E8%B5%9B%EF%BC%81AMZN%E3%80%81INTC%E8%B7%9F%E9%9A%8F%EF%BC%81%20QQQ%E3%80%81SOXX%E5%A4%9A%E7%A9%BA%E5%8D%9A%E5%BC%88%E5%BE%97%E5%A6%82%E4%BD%95%EF%BC%9FMSFT%E5%8F%91%E5%80%BA%E5%9B%9E%E5%90%90%EF%BC%8C%E5%8F%88%E4%B8%8D%E8%A1%8C%E4%BA%86%E5%90%97%EF%BC%9F.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5bd071f2feeecc0e9b56664f/%E7%BE%8E%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4%E9%94%A6%E6%A0%87%E8%B5%9B%EF%BC%81AMZN%E3%80%81INTC%E8%B7%9F%E9%9A%8F%EF%BC%81%20QQQ%E3%80%81SOXX%E5%A4%9A%E7%A9%BA%E5%8D%9A%E5%BC%88%E5%BE%97%E5%A6%82%E4%BD%95%EF%BC%9FMSFT%E5%8F%91%E5%80%BA%E5%9B%9E%E5%90%90%EF%BC%8C%E5%8F%88%E4%B8%8D%E8%A1%8C%E4%BA%86%E5%90%97%EF%BC%9F.zip"
+      },
+      "segment_count": 1267
+    },
+    {
+      "position": 2,
+      "label": "第2期｜后一天",
+      "title": "美股 天塌了？应该买还是卖？11月三大风险事件！",
+      "original_name": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+      "source_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+      "duration_seconds": 2011.3705625,
+      "merged_srt_offset_seconds": 2193.507875,
+      "raw_result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c23e58a1a66b0e3c8c2c254d",
+      "raw_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.json",
+        "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.zip"
+      },
+      "segment_count": 1103
+    }
+  ],
+  "source_run_reports": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 6,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+        "source_id": "audio-bb68bfd80de020486cceb99f"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/5bd071f2feeecc0e9b56664f/20261101-010646-f15d2190",
+      "timings_seconds": {
+        "local_source_selection": 6.712099997230325e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 4.325192158999982,
+        "model_load": 4.081168268999988,
+        "transcription": 2485.974192476,
+        "total_this_invocation": 2494.6893784239996
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/128b2bd0-240b-4462-8c81-2dee517f58cc/美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+        "sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+        "original_name": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+      "audio_duration_seconds": 2193.507875,
+      "selected_start": 0.0,
+      "selected_end": 2193.507875,
+      "language_probability": 0.9975997805595398,
+      "segment_count": 1267,
+      "detected_language": "zh",
+      "last_completed_audio_second": 2192.6800000000003,
+      "peak_ram_mb": 3954.4,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 6,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+        "source_id": "audio-dfac806255e6b0d3dcdb3e82"
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/c23e58a1a66b0e3c8c2c254d/20261101-014830-576c38d3",
+      "timings_seconds": {
+        "local_source_selection": 6.81629999235156e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 3.842337579999821,
+        "model_load": 3.571649878000244,
+        "transcription": 2320.1207329910003,
+        "total_this_invocation": 2327.853555926
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/1e757c40-651e-4290-b30b-a404a2036548/美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+        "sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+        "original_name": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "title": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+      "audio_duration_seconds": 2011.3705625,
+      "selected_start": 0.0,
+      "selected_end": 2011.3705625,
+      "language_probability": 0.9967995882034302,
+      "segment_count": 1103,
+      "detected_language": "zh",
+      "last_completed_audio_second": 2010.42,
+      "peak_ram_mb": 5404.8,
+      "execution_backend": "direct-python-process",
+      "storage_backend": "github-git"
+    }
+  ],
+  "quality_review": {
+    "method": "large-v3/beam5 全文识别 + 七处同参数定点复核 + 上下文术语检查；不是人工逐字听校",
+    "changes": [
+      {
+        "episode": 1,
+        "start_seconds": 5.76,
+        "end_seconds": 7.46,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "26年11月29号",
+        "after": "26年11月29号〔校注：片头日期识别存疑；两期先后按用户指定，未推定实际日期〕",
+        "evidence": "片头两次识别相同，但与后一期片头及用户给出的连续两天顺序存在冲突"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 175.9,
+        "end_seconds": 177.66,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "较去年同期的0.23%",
+        "after": "较去年同期的0.23%〔校注：单位识别存疑，复核未识别到百分号〕",
+        "evidence": "主识别为0.23%，复核为0.23，原始数字及单位保留"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 177.66,
+        "end_seconds": 177.82,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "较去年同期的0.23%",
+        "after": "较去年同期的0.23%〔校注：单位识别存疑，复核未识别到百分号〕",
+        "evidence": "主识别为0.23%，复核为0.23，原始数字及单位保留"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 221.66,
+        "end_seconds": 225.1,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "这一块当然和MD那一端是一样的",
+        "after": "这一块当然和AMD那一端是一样的",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 225.48,
+        "end_seconds": 229.74,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "MD那边因为包括现在CPU的需求是比较旺盛的",
+        "after": "AMD那边因为包括现在CPU的需求是比较旺盛的",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 279.8,
+        "end_seconds": 284.44,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "远低于市场预期的107到173亿",
+        "after": "远低于市场预期的107到173亿〔校注：数字识别不一致；定点复核为170到173亿，未确认〕",
+        "evidence": "145–305 秒复核识别为 市场预期的170到173亿；不静默替换原数字"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 284.44,
+        "end_seconds": 287.76,
+        "type": "标准财务术语拼写",
+        "occurrences": 1,
+        "before": "那么非GAP的每股收益是0.25",
+        "after": "那么非GAAP的每股收益是0.25",
+        "evidence": "非GAAP每股收益语境；主识别及复核均为 GAP"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 324.78,
+        "end_seconds": 327.42,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "这个或许对MD来讲",
+        "after": "这个或许对AMD来讲",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 330.26,
+        "end_seconds": 331.66,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "因为MD的CPU",
+        "after": "因为AMD的CPU",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 341.06,
+        "end_seconds": 344.1,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "因为MD现在的PC市场的",
+        "after": "因为AMD现在的PC市场的",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 353.1,
+        "end_seconds": 356.38,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "所以可能MD会比它稍微的好",
+        "after": "所以可能AMD会比它稍微的好",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 356.38,
+        "end_seconds": 357.66,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "但是MD那边",
+        "after": "但是AMD那边",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 360.26,
+        "end_seconds": 362.06,
+        "type": "标准名称拼写",
+        "occurrences": 1,
+        "before": "因为MD的价格在那摆着",
+        "after": "因为AMD的价格在那摆着",
+        "evidence": "同一期明确出现 AMD，相关段落均为 CPU、PC 和服务器业务语境；未声称定点识别明确输出 AMD"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 388.62,
+        "end_seconds": 389.98,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "大概在R1年的时候",
+        "after": "大概在R1年〔校注：年份识别存疑，未补写〕的时候",
+        "evidence": "主识别 R1，定点复核 安一年，未获得明确数字"
+      },
+      {
+        "episode": 1,
+        "start_seconds": 1217.46,
+        "end_seconds": 1219.12,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "以这个R7年的前端去看",
+        "after": "以这个R7年〔校注：年份及后续词识别存疑，保留主识别〕的前端去看",
+        "evidence": "两次均为 R7，前端/前段另有分句差异，未猜测为某个具体年份"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 16.54,
+        "end_seconds": 19.12,
+        "type": "标准指数名称拼写",
+        "occurrences": 1,
+        "before": "肺脂慢导体是跌了近8%",
+        "after": "费城半导体是跌了近8%",
+        "evidence": "纳指100及半导体指数涨跌幅语境；标准指数名称规范化，原始识别保留在 ZIP"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 20.82,
+        "end_seconds": 25.18,
+        "type": "标准指数简称拼写",
+        "occurrences": 1,
+        "before": "最终是以肺瓣和纳指的双双破位收场",
+        "after": "最终是以费半和纳指的双双破位收场",
+        "evidence": "同段费城半导体指数及纳指双双破位语境"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 589.96,
+        "end_seconds": 593.38,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "SRG它的月线级别涨了多少",
+        "after": "SRG〔校注：股票代码识别存疑，未展开公司名称〕它的月线级别涨了多少",
+        "evidence": "主识别与定点复核均为 SRG，未直接替换成候选 ISRG 或其他代码"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 595.56,
+        "end_seconds": 597.58,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "那SRG我是什么时候加的仓",
+        "after": "那SRG〔校注：股票代码识别存疑，未展开公司名称〕我是什么时候加的仓",
+        "evidence": "主识别与定点复核均为 SRG，未直接替换成候选 ISRG 或其他代码"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 598.4,
+        "end_seconds": 600.44,
+        "type": "不确定性校注",
+        "occurrences": 1,
+        "before": "SRG我的加仓是在300多块钱",
+        "after": "SRG〔校注：股票代码识别存疑，未展开公司名称〕我的加仓是在300多块钱",
+        "evidence": "主识别与定点复核均为 SRG，未直接替换成候选 ISRG 或其他代码"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 996.3,
+        "end_seconds": 997.58,
+        "type": "同音词规范化",
+        "occurrences": 1,
+        "before": "其他的短信怎么办",
+        "after": "其他的短线怎么办",
+        "evidence": "其他的短线怎么办、被套及减仓/对冲的上下文"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 1751.7,
+        "end_seconds": 1754.52,
+        "type": "标准事件名称拼写",
+        "occurrences": 1,
+        "before": "中级选举将于11月",
+        "after": "中期选举将于11月",
+        "evidence": "同一期前文明确识别 中期选举，后文复核为 中继选举；不改变事件原顺序及说话人自我更正"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 1755.28,
+        "end_seconds": 1757.6,
+        "type": "标准事件名称拼写",
+        "occurrences": 1,
+        "before": "这个中级选举",
+        "after": "这个中期选举",
+        "evidence": "同一期前文明确识别 中期选举，后文复核为 中继选举；不改变事件原顺序及说话人自我更正"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 1760.2,
+        "end_seconds": 1761.22,
+        "type": "标准事件名称拼写",
+        "occurrences": 1,
+        "before": "美联储中级选举",
+        "after": "美联储中期选举",
+        "evidence": "同一期前文明确识别 中期选举，后文复核为 中继选举；不改变事件原顺序及说话人自我更正"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 1765.58,
+        "end_seconds": 1767.62,
+        "type": "同音字与标点",
+        "occurrences": 1,
+        "before": "星期三星期二去行",
+        "after": "星期三，星期二举行",
+        "evidence": "定点复核分别为 星期三 / 星期二举行；两个星期表述都保留，不擅自删改口语更正"
+      },
+      {
+        "episode": 2,
+        "start_seconds": 1967.92,
+        "end_seconds": 1969.1,
+        "type": "问答标记拼写",
+        "occurrences": 1,
+        "before": "一个带有QA图片",
+        "after": "一个带有Q&A图片",
+        "evidence": "频道问答帖上下文，仅添加连接符"
+      }
+    ],
+    "review_reports": [
+      {
+        "number": 1,
+        "episode": 1,
+        "start": 0,
+        "end": 80,
+        "purpose": "片头日期与指数代码",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-01/20261101-022855-20188fdd/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 0.0,
+            "end": 80.0,
+            "source_type": "audio_file",
+            "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+            "source_id": "audio-bb68bfd80de020486cceb99f"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-01/20261101-022855-20188fdd",
+          "timings_seconds": {
+            "local_source_selection": 6.753199977538316e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 4.07442470299975,
+            "model_load": 3.551870460999453,
+            "transcription": 84.09640068899989,
+            "total_this_invocation": 92.0174000879997
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/128b2bd0-240b-4462-8c81-2dee517f58cc/美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+            "sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+          "audio_duration_seconds": 2193.507875,
+          "selected_start": 0.0,
+          "selected_end": 80.0,
+          "language_probability": 0.9975321292877197,
+          "segment_count": 38,
+          "detected_language": "zh",
+          "last_completed_audio_second": 79.62,
+          "peak_ram_mb": 3496.9
+        }
+      },
+      {
+        "number": 2,
+        "episode": 1,
+        "start": 145,
+        "end": 305,
+        "purpose": "英特尔财报数字、AMD 与 non-GAAP",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-02/20261101-023027-dc4e50ae/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 145.0,
+            "end": 305.0,
+            "source_type": "audio_file",
+            "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+            "source_id": "audio-bb68bfd80de020486cceb99f"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-02/20261101-023027-dc4e50ae",
+          "timings_seconds": {
+            "local_source_selection": 7.632500000909204e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 4.177475763000075,
+            "model_load": 3.83692491399961,
+            "transcription": 166.05164064600012,
+            "total_this_invocation": 174.34529939000004
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/128b2bd0-240b-4462-8c81-2dee517f58cc/美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+            "sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+          "audio_duration_seconds": 2193.507875,
+          "selected_start": 145.0,
+          "selected_end": 305.0,
+          "language_probability": 0.9932324886322021,
+          "segment_count": 64,
+          "detected_language": "zh",
+          "last_completed_audio_second": 305.0,
+          "peak_ram_mb": 3634.7
+        }
+      },
+      {
+        "number": 3,
+        "episode": 1,
+        "start": 370,
+        "end": 410,
+        "purpose": "疑似年份 R1",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-03/20261101-023322-a14c9d4c/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 370.0,
+            "end": 410.0,
+            "source_type": "audio_file",
+            "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+            "source_id": "audio-bb68bfd80de020486cceb99f"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-03/20261101-023322-a14c9d4c",
+          "timings_seconds": {
+            "local_source_selection": 8.145299943862483e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 4.201260004000687,
+            "model_load": 3.7642160490004244,
+            "transcription": 47.49892909099981,
+            "total_this_invocation": 55.76199090299997
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/128b2bd0-240b-4462-8c81-2dee517f58cc/美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+            "sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+          "audio_duration_seconds": 2193.507875,
+          "selected_start": 370.0,
+          "selected_end": 410.0,
+          "language_probability": 0.9884308576583862,
+          "segment_count": 22,
+          "detected_language": "zh",
+          "last_completed_audio_second": 409.98,
+          "peak_ram_mb": 3185.1
+        }
+      },
+      {
+        "number": 4,
+        "episode": 1,
+        "start": 1200,
+        "end": 1235,
+        "purpose": "疑似年份 R7",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-04/20261101-023418-f95d6509/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 1200.0,
+            "end": 1235.0,
+            "source_type": "audio_file",
+            "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+            "source_id": "audio-bb68bfd80de020486cceb99f"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-04/20261101-023418-f95d6509",
+          "timings_seconds": {
+            "local_source_selection": 9.124800089921337e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 4.005760698999438,
+            "model_load": 3.450284936000571,
+            "transcription": 49.9153289650003,
+            "total_this_invocation": 57.647845726000014
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/128b2bd0-240b-4462-8c81-2dee517f58cc/美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+            "sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm",
+          "audio_duration_seconds": 2193.507875,
+          "selected_start": 1200.0,
+          "selected_end": 1235.0,
+          "language_probability": 0.9982602000236511,
+          "segment_count": 25,
+          "detected_language": "zh",
+          "last_completed_audio_second": 1234.84,
+          "peak_ram_mb": 3184.9
+        }
+      },
+      {
+        "number": 5,
+        "episode": 2,
+        "start": 0,
+        "end": 80,
+        "purpose": "后一期日期和指数名称",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-05/20261101-023516-2af89780/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 0.0,
+            "end": 80.0,
+            "source_type": "audio_file",
+            "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+            "source_id": "audio-dfac806255e6b0d3dcdb3e82"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-05/20261101-023516-2af89780",
+          "timings_seconds": {
+            "local_source_selection": 6.739199943694985e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.84260985399942,
+            "model_load": 3.7269922720006434,
+            "transcription": 80.87246674299968,
+            "total_this_invocation": 88.7113035149996
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/1e757c40-651e-4290-b30b-a404a2036548/美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+            "sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+          "audio_duration_seconds": 2011.3705625,
+          "selected_start": 0.0,
+          "selected_end": 80.0,
+          "language_probability": 0.9966603517532349,
+          "segment_count": 30,
+          "detected_language": "zh",
+          "last_completed_audio_second": 79.76,
+          "peak_ram_mb": 3475.5
+        }
+      },
+      {
+        "number": 6,
+        "episode": 2,
+        "start": 575,
+        "end": 650,
+        "purpose": "ISRG/TRV 等代码",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-06/20261101-023645-4b7ead5e/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 575.0,
+            "end": 650.0,
+            "source_type": "audio_file",
+            "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+            "source_id": "audio-dfac806255e6b0d3dcdb3e82"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-06/20261101-023645-4b7ead5e",
+          "timings_seconds": {
+            "local_source_selection": 6.955400021979585e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.8671703480004,
+            "model_load": 3.8022835299998405,
+            "transcription": 102.10542346000057,
+            "total_this_invocation": 110.05173459200068
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/1e757c40-651e-4290-b30b-a404a2036548/美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+            "sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+          "audio_duration_seconds": 2011.3705625,
+          "selected_start": 575.0,
+          "selected_end": 650.0,
+          "language_probability": 0.9916368126869202,
+          "segment_count": 67,
+          "detected_language": "zh",
+          "last_completed_audio_second": 649.74,
+          "peak_ram_mb": 3447.7
+        }
+      },
+      {
+        "number": 7,
+        "episode": 2,
+        "start": 1735,
+        "end": 1880,
+        "purpose": "三大风险事件、日期及加息/降息表述",
+        "status": "completed",
+        "report": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-07/20261101-023835-cf303ae1/run-report.json",
+        "run_report": {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 6,
+            "beam_size": 5,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 1735.0,
+            "end": 1880.0,
+            "source_type": "audio_file",
+            "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+            "source_id": "audio-dfac806255e6b0d3dcdb3e82"
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "output_directory": "/workspace/youtube-transcriber-cloud/outputs/two-days-large-v3/reviews/review-07/20261101-023835-cf303ae1",
+          "timings_seconds": {
+            "local_source_selection": 6.371600011334522e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.7192973689998325,
+            "model_load": 3.8121342659997026,
+            "transcription": 175.6825666020004,
+            "total_this_invocation": 183.49942744800046
+          },
+          "source": {
+            "type": "audio_file",
+            "path": "/workspace/attachments/1e757c40-651e-4290-b30b-a404a2036548/美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+            "sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b"
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "title": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm",
+          "audio_duration_seconds": 2011.3705625,
+          "selected_start": 1735.0,
+          "selected_end": 1880.0,
+          "language_probability": 0.9994021654129028,
+          "segment_count": 84,
+          "detected_language": "zh",
+          "last_completed_audio_second": 1879.92,
+          "peak_ram_mb": 3821.5
+        }
+      }
+    ],
+    "original_numeric_values_preserved_outside_annotations": true,
+    "findings": [
+      "前一期片头日期主/复核均为26年11月29号，与用户提供的连续顺序及后一期片头不一致，未推定实际日期。",
+      "两次识别在107/170及0.23百分号单位处有差异，原读法保留，另读写入校注。",
+      "R1/R7 年份及 SRG 代码未能确认，未强行替换。",
+      "后一期风险片段的星期三/星期二自我更正均保留；加息一词主/复核一致，未改为降息。",
+      "后一期1773秒主稿为10月29，复核为11月29；保留主稿，差异记入报告。",
+      "未对视频内的投资观点、财报数字或事件预测作外部事实核验。"
+    ]
+  },
+  "timings_seconds": {
+    "source_transcription_sum": 4806.094925467,
+    "source_model_load_sum": 7.652818147000232,
+    "review_transcription_sum": 706.2227561960008
+  },
+  "maximum_worker_peak_ram_mb": 5404.8,
+  "subtitle_time_note": "合并 SRT 使用按顺序拼接的人工时间轴；后一期加上前一期完整解码时长。两期独立原始及校对 SRT 在 ZIP 中均从各自零秒计时；本合编不表示同场连续录音。",
+  "checks": {
+    "all_source_segments_preserved": true,
+    "chapter_order_matches_user": true,
+    "srt_offsets_and_bounds": true,
+    "raw_originals_preserved": true
+  }
+}

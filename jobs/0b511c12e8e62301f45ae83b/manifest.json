@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "ordered-two-episode-collection",
+    "parts": [
+      {
+        "order": 1,
+        "role": "前一天",
+        "audio_sha256": "bb68bfd80de020486cceb99fb2c551f7f032697fb166c16836ff960154a82bd9",
+        "raw_result_key": "5bd071f2feeecc0e9b56664f"
+      },
+      {
+        "order": 2,
+        "role": "后一天",
+        "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+        "raw_result_key": "c23e58a1a66b0e3c8c2c254d"
+      }
+    ],
+    "model": "large-v3",
+    "beam_size": 5,
+    "edition": "labelled-reviewed-v1"
+  },
+  "title": "连续两期美股节目合编：前《科技股跳水锦标赛》后《天塌了？》（large-v3 校对）",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b511c12e8e62301f45ae83b/%E4%B8%A4%E6%9C%9F%E7%BE%8E%E8%82%A1%E8%8A%82%E7%9B%AE_%E5%89%8D%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4_%E5%90%8E%E5%A4%A9%E5%A1%8C%E4%BA%86_%E9%AB%98%E7%B2%BE%E5%BA%A6%E5%90%88%E5%B9%B6.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b511c12e8e62301f45ae83b/%E4%B8%A4%E6%9C%9F%E7%BE%8E%E8%82%A1%E8%8A%82%E7%9B%AE_%E5%89%8D%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4_%E5%90%8E%E5%A4%A9%E5%A1%8C%E4%BA%86_%E9%AB%98%E7%B2%BE%E5%BA%A6%E5%90%88%E5%B9%B6.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b511c12e8e62301f45ae83b/%E4%B8%A4%E6%9C%9F%E7%BE%8E%E8%82%A1%E8%8A%82%E7%9B%AE_%E5%89%8D%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4_%E5%90%8E%E5%A4%A9%E5%A1%8C%E4%BA%86_%E9%AB%98%E7%B2%BE%E5%BA%A6%E5%90%88%E5%B9%B6.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b511c12e8e62301f45ae83b/%E4%B8%A4%E6%9C%9F%E7%BE%8E%E8%82%A1%E8%8A%82%E7%9B%AE_%E5%89%8D%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%B3%E6%B0%B4_%E5%90%8E%E5%A4%A9%E5%A1%8C%E4%BA%86_%E9%AB%98%E7%B2%BE%E5%BA%A6%E5%90%88%E5%B9%B6.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0b511c12e8e62301f45ae83b",
+  "saved_at": 1793501084.0794961
+}
