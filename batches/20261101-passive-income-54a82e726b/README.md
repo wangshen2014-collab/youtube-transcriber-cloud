@@ -5,6 +5,4 @@
 - [TXT](complete.txt)
 - [SRT](complete.srt)
 - [JSON](complete.json)
-- [ZIP](complete.zip)
-
 [保留原始标题的结果页面](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/54a82e726bf03730f38e1043)

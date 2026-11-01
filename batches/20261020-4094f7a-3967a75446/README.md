@@ -1,8 +1,6 @@
 # 本批转录结果
 
 15份不同音频、5期分段合并；3份相同内容附件已去重。
-
-- [全部结果ZIP](EP153-EP151-EP150-EP148-EP146-all-results.zip)
 - [批次运行报告](batch-report.json)
 
 - [EP153 - GPT-6 Astra 強到離譜（大部分情況）](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/916f8b04e567480876e5a65f)

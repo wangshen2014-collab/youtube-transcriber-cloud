@@ -5,4 +5,3 @@
 - [TXT](complete.txt)
 - [SRT](complete.srt)
 - [JSON](complete.json)
-- [ZIP](complete.zip)

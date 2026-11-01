@@ -1,0 +1,879 @@
+{
+  "9f18560e2045766b12122949": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "7b13f3273239fd685249ec0439afa1a8dbad75cb69e15be09d5442ef0f976e0b",
+      "source_id": "audio-7b13f3273239fd685249ec04"
+    },
+    "merged_into": "fdb5c1b0b2a07f8f7d69fb83"
+  },
+  "9e4ef591da164616aed2e321": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "6997df9f996efa8737b61785028d52e1761d6d1f9493870eb24f9e80f0462b4b",
+      "source_id": "audio-6997df9f996efa8737b61785"
+    },
+    "merged_into": "fdb5c1b0b2a07f8f7d69fb83"
+  },
+  "9725d5fa93bbf9e38351b88e": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "5a4c54a14101084579b078c2ef31df94c1c7e91604c71cf2ef6fbae70634ed2f",
+      "source_id": "audio-5a4c54a14101084579b078c2"
+    },
+    "merged_into": "fdb5c1b0b2a07f8f7d69fb83"
+  },
+  "927803163329a53609fcba2a": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "6824c0e45622d9348956eea45fddde1027290405b3d49758f6ab6ea810fcf54b",
+      "source_id": "audio-6824c0e45622d9348956eea4"
+    },
+    "merged_into": "e5ce988718d03adef7a00b28"
+  },
+  "c4f5007a734828a14b5aba8a": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "451d4842dc3b9b9a4425722fe9e44b968680e57248d091b9b1bfb87201189d73",
+      "source_id": "audio-451d4842dc3b9b9a4425722f"
+    },
+    "merged_into": "e5ce988718d03adef7a00b28"
+  },
+  "39c3e19d153a98ba5831f510": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "0d74f6ac797c047331327a5a0af79b09c4e619323fc82ca9ecdb1beeab86c222",
+      "source_id": "audio-0d74f6ac797c047331327a5a"
+    },
+    "merged_into": "e5ce988718d03adef7a00b28"
+  },
+  "3c068fe02e612f7fffa4313a": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "0d63c38619dc3d76b15a0c09c1a4da3d3d6f4225f1ccd450001eeced47ec68e8",
+      "source_id": "audio-0d63c38619dc3d76b15a0c09"
+    },
+    "merged_into": "e5ce988718d03adef7a00b28"
+  },
+  "69911da33b464c3ecf29c864": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "d7b4bda36c2b81314d62d2639ac2dc9a9e12d68133857b0944664be8005183be",
+      "source_id": "audio-d7b4bda36c2b81314d62d263"
+    },
+    "merged_into": "cd279e49295f274194933cc9"
+  },
+  "fe0318d66f894cec8a96d1b9": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "e9b2cdac0abe52c4ab45cbbbce73abc5b902a248ad98d6c38f7cccb11cacae91",
+      "source_id": "audio-e9b2cdac0abe52c4ab45cbbb"
+    },
+    "merged_into": "cd279e49295f274194933cc9"
+  },
+  "0ac50ff6daa886280907b1ad": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "3bb3dd48861d003ae34b2d90f469a1d342daad8bb6c7b39e6ae311eaa450b71a",
+      "source_id": "audio-3bb3dd48861d003ae34b2d90"
+    },
+    "merged_into": "cd279e49295f274194933cc9"
+  },
+  "82cd09fb5a676db6c60b1215": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "b07bdf7c8ee7879e4dd0e96e8917fdfe78797379b773827d7de0de3a99b034b0",
+      "source_id": "audio-b07bdf7c8ee7879e4dd0e96e"
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "5d75c37d886c071fce676933": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "da65944f689a8b259fb59a8568a6f1dd5a0690318940ec07fd12de475b7ee8bf",
+      "source_id": "audio-da65944f689a8b259fb59a85"
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "e13b1367a610e9776a999860": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "1d620265ffdc4d96ad6afd182ea0d775dfdbefdbc8dafcbf5a32e75c41994320",
+      "source_id": "audio-1d620265ffdc4d96ad6afd18"
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "55fd90c8544a08c4ae835e4b": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "2593e5217752a7d642d6874b1ee5fdf4ae53ef4357905e0267c1866619b87728",
+      "source_id": "audio-2593e5217752a7d642d6874b"
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "493afa70103ec1f6b70652f9": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "b796d241b5c74645c6fa4be194b4259a515a7ad702f3fd05b76355813ebf989d",
+      "source_id": "audio-b796d241b5c74645c6fa4be1"
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "ffed881c3267ba611e3eeb19": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "4b350673e95a57d6521b38758f03292524ec8d6bfcfade5736021aa65d12100a",
+      "source_id": "audio-4b350673e95a57d6521b3875"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "bc6978015b2f717d49651273": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "70c972a974b1a7b2f700d9f1142531da11688bbcc4a6baefe24f5be1e3203c10",
+      "source_id": "audio-70c972a974b1a7b2f700d9f1"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "158d592b478628a531db1d04": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "9e4e9e942bfbcf26544a3bb7496160c2a37eb01d37a52177b69cfca48bc20e4e",
+      "source_id": "audio-9e4e9e942bfbcf26544a3bb7"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "88ca35839ae810417cf5c0ce": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "dbf90908466efb3ab9f5f64eccae7a1506361a68da54cb7a5ffbea30838b9c1c",
+      "source_id": "audio-dbf90908466efb3ab9f5f64e"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "28893c067c013e0cc0764a34": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "4d4e79334a2014ae3f18e1ec0d4be82aa27d2f1ac023cb1de1ea7d2e8d2e5583",
+      "source_id": "audio-4d4e79334a2014ae3f18e1ec"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "ea5414444e2de9866493026d": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "728a94dd30093e2cb63a3e3bb73aed2743464eec0c9bcb1c80c71eab67dab65e",
+      "source_id": "audio-728a94dd30093e2cb63a3e3b"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "c0e6e21803e55052e9c9332e": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "0cdebecb839c7fcc8dd7794e70f25c90dca919c49cf6bdcb15ed23d316a7e459",
+      "source_id": "audio-0cdebecb839c7fcc8dd7794e"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "6aaedc452551198c405ad4a5": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "8553f7cfa1ae25afc4dcad1a6cd6c5f20081605f45d47e6301d9d9620b7f83de",
+      "source_id": "audio-8553f7cfa1ae25afc4dcad1a"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "c7bcf86998b098e34c3e4f61": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "f449ce1a370b460608025b461c65ec11bf28f77f899941a96423ae0524f88703",
+      "source_id": "audio-f449ce1a370b460608025b46"
+    },
+    "merged_into": "aceaae67cfb627fc44a4251e"
+  },
+  "7ffb83f40526e3b85000aa45": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "6a2ba2007d63a008de735540c032e100f915293d5dc175e6b30eb6a291c26fb8",
+      "source_id": "audio-6a2ba2007d63a008de735540"
+    },
+    "merged_into": "a65a424234a114412e40827c"
+  },
+  "9157a4c419f54ef0536785cf": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "d56e8a978649c19bf5eb9a79c2ca797087900a0b901adea7b93c3c79f4919085",
+      "source_id": "audio-d56e8a978649c19bf5eb9a79"
+    },
+    "merged_into": "a65a424234a114412e40827c"
+  },
+  "0649b9512d33a6e289368e04": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "d55c546d3b776d8dc4feca3c6250b67cb6ac70ec9aa90acb1607f074927cce2a",
+      "source_id": "audio-d55c546d3b776d8dc4feca3c"
+    },
+    "merged_into": "a65a424234a114412e40827c"
+  },
+  "cb7f7c78966e94288777eef5": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285",
+      "source_id": "audio-39d3ce4bcad73d49e112525c"
+    },
+    "merged_into": "916f8b04e567480876e5a65f"
+  },
+  "8ad0a0dcf8f3e88115b9f1cf": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "87b18526ad5e7e73fbbb412bf3d4ce0fa9a1f62e396def51e0cd650b02db4309",
+      "source_id": "audio-87b18526ad5e7e73fbbb412b"
+    },
+    "merged_into": "916f8b04e567480876e5a65f"
+  },
+  "13c12ea26fe168504ccf5b45": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65",
+      "source_id": "audio-126141f3b8f3250a97572190"
+    },
+    "merged_into": "916f8b04e567480876e5a65f"
+  },
+  "9b71f7bc45f4f81c9a80e6b8": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "a54ec723285291dff29eae01aff182c2bbf40eb713b2efb03f45db6d72553456",
+      "source_id": "audio-a54ec723285291dff29eae01"
+    },
+    "merged_into": "83831098f244cca347e10c92"
+  },
+  "193929085ee5592d2c9e516b": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "7010f9ee524e2cb0be8c5f96db56a1e9c59a6686e6d957e76ef2f608cadca8a7",
+      "source_id": "audio-7010f9ee524e2cb0be8c5f96"
+    },
+    "merged_into": "83831098f244cca347e10c92"
+  },
+  "a9e26bee00b4f73ee0980650": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "89df20eb99ac19ec4dfc29a5b86cd62cb54d3fe62fb7f00bd248febe512a18e0",
+      "source_id": "audio-89df20eb99ac19ec4dfc29a5"
+    },
+    "merged_into": "83831098f244cca347e10c92"
+  },
+  "5dab95373ff15511a4b19a61": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "79c4f8aa5a22bcb0d72276cec18f2e16a4cc07ace70cea60685080e98bb94b93",
+      "source_id": "audio-79c4f8aa5a22bcb0d72276ce"
+    },
+    "merged_into": "8298c152135f54106cc38541"
+  },
+  "30353248c921ffeb86f6c046": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "0a02f5f2d7c279095c2c88d189cfb5868a94b0b153ba9e9e8ced4f3ab5ba9ee9",
+      "source_id": "audio-0a02f5f2d7c279095c2c88d1"
+    },
+    "merged_into": "8298c152135f54106cc38541"
+  },
+  "52d8053cbee7ea550b84340a": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "96a576748b2c75d659d6d9db31ef85d13e335acd7ad9cc06ec8a39e6a470d415",
+      "source_id": "audio-96a576748b2c75d659d6d9db"
+    },
+    "merged_into": "8298c152135f54106cc38541"
+  },
+  "879454e7b084e9b9410d7ade": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "12f4b57bea4f389dc081a1b9f455a67dc75e9b7428f73e0b6659bcabfc689e53",
+      "source_id": "audio-12f4b57bea4f389dc081a1b9"
+    },
+    "merged_into": "7b1d55830d73942e2bcb4e26"
+  },
+  "dc14dfd9e7334b40c9d47d99": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "44cc8dcbcf5b1989300f18f0a660667901db7f888bea6419d82f0c83ed25cdef",
+      "source_id": "audio-44cc8dcbcf5b1989300f18f0"
+    },
+    "merged_into": "7b1d55830d73942e2bcb4e26"
+  },
+  "aaead86a18018c1fb94037c9": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "7dd2861be9ec3ed68d7fef7056af275fb539d8743bdeab8756057a888d7a7655",
+      "source_id": "audio-7dd2861be9ec3ed68d7fef70"
+    },
+    "merged_into": "7b1d55830d73942e2bcb4e26"
+  },
+  "1f1e9185e84b8b9c20d7c0cb": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "edf2f0fff36cca5dfe461617998639c7a51d6ea2068b7be63f72aaf6890c6356",
+      "source_id": "audio-edf2f0fff36cca5dfe461617"
+    },
+    "merged_into": "6c126974c8ea48f3689a7680"
+  },
+  "80ed4a877ff6d859e5766255": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "3c813618108457611f48b0d8af3244c88e5d0484cc761c613c63faa7fdcfd72a",
+      "source_id": "audio-3c813618108457611f48b0d8"
+    },
+    "merged_into": "6c126974c8ea48f3689a7680"
+  },
+  "b1259f375583b68d40083d16": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "22b7b7222a729f68763a0370442bd512ed9ed43dc67017b838f4de7b0f3a08d0",
+      "source_id": "audio-22b7b7222a729f68763a0370"
+    },
+    "merged_into": "6c126974c8ea48f3689a7680"
+  },
+  "3624c671eae69253a1f2cb31": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "450f2995a3c2a3480602687fee6373dab094397ae035024bffb0284bbf9c4238",
+      "source_id": "audio-450f2995a3c2a3480602687f"
+    },
+    "merged_into": "552c4620925433d5e30446d6"
+  },
+  "6ea2fbf386dbc5b632609b3e": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "e2a12aea0f3525c8302835db99f1c6ff90c2d08db1bebdc8d9e3a0a3d601d730",
+      "source_id": "audio-e2a12aea0f3525c8302835db"
+    },
+    "merged_into": "552c4620925433d5e30446d6"
+  },
+  "4e8b1ad3caf1bc634e6fb1b3": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "35d555662e641906421345bd28d4733fb7eda7fccb49edb68f2e6789e836d308",
+      "source_id": "audio-35d555662e641906421345bd"
+    },
+    "merged_into": "552c4620925433d5e30446d6"
+  },
+  "f1203c8f97d264765ed2381b": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "37b9a1229ffc39005e2d228faf9995e3aceda146204603739e2a0ca5ef1795e5",
+      "source_id": "audio-37b9a1229ffc39005e2d228f"
+    },
+    "merged_into": "36231890e52d149f64c56fe0"
+  },
+  "b5771d4a44932d9bf8422852": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "76a94669a0f4ba2e51964337d1e5140e2debd8278fd338e7864952c3d4d6b932",
+      "source_id": "audio-76a94669a0f4ba2e51964337"
+    },
+    "merged_into": "36231890e52d149f64c56fe0"
+  },
+  "b6e8507941dddb3456c70b9f": {
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 6,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "a6fdff5f846218e832db1df82c09dfb9bc8b6b5b7ff7012f3f9c8b58fa74fd6f",
+      "source_id": "audio-a6fdff5f846218e832db1df8"
+    },
+    "merged_into": "36231890e52d149f64c56fe0"
+  },
+  "c00dd4cf4b1455e1ded6483d": {
+    "settings": {
+      "source_type": "verified-parts-merge",
+      "parts": [
+        "82cd09fb5a676db6c60b1215",
+        "5d75c37d886c071fce676933",
+        "e13b1367a610e9776a999860",
+        "55fd90c8544a08c4ae835e4b",
+        "493afa70103ec1f6b70652f9"
+      ]
+    },
+    "merged_into": "54a82e726bf03730f38e1043"
+  }
+}

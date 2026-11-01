@@ -4,74 +4,74 @@
 内容公开，不自动过期。不要向本分支上传源音频。
 - [批量功能验证-英文一.wav](jobs/0bda0f2694e6aba918e8c1d8/README.md) <!-- job:0bda0f2694e6aba918e8c1d8 -->
 - [批量功能验证-英文二.wav](jobs/1e3b1880c89cdc6c77be9cb4/README.md) <!-- job:1e3b1880c89cdc6c77be9cb4 -->
-- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 _00-00-00 至 00-30-00_.m4a](jobs/cb7f7c78966e94288777eef5/README.md) <!-- job:cb7f7c78966e94288777eef5 -->
-- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第002段 _00-30-00 至 01-00-00_.m4a](jobs/8ad0a0dcf8f3e88115b9f1cf/README.md) <!-- job:8ad0a0dcf8f3e88115b9f1cf -->
-- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 _01-00-00 至 01-11-22_.m4a](jobs/13c12ea26fe168504ccf5b45/README.md) <!-- job:13c12ea26fe168504ccf5b45 -->
-- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/9f18560e2045766b12122949/README.md) <!-- job:9f18560e2045766b12122949 -->
-- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/9e4ef591da164616aed2e321/README.md) <!-- job:9e4ef591da164616aed2e321 -->
-- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第003段 _01-00-00 至 01-13-55_.m4a](jobs/9725d5fa93bbf9e38351b88e/README.md) <!-- job:9725d5fa93bbf9e38351b88e -->
-- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/879454e7b084e9b9410d7ade/README.md) <!-- job:879454e7b084e9b9410d7ade -->
-- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/dc14dfd9e7334b40c9d47d99/README.md) <!-- job:dc14dfd9e7334b40c9d47d99 -->
-- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第003段 _01-00-00 至 01-19-02_.m4a](jobs/aaead86a18018c1fb94037c9/README.md) <!-- job:aaead86a18018c1fb94037c9 -->
-- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/1f1e9185e84b8b9c20d7c0cb/README.md) <!-- job:1f1e9185e84b8b9c20d7c0cb -->
-- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/80ed4a877ff6d859e5766255/README.md) <!-- job:80ed4a877ff6d859e5766255 -->
-- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 _01-00-00 至 01-08-59_.m4a](jobs/b1259f375583b68d40083d16/README.md) <!-- job:b1259f375583b68d40083d16 -->
-- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 _00-00-00 至 00-30-00_.m4a](jobs/7ffb83f40526e3b85000aa45/README.md) <!-- job:7ffb83f40526e3b85000aa45 -->
-- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 _00-30-00 至 01-00-00_.m4a](jobs/9157a4c419f54ef0536785cf/README.md) <!-- job:9157a4c419f54ef0536785cf -->
-- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 _01-00-00 至 01-15-20_.m4a](jobs/0649b9512d33a6e289368e04/README.md) <!-- job:0649b9512d33a6e289368e04 -->
+- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 _00-00-00 至 00-30-00_.m4a](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:cb7f7c78966e94288777eef5 -->
+- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第002段 _00-30-00 至 01-00-00_.m4a](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:8ad0a0dcf8f3e88115b9f1cf -->
+- [EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 _01-00-00 至 01-11-22_.m4a](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:13c12ea26fe168504ccf5b45 -->
+- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:9f18560e2045766b12122949 -->
+- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:9e4ef591da164616aed2e321 -->
+- [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ 第003段 _01-00-00 至 01-13-55_.m4a](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:9725d5fa93bbf9e38351b88e -->
+- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:879454e7b084e9b9410d7ade -->
+- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:dc14dfd9e7334b40c9d47d99 -->
+- [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ 第003段 _01-00-00 至 01-19-02_.m4a](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:aaead86a18018c1fb94037c9 -->
+- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:1f1e9185e84b8b9c20d7c0cb -->
+- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:80ed4a877ff6d859e5766255 -->
+- [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ 第003段 _01-00-00 至 01-08-59_.m4a](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:b1259f375583b68d40083d16 -->
+- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第001段 _00-00-00 至 00-30-00_.m4a](jobs/a65a424234a114412e40827c/README.md) <!-- job:7ffb83f40526e3b85000aa45 -->
+- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第002段 _00-30-00 至 01-00-00_.m4a](jobs/a65a424234a114412e40827c/README.md) <!-- job:9157a4c419f54ef0536785cf -->
+- [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras 第003段 _01-00-00 至 01-15-20_.m4a](jobs/a65a424234a114412e40827c/README.md) <!-- job:0649b9512d33a6e289368e04 -->
 - [EP153 - GPT-6 Astra 強到離譜（大部分情況） _已上传分段合并_](jobs/916f8b04e567480876e5a65f/README.md) <!-- job:916f8b04e567480876e5a65f -->
 - [EP151 - NVIDIA 的 CUDA 護城河消失中，但老黃早已想到下一步？AI 輔助的個人化 mRNA 癌症療法來了！ _已上传分段合并_](jobs/fdb5c1b0b2a07f8f7d69fb83/README.md) <!-- job:fdb5c1b0b2a07f8f7d69fb83 -->
 - [EP150 - SpaceX 真的追上了！Google 危險了？Meta 重返開源｜Bonus：哈利的氛圍學院正式上線！ _已上传分段合并_](jobs/7b1d55830d73942e2bcb4e26/README.md) <!-- job:7b1d55830d73942e2bcb4e26 -->
 - [EP148 - Kimi K3 震撼矽谷！真的這麼強嗎？ _已上传分段合并-实际时长_](jobs/6c126974c8ea48f3689a7680/README.md) <!-- job:6c126974c8ea48f3689a7680 -->
 - [EP146 - 市值只有 NVIDIA 的 1%，卻想挑戰 AI 晶片霸主：深度解析 Cerebras _已上传分段合并-实际时长_](jobs/a65a424234a114412e40827c/README.md) <!-- job:a65a424234a114412e40827c -->
-- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/5dab95373ff15511a4b19a61/README.md) <!-- job:5dab95373ff15511a4b19a61 -->
-- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/30353248c921ffeb86f6c046/README.md) <!-- job:30353248c921ffeb86f6c046 -->
-- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 _01-00-00 至 01-12-09_.m4a](jobs/52d8053cbee7ea550b84340a/README.md) <!-- job:52d8053cbee7ea550b84340a -->
-- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 _00-00-00 至 00-30-00_.m4a](jobs/9b71f7bc45f4f81c9a80e6b8/README.md) <!-- job:9b71f7bc45f4f81c9a80e6b8 -->
-- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 _00-30-00 至 01-00-00_.m4a](jobs/193929085ee5592d2c9e516b/README.md) <!-- job:193929085ee5592d2c9e516b -->
-- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 _01-00-00 至 01-27-59_.m4a](jobs/a9e26bee00b4f73ee0980650/README.md) <!-- job:a9e26bee00b4f73ee0980650 -->
-- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 _00-00-00 至 00-30-00_.m4a](jobs/f1203c8f97d264765ed2381b/README.md) <!-- job:f1203c8f97d264765ed2381b -->
-- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 _00-30-00 至 01-00-00_.m4a](jobs/b5771d4a44932d9bf8422852/README.md) <!-- job:b5771d4a44932d9bf8422852 -->
-- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 _01-00-00 至 01-00-58_.m4a](jobs/b6e8507941dddb3456c70b9f/README.md) <!-- job:b6e8507941dddb3456c70b9f -->
-- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/69911da33b464c3ecf29c864/README.md) <!-- job:69911da33b464c3ecf29c864 -->
-- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/fe0318d66f894cec8a96d1b9/README.md) <!-- job:fe0318d66f894cec8a96d1b9 -->
-- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 _01-00-00 至 01-05-56_.m4a](jobs/0ac50ff6daa886280907b1ad/README.md) <!-- job:0ac50ff6daa886280907b1ad -->
+- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/8298c152135f54106cc38541/README.md) <!-- job:5dab95373ff15511a4b19a61 -->
+- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/8298c152135f54106cc38541/README.md) <!-- job:30353248c921ffeb86f6c046 -->
+- [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？ 第003段 _01-00-00 至 01-12-09_.m4a](jobs/8298c152135f54106cc38541/README.md) <!-- job:52d8053cbee7ea550b84340a -->
+- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第001段 _00-00-00 至 00-30-00_.m4a](jobs/83831098f244cca347e10c92/README.md) <!-- job:9b71f7bc45f4f81c9a80e6b8 -->
+- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第002段 _00-30-00 至 01-00-00_.m4a](jobs/83831098f244cca347e10c92/README.md) <!-- job:193929085ee5592d2c9e516b -->
+- [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct 第003段 _01-00-00 至 01-27-59_.m4a](jobs/83831098f244cca347e10c92/README.md) <!-- job:a9e26bee00b4f73ee0980650 -->
+- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第001段 _00-00-00 至 00-30-00_.m4a](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:f1203c8f97d264765ed2381b -->
+- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第002段 _00-30-00 至 01-00-00_.m4a](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:b5771d4a44932d9bf8422852 -->
+- [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪 第003段 _01-00-00 至 01-00-58_.m4a](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:b6e8507941dddb3456c70b9f -->
+- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/cd279e49295f274194933cc9/README.md) <!-- job:69911da33b464c3ecf29c864 -->
+- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/cd279e49295f274194933cc9/README.md) <!-- job:fe0318d66f894cec8a96d1b9 -->
+- [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！ 第003段 _01-00-00 至 01-05-56_.m4a](jobs/cd279e49295f274194933cc9/README.md) <!-- job:0ac50ff6daa886280907b1ad -->
 - [EP155 - 席捲 AI 圈的 Jev，到底在紅什麼？AI Agent 真的要大改了嗎？](jobs/8298c152135f54106cc38541/README.md) <!-- job:8298c152135f54106cc38541 -->
 - [EP157 - AI Agent 大戰全面開打！深度解析 OpenAI Dots、Muse、Grok Bot、Instinct](jobs/83831098f244cca347e10c92/README.md) <!-- job:83831098f244cca347e10c92 -->
 - [EP158 - AI 越來越聰明，硬體跟得上嗎？從供電瓶頸到人形機器人 _ 專訪 英飛凌台灣董事總經理陳志豪](jobs/36231890e52d149f64c56fe0/README.md) <!-- job:36231890e52d149f64c56fe0 -->
 - [EP160 - AI 時代的公司將徹底改變！一個人如何創造百倍價值？Anthropic、SpaceXAI 已經讓我們看見答案！](jobs/cd279e49295f274194933cc9/README.md) <!-- job:cd279e49295f274194933cc9 -->
 - [SOXX](jobs/6ec2f48e571b399c228e81d1/README.md) <!-- job:6ec2f48e571b399c228e81d1 -->
-- [错失一个时代 001](jobs/3624c671eae69253a1f2cb31/README.md) <!-- job:3624c671eae69253a1f2cb31 -->
-- [错失一个时代 002](jobs/6ea2fbf386dbc5b632609b3e/README.md) <!-- job:6ea2fbf386dbc5b632609b3e -->
-- [错失一个时代 003](jobs/4e8b1ad3caf1bc634e6fb1b3/README.md) <!-- job:4e8b1ad3caf1bc634e6fb1b3 -->
-- [AI投资分享 001](jobs/927803163329a53609fcba2a/README.md) <!-- job:927803163329a53609fcba2a -->
-- [AI投资分享 002](jobs/c4f5007a734828a14b5aba8a/README.md) <!-- job:c4f5007a734828a14b5aba8a -->
-- [AI投资分享 003](jobs/39c3e19d153a98ba5831f510/README.md) <!-- job:39c3e19d153a98ba5831f510 -->
-- [AI投资分享 004](jobs/3c068fe02e612f7fffa4313a/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
+- [错失一个时代 001](jobs/552c4620925433d5e30446d6/README.md) <!-- job:3624c671eae69253a1f2cb31 -->
+- [错失一个时代 002](jobs/552c4620925433d5e30446d6/README.md) <!-- job:6ea2fbf386dbc5b632609b3e -->
+- [错失一个时代 003](jobs/552c4620925433d5e30446d6/README.md) <!-- job:4e8b1ad3caf1bc634e6fb1b3 -->
+- [AI投资分享 001](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:927803163329a53609fcba2a -->
+- [AI投资分享 002](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:c4f5007a734828a14b5aba8a -->
+- [AI投资分享 003](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:39c3e19d153a98ba5831f510 -->
+- [AI投资分享 004](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:3c068fe02e612f7fffa4313a -->
 - [错失一个时代](jobs/552c4620925433d5e30446d6/README.md) <!-- job:552c4620925433d5e30446d6 -->
 - [AI投资机会和布局](jobs/e5ce988718d03adef7a00b28/README.md) <!-- job:e5ce988718d03adef7a00b28 -->
 - [再次提醒：AI泡沫离破裂不远了【汤山老王】.webm](jobs/c4cde4e82457ff7daf6bb902/README.md) <!-- job:c4cde4e82457ff7daf6bb902 -->
 - [科技股暴跌，抄底机会到了吗？.webm](jobs/3b49c9628aef4eb8a10c226a/README.md) <!-- job:3b49c9628aef4eb8a10c226a -->
 - [对话儿童心理专家：AI时代小孩还要出国吗？.webm](jobs/74af59f8f870fe2fc2d9dd53/README.md) <!-- job:74af59f8f870fe2fc2d9dd53 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/ffed881c3267ba611e3eeb19/README.md) <!-- job:ffed881c3267ba611e3eeb19 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/bc6978015b2f717d49651273/README.md) <!-- job:bc6978015b2f717d49651273 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第003段 _01-00-00 至 01-30-00_.m4a](jobs/158d592b478628a531db1d04/README.md) <!-- job:158d592b478628a531db1d04 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第004段 _01-30-00 至 02-00-00_.m4a](jobs/88ca35839ae810417cf5c0ce/README.md) <!-- job:88ca35839ae810417cf5c0ce -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第005段 _02-00-00 至 02-30-00_.m4a](jobs/28893c067c013e0cc0764a34/README.md) <!-- job:28893c067c013e0cc0764a34 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第006段 _02-30-00 至 03-00-00_.m4a](jobs/ea5414444e2de9866493026d/README.md) <!-- job:ea5414444e2de9866493026d -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第007段 _03-00-00 至 03-30-00_.m4a](jobs/c0e6e21803e55052e9c9332e/README.md) <!-- job:c0e6e21803e55052e9c9332e -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第008段 _03-30-00 至 04-00-00_.m4a](jobs/6aaedc452551198c405ad4a5/README.md) <!-- job:6aaedc452551198c405ad4a5 -->
-- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第009段 _04-00-00 至 04-22-29_.m4a](jobs/c7bcf86998b098e34c3e4f61/README.md) <!-- job:c7bcf86998b098e34c3e4f61 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第001段 _00-00-00 至 00-30-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:ffed881c3267ba611e3eeb19 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第002段 _00-30-00 至 01-00-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:bc6978015b2f717d49651273 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第003段 _01-00-00 至 01-30-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:158d592b478628a531db1d04 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第004段 _01-30-00 至 02-00-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:88ca35839ae810417cf5c0ce -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第005段 _02-00-00 至 02-30-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:28893c067c013e0cc0764a34 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第006段 _02-30-00 至 03-00-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:ea5414444e2de9866493026d -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第007段 _03-00-00 至 03-30-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:c0e6e21803e55052e9c9332e -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第008段 _03-30-00 至 04-00-00_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:6aaedc452551198c405ad4a5 -->
+- [对话孙宇晨：年轻人如何抓住AI时代的机会？ 第009段 _04-00-00 至 04-22-29_.m4a](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:c7bcf86998b098e34c3e4f61 -->
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ _已上传分段合并_](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:aceaae67cfb627fc44a4251e -->
 - [美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm（large-v3 高精度校对）](jobs/9aeb01aaeddcd5892e2add44/README.md) <!-- job:9aeb01aaeddcd5892e2add44 -->
 - [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了.webm](jobs/24ba91301e2986b569dfa9bd/README.md) <!-- job:24ba91301e2986b569dfa9bd -->
 - [美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm（large-v3 原始转录）](jobs/5bd071f2feeecc0e9b56664f/README.md) <!-- job:5bd071f2feeecc0e9b56664f -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 _00-00-00 至 00-30-00_.m4a](jobs/82cd09fb5a676db6c60b1215/README.md) <!-- job:82cd09fb5a676db6c60b1215 -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 _00-00-00 至 00-30-00_.m4a](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:82cd09fb5a676db6c60b1215 -->
 - [美股 天塌了？应该买还是卖？11月三大风险事件！.webm（large-v3 原始转录）](jobs/c23e58a1a66b0e3c8c2c254d/README.md) <!-- job:c23e58a1a66b0e3c8c2c254d -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 _00-30-00 至 01-00-00_.m4a](jobs/5d75c37d886c071fce676933/README.md) <!-- job:5d75c37d886c071fce676933 -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 _00-30-00 至 01-00-00_.m4a](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:5d75c37d886c071fce676933 -->
 - [连续两期美股节目合编：前《科技股跳水锦标赛》后《天塌了？》（large-v3 校对）](jobs/0b511c12e8e62301f45ae83b/README.md) <!-- job:0b511c12e8e62301f45ae83b -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 _01-00-00 至 01-30-00_.m4a](jobs/e13b1367a610e9776a999860/README.md) <!-- job:e13b1367a610e9776a999860 -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 _01-30-00 至 02-00-00_.m4a](jobs/55fd90c8544a08c4ae835e4b/README.md) <!-- job:55fd90c8544a08c4ae835e4b -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第005段 _02-00-00 至 02-15-02_.m4a](jobs/493afa70103ec1f6b70652f9/README.md) <!-- job:493afa70103ec1f6b70652f9 -->
-- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! _已上传分段合并_](jobs/c00dd4cf4b1455e1ded6483d/README.md) <!-- job:c00dd4cf4b1455e1ded6483d -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 _01-00-00 至 01-30-00_.m4a](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:e13b1367a610e9776a999860 -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 _01-30-00 至 02-00-00_.m4a](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:55fd90c8544a08c4ae835e4b -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第005段 _02-00-00 至 02-15-02_.m4a](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:493afa70103ec1f6b70652f9 -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! _已上传分段合并_](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:c00dd4cf4b1455e1ded6483d -->
 - [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! _完整系列-五段合并_](jobs/54a82e726bf03730f38e1043/README.md) <!-- job:54a82e726bf03730f38e1043 -->
