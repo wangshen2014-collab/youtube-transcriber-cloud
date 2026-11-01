@@ -50,9 +50,11 @@ def inputs(paths, directory=None):
 def job_args(options, source, key=None):
     root = options.state_dir / 'jobs' / (key or 'pending')
     return argparse.Namespace(url=None, audio_file=source, language=options.language,
-        model='medium', threads=6, beam_size=3, start=options.start, end=options.end,
+        model='large-v3' if getattr(options, 'quality', 'standard') == 'high' else 'medium',
+        threads=6, beam_size=5 if getattr(options, 'quality', 'standard') == 'high' else 3,
+        start=options.start, end=options.end,
         state_dir=root, model_dir=options.model_dir, output_dir=options.output_dir / (key or 'pending'),
-        pause_file=options.pause_file)
+        pause_file=options.pause_file, source_url=getattr(options, 'url', None))
 
 
 def restore_checkpoint(store, key, config, args):
@@ -76,7 +78,7 @@ def run_worker(args, checkpoint, store, key, interval=600):
     args.state_dir.mkdir(parents=True, exist_ok=True)
     command = [sys.executable, str(Path(__file__).with_name('transcribe_cli.py')),
         '--audio-file', str(args.audio_file), '--language', args.language,
-        '--model', 'medium', '--threads', '6', '--beam-size', '3',
+        '--model', args.model, '--threads', str(args.threads), '--beam-size', str(args.beam_size),
         '--start', str(int(args.start)), '--state-dir', str(args.state_dir),
         '--model-dir', str(args.model_dir), '--output-dir', str(args.output_dir)]
     if args.end is not None:
@@ -145,6 +147,8 @@ def prepare_results(args, config, source):
         files[ext] = ready / (base + '.' + ext)
         files[ext].write_bytes(original.read_bytes())
     report['source']['original_name'] = source.name
+    if getattr(args, 'source_url', None):
+        report['source']['youtube_url'] = args.source_url
     report['execution_backend'] = 'direct-python-process'
     report['storage_backend'] = 'github-git'
     files['json'] = ready / (base + '.json')
@@ -257,8 +261,25 @@ def merge_named_parts(options, ledger, store):
 
 
 def run_batch(options, store, worker=run_worker):
-    sources = inputs(options.files, options.input_dir)
     store.ensure()  # Fail authorization before spending hours on inference.
+    if getattr(options, 'url', None):
+        # Canonicalize before download; never accept an arbitrary media URL.
+        options.url = 'https://www.youtube.com/watch?v=' + cli.video_id(options.url)
+        if STOP or (options.pause_file and options.pause_file.exists()):
+            return 75
+        try:
+            audio, _, _ = cli.cached_audio(options.url, options.state_dir / 'audio-cache')
+        except Exception as exc:
+            cli.atomic_json(options.state_dir / 'download-status.json',
+                            {'status': 'download_failed', 'url': options.url, 'error': str(exc)})
+            print('YouTube 下载失败，未开始识别，也未生成转录结果。'
+                  '403、登录或机器人验证可能来自 YouTube 云端访问限制；不自动反复提交。', flush=True)
+            raise
+        cli.atomic_json(options.state_dir / 'download-status.json',
+                        {'status': 'downloaded', 'url': options.url})
+        sources = inputs([audio])
+    else:
+        sources = inputs(options.files, options.input_dir)
     options.state_dir.mkdir(parents=True, exist_ok=True)
     ledger = {'status': 'running', 'results_url': store.home,
               'jobs': [{'name': source.name, 'status': 'queued'} for source in sources]}
@@ -331,6 +352,9 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description='Codex 云端批量转录，逐个存到 GitHub（不运行 Actions）')
     parser.add_argument('files', nargs='*', type=Path)
     parser.add_argument('--input-dir', type=Path, help='只扫描此目录顶层音频，按自然文件名顺序')
+    parser.add_argument('--url', help='单个公开 YouTube 视频链接，由当前云端任务下载')
+    parser.add_argument('--quality', choices=('standard', 'high'), default='standard',
+                        help='standard: medium/beam3；high: large-v3/beam5（更慢，不保证所有音频更准确）')
     parser.add_argument('--repo', default=os.getenv('YT_GITHUB_REPO', REPO))
     parser.add_argument('--language', choices=('auto', 'zh', 'en'), default='auto')
     parser.add_argument('--start', type=cli.timestamp, default=0.0)
@@ -341,6 +365,10 @@ def main(argv=None):
     parser.add_argument('--pause-file', type=Path)
     parser.add_argument('--checkpoint-seconds', type=int, default=600)
     options = parser.parse_args(argv)
+    if options.url and (options.files or options.input_dir):
+        parser.error('--url 不能与音频文件或 --input-dir 混用')
+    if not options.url and not options.files and not options.input_dir:
+        parser.error('请提供 --url 或音频文件')
     if options.checkpoint_seconds < 60 or (options.end is not None and options.end <= options.start):
         parser.error('检查点同步间隔至少60秒，结束时间必须晚于开始时间')
     signal.signal(signal.SIGINT, stop)

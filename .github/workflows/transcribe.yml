@@ -56,6 +56,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: 接收链接或音频
         run: python scripts/github_runner.py prepare
       - name: 安装转录环境

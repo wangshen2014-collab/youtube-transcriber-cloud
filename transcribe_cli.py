@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import re
 import signal
+import shutil
 import sys
 import time
 from urllib.parse import parse_qs, urlparse
@@ -96,7 +97,9 @@ def cached_audio(url, cache, force=False):
     LOG.info("正在下载音频：%s", identifier)
     with yt_dlp.YoutubeDL({
         "format": "bestaudio", "noplaylist": True, "quiet": True,
-        "outtmpl": str(folder / "source.%(ext)s"),
+        "outtmpl": str(folder / (identifier + ".%(ext)s")),
+        "js_runtimes": {name: {} for name in ("deno", "node") if shutil.which(name)},
+        "socket_timeout": 30, "retries": 3, "fragment_retries": 3,
         "overwrites": force,
     }) as downloader:
         info = downloader.extract_info(url, download=True)

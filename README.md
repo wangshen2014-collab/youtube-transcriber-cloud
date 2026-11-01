@@ -1,4 +1,32 @@
-# 音频转文字：Codex 云端批量转录 → GitHub 保存结果
+# 音频转文字：YouTube 链接 / 上传音频 → 云端转录 → GitHub 保存
+
+## 新入口：只给 YouTube 链接，选择普通或高精度
+
+在连接本仓库的 **Codex Cloud** 对话发送：
+
+> 转录这个 YouTube 链接：〔链接〕。用普通精度，全文转录，完成后保存到 GitHub 并返回 TXT 链接。
+
+需要高精度时把「普通精度」改成「高精度」。对应命令：
+
+```bash
+.venv/bin/python batch_transcribe.py --url 'YOUTUBE_URL'
+.venv/bin/python batch_transcribe.py --url 'YOUTUBE_URL' --quality high
+```
+
+普通：medium / beam3；高精度：large-v3 / beam5。其余仍为 CPU int8、6线程、VAD关闭。
+高精度需要更多内存和时间，不保证每个视频都更准确。链接自带的 t 参数不会截断全文，
+只有明确给出 --start/--end 才选择片段。也可对上传音频使用 --quality high。
+
+先检查 GitHub 写入权限，再由当前云端任务下载音频、识别、发布 TXT/SRT/JSON/ZIP 到
+`transcripts` 分支。不启动 Actions，不需要额外付费转录 API，不占用本机进行推理。
+仍需当前云端任务有足够额度、内存、时长及网络权限；不承诺整个服务零成本。
+
+下载依赖 `yt-dlp[default]`（含匹配 EJS）以及 **Node >=22 或 Deno >=2.3**。
+已安装旧环境请升级依赖。补齐组件不能保证 YouTube 接受云端请求；403、机器人验证、
+登录要求或网络限制仍可能失败。失败会明确停止，不会生成虚假的转录成功链接。
+当前功能经自动测试验证，**尚未以真实 YouTube 视频完成云端端到端验收**。
+
+下面保留上传音频流程；链接下载失败时仍可使用。
 
 **完整说明入口：[中文使用与交接指南](docs/使用与交接说明.md)**。
 包括本地下载 → Codex云端转录 → GitHub保存 → ChatGPT解读的操作步骤、部件地图、
