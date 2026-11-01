@@ -1,0 +1,1028 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b796d241b5c74645c6fa4be194b4259a515a7ad702f3fd05b76355813ebf989d",
+    "source_id": "audio-b796d241b5c74645c6fa4be1"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.32,
+      "text": "The reason they're tricky is because there is an assumption, like you regret doing A,"
+    },
+    {
+      "start": 6.32,
+      "end": 10.0,
+      "text": "and you think if only I'd done B, things would be better."
+    },
+    {
+      "start": 10.0,
+      "end": 11.36,
+      "text": "But you don't know that that's true."
+    },
+    {
+      "start": 11.36,
+      "end": 15.92,
+      "text": "You might say, boy, I regret starting that company that failed because it was a failure."
+    },
+    {
+      "start": 15.92,
+      "end": 18.72,
+      "text": "Well, yeah, but it led to something much bigger."
+    },
+    {
+      "start": 18.72,
+      "end": 20.56,
+      "text": "You learned so much."
+    },
+    {
+      "start": 20.56,
+      "end": 27.12,
+      "text": "Now, maybe if you'd said instead of starting that company that failed, maybe I took this"
+    },
+    {
+      "start": 27.2,
+      "end": 31.520000000000003,
+      "text": "high-paying job and I worked my way up through the corporate organization,"
+    },
+    {
+      "start": 32.160000000000004,
+      "end": 39.04,
+      "text": "and you'd be sitting at some high executive level in this corporation and looking back and saying,"
+    },
+    {
+      "start": 39.04,
+      "end": 42.400000000000006,
+      "text": "well, am I glad I didn't do that startup that failed?"
+    },
+    {
+      "start": 43.2,
+      "end": 45.36,
+      "text": "And yet you're so much further ahead now."
+    },
+    {
+      "start": 46.32,
+      "end": 47.6,
+      "text": "So who knows?"
+    },
+    {
+      "start": 47.6,
+      "end": 51.84,
+      "text": "Who knows what choice you made that appears to be the wrong choice"
+    },
+    {
+      "start": 52.480000000000004,
+      "end": 54.08,
+      "text": "as to whether it really was?"
+    },
+    {
+      "start": 54.08,
+      "end": 55.36,
+      "text": "Maybe it was exactly right."
+    },
+    {
+      "start": 55.36,
+      "end": 56.64,
+      "text": "Maybe things would have turned out better."
+    },
+    {
+      "start": 56.64,
+      "end": 57.44,
+      "text": "Maybe they wouldn't."
+    },
+    {
+      "start": 57.44,
+      "end": 60.4,
+      "text": "So I'm very hesitant to look back on."
+    },
+    {
+      "start": 60.4,
+      "end": 65.76,
+      "text": "There are many things I can look back on and say, gee, I do wonder what if I'd gone"
+    },
+    {
+      "start": 65.76,
+      "end": 67.92,
+      "text": "down the right path instead of the left path?"
+    },
+    {
+      "start": 67.92,
+      "end": 69.28,
+      "text": "What would that have looked like?"
+    },
+    {
+      "start": 70.24,
+      "end": 73.92,
+      "text": "But there's no guarantees it would look better, and my life has been pretty damn good."
+    },
+    {
+      "start": 73.92,
+      "end": 76.48,
+      "text": "So in that sense, I have no regrets."
+    },
+    {
+      "start": 77.76,
+      "end": 80.48,
+      "text": "Two regrets I do have, very personal regrets."
+    },
+    {
+      "start": 80.48,
+      "end": 82.56,
+      "text": "I've never shared these publicly."
+    },
+    {
+      "start": 82.56,
+      "end": 90.0,
+      "text": "When I was a kid, my father was a very handy guy."
+    },
+    {
+      "start": 90.0,
+      "end": 93.44,
+      "text": "He loved building things, working on the house, that kind of stuff."
+    },
+    {
+      "start": 94.8,
+      "end": 100.08,
+      "text": "I was not that kind of kid, and I don't know, I was 8 or 10 years old at one point."
+    },
+    {
+      "start": 100.08,
+      "end": 106.56,
+      "text": "And for my birthday or Christmas, I don't remember, he bought me a jigsaw,"
+    },
+    {
+      "start": 107.44,
+      "end": 111.28,
+      "text": "which is, for people who don't know, it's an electric saw."
+    },
+    {
+      "start": 111.28,
+      "end": 115.84,
+      "text": "It's got a little blade that goes up and allows you to cut wood in very fine kinds of patterns."
+    },
+    {
+      "start": 117.44,
+      "end": 120.08,
+      "text": "Last thing in the world this kid wanted."
+    },
+    {
+      "start": 122.48,
+      "end": 125.6,
+      "text": "And I let my dad know, and he was crushed."
+    },
+    {
+      "start": 126.48,
+      "end": 134.64,
+      "text": "Because for him, it was the best gift he could possibly think of to give to an 8 or 10 year old or whatever it was."
+    },
+    {
+      "start": 135.6,
+      "end": 139.44,
+      "text": "And so one of the regrets, and I give myself some grace because I was very young, and"
+    },
+    {
+      "start": 140.4,
+      "end": 146.0,
+      "text": "reasonably you could expect that I didn't have the maturity to deal with it the way I would have."
+    },
+    {
+      "start": 146.0,
+      "end": 154.32,
+      "text": "But I do regret, because I could see the pain in his face when I kind of rejected that gift."
+    },
+    {
+      "start": 156.4,
+      "end": 161.12,
+      "text": "And maybe that taught me a good lesson in being more empathetic going forward."
+    },
+    {
+      "start": 161.12,
+      "end": 162.88,
+      "text": "So again, do I really regret it?"
+    },
+    {
+      "start": 162.88,
+      "end": 164.88,
+      "text": "Well, I regret that I hurt my father."
+    },
+    {
+      "start": 165.12,
+      "end": 169.76,
+      "text": "But I learned something pretty valuable."
+    },
+    {
+      "start": 169.76,
+      "end": 172.07999999999998,
+      "text": "And you've remembered that for 70 years?"
+    },
+    {
+      "start": 172.07999999999998,
+      "end": 174.07999999999998,
+      "text": "I've remembered that for 70 years, yeah."
+    },
+    {
+      "start": 176.0,
+      "end": 179.12,
+      "text": "I've got similar stories of ways I reacted as a kid."
+    },
+    {
+      "start": 179.12,
+      "end": 180.24,
+      "text": "I think most people do."
+    },
+    {
+      "start": 182.96,
+      "end": 187.68,
+      "text": "And then my second one, and this is even bigger, I was 24 when my dad died."
+    },
+    {
+      "start": 188.96,
+      "end": 193.92,
+      "text": "And he died of emphysema and slow lingering death."
+    },
+    {
+      "start": 193.92000000000002,
+      "end": 195.04000000000002,
+      "text": "He died in the hospital."
+    },
+    {
+      "start": 196.56,
+      "end": 202.16000000000003,
+      "text": "And the night before he died, the day before he died, I was visiting him."
+    },
+    {
+      "start": 203.04000000000002,
+      "end": 206.16000000000003,
+      "text": "And he was sitting on the edge of the bed."
+    },
+    {
+      "start": 208.8,
+      "end": 214.16000000000003,
+      "text": "And he said to me, I'm going to die now."
+    },
+    {
+      "start": 216.08,
+      "end": 218.88000000000002,
+      "text": "You know, I'm going to die tonight."
+    },
+    {
+      "start": 219.68,
+      "end": 221.28,
+      "text": "Turns out, of course, he was right."
+    },
+    {
+      "start": 221.28,
+      "end": 221.84,
+      "text": "He did."
+    },
+    {
+      "start": 221.84,
+      "end": 223.04,
+      "text": "That was the night he died."
+    },
+    {
+      "start": 226.0,
+      "end": 234.56,
+      "text": "And instead of recognizing that this was a moment where he wanted to talk to his son about this,"
+    },
+    {
+      "start": 236.4,
+      "end": 240.88,
+      "text": "this probably the most momentous event that any of us will ever face,"
+    },
+    {
+      "start": 240.88,
+      "end": 243.68,
+      "text": "momentous event that any of us will ever face,"
+    },
+    {
+      "start": 246.88,
+      "end": 251.76,
+      "text": "instead of recognizing that, I went to the typical trope of,"
+    },
+    {
+      "start": 251.76,
+      "end": 253.68,
+      "text": "Dad, don't talk like that."
+    },
+    {
+      "start": 253.68,
+      "end": 254.48,
+      "text": "You're not going to die."
+    },
+    {
+      "start": 254.48,
+      "end": 255.84,
+      "text": "You've got a long way to go."
+    },
+    {
+      "start": 255.84,
+      "end": 257.04,
+      "text": "You're going to be fine."
+    },
+    {
+      "start": 257.04,
+      "end": 258.56,
+      "text": "I went to all that bullshit."
+    },
+    {
+      "start": 259.84,
+      "end": 264.71999999999997,
+      "text": "Instead of just recognizing, whether he was right or wrong,"
+    },
+    {
+      "start": 265.68,
+      "end": 272.8,
+      "text": "that he was facing a momentous thing and he didn't want to hear,"
+    },
+    {
+      "start": 273.84000000000003,
+      "end": 276.56,
+      "text": "don't think about that, think more positively."
+    },
+    {
+      "start": 276.56,
+      "end": 283.92,
+      "text": "He wanted to share with his son what he was facing."
+    },
+    {
+      "start": 285.44000000000005,
+      "end": 290.96000000000004,
+      "text": "And I regret that I wasn't there for him in that moment,"
+    },
+    {
+      "start": 291.52,
+      "end": 296.08,
+      "text": "but I regret that I didn't get to experience that with him in that moment."
+    },
+    {
+      "start": 297.03999999999996,
+      "end": 298.56,
+      "text": "So that's my biggest."
+    },
+    {
+      "start": 302.23999999999995,
+      "end": 304.32,
+      "text": "I can still see it still in your face."
+    },
+    {
+      "start": 307.91999999999996,
+      "end": 309.59999999999997,
+      "text": "That was 50 years ago."
+    },
+    {
+      "start": 313.44,
+      "end": 317.35999999999996,
+      "text": "Is there a reason why you think in that moment you didn't"
+    },
+    {
+      "start": 318.64,
+      "end": 320.08,
+      "text": "want to go in that direction?"
+    },
+    {
+      "start": 320.08,
+      "end": 321.35999999999996,
+      "text": "To go in that direction with him?"
+    },
+    {
+      "start": 322.0,
+      "end": 326.08,
+      "text": "Wasn't a matter of what I wanted because it's not like I considered"
+    },
+    {
+      "start": 327.2,
+      "end": 329.68,
+      "text": "I can either blow it off, which is what I did,"
+    },
+    {
+      "start": 330.32,
+      "end": 332.08,
+      "text": "or embrace it and go there with him."
+    },
+    {
+      "start": 332.08,
+      "end": 333.76,
+      "text": "I didn't even think that way."
+    },
+    {
+      "start": 333.76,
+      "end": 338.15999999999997,
+      "text": "It's not like I made the wrong choice."
+    },
+    {
+      "start": 338.88,
+      "end": 342.47999999999996,
+      "text": "I wasn't mature enough to recognize there was a choice."
+    },
+    {
+      "start": 342.47999999999996,
+      "end": 348.96,
+      "text": "I wasn't mature enough to recognize the real dynamic of what was happening."
+    },
+    {
+      "start": 348.96,
+      "end": 350.15999999999997,
+      "text": "And for that, you deserve grace."
+    },
+    {
+      "start": 351.84,
+      "end": 352.71999999999997,
+      "text": "Thank you."
+    },
+    {
+      "start": 352.71999999999997,
+      "end": 355.91999999999996,
+      "text": "And I agree with that, but I still regret it."
+    },
+    {
+      "start": 355.91999999999996,
+      "end": 363.68,
+      "text": "Because how much better for both of us would it have been if I had recognized it?"
+    },
+    {
+      "start": 364.47999999999996,
+      "end": 365.91999999999996,
+      "text": "JL, we have a closing tradition on this"
+    },
+    {
+      "start": 365.91999999999996,
+      "end": 367.84,
+      "text": "podcast where the last guest leaves a question for the next."
+    },
+    {
+      "start": 369.12,
+      "end": 375.03999999999996,
+      "text": "What is something that you think is true that you haven't yet been able to validate?"
+    },
+    {
+      "start": 375.84000000000003,
+      "end": 384.32,
+      "text": "I think at this point in my life, I feel pretty comfortable about what I think is true."
+    },
+    {
+      "start": 387.36,
+      "end": 393.52000000000004,
+      "text": "I'm not sure this answers the question, but a good example is"
+    },
+    {
+      "start": 394.56,
+      "end": 397.6,
+      "text": "I am pretty sure that there is no afterlife."
+    },
+    {
+      "start": 400.48,
+      "end": 403.20000000000005,
+      "text": "I have a high degree of confidence in that."
+    },
+    {
+      "start": 404.0,
+      "end": 406.08,
+      "text": "But of course, as the song once said,"
+    },
+    {
+      "start": 406.08,
+      "end": 408.64,
+      "text": "we'll never know by living, and only our dying will tell."
+    },
+    {
+      "start": 409.52,
+      "end": 413.68,
+      "text": "And I am very curious about death."
+    },
+    {
+      "start": 414.64,
+      "end": 420.96,
+      "text": "I am very curious as to what is on the other side, if anything."
+    },
+    {
+      "start": 422.08,
+      "end": 427.44,
+      "text": "So in a perverse way, I guess, I am looking forward to my death."
+    },
+    {
+      "start": 428.8,
+      "end": 430.32,
+      "text": "I don't want to get there too soon."
+    },
+    {
+      "start": 430.96,
+      "end": 433.36,
+      "text": "As long as I am mentally and physically capable,"
+    },
+    {
+      "start": 433.36,
+      "end": 434.71999999999997,
+      "text": "I am happy to continue living."
+    },
+    {
+      "start": 434.71999999999997,
+      "end": 435.52,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 436.24,
+      "end": 439.2,
+      "text": "But I do have a great curiosity about death."
+    },
+    {
+      "start": 439.2,
+      "end": 443.52,
+      "text": "And I am almost 100% sure that when I am dead, that is just it."
+    },
+    {
+      "start": 443.52,
+      "end": 444.08,
+      "text": "It is over."
+    },
+    {
+      "start": 445.6,
+      "end": 446.8,
+      "text": "But I am curious."
+    },
+    {
+      "start": 446.8,
+      "end": 450.15999999999997,
+      "text": "And it will be interesting if I die and it is like, whoops."
+    },
+    {
+      "start": 452.8,
+      "end": 454.4,
+      "text": "There is a guy with a white beard."
+    },
+    {
+      "start": 455.84,
+      "end": 457.36,
+      "text": "Okay, I will just show myself out."
+    },
+    {
+      "start": 457.36,
+      "end": 458.15999999999997,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 459.12,
+      "end": 460.64000000000004,
+      "text": "There is one last question I wanted to ask you,"
+    },
+    {
+      "start": 460.64000000000004,
+      "end": 462.40000000000003,
+      "text": "which is kind of just about the subject of happiness."
+    },
+    {
+      "start": 462.40000000000003,
+      "end": 464.32000000000005,
+      "text": "Again, at 75 years old, you have a retrospective"
+    },
+    {
+      "start": 464.32000000000005,
+      "end": 466.88000000000005,
+      "text": "clarity that I don't yet have on what actually mattered."
+    },
+    {
+      "start": 468.40000000000003,
+      "end": 469.36,
+      "text": "What actually matters?"
+    },
+    {
+      "start": 470.32000000000005,
+      "end": 470.82000000000005,
+      "text": "Nothing."
+    },
+    {
+      "start": 474.40000000000003,
+      "end": 476.08000000000004,
+      "text": "Nothing really matters, ultimately."
+    },
+    {
+      "start": 477.36,
+      "end": 478.24,
+      "text": "Nothing?"
+    },
+    {
+      "start": 478.24,
+      "end": 478.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 479.20000000000005,
+      "end": 483.84000000000003,
+      "text": "I think that's kind of like asking what's the meaning of life, right?"
+    },
+    {
+      "start": 484.56000000000006,
+      "end": 488.32000000000005,
+      "text": "And I don't think there is a meaning to life."
+    },
+    {
+      "start": 489.04,
+      "end": 491.20000000000005,
+      "text": "When you look at the scale of the universe,"
+    },
+    {
+      "start": 491.20000000000005,
+      "end": 492.8,
+      "text": "the scale of the cosmos,"
+    },
+    {
+      "start": 494.40000000000003,
+      "end": 500.96000000000004,
+      "text": "the concept that we as individuals bear some meaning"
+    },
+    {
+      "start": 502.40000000000003,
+      "end": 503.68,
+      "text": "seems to me to be silly."
+    },
+    {
+      "start": 504.40000000000003,
+      "end": 507.04,
+      "text": "Human beings have been around for, I don't know,"
+    },
+    {
+      "start": 507.04,
+      "end": 508.56000000000006,
+      "text": "two, three hundred thousand years,"
+    },
+    {
+      "start": 508.56000000000006,
+      "end": 511.68,
+      "text": "depending on when you define homo sapiens."
+    },
+    {
+      "start": 512.5600000000001,
+      "end": 518.24,
+      "text": "I mean, that's an infinitesimally small smudge of time"
+    },
+    {
+      "start": 520.08,
+      "end": 523.36,
+      "text": "that has happened already and that will happen in the future."
+    },
+    {
+      "start": 523.36,
+      "end": 527.36,
+      "text": "Even if humans last for another few million years,"
+    },
+    {
+      "start": 527.36,
+      "end": 531.04,
+      "text": "it will be an infinitely tiny bit of time"
+    },
+    {
+      "start": 531.6,
+      "end": 534.48,
+      "text": "against this huge cosmic universe."
+    },
+    {
+      "start": 535.28,
+      "end": 540.72,
+      "text": "And our individuality within that is infinitesimally small."
+    },
+    {
+      "start": 541.28,
+      "end": 543.44,
+      "text": "And I think there's some great meaning behind that,"
+    },
+    {
+      "start": 543.44,
+      "end": 545.28,
+      "text": "seems to me to be the height of arrogance."
+    },
+    {
+      "start": 546.0,
+      "end": 548.4,
+      "text": "So I think that if you go through life"
+    },
+    {
+      "start": 549.52,
+      "end": 552.4,
+      "text": "and you treat people pretty well"
+    },
+    {
+      "start": 553.0400000000001,
+      "end": 556.1600000000001,
+      "text": "and you have a pretty good run of it,"
+    },
+    {
+      "start": 556.88,
+      "end": 558.4,
+      "text": "I think you've done well."
+    },
+    {
+      "start": 559.76,
+      "end": 561.84,
+      "text": "But I don't think there's something profound in that."
+    },
+    {
+      "start": 563.6800000000001,
+      "end": 564.96,
+      "text": "So what is the point then?"
+    },
+    {
+      "start": 565.6,
+      "end": 566.24,
+      "text": "Is there a point?"
+    },
+    {
+      "start": 566.24,
+      "end": 566.8000000000001,
+      "text": "Is that the right question?"
+    },
+    {
+      "start": 566.8000000000001,
+      "end": 567.52,
+      "text": "There is no point."
+    },
+    {
+      "start": 568.08,
+      "end": 570.48,
+      "text": "I mean, the point is we happen to be here"
+    },
+    {
+      "start": 571.36,
+      "end": 574.08,
+      "text": "and it can be a good, fun ride."
+    },
+    {
+      "start": 574.08,
+      "end": 575.76,
+      "text": "It can be a very difficult ride,"
+    },
+    {
+      "start": 575.76,
+      "end": 577.12,
+      "text": "depending on what you make of it."
+    },
+    {
+      "start": 577.76,
+      "end": 580.5600000000001,
+      "text": "And in some cases, depending on your circumstances,"
+    },
+    {
+      "start": 580.5600000000001,
+      "end": 582.24,
+      "text": "there have certainly been people in history"
+    },
+    {
+      "start": 582.24,
+      "end": 585.44,
+      "text": "that have been born into circumstances"
+    },
+    {
+      "start": 585.44,
+      "end": 590.24,
+      "text": "that made it a miserable existence"
+    },
+    {
+      "start": 590.24,
+      "end": 591.9200000000001,
+      "text": "with no options out of it."
+    },
+    {
+      "start": 591.9200000000001,
+      "end": 593.44,
+      "text": "I mean, what's the meaning of that?"
+    },
+    {
+      "start": 594.8000000000001,
+      "end": 597.12,
+      "text": "You and I and the vast majority of people"
+    },
+    {
+      "start": 597.6800000000001,
+      "end": 598.64,
+      "text": "listening to us,"
+    },
+    {
+      "start": 598.64,
+      "end": 601.4399999999999,
+      "text": "probably I venture to say 100% of them,"
+    },
+    {
+      "start": 601.4399999999999,
+      "end": 606.24,
+      "text": "have a lot more autonomy over how we can make our life."
+    },
+    {
+      "start": 607.04,
+      "end": 610.0,
+      "text": "And will it have great meaning?"
+    },
+    {
+      "start": 610.0,
+      "end": 611.1999999999999,
+      "text": "No, ultimately not."
+    },
+    {
+      "start": 611.92,
+      "end": 613.6,
+      "text": "But it's the only life you have"
+    },
+    {
+      "start": 613.6,
+      "end": 615.28,
+      "text": "and you might as well make the best of it."
+    },
+    {
+      "start": 615.84,
+      "end": 617.52,
+      "text": "I actually listened to something last night"
+    },
+    {
+      "start": 617.52,
+      "end": 620.64,
+      "text": "by a guy called Lucas Jones who is an actor."
+    },
+    {
+      "start": 621.28,
+      "end": 622.16,
+      "text": "He has some great books."
+    },
+    {
+      "start": 622.16,
+      "end": 624.48,
+      "text": "He's also a poet as far as I'm aware."
+    },
+    {
+      "start": 624.48,
+      "end": 626.08,
+      "text": "I'll link his books below."
+    },
+    {
+      "start": 626.08,
+      "end": 628.08,
+      "text": "But he wrote this poem,"
+    },
+    {
+      "start": 628.08,
+      "end": 629.6,
+      "text": "which I thought was quite related to that,"
+    },
+    {
+      "start": 629.6,
+      "end": 630.48,
+      "text": "that I'm just going to play for you"
+    },
+    {
+      "start": 630.48,
+      "end": 632.08,
+      "text": "because I think it kind of captures the essence"
+    },
+    {
+      "start": 632.08,
+      "end": 632.96,
+      "text": "as well of what you're saying."
+    },
+    {
+      "start": 633.6800000000001,
+      "end": 635.2800000000001,
+      "text": "He starts by saying, I saw God on the train."
+    },
+    {
+      "start": 635.2800000000001,
+      "end": 636.5600000000001,
+      "text": "I saw God on the train."
+    },
+    {
+      "start": 636.5600000000001,
+      "end": 637.0400000000001,
+      "text": "Ah, God."
+    },
+    {
+      "start": 637.0400000000001,
+      "end": 638.72,
+      "text": "I pretended I didn't."
+    },
+    {
+      "start": 638.72,
+      "end": 641.6,
+      "text": "So I sat far away from the seat he was sitting in."
+    },
+    {
+      "start": 641.6,
+      "end": 643.6,
+      "text": "Then he got up, I think, probably to piss."
+    },
+    {
+      "start": 643.6,
+      "end": 644.88,
+      "text": "And he noticed me there and said,"
+    },
+    {
+      "start": 644.88,
+      "end": 645.76,
+      "text": "all right, what's this?"
+    },
+    {
+      "start": 646.48,
+      "end": 647.36,
+      "text": "What are you saying?"
+    },
+    {
+      "start": 647.36,
+      "end": 648.08,
+      "text": "You're hiding from me?"
+    },
+    {
+      "start": 648.72,
+      "end": 650.8000000000001,
+      "text": "I said, I'll maintain her just to come for your seat."
+    },
+    {
+      "start": 651.36,
+      "end": 653.6800000000001,
+      "text": "And he looked at me like I was a kid covered in chocolate"
+    },
+    {
+      "start": 653.6800000000001,
+      "end": 654.88,
+      "text": "surrounded by rappers saying,"
+    },
+    {
+      "start": 654.88,
+      "end": 655.68,
+      "text": "I don't know what happened."
+    },
+    {
+      "start": 656.56,
+      "end": 657.68,
+      "text": "And he goes, come on then, mate."
+    },
+    {
+      "start": 657.68,
+      "end": 658.48,
+      "text": "I've got a few minutes."
+    },
+    {
+      "start": 659.12,
+      "end": 660.88,
+      "text": "Tell me what's wrong, but don't fuck around with it."
+    },
+    {
+      "start": 661.68,
+      "end": 664.16,
+      "text": "And it shocked me then that it fit in one sentence."
+    },
+    {
+      "start": 664.16,
+      "end": 667.12,
+      "text": "I said, I just think heaven's a stupid incentive."
+    },
+    {
+      "start": 667.76,
+      "end": 670.24,
+      "text": "Like, what a shit life for a beautiful death."
+    },
+    {
+      "start": 670.24,
+      "end": 672.32,
+      "text": "And those who are evil can suddenly repent."
+    },
+    {
+      "start": 672.32,
+      "end": 674.88,
+      "text": "Like a killer or a nonce can live like a monster."
+    },
+    {
+      "start": 674.88,
+      "end": 677.04,
+      "text": "Then right at the end say, I'm sorry, dear God, sir."
+    },
+    {
+      "start": 677.04,
+      "end": 679.6,
+      "text": "And end up in heaven right there with my nana."
+    },
+    {
+      "start": 679.6,
+      "end": 680.72,
+      "text": "She's doing some knitting."
+    },
+    {
+      "start": 680.72,
+      "end": 681.68,
+      "text": "He's waving a hammer."
+    },
+    {
+      "start": 681.68,
+      "end": 683.84,
+      "text": "I said, Jesus, God, what a horrible deal."
+    }
+  ],
+  "resume_from": 683.84,
+  "run_id": "20261101-032346-725155f0",
+  "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/493afa70103ec1f6b70652f9/20261101-032346-725155f0",
+  "detected_language": "en"
+}
