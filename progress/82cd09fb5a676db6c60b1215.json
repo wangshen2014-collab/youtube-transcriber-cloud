@@ -1,0 +1,1008 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b07bdf7c8ee7879e4dd0e96e8917fdfe78797379b773827d7de0de3a99b034b0",
+    "source_id": "audio-b07bdf7c8ee7879e4dd0e96e"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.24,
+      "text": "If your goal is to become financially independent at a young age, this is a very controversial"
+    },
+    {
+      "start": 4.24,
+      "end": 5.36,
+      "text": "thing to say."
+    },
+    {
+      "start": 5.36,
+      "end": 9.72,
+      "text": "You probably don't want to go buy a house because people typically buy a house they"
+    },
+    {
+      "start": 9.72,
+      "end": 11.16,
+      "text": "can't possibly afford."
+    },
+    {
+      "start": 11.16,
+      "end": 14.0,
+      "text": "The bank wants you to do that because that's how they make the most money."
+    },
+    {
+      "start": 14.0,
+      "end": 17.2,
+      "text": "So you're putting your capital into that house and now it's not going to be a"
+    },
+    {
+      "start": 17.2,
+      "end": 18.2,
+      "text": "earning thing."
+    },
+    {
+      "start": 18.2,
+      "end": 19.2,
+      "text": "It's going to be sitting idly."
+    },
+    {
+      "start": 19.2,
+      "end": 22.92,
+      "text": "Some people say, well, you know, I can buy this house because my mortgage is the"
+    },
+    {
+      "start": 22.92,
+      "end": 23.92,
+      "text": "same as my rent."
+    },
+    {
+      "start": 23.92,
+      "end": 27.88,
+      "text": "Well, yeah, but your mortgage is just the starting point."
+    },
+    {
+      "start": 27.88,
+      "end": 30.08,
+      "text": "So what comes to mind if I want to be financially wealthy?"
+    },
+    {
+      "start": 30.08,
+      "end": 32.16,
+      "text": "OK, so we've got a lot to go through."
+    },
+    {
+      "start": 32.16,
+      "end": 36.72,
+      "text": "J.O. Collins is a renowned financial expert known for his book, The Simple Path to Wealth."
+    },
+    {
+      "start": 36.72,
+      "end": 40.519999999999996,
+      "text": "He's teaching millions a straightforward and realistic avenue for achieving wealth"
+    },
+    {
+      "start": 40.519999999999996,
+      "end": 43.28,
+      "text": "so that anyone can have financial security."
+    },
+    {
+      "start": 43.28,
+      "end": 45.8,
+      "text": "What is the simple path to wealth?"
+    },
+    {
+      "start": 45.8,
+      "end": 50.04,
+      "text": "So first of all, avoid debt because you can never be financially independent if you're"
+    },
+    {
+      "start": 50.04,
+      "end": 51.04,
+      "text": "carrying around debt."
+    },
+    {
+      "start": 51.04,
+      "end": 52.76,
+      "text": "Next, live on less than you earn."
+    },
+    {
+      "start": 52.76,
+      "end": 56.28,
+      "text": "But the problem is the way our culture has taught us to think about money is"
+    },
+    {
+      "start": 56.32,
+      "end": 58.72,
+      "text": "solely in terms of what can you buy with it."
+    },
+    {
+      "start": 58.72,
+      "end": 64.0,
+      "text": "But the more must haves you have in your life, the less likely you are to become wealthy."
+    },
+    {
+      "start": 64.0,
+      "end": 66.28,
+      "text": "And then the final one, invest the surplus."
+    },
+    {
+      "start": 66.28,
+      "end": 71.88,
+      "text": "So stocks are the single most effective, strongest wealth building tool that's ever"
+    },
+    {
+      "start": 71.88,
+      "end": 72.88,
+      "text": "been created."
+    },
+    {
+      "start": 72.88,
+      "end": 76.4,
+      "text": "But the biggest pushback I get is from people who say, well, that's great."
+    },
+    {
+      "start": 76.4,
+      "end": 80.16,
+      "text": "I mean, if you've got a big income, 100, 200, $300,000 a year, then yeah,"
+    },
+    {
+      "start": 80.16,
+      "end": 81.84,
+      "text": "the simple path to wealth will work for you."
+    },
+    {
+      "start": 81.84,
+      "end": 82.92,
+      "text": "That's not the truth."
+    },
+    {
+      "start": 82.92,
+      "end": 85.96000000000001,
+      "text": "For instance, a friend of mine, he was making a million dollars a year."
+    },
+    {
+      "start": 86.00000000000001,
+      "end": 90.08000000000001,
+      "text": "And he was broke because people of large incomes are much more likely to be drawn"
+    },
+    {
+      "start": 90.08000000000001,
+      "end": 92.12,
+      "text": "into the competing with the Joneses."
+    },
+    {
+      "start": 92.12,
+      "end": 95.72000000000001,
+      "text": "Whereas the people who make less money probably don't have those same social"
+    },
+    {
+      "start": 95.72000000000001,
+      "end": 98.2,
+      "text": "pressures and are more readily able to do it."
+    },
+    {
+      "start": 98.2,
+      "end": 99.4,
+      "text": "Let's talk about investing then."
+    },
+    {
+      "start": 99.4,
+      "end": 101.92000000000002,
+      "text": "Where do you think we should be investing our money at this moment of time?"
+    },
+    {
+      "start": 101.92000000000002,
+      "end": 103.36000000000001,
+      "text": "Should I buy Bitcoin?"
+    },
+    {
+      "start": 103.36000000000001,
+      "end": 104.60000000000001,
+      "text": "Do I need a financial advisor?"
+    },
+    {
+      "start": 104.60000000000001,
+      "end": 108.56,
+      "text": "So my advice, and this is a little different than the more common advice out"
+    },
+    {
+      "start": 108.56,
+      "end": 109.76,
+      "text": "there, would be."
+    },
+    {
+      "start": 111.36000000000001,
+      "end": 113.32000000000001,
+      "text": "This has always blown my mind a little bit."
+    },
+    {
+      "start": 113.32000000000001,
+      "end": 118.16000000000001,
+      "text": "53% of you that listen to the show regularly haven't yet subscribed to the show."
+    },
+    {
+      "start": 118.16000000000001,
+      "end": 120.16000000000001,
+      "text": "So could I ask you for a favor before we start?"
+    },
+    {
+      "start": 120.16000000000001,
+      "end": 122.80000000000001,
+      "text": "If you like the show and you like what we do here and you want to support us,"
+    },
+    {
+      "start": 122.80000000000001,
+      "end": 125.68,
+      "text": "the free simple way that you can do just that is by hitting the subscribe"
+    },
+    {
+      "start": 125.68,
+      "end": 129.16,
+      "text": "button. And my commitment to you is if you do that, then I'll do everything"
+    },
+    {
+      "start": 129.16,
+      "end": 132.16,
+      "text": "in my power, me and my team, to make sure that this show is better for you"
+    },
+    {
+      "start": 132.16,
+      "end": 133.4,
+      "text": "every single week."
+    },
+    {
+      "start": 133.4,
+      "end": 134.88,
+      "text": "We'll listen to your feedback."
+    },
+    {
+      "start": 134.88,
+      "end": 137.92000000000002,
+      "text": "We'll find the guests that you want me to speak to and we'll continue to do"
+    },
+    {
+      "start": 137.92000000000002,
+      "end": 139.28,
+      "text": "what we do. Thank you so much."
+    },
+    {
+      "start": 143.32,
+      "end": 152.76,
+      "text": "J.L. Collins, you wrote a book, a very iconic book that sold millions of"
+    },
+    {
+      "start": 152.76,
+      "end": 156.16,
+      "text": "copies called The Simple Path to Wealth."
+    },
+    {
+      "start": 156.16,
+      "end": 158.28,
+      "text": "Why did you write this book?"
+    },
+    {
+      "start": 158.28,
+      "end": 162.24,
+      "text": "I actually, that book was an outgrowth of my blog."
+    },
+    {
+      "start": 162.24,
+      "end": 167.64,
+      "text": "I started the blog to archive information I wanted my daughter to have"
+    },
+    {
+      "start": 167.64,
+      "end": 172.4,
+      "text": "available, because if you get money right, your life is so much better."
+    },
+    {
+      "start": 172.4,
+      "end": 179.4,
+      "text": "You have so many more options and the world offers so much to people who have"
+    },
+    {
+      "start": 179.4,
+      "end": 184.56,
+      "text": "the resources with which to access it and so little for those people who"
+    },
+    {
+      "start": 184.56,
+      "end": 187.6,
+      "text": "don't have the resources to access those things."
+    },
+    {
+      "start": 187.6,
+      "end": 194.76,
+      "text": "And if you don't have it, life is just so much harder than it needs to be."
+    },
+    {
+      "start": 194.76,
+      "end": 196.96,
+      "text": "When you think about the average person listening right now,"
+    },
+    {
+      "start": 197.16,
+      "end": 203.12,
+      "text": "what is some of the fundamental sort of misconceptions or misunderstandings or"
+    },
+    {
+      "start": 203.12,
+      "end": 206.68,
+      "text": "what would you call it, black spots that they have as it relates to money,"
+    },
+    {
+      "start": 206.68,
+      "end": 211.76000000000002,
+      "text": "the things they walk around assuming about money that are incorrect that you"
+    },
+    {
+      "start": 211.76000000000002,
+      "end": 213.64000000000001,
+      "text": "were maybe trying to get out of your daughter's mind?"
+    },
+    {
+      "start": 213.64000000000001,
+      "end": 218.16,
+      "text": "Right. So there's a chapter in the book called How to Think About Money."
+    },
+    {
+      "start": 218.16,
+      "end": 224.0,
+      "text": "And the fundamental way I think the vast majority of people think about money"
+    },
+    {
+      "start": 224.04,
+      "end": 227.52,
+      "text": "because this is what our culture has taught us, the way our culture has taught"
+    },
+    {
+      "start": 227.52,
+      "end": 233.24,
+      "text": "us to think about money, is solely in terms of what can you buy with it."
+    },
+    {
+      "start": 233.24,
+      "end": 236.32,
+      "text": "So if you go to the average person, the lottery, for instance,"
+    },
+    {
+      "start": 236.32,
+      "end": 241.12,
+      "text": "is like a billion dollars at the moment, so people are buying lottery tickets."
+    },
+    {
+      "start": 241.12,
+      "end": 244.48,
+      "text": "And if you interviewed people standing in line to buy lottery tickets and said,"
+    },
+    {
+      "start": 244.48,
+      "end": 247.6,
+      "text": "okay, if you win this million dollar, what are you going to do with it?"
+    },
+    {
+      "start": 247.6,
+      "end": 249.12,
+      "text": "Well, what you're typically going to hear is, well,"
+    },
+    {
+      "start": 249.12,
+      "end": 252.64,
+      "text": "I'm going to pay off my debts and I'm going to pay off my mortgage and"
+    },
+    {
+      "start": 252.64000000000001,
+      "end": 256.0,
+      "text": "I'm going to buy my parents a house and I'm going to buy myself a Lamborghini."
+    },
+    {
+      "start": 256.0,
+      "end": 257.72,
+      "text": "I'm going to buy, I'm going to buy, I'm going to buy."
+    },
+    {
+      "start": 258.40000000000003,
+      "end": 261.16,
+      "text": "That's the way most people think about money."
+    },
+    {
+      "start": 261.84000000000003,
+      "end": 264.88,
+      "text": "And that's certainly one of the things that money is very good at."
+    },
+    {
+      "start": 264.88,
+      "end": 266.84000000000003,
+      "text": "It is a means of exchange."
+    },
+    {
+      "start": 267.72,
+      "end": 270.6,
+      "text": "But the other thing your money can do for you is work for you."
+    },
+    {
+      "start": 271.8,
+      "end": 273.64,
+      "text": "Your money can make you more money."
+    },
+    {
+      "start": 274.0,
+      "end": 279.08000000000004,
+      "text": "So you can exchange your time and effort and labor to earn money."
+    },
+    {
+      "start": 279.40000000000003,
+      "end": 280.88,
+      "text": "And that's what most of us do."
+    },
+    {
+      "start": 281.84,
+      "end": 286.88,
+      "text": "But you can also divert some of the money you earn into investments,"
+    },
+    {
+      "start": 286.88,
+      "end": 288.64,
+      "text": "into what I call buying your freedom."
+    },
+    {
+      "start": 289.52,
+      "end": 291.76,
+      "text": "And now your money is working for you."
+    },
+    {
+      "start": 291.76,
+      "end": 294.88,
+      "text": "So instead of just thinking about what your money can buy,"
+    },
+    {
+      "start": 294.88,
+      "end": 297.6,
+      "text": "you can start thinking about what can your money earn."
+    },
+    {
+      "start": 297.6,
+      "end": 299.04,
+      "text": "You can buy your freedom."
+    },
+    {
+      "start": 299.04,
+      "end": 301.2,
+      "text": "You can buy your freedom, your financial freedom."
+    },
+    {
+      "start": 302.0,
+      "end": 307.44,
+      "text": "Why is that an important reframing of the role of money in your view?"
+    },
+    {
+      "start": 307.44,
+      "end": 310.0,
+      "text": "What does that do if I start thinking about it through that lens?"
+    },
+    {
+      "start": 310.08,
+      "end": 314.0,
+      "text": "Well, because as long as you are dependent on exchanging your effort,"
+    },
+    {
+      "start": 314.0,
+      "end": 316.4,
+      "text": "time, and labor for money,"
+    },
+    {
+      "start": 317.04,
+      "end": 321.52,
+      "text": "you are beholden to whoever is willing to pay you to do that."
+    },
+    {
+      "start": 322.32,
+      "end": 324.56,
+      "text": "That's a limit of freedom."
+    },
+    {
+      "start": 324.56,
+      "end": 329.36,
+      "text": "It's a form of, without being too dramatic, a form of slavery."
+    },
+    {
+      "start": 330.16,
+      "end": 332.8,
+      "text": "If you are always living paycheck to paycheck"
+    },
+    {
+      "start": 332.8,
+      "end": 335.12,
+      "text": "to pay the mortgage or the rent or whatever,"
+    },
+    {
+      "start": 335.12,
+      "end": 339.52,
+      "text": "if on the other hand, work is optional, you're a good example."
+    },
+    {
+      "start": 339.68,
+      "end": 341.2,
+      "text": "You've been a very successful guy."
+    },
+    {
+      "start": 342.32,
+      "end": 344.79999999999995,
+      "text": "You're not doing this podcast because you need the money."
+    },
+    {
+      "start": 346.0,
+      "end": 350.4,
+      "text": "If you were still stuck at a job that paid you a wage,"
+    },
+    {
+      "start": 350.4,
+      "end": 352.32,
+      "text": "you wouldn't have the option to do this"
+    },
+    {
+      "start": 352.88,
+      "end": 356.0,
+      "text": "because you'd have to devote all your time to that job"
+    },
+    {
+      "start": 356.0,
+      "end": 358.15999999999997,
+      "text": "so you could pay the mortgage,"
+    },
+    {
+      "start": 358.15999999999997,
+      "end": 360.47999999999996,
+      "text": "so you could pay the rent, so you could put food on the table."
+    },
+    {
+      "start": 361.2,
+      "end": 362.56,
+      "text": "Money buys freedom."
+    },
+    {
+      "start": 362.56,
+      "end": 364.15999999999997,
+      "text": "How does one get out of that situation?"
+    },
+    {
+      "start": 365.35999999999996,
+      "end": 368.4,
+      "text": "I used to work in call centers answering phones"
+    },
+    {
+      "start": 368.40000000000003,
+      "end": 369.28000000000003,
+      "text": "and selling people things."
+    },
+    {
+      "start": 370.32000000000005,
+      "end": 374.40000000000003,
+      "text": "How does one, in your view, realistically get from that place"
+    },
+    {
+      "start": 374.40000000000003,
+      "end": 376.40000000000003,
+      "text": "where you are kind of beholden to the paycheck?"
+    },
+    {
+      "start": 377.12000000000006,
+      "end": 380.40000000000003,
+      "text": "I'd spend my wage within the first week or so of the month"
+    },
+    {
+      "start": 380.40000000000003,
+      "end": 382.32000000000005,
+      "text": "and then I'd just suffer for the next three weeks."
+    },
+    {
+      "start": 382.32000000000005,
+      "end": 384.00000000000006,
+      "text": "In the UK, we have a four-week paying cycle."
+    },
+    {
+      "start": 384.00000000000006,
+      "end": 385.44000000000005,
+      "text": "I think in the US, it's two weeks typically,"
+    },
+    {
+      "start": 385.44000000000005,
+      "end": 388.72,
+      "text": "but I took, I think, a reckless road out of that life."
+    },
+    {
+      "start": 388.72,
+      "end": 392.48,
+      "text": "The thing that gave me the reclivity to take the risk"
+    },
+    {
+      "start": 392.48,
+      "end": 394.88000000000005,
+      "text": "is some kind of insecurity and trauma"
+    },
+    {
+      "start": 394.88000000000005,
+      "end": 397.36,
+      "text": "where I didn't have a plan B"
+    },
+    {
+      "start": 397.36,
+      "end": 400.56,
+      "text": "because I wanted to validate myself or something,"
+    },
+    {
+      "start": 401.2,
+      "end": 403.76,
+      "text": "and so I wonder if the skill or the thing that I was given"
+    },
+    {
+      "start": 403.76,
+      "end": 408.08000000000004,
+      "text": "that I'm most thankful for is some kind of chip on my shoulder."
+    },
+    {
+      "start": 408.08000000000004,
+      "end": 408.96000000000004,
+      "text": "Some kind of trauma."
+    },
+    {
+      "start": 410.48,
+      "end": 413.28000000000003,
+      "text": "Genuinely, because I think what would make you take a risk,"
+    },
+    {
+      "start": 413.28000000000003,
+      "end": 415.44,
+      "text": "like some of the risks that I took to leave university"
+    },
+    {
+      "start": 415.44,
+      "end": 417.36,
+      "text": "to then be broken?"
+    },
+    {
+      "start": 418.24,
+      "end": 422.16,
+      "text": "I was like, well, I was driven, I was tracked by some kind of trauma."
+    },
+    {
+      "start": 422.16,
+      "end": 424.8,
+      "text": "Right. One of the things that I've observed"
+    },
+    {
+      "start": 424.88,
+      "end": 428.32,
+      "text": "and I think to the extent that I've had some success in my life,"
+    },
+    {
+      "start": 428.32,
+      "end": 431.2,
+      "text": "this is true, that successful people"
+    },
+    {
+      "start": 431.76,
+      "end": 434.08,
+      "text": "do tend to have trauma in their background,"
+    },
+    {
+      "start": 434.08,
+      "end": 436.16,
+      "text": "at least that's my observation."
+    },
+    {
+      "start": 436.16,
+      "end": 438.32,
+      "text": "Now, I'm sure there are exceptions to that,"
+    },
+    {
+      "start": 439.12,
+      "end": 442.48,
+      "text": "but it does seem that people like us"
+    },
+    {
+      "start": 442.48,
+      "end": 447.92,
+      "text": "are striving to overcome those past traumas"
+    },
+    {
+      "start": 447.92,
+      "end": 450.72,
+      "text": "to have that chip on the shoulder to prove something."
+    },
+    {
+      "start": 451.68,
+      "end": 455.52000000000004,
+      "text": "I've also met people who are very content"
+    },
+    {
+      "start": 456.32000000000005,
+      "end": 458.96000000000004,
+      "text": "to be completely lacking in ambition"
+    },
+    {
+      "start": 460.08000000000004,
+      "end": 463.6,
+      "text": "and to have enough to have a comfortable life"
+    },
+    {
+      "start": 463.6,
+      "end": 465.04,
+      "text": "and kind of do what they want to do,"
+    },
+    {
+      "start": 465.04,
+      "end": 467.12,
+      "text": "to have financial independence maybe,"
+    },
+    {
+      "start": 468.0,
+      "end": 471.76000000000005,
+      "text": "but they don't have this drive to be successful,"
+    },
+    {
+      "start": 471.76000000000005,
+      "end": 474.48,
+      "text": "to make a mark on the world."
+    },
+    {
+      "start": 475.44000000000005,
+      "end": 478.48,
+      "text": "And they tend to have had better childhoods."
+    },
+    {
+      "start": 478.8,
+      "end": 481.44,
+      "text": "And I think that there is,"
+    },
+    {
+      "start": 482.16,
+      "end": 484.40000000000003,
+      "text": "that wasn't me, that doesn't appear to be you,"
+    },
+    {
+      "start": 484.40000000000003,
+      "end": 488.56,
+      "text": "but I think there's a lot to be said for that."
+    },
+    {
+      "start": 488.56,
+      "end": 489.04,
+      "text": "Right?"
+    },
+    {
+      "start": 489.04,
+      "end": 493.28000000000003,
+      "text": "You open the book about talking about a parable of the monk"
+    },
+    {
+      "start": 493.28000000000003,
+      "end": 493.92,
+      "text": "and the minister."
+    },
+    {
+      "start": 495.76,
+      "end": 497.44,
+      "text": "Can you tell me about that parable"
+    },
+    {
+      "start": 497.44,
+      "end": 499.68,
+      "text": "because it seems to somewhat relate to what we're saying here?"
+    },
+    {
+      "start": 499.68,
+      "end": 501.12,
+      "text": "Yeah, very much so."
+    },
+    {
+      "start": 501.68,
+      "end": 503.36,
+      "text": "And that's the reason I opened the book with it."
+    },
+    {
+      "start": 503.36,
+      "end": 504.40000000000003,
+      "text": "So the parable is,"
+    },
+    {
+      "start": 504.40000000000003,
+      "end": 508.32000000000005,
+      "text": "there are these two boys who grew up together,"
+    },
+    {
+      "start": 508.32000000000005,
+      "end": 509.76000000000005,
+      "text": "they're childhood friends."
+    },
+    {
+      "start": 509.76000000000005,
+      "end": 510.96000000000004,
+      "text": "As frequently happens,"
+    },
+    {
+      "start": 510.96000000000004,
+      "end": 512.72,
+      "text": "they go their different directions in life"
+    },
+    {
+      "start": 512.72,
+      "end": 513.76,
+      "text": "as they become adults."
+    },
+    {
+      "start": 514.32,
+      "end": 516.4000000000001,
+      "text": "And one becomes a very successful,"
+    },
+    {
+      "start": 516.4000000000001,
+      "end": 517.9200000000001,
+      "text": "powerful minister to the king,"
+    },
+    {
+      "start": 518.48,
+      "end": 520.4000000000001,
+      "text": "and the other becomes a humble monk"
+    },
+    {
+      "start": 520.4000000000001,
+      "end": 523.2800000000001,
+      "text": "in tattered robes with a begging bowl and what have you."
+    },
+    {
+      "start": 523.2800000000001,
+      "end": 525.52,
+      "text": "And years later they run into each other on the road"
+    },
+    {
+      "start": 526.1600000000001,
+      "end": 527.36,
+      "text": "and they're getting reacquainted."
+    },
+    {
+      "start": 528.48,
+      "end": 529.52,
+      "text": "And as they are,"
+    },
+    {
+      "start": 529.52,
+      "end": 530.8000000000001,
+      "text": "the minister, the king,"
+    },
+    {
+      "start": 530.8000000000001,
+      "end": 534.08,
+      "text": "takes pity on his poverty-stricken friend"
+    },
+    {
+      "start": 534.1600000000001,
+      "end": 535.36,
+      "text": "in his tattered robes."
+    },
+    {
+      "start": 536.4000000000001,
+      "end": 536.88,
+      "text": "And he says,"
+    },
+    {
+      "start": 536.88,
+      "end": 540.0,
+      "text": "you know, if you could learn to cater to the king,"
+    },
+    {
+      "start": 540.88,
+      "end": 542.72,
+      "text": "you wouldn't have to live on rice and beans."
+    },
+    {
+      "start": 543.6800000000001,
+      "end": 544.88,
+      "text": "To which the monk replies,"
+    },
+    {
+      "start": 545.6800000000001,
+      "end": 547.44,
+      "text": "if you could learn to live on rice and beans,"
+    },
+    {
+      "start": 548.8000000000001,
+      "end": 550.1600000000001,
+      "text": "you wouldn't have to cater to the king."
+    },
+    {
+      "start": 551.36,
+      "end": 552.88,
+      "text": "And for me,"
+    },
+    {
+      "start": 552.88,
+      "end": 556.0,
+      "text": "I've always been a little bit more towards the monk side."
+    },
+    {
+      "start": 556.8000000000001,
+      "end": 560.08,
+      "text": "I'm not a very materialistic person"
+    },
+    {
+      "start": 560.08,
+      "end": 563.44,
+      "text": "and I'm comfortable and able to get along"
+    },
+    {
+      "start": 563.7600000000001,
+      "end": 564.5600000000001,
+      "text": "on very little."
+    },
+    {
+      "start": 565.36,
+      "end": 568.8800000000001,
+      "text": "And I think there's something beautiful about needing less."
+    },
+    {
+      "start": 569.44,
+      "end": 571.36,
+      "text": "I have, from my interviews,"
+    },
+    {
+      "start": 571.36,
+      "end": 573.84,
+      "text": "met people who are very wealthy,"
+    },
+    {
+      "start": 573.84,
+      "end": 575.0400000000001,
+      "text": "even actually off camera,"
+    },
+    {
+      "start": 575.6800000000001,
+      "end": 577.84,
+      "text": "who are very, very wealthy and appear to be happy."
+    },
+    {
+      "start": 578.48,
+      "end": 581.44,
+      "text": "But I think it's safe to say"
+    },
+    {
+      "start": 581.44,
+      "end": 583.2,
+      "text": "that the richest people I know"
+    },
+    {
+      "start": 583.2,
+      "end": 585.7600000000001,
+      "text": "are amongst the least happy people I know."
+    },
+    {
+      "start": 585.7600000000001,
+      "end": 587.6,
+      "text": "So if I think about the very top,"
+    },
+    {
+      "start": 587.6,
+      "end": 590.0,
+      "text": "the billionaires that I know off camera,"
+    },
+    {
+      "start": 590.0,
+      "end": 592.48,
+      "text": "they are amongst the least happy, typically,"
+    }
+  ],
+  "resume_from": 592.48,
+  "run_id": "20261101-013545-f6895872",
+  "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/82cd09fb5a676db6c60b1215/20261101-013545-f6895872",
+  "detected_language": "en"
+}
