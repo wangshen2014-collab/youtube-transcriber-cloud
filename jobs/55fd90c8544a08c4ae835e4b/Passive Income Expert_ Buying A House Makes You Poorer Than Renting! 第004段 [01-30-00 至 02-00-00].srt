@@ -1,0 +1,1892 @@
+1
+00:00:00,000 --> 00:00:04,160
+robots you know all these kinds of things which very may well come to pass
+
+2
+00:00:04,160 --> 00:00:11,760
+I mean Elon Musk is a stunningly brilliant guy so who knows but that's
+
+3
+00:00:11,760 --> 00:00:16,220
+the speculation that's the foam the underlying beer of Tesla the actual
+
+4
+00:00:16,220 --> 00:00:21,840
+operating company does not justify the price of the stock I mean the the
+
+5
+00:00:21,840 --> 00:00:28,040
+P ratio of Tesla you can look it up is some huge number right so there's a
+
+6
+00:00:28,040 --> 00:00:35,120
+lot of speculation a lot of foam in Tesla now if things go to plan then that
+
+7
+00:00:35,120 --> 00:00:39,760
+foam will become as in our example you notice the foam is dissipating we're
+
+8
+00:00:39,760 --> 00:00:43,360
+getting more and more beer if things go to plan for Tesla that's what will
+
+9
+00:00:43,360 --> 00:00:49,040
+happen the foam will eventually settle out into more and more beer and Tesla
+
+10
+00:00:49,040 --> 00:00:53,920
+will justify that high price and maybe then some and I guess Warren
+
+11
+00:00:53,920 --> 00:00:57,240
+Buffett's greatness if I've interpreted his writing correctly and
+
+12
+00:00:57,240 --> 00:01:00,720
+why he was often considered as the greatest investor of all time was he
+
+13
+00:01:00,720 --> 00:01:06,400
+was able to pay for stocks where it was mainly beer and he paid at the price
+
+14
+00:01:06,400 --> 00:01:12,560
+of the beer not for the foam or he looked for times where the sentiment
+
+15
+00:01:12,560 --> 00:01:18,360
+was so negative that he was actually paying a little less than the price
+
+16
+00:01:18,360 --> 00:01:23,720
+of the beer Benjamin Graham who wrote the Intelligent Investor who was a
+
+17
+00:01:23,720 --> 00:01:29,320
+mentor to Warren Buffett basically said what you should do is look for value
+
+18
+00:01:29,320 --> 00:01:33,640
+companies and try to determine where the beer is and then try to see if you
+
+19
+00:01:33,640 --> 00:01:39,160
+can get a buying opportunity watch it where you can buy it for less than
+
+20
+00:01:39,160 --> 00:01:44,120
+the actual value of the operation that's ideal and in those days when
+
+21
+00:01:44,120 --> 00:01:47,320
+there wasn't so much information freely available that was probably a
+
+22
+00:01:47,320 --> 00:01:51,600
+little easier to do well Warren Buffett has said since then and
+
+23
+00:01:51,600 --> 00:01:56,000
+that's a great foundation if you're going to pick individual stocks but what
+
+24
+00:01:56,000 --> 00:02:00,960
+Warren Buffett has said since then is he learned and I think you don't quote me
+
+25
+00:02:00,960 --> 00:02:04,000
+on this but I think it was Charlie Munger who actually made this point to
+
+26
+00:02:04,000 --> 00:02:10,480
+him that it's going to be very very hard in this day and age even when
+
+27
+00:02:10,480 --> 00:02:15,280
+they started back in the 60s to find companies where you can actually buy
+
+28
+00:02:16,000 --> 00:02:22,960
+less than the actual beer value so don't try to do that just try to find
+
+29
+00:02:22,960 --> 00:02:28,480
+companies that you can pay a fair price for that have a lot of beer in
+
+30
+00:02:28,480 --> 00:02:33,840
+the mix that are mostly beer because if you buy those companies they are by
+
+31
+00:02:33,840 --> 00:02:40,160
+definition very well run companies strong brands big motes around them
+
+32
+00:02:40,160 --> 00:02:43,920
+which makes them hard to compete I guess to do this you're going to have
+
+33
+00:02:43,920 --> 00:02:47,360
+to have a framework for valuing a company exactly and you're going to
+
+34
+00:02:47,360 --> 00:02:52,320
+have to have great discipline which is yeah hard and that's what you know as
+
+35
+00:02:52,320 --> 00:02:57,760
+Warren Buffett said I was blessed with an ability to allocate capital
+
+36
+00:02:57,760 --> 00:03:03,520
+effectively and that's basically what he has done he's has capital and he
+
+37
+00:03:03,520 --> 00:03:08,400
+has got the ability to look at different companies and say of all the
+
+38
+00:03:08,400 --> 00:03:13,200
+different companies I could allocate capital to he's pretty skilled at
+
+39
+00:03:13,200 --> 00:03:16,560
+picking the ones that are the best bets one of the things that I really
+
+40
+00:03:16,560 --> 00:03:22,080
+admired about Warren Buffett was his ability to do nothing which is one of
+
+41
+00:03:22,080 --> 00:03:25,680
+the key things because that goes back to Charlie Munger's thing don't get in
+
+42
+00:03:25,680 --> 00:03:28,960
+the way of your compounding right and there has been recent times where I
+
+43
+00:03:28,960 --> 00:03:33,600
+think we can all think of where using your beer analogy something
+
+44
+00:03:33,600 --> 00:03:40,080
+happens in the world and the true value of a company is higher than the
+
+45
+00:03:40,080 --> 00:03:44,640
+selling price i.e. if you go back to March 2020 during the the market sell
+
+46
+00:03:44,640 --> 00:03:47,280
+off when the pandemic happened and everybody panicked
+
+47
+00:03:47,280 --> 00:03:50,880
+Amazon for example the stock briefly dropped below roughly to about
+
+48
+00:03:50,880 --> 00:03:56,400
+$1,500 per share well below its intrinsic value
+
+49
+00:03:56,400 --> 00:03:59,600
+and because people were panicking right and then it quickly rebounded
+
+50
+00:03:59,600 --> 00:04:03,760
+again past three thousand dollars a share so
+
+51
+00:04:03,760 --> 00:04:07,600
+theoretically if you had noticed that drop you could have
+
+52
+00:04:07,600 --> 00:04:11,600
+made a hundred percent return on your money and by the extension the whole
+
+53
+00:04:11,600 --> 00:04:14,960
+market did that the whole market dropped yeah so you could have done that
+
+54
+00:04:14,960 --> 00:04:19,120
+with your index fund this is why if you panicked and sold yeah you
+
+55
+00:04:19,120 --> 00:04:22,560
+let's say you owned amazon or you owned vtsax
+
+56
+00:04:22,560 --> 00:04:26,480
+and you panicked and sold well you would have you would have lost
+
+57
+00:04:26,480 --> 00:04:31,120
+everything and then it recovered so it works both ways that's why
+
+58
+00:04:31,120 --> 00:04:35,520
+I said earlier in our conversation you you have to stay invested
+
+59
+00:04:35,520 --> 00:04:38,560
+so that the dip doesn't matter and if anything
+
+60
+00:04:38,560 --> 00:04:42,800
+take advantage of the dip and buy more so you own amazon you see a dip
+
+61
+00:04:42,800 --> 00:04:45,680
+you say well I still believe in the company I still think it's a good
+
+62
+00:04:45,680 --> 00:04:48,160
+company and it's got a good future well then
+
+63
+00:04:48,160 --> 00:04:50,320
+maybe you buy some more in the dip and you do
+
+64
+00:04:50,320 --> 00:04:53,360
+still better but the important thing is you don't sell
+
+65
+00:04:53,360 --> 00:04:56,800
+when it's down because there's panic in the air
+
+66
+00:04:56,800 --> 00:04:59,360
+and I think this is um this speaks to a broad of sentiment throughout
+
+67
+00:04:59,360 --> 00:05:02,480
+this conversation which is to do what others don't do
+
+68
+00:05:02,480 --> 00:05:05,920
+you know and Warren Buffett's famous for saying be fearful when others are
+
+69
+00:05:05,920 --> 00:05:09,280
+greedy and greedy when others are fearful but generally
+
+70
+00:05:09,280 --> 00:05:12,000
+the sentiment on social media especially for younger generations and
+
+71
+00:05:12,000 --> 00:05:14,640
+especially for men which is supported by the data
+
+72
+00:05:14,640 --> 00:05:18,640
+is that the way to make money is by like trading crypto
+
+73
+00:05:18,640 --> 00:05:21,680
+or by right I mean there's so many people that sell
+
+74
+00:05:21,680 --> 00:05:24,960
+this is such a we need to address this you know it's a platform
+
+75
+00:05:24,960 --> 00:05:28,640
+it's a gambling it's just gambling it's a gambling platform
+
+76
+00:05:28,640 --> 00:05:31,440
+so that's going you know people sometimes say to me you know I never
+
+77
+00:05:31,440 --> 00:05:34,160
+invest in the stock market it's just gambling
+
+78
+00:05:34,160 --> 00:05:38,720
+I say well you're half right our foam is all dissipated but if there was
+
+79
+00:05:38,720 --> 00:05:40,880
+still foam here I would say yes if you're
+
+80
+00:05:40,880 --> 00:05:44,640
+doing it short term and you're playing with the foam
+
+81
+00:05:44,640 --> 00:05:47,760
+absolutely is no different than going to Las Vegas
+
+82
+00:05:47,760 --> 00:05:50,960
+if you're investing for the beer it's an entirely different
+
+83
+00:05:50,960 --> 00:05:54,080
+story and you're investing for the long term
+
+84
+00:05:54,080 --> 00:05:57,600
+and there's lots of young people that are being tempted into buying a
+
+85
+00:05:57,600 --> 00:05:59,760
+course that's going to help them learn how
+
+86
+00:05:59,760 --> 00:06:03,360
+to trade that's great for the people selling the course
+
+87
+00:06:03,360 --> 00:06:07,040
+there's such an there's such an incredible like iron obvious
+
+88
+00:06:07,040 --> 00:06:11,760
+irony to the idea that I have some secret
+
+89
+00:06:11,760 --> 00:06:14,960
+about trading that's really going to make
+
+90
+00:06:14,960 --> 00:06:18,080
+you know that is capable of making one wealthy right
+
+91
+00:06:18,080 --> 00:06:21,440
+and I'm going to give it to you or even sell it to you
+
+92
+00:06:21,440 --> 00:06:24,320
+why would I need to if it worked right like this is such an obvious
+
+93
+00:06:24,320 --> 00:06:26,160
+question to me like why would I need to
+
+94
+00:06:26,160 --> 00:06:29,840
+sell it if it worked it is the obvious question I mean
+
+95
+00:06:29,840 --> 00:06:32,800
+you know and I feel sorry I have great empathy because the people that buy
+
+96
+00:06:32,800 --> 00:06:35,200
+these things are people that are desperate to get out of their financial
+
+97
+00:06:35,200 --> 00:06:37,360
+situation and they've run out of options and so
+
+98
+00:06:37,360 --> 00:06:40,400
+it's very compelling to hear that there's some secret that you can
+
+99
+00:06:40,400 --> 00:06:42,320
+predict the stock market it's very compelling
+
+100
+00:06:42,320 --> 00:06:45,840
+you know in another interview I said one time we were talking about
+
+101
+00:06:45,840 --> 00:06:50,240
+this is the same line of conversation we're having and I said you know
+
+102
+00:06:50,240 --> 00:06:53,840
+I blame my mother I would be a lot richer if
+
+103
+00:06:53,840 --> 00:06:57,440
+she hadn't instilled a conscience in me you know
+
+104
+00:06:57,440 --> 00:07:01,280
+she's cost me millions of dollars instilling this conscience I could have
+
+105
+00:07:01,280 --> 00:07:05,520
+courses I could be you know but no I am
+
+106
+00:07:05,520 --> 00:07:11,120
+saying that there is a path that will give you great results
+
+107
+00:07:11,120 --> 00:07:14,560
+and it's a pretty well proven path at this point
+
+108
+00:07:14,560 --> 00:07:18,560
+so many of us are pursuing passive forms of income and to build side
+
+109
+00:07:18,560 --> 00:07:21,040
+businesses in order to help us cover our bills
+
+110
+00:07:21,040 --> 00:07:25,680
+and that opportunity is here with our sponsor Stan a business that I co-own
+
+111
+00:07:25,680 --> 00:07:29,360
+it is the platform that can help you take full advantage of your own
+
+112
+00:07:29,360 --> 00:07:32,640
+financial situation. Stan enables you to work for yourself
+
+113
+00:07:32,640 --> 00:07:35,600
+it makes selling digital products courses memberships
+
+114
+00:07:35,600 --> 00:07:39,200
+and more simple products more scalable and easier to do
+
+115
+00:07:39,200 --> 00:07:42,960
+you can turn your ideas into income and get the support to grow whatever
+
+116
+00:07:42,960 --> 00:07:46,000
+you're building and we've just launched Dare to Dream
+
+117
+00:07:46,000 --> 00:07:49,520
+it's for those who are ready to make the shift from thinking to building
+
+118
+00:07:49,520 --> 00:07:53,200
+from planning to actually doing the thing it's about seeing that dream in
+
+119
+00:07:53,200 --> 00:07:56,080
+your head and knowing exactly what it takes to bring it to life
+
+120
+00:07:56,080 --> 00:07:58,960
+enter to win a hundred thousand dollars for your dream all you have to
+
+121
+00:07:58,960 --> 00:08:03,760
+do is share what it is learn more at daretodream.stan.store
+
+122
+00:08:03,760 --> 00:08:06,960
+this is something that I've made for you I've realized that the Dire
+
+123
+00:08:06,960 --> 00:08:10,320
+Overseer audience are strivers whether it's in business or health
+
+124
+00:08:10,320 --> 00:08:13,520
+we all have big goals that we want to accomplish and one of the things
+
+125
+00:08:13,520 --> 00:08:17,280
+I've learned is that when you aim at the big big big goal
+
+126
+00:08:17,280 --> 00:08:21,840
+it can feel incredibly psychologically uncomfortable because it's kind of like
+
+127
+00:08:21,840 --> 00:08:24,640
+being stood at the foot of Mount Everest and looking upwards
+
+128
+00:08:24,640 --> 00:08:28,640
+the way to accomplish your goals is by breaking them down into tiny
+
+129
+00:08:28,640 --> 00:08:32,240
+small steps and we call this in our team the one percent and actually this
+
+130
+00:08:32,240 --> 00:08:35,040
+philosophy is highly responsible for much of our
+
+131
+00:08:35,040 --> 00:08:38,000
+success here so what we've done so that you at
+
+132
+00:08:38,000 --> 00:08:40,560
+home can accomplish any big goal that you have
+
+133
+00:08:40,560 --> 00:08:44,240
+is we've made these one percent diaries and we released these last
+
+134
+00:08:44,240 --> 00:08:47,760
+year and they all sold out so I asked my team over and over again
+
+135
+00:08:47,760 --> 00:08:50,400
+to bring the diaries back but also to introduce some new colors
+
+136
+00:08:50,400 --> 00:08:53,760
+and to make some minor tweaks to the diary so now we have
+
+137
+00:08:53,760 --> 00:08:58,960
+a better range for you so if you have a big goal in mind and you need
+
+138
+00:08:58,960 --> 00:09:01,760
+a framework and a process and some motivation
+
+139
+00:09:01,760 --> 00:09:04,720
+then I highly recommend you get one of these diaries before
+
+140
+00:09:04,720 --> 00:09:08,560
+they all sell out once again and you can get yours now at thediary.com
+
+141
+00:09:08,560 --> 00:09:12,000
+where you can get 20% off our Black Friday bundle and if you
+
+142
+00:09:12,000 --> 00:09:14,960
+want the link the link is in the description below.
+
+143
+00:09:14,960 --> 00:09:18,560
+Do I need a financial advisor? Because a lot of people
+
+144
+00:09:18,560 --> 00:09:21,360
+out listening now will be thinking yeah I will figure out my money
+
+145
+00:09:21,360 --> 00:09:24,560
+situation when I have enough money to pay a financial advisor.
+
+146
+00:09:24,560 --> 00:09:29,600
+Yeah I think my attitude is by the time you know enough
+
+147
+00:09:29,600 --> 00:09:34,160
+to choose a good financial advisor which is no easy task
+
+148
+00:09:34,160 --> 00:09:37,840
+you probably know enough to do it on your own at least on the investing
+
+149
+00:09:37,840 --> 00:09:43,040
+part. Now there are other life kinds of decisions
+
+150
+00:09:43,040 --> 00:09:47,680
+where maybe advisors would be more useful but again you have to be
+
+151
+00:09:47,680 --> 00:09:52,640
+careful and it takes you you need to really educate yourself as to how
+
+152
+00:09:52,640 --> 00:09:56,400
+advisors get paid for instance. My attitudes by the way are colored
+
+153
+00:09:56,400 --> 00:10:01,360
+by the fact that I hear so frequently from my followers
+
+154
+00:10:01,360 --> 00:10:04,480
+about bad experiences with financial advisors
+
+155
+00:10:04,480 --> 00:10:08,400
+so I have a negative opinion to be fair I know there are good ones out there and
+
+156
+00:10:08,400 --> 00:10:12,320
+I'll do respect to those good ones. But let's suppose you have a financial
+
+157
+00:10:12,320 --> 00:10:17,040
+advisor who gets paid based on the assets
+
+158
+00:10:17,040 --> 00:10:20,720
+under management. The amount that you've given them?
+
+159
+00:10:20,720 --> 00:10:24,320
+Exactly right so maybe it's one percent so you give them a million
+
+160
+00:10:24,320 --> 00:10:26,720
+dollars and they get one percent a year to
+
+161
+00:10:26,720 --> 00:10:31,040
+manage that money for you. Let's suppose you go to that advisor
+
+162
+00:10:31,040 --> 00:10:36,240
+and you say you know Stephen I've been thinking about paying off my mortgage
+
+163
+00:10:36,240 --> 00:10:39,920
+I've got a half a million dollar mortgage on this house
+
+164
+00:10:39,920 --> 00:10:43,840
+it's six percent let's say it's five percent so in that middle range it's
+
+165
+00:10:43,840 --> 00:10:47,200
+five percent I'm thinking about paying off what do you think?
+
+166
+00:10:47,200 --> 00:10:52,240
+Okay well now Stephen has a bit of a lever because
+
+167
+00:10:52,240 --> 00:10:56,720
+he can certainly give you the most accurate financial advice he is
+
+168
+00:10:56,720 --> 00:11:00,080
+capable of giving you and answering that question
+
+169
+00:11:00,080 --> 00:11:04,880
+but if that leads him to say yes pay off the mortgage
+
+170
+00:11:04,880 --> 00:11:10,880
+he has just reduced his income by half because when you pay off
+
+171
+00:11:10,880 --> 00:11:13,280
+that mortgage half a million dollars is going to go
+
+172
+00:11:13,280 --> 00:11:16,960
+out from his management and paying off the mortgage company
+
+173
+00:11:16,960 --> 00:11:21,200
+so you have just asked Stephen to give you advice potentially that is bad
+
+174
+00:11:21,200 --> 00:11:27,520
+for Stephen. Now if Stephen's a honorable capable
+
+175
+00:11:27,520 --> 00:11:30,880
+honest guy then maybe Stephen does that
+
+176
+00:11:30,880 --> 00:11:35,840
+but let's suppose Stephen has two kids in college
+
+177
+00:11:35,840 --> 00:11:40,000
+let's suppose Stephen just bought a boat let's suppose Stephen is going
+
+178
+00:11:40,000 --> 00:11:45,360
+through a divorce let's think about that and maybe
+
+179
+00:11:45,360 --> 00:11:50,400
+Stephen is honest and capable and decent as he ordinarily is has
+
+180
+00:11:50,400 --> 00:11:55,280
+financial pressures that might play a role right there is a conflict
+
+181
+00:11:55,280 --> 00:11:58,240
+of interest frequently so you have to understand how your
+
+182
+00:11:58,240 --> 00:12:03,200
+advisor is being paid. How does your portfolio look? Where have
+
+183
+00:12:03,200 --> 00:12:06,080
+you allocated your money in terms of percentages? How much money do you have
+
+184
+00:12:06,080 --> 00:12:10,560
+in real estate versus cash versus index funds? I don't even think about
+
+185
+00:12:10,560 --> 00:12:14,720
+about the real estate we have this cabin in Wisconsin on the lake and
+
+186
+00:12:14,720 --> 00:12:20,560
+then we have a condo in Florida they're both very modest so pretty
+
+187
+00:12:20,560 --> 00:12:23,600
+small part of our net worth I like to buy things from a
+
+188
+00:12:23,600 --> 00:12:29,520
+position of power. My stocks I'm probably about 80 percent
+
+189
+00:12:29,520 --> 00:12:34,400
+in in VTSAX total stock market index fund
+
+190
+00:12:34,400 --> 00:12:41,120
+and probably 15 percent in bonds a total bond market index fund
+
+191
+00:12:41,120 --> 00:12:44,160
+and then the other five percent in money market fund.
+
+192
+00:12:44,160 --> 00:12:48,400
+I keep some money in the checking account to pay the bills
+
+193
+00:12:48,400 --> 00:12:51,520
+and to break it down a little further for you
+
+194
+00:12:51,520 --> 00:12:56,320
+My wife and I both have IRAs we have a regular IRA and a Roth IRA
+
+195
+00:12:56,320 --> 00:13:02,800
+so there are four IRAs all four of them hold VTSAX. We have taxable accounts
+
+196
+00:13:02,800 --> 00:13:06,880
+and part of that is VTSAX part of it is the bonds.
+
+197
+00:13:06,880 --> 00:13:11,040
+What is a bond? A bond is money that you have lent
+
+198
+00:13:11,040 --> 00:13:17,440
+to a company or to the government so when you buy a bond you are
+
+199
+00:13:17,440 --> 00:13:23,360
+essentially lending money to a company or a government entity so
+
+200
+00:13:23,360 --> 00:13:28,880
+they pay you interest so companies and the government
+
+201
+00:13:28,880 --> 00:13:32,800
+sell bonds of various maturities so they can be
+
+202
+00:13:32,800 --> 00:13:36,720
+very sure like a money market fund is basically very short-term
+
+203
+00:13:36,720 --> 00:13:40,400
+bonds you know like 30 days or less right which makes it the equivalent
+
+204
+00:13:40,400 --> 00:13:44,400
+of cash but you could buy a certificate of
+
+205
+00:13:44,400 --> 00:13:47,760
+deposit as a kind of a bond so you could buy one of those for three months
+
+206
+00:13:47,760 --> 00:13:51,440
+or six months or a year five years ten years by US
+
+207
+00:13:51,440 --> 00:13:54,720
+treasuries going out 30 years. Why would I do that instead of buying
+
+208
+00:13:54,720 --> 00:13:58,640
+the index fund? So the index fund is stocks it's it's very
+
+209
+00:13:58,640 --> 00:14:04,320
+stocks as we talked about big growth engine great long-term very volatile
+
+210
+00:14:04,320 --> 00:14:07,760
+so if you want something to smooth the ride
+
+211
+00:14:07,760 --> 00:14:10,640
+bonds are not very good for long-term growth but they are not
+
+212
+00:14:10,640 --> 00:14:15,680
+nearly as volatile. So they're safer? Short-term yes because they're less
+
+213
+00:14:15,680 --> 00:14:19,280
+volatile. Long-term they tend to lose value to
+
+214
+00:14:19,280 --> 00:14:23,040
+inflation. Stocks on the other hand are riskier
+
+215
+00:14:23,040 --> 00:14:26,640
+short-term because of the volatility but long-term
+
+216
+00:14:26,640 --> 00:14:30,960
+they outpace inflation and so they are safer long-term so it depends on
+
+217
+00:14:30,960 --> 00:14:35,600
+your time horizon which is safer but traditionally people
+
+218
+00:14:35,600 --> 00:14:40,160
+think of bonds as being safer and really the way you should hear
+
+219
+00:14:40,160 --> 00:14:45,200
+that is less volatile and stocks being riskier you should hear
+
+220
+00:14:45,200 --> 00:14:48,080
+that is more volatile. So is it broadly true to say that if we
+
+221
+00:14:48,080 --> 00:14:52,800
+exclude your real estate 70 percent of your assets are in
+
+222
+00:14:52,800 --> 00:14:55,680
+stocks 20 in bonds and five percent in cash?
+
+223
+00:14:55,680 --> 00:14:59,520
+Probably more 80-15-5. 80 percent stocks
+
+224
+00:14:59,520 --> 00:15:03,200
+probably yeah 15 cash okay it's interesting because
+
+225
+00:15:03,200 --> 00:15:06,720
+which would be considered very very aggressive
+
+226
+00:15:06,720 --> 00:15:10,080
+and I wouldn't necessarily recommend that for most people
+
+227
+00:15:10,080 --> 00:15:14,000
+my age. I thought it would be curious because we now have this new alien
+
+228
+00:15:14,000 --> 00:15:17,120
+amongst us called AI. I thought it would be curious if I went
+
+229
+00:15:17,120 --> 00:15:19,840
+on ChatGPT and I asked ChatGPT the question
+
+230
+00:15:19,840 --> 00:15:23,760
+I'm a normal person who earns fifty thousand dollars a year
+
+231
+00:15:23,760 --> 00:15:28,080
+I want to be financially free in the future give me a one sentence
+
+232
+00:15:28,080 --> 00:15:31,920
+answer based on all of the wisdom in the world
+
+233
+00:15:31,920 --> 00:15:35,280
+taken from every expert in investing ever.
+
+234
+00:15:35,280 --> 00:15:39,040
+Well I know what the right answer is I don't know what the answer.
+
+235
+00:15:39,040 --> 00:15:42,080
+What do you think it's going to say? Read the simple path of wealth I don't think
+
+236
+00:15:42,080 --> 00:15:44,800
+that's what it's going to say but that's the right answer. And the simple path of
+
+237
+00:15:44,800 --> 00:15:46,720
+wealth talks about three principles right?
+
+238
+00:15:46,720 --> 00:15:49,520
+Right. What are those three? I'm going to check it against what it says.
+
+239
+00:15:49,520 --> 00:15:53,920
+Avoid debt yeah live on less than you earn invest the surplus.
+
+240
+00:15:53,920 --> 00:15:59,200
+It said focus on saving and consistently invest in low cost broad
+
+241
+00:15:59,200 --> 00:16:03,680
+based index funds like the S&P 500 while living below your means and
+
+242
+00:16:03,680 --> 00:16:08,640
+allowing compounding to work over time. I then asked another question how do I
+
+243
+00:16:08,640 --> 00:16:11,440
+earn more? I should sue them for mining my book.
+
+244
+00:16:11,440 --> 00:16:15,920
+Yeah they probably did. I said how do I earn more?
+
+245
+00:16:15,920 --> 00:16:18,960
+What do you think you know if you thought if your daughter came to you and
+
+246
+00:16:18,960 --> 00:16:21,840
+said earn more in a job or? I just asked a very broad question
+
+247
+00:16:21,840 --> 00:16:26,400
+which is I now and now how do I earn more was my question.
+
+248
+00:16:26,400 --> 00:16:29,680
+I would say develop develop your skills. Okay
+
+249
+00:16:29,680 --> 00:16:33,200
+it said to earn more focus on developing high demand skills.
+
+250
+00:16:33,200 --> 00:16:36,880
+There you go. Seek opportunities for career advancement explore side hustles
+
+251
+00:16:36,960 --> 00:16:39,920
+or invest in assets that generate passive income like real estate or
+
+252
+00:16:39,920 --> 00:16:42,400
+dividends. But I really think that you know I
+
+253
+00:16:42,400 --> 00:16:45,120
+really think there's a really important part there about
+
+254
+00:16:45,120 --> 00:16:49,200
+developing high demand skills. What are those going to be in the future?
+
+255
+00:16:49,200 --> 00:16:53,520
+Yeah with AI because programming for instance
+
+256
+00:16:53,520 --> 00:16:56,480
+used to be a very high demand skill and people said learn how to
+
+257
+00:16:56,480 --> 00:16:58,640
+program. Yeah from what I understand in the
+
+258
+00:16:58,640 --> 00:17:03,760
+age of AI yeah that's not so much. I even think about my own life at 18
+
+259
+00:17:03,760 --> 00:17:06,480
+years old I started learning about social media. I
+
+260
+00:17:06,480 --> 00:17:09,200
+dropped out of university doing my business management degree after
+
+261
+00:17:09,200 --> 00:17:12,240
+one lecture and I started learning about social media because I was
+
+262
+00:17:12,240 --> 00:17:14,400
+building a business in social media and technology
+
+263
+00:17:14,400 --> 00:17:18,320
+and although that first business failed I was
+
+264
+00:17:18,320 --> 00:17:23,920
+19 years old in 2014 or something really understood this thing
+
+265
+00:17:23,920 --> 00:17:26,880
+called social media which led me to spend a year as a
+
+266
+00:17:26,880 --> 00:17:29,280
+consultant flying around the world to all these companies
+
+267
+00:17:29,280 --> 00:17:31,520
+doing social media. One of those companies turned around and said it's
+
+268
+00:17:31,520 --> 00:17:34,560
+been so great could you turn this into a company? I said no I've been through
+
+269
+00:17:34,560 --> 00:17:36,960
+the founder PTSD of starting a startup I
+
+270
+00:17:36,960 --> 00:17:38,880
+don't want to do it. Three months later I said yes
+
+271
+00:17:38,880 --> 00:17:42,400
+turned into a company called social chain and that changed my entire life.
+
+272
+00:17:42,400 --> 00:17:45,920
+That worked out well. High demand skill I had even though I'd
+
+273
+00:17:45,920 --> 00:17:49,520
+failed I had this high demand skill that was honestly at the time
+
+274
+00:17:49,520 --> 00:17:52,160
+paying me 70 000 pounds. You probably had it because you
+
+275
+00:17:52,160 --> 00:17:54,400
+went through the process of failing. Yes.
+
+276
+00:17:54,400 --> 00:17:57,600
+Failure is you know it used to be in some cultures
+
+277
+00:17:57,600 --> 00:18:00,640
+that if you failed once that was it you're a pariah nobody would even
+
+278
+00:18:00,640 --> 00:18:05,040
+look at you anymore. Failure in our culture is just a
+
+279
+00:18:05,040 --> 00:18:08,320
+stepping stone. I've heard venture capitalists say they
+
+280
+00:18:08,320 --> 00:18:11,520
+won't even look at an entrepreneurial fund if they haven't failed at least
+
+281
+00:18:11,520 --> 00:18:14,720
+once. The advice I'd now give to my kids based on that
+
+282
+00:18:14,720 --> 00:18:17,600
+is I would ask if my kids came to me and said dad what should I go
+
+283
+00:18:17,600 --> 00:18:22,560
+learn? I would say go and work for a
+
+284
+00:18:22,560 --> 00:18:26,320
+startup. I said startup because you're going to be very close to the CEO
+
+285
+00:18:26,320 --> 00:18:28,640
+and founder because there's going to be less desks so
+
+286
+00:18:28,640 --> 00:18:30,880
+you're going to be closer to the proximity
+
+287
+00:18:30,880 --> 00:18:35,760
+that is failing at the cutting edge. So if it's AI I'd say go work for an AI
+
+288
+00:18:35,760 --> 00:18:38,480
+startup. Probably not going to work out you're
+
+289
+00:18:38,480 --> 00:18:41,520
+probably going to be the company you bust in a couple of months time
+
+290
+00:18:41,520 --> 00:18:45,360
+but you're going to be so close to the failure. You will learn so much.
+
+291
+00:18:45,360 --> 00:18:48,960
+Yes. I wish somebody had given me that advice. And that's like
+
+292
+00:18:48,960 --> 00:18:52,320
+in a way I guess roundabout way what I did is
+
+293
+00:18:52,320 --> 00:18:56,000
+I started a company that failed at the very forefront of a wave coming
+
+294
+00:18:56,000 --> 00:19:00,080
+into shore which meant that as I hit you know as the wave crashed down and I
+
+295
+00:19:00,080 --> 00:19:03,040
+was left there on my surfboard I now had this high demand set of
+
+296
+00:19:03,040 --> 00:19:08,000
+skills that people were like begging me for which set myself up
+
+297
+00:19:08,000 --> 00:19:12,160
+and frankly the derivative would not be successful
+
+298
+00:19:12,160 --> 00:19:15,440
+had I not spent the previous 10 years
+
+299
+00:19:15,440 --> 00:19:18,640
+understanding how social media content creation
+
+300
+00:19:18,640 --> 00:19:23,280
+growth worked. Is there a favorite story
+
+301
+00:19:23,360 --> 00:19:27,760
+in this book of yours? Oh there's so many great ones so
+
+302
+00:19:27,760 --> 00:19:32,720
+I already alluded to my favorite one which is my friend Tom.
+
+303
+00:19:32,720 --> 00:19:36,320
+You know because he has I mean Tom was a guy who
+
+304
+00:19:36,320 --> 00:19:39,920
+got to the age of 62. He'd been through multiple divorces.
+
+305
+00:19:39,920 --> 00:19:44,480
+He lost his house to foreclosure. He lost his job.
+
+306
+00:19:44,480 --> 00:19:48,000
+He was broke. He went bankrupt and yet
+
+307
+00:19:48,000 --> 00:19:52,640
+his life has turned out pretty well. He's an extraordinarily happy guy.
+
+308
+00:19:52,640 --> 00:19:57,760
+That's my favorite story but one of the reasons I like this book so
+
+309
+00:19:57,760 --> 00:20:00,640
+much and one of the reasons candidly I did it
+
+310
+00:20:00,640 --> 00:20:04,800
+is if you read through it you will find there are some stories from
+
+311
+00:20:04,800 --> 00:20:08,880
+people who were tech bros right who made big incomes and they read The
+
+312
+00:20:08,880 --> 00:20:12,560
+Simple Path to Wealth and applied it and it worked very well for them.
+
+313
+00:20:12,560 --> 00:20:17,360
+But there are many many more stories of people who have accomplished this
+
+314
+00:20:17,360 --> 00:20:20,800
+from much more humble beginnings. You mean example of?
+
+315
+00:20:20,800 --> 00:20:24,800
+I have a very good friend of mine. High school buddy. I don't think he's ever
+
+316
+00:20:24,800 --> 00:20:29,920
+made more than $40,000 a year. He is financially independent because
+
+317
+00:20:29,920 --> 00:20:33,760
+he followed the basic principles that I talk about in that book.
+
+318
+00:20:33,760 --> 00:20:36,880
+I have a different friend and he was in the financial business. He was
+
+319
+00:20:36,880 --> 00:20:40,480
+living in Chicago and over lunch he told me that his
+
+320
+00:20:40,480 --> 00:20:43,600
+Christmas bonus had come in at $800,000.
+
+321
+00:20:43,600 --> 00:20:47,520
+That's back in the mid-90s when that was real money right
+
+322
+00:20:47,520 --> 00:20:50,480
+and he was already making I don't know a million dollars a year or whatever it
+
+323
+00:20:50,480 --> 00:20:55,120
+was. Big income and he was broke
+
+324
+00:20:55,120 --> 00:20:59,520
+and you see most people listening to this and I said what are you talking
+
+325
+00:20:59,520 --> 00:21:03,280
+about? This guy got a bonus right? People paid me $800,000 for
+
+326
+00:21:03,280 --> 00:21:07,120
+a year. I'd be done forever right and that'd be my none. I'm good.
+
+327
+00:21:07,120 --> 00:21:10,800
+How can he be broke? Well when you listen to him talk
+
+328
+00:21:10,800 --> 00:21:15,120
+about the house, the cars, the schools
+
+329
+00:21:15,120 --> 00:21:18,160
+and you start doing the math you realize that
+
+330
+00:21:18,160 --> 00:21:22,000
+no his income is not enough. He's barely
+
+331
+00:21:22,000 --> 00:21:26,320
+barely making it. So here's a guy with a big income
+
+332
+00:21:26,320 --> 00:21:30,080
+who is unless he changes his ways is never going to be financially
+
+333
+00:21:30,080 --> 00:21:32,720
+independent financially independent. Here's my guy
+
+334
+00:21:32,720 --> 00:21:37,280
+with a tiny income comparatively who got there.
+
+335
+00:21:37,280 --> 00:21:41,680
+I've come to believe that a large income
+
+336
+00:21:41,680 --> 00:21:45,600
+actually can be an impediment to accomplishing it
+
+337
+00:21:45,600 --> 00:21:49,840
+and my reasoning for this is that I think people who have a large income
+
+338
+00:21:49,840 --> 00:21:53,680
+are much more likely to be drawn into the competing with the Jones's
+
+339
+00:21:53,680 --> 00:21:57,360
+scenario because they associate with other people who have large incomes
+
+340
+00:21:57,360 --> 00:22:01,120
+and they're all driving a certain car living in a certain neighborhood
+
+341
+00:22:01,120 --> 00:22:05,520
+sending their kids to certain schools and that probably becomes very hard to
+
+342
+00:22:05,520 --> 00:22:10,480
+disengage with and making it perhaps even
+
+343
+00:22:10,480 --> 00:22:14,080
+less likely that they are going to decide to spend a large portion of their
+
+344
+00:22:14,080 --> 00:22:17,760
+income on buying their freedom whereas
+
+345
+00:22:17,760 --> 00:22:20,800
+the people who make less money probably don't have those same social
+
+346
+00:22:20,800 --> 00:22:24,800
+pressures and are more readily able to do it.
+
+347
+00:22:24,800 --> 00:22:28,080
+So starting from humble beginnings is no obstacle
+
+348
+00:22:28,080 --> 00:22:31,280
+and that's was the point of doing Pathfinders.
+
+349
+00:22:31,280 --> 00:22:37,280
+Interesting. It does track that I think the goalposts continue to move
+
+350
+00:22:37,280 --> 00:22:41,440
+in different ways and I guess you go from competing to the
+
+351
+00:22:41,440 --> 00:22:45,760
+Jones's to competing with the size of someone else's yacht which is
+
+352
+00:22:45,760 --> 00:22:50,880
+all slippery slopes to bad places. Or your own demons
+
+353
+00:22:50,880 --> 00:22:54,160
+as we talked about earlier right? Yeah you mentioned a word in there as
+
+354
+00:22:54,160 --> 00:22:56,240
+well you mentioned I think you were talking about your friend Tom.
+
+355
+00:22:56,240 --> 00:22:59,920
+Tom had a divorce? Multiple divorces yeah.
+
+356
+00:22:59,920 --> 00:23:04,160
+Which is bad for your wealth. Yeah I didn't
+
+357
+00:23:04,160 --> 00:23:06,240
+realize this because I've never been through one before
+
+358
+00:23:06,480 --> 00:23:09,840
+I spoke to James Sexton on the show who's a divorce lawyer who
+
+359
+00:23:09,840 --> 00:23:13,040
+kind of opened my eyes to it but actually
+
+360
+00:23:13,040 --> 00:23:16,480
+I had a private conversation with a friend here in New York City
+
+361
+00:23:16,480 --> 00:23:19,600
+I'd say a couple of months ago who's going through a divorce
+
+362
+00:23:19,600 --> 00:23:22,640
+and he sat me down and he talked me through
+
+363
+00:23:22,640 --> 00:23:26,880
+the specific consequences of divorce that he's going through.
+
+364
+00:23:26,880 --> 00:23:29,920
+He said to me he's a very successful person I reckon he's probably worth
+
+365
+00:23:29,920 --> 00:23:33,760
+500 million right? He said the divorce
+
+366
+00:23:33,760 --> 00:23:39,040
+proceedings have now dragged on for five or six years so I'm having to go
+
+367
+00:23:39,040 --> 00:23:42,320
+and see lawyers all the time and he said to me as well that he is
+
+368
+00:23:42,320 --> 00:23:46,080
+paying for her lawyer which I didn't really understand but he was like no
+
+369
+00:23:46,080 --> 00:23:50,160
+I have to also cover her lawyer costs because you know I'm the
+
+370
+00:23:50,160 --> 00:23:53,040
+breadwinner she doesn't have money so I'm covering her lawyer costs
+
+371
+00:23:53,040 --> 00:23:56,480
+which is what I have to do and he said the law firm have gone from
+
+372
+00:23:56,480 --> 00:23:59,520
+being a very very small practice in those six years
+
+373
+00:23:59,520 --> 00:24:02,880
+now they have a massive building and he goes I know
+
+374
+00:24:02,880 --> 00:24:07,280
+it's my money he literally is like I have paid for her lawyer and now they're
+
+375
+00:24:07,280 --> 00:24:10,160
+doing really really well and they're milking this this case they're drawing
+
+376
+00:24:10,160 --> 00:24:12,400
+it out yeah they have no incentive to this
+
+377
+00:24:12,400 --> 00:24:16,240
+incentive this ending yeah so he's like I've spent tens of millions on her
+
+378
+00:24:16,240 --> 00:24:20,080
+lawyer who is basically dragging me and now they've got this
+
+379
+00:24:20,080 --> 00:24:23,360
+massive building what else did he say to me he said
+
+380
+00:24:23,360 --> 00:24:27,760
+because some of my assets are subjective in value like my company
+
+381
+00:24:27,760 --> 00:24:31,920
+her lawyer is inflating the price of my assets
+
+382
+00:24:32,000 --> 00:24:35,360
+because she's going to get half of whatever they can convince a judge my
+
+383
+00:24:35,360 --> 00:24:38,000
+assets are worth so he you know for example his business
+
+384
+00:24:38,000 --> 00:24:41,120
+might be worth 100 million but the lawyer is making the case to the judge
+
+385
+00:24:41,120 --> 00:24:45,840
+that it's worth 500 million so that she gets 250 million he also
+
+386
+00:24:45,840 --> 00:24:49,120
+said to me which really isn't there which really he doesn't have right and
+
+387
+00:24:49,120 --> 00:24:50,960
+then he was saying to me he goes you know I bought
+
+388
+00:24:50,960 --> 00:24:54,160
+this particular stock so he is I've started interrupting but now he's
+
+389
+00:24:54,160 --> 00:24:57,360
+forced to fight it he's fighting it's not like he can just say okay she
+
+390
+00:24:57,360 --> 00:25:01,840
+can have half yeah because this is a judgment
+
+391
+00:25:01,840 --> 00:25:05,280
+that is going to create a an obligation on his part
+
+392
+00:25:05,280 --> 00:25:08,480
+for assets that don't actually exist so it's more than half
+
+393
+00:25:08,480 --> 00:25:11,840
+yeah she could end up taking 60 70 75 and the other thing he said to me
+
+394
+00:25:11,840 --> 00:25:14,000
+which was quite sad he was like you know I was one of the first
+
+395
+00:25:14,000 --> 00:25:17,520
+he was one of the early investors in a big company that we all know
+
+396
+00:25:17,520 --> 00:25:22,560
+and he said to me I bought that stock 15 20 years ago it's actually
+
+397
+00:25:22,560 --> 00:25:24,000
+quite emotional to him that he was
+
+398
+00:25:24,000 --> 00:25:28,160
+so early and back in the company and now he's forced to sell that so he
+
+399
+00:25:28,160 --> 00:25:31,760
+has to liquidate investments he made 20 years ago
+
+400
+00:25:31,840 --> 00:25:35,440
+because again she's entitled to half and that'll be a huge tax hit
+
+401
+00:25:35,440 --> 00:25:39,040
+a huge tax hit right and I think some people don't realize that
+
+402
+00:25:39,040 --> 00:25:45,680
+wealthy people can get a loan against that stock without ever
+
+403
+00:25:45,680 --> 00:25:49,440
+having to sell it right so he's probably if he's far he's
+
+404
+00:25:49,440 --> 00:25:53,200
+probably got a big loan against that stock
+
+405
+00:25:53,200 --> 00:25:56,400
+probably a 50% loan so just for anyone that doesn't understand this
+
+406
+00:25:56,400 --> 00:25:58,240
+because I only understood this in the last couple of years where I
+
+407
+00:25:58,240 --> 00:26:01,680
+started doing similar things is if the stock is worth 100 million
+
+408
+00:26:01,680 --> 00:26:04,720
+he can get 50 million tax free from a bank
+
+409
+00:26:04,720 --> 00:26:07,200
+just by keeping that stock there and really never have to pay it back
+
+410
+00:26:07,200 --> 00:26:13,120
+because it's such a great stock and it was also just looking in his
+
+411
+00:26:13,120 --> 00:26:15,920
+face and just seeing the stress and the toll of having to go to court
+
+412
+00:26:15,920 --> 00:26:18,800
+all the time and fight this thing for six or seven years
+
+413
+00:26:18,800 --> 00:26:22,880
+but I thought wow we give people financial advice all the time about the
+
+414
+00:26:22,880 --> 00:26:26,400
+best stocks to pick or invest in index funds we don't talk
+
+415
+00:26:26,400 --> 00:26:30,880
+enough about the how divorce can just destroy your life
+
+416
+00:26:30,880 --> 00:26:34,240
+you know you have to be so careful in choosing your spouse
+
+417
+00:26:34,240 --> 00:26:37,440
+I've had pushback on that and the people say well then you're choosing
+
+418
+00:26:37,440 --> 00:26:39,840
+your spouse is not a financial decision that's
+
+419
+00:26:39,840 --> 00:26:43,440
+you know it's emotional it's romantic it's well yeah it's all those things
+
+420
+00:26:43,440 --> 00:26:46,560
+but it you better take finance into account
+
+421
+00:26:46,560 --> 00:26:48,560
+for all the reasons that we're discussing
+
+422
+00:26:48,560 --> 00:26:52,000
+this also by the way loops us back to an early part of our conversation
+
+423
+00:26:52,000 --> 00:26:57,360
+where does money by happiness does you know being richer
+
+424
+00:26:57,360 --> 00:27:02,400
+is that always necessarily better well this guy is more of a target because of
+
+425
+00:27:02,400 --> 00:27:06,560
+his wealth than he would be if he were so is his money really making
+
+426
+00:27:06,560 --> 00:27:10,880
+him happier at this point in his life yeah probably not so much
+
+427
+00:27:10,880 --> 00:27:13,760
+you know you know and he's he's going to be fine either way like sure
+
+428
+00:27:13,760 --> 00:27:17,280
+you know um which is a point point worth saying of nuance but also and
+
+429
+00:27:17,280 --> 00:27:19,520
+the other point of nuance worth saying is that he's going to be fine
+
+430
+00:27:19,520 --> 00:27:22,320
+financially but emotionally it's he's still
+
+431
+00:27:22,320 --> 00:27:26,000
+going to go and she's probably going through it too on the other side
+
+432
+00:27:26,000 --> 00:27:30,560
+yeah and the other point of nuance here is that she did
+
+433
+00:27:30,560 --> 00:27:35,040
+raise the four or five the three or four kids
+
+434
+00:27:35,040 --> 00:27:38,160
+while he was off building the business for you know
+
+435
+00:27:38,160 --> 00:27:41,920
+20 odd years so one could argue that he wouldn't have that wealth without
+
+436
+00:27:41,920 --> 00:27:44,960
+her being at home to look after the kids and she'd made huge sacrifices to
+
+437
+00:27:44,960 --> 00:27:49,120
+her own career so you know is balanced but i just
+
+438
+00:27:49,120 --> 00:27:53,120
+think with them james sexton said to me even if
+
+439
+00:27:53,120 --> 00:27:56,720
+you don't get a prenup there's still a prenup you either use
+
+440
+00:27:56,720 --> 00:28:00,640
+the government's prenup which is or you create your own or you
+
+441
+00:28:00,640 --> 00:28:02,480
+create your own either way there's a prenup
+
+442
+00:28:02,480 --> 00:28:05,840
+absolutely do you want to let some judge decide
+
+443
+00:28:05,840 --> 00:28:08,480
+or do you want to be intentional before you get married with your
+
+444
+00:28:08,480 --> 00:28:12,480
+partner about how things will be split and even when i think about my
+
+445
+00:28:12,480 --> 00:28:14,960
+partner at the moment and we're probably going to get married soon
+
+446
+00:28:14,960 --> 00:28:17,840
+congratulations thank you i haven't proposed just yet but i'm working on
+
+447
+00:28:17,840 --> 00:28:19,520
+it don't tell her that we just let the
+
+448
+00:28:19,520 --> 00:28:23,200
+secret out she doesn't she doesn't watch this anyway
+
+449
+00:28:23,200 --> 00:28:26,400
+someone's gonna wait a second but i'm on this time so
+
+450
+00:28:26,400 --> 00:28:29,520
+this is the one episode she's gonna watch true
+
+451
+00:28:29,520 --> 00:28:33,840
+well i'm very fortunate as of this spring i will have been married 44 years
+
+452
+00:28:33,840 --> 00:28:39,520
+and i i tell people i congrats i married my wife out of the gate
+
+453
+00:28:39,520 --> 00:28:42,720
+why the way do you have a framework for choosing
+
+454
+00:28:42,720 --> 00:28:47,360
+the person or for sustaining for 44 years because i'm what six seven years
+
+455
+00:28:47,360 --> 00:28:51,280
+in with my girlfriend but you got 44 years in funny story about
+
+456
+00:28:51,280 --> 00:28:55,280
+that is people used to ask me did you and
+
+457
+00:28:55,280 --> 00:28:58,720
+jane sit down and discuss money before make sure you were on the
+
+458
+00:28:58,720 --> 00:29:02,240
+same page financially before you got married
+
+459
+00:29:02,240 --> 00:29:05,920
+and i always used to say you know it's a great idea you should do that
+
+460
+00:29:05,920 --> 00:29:09,120
+but no we never did that i just i just got lucky
+
+461
+00:29:09,120 --> 00:29:12,640
+you know we never talked about it but as it happens we got married and we
+
+462
+00:29:12,640 --> 00:29:16,160
+were very very compatible financially which we are
+
+463
+00:29:16,160 --> 00:29:20,960
+but just got lucky well i told that story in front of her one time
+
+464
+00:29:20,960 --> 00:29:25,200
+and she leaned back at her chair and she said what are you talking about on
+
+465
+00:29:25,200 --> 00:29:29,680
+our first date you said to me you need to be saving 50% of your
+
+466
+00:29:29,680 --> 00:29:31,840
+income you said what do you mean we never
+
+467
+00:29:31,840 --> 00:29:35,840
+talked about money i guess that's such a natural part of
+
+468
+00:29:35,840 --> 00:29:40,560
+my persona i didn't even remember doing it but interesting
+
+469
+00:29:40,560 --> 00:29:44,800
+my last question for you is about regret you said you're 75
+
+470
+00:29:44,800 --> 00:29:51,840
+i am what are your biggest regrets so i i think regrets are are tricky
+
+471
+00:29:51,840 --> 00:29:55,120
+and i will i'll answer your question directly and
+
+472
+00:29:55,120 --> 00:29:58,560
+it's a couple of things that are at least one thing that occurs to me
+
+473
+00:29:58,560 --> 00:30:00,000
+that might be surprising but
+

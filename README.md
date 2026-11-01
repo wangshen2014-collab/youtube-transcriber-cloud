@@ -71,3 +71,4 @@
 - [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 _00-30-00 至 01-00-00_.m4a](jobs/5d75c37d886c071fce676933/README.md) <!-- job:5d75c37d886c071fce676933 -->
 - [连续两期美股节目合编：前《科技股跳水锦标赛》后《天塌了？》（large-v3 校对）](jobs/0b511c12e8e62301f45ae83b/README.md) <!-- job:0b511c12e8e62301f45ae83b -->
 - [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 _01-00-00 至 01-30-00_.m4a](jobs/e13b1367a610e9776a999860/README.md) <!-- job:e13b1367a610e9776a999860 -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 _01-30-00 至 02-00-00_.m4a](jobs/55fd90c8544a08c4ae835e4b/README.md) <!-- job:55fd90c8544a08c4ae835e4b -->
