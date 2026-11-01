@@ -21,7 +21,7 @@ Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysi
 - Install with `bash scripts/setup.sh` only if needed; reuse a working environment.
   Use a long-lived terminal command with bounded tool yields. Do not abandon the
   batch as an unattended daemon or promise it survives task termination.
-- The script processes files sequentially, writes local TXT/SRT/JSON/ZIP, and saves
+- The script processes files sequentially, writes local TXT/SRT/JSON, and saves
   each success to the dedicated public `transcripts` branch immediately. Return
   the printed result index/file links; never print entire transcripts or binary data.
   GitHub stores results and periodic text checkpoints, NOT source audio or models.
@@ -41,8 +41,10 @@ Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysi
   For multiple assets clarify selection unless user asks to process all of them.
   Never Base64-encode audio into model context or re-upload it unnecessarily.
 - Do not merge unrelated files. Only merge explicit user-selected parts or files
-  whose original time ranges and common video identity can be verified. Keep all
-  individual results, apply source offsets to SRT, publish a separately labelled merge.
+  whose original time ranges and common video identity can be verified. Apply source
+  offsets to SRT. After the merged TXT/SRT/JSON are verified and published, delete
+  individual result files and keep only the final merge plus small dedup metadata.
+  Never generate or publish ZIP result bundles. Keep parts if merging fails.
 - Keep responses quiet during normal computation. Notify on useful completion,
   failure or required user input. Never claim success without actual completed files.
 

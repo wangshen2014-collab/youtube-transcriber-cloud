@@ -4,14 +4,14 @@
 
 **[打开转录资料库（按节目／视频分类）](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts)**
 
-日常找字幕只需收藏这个入口，无需切换分支或记住任务编号。资料库把合并版、单段、测试样例和批次归档分开，并提供 TXT/SRT/JSON/ZIP 链接。
+日常找字幕只需收藏这个入口，无需切换分支或记住任务编号。资料库把合并版、单段、测试样例和批次归档分开，并提供 TXT/SRT/JSON 链接。
 
 | 位置 | 保存什么 |
 | --- | --- |
 | `main` 分支 | 工具源码、使用说明，不是字幕文件夹 |
 | `transcripts` → `catalog/` | 按节目查找的目录，每次标准发布自动重建 |
 | `transcripts` → `jobs/` | 实际结果；任务编号是稳定存储标识，保留原路径 |
-| `transcripts` → `batches/`、`collections/` | 批次打包及副本，保留历史链接 |
+| `transcripts` → `batches/`、`collections/` | 旧批次记录及合并版副本，不保存 ZIP |
 | `transcripts` → `progress/` | 未完成任务的文字检查点 |
 | [旧版 Actions 归档](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/blob/transcripts/LEGACY.md) | 有到期日的旧下载包；失败包可能仅有诊断信息 |
 | [Releases](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/releases) | 上传的原始音频，和转录文字分别存放 |
@@ -38,18 +38,19 @@ AGENTS.md 会指示代理运行批量脚本；上传本身不会自动触发脚�
 .venv/bin/python batch_transcribe.py '/path/音频.m4a' --start 02:15 --end 08:40
 ```
 
-先验证 GitHub 写入授权，再逐个转录。每个完成后立即保存 TXT/SRT/JSON/ZIP；
+先验证 GitHub 写入授权，再逐个转录。每个完成后立即保存 TXT/SRT/JSON；
 某个失败继续下一个，保存失败重试三次，保留待发布结果，重跑同一命令不会重新计算
 已经完成且保留在当前环境的字幕。已发布的相同音频内容与参数会跨任务去重。
 同一视频不同内容不会因同名而覆盖；分段字幕保留各自名称，不能混当为一整段时间轴。
 本地工具生成的「同一标题 第001段 [00-00-00 至 00-30-00]」这类连续分段，会在全部
-完成后额外生成「已上传分段合并」结果，字幕加回原始时间偏移，单段结果仍保留。
+完成后生成「已上传分段合并」结果，字幕加回原始时间偏移；确认合并版发布成功后删除单段结果，
+仅保留合并版及少量去重信息。合并失败保留分段，可重试而无需重新转录。
 只有编号从001连续、范围衔接且实际时长匹配才合并；不能确认的文件不猜测合并。
 「已上传分段合并」不保证已上传原视频所有分段，不会把不完整上传称为完整视频。
 
 结果目录：[transcripts 分支](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts)。
-这个分支只保存公开字幕、报告、ZIP 以及文字检查点，不存源音频或模型。
-每个结果页面有单文件和 ZIP 链接；手机、电脑均可访问，TXT/SRT 可交给 ChatGPT 分析。
+这个分支只保存公开字幕、JSON 报告以及文字检查点，不生成或保存 ZIP，不存源音频或模型。
+每个结果页面有 TXT/SRT/JSON 单文件链接；手机、电脑均可访问，TXT/SRT 可交给 ChatGPT 分析。
 **此方式默认不自动过期**；不是旧版 Actions 的 60 天 Artifact。
 删除文件不会抹去 Git 历史，请勿用于隐私内容；未来如需自动过期，应采用另外的存储方式。
 

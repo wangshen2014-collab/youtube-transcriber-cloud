@@ -68,7 +68,7 @@ class PublisherTests(unittest.TestCase):
         api = MemoryAPI(); store = ResultStore(api); store.ensure()
         with tempfile.TemporaryDirectory() as folder:
             files = {}
-            for ext in ('txt', 'srt', 'json', 'zip'):
+            for ext in ('txt', 'srt', 'json'):
                 files[ext] = Path(folder) / ('中文.' + ext)
                 files[ext].write_bytes(b'test')
             key = 'a' * 24; config = {'test': True}
@@ -84,7 +84,9 @@ class PublisherTests(unittest.TestCase):
                 if method == 'PATCH':
                     self.assertFalse(body['force'])
             with self.assertRaises(ValueError):
-                store.publish(key, config, 'bad', {'audio': files['zip']})
+                store.publish(key, config, 'bad', {'audio': files['txt']})
+            with self.assertRaises(ValueError):
+                store.publish(key, config, 'bad', {**files, 'zip': files['txt']})
 
     def test_retries_conflict_preserving_existing_files(self):
         api = MemoryAPI(); store = ResultStore(api); store.ensure()
@@ -196,7 +198,7 @@ class BatchTests(unittest.TestCase):
         self.assertIn('--audio-file', command)
         self.assertNotIn('cloud_job.py', ' '.join(command))
 
-    def test_verified_parts_merge_has_source_time_offsets_and_retains_parts(self):
+    def test_verified_parts_merge_retires_parts_and_deduplicates_reruns(self):
         renamed = [self.root / '同一视频 第001段 [00-00-00 至 00-00-01].wav',
                    self.root / '同一视频 第002段 [00-00-01 至 00-00-02].wav']
         for old, new in zip(self.sources, renamed):
@@ -208,10 +210,35 @@ class BatchTests(unittest.TestCase):
         merged = next((self.options.output_dir / 'merged').rglob('*.srt')).read_text(encoding='utf-8')
         self.assertIn('00:00:01,000 --> 00:00:02,000', merged)
         for entry in ledger['jobs']:
-            self.assertIsNotNone(self.store.read(f'jobs/{entry["key"]}/manifest.json'))
+            self.assertIsNone(self.store.read(f'jobs/{entry["key"]}/manifest.json'))
+            self.assertIn(entry["key"], json.loads(self.store.read("retired-parts.json")))
+        self.assertFalse(list(self.options.output_dir.rglob("*.zip")))
+        self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
+        self.assertEqual(len(self.worked), 2)
 
     def test_invalid_srt_is_rejected(self):
         for value in ('1\n00:61:00,000 --> 00:62:00,000\ntext',
                       '1\n00:00:02,000 --> 00:00:01,000\ntext', 'invalid'):
             with self.assertRaises(ValueError):
                 batch.parse_srt(value)
+
+    def test_merge_publish_failure_preserves_parts_then_retry_cleans_without_inference(self):
+        renamed = [self.root / '同一视频 第001段 [00-00-00 至 00-00-01].wav',
+                   self.root / '同一视频 第002段 [00-00-01 至 00-00-02].wav']
+        for old, new in zip(self.sources, renamed):
+            old.rename(new)
+        self.sources = renamed; self.options.files = renamed
+        publish = self.store.publish
+        def fail_merge(key, config, title, files):
+            if config.get('source_type') == 'verified-parts-merge':
+                raise RuntimeError('merge upload failed')
+            return publish(key, config, title, files)
+        with mock.patch.object(self.store, 'publish', side_effect=fail_merge):
+            self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 1)
+        ledger = cli.read_json(self.options.state_dir / 'batch-status.json')
+        for entry in ledger['jobs']:
+            self.assertIsNotNone(self.store.read(f'jobs/{entry["key"]}/manifest.json'))
+        self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
+        self.assertEqual(len(self.worked), 2)
+        for entry in ledger['jobs']:
+            self.assertIsNone(self.store.read(f'jobs/{entry["key"]}/manifest.json'))

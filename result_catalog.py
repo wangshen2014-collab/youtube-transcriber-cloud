@@ -38,14 +38,14 @@ def build_catalog(entries, repo):
         title = PurePosixPath(path).stem
         name = group_title(title)
         kind = '单段' if re.search(r'第\d+段', title) else ('合并版' if '合并' in title else '单项结果')
-        files = {ext: path[:-3] + ext for ext in ('txt', 'srt', 'json', 'zip') if path[:-3] + ext in blobs}
+        files = {ext: path[:-3] + ext for ext in ('txt', 'srt', 'json') if path[:-3] + ext in blobs}
         groups.setdefault(name, []).append(dict(title=title, kind=kind, path=path,
                                                 sha=entry.get('sha'), files=files))
     output, records = {}, []
     home = '# 转录资料库\n\n按节目或视频查找；有合并版时优先阅读合并版。合并版仅覆盖已上传内容，不代表原视频完整。\n\n'
     home += '[工具和使用说明](https://github.com/' + repo + ') · [旧版 Actions 结果](LEGACY.md)\n\n'
-    home += 'TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 是报告，ZIP 是下载包。\n\n'
-    home += '## 存放规则\n\n`catalog/` 是阅读目录；`jobs/` 保存实际结果；`batches/` 和 `collections/` 保存批次副本及打包；`progress/` 是未完成检查点。源音频另在 Releases 或本地，不在本分支。现有文件和链接均保留。\n\n'
+    home += 'TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录配置、语言和时长等报告信息。\n\n'
+    home += '## 存放规则\n\n`catalog/` 是阅读目录；`jobs/` 保存实际结果；`batches/` 和 `collections/` 保存旧批次记录；`progress/` 是未完成检查点。源音频另在 Releases 或本地，不在本分支。核验合并成功后只保留合并结果，分段去重信息保存在 `retired-parts.json`。\n\n'
     for cat in ('科技节目（EP 系列）', '投资、经济与访谈', '教育与访谈', '测试样例'):
         selected = [(n, rows) for n, rows in sorted(groups.items()) if category(n) == cat]
         if not selected:
@@ -69,7 +69,7 @@ def build_catalog(entries, repo):
             output[page] = body.encode()
             records.append(dict(title=name, category=cat, page=page, versions=rows))
         home += '\n'
-    home += '## 批次与打包归档\n\n'
+    home += '## 批次归档\n\n'
     for path in sorted(blobs):
         if path.startswith(('batches/', 'collections/')) and path.endswith('README.md'):
             home += f'- [{path.rsplit("/", 1)[0]}]({quote(path, safe="/")})\n'

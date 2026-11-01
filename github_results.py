@@ -3,7 +3,7 @@ import base64
 import json
 import re
 import time
-from urllib.parse import quote
+from urllib.parse import quote, unquote, urlparse
 from result_catalog import build_catalog
 
 FORMAT = {'format': 'youtube-transcriber-results', 'version': 1}
@@ -43,7 +43,7 @@ class ResultStore:
             self.update({'FORMAT.json': self.encode(FORMAT)}, 'Verify result storage access')
             return
         self.update({'FORMAT.json': self.encode(FORMAT),
-                     'README.md': '# 音频转录结果\n\n计算由 Codex Cloud 执行；这里只保存文字、报告、下载包和续做检查点。\n'
+                     'README.md': '# 音频转录结果\n\n计算由 Codex Cloud 执行；这里只保存文字、报告和续做检查点。\n'
                                   '内容公开，不自动过期。不要向本分支上传源音频。\n'.encode()},
                     'Initialize transcription results')
 
@@ -59,6 +59,11 @@ class ResultStore:
             if head:
                 body['base_tree'] = self.api.call('GET', 'git/commits/' + head)['tree']['sha']
             changes = dict(files)
+            if 'retired-parts.json' in changes:
+                # Rebase dedup additions as well as tree changes on a concurrent commit.
+                retired = json.loads(self.read('retired-parts.json') or '{}')
+                retired.update(json.loads(changes['retired-parts.json']))
+                changes['retired-parts.json'] = self.encode(retired)
             if index_entry:
                 key, title = index_entry
                 snapshot = self.api.call('GET', 'git/trees/' + head + '?recursive=1') if head else {'tree': []}
@@ -100,7 +105,15 @@ class ResultStore:
     def completed(self, key, config):
         raw = self.read(f'jobs/{key}/manifest.json')
         if raw is None:
-            return None
+            retired = json.loads(self.read('retired-parts.json') or '{}').get(key)
+            if retired is None:
+                return None
+            if retired['settings'] != config:
+                raise ValueError('已合并分段配置不匹配')
+            target = json.loads(self.read(f'jobs/{retired["merged_into"]}/manifest.json') or '{}')
+            if target.get('status') != 'completed':
+                raise ValueError('已合并结果缺失，停止去重')
+            return {**target, 'settings': config, 'merged_into': retired['merged_into']}
         record = json.loads(raw)
         if record.get('settings') != config or record.get('status') != 'completed':
             raise ValueError('远程结果标识或配置不匹配，拒绝混用')
@@ -117,8 +130,8 @@ class ResultStore:
         if not re.fullmatch(r'[a-f0-9]{24}', key):
             raise ValueError('无效结果标识')
         # Strict allowlist: no source audio, model, arbitrary local files or credentials.
-        if set(files) != {'txt', 'srt', 'json', 'zip'}:
-            raise ValueError('必须提供 TXT/SRT/JSON/ZIP 四种结果')
+        if set(files) != {'txt', 'srt', 'json'}:
+            raise ValueError('仅允许 TXT/SRT/JSON 三种结果')
         root = f'jobs/{key}'
         urls = {ext: f'https://raw.githubusercontent.com/{self.api.repo}/{BRANCH}/{root}/{quote(path.name)}'
                 for ext, path in files.items()}
@@ -133,3 +146,54 @@ class ResultStore:
         contents[f'progress/{key}.json'] = None
         self.update(contents, f'Save transcript {key}', index_entry=(key, title))
         return record
+
+    def retire_parts(self, merged_key):
+        """Remove individual files only after the verified merge is durably published.
+
+        Keep content/settings identities in one small index for cross-task dedup.
+        A cleanup failure leaves the parts intact and can be retried without inference.
+        """
+        record = json.loads(self.read(f'jobs/{merged_key}/manifest.json') or '{}')
+        config = record.get('settings', {})
+        if record.get('status') != 'completed' or config.get('source_type') != 'verified-parts-merge':
+            raise ValueError('只能清理已发布且核验完成的合并结果')
+        parts = config.get('parts', [])
+        if len(parts) < 2 or merged_key in parts or any(not re.fullmatch(r'[a-f0-9]{24}', p) for p in parts):
+            raise ValueError('合并分段标识无效')
+        def path_for(key, url):
+            path = unquote(urlparse(url).path)
+            prefix = f'/{self.api.repo}/{BRANCH}/jobs/{key}/'
+            if not path.startswith(prefix) or '/' in path[len(prefix):] or path[len(prefix):] in ('', '.', '..'):
+                raise ValueError('远程结果路径无效')
+            return f'jobs/{key}/' + path[len(prefix):]
+        for ext in ('txt', 'srt', 'json'):
+            data = self.read(path_for(merged_key, record['files'][ext]))
+            if not data:
+                raise ValueError('合并结果缺少实际文件，保留分段')
+            if ext == 'json' and (report := json.loads(data)).get('settings') != config:
+                raise ValueError('合并报告配置不匹配，保留分段')
+        if report.get('status') != 'completed':
+            raise ValueError('合并报告未完成，保留分段')
+        retired = json.loads(self.read('retired-parts.json') or '{}')
+        changes = {}
+        for key in parts:
+            raw = self.read(f'jobs/{key}/manifest.json')
+            if raw is None:
+                if retired.get(key, {}).get('merged_into') != merged_key:
+                    raise ValueError('分段记录缺失，停止清理')
+                continue
+            part = json.loads(raw)
+            if part.get('status') != 'completed':
+                raise ValueError('分段记录未完成，停止清理')
+            retired[key] = {'settings': part['settings'], 'merged_into': merged_key}
+            for ext, url in part['files'].items():
+                if ext not in ('txt', 'srt', 'json', 'zip'):
+                    raise ValueError('未知结果类型，停止清理')
+                changes[path_for(key, url)] = None
+            for name in ('manifest.json', 'README.md'):
+                changes[f'jobs/{key}/{name}'] = None
+            changes[f'progress/{key}.json'] = None
+        if changes:
+            changes['retired-parts.json'] = self.encode(retired)
+            self.update(changes, f'Keep merged result {merged_key}',
+                        index_entry=(merged_key, record['title']))

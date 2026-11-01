@@ -10,7 +10,6 @@ import signal
 import subprocess
 import sys
 import time
-import zipfile
 from urllib.parse import unquote, urlparse
 
 from cloud_job import GitHub, REPO, auth_token
@@ -149,10 +148,6 @@ def prepare_results(args, config, source):
     report['storage_backend'] = 'github-git'
     files['json'] = ready / (base + '.json')
     cli.atomic_json(files['json'], report)
-    files['zip'] = ready / (base + '.zip')
-    with zipfile.ZipFile(files['zip'], 'w', zipfile.ZIP_DEFLATED) as archive:
-        for ext in ('txt', 'srt', 'json'):
-            archive.write(files[ext], files[ext].name)
     return files
 
 
@@ -203,16 +198,21 @@ def merge_named_parts(options, ledger, store):
                 any(p[2] <= p[1] for p in parts) or
                 any(a[2] != b[1] for a, b in zip(parts, parts[1:]))):
             continue
+        targets = {p[3].get('merged_into') for p in parts}
+        if len(targets) == 1 and None not in targets:
+            ledger['merges'].append({'title': title, 'status': 'already_saved', 'url': parts[0][3]['url']})
+            continue
         result = {'title': title, 'status': 'merging'}
         ledger['merges'].append(result)
         try:
-            records = [json.loads(store.read(f'jobs/{p[3]["key"]}/manifest.json')) for p in parts]
             config = {'source_type': 'verified-parts-merge', 'parts': [p[3]['key'] for p in parts]}
             key = cli.task_key(config)
             existing = store.completed(key, config)
             if existing:
+                store.retire_parts(key)
                 result.update(status='already_saved', url=existing['result_url'])
                 continue
+            records = [json.loads(store.read(f'jobs/{p[3]["key"]}/manifest.json')) for p in parts]
             texts, merged = [], []
             for part, record in zip(parts, records):
                 def read_result(ext):
@@ -236,19 +236,19 @@ def merge_named_parts(options, ledger, store):
                         merged.append({**segment, 'start': start, 'end': end})
             label = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title)[:100] + ' [已上传分段合并]'
             folder = options.output_dir / 'merged' / key; folder.mkdir(parents=True, exist_ok=True)
-            files = {ext: folder / (label + '.' + ext) for ext in ('txt', 'srt', 'json', 'zip')}
+            files = {ext: folder / (label + '.' + ext) for ext in ('txt', 'srt', 'json')}
             files['txt'].write_text('\n\n'.join(texts) + '\n', encoding='utf-8')
             files['srt'].write_text(''.join(f'{i}\n{cli.srt_time(s["start"])} --> {cli.srt_time(s["end"])}\n{s["text"]}\n\n'
                                            for i, s in enumerate(merged, 1)), encoding='utf-8')
             parse_srt(files['srt'].read_text(encoding='utf-8'))
             cli.atomic_json(files['json'], {'status': 'completed', 'settings': config,
                 'selected_start': parts[0][1], 'selected_end': parts[-1][2],
-                'segment_count': len(merged), 'parts': records,
+                'segment_count': len(merged),
+                'parts': [{k: v for k, v in record.items() if k not in ('files', 'result_url')}
+                          for record in records],
                 'note': '仅合并本批已上传且时间连续的分段，不保证包含原视频全部内容。'})
-            with zipfile.ZipFile(files['zip'], 'w', zipfile.ZIP_DEFLATED) as archive:
-                for ext in ('txt', 'srt', 'json'):
-                    archive.write(files[ext], files[ext].name)
             saved = store.publish(key, config, label, files)
+            store.retire_parts(key)
             result.update(status='completed', url=saved['result_url'])
             print('分段已合并并保存：' + saved['result_url'], flush=True)
         except Exception as exc:
@@ -279,6 +279,8 @@ def run_batch(options, store, worker=run_worker):
             previous = store.completed(key, config)
             if previous:
                 entry.update(status='already_saved', url=previous['result_url'])
+                if previous.get('merged_into'):
+                    entry['merged_into'] = previous['merged_into']
                 print(f'[{position}/{len(sources)}] 已保存，跳过：{source.name}', flush=True)
                 continue
             files = prepare_results(args, config, source)
