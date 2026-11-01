@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "8efa2633f296adc4883eaf123d0b0d6dda5f04a1436cbfe0546b5f45d8633d20",
+    "source_id": "audio-8efa2633f296adc4883eaf12"
+  },
+  "segments": [],
+  "resume_from": 0.0,
+  "run_id": "20261101-164059-cf4ce779",
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch/39657f3f4dc8af34e0523897/20261101-164059-cf4ce779"
+}
