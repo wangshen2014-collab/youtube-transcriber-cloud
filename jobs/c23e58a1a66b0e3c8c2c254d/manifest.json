@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 6,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "dfac806255e6b0d3dcdb3e82bd15b2581a5e24bac74fd6d11a5cd187baebac9b",
+    "source_id": "audio-dfac806255e6b0d3dcdb3e82"
+  },
+  "title": "美股 天塌了？应该买还是卖？11月三大风险事件！.webm（large-v3 原始转录）",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.json",
+    "zip": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c23e58a1a66b0e3c8c2c254d/%E7%BE%8E%E8%82%A1%20%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%9F%E5%BA%94%E8%AF%A5%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96%EF%BC%9F11%E6%9C%88%E4%B8%89%E5%A4%A7%E9%A3%8E%E9%99%A9%E4%BA%8B%E4%BB%B6%EF%BC%81.zip"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c23e58a1a66b0e3c8c2c254d",
+  "saved_at": 1793500040.5111344
+}
