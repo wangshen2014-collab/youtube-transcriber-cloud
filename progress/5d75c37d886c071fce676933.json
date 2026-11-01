@@ -1,0 +1,763 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "da65944f689a8b259fb59a8568a6f1dd5a0690318940ec07fd12de475b7ee8bf",
+    "source_id": "audio-da65944f689a8b259fb59a85"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.8,
+      "text": "about a week later when I realized that I was broke I would sell both and I look"
+    },
+    {
+      "start": 4.8,
+      "end": 9.1,
+      "text": "at that behavior as such absolute like it's objectively like crazy behavior"
+    },
+    {
+      "start": 9.1,
+      "end": 16.16,
+      "text": "but it shows the extent to which I got a dopamine hit from having a nice thing"
+    },
+    {
+      "start": 16.16,
+      "end": 20.0,
+      "text": "and I was trapped in that cycle of like buy the nice thing dopamine hit"
+    },
+    {
+      "start": 20.0,
+      "end": 23.72,
+      "text": "feel validated feel like I'm a successful person and then have to sell"
+    },
+    {
+      "start": 23.72,
+      "end": 27.16,
+      "text": "it a week later yeah so I really have a huge amount of empathy for people"
+    },
+    {
+      "start": 27.16,
+      "end": 33.04,
+      "text": "that are stuck in this spending for self-esteem cycle and they hear these you"
+    },
+    {
+      "start": 33.04,
+      "end": 37.72,
+      "text": "know they hear people like me and you talk about these things now and it feels"
+    },
+    {
+      "start": 37.72,
+      "end": 45.56,
+      "text": "easier said than done that to me seems kind of insane and and you know one of"
+    },
+    {
+      "start": 45.56,
+      "end": 49.8,
+      "text": "the things that somebody pointed out one time is if you're driving around"
+    },
+    {
+      "start": 49.8,
+      "end": 54.44,
+      "text": "in a Ferrari you know maybe you're thinking to yourself if you're bought"
+    },
+    {
+      "start": 54.44,
+      "end": 58.64,
+      "text": "the Ferrari because you want to impress people everybody's looking at me and"
+    },
+    {
+      "start": 58.64,
+      "end": 61.519999999999996,
+      "text": "they're thinking a while what a cool guy that is driving driving that"
+    },
+    {
+      "start": 61.519999999999996,
+      "end": 66.2,
+      "text": "Ferrari no that's not what they're thinking they're looking at you in"
+    },
+    {
+      "start": 66.2,
+      "end": 69.64,
+      "text": "that Ferrari and what they're thinking is wow I would look cool if I"
+    },
+    {
+      "start": 69.64,
+      "end": 73.47999999999999,
+      "text": "was driving that Ferrari they're not thinking about you at all it doesn't"
+    },
+    {
+      "start": 73.47999999999999,
+      "end": 78.84,
+      "text": "it you're making no impact on on what their opinion of you is so on"
+    },
+    {
+      "start": 78.84,
+      "end": 82.2,
+      "text": "this point of debt I did have some people contact me that were childhood"
+    },
+    {
+      "start": 82.2,
+      "end": 85.68,
+      "text": "friends of mine recently and asked and asked me for advice on getting out of"
+    },
+    {
+      "start": 85.68,
+      "end": 90.28,
+      "text": "debt and one particular friend said that he had forty thousand dollars"
+    },
+    {
+      "start": 90.28,
+      "end": 95.76,
+      "text": "worth of debt and asked me for advice on it and I really I'm not an expert"
+    },
+    {
+      "start": 95.76,
+      "end": 99.32000000000001,
+      "text": "in this so I kind of hesitated to give any advice but the advice I'm"
+    },
+    {
+      "start": 99.32000000000001,
+      "end": 102.24000000000001,
+      "text": "hearing from you is essentially you have to make a concession you have to"
+    },
+    {
+      "start": 102.24000000000001,
+      "end": 106.32000000000001,
+      "text": "pull back your spending and get things back under control you have to"
+    },
+    {
+      "start": 106.32000000000001,
+      "end": 110.16,
+      "text": "only sell your house so here's some good news so you're okay to your"
+    },
+    {
+      "start": 110.16,
+      "end": 115.2,
+      "text": "friend he's got forty thousand dollars in debt right my advice would be and"
+    },
+    {
+      "start": 115.2,
+      "end": 119.2,
+      "text": "this is a little different than the more common advice out there but I would"
+    },
+    {
+      "start": 119.2,
+      "end": 122.67999999999999,
+      "text": "look at all my debts and I would pick the one that was charging me the"
+    },
+    {
+      "start": 122.67999999999999,
+      "end": 126.88,
+      "text": "highest interest rate and I would I'd pay the minimums on all the others and"
+    },
+    {
+      "start": 126.88,
+      "end": 130.8,
+      "text": "I would focus on paying that one down as fast as I could because that's"
+    },
+    {
+      "start": 130.8,
+      "end": 134.84,
+      "text": "the biggest return on my investment and when that one was going I'd go"
+    },
+    {
+      "start": 134.84,
+      "end": 140.92000000000002,
+      "text": "to the second until I work my way through it's gonna be hard and the more"
+    },
+    {
+      "start": 140.92000000000002,
+      "end": 144.92000000000002,
+      "text": "quickly you do it the harder it's gonna be because you're gonna have to make"
+    },
+    {
+      "start": 144.92000000000002,
+      "end": 149.4,
+      "text": "more dramatic adjustments to your life that's bad news here's the good news"
+    },
+    {
+      "start": 149.4,
+      "end": 154.0,
+      "text": "is once you are out of debt if you do this you've developed a wonderful"
+    },
+    {
+      "start": 154.0,
+      "end": 158.56,
+      "text": "discipline of living on less than you earn and diverting the excess to"
+    },
+    {
+      "start": 158.56,
+      "end": 162.16,
+      "text": "something else that you want more in this case to something else you want"
+    },
+    {
+      "start": 162.16,
+      "end": 167.06,
+      "text": "more is being out of debt if you continue with that discipline you now"
+    },
+    {
+      "start": 167.06,
+      "end": 171.16,
+      "text": "have the cash flow to begin building those assets and becoming wealthy you've"
+    },
+    {
+      "start": 171.16,
+      "end": 175.8,
+      "text": "already developed that lifestyle in that discipline so that's the one ray"
+    },
+    {
+      "start": 175.8,
+      "end": 180.88,
+      "text": "of sunshine if you will and in the process of getting out of debt okay to"
+    },
+    {
+      "start": 180.88,
+      "end": 184.56,
+      "text": "play devil's advocate with me then on this one sure so when I was 18 19"
+    },
+    {
+      "start": 184.56,
+      "end": 187.22,
+      "text": "years old my strategy I was well aware that I fucked up my financial"
+    },
+    {
+      "start": 187.22,
+      "end": 190.84,
+      "text": "situation like I was painting clear that I figured out what a credit"
+    },
+    {
+      "start": 190.84,
+      "end": 195.36,
+      "text": "score was and I realized that I destroyed mine I also had these letters"
+    },
+    {
+      "start": 196.88,
+      "end": 204.64000000000001,
+      "text": "and and I had I had mounting issues I was avoiding finances bills envelopes you"
+    },
+    {
+      "start": 204.64000000000001,
+      "end": 208.8,
+      "text": "name it I just thought if I don't look at it it doesn't exist which I"
+    },
+    {
+      "start": 208.8,
+      "end": 212.56,
+      "text": "know a lot of people do because I was writing a previous book that I wrote I"
+    },
+    {
+      "start": 212.56,
+      "end": 217.2,
+      "text": "looked into some of the stats about humans ability to avoid whether it's"
+    },
+    {
+      "start": 217.20000000000002,
+      "end": 221.00000000000003,
+      "text": "health situations if a friend of yours gets a bad diagnosis that I was reading"
+    },
+    {
+      "start": 221.00000000000003,
+      "end": 225.06000000000003,
+      "text": "a study that said some people are more likely to not go get checked even if"
+    },
+    {
+      "start": 225.06000000000003,
+      "end": 228.00000000000003,
+      "text": "their friends had it because they just want to avoid it right and then with"
+    },
+    {
+      "start": 228.00000000000003,
+      "end": 231.12,
+      "text": "national finances I was reading a study that said we're incurring billions"
+    },
+    {
+      "start": 231.12,
+      "end": 233.96,
+      "text": "and billions and billions and billions of debt as a society just"
+    },
+    {
+      "start": 233.96,
+      "end": 237.04000000000002,
+      "text": "because we don't look at our bank balance we don't have open envelopes"
+    },
+    {
+      "start": 237.04000000000002,
+      "end": 243.04000000000002,
+      "text": "so I know I'm not the only one yeah not at all my strategy was my"
+    },
+    {
+      "start": 243.51999999999998,
+      "end": 248.44,
+      "text": "this is such a dumb I'm not sure I want to hear yeah go ahead honestly I know"
+    },
+    {
+      "start": 248.44,
+      "end": 252.04,
+      "text": "this sounds like crazy talk but it's just the truth in my head my strategy"
+    },
+    {
+      "start": 252.04,
+      "end": 256.48,
+      "text": "was I'm gonna get so rich that I outpace this debt and then I'll deal"
+    },
+    {
+      "start": 256.48,
+      "end": 259.36,
+      "text": "with it later all right my strategy was if I can just get really rich"
+    },
+    {
+      "start": 259.36,
+      "end": 264.59999999999997,
+      "text": "which is kind of the inverse of what you're rising right then this that"
+    },
+    {
+      "start": 264.59999999999997,
+      "end": 269.84,
+      "text": "won't be a problem at 18 or 19 years old you don't know the world you"
+    },
+    {
+      "start": 269.84000000000003,
+      "end": 273.94000000000005,
+      "text": "are guessing right and I was guessing that I could earn my way out of it the"
+    },
+    {
+      "start": 273.94000000000005,
+      "end": 277.92,
+      "text": "probability says I was wrong the probability says that I was like"
+    },
+    {
+      "start": 277.92,
+      "end": 281.84000000000003,
+      "text": "delusional or some more just like I watched too many rap videos or"
+    },
+    {
+      "start": 281.84000000000003,
+      "end": 287.76000000000005,
+      "text": "something right right so objectively that is a reckless choice even if even"
+    },
+    {
+      "start": 287.76000000000005,
+      "end": 290.6,
+      "text": "if it's true and it ends up being true for you you end up being what"
+    },
+    {
+      "start": 290.6,
+      "end": 295.40000000000003,
+      "text": "it's still a bad choice because probability is stacked against you well"
+    },
+    {
+      "start": 295.44000000000005,
+      "end": 300.40000000000003,
+      "text": "that's true and but you just made a critical point in that you can make a"
+    },
+    {
+      "start": 300.40000000000003,
+      "end": 304.68,
+      "text": "bad choice where things work out well for you yeah exactly it's a bad"
+    },
+    {
+      "start": 304.68,
+      "end": 309.88000000000005,
+      "text": "choice so a great example of that is investing in Bitcoin right I'm not I'm"
+    },
+    {
+      "start": 309.88000000000005,
+      "end": 315.28000000000003,
+      "text": "not a proponent of investing in Bitcoin certainly for those people who"
+    },
+    {
+      "start": 315.28000000000003,
+      "end": 320.48,
+      "text": "bought Bitcoin 10 15 years ago they've done extraordinarily well they"
+    },
+    {
+      "start": 320.48,
+      "end": 325.32,
+      "text": "got lucky lots of speculations don't work out that well so if you are"
+    },
+    {
+      "start": 325.32,
+      "end": 331.72,
+      "text": "speculating then you it might work out extraordinarily well for you but it's"
+    },
+    {
+      "start": 331.72,
+      "end": 337.28000000000003,
+      "text": "you're taking some pretty heavy risks in doing that and it's same thing"
+    },
+    {
+      "start": 337.28000000000003,
+      "end": 340.48,
+      "text": "with a lottery ticket I mean the chances of winning the lottery are"
+    },
+    {
+      "start": 340.48,
+      "end": 343.64000000000004,
+      "text": "infinitesimally small but people buy lots and lots lottery tickets"
+    },
+    {
+      "start": 343.64000000000004,
+      "end": 349.0,
+      "text": "somebody somebody does win it but that's probably not a good way to"
+    },
+    {
+      "start": 349.12,
+      "end": 355.76,
+      "text": "spend your money Bitcoin mm-hmm you're not a fan of Bitcoin no and I'm not I'm"
+    },
+    {
+      "start": 355.76,
+      "end": 361.96,
+      "text": "not opposed to Bitcoin existing in the world but for me it's a speculation"
+    },
+    {
+      "start": 361.96,
+      "end": 366.06,
+      "text": "and I'm not a speculator when you say spec give me some color because I'm"
+    },
+    {
+      "start": 366.06,
+      "end": 369.48,
+      "text": "sure there's some people who are listening now that are either thinking"
+    },
+    {
+      "start": 369.48,
+      "end": 372.36,
+      "text": "about Bitcoin or have invested in Bitcoin I mean if you want to"
+    },
+    {
+      "start": 372.36,
+      "end": 378.28,
+      "text": "speculate that Bitcoin so I would recommend against it so people and they"
+    },
+    {
+      "start": 378.28000000000003,
+      "end": 383.00000000000006,
+      "text": "might push back and say well but JL you know you were recommending against"
+    },
+    {
+      "start": 383.00000000000006,
+      "end": 388.32000000000005,
+      "text": "against it 10 years ago which I was and you've been wrong I mean absolutely"
+    },
+    {
+      "start": 388.32000000000005,
+      "end": 392.48,
+      "text": "wrong it's been great 10 years it's blow it's done far better than the"
+    },
+    {
+      "start": 392.48,
+      "end": 398.96000000000004,
+      "text": "S&P 500 well that's true if you'd had a crystal ball if I'd known that"
+    },
+    {
+      "start": 398.96000000000004,
+      "end": 402.64000000000004,
+      "text": "10 years ago yeah well I would have been in Bitcoin right we don't have"
+    },
+    {
+      "start": 402.64000000000004,
+      "end": 407.72,
+      "text": "crystal balls so the question isn't how is Bitcoin done in the last 10"
+    },
+    {
+      "start": 407.72,
+      "end": 411.48,
+      "text": "years it's how I was gonna do in the next 10 years I don't know the answer to"
+    },
+    {
+      "start": 411.48,
+      "end": 417.56,
+      "text": "that but that's the question is it worth $100,000 a coin now is it gonna"
+    },
+    {
+      "start": 417.56,
+      "end": 423.52000000000004,
+      "text": "continue to grow at that pace that you regret that you missed over the"
+    },
+    {
+      "start": 423.52000000000004,
+      "end": 428.24,
+      "text": "last 10 years that's the question you have to ask yourself but I could"
+    },
+    {
+      "start": 428.24,
+      "end": 434.92,
+      "text": "say it's success is evidence that it's serving some kind of utility for"
+    },
+    {
+      "start": 434.92,
+      "end": 440.44,
+      "text": "some people somewhere its success means that there is demand for it by very"
+    },
+    {
+      "start": 440.44,
+      "end": 444.84000000000003,
+      "text": "nature that the price has increased so crazy over the last 15 years yeah"
+    },
+    {
+      "start": 444.84000000000003,
+      "end": 448.08000000000004,
+      "text": "that and that's an argument that people make and there's a lot of debate"
+    },
+    {
+      "start": 448.08000000000004,
+      "end": 455.04,
+      "text": "around that right is you know what is the function that it has or that it's"
+    },
+    {
+      "start": 455.04,
+      "end": 459.28000000000003,
+      "text": "going to develop and you might well be right I don't I don't know the"
+    },
+    {
+      "start": 459.28000000000003,
+      "end": 463.64,
+      "text": "answer to that question it's not currently at least a currency"
+    },
+    {
+      "start": 463.64,
+      "end": 467.24,
+      "text": "because it's way too volatile to serve as currency unless you're doing illegal"
+    },
+    {
+      "start": 467.24,
+      "end": 472.03999999999996,
+      "text": "things that make it more attractive than the volatility makes it"
+    },
+    {
+      "start": 472.03999999999996,
+      "end": 476.96,
+      "text": "unattractive so that's not necessarily good for society but but so it can't"
+    },
+    {
+      "start": 476.96,
+      "end": 482.59999999999997,
+      "text": "function as a currency so right now it's just a speculation is it gonna"
+    },
+    {
+      "start": 482.59999999999997,
+      "end": 488.36,
+      "text": "grow into something that's more functional well they're listening to"
+    },
+    {
+      "start": 488.36,
+      "end": 494.8,
+      "text": "one of the other interviews you you you did that woman absolutely believes"
+    },
+    {
+      "start": 494.8,
+      "end": 498.8,
+      "text": "that that's what's happening and they Kathy Woods that's why she's in"
+    },
+    {
+      "start": 498.8,
+      "end": 505.68,
+      "text": "Bitcoin and she may be right but she's speculating and again I have"
+    },
+    {
+      "start": 505.68,
+      "end": 508.96000000000004,
+      "text": "nothing against speculating as long as you understand as I'm sure she does"
+    },
+    {
+      "start": 508.96000000000004,
+      "end": 513.9200000000001,
+      "text": "that that's what you're doing you'd prefer investing I prefer to have an"
+    },
+    {
+      "start": 513.92,
+      "end": 518.5999999999999,
+      "text": "engine creating wealth behind where I put my money I had a text message from a"
+    },
+    {
+      "start": 518.5999999999999,
+      "end": 520.9599999999999,
+      "text": "really good friend of mine who my audience will know because they've been"
+    },
+    {
+      "start": 520.9599999999999,
+      "end": 524.56,
+      "text": "on the show before as a guest and they're very well known in the UK and"
+    },
+    {
+      "start": 524.56,
+      "end": 528.3199999999999,
+      "text": "they text me and said please can I ask you a question if you had"
+    },
+    {
+      "start": 528.3199999999999,
+      "end": 534.12,
+      "text": "mortgages and you had a lump sum of money thinking about the future of AI"
+    },
+    {
+      "start": 534.12,
+      "end": 539.24,
+      "text": "potential market crashes would you pay off chunks of the mortgage or would"
+    },
+    {
+      "start": 539.24,
+      "end": 544.44,
+      "text": "you invest my feeling is that stocks aren't really safe am I being paranoid"
+    },
+    {
+      "start": 544.44,
+      "end": 549.08,
+      "text": "well that's there a couple of questions embedded in that so the first question"
+    },
+    {
+      "start": 549.08,
+      "end": 554.92,
+      "text": "is would I pay off a mortgage and the second question is are stocks safe"
+    },
+    {
+      "start": 554.92,
+      "end": 560.36,
+      "text": "right so the mortgage one first to me is is pretty easy it kind of depends"
+    },
+    {
+      "start": 560.36,
+      "end": 564.28,
+      "text": "on your interest rate what is an interest rate so an interest rate is"
+    },
+    {
+      "start": 564.28,
+      "end": 568.48,
+      "text": "what you pay to borrow money so when you when you get a mortgage you're"
+    },
+    {
+      "start": 568.52,
+      "end": 571.96,
+      "text": "borrowing money right you're borrowing it from a bank or a financial"
+    },
+    {
+      "start": 571.96,
+      "end": 577.08,
+      "text": "institution and they they want to be paid for letting you use their money"
+    },
+    {
+      "start": 577.08,
+      "end": 584.24,
+      "text": "and three three and a half percent or less that's really cheap money I would"
+    },
+    {
+      "start": 584.24,
+      "end": 589.28,
+      "text": "hold on to that I would be in no hurry to pay that off on the other"
+    },
+    {
+      "start": 589.28,
+      "end": 594.84,
+      "text": "side if you have a mortgage rate that's a six percent or higher well"
+    },
+    {
+      "start": 594.88,
+      "end": 598.2800000000001,
+      "text": "when you pay off that mortgage essentially you're locking in a"
+    },
+    {
+      "start": 598.2800000000001,
+      "end": 603.9200000000001,
+      "text": "guaranteed return of that interest rate right so if you pay off an eight"
+    },
+    {
+      "start": 603.9200000000001,
+      "end": 608.2,
+      "text": "percent mortgage you've locked in an eight percent return on that money"
+    },
+    {
+      "start": 608.2,
+      "end": 611.6,
+      "text": "effectively and then to finish the thought is if your interest rates"
+    },
+    {
+      "start": 611.6,
+      "end": 616.64,
+      "text": "between those those two like three and a half percent five and a half six"
+    },
+    {
+      "start": 616.64,
+      "end": 619.72,
+      "text": "percent then I would say it would depend would you pay it off or not"
+    },
+    {
+      "start": 619.72,
+      "end": 624.72,
+      "text": "is what makes you emotionally more comfortable and there's value in being"
+    },
+    {
+      "start": 624.72,
+      "end": 628.44,
+      "text": "emotionally comfortable so if you are comfortable carrying the debt you might"
+    },
+    {
+      "start": 628.44,
+      "end": 631.5600000000001,
+      "text": "say well I think I can do better in the stock market so I'm gonna carry it"
+    },
+    {
+      "start": 631.5600000000001,
+      "end": 636.1600000000001,
+      "text": "if emotionally like me you just wouldn't rather not have any debt at"
+    },
+    {
+      "start": 636.1600000000001,
+      "end": 640.6800000000001,
+      "text": "all then you then you blow it off we could use the coins as a example of"
+    },
+    {
+      "start": 640.6800000000001,
+      "end": 644.84,
+      "text": "what an interest rate is sure let's say I'm sitting on this pile of gold"
+    },
+    {
+      "start": 644.84,
+      "end": 650.8000000000001,
+      "text": "and you want to borrow some of my gold I'm happy to loan you Stephen"
+    },
+    {
+      "start": 650.8000000000001,
+      "end": 655.48,
+      "text": "these ten very valuable old pieces but I don't like you well enough to just"
+    },
+    {
+      "start": 655.48,
+      "end": 660.84,
+      "text": "let you borrow them for free I want to be paid I want to get a reward back"
+    },
+    {
+      "start": 660.84,
+      "end": 665.6800000000001,
+      "text": "for that so when you return these gold pieces to me in a year you're"
+    },
+    {
+      "start": 665.6800000000001,
+      "end": 670.1200000000001,
+      "text": "gonna return 11 gold pieces to me you're gonna pay me 10% because an"
+    },
+    {
+      "start": 670.1200000000001,
+      "end": 675.84,
+      "text": "extra gold piece is 10% of these 10 right make sense yeah that's what"
+    },
+    {
+      "start": 675.84,
+      "end": 679.48,
+      "text": "interest is so I if I say okay well I'm gonna buy a house right you're"
+    }
+  ],
+  "resume_from": 679.48,
+  "run_id": "20261101-020941-2efc13ec",
+  "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/5d75c37d886c071fce676933/20261101-020941-2efc13ec",
+  "detected_language": "en"
+}
