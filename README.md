@@ -65,3 +65,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 是报告，ZI
 - [batches/20261101-fupeng-24ba91301e](batches/20261101-fupeng-24ba91301e/README.md)
 - [batches/20261101-passive-income-54a82e726b](batches/20261101-passive-income-54a82e726b/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
+- [AI泡沫破灭？中国股市为何跌的这么惨？.webm](jobs/39657f3f4dc8af34e0523897/README.md) <!-- job:39657f3f4dc8af34e0523897 -->

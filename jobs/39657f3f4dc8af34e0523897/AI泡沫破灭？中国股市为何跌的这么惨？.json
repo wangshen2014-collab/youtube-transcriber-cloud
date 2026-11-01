@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "8efa2633f296adc4883eaf123d0b0d6dda5f04a1436cbfe0546b5f45d8633d20",
+    "source_id": "audio-8efa2633f296adc4883eaf12"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": true,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch/39657f3f4dc8af34e0523897/20261101-164059-cf4ce779",
+  "timings_seconds": {
+    "local_source_selection": 5.846800002018426e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.394211075000044,
+    "model_load": 3.5865320319999796,
+    "transcription": 688.3857357500001,
+    "total_this_invocation": 694.645516965
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/f5c31104-bfbd-4335-af28-84e1acd04e7f/AI泡沫破灭？中国股市为何跌的这么惨？.webm",
+    "sha256": "8efa2633f296adc4883eaf123d0b0d6dda5f04a1436cbfe0546b5f45d8633d20",
+    "original_name": "AI泡沫破灭？中国股市为何跌的这么惨？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "AI泡沫破灭？中国股市为何跌的这么惨？.webm",
+  "audio_duration_seconds": 1125.169375,
+  "selected_start": 0.0,
+  "selected_end": 1125.169375,
+  "language_probability": 0.9996204376220703,
+  "segment_count": 494,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1121.8,
+  "peak_ram_mb": 2001.2,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
