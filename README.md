@@ -65,3 +65,4 @@
 - [对话孙宇晨：年轻人如何抓住AI时代的机会？ _已上传分段合并_](jobs/aceaae67cfb627fc44a4251e/README.md) <!-- job:aceaae67cfb627fc44a4251e -->
 - [美股 MSFT AI货币化成功上岸！GOOG鼻青脸肿，等一个季度！对半导体影响！.webm（large-v3 高精度校对）](jobs/9aeb01aaeddcd5892e2add44/README.md) <!-- job:9aeb01aaeddcd5892e2add44 -->
 - [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了.webm](jobs/24ba91301e2986b569dfa9bd/README.md) <!-- job:24ba91301e2986b569dfa9bd -->
+- [美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm（large-v3 原始转录）](jobs/5bd071f2feeecc0e9b56664f/README.md) <!-- job:5bd071f2feeecc0e9b56664f -->
