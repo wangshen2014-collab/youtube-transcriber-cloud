@@ -5,8 +5,26 @@ source lives in desktop/. Do not modify the user's installed Windows app during 
 
 Read `docs/使用与交接说明.md` for the Chinese user guide, component map, retention rules,
 and handoff checklist. Keep it in sync when changing product behavior; distinguish
-implemented functionality from proposals. Default workflow: local audio download →
-Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysis.
+implemented functionality from proposals. Default workflow: YouTube link (best effort)
+or uploaded audio → Codex Cloud inference → GitHub transcripts branch → ChatGPT analysis.
+
+## YouTube link input (free cloud route)
+
+- When given a YouTube link to transcribe, run INSIDE Codex Cloud:
+  `.venv/bin/python batch_transcribe.py --url "URL"`.
+  For "高精度" add `--quality high` (large-v3, beam 5); default standard is medium,
+  beam 3. Keep CPU int8, six threads, VAD false and previous-text conditioning true.
+- Use one URL per invocation, serially for several videos. Full audio and automatic
+  language unless requested otherwise. Require Node >=22 or Deno >=2.3 and
+  `yt-dlp[default]` for JavaScript challenges. Never use Windows for cloud inference.
+- This route downloads directly in the current cloud task, then uses the existing
+  batch publisher. It does NOT dispatch Actions or require a paid transcription API.
+  Verify GitHub storage access before downloading. Return actual results links only.
+- Cloud access can still fail with 403, login/bot challenges or network restrictions.
+  Report download failure, do not claim transcription succeeded, and do not silently
+  substitute existing YouTube captions for fresh audio recognition. No cookie upload.
+- These rules supersede the legacy Actions URL instruction unless the user explicitly
+  asks to run GitHub Actions. If missing cloud network/runtime access, report the gap.
 
 ## Everyday workflow (default): Codex computes, GitHub stores results
 

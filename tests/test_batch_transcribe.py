@@ -134,6 +134,40 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
         self.assertEqual(len(self.worked), 2)
 
+    def test_link_download_then_publish_with_source_and_quality(self):
+        self.options.url = 'https://youtu.be/abcdefghijk?t=30'
+        self.options.quality = 'high'
+        with mock.patch.object(cli, 'cached_audio', return_value=(self.sources[0], {}, False)) as download:
+            self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
+        self.assertEqual(download.call_args.args[0], 'https://www.youtube.com/watch?v=abcdefghijk')
+        args = batch.job_args(self.options, self.sources[0])
+        self.assertEqual((args.model, args.beam_size), ('large-v3', 5))
+        config = cli.settings(args)
+        key = cli.task_key(config)
+        record = self.store.completed(key, config)
+        name = unquote(record['files']['json'].rsplit('/', 1)[-1])
+        report = json.loads(self.store.read(f'jobs/{key}/{name}'))
+        self.assertEqual(report['source']['youtube_url'], self.options.url)
+        self.options.quality = 'standard'
+        self.assertNotEqual(cli.task_key(cli.settings(batch.job_args(self.options, self.sources[0]))), key)
+
+    def test_download_failure_never_transcribes_or_publishes(self):
+        self.options.url = 'https://youtu.be/abcdefghijk'
+        with mock.patch.object(cli, 'cached_audio', side_effect=RuntimeError('HTTP 403')):
+            with self.assertRaisesRegex(RuntimeError, '403'):
+                batch.run_batch(self.options, self.store, self.worker)
+        self.assertEqual(self.worked, [])
+        self.assertNotIn('jobs/', self.store.read('README.md').decode())
+        self.assertEqual(cli.read_json(self.options.state_dir / 'download-status.json')['status'], 'download_failed')
+
+    def test_auth_failure_precedes_link_download(self):
+        self.options.url = 'https://youtu.be/abcdefghijk'
+        with mock.patch.object(self.store, 'ensure', side_effect=RuntimeError('unauthorized')):
+            with mock.patch.object(cli, 'cached_audio') as download:
+                with self.assertRaisesRegex(RuntimeError, 'unauthorized'):
+                    batch.run_batch(self.options, self.store, self.worker)
+                download.assert_not_called()
+
     def test_publish_failure_retry_does_not_repeat_inference(self):
         self.options.files = self.sources[:1]
         with mock.patch.object(self.store, 'publish', side_effect=RuntimeError('offline')), \
