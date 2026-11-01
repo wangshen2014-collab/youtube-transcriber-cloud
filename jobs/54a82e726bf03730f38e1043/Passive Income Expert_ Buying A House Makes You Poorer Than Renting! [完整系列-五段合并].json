@@ -1,0 +1,352 @@
+{
+  "status": "completed",
+  "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting!",
+  "settings": {
+    "source_type": "verified-parts-merge-actual-end",
+    "parts": [
+      "82cd09fb5a676db6c60b1215",
+      "5d75c37d886c071fce676933",
+      "e13b1367a610e9776a999860",
+      "55fd90c8544a08c4ae835e4b",
+      "493afa70103ec1f6b70652f9"
+    ],
+    "offsets_seconds": [
+      0,
+      1800,
+      3600,
+      5400,
+      7200
+    ],
+    "actual_end_seconds": 8102.016
+  },
+  "selected_start": 0,
+  "selected_end": 8102.016,
+  "audio_duration_seconds": 8102.016,
+  "detected_languages": [
+    "en"
+  ],
+  "segment_count": 2356,
+  "inference_parameters": {
+    "model": "multilingual medium",
+    "device": "cpu",
+    "compute_type": "int8",
+    "threads": 6,
+    "beam_size": 3,
+    "condition_on_previous_text": true,
+    "vad_filter": false,
+    "task": "transcribe",
+    "language": "auto"
+  },
+  "timings_seconds": {
+    "model_load": 15.90935034300037,
+    "transcription": 7200.979336106002,
+    "total_this_invocation": 7226.991752997001
+  },
+  "peak_ram_mb": 2542.9,
+  "parts": [
+    {
+      "key": "82cd09fb5a676db6c60b1215",
+      "source_offset_seconds": 0,
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/82cd09fb5a676db6c60b1215",
+      "run_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "b07bdf7c8ee7879e4dd0e96e8917fdfe78797379b773827d7de0de3a99b034b0",
+          "source_id": "audio-b07bdf7c8ee7879e4dd0e96e"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/82cd09fb5a676db6c60b1215/20261101-013545-f6895872",
+        "timings_seconds": {
+          "local_source_selection": 8.144100002027699e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7377811189999193,
+          "model_load": 3.424220059000163,
+          "transcription": 2023.3064838290002,
+          "total_this_invocation": 2028.8984028039997
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/d22b6546-a650-4481-af66-167873249a02/Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 [00-00-00 至 00-30-00].m4a",
+          "sha256": "b07bdf7c8ee7879e4dd0e96e8917fdfe78797379b773827d7de0de3a99b034b0",
+          "original_name": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 [00-00-00 至 00-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 [00-00-00 至 00-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9987519979476929,
+        "segment_count": 839,
+        "detected_language": "en",
+        "last_completed_audio_second": 1798.96,
+        "peak_ram_mb": 2542.9,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      }
+    },
+    {
+      "key": "5d75c37d886c071fce676933",
+      "source_offset_seconds": 1800,
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5d75c37d886c071fce676933",
+      "run_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "da65944f689a8b259fb59a8568a6f1dd5a0690318940ec07fd12de475b7ee8bf",
+          "source_id": "audio-da65944f689a8b259fb59a85"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/5d75c37d886c071fce676933/20261101-020941-2efc13ec",
+        "timings_seconds": {
+          "local_source_selection": 8.348800020030467e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7251003540000056,
+          "model_load": 3.369832050000241,
+          "transcription": 1450.7988514120002,
+          "total_this_invocation": 1456.338502433
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/1adab18f-dd88-48ad-9df5-1f1d3a30574a/Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 [00-30-00 至 01-00-00].m4a",
+          "sha256": "da65944f689a8b259fb59a8568a6f1dd5a0690318940ec07fd12de475b7ee8bf",
+          "original_name": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 [00-30-00 至 01-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 [00-30-00 至 01-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9990215301513672,
+        "segment_count": 391,
+        "detected_language": "en",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2541.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      }
+    },
+    {
+      "key": "e13b1367a610e9776a999860",
+      "source_offset_seconds": 3600,
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/e13b1367a610e9776a999860",
+      "run_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "1d620265ffdc4d96ad6afd182ea0d775dfdbefdbc8dafcbf5a32e75c41994320",
+          "source_id": "audio-1d620265ffdc4d96ad6afd18"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/e13b1367a610e9776a999860/20261101-023406-2f22148e",
+        "timings_seconds": {
+          "local_source_selection": 0.00011827300022559939,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.7050861279994933,
+          "model_load": 3.1545700740007305,
+          "transcription": 1444.165966306,
+          "total_this_invocation": 1449.4852888140003
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/cae5ffb1-a451-4a47-aafd-f01028a71eea/Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 [01-00-00 至 01-30-00].m4a",
+          "sha256": "1d620265ffdc4d96ad6afd182ea0d775dfdbefdbc8dafcbf5a32e75c41994320",
+          "original_name": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 [01-00-00 至 01-30-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第003段 [01-00-00 至 01-30-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.999504804611206,
+        "segment_count": 378,
+        "detected_language": "en",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2542.8,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      }
+    },
+    {
+      "key": "55fd90c8544a08c4ae835e4b",
+      "source_offset_seconds": 5400,
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/55fd90c8544a08c4ae835e4b",
+      "run_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "2593e5217752a7d642d6874b1ee5fdf4ae53ef4357905e0267c1866619b87728",
+          "source_id": "audio-2593e5217752a7d642d6874b"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/55fd90c8544a08c4ae835e4b/20261101-025825-003e2efa",
+        "timings_seconds": {
+          "local_source_selection": 8.897499992599478e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 1.8562687459998415,
+          "model_load": 3.1976517939992846,
+          "transcription": 1507.5799356409998,
+          "total_this_invocation": 1513.0753310570008
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/dc6eb761-c891-4ea5-a7fd-c97351ae5c05/Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 [01-30-00 至 02-00-00].m4a",
+          "sha256": "2593e5217752a7d642d6874b1ee5fdf4ae53ef4357905e0267c1866619b87728",
+          "original_name": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 [01-30-00 至 02-00-00].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第004段 [01-30-00 至 02-00-00].m4a",
+        "audio_duration_seconds": 1800.0,
+        "selected_start": 0.0,
+        "selected_end": 1800.0,
+        "language_probability": 0.9985565543174744,
+        "segment_count": 473,
+        "detected_language": "en",
+        "last_completed_audio_second": 1800.0,
+        "peak_ram_mb": 2542.7,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      }
+    },
+    {
+      "key": "493afa70103ec1f6b70652f9",
+      "source_offset_seconds": 7200,
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/493afa70103ec1f6b70652f9",
+      "run_report": {
+        "settings": {
+          "language": "auto",
+          "model": "medium",
+          "threads": 6,
+          "beam_size": 3,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "b796d241b5c74645c6fa4be194b4259a515a7ad702f3fd05b76355813ebf989d",
+          "source_id": "audio-b796d241b5c74645c6fa4be1"
+        },
+        "versions": {
+          "python": "3.12.14",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.4.0",
+          "yt-dlp": "2026.8.19",
+          "av": "16.0.1"
+        },
+        "status": "completed",
+        "resumed": false,
+        "output_directory": "/workspace/scratch/passive-income-20261101-run/outputs/493afa70103ec1f6b70652f9/20261101-032346-725155f0",
+        "timings_seconds": {
+          "local_source_selection": 8.548999903723598e-05,
+          "download_or_cache": 0.0,
+          "audio_decode": 0.8638277209993248,
+          "model_load": 2.76307636599995,
+          "transcription": 775.1280989180013,
+          "total_this_invocation": 779.1942278890001
+        },
+        "source": {
+          "type": "audio_file",
+          "path": "/workspace/attachments/ac711e34-11ce-4963-8caf-5b43b201c00b/Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第005段 [02-00-00 至 02-15-02].m4a",
+          "sha256": "b796d241b5c74645c6fa4be194b4259a515a7ad702f3fd05b76355813ebf989d",
+          "original_name": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第005段 [02-00-00 至 02-15-02].m4a"
+        },
+        "download_skipped": true,
+        "used_cached_audio": false,
+        "title": "Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第005段 [02-00-00 至 02-15-02].m4a",
+        "audio_duration_seconds": 902.016,
+        "selected_start": 0.0,
+        "selected_end": 902.016,
+        "language_probability": 0.9990211725234985,
+        "segment_count": 275,
+        "detected_language": "en",
+        "last_completed_audio_second": 878.32,
+        "peak_ram_mb": 2487.5,
+        "execution_backend": "direct-python-process",
+        "storage_backend": "github-git"
+      }
+    }
+  ],
+  "validation": {
+    "individual_txt_srt_consistent": true,
+    "merged_txt_srt_consistent": true,
+    "srt_timestamps_valid": true,
+    "full_transcribed_text_preserved": true,
+    "filename_final_duration_difference_seconds": 0.01599999999996271
+  },
+  "timing_scope": "Sum of successful completion invocation reports; earlier paused/failed attempts, if any, excluded.",
+  "note": "Five user-selected contiguous uploaded parts combined in source order. English retained; no translation."
+}
