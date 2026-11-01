@@ -68,3 +68,4 @@
 - [美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？.webm（large-v3 原始转录）](jobs/5bd071f2feeecc0e9b56664f/README.md) <!-- job:5bd071f2feeecc0e9b56664f -->
 - [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第001段 _00-00-00 至 00-30-00_.m4a](jobs/82cd09fb5a676db6c60b1215/README.md) <!-- job:82cd09fb5a676db6c60b1215 -->
 - [美股 天塌了？应该买还是卖？11月三大风险事件！.webm（large-v3 原始转录）](jobs/c23e58a1a66b0e3c8c2c254d/README.md) <!-- job:c23e58a1a66b0e3c8c2c254d -->
+- [Passive Income Expert_ Buying A House Makes You Poorer Than Renting! 第002段 _00-30-00 至 01-00-00_.m4a](jobs/5d75c37d886c071fce676933/README.md) <!-- job:5d75c37d886c071fce676933 -->
