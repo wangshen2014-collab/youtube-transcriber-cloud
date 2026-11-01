@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "a643137c5a84bc952a053048876c9d90d1b8bcd11b029aec5f31ceee12776e64",
+    "source_id": "audio-a643137c5a84bc952a053048"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": true,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch/e066aef4dbcaf115ec5be599/20261101-164046-e2b8b0d2",
+  "timings_seconds": {
+    "local_source_selection": 5.6344999990187716e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 0.3927512030000173,
+    "model_load": 85.284775604,
+    "transcription": 129.648777905,
+    "total_this_invocation": 215.57055007
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/a99ce84b-c40e-4986-9de1-017bb2bc2042/支撑AI繁荣的红灯和绿灯.webm",
+    "sha256": "a643137c5a84bc952a053048876c9d90d1b8bcd11b029aec5f31ceee12776e64",
+    "original_name": "支撑AI繁荣的红灯和绿灯.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "支撑AI繁荣的红灯和绿灯.webm",
+  "audio_duration_seconds": 187.686875,
+  "selected_start": 0.0,
+  "selected_end": 187.686875,
+  "language_probability": 0.9927396178245544,
+  "segment_count": 71,
+  "detected_language": "zh",
+  "last_completed_audio_second": 187.686875,
+  "peak_ram_mb": 2377.9,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
