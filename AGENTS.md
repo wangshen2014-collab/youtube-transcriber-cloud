@@ -3,6 +3,11 @@
 This repository is a simple uploaded-audio transcription product. Desktop downloader
 source lives in desktop/. Do not modify the user's installed Windows app during a cloud task.
 
+Read `docs/使用与交接说明.md` for the Chinese user guide, component map, retention rules,
+and handoff checklist. Keep it in sync when changing product behavior; distinguish
+implemented functionality from proposals. Default workflow: local audio download →
+Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysis.
+
 ## Everyday workflow (default): Codex computes, GitHub stores results
 
 - When uploaded audio is supplied and the user says "全部转录" / "转录", run
