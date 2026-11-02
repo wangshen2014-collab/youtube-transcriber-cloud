@@ -42,6 +42,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [美股 半导体SOXX成分股全阵亡！后面怎么玩？注意事项！](catalog/20d5d14a512adee2.md) | 单项结果 1 |
 | [美股 天塌了？应该买还是卖？11月三大风险事件！](catalog/480be387f0c8b1bf.md) | 单项结果 1 |
 | [美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？](catalog/bad0746598a06b81.md) | 单项结果 1 |
+| [美股黑色星期五，是抄底还是雪崩前的回光返照？](catalog/0d2608594adef4a2.md) | 单项结果 1 |
 
 ## 教育与访谈
 
@@ -63,3 +64,5 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [batches/20261101-fupeng-24ba91301e](batches/20261101-fupeng-24ba91301e/README.md)
 - [batches/20261101-passive-income-54a82e726b](batches/20261101-passive-income-54a82e726b/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
+
+最新保存：[美股黑色星期五，是抄底还是雪崩前的回光返照？](jobs/57634885afcec7cc0f55bba3/README.md)

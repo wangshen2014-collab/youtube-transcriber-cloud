@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "5c25dd9ee51401a8b3522fb5a4be5e1c79c8c549817846e44cd9b589bf929eb8",
+    "source_id": "audio-5c25dd9ee51401a8b3522fb5"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch/57634885afcec7cc0f55bba3/20261102-194222-5a359c71",
+  "timings_seconds": {
+    "local_source_selection": 6.888200005050749e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.6295787690000907,
+    "model_load": 2.297359556999936,
+    "transcription": 619.291379029,
+    "total_this_invocation": 623.8064411870001
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/350bcf55-2255-41bc-91f6-34988d0eb177/美股黑色星期五，是抄底还是雪崩前的回光返照？.webm",
+    "sha256": "5c25dd9ee51401a8b3522fb5a4be5e1c79c8c549817846e44cd9b589bf929eb8",
+    "original_name": "美股黑色星期五，是抄底还是雪崩前的回光返照？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "attribution": {},
+  "title": "美股黑色星期五，是抄底还是雪崩前的回光返照？",
+  "audio_duration_seconds": 721.4904375,
+  "selected_start": 0.0,
+  "selected_end": 721.4904375,
+  "language_probability": 0.9998664855957031,
+  "segment_count": 358,
+  "detected_language": "zh",
+  "last_completed_audio_second": 718.0,
+  "peak_ram_mb": 2461.4,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

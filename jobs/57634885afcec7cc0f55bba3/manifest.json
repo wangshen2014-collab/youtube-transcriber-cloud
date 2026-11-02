@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "5c25dd9ee51401a8b3522fb5a4be5e1c79c8c549817846e44cd9b589bf929eb8",
+    "source_id": "audio-5c25dd9ee51401a8b3522fb5"
+  },
+  "title": "美股黑色星期五，是抄底还是雪崩前的回光返照？",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/57634885afcec7cc0f55bba3/%E7%BE%8E%E8%82%A1%E9%BB%91%E8%89%B2%E6%98%9F%E6%9C%9F%E4%BA%94%EF%BC%8C%E6%98%AF%E6%8A%84%E5%BA%95%E8%BF%98%E6%98%AF%E9%9B%AA%E5%B4%A9%E5%89%8D%E7%9A%84%E5%9B%9E%E5%85%89%E8%BF%94%E7%85%A7%EF%BC%9F.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/57634885afcec7cc0f55bba3/%E7%BE%8E%E8%82%A1%E9%BB%91%E8%89%B2%E6%98%9F%E6%9C%9F%E4%BA%94%EF%BC%8C%E6%98%AF%E6%8A%84%E5%BA%95%E8%BF%98%E6%98%AF%E9%9B%AA%E5%B4%A9%E5%89%8D%E7%9A%84%E5%9B%9E%E5%85%89%E8%BF%94%E7%85%A7%EF%BC%9F.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/57634885afcec7cc0f55bba3/%E7%BE%8E%E8%82%A1%E9%BB%91%E8%89%B2%E6%98%9F%E6%9C%9F%E4%BA%94%EF%BC%8C%E6%98%AF%E6%8A%84%E5%BA%95%E8%BF%98%E6%98%AF%E9%9B%AA%E5%B4%A9%E5%89%8D%E7%9A%84%E5%9B%9E%E5%85%89%E8%BF%94%E7%85%A7%EF%BC%9F.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/57634885afcec7cc0f55bba3",
+  "saved_at": 1793649167.9081972
+}
