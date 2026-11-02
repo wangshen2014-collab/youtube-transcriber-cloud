@@ -84,7 +84,11 @@ def export_upload_audio(source, output_dir, title, identifier, start=0, end=None
 
 
 def safe_name(title):
-    return re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title).strip().rstrip('.')[:100] or 'YouTube'
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title).strip().rstrip('.')
+    segment = re.search(r' 第\d+段$', cleaned)
+    if segment:
+        return cleaned[:max(0, 100 - len(segment[0]))] + segment[0]
+    return cleaned[:100] or 'YouTube'
 
 
 def clock_label(seconds):

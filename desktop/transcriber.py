@@ -16,6 +16,8 @@ from tkinter import ttk
 from audio_export import export_audio, export_upload_audio, ExportPaused, track_export, cleanup_exports
 from media_download import login_options, download_video, friendly_error, downloader_options
 
+import source_attribution as credits
+
 APP_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = APP_DIR / "config.json"
 LOCAL_APP_DATA = Path(os.environ.get("LOCALAPPDATA", APP_DIR)) / "YouTubeTranscriber"
@@ -635,7 +637,9 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
             audio_path, info, used_cache = get_cached_or_download_audio(url, self.emit, auth=auth)
             if self.pause_requested.is_set():
                 return self.pause_task(task)
-            title = info.get("title", "YouTube transcript")
+            attribution = credits.attribution(metadata=info)
+            title = credits.credited_title(info.get("title", "YouTube transcript"), attribution)
+            task["source_attribution"] = attribution
             audio_duration = float(info.get("duration") or 0)
             task["video_title"] = title; task["audio_duration"] = audio_duration
             range_start = float(task.get("range_start", 0) or 0)
@@ -746,10 +750,11 @@ VAD 可跳过静音，但本机 Windows 环境相关 DLL 曾加载失败。为�
                 task["txt_path"] = str(txt_path); task["srt_path"] = str(srt_path)
             self.emit("status", "正在保存 TXT…")
             with txt_path.open("w", encoding="utf-8") as f:
+                f.write(credits.header(attribution))
                 for segment in collected: f.write(segment["text"].strip() + "\n")
             self.emit("status", "正在保存 SRT…")
             with srt_path.open("w", encoding="utf-8") as f:
-                for index, segment in enumerate(collected, 1):
+                for index, segment in enumerate(credits.annotate_segments(collected, attribution), 1):
                     f.write(f"{index}\n{srt_time(segment['start'])} --> {srt_time(segment['end'])}\n{segment['text'].strip()}\n\n")
             completed = (str(txt_path), str(srt_path), time.time()-started)
             checkpoint_path(task).unlink(missing_ok=True)

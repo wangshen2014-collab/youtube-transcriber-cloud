@@ -9,6 +9,7 @@ from urllib.parse import parse_qs, urlparse
 import uuid
 
 from audio_export import ExportPaused, safe_name
+from source_attribution import attribution, credited_title
 
 BROWSERS = {'Chrome': 'chrome', 'Edge': 'edge', 'Firefox': 'firefox'}
 
@@ -187,7 +188,7 @@ def download_video(url, output_dir, work_dir, height=720, auth=None,
         with yt_dlp.YoutubeDL(options) as downloader:
             info = downloader.extract_info(url, download=False)
         chosen = choose_formats(info, height)
-        emit('title', info.get('title', 'YouTube'))
+        emit('title', credited_title(info.get('title', 'YouTube'), attribution(metadata=info)))
         emit('status', f'正在下载视频（最高 {height}p，实际 {chosen[0]["height"]}p）；视频文件不自动过期…')
         downloaded = []
         for index, fmt in enumerate(chosen):
@@ -213,7 +214,7 @@ def download_video(url, output_dir, work_dir, height=720, auth=None,
             next(media.decode(video=0))
         with av.open(str(merged)) as media:
             next(media.decode(audio=0))
-        base = safe_name(info.get('title', 'YouTube'))
+        base = safe_name(credited_title(info.get('title', 'YouTube'), attribution(metadata=info)))
         target = output_dir / (base + extension)
         if target.exists():
             target = output_dir / f'{base} ({time.strftime("%Y%m%d-%H%M%S")}-{uuid.uuid4().hex[:6]}){extension}'

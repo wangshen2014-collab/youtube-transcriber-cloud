@@ -123,7 +123,7 @@ class BatchTests(unittest.TestCase):
         self.worked.append(args.audio_file.name)
         # Before item two starts, item one must already have been published.
         if len(self.worked) == 2:
-            self.assertIn(self.sources[0].name.split(' [')[0], store.read('README.md').decode())
+            self.assertIn(self.sources[0].stem.split(' [')[0], store.read('README.md').decode())
         config = cli.settings(args)
         folder = args.output_dir / '20261020-010101-12345678'; folder.mkdir(parents=True)
         for ext, value in [('txt', '测试字幕'), ('srt', '1\n00:00:00,000 --> 00:00:01,000\n测试字幕\n')]:

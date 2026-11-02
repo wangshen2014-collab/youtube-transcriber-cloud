@@ -12,6 +12,8 @@ import time
 from urllib.parse import parse_qs, urlparse
 import uuid
 
+from desktop import source_attribution as credits
+
 LOG = logging.getLogger("transcriber")
 STOP = False
 SAMPLE_RATE = 16000
@@ -109,6 +111,7 @@ def cached_audio(url, cache, force=False):
     entry = {"video_id": identifier, "title": info.get("title", identifier),
              "source_url": url, "download_time": now, "last_used": now,
              "audio_filename": audio.name, "duration": info.get("duration")}
+    entry.update(credits.youtube_metadata(info))
     atomic_json(metadata_path, entry)
     return audio, entry, False
 
@@ -144,6 +147,9 @@ def settings(args):
         # and permits resuming the same file after it has been moved or renamed.
         config.update(source_type="audio_file", audio_sha256=digest,
                       source_id="audio-" + digest[:24])
+    attribution = credits.attribution(args, source=audio_file)
+    if any(attribution.get(k) for k in ("channel", "author", "interviewee", "opinion_owner")):
+        config["attribution"] = attribution
     return config
 
 
@@ -216,7 +222,8 @@ def run(args):
             report["source"] = {"type": "youtube", "url": args.url}
             report["download_skipped"] = False
         report["used_cached_audio"] = reused
-        report["title"] = metadata["title"]
+        report["attribution"] = credits.attribution(args, metadata, audio)
+        report["title"] = credits.credited_title(metadata["title"], report["attribution"])
         if stop_requested(args):
             return paused()
         phase = time.monotonic()
@@ -285,7 +292,10 @@ def run(args):
             path = output / (identifier + "." + extension)
             temporary = path.with_suffix(path.suffix + ".tmp")
             with temporary.open("w", encoding="utf-8") as stream:
-                for index, segment in enumerate(job["segments"], 1):
+                if extension == "txt":
+                    stream.write(credits.header(report["attribution"]))
+                rendered = credits.annotate_segments(job["segments"], report["attribution"]) if extension == "srt" else job["segments"]
+                for index, segment in enumerate(rendered, 1):
                     if extension == "srt":
                         stream.write(f"{index}\n{srt_time(segment['start'])} --> {srt_time(segment['end'])}\n")
                     stream.write(segment["text"] + ("\n\n" if extension == "srt" else "\n"))
@@ -310,6 +320,7 @@ def run(args):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="YouTube 或本地音频云端 CPU 转文字（无需窗口）")
+    credits.add_arguments(parser)
     source = parser.add_mutually_exclusive_group(required=True)
     source.add_argument("--url", help="YouTube 视频链接")
     source.add_argument("--audio-file", type=Path, help="本地音频文件路径（跳过 YouTube 下载）")

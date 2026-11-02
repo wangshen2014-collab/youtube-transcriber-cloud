@@ -15,6 +15,7 @@ from urllib.parse import unquote, urlparse
 from cloud_job import GitHub, REPO, auth_token
 from github_results import ResultStore
 import transcribe_cli as cli
+from desktop import source_attribution as credits
 
 STOP = False
 SUFFIXES = {'.webm', '.m4a', '.mp3', '.wav', '.flac', '.ogg', '.opus', '.aac', '.mp4'}
@@ -48,10 +49,14 @@ def inputs(paths, directory=None):
 
 def job_args(options, source, key=None):
     root = options.state_dir / 'jobs' / (key or 'pending')
-    return argparse.Namespace(url=None, audio_file=source, language=options.language,
+    args = argparse.Namespace(url=None, audio_file=source, language=options.language,
         model='medium', threads=6, beam_size=3, start=options.start, end=options.end,
         state_dir=root, model_dir=options.model_dir, output_dir=options.output_dir / (key or 'pending'),
         pause_file=options.pause_file)
+    for name, value in credits.copy_options(options).items():
+        setattr(args, name, value)
+    args.source_metadata = getattr(options, "source_metadata", {})
+    return args
 
 
 def restore_checkpoint(store, key, config, args):
@@ -78,6 +83,7 @@ def run_worker(args, checkpoint, store, key, interval=600):
         '--model', 'medium', '--threads', '6', '--beam-size', '3',
         '--start', str(int(args.start)), '--state-dir', str(args.state_dir),
         '--model-dir', str(args.model_dir), '--output-dir', str(args.output_dir)]
+    command += credits.worker_arguments(args)
     if args.end is not None:
         command += ['--end', str(int(args.end))]
     if args.pause_file:
@@ -131,7 +137,12 @@ def prepare_results(args, config, source):
     checked = parse_srt((report_path.parent / (config['source_id'] + '.srt')).read_text(encoding='utf-8'))
     if any(s['start'] < args.start - .1 or s['end'] > report['selected_end'] + .1 for s in checked):
         raise ValueError('字幕时间超出所选范围，保留本地文件但停止发布')
-    base = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', source.stem).strip().rstrip('.')[:110] or '音频'
+    attribution = credits.attribution(args, source=source)
+    report["attribution"] = attribution
+    title = getattr(args, "source_metadata", {}).get("title") or source.stem
+    title = credits.credited_title(title, attribution)
+    report['title'] = title
+    base = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title).strip().rstrip('.')[:110] or '音频'
     if args.start or args.end is not None:
         base += f' [{int(args.start)}s-{int(args.end) if args.end is not None else "end"}s]'
     ready = args.output_dir / 'ready'
@@ -142,7 +153,13 @@ def prepare_results(args, config, source):
         if not original.is_file():
             raise ValueError('完成报告缺少实际字幕文件，停止发布')
         files[ext] = ready / (base + '.' + ext)
-        files[ext].write_bytes(original.read_bytes())
+        text = original.read_text(encoding="utf-8")
+        if ext == "txt":
+            text = credits.annotate_text(text, attribution)
+        else:
+            segments = credits.annotate_segments(parse_srt(text), attribution)
+            text = "".join(f"{i}\n{cli.srt_time(s['start'])} --> {cli.srt_time(s['end'])}\n{s['text']}\n\n" for i, s in enumerate(segments, 1))
+        files[ext].write_text(text, encoding="utf-8")
     report['source']['original_name'] = source.name
     report['execution_backend'] = 'direct-python-process'
     report['storage_backend'] = 'github-git'
@@ -214,6 +231,7 @@ def merge_named_parts(options, ledger, store):
                 continue
             records = [json.loads(store.read(f'jobs/{p[3]["key"]}/manifest.json')) for p in parts]
             texts, merged = [], []
+            merge_attribution = None
             for part, record in zip(parts, records):
                 def read_result(ext):
                     name = unquote(urlparse(record['files'][ext]).path.rsplit('/', 1)[-1])
@@ -228,22 +246,27 @@ def merge_named_parts(options, ledger, store):
                     raise ValueError('分段不是完整转录，不能自动合并')
                 if abs(report.get('selected_end', -1) - (part[2] - part[1])) > .15:
                     raise ValueError('分段实际时长与文件名范围不符，拒绝猜测时间偏移')
-                texts.append(read_result('txt').strip())
+                current_attribution = report.get("attribution", {})
+                if merge_attribution is not None and current_attribution != merge_attribution:
+                    raise ValueError("分段作者／来源信息不一致，不能自动合并")
+                merge_attribution = current_attribution
+                texts.append(credits.strip_header(read_result("txt")).strip())
                 for segment in parse_srt(read_result('srt')):
                     # AAC can pad the last frame by a few milliseconds.
                     start, end = segment['start'] + part[1], min(segment['end'] + part[1], part[2])
                     if end > start:
-                        merged.append({**segment, 'start': start, 'end': end})
-            label = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', title)[:100] + ' [已上传分段合并]'
+                        merged.append({**segment, 'start': start, 'end': end, 'text': credits.strip_header(segment['text'])})
+            merged = credits.annotate_segments(merged, merge_attribution or {})
+            label = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', credits.credited_title(title, merge_attribution or {}))[:100] + ' [已上传分段合并]'
             folder = options.output_dir / 'merged' / key; folder.mkdir(parents=True, exist_ok=True)
             files = {ext: folder / (label + '.' + ext) for ext in ('txt', 'srt', 'json')}
-            files['txt'].write_text('\n\n'.join(texts) + '\n', encoding='utf-8')
+            files['txt'].write_text(credits.annotate_text('\n\n'.join(texts) + '\n', merge_attribution or {}), encoding='utf-8')
             files['srt'].write_text(''.join(f'{i}\n{cli.srt_time(s["start"])} --> {cli.srt_time(s["end"])}\n{s["text"]}\n\n'
                                            for i, s in enumerate(merged, 1)), encoding='utf-8')
             parse_srt(files['srt'].read_text(encoding='utf-8'))
             cli.atomic_json(files['json'], {'status': 'completed', 'settings': config,
                 'selected_start': parts[0][1], 'selected_end': parts[-1][2],
-                'segment_count': len(merged),
+                'segment_count': len(merged), 'attribution': merge_attribution or {},
                 'parts': [{k: v for k, v in record.items() if k not in ('files', 'result_url')}
                           for record in records],
                 'note': '仅合并本批已上传且时间连续的分段，不保证包含原视频全部内容。'})
@@ -305,7 +328,7 @@ def run_batch(options, store, worker=run_worker):
             result = None
             for attempt in range(3):
                 try:
-                    result = store.publish(key, config, source.name, files)
+                    result = store.publish(key, config, files['txt'].stem, files)
                     break
                 except Exception:
                     if attempt == 2:
@@ -331,6 +354,7 @@ def run_batch(options, store, worker=run_worker):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description='Codex 云端批量转录，逐个存到 GitHub（不运行 Actions）')
+    credits.add_arguments(parser)
     parser.add_argument('files', nargs='*', type=Path)
     parser.add_argument('--input-dir', type=Path, help='只扫描此目录顶层音频，按自然文件名顺序')
     parser.add_argument('--repo', default=os.getenv('YT_GITHUB_REPO', REPO))

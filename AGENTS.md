@@ -117,3 +117,23 @@ Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysi
     Otherwise return the actual files and explain any artifact access limitations.
 11. Do not assume GPU availability, unlimited runtime, faster execution, or zero cost.
 12. Preserve the user's working Windows installation; this repository is independent.
+
+## Source attribution supplied with a transcription request
+
+- Preserve the YouTube channel/uploader name from download metadata. It is a
+  channel credit, not evidence of the identity of the speaker or opinion owner.
+- If the user's transcription prompt explicitly names an author/presenter,
+  interviewee, or opinion owner, pass those exact names through `--author`,
+  `--interviewee`, and `--opinion-owner` on `batch_transcribe.py` or
+  `transcribe_cli.py`. Use `--channel` only for a clearly identified channel.
+  Never guess roles from a name alone; retain qualifications and attribution
+  scope in the value when the user provides them. Do not pass the whole prompt.
+- These flags apply to every input in an invocation. For different people or
+  roles on different audio files, invoke separately with the appropriate flags.
+  Do not attach one video's author to unrelated inputs or unrequested merges.
+- Keep the source block in TXT and the first actual SRT cue. It is labelled as
+  metadata rather than spoken words; do not invent speaker turns or change times.
+  User-supplied attribution is not independently verified. Preserve raw transcript
+  wording; the attribution names must not be used as a speech-recognition prompt.
+- Name new published files with available channel/author credits. Existing
+  results are not retroactively renamed or relabelled without a separate request.

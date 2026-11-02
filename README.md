@@ -315,3 +315,9 @@ outputs/<时间戳-随机ID>/
 目前 CLI 只生成文件；需显式导出或用支持的工具保存到目标存储。
 
 官方环境说明：https://learn.chatgpt.com/docs/environments/cloud-environments
+
+## 保留作者与受访者
+
+下载文件名尽量保留 YouTube 频道名；转录提示中明确提供的作者、受访者和观点归属，
+可通过 `--author`、`--interviewee`、`--opinion-owner` 写入 TXT/SRT 的来源说明。
+详细行为和示例见[中文指南](docs/使用与交接说明.md#作者频道受访者和观点归属)。

@@ -87,7 +87,7 @@ class TranscriptionTests(unittest.TestCase):
         self.assertEqual(calls[-1][2]["initial_prompt"], "第一段")
         self.assertEqual(len(list(self.args.output_dir.iterdir())), 1)
         text = next(self.args.output_dir.rglob("*.txt")).read_text(encoding="utf-8")
-        self.assertEqual(len(text.splitlines()), 3)
+        self.assertEqual(len(cli.credits.strip_header(text).splitlines()), 3)
 
     def test_two_completed_runs_do_not_overwrite(self):
         self.assertEqual(cli.run(self.args), 0)
