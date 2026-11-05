@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "5534273301a852e5bbcdb70d93d0150d791c56077e186e02252b573b20ab159c",
+    "source_id": "audio-5534273301a852e5bbcdb70d",
+    "attribution": {
+      "channel": "视野环球财经",
+      "channel_source": "音频文件名"
+    }
+  },
+  "segments": [
+    {
+      "start": 0.96,
+      "end": 1.48,
+      "text": "大家好"
+    }
+  ],
+  "resume_from": 1.48,
+  "run_id": "20261105-151005-1518ec05",
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/cloud-batch/d60d766ed8aad038b82df470/20261105-151005-1518ec05",
+  "detected_language": "zh"
+}
