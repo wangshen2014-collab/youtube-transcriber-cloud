@@ -35,6 +35,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！](catalog/7e4c4439f96c49dd.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！](catalog/544559d16c0634ad.md) | 单项结果 1 |
+| [【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！](catalog/5b13e9859907ba3b.md) | 单项结果 1 |
 | [两期美股节目_前科技股跳水_后天塌了_高精度合并](catalog/fee1474a40e88d26.md) | 合并版 1 |
 | [但斌：AI投资机会和布局](catalog/2339dc488ab1fe63.md) | 合并版 1 |
 | [但斌：错失一个时代比泡沫更贵](catalog/fd69a4a2c69a15dd.md) | 合并版 1 |
@@ -70,4 +71,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/20261106-ai-midterms-finance](collections/20261106-ai-midterms-finance/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 
-最新保存：[三视频转录：AI、美股与美国中期选举](jobs/c9d6bc09786b4e499319e35e/README.md)
+最新保存：[【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！](jobs/d9d493d24939f6c3a5d783b4/README.md)
