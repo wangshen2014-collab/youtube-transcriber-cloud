@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "eafed50c9bff184ef3c60bb7658bec4ce6ea295d8856e8333c0c225c1a996c00",
+    "source_id": "audio-eafed50c9bff184ef3c60bb7",
+    "attribution": {
+      "channel": "视野环球财经",
+      "channel_source": "音频文件名"
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/high-accuracy-shiye-20261106/20261106-151639-2db8857b",
+  "timings_seconds": {
+    "local_source_selection": 0.00011033200000554189,
+    "download_or_cache": 0.0,
+    "audio_decode": 6.144275839000002,
+    "model_load": 9.85093535,
+    "transcription": 4844.687421664999,
+    "total_this_invocation": 4861.389220977
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/bf3513ed-191f-4fe1-97f9-8d1e0c0b19d7/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.webm",
+    "sha256": "eafed50c9bff184ef3c60bb7658bec4ce6ea295d8856e8333c0c225c1a996c00",
+    "original_name": "【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "attribution": {
+    "channel": "视野环球财经",
+    "channel_source": "音频文件名"
+  },
+  "title": "【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！",
+  "audio_duration_seconds": 1770.8373125,
+  "selected_start": 0.0,
+  "selected_end": 1770.8373125,
+  "language_probability": 0.9975786805152893,
+  "segment_count": 877,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1769.74,
+  "peak_ram_mb": 3969.1,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}

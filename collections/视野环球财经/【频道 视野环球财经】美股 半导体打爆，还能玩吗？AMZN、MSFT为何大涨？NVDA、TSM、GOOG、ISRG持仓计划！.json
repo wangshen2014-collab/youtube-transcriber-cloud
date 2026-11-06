@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "5534273301a852e5bbcdb70d93d0150d791c56077e186e02252b573b20ab159c",
+    "source_id": "audio-5534273301a852e5bbcdb70d",
+    "attribution": {
+      "channel": "视野环球财经",
+      "channel_source": "音频文件名"
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/high-accuracy-shiye/20261105-152614-07fcf40c",
+  "timings_seconds": {
+    "local_source_selection": 0.0002582009999514412,
+    "download_or_cache": 0.0,
+    "audio_decode": 16.218693857000062,
+    "model_load": 11.850241524000012,
+    "transcription": 7274.647733553,
+    "total_this_invocation": 7303.896763764001
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/88af67b9-0da8-4aad-bba5-fb88be57863c/【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！.webm",
+    "sha256": "5534273301a852e5bbcdb70d93d0150d791c56077e186e02252b573b20ab159c",
+    "original_name": "【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "attribution": {
+    "channel": "视野环球财经",
+    "channel_source": "音频文件名"
+  },
+  "title": "【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！",
+  "audio_duration_seconds": 2163.52,
+  "selected_start": 0.0,
+  "selected_end": 2163.52,
+  "language_probability": 0.9964820146560669,
+  "segment_count": 1040,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2162.74,
+  "peak_ram_mb": 5407.1,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
