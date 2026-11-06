@@ -1,0 +1,135 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "54418dbc4377f01f89b5f1fbe9fc631d71cf8f063e63d0f67639291433274cfc",
+    "source_id": "audio-54418dbc4377f01f89b5f1fb"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-20261106/3/20261106-153936-2bab3199",
+  "timings_seconds": {
+    "local_source_selection": 6.393499984369555e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.1142386189999343,
+    "model_load": 1.8576061859998845,
+    "transcription": 878.3840633249999,
+    "total_this_invocation": 882.6419784330001
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/f81080f1-22cc-4af9-9d59-dfd65c37f2e7/【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！.webm",
+    "sha256": "54418dbc4377f01f89b5f1fbe9fc631d71cf8f063e63d0f67639291433274cfc",
+    "original_name": "【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！.webm",
+  "audio_duration_seconds": 922.5055625,
+  "selected_start": 0.0,
+  "selected_end": 922.5055625,
+  "language_probability": 0.9997410178184509,
+  "segment_count": 490,
+  "detected_language": "zh",
+  "last_completed_audio_second": 918.5600000000001,
+  "peak_ram_mb": 2531.5,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git",
+  "terminology_review": {
+    "method": "Contextual spelling review; uncertain terms retained unless checked with a second ASR pass",
+    "changes": [
+      {
+        "before": "波Wave",
+        "after": "CoreWeave",
+        "count": 1
+      },
+      {
+        "before": "Sunday",
+        "after": "SanDisk",
+        "count": 1
+      },
+      {
+        "before": "Coreweave",
+        "after": "CoreWeave",
+        "count": 3
+      },
+      {
+        "before": "Coviv",
+        "after": "CoreWeave",
+        "count": 1
+      },
+      {
+        "before": "Sandisk",
+        "after": "SanDisk",
+        "count": 2
+      },
+      {
+        "before": "Lone Pie",
+        "after": "Lone Pine",
+        "count": 1
+      },
+      {
+        "before": "Millenium",
+        "after": "Millennium",
+        "count": 1
+      },
+      {
+        "before": "一贴斧",
+        "after": "ETF",
+        "count": 1
+      },
+      {
+        "before": "new cloud",
+        "after": "neocloud",
+        "count": 1
+      },
+      {
+        "before": "Nscale iron",
+        "after": "Nscale、IREN",
+        "count": 1
+      },
+      {
+        "before": "Situation Awareness",
+        "after": "Situational Awareness",
+        "count": 2
+      },
+      {
+        "before": "Nabius",
+        "after": "Nebius",
+        "count": 2
+      },
+      {
+        "before": "SK Hyness",
+        "after": "SK hynix",
+        "count": 1
+      },
+      {
+        "before": "中仓",
+        "after": "重仓",
+        "count": 3
+      },
+      {
+        "before": "井上天花",
+        "after": "锦上添花",
+        "count": 1
+      }
+    ],
+    "financial_claims_and_numbers_rewritten": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "54418dbc4377f01f89b5f1fbe9fc631d71cf8f063e63d0f67639291433274cfc",
+    "source_id": "audio-54418dbc4377f01f89b5f1fb"
+  },
+  "title": "【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！.webm",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c9d6bc09786b4e499319e35e/%E3%80%90%E9%A2%91%E9%81%93%20Henry%20%E7%9A%84%E6%85%A2%E6%80%9D%E8%80%83%E3%80%91%E7%BE%8E%E8%82%A1%E6%80%A5%E9%80%9F48%E5%B0%8F%E6%97%B6%EF%BC%8C%E4%BB%8E%E5%A4%A9%E5%A0%82%E5%88%B0%E5%9C%B0%E7%8B%B1%E5%8F%AA%E7%94%A8%E4%BA%866%E5%88%86%E9%92%9F%EF%BC%81.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c9d6bc09786b4e499319e35e/%E3%80%90%E9%A2%91%E9%81%93%20Henry%20%E7%9A%84%E6%85%A2%E6%80%9D%E8%80%83%E3%80%91%E7%BE%8E%E8%82%A1%E6%80%A5%E9%80%9F48%E5%B0%8F%E6%97%B6%EF%BC%8C%E4%BB%8E%E5%A4%A9%E5%A0%82%E5%88%B0%E5%9C%B0%E7%8B%B1%E5%8F%AA%E7%94%A8%E4%BA%866%E5%88%86%E9%92%9F%EF%BC%81.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c9d6bc09786b4e499319e35e/%E3%80%90%E9%A2%91%E9%81%93%20Henry%20%E7%9A%84%E6%85%A2%E6%80%9D%E8%80%83%E3%80%91%E7%BE%8E%E8%82%A1%E6%80%A5%E9%80%9F48%E5%B0%8F%E6%97%B6%EF%BC%8C%E4%BB%8E%E5%A4%A9%E5%A0%82%E5%88%B0%E5%9C%B0%E7%8B%B1%E5%8F%AA%E7%94%A8%E4%BA%866%E5%88%86%E9%92%9F%EF%BC%81.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c9d6bc09786b4e499319e35e",
+  "saved_at": 1793980493.7634077
+}
