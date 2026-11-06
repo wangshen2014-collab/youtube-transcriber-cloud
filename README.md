@@ -67,6 +67,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [batches/20261021-268016286e](batches/20261021-268016286e/README.md)
 - [batches/20261101-fupeng-24ba91301e](batches/20261101-fupeng-24ba91301e/README.md)
 - [batches/20261101-passive-income-54a82e726b](batches/20261101-passive-income-54a82e726b/README.md)
+- [collections/20261106-ai-midterms-finance](collections/20261106-ai-midterms-finance/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 
-最新保存：[【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！.webm](jobs/c9d6bc09786b4e499319e35e/README.md)
+最新保存：[三视频转录：AI、美股与美国中期选举](jobs/c9d6bc09786b4e499319e35e/README.md)
