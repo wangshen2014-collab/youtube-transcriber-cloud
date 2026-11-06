@@ -1,0 +1,140 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "316746bdb2d4a7b153ad27415945e9fb86bc4c0fb0e669c920a944e1ddcfb518",
+    "source_id": "audio-316746bdb2d4a7b153ad2741"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-20261106/2/20261106-152832-7319350b",
+  "timings_seconds": {
+    "local_source_selection": 9.06150000901107e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.6547765699999673,
+    "model_load": 1.8004372240000066,
+    "transcription": 660.2004342170001,
+    "total_this_invocation": 663.9413978780001
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/1beeedc6-8d80-40e0-b985-251e4eff4452/【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷.webm",
+    "sha256": "316746bdb2d4a7b153ad27415945e9fb86bc4c0fb0e669c920a944e1ddcfb518",
+    "original_name": "【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷.webm",
+  "audio_duration_seconds": 798.72,
+  "selected_start": 0.0,
+  "selected_end": 798.72,
+  "language_probability": 0.9991555213928223,
+  "segment_count": 402,
+  "detected_language": "zh",
+  "last_completed_audio_second": 798.64,
+  "peak_ram_mb": 2323.5,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git",
+  "terminology_review": {
+    "method": "Contextual spelling review; uncertain terms retained unless checked with a second ASR pass",
+    "changes": [
+      {
+        "before": "Cherry",
+        "after": "Terry",
+        "count": 1
+      },
+      {
+        "before": "QQ",
+        "after": "QQQ",
+        "count": 9
+      },
+      {
+        "before": "Meetup",
+        "after": "midterm",
+        "count": 1
+      },
+      {
+        "before": "panic tour",
+        "after": "panic〔后续词听辨不清〕",
+        "count": 1
+      },
+      {
+        "before": "KBACS",
+        "after": "CapEx",
+        "count": 1
+      },
+      {
+        "before": "富的現金流",
+        "after": "負的現金流",
+        "count": 1
+      },
+      {
+        "before": "mytrade也差得很低",
+        "after": "Mitrade點差很低",
+        "count": 1
+      },
+      {
+        "before": "mytrade",
+        "after": "Mitrade",
+        "count": 4
+      },
+      {
+        "before": "Lois of London",
+        "after": "Lloyd’s of London",
+        "count": 1
+      },
+      {
+        "before": "GPiQ",
+        "after": "GPIQ",
+        "count": 6
+      },
+      {
+        "before": "QQi",
+        "after": "QQQI",
+        "count": 4
+      },
+      {
+        "before": "VO",
+        "after": "VOO",
+        "count": 1
+      },
+      {
+        "before": "賣扣",
+        "after": "賣 call",
+        "count": 1
+      },
+      {
+        "before": "下架禮待",
+        "after": "下下禮拜",
+        "count": 1
+      },
+      {
+        "before": "GlockBot",
+        "after": "Grok Bot",
+        "count": 1
+      },
+      {
+        "before": "LOM",
+        "after": "LLM",
+        "count": 1
+      }
+    ],
+    "financial_claims_and_numbers_rewritten": false
+  }
+}

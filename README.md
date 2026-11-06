@@ -32,6 +32,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 1 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】民主党大胜，终结AI超级周期？](catalog/f515a50b5e755686.md) | 单项结果 1 |
+| [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！](catalog/544559d16c0634ad.md) | 单项结果 1 |
 | [两期美股节目_前科技股跳水_后天塌了_高精度合并](catalog/fee1474a40e88d26.md) | 合并版 1 |
 | [但斌：AI投资机会和布局](catalog/2339dc488ab1fe63.md) | 合并版 1 |
@@ -67,4 +68,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [batches/20261101-passive-income-54a82e726b](batches/20261101-passive-income-54a82e726b/README.md)
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 
-最新保存：[【频道 Henry 的慢思考】民主党大胜，终结AI超级周期？.webm](jobs/c0832a382dc6822c2decc329/README.md)
+最新保存：[【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷.webm](jobs/09d02c0f5b98327604b4b5a6/README.md)

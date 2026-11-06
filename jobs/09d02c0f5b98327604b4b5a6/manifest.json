@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 6,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "316746bdb2d4a7b153ad27415945e9fb86bc4c0fb0e669c920a944e1ddcfb518",
+    "source_id": "audio-316746bdb2d4a7b153ad2741"
+  },
+  "title": "【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷.webm",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/09d02c0f5b98327604b4b5a6/%E3%80%90%E9%A2%91%E9%81%93%20Terry%20Chen%20%E6%B3%B0%E7%91%9E%E3%80%91AI%20%E7%B5%82%E6%96%BC%E8%A6%81%E5%B4%A9%E7%9B%A4%E4%BA%86%E5%97%8E%EF%BC%9F%E7%BE%8E%E5%9C%8B%E4%B8%AD%E6%9C%9F%E9%81%B8%E8%88%89%E5%A4%A7%E7%88%86%E9%9B%B7.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/09d02c0f5b98327604b4b5a6/%E3%80%90%E9%A2%91%E9%81%93%20Terry%20Chen%20%E6%B3%B0%E7%91%9E%E3%80%91AI%20%E7%B5%82%E6%96%BC%E8%A6%81%E5%B4%A9%E7%9B%A4%E4%BA%86%E5%97%8E%EF%BC%9F%E7%BE%8E%E5%9C%8B%E4%B8%AD%E6%9C%9F%E9%81%B8%E8%88%89%E5%A4%A7%E7%88%86%E9%9B%B7.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/09d02c0f5b98327604b4b5a6/%E3%80%90%E9%A2%91%E9%81%93%20Terry%20Chen%20%E6%B3%B0%E7%91%9E%E3%80%91AI%20%E7%B5%82%E6%96%BC%E8%A6%81%E5%B4%A9%E7%9B%A4%E4%BA%86%E5%97%8E%EF%BC%9F%E7%BE%8E%E5%9C%8B%E4%B8%AD%E6%9C%9F%E9%81%B8%E8%88%89%E5%A4%A7%E7%88%86%E9%9B%B7.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/09d02c0f5b98327604b4b5a6",
+  "saved_at": 1793980185.7545202
+}
