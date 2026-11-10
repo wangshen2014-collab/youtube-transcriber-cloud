@@ -170,7 +170,7 @@
         "title": "2026-11-09_视野环球财经_NVDA_AMD_TSM_SPY_QQQ_CRWV_行情与仓位",
         "kind": "单项结果",
         "path": "jobs/e505f637e903b8e821c56d9c/2026-11-09_视野环球财经_NVDA_AMD_TSM_SPY_QQQ_CRWV_行情与仓位.txt",
-        "sha": null,
+        "sha": "eae94ce6e2d353a8efa5127051bfbbf64cfd1d7a",
         "files": {
           "txt": "jobs/e505f637e903b8e821c56d9c/2026-11-09_视野环球财经_NVDA_AMD_TSM_SPY_QQQ_CRWV_行情与仓位.txt",
           "srt": "jobs/e505f637e903b8e821c56d9c/2026-11-09_视野环球财经_NVDA_AMD_TSM_SPY_QQQ_CRWV_行情与仓位.srt",
@@ -301,6 +301,24 @@
           "txt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.txt",
           "srt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.srt",
           "json": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.json"
+        }
+      }
+    ]
+  },
+  {
+    "title": "【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？",
+    "category": "投资、经济与访谈",
+    "page": "catalog/5c58c8395e5f1c32.md",
+    "versions": [
+      {
+        "title": "【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？",
+        "kind": "单项结果",
+        "path": "jobs/0dd3417f253abcabef2229d4/【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.txt",
+        "sha": null,
+        "files": {
+          "txt": "jobs/0dd3417f253abcabef2229d4/【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.txt",
+          "srt": "jobs/0dd3417f253abcabef2229d4/【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.srt",
+          "json": "jobs/0dd3417f253abcabef2229d4/【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.json"
         }
       }
     ]

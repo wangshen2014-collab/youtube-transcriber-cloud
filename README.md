@@ -36,6 +36,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！](catalog/7e4c4439f96c49dd.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？](catalog/20d51c3639948b89.md) | 单项结果 1 |
+| [【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](catalog/5c58c8395e5f1c32.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！](catalog/544559d16c0634ad.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！](catalog/5b13e9859907ba3b.md) | 单项结果 1 |
 | [两期美股节目_前科技股跳水_后天塌了_高精度合并](catalog/fee1474a40e88d26.md) | 合并版 1 |
@@ -75,4 +76,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[2026-11-09｜【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！](jobs/e505f637e903b8e821c56d9c/README.md)
+最新保存：[【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](jobs/0dd3417f253abcabef2229d4/README.md)

@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "8400f4339fb99b374022cabae4e2ea6ef037dfe59ec6ce8eafc40202993a2497",
+    "source_id": "audio-8400f4339fb99b374022caba"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/parallel-20261109/3/20261110-024846-d9b91432",
+  "timings_seconds": {
+    "local_source_selection": 9.07240000742604e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.620574103000081,
+    "model_load": 3.4636959399999796,
+    "transcription": 823.2157562119999,
+    "total_this_invocation": 829.6149616729999
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/3a18163e-fcf3-4541-8413-6ba1113a4899/【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.webm",
+    "sha256": "8400f4339fb99b374022cabae4e2ea6ef037dfe59ec6ce8eafc40202993a2497",
+    "original_name": "【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？.webm",
+  "audio_duration_seconds": 1017.6958125,
+  "selected_start": 0.0,
+  "selected_end": 1017.6958125,
+  "language_probability": 0.9995169639587402,
+  "segment_count": 416,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1013.6,
+  "peak_ram_mb": 2106.8,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "transcription_date_local": "2026-11-09",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 2,
+  "terminology_review": {
+    "method": "Spelling review of company names, tickers and proper nouns; unclear words are marked, claims are preserved",
+    "changes": [
+      {
+        "before": "John Mulanar",
+        "after": "John Moolenaar",
+        "count": 1
+      },
+      {
+        "before": "MICROSPEED",
+        "after": "Megaspeed",
+        "count": 2
+      },
+      {
+        "before": "Max Speed",
+        "after": "Megaspeed",
+        "count": 1
+      },
+      {
+        "before": "SPEEDMATRIX",
+        "after": "SpeedMatrix",
+        "count": 1
+      },
+      {
+        "before": "应伟达",
+        "after": "英伟达",
+        "count": 6
+      },
+      {
+        "before": "拒此拒绝",
+        "after": "据此拒绝",
+        "count": 1
+      }
+    ]
+  }
+}
