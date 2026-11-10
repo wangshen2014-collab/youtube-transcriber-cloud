@@ -1,0 +1,140 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "d7f2c8b444dbeb286d2f911a3796c5c5a963724c69e61016ed6b583c95701eec",
+    "source_id": "audio-d7f2c8b444dbeb286d2f911a"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/parallel-20261109/5/20261110-023331-63530871",
+  "timings_seconds": {
+    "local_source_selection": 9.077300001081312e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.752135509000027,
+    "model_load": 2.1155291810000563,
+    "transcription": 1396.6364370070003,
+    "total_this_invocation": 1402.812952143
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/fac39b81-072e-4111-adc5-33fb6336e06e/【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109.webm",
+    "sha256": "d7f2c8b444dbeb286d2f911a3796c5c5a963724c69e61016ed6b583c95701eec",
+    "original_name": "【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109.webm",
+  "audio_duration_seconds": 1866.1333125,
+  "selected_start": 0.0,
+  "selected_end": 1866.1333125,
+  "language_probability": 0.997525155544281,
+  "segment_count": 929,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1848.92,
+  "peak_ram_mb": 2667.9,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "original_segment_count": 945,
+  "spoken_languages": [
+    "zh",
+    "en"
+  ],
+  "language_review": [
+    {
+      "start": 1780.0,
+      "end": 1866.1333125,
+      "language": "en",
+      "note": "Re-transcribed the English interview/news excerpts in their spoken language, replacing unintended Chinese translations; uncertain words are explicitly marked."
+    }
+  ],
+  "transcription_date_local": "2026-11-09",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 2,
+  "terminology_review": {
+    "method": "Spelling review of company names, tickers and proper nouns; unclear words are marked, claims are preserved",
+    "changes": [
+      {
+        "before": "Megaspade",
+        "after": "Megaspeed",
+        "count": 2
+      },
+      {
+        "before": "MegaSpeed",
+        "after": "Megaspeed",
+        "count": 1
+      },
+      {
+        "before": "Mega Speed",
+        "after": "Megaspeed",
+        "count": 2
+      },
+      {
+        "before": "FBICIA",
+        "after": "FBI、CIA",
+        "count": 1
+      },
+      {
+        "before": "IH100",
+        "after": "H100",
+        "count": 1
+      },
+      {
+        "before": "IHI吧",
+        "after": "〔此处芯片型号听辨不清〕吧",
+        "count": 1
+      },
+      {
+        "before": "黄人欣",
+        "after": "黄仁勋",
+        "count": 7
+      },
+      {
+        "before": "黄勋",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "超级电话",
+        "after": "抄起电话",
+        "count": 1
+      },
+      {
+        "before": "纯属是对话的路面模式",
+        "after": "纯属是〔此处词语听辨不清〕",
+        "count": 1
+      },
+      {
+        "before": "Jensen Wong",
+        "after": "Jensen Huang",
+        "count": 1
+      },
+      {
+        "before": "spy monster",
+        "after": "spy [unclear]",
+        "count": 1
+      },
+      {
+        "before": "How did you get so close",
+        "after": "How did [unclear] get so close",
+        "count": 1
+      }
+    ]
+  }
+}

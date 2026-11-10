@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "d7f2c8b444dbeb286d2f911a3796c5c5a963724c69e61016ed6b583c95701eec",
+    "source_id": "audio-d7f2c8b444dbeb286d2f911a"
+  },
+  "title": "【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3be7654fad0a4df0e3438b72/%E3%80%90%E9%A2%91%E9%81%93%20%E7%8E%8B%E5%BF%97%E5%AE%89%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E4%B8%AD%E5%85%B1%E7%BE%8E%E5%A5%B3%E9%97%B4%E8%B0%8D%E7%96%91%E4%BA%91%EF%BC%9F%EF%BD%9C%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BD%9C%E9%BB%84%E4%B9%90Alice%20Huang%EF%BD%9C%E7%89%B9%E6%9C%97%E6%99%AE%EF%BD%9CFBI%EF%BD%9C%E5%8D%A2%E6%AF%94%E5%A5%A5%EF%BD%9CB200%E6%98%BE%E5%8D%A1%EF%BD%9C%E7%8E%8B%E5%B1%80%E6%8B%8D%E6%A1%8820261109.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3be7654fad0a4df0e3438b72/%E3%80%90%E9%A2%91%E9%81%93%20%E7%8E%8B%E5%BF%97%E5%AE%89%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E4%B8%AD%E5%85%B1%E7%BE%8E%E5%A5%B3%E9%97%B4%E8%B0%8D%E7%96%91%E4%BA%91%EF%BC%9F%EF%BD%9C%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BD%9C%E9%BB%84%E4%B9%90Alice%20Huang%EF%BD%9C%E7%89%B9%E6%9C%97%E6%99%AE%EF%BD%9CFBI%EF%BD%9C%E5%8D%A2%E6%AF%94%E5%A5%A5%EF%BD%9CB200%E6%98%BE%E5%8D%A1%EF%BD%9C%E7%8E%8B%E5%B1%80%E6%8B%8D%E6%A1%8820261109.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/3be7654fad0a4df0e3438b72/%E3%80%90%E9%A2%91%E9%81%93%20%E7%8E%8B%E5%BF%97%E5%AE%89%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E4%B8%AD%E5%85%B1%E7%BE%8E%E5%A5%B3%E9%97%B4%E8%B0%8D%E7%96%91%E4%BA%91%EF%BC%9F%EF%BD%9C%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BD%9C%E9%BB%84%E4%B9%90Alice%20Huang%EF%BD%9C%E7%89%B9%E6%9C%97%E6%99%AE%EF%BD%9CFBI%EF%BD%9C%E5%8D%A2%E6%AF%94%E5%A5%A5%EF%BD%9CB200%E6%98%BE%E5%8D%A1%EF%BD%9C%E7%8E%8B%E5%B1%80%E6%8B%8D%E6%A1%8820261109.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/3be7654fad0a4df0e3438b72",
+  "saved_at": 1794280132.609667
+}
