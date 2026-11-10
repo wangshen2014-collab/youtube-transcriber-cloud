@@ -1,0 +1,112 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+    "source_id": "audio-081f945ff053dc058c38c9d5"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/parallel-20261109/1/20261110-022342-be00d40f",
+  "timings_seconds": {
+    "local_source_selection": 0.00012819900001659335,
+    "download_or_cache": 0.0,
+    "audio_decode": 5.54266134400001,
+    "model_load": 2.669957956000019,
+    "transcription": 1495.74475058,
+    "total_this_invocation": 1504.446770556
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/ce3ab47c-31bb-42dd-9b22-f3423e34eee5/【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm",
+    "sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+    "original_name": "【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm",
+  "audio_duration_seconds": 2137.6426875,
+  "selected_start": 0.0,
+  "selected_end": 2137.6426875,
+  "language_probability": 0.9978262782096863,
+  "segment_count": 1204,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2137.04,
+  "peak_ram_mb": 2908.6,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "transcription_date_local": "2026-11-09",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 2,
+  "terminology_review": {
+    "method": "Spelling review of company names, tickers and proper nouns; unclear words are marked, claims are preserved",
+    "changes": [
+      {
+        "before": "CRWCoviv",
+        "after": "CRWV（CoreWeave）",
+        "count": 1
+      },
+      {
+        "before": "CTSSprite",
+        "after": "CDS spread",
+        "count": 1
+      },
+      {
+        "before": "CTS的Sprite",
+        "after": "CDS 的 spread",
+        "count": 1
+      },
+      {
+        "before": "Coviv",
+        "after": "CoreWeave",
+        "count": 3
+      },
+      {
+        "before": "MD",
+        "after": "AMD",
+        "count": 10
+      },
+      {
+        "before": "cta",
+        "after": "CTA",
+        "count": 13
+      },
+      {
+        "before": "sp1",
+        "after": "SPY",
+        "count": 1
+      },
+      {
+        "before": "Anthorpec",
+        "after": "Anthropic",
+        "count": 1
+      },
+      {
+        "before": "IPO的录演",
+        "after": "IPO的路演",
+        "count": 1
+      },
+      {
+        "before": "斯大科技",
+        "after": "〔此处公司类别听辨不清〕",
+        "count": 3
+      }
+    ]
+  }
+}
