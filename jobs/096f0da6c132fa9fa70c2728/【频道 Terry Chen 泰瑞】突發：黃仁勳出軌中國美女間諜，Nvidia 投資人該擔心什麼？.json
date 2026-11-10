@@ -1,0 +1,127 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "0d29f8561484f8e7a8b4e29ccba306f53f33fc699a2b32729593bf74c8030415",
+    "source_id": "audio-0d29f8561484f8e7a8b4e29c"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/parallel-20261109/2/20261110-022342-41f1c19b",
+  "timings_seconds": {
+    "local_source_selection": 0.0001180239999598598,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.138109575000044,
+    "model_load": 2.307095217999972,
+    "transcription": 584.44787553,
+    "total_this_invocation": 589.376035971
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/d388ecf8-dac6-4c22-902d-7c9b8ba5aabe/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.webm",
+    "sha256": "0d29f8561484f8e7a8b4e29ccba306f53f33fc699a2b32729593bf74c8030415",
+    "original_name": "【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.webm",
+  "audio_duration_seconds": 817.8068125,
+  "selected_start": 0.0,
+  "selected_end": 817.8068125,
+  "language_probability": 0.9989847540855408,
+  "segment_count": 390,
+  "detected_language": "zh",
+  "last_completed_audio_second": 817.74,
+  "peak_ram_mb": 2532.3,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "transcription_date_local": "2026-11-09",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 2,
+  "terminology_review": {
+    "method": "Spelling review of company names, tickers and proper nouns; unclear words are marked, claims are preserved",
+    "changes": [
+      {
+        "before": "第三大磁場",
+        "after": "第三大持倉",
+        "count": 1
+      },
+      {
+        "before": "threats",
+        "after": "Threads",
+        "count": 1
+      },
+      {
+        "before": "Polimarket",
+        "after": "Polymarket",
+        "count": 1
+      },
+      {
+        "before": "這個CQ",
+        "after": "這個10-Q",
+        "count": 1
+      },
+      {
+        "before": "Opto",
+        "after": "up to",
+        "count": 1
+      },
+      {
+        "before": "上線大概",
+        "after": "上限大概",
+        "count": 1
+      },
+      {
+        "before": "NVIDIA P1",
+        "after": "NVIDIA P/E",
+        "count": 1
+      },
+      {
+        "before": "QQ",
+        "after": "QQQ",
+        "count": 1
+      },
+      {
+        "before": "VO",
+        "after": "VOO",
+        "count": 1
+      },
+      {
+        "before": "IBKR銀透證券",
+        "after": "IBKR盈透證券",
+        "count": 1
+      },
+      {
+        "before": "FirstTrade",
+        "after": "Firstrade",
+        "count": 2
+      },
+      {
+        "before": "NVIDIACEO",
+        "after": "NVIDIA CEO",
+        "count": 1
+      },
+      {
+        "before": "收集黃仁勳的行道",
+        "after": "收集黃仁勳的〔此處詞語聽辨不清〕",
+        "count": 1
+      }
+    ]
+  }
+}
