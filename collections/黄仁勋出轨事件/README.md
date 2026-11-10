@@ -12,7 +12,9 @@
 
 ## 【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？
 
-转录及校对进行中，完成后补充下载链接。
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0dd3417f253abcabef2229d4/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E5%A4%A7%E4%BA%8B%E4%BA%86%EF%BC%9A%E6%89%BF%E8%AE%A4%E5%87%BA%E8%BD%A8%EF%BC%8C%E6%81%8B%E4%B8%8A%E5%A5%B3%E9%97%B4%E8%B0%8D%EF%BC%9F.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0dd3417f253abcabef2229d4/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E5%A4%A7%E4%BA%8B%E4%BA%86%EF%BC%9A%E6%89%BF%E8%AE%A4%E5%87%BA%E8%BD%A8%EF%BC%8C%E6%81%8B%E4%B8%8A%E5%A5%B3%E9%97%B4%E8%B0%8D%EF%BC%9F.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0dd3417f253abcabef2229d4/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E5%A4%A7%E4%BA%8B%E4%BA%86%EF%BC%9A%E6%89%BF%E8%AE%A4%E5%87%BA%E8%BD%A8%EF%BC%8C%E6%81%8B%E4%B8%8A%E5%A5%B3%E9%97%B4%E8%B0%8D%EF%BC%9F.json)
+
+[结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0dd3417f253abcabef2229d4)
 
 ## 【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链
 
