@@ -78,4 +78,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链](jobs/f3b26a1cbe019db05118bb45/README.md)
+最新保存：[【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109](jobs/3be7654fad0a4df0e3438b72/README.md)
