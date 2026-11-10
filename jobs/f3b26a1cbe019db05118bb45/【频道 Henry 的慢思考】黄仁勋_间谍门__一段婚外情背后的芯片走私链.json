@@ -1,0 +1,137 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "7899aa83068456507756c1c385384a2a663fea73309aea977b0be0936c074e3f",
+    "source_id": "audio-7899aa83068456507756c1c3"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/parallel-20261109/4/20261110-025654-cbb19f0f",
+  "timings_seconds": {
+    "local_source_selection": 6.440500010285177e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.977863029999753,
+    "model_load": 2.2252253329997984,
+    "transcription": 715.1106443830004,
+    "total_this_invocation": 719.6064429819999
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/b5790fc3-f720-4b6c-9e75-ff59ac0c9932/【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链.webm",
+    "sha256": "7899aa83068456507756c1c385384a2a663fea73309aea977b0be0936c074e3f",
+    "original_name": "【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链.webm",
+  "audio_duration_seconds": 927.706875,
+  "selected_start": 0.0,
+  "selected_end": 927.706875,
+  "language_probability": 0.9992641806602478,
+  "segment_count": 428,
+  "detected_language": "zh",
+  "last_completed_audio_second": 921.72,
+  "peak_ram_mb": 2610.5,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "transcription_date_local": "2026-11-09",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 2,
+  "terminology_review": {
+    "method": "Spelling review of company names, tickers and proper nouns; unclear words are marked, claims are preserved",
+    "changes": [
+      {
+        "before": "Jansen Hwang",
+        "after": "Jensen Huang",
+        "count": 8
+      },
+      {
+        "before": "Jansen",
+        "after": "Jensen",
+        "count": 1
+      },
+      {
+        "before": "Alice Hwang",
+        "after": "Alice Huang",
+        "count": 4
+      },
+      {
+        "before": "Huans",
+        "after": "Huangs",
+        "count": 1
+      },
+      {
+        "before": "Latnick",
+        "after": "Lutnick",
+        "count": 1
+      },
+      {
+        "before": "Super Michael",
+        "after": "Supermicro",
+        "count": 3
+      },
+      {
+        "before": "Wally Lue",
+        "after": "Wally Liaw",
+        "count": 1
+      },
+      {
+        "before": "Copper Research",
+        "after": "Culper Research",
+        "count": 1
+      },
+      {
+        "before": "Copper",
+        "after": "Culper",
+        "count": 1
+      },
+      {
+        "before": "Pack ratio",
+        "after": "PEG ratio",
+        "count": 2
+      },
+      {
+        "before": "江苏素签",
+        "after": "江苏宿迁",
+        "count": 1
+      },
+      {
+        "before": "折集美国",
+        "after": "折戟美国",
+        "count": 1
+      },
+      {
+        "before": "惊天大光",
+        "after": "惊天大瓜",
+        "count": 1
+      },
+      {
+        "before": "更大的刮",
+        "after": "更大的瓜",
+        "count": 1
+      },
+      {
+        "before": "NVIDIACEO",
+        "after": "NVIDIA CEO",
+        "count": 1
+      }
+    ]
+  }
+}
