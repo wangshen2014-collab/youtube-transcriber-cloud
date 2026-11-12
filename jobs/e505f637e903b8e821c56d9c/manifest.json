@@ -22,5 +22,15 @@
     "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/e505f637e903b8e821c56d9c/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_NVDA_AMD_TSM_SPY_QQQ_CRWV_%E8%A1%8C%E6%83%85%E4%B8%8E%E4%BB%93%E4%BD%8D.json"
   },
   "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/e505f637e903b8e821c56d9c",
-  "saved_at": 1794279030.477182
+  "saved_at": 1794279030.477182,
+  "high_accuracy_review": {
+    "model": "large-v3",
+    "beam_size": 5,
+    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/45304bf950ab52c5b8fbd75d",
+    "files": {
+      "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
+      "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
+      "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+    }
+  }
 }
