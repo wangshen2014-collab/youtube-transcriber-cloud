@@ -1,0 +1,344 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+    "source_id": "audio-081f945ff053dc058c38c9d5"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-high-20261111/1/20261112-052342-e1565791",
+  "timings_seconds": {
+    "local_source_selection": 6.16909999280324e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.616157268000052,
+    "model_load": 5.020878719000052,
+    "transcription": 4823.967537794,
+    "total_this_invocation": 4833.658269942
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/ce3ab47c-31bb-42dd-9b22-f3423e34eee5/【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm",
+    "sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+    "original_name": "【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！.webm",
+  "audio_duration_seconds": 2137.6426875,
+  "selected_start": 0.0,
+  "selected_end": 2137.6426875,
+  "language_probability": 0.9964414238929749,
+  "segment_count": 1094,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2137.02,
+  "peak_ram_mb": 5377.6,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "original_segment_count": 1098,
+  "segment_review": [
+    {
+      "start": 326.68,
+      "before": "500指数",
+      "after": ""
+    },
+    {
+      "start": 625.8,
+      "before": "同时多空的净杠杆率也下降了3.7个百分点",
+      "after": ""
+    },
+    {
+      "start": 626.0,
+      "before": "同时多空的净杠杆率也下降了3.7个百分点",
+      "after": ""
+    },
+    {
+      "start": 684.34,
+      "before": "在周四包括周五的行情中",
+      "after": ""
+    },
+    {
+      "start": 1648.96,
+      "before": "759776",
+      "after": "759、776"
+    }
+  ],
+  "quality_mode": "large-v3 high-accuracy",
+  "broadcast_date": "2026-11-09",
+  "broadcast_timezone": "America/New_York",
+  "transcription_date_local": "2026-11-11",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 3,
+  "terminology_review": {
+    "method": "High-model full transcription plus terminology/numeric review; uncertain words marked instead of inferred market values",
+    "changes": [
+      {
+        "before": "费城半导机指数",
+        "after": "费城半导体指数",
+        "count": 1
+      },
+      {
+        "before": "费办",
+        "after": "费半",
+        "count": 1
+      },
+      {
+        "before": "Covid",
+        "after": "CoreWeave",
+        "count": 4
+      },
+      {
+        "before": "驱杠杆驱得",
+        "after": "去杠杆去得",
+        "count": 1
+      },
+      {
+        "before": "车杠杆",
+        "after": "去杠杆",
+        "count": 1
+      },
+      {
+        "before": "自然力",
+        "after": "自然历",
+        "count": 3
+      },
+      {
+        "before": "黄荣勋",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "MD",
+        "after": "AMD",
+        "count": 10
+      },
+      {
+        "before": "期权压住",
+        "after": "期权押注",
+        "count": 1
+      },
+      {
+        "before": "期权的波动的压住",
+        "after": "期权的波动的押注",
+        "count": 1
+      },
+      {
+        "before": "斯大科技",
+        "after": "四大科技",
+        "count": 3
+      },
+      {
+        "before": "废办",
+        "after": "费半",
+        "count": 10
+      },
+      {
+        "before": "种仓",
+        "after": "重仓",
+        "count": 1
+      },
+      {
+        "before": "AI信息测试",
+        "after": "AI信心测试",
+        "count": 1
+      },
+      {
+        "before": "建设放火",
+        "after": "建设放缓",
+        "count": 1
+      },
+      {
+        "before": "你当时接到450左右",
+        "after": "当时跌到450左右",
+        "count": 1
+      },
+      {
+        "before": "CTS",
+        "after": "CDS",
+        "count": 1
+      },
+      {
+        "before": "新鲜的测试",
+        "after": "信心的测试",
+        "count": 1
+      },
+      {
+        "before": "里面30成分股",
+        "after": "里面30只成分股",
+        "count": 1
+      },
+      {
+        "before": "信息测试",
+        "after": "信心测试",
+        "count": 1
+      },
+      {
+        "before": "摩根纳通",
+        "after": "摩根大通",
+        "count": 1
+      },
+      {
+        "before": "嘎空",
+        "after": "轧空",
+        "count": 3
+      },
+      {
+        "before": "进购期",
+        "after": "禁购期",
+        "count": 1
+      },
+      {
+        "before": "最终基金",
+        "after": "对冲基金",
+        "count": 2
+      },
+      {
+        "before": "下节过程中",
+        "after": "下跌过程中",
+        "count": 1
+      },
+      {
+        "before": "下方的加速出发",
+        "after": "下方的加速触发",
+        "count": 1
+      },
+      {
+        "before": "2028年前在的情况",
+        "after": "2028年潜在的情况",
+        "count": 1
+      },
+      {
+        "before": "投的不回",
+        "after": "头都不回",
+        "count": 1
+      },
+      {
+        "before": "如果它不误跌",
+        "after": "如果它不跌",
+        "count": 1
+      }
+    ],
+    "review_notes": [
+      "Normalize recognizable financial names and homophones only; preserve the speaker’s claims and numerical values.",
+      "Company/ticker normalizations use within-audio context and supplied source titles.",
+      "130–156秒已另取原音独立识别，结果为“四大科技”；同片后段又明确列出微软、亚马逊、谷歌、Meta，未虚构一家“斯大科技”。",
+      "318–333、600–634、675–691秒独立原音复核均支持仅说一次；删除4个0.02–0.2秒的重复短段，保留真正的500指数、3.7个百分点和周四/周五句。1270–1290秒另作独立识别，450数值一致；施工语境“建设放火”按建设放缓规范。",
+      "1642–1663秒独立识别仍将连续读出的端点拼成759776；仅用顿号分隔为759、776，不增删端点数字。同系列11月11日又明确讲到759至776压力区间，可交叉核对，未将其当作单个759776点位。",
+      "完整原音2137.6426875秒已重新识别，1098个原字幕段，最后语音2137.02秒，含片尾告别。",
+      "已阅读完整文本，核对片头日期、金融词、公司名、代码、近零时长重复、片尾；13个数值差异候选均有逐项判定。未修改讲话者对价格、仓位、未来事件的论述。"
+    ]
+  },
+  "previous_result": {
+    "url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/e505f637e903b8e821c56d9c",
+    "settings": {
+      "language": "auto",
+      "model": "medium",
+      "threads": 2,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+      "source_id": "audio-081f945ff053dc058c38c9d5"
+    },
+    "review_scope": "Entire original audio retranscribed with large-v3, beam 5"
+  },
+  "previous_version_comparison": {
+    "same_original_audio": true,
+    "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+    "previous_model": "medium",
+    "previous_beam_size": 3,
+    "new_model": "large-v3",
+    "new_beam_size": 5,
+    "review_method": "Full original audio retranscription; compare Arabic-numeral tokens in 30-second windows; inspect timing/wording and independently retranscribe selected original clips. This is not a claim of human-verified perfect transcription.",
+    "candidate_windows_reviewed": 13,
+    "resolutions": [
+      {
+        "start": 300,
+        "end": 330,
+        "resolution": "删除已由独立原音片段确认的500指数重复短段。"
+      },
+      {
+        "start": 600,
+        "end": 630,
+        "resolution": "删除两次0.1–0.2秒的3.7个百分点重复短段；保留实际一次。"
+      },
+      {
+        "start": 630,
+        "end": 660,
+        "resolution": "中文/阿拉伯数字写法差异，无数值改写。"
+      },
+      {
+        "start": 840,
+        "end": 870,
+        "resolution": "零/0写法差异。"
+      },
+      {
+        "start": 1020,
+        "end": 1050,
+        "resolution": "2028/28年份简称及月份中文写法，原口述保留。"
+      },
+      {
+        "start": 1050,
+        "end": 1080,
+        "resolution": "一月/二月中文写法，原口述保留。"
+      },
+      {
+        "start": 1260,
+        "end": 1290,
+        "resolution": "五年/5年写法差异。"
+      },
+      {
+        "start": 1530,
+        "end": 1560,
+        "resolution": "679跨30秒窗口边界，非实质差异。"
+      },
+      {
+        "start": 1590,
+        "end": 1620,
+        "resolution": "20的口头重复保留，非新价位。"
+      },
+      {
+        "start": 1620,
+        "end": 1650,
+        "resolution": "旧版把二次听为20，新版为二次；连续报出的759、776仅加分隔，不增删端点数字。"
+      },
+      {
+        "start": 1770,
+        "end": 1800,
+        "resolution": "旧版30%成分股，新版30成分股按30只规范，数目30保持。"
+      },
+      {
+        "start": 2070,
+        "end": 2100,
+        "resolution": "三十四五分钟与旧版阿拉伯数字写法不同。"
+      },
+      {
+        "start": 2100,
+        "end": 2130,
+        "resolution": "与前窗相同的三十四五分钟/窗口交叠差异。"
+      }
+    ],
+    "note": "数值比较会受汉字写法、简称和窗口边界影响；不把差异候选自动当错误，不用行情常识改口述值。"
+  }
+}
