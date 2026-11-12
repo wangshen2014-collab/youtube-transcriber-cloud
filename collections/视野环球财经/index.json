@@ -1,0 +1,230 @@
+{
+  "kind": "channel",
+  "title": "视野环球财经",
+  "collection_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F",
+  "status": "completed",
+  "results": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+        "source_id": "audio-081f945ff053dc058c38c9d5"
+      },
+      "title": "2026-11-09｜高精度｜【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/45304bf950ab52c5b8fbd75d",
+      "saved_at": 1794466096.163569,
+      "broadcast_date": "2026-11-09",
+      "storage_transport": "connected GitHub plugin",
+      "commit_sha": "f1ff76a53193c303645daaf679284dfef067801b",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+      }
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "7c39f25958923b6a892dcb489949ea78e7befe0a92751a3843ad0f311627a1a4",
+        "source_id": "audio-7c39f25958923b6a892dcb48"
+      },
+      "title": "2026-11-10｜高精度｜【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/bb4a69d8bc8b4b25e72298ea",
+      "saved_at": 1794466143.4627512,
+      "broadcast_date": "2026-11-10",
+      "storage_transport": "connected GitHub plugin",
+      "commit_sha": "26eb3c606fa65555e5b5f22b700a681d4aad56c0",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json"
+      }
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "b7fec641049e6661282436f846ebe7225f2e592a6c82e2dabbc7444a8c655f0c",
+        "source_id": "audio-b7fec641049e6661282436f8"
+      },
+      "title": "2026-11-11｜高精度｜【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5e031ce9289e8d183563720b",
+      "saved_at": 1794465323.387245,
+      "broadcast_date": "2026-11-11",
+      "storage_transport": "connected GitHub plugin",
+      "commit_sha": "d1e24d98ec8f1fa991cc325b4701c20d65cd2c2d",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.json"
+      }
+    }
+  ],
+  "current_batch": {
+    "date_range": [
+      "2026-11-09",
+      "2026-11-11"
+    ],
+    "quality": "large-v3 / CPU int8 / beam 5",
+    "status": "completed",
+    "results": [
+      {
+        "status": "completed",
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 2,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "081f945ff053dc058c38c9d501482458029b46eefeae2db4927d5eaadefd0048",
+          "source_id": "audio-081f945ff053dc058c38c9d5"
+        },
+        "title": "2026-11-09｜高精度｜【频道 视野环球财经】美股 上蹿下跳比猴还快！止跌了没？机构看法！我的仓位变动，CTA更新！ NVDA、AMD、TSM、SPY、QQQ！明天CRWV财报测试信心！",
+        "files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+        },
+        "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/45304bf950ab52c5b8fbd75d",
+        "saved_at": 1794466096.163569,
+        "broadcast_date": "2026-11-09",
+        "storage_transport": "connected GitHub plugin",
+        "commit_sha": "f1ff76a53193c303645daaf679284dfef067801b",
+        "job_files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/45304bf950ab52c5b8fbd75d/2026-11-09_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%A1%8C%E6%83%85_CTA%E4%B8%8E%E4%BB%93%E4%BD%8D_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+        }
+      },
+      {
+        "status": "completed",
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 2,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "7c39f25958923b6a892dcb489949ea78e7befe0a92751a3843ad0f311627a1a4",
+          "source_id": "audio-7c39f25958923b6a892dcb48"
+        },
+        "title": "2026-11-10｜高精度｜【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！",
+        "files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json"
+        },
+        "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/bb4a69d8bc8b4b25e72298ea",
+        "saved_at": 1794466143.4627512,
+        "broadcast_date": "2026-11-10",
+        "storage_transport": "connected GitHub plugin",
+        "commit_sha": "26eb3c606fa65555e5b5f22b700a681d4aad56c0",
+        "job_files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json"
+        }
+      },
+      {
+        "status": "completed",
+        "settings": {
+          "language": "auto",
+          "model": "large-v3",
+          "threads": 2,
+          "beam_size": 5,
+          "device": "cpu",
+          "compute_type": "int8",
+          "vad_filter": false,
+          "condition_on_previous_text": true,
+          "start": 0.0,
+          "end": null,
+          "source_type": "audio_file",
+          "audio_sha256": "b7fec641049e6661282436f846ebe7225f2e592a6c82e2dabbc7444a8c655f0c",
+          "source_id": "audio-b7fec641049e6661282436f8"
+        },
+        "title": "2026-11-11｜高精度｜【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！",
+        "files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.json"
+        },
+        "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5e031ce9289e8d183563720b",
+        "saved_at": 1794465323.387245,
+        "broadcast_date": "2026-11-11",
+        "storage_transport": "connected GitHub plugin",
+        "commit_sha": "d1e24d98ec8f1fa991cc325b4701c20d65cd2c2d",
+        "job_files": {
+          "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.txt",
+          "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.srt",
+          "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.json"
+        }
+      }
+    ]
+  },
+  "legacy_files": [
+    "collections/视野环球财经/【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！.json",
+    "collections/视野环球财经/【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！.srt",
+    "collections/视野环球财经/【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！.txt",
+    "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.json",
+    "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.srt",
+    "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.txt"
+  ]
+}

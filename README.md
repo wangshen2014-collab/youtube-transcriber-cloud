@@ -81,4 +81,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[2026-11-10｜高精度｜【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！](jobs/bb4a69d8bc8b4b25e72298ea/README.md)
+最新保存：[2026-11-11｜高精度｜【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！](jobs/5e031ce9289e8d183563720b/README.md)

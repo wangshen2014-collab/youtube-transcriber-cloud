@@ -1,0 +1,285 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "7c39f25958923b6a892dcb489949ea78e7befe0a92751a3843ad0f311627a1a4",
+    "source_id": "audio-7c39f25958923b6a892dcb48"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-high-20261111/3/20261112-052402-ae3d36e2",
+  "timings_seconds": {
+    "local_source_selection": 0.00012837899998885405,
+    "download_or_cache": 0.0,
+    "audio_decode": 5.03708012200002,
+    "model_load": 6.42249313100001,
+    "transcription": 4551.009751799,
+    "total_this_invocation": 4562.507465529
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/890c0136-baed-443d-a958-259cf85b5e4f/【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！.webm",
+    "sha256": "7c39f25958923b6a892dcb489949ea78e7befe0a92751a3843ad0f311627a1a4",
+    "original_name": "【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！.webm",
+  "audio_duration_seconds": 1917.248,
+  "selected_start": 0.0,
+  "selected_end": 1917.248,
+  "language_probability": 0.9983939528465271,
+  "segment_count": 995,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1916.42,
+  "peak_ram_mb": 5321.4,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "original_segment_count": 998,
+  "segment_review": [
+    {
+      "start": 325.0,
+      "before": "其实真的只要出了点货币的话呢",
+      "after": "其实真的只要出了点问题的话呢"
+    },
+    {
+      "start": 325.72,
+      "before": "只要出了点货币的话呢",
+      "after": ""
+    },
+    {
+      "start": 326.4,
+      "before": "只要出了点货币的话呢",
+      "after": ""
+    },
+    {
+      "start": 1403.74,
+      "before": "还有整整的年轻人生",
+      "after": "还有整整一年"
+    },
+    {
+      "start": 1404.06,
+      "before": "这种一年",
+      "after": ""
+    },
+    {
+      "start": 1041.6,
+      "before": "第四季度的利息的终止",
+      "after": "第四季度的利息的中值"
+    },
+    {
+      "start": 1044.8,
+      "before": "是10亿",
+      "after": "是11亿"
+    },
+    {
+      "start": 1162.92,
+      "before": "然后加上23亿美元的现金",
+      "after": "然后加上23亿美元的限制性的现金"
+    }
+  ],
+  "quality_mode": "large-v3 high-accuracy",
+  "broadcast_date": "2026-11-10",
+  "broadcast_timezone": "America/New_York",
+  "transcription_date_local": "2026-11-11",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 3,
+  "terminology_review": {
+    "method": "High-model full transcription plus terminology/numeric review; uncertain words marked instead of inferred market values",
+    "changes": [
+      {
+        "before": "Corewave",
+        "after": "CoreWeave",
+        "count": 1
+      },
+      {
+        "before": "CodeWeave",
+        "after": "CoreWeave",
+        "count": 2
+      },
+      {
+        "before": "Covid",
+        "after": "CoreWeave",
+        "count": 3
+      },
+      {
+        "before": "Solarpick",
+        "after": "Anthropic",
+        "count": 1
+      },
+      {
+        "before": "GAP",
+        "after": "GAAP",
+        "count": 1
+      },
+      {
+        "before": "GPS",
+        "after": "EPS",
+        "count": 1
+      },
+      {
+        "before": "美联储的李士沃勒",
+        "after": "美联储的理事沃勒",
+        "count": 1
+      },
+      {
+        "before": "SB7",
+        "after": "SB7〔公司名听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "期权市场的压住",
+        "after": "期权市场的押注",
+        "count": 1
+      },
+      {
+        "before": "这个压住的重点",
+        "after": "这个押注的重点",
+        "count": 1
+      },
+      {
+        "before": "标普成分股市涨跌割半",
+        "after": "标普成分股是涨跌各半",
+        "count": 1
+      },
+      {
+        "before": "Cloud for Excel",
+        "after": "Claude for Excel",
+        "count": 1
+      },
+      {
+        "before": "Cloud里面",
+        "after": "Claude里面",
+        "count": 1
+      },
+      {
+        "before": "存货几率",
+        "after": "存活几率",
+        "count": 1
+      },
+      {
+        "before": "财务书记",
+        "after": "财务数据",
+        "count": 1
+      },
+      {
+        "before": "书记中心",
+        "after": "数据中心",
+        "count": 1
+      },
+      {
+        "before": "营收增长也很坏",
+        "after": "营收增长也很快",
+        "count": 1
+      },
+      {
+        "before": "那这家亭南很多",
+        "after": "那这家订单很多",
+        "count": 1
+      },
+      {
+        "before": "过销资金",
+        "after": "过桥资金",
+        "count": 1
+      },
+      {
+        "before": "REN",
+        "after": "IREN",
+        "count": 1
+      },
+      {
+        "before": "加息0.5个基点的可能性",
+        "after": "加息0.5个基点〔利率单位听辨待核〕的可能性",
+        "count": 1
+      },
+      {
+        "before": "Azure Peak",
+        "after": "Anthropic",
+        "count": 2
+      },
+      {
+        "before": "Cloud模型",
+        "after": "Claude模型",
+        "count": 1
+      },
+      {
+        "before": "CD",
+        "after": "CDS",
+        "count": 1
+      },
+      {
+        "before": "应付款",
+        "after": "应付款〔款项名称听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "前将下线",
+        "after": "前瞻下限",
+        "count": 1
+      },
+      {
+        "before": "开始直损",
+        "after": "开始止损",
+        "count": 1
+      },
+      {
+        "before": "类似的简直",
+        "after": "类似的减值",
+        "count": 1
+      },
+      {
+        "before": "排气也非常",
+        "after": "排期也非常",
+        "count": 1
+      },
+      {
+        "before": "核心CPI方面是收入了",
+        "after": "核心CPI方面是录得了",
+        "count": 1
+      },
+      {
+        "before": "每亿美元中",
+        "after": "每亿美元中〔“一/亿”同音，金额单位听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "78以下就开始",
+        "after": "78〔价位听辨待核〕以下就开始",
+        "count": 1
+      },
+      {
+        "before": "百百数据分析",
+        "after": "〔词语听辨不清〕数据分析",
+        "count": 1
+      }
+    ],
+    "review_notes": [
+      "Normalize recognizable financial names and homophones only; preserve the speaker’s claims and numerical values.",
+      "Company/ticker normalizations use within-audio context and supplied source titles.",
+      "Anthropic is named clearly again in the later Microsoft/IPO section; normalize the earlier Solarpick spelling using that within-audio reference and the supplied title.",
+      "196–228秒以原音独立复核，仍识别“加息0.5个基点”，而同段后文另称50个基点；保留原识别数值并标明单位待核，未按金融常识换算或改写数值。",
+      "316–336秒独立原音识别明确为“出了点问题”，且只说一次；据此修正一次同音词并删除两个重复短段。",
+      "1380–1415秒原音片段独立识别为“还有整整一年”；修正0.3秒乱码片段并删除紧接的短重复，年份2026/2027/2028保持不变。1028–1055秒独立识别明确为利息“中值是11亿”，支持修正全片中值/10亿误识别，非按财务算术自行推定。",
+      "1144–1176秒独立原音复核支持23亿美元为“限制性的现金”，补回识别遗漏词。两次均识别为应付款，但与“收到”语境有歧义，保留原词并标注款项名称待核，未擅改为应收款。",
+      "495–526秒独立识别仍为“每亿美元中有30美分”；一/亿同音，金额单位标记待核，未仅按损失比例推断单位。",
+      "780–823秒独立识别的GEV阈值为722，整片识别为78；此处保留整片识别并明确标记价位待核，不根据后文770或估值自行补数字。",
+      "完整原音1917.248秒已识别，原字幕998段，最后语音到1916.42秒，包含片尾告别。已阅读全文并检查日期、术语、重复、数值疑点和片尾。"
+    ]
+  }
+}

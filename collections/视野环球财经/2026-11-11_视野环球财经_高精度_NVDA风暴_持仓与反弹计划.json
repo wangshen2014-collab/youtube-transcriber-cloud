@@ -1,0 +1,193 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b7fec641049e6661282436f846ebe7225f2e592a6c82e2dabbc7444a8c655f0c",
+    "source_id": "audio-b7fec641049e6661282436f8"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-high-20261111/2/20261112-052353-7bb3975e",
+  "timings_seconds": {
+    "local_source_selection": 6.331299994144501e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.050222339000015,
+    "model_load": 4.520853794000004,
+    "transcription": 3829.1305103080003,
+    "total_this_invocation": 3837.743384879
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/52d00989-ea0f-40e4-8448-669a0106c861/【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！.webm",
+    "sha256": "b7fec641049e6661282436f846ebe7225f2e592a6c82e2dabbc7444a8c655f0c",
+    "original_name": "【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！.webm",
+  "audio_duration_seconds": 1666.5813125,
+  "selected_start": 0.0,
+  "selected_end": 1666.5813125,
+  "language_probability": 0.9977565407752991,
+  "segment_count": 987,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1665.42,
+  "peak_ram_mb": 4007.4,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "large-v3 high-accuracy",
+  "broadcast_date": "2026-11-11",
+  "broadcast_timezone": "America/New_York",
+  "transcription_date_local": "2026-11-11",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_workers": 3,
+  "terminology_review": {
+    "method": "High-model full transcription plus terminology/numeric review; uncertain words marked instead of inferred market values",
+    "changes": [
+      {
+        "before": "半导机",
+        "after": "半导体",
+        "count": 1
+      },
+      {
+        "before": "黄荣勋",
+        "after": "黄仁勋",
+        "count": 3
+      },
+      {
+        "before": "费办",
+        "after": "费半",
+        "count": 2
+      },
+      {
+        "before": "Marvel",
+        "after": "Marvell",
+        "count": 2
+      },
+      {
+        "before": "出厂公司",
+        "after": "初创公司",
+        "count": 1
+      },
+      {
+        "before": "MD",
+        "after": "AMD",
+        "count": 1
+      },
+      {
+        "before": "AUTRO",
+        "after": "Ultra",
+        "count": 1
+      },
+      {
+        "before": "Fairman",
+        "after": "Feynman",
+        "count": 1
+      },
+      {
+        "before": "伯克希尔哈萨维",
+        "after": "伯克希尔哈撒韦",
+        "count": 1
+      },
+      {
+        "before": "邮税",
+        "after": "游说",
+        "count": 2
+      },
+      {
+        "before": "库达生态",
+        "after": "CUDA生态",
+        "count": 2
+      },
+      {
+        "before": "低温政治博弈",
+        "after": "地缘政治博弈",
+        "count": 1
+      },
+      {
+        "before": "重大堵住",
+        "after": "重大赌注",
+        "count": 1
+      },
+      {
+        "before": "君子不立威强之下",
+        "after": "君子不立危墙之下",
+        "count": 1
+      },
+      {
+        "before": "架构可能会卖的",
+        "after": "价格可能会卖得",
+        "count": 1
+      },
+      {
+        "before": "圣诞行星",
+        "after": "圣诞行情",
+        "count": 2
+      },
+      {
+        "before": "切断性的低点",
+        "after": "阶段性的低点",
+        "count": 1
+      },
+      {
+        "before": "嘎咕行情",
+        "after": "轧空行情",
+        "count": 1
+      },
+      {
+        "before": "之后两周的数据",
+        "after": "滞后两周的数据",
+        "count": 1
+      },
+      {
+        "before": "翘翘板",
+        "after": "跷跷板",
+        "count": 3
+      },
+      {
+        "before": "资金自然会这么压住",
+        "after": "资金自然会这么押注",
+        "count": 1
+      },
+      {
+        "before": "ISI",
+        "after": "RSI",
+        "count": 2
+      },
+      {
+        "before": "收个第一位",
+        "after": "收个低位",
+        "count": 1
+      },
+      {
+        "before": "2018年稳定壮大",
+        "after": "2018年〔年份听辨待核〕稳定壮大",
+        "count": 1
+      }
+    ],
+    "review_notes": [
+      "Normalize recognizable financial names and homophones only; preserve the speaker’s claims and numerical values.",
+      "Company/ticker normalizations use within-audio context and supplied source titles.",
+      "678–708秒已另取原音片段，用large-v3 / beam 5、关闭前文延续独立复核；年份仍识别为2018，但与上下文2028存在歧义，保留数值并明确标注待核，不据推测改数。",
+      "全长1666.5813125秒已完整识别；987个字幕段，最后语音到1665.42秒，含片尾告别。",
+      "已检查完整文本、英文术语、开头日期、片尾、短重复段和置信度提示；财报口述与交易观点按原音保留，讲话者对超买/超卖的自我纠正也保留。",
+      "728–755秒独立复核与完整转录一致，保留讲话者原表述。"
+    ]
+  }
+}
