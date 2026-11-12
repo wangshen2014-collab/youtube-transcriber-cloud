@@ -188,11 +188,29 @@
         "title": "2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV",
         "kind": "单项结果",
         "path": "jobs/45304bf950ab52c5b8fbd75d/2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
-        "sha": null,
+        "sha": "ad0e8e7407a3e012ad6566fe7657a7ec91349822",
         "files": {
           "txt": "jobs/45304bf950ab52c5b8fbd75d/2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV.txt",
           "srt": "jobs/45304bf950ab52c5b8fbd75d/2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV.srt",
           "json": "jobs/45304bf950ab52c5b8fbd75d/2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV.json"
+        }
+      }
+    ]
+  },
+  {
+    "title": "2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV",
+    "category": "投资、经济与访谈",
+    "page": "catalog/d671d009ea0dd327.md",
+    "versions": [
+      {
+        "title": "2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV",
+        "kind": "单项结果",
+        "path": "jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV.txt",
+        "sha": null,
+        "files": {
+          "txt": "jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV.txt",
+          "srt": "jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV.srt",
+          "json": "jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV.json"
         }
       }
     ]

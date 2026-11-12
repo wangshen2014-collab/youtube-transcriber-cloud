@@ -1,0 +1,7 @@
+# 2026-11-10｜高精度｜【频道 视野环球财经】美股 Anthropic确定IPO，办公软件横刀MSFT！CRWV盘中不够，盘后凑！软银AI基建亏损的警告！电力设备GEV怎么了？美银一级投资名单，移除三家半导体！
+
+- [TXT](2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.txt)
+- [SRT](2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.srt)
+- [JSON](2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bb4a69d8bc8b4b25e72298ea/2026-11-10_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_Anthropic_IPO_MSFT_CRWV_%E8%BD%AF%E9%93%B6_GEV.json)
+
+由 Codex Cloud 转录，原始音频未上传到本分支。
