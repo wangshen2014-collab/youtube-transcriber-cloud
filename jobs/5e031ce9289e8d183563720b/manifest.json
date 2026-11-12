@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "b7fec641049e6661282436f846ebe7225f2e592a6c82e2dabbc7444a8c655f0c",
+    "source_id": "audio-b7fec641049e6661282436f8"
+  },
+  "title": "2026-11-11｜高精度｜【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5e031ce9289e8d183563720b/2026-11-11_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%A3%8E%E6%9A%B4_%E6%8C%81%E4%BB%93%E4%B8%8E%E5%8F%8D%E5%BC%B9%E8%AE%A1%E5%88%92.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5e031ce9289e8d183563720b",
+  "saved_at": 1794465323.387245
+}
