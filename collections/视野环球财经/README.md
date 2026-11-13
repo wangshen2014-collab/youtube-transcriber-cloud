@@ -1,5 +1,16 @@
 # 视野环球财经
 
+<!-- finance-nvda-high-20261112:start -->
+## 2026-11-12｜高精度｜NVDA持仓、QQQ空头与对冲基金仓位
+
+本期日期按视频片头口述美东日期标注。采用large-v3、beam 5，在Codex Cloud CPU完整转录并校对金融术语。保存TXT/SRT/JSON，各期独立，不生成ZIP。
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-12_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E6%8C%81%E4%BB%93_QQQ%E7%A9%BA%E5%A4%B4_%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91%E4%BB%93%E4%BD%8D.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-12_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E6%8C%81%E4%BB%93_QQQ%E7%A9%BA%E5%A4%B4_%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91%E4%BB%93%E4%BD%8D.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-12_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E6%8C%81%E4%BB%93_QQQ%E7%A9%BA%E5%A4%B4_%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91%E4%BB%93%E4%BD%8D.json)
+
+[独立结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0b40f25ccf07ebc88476b893)
+
+<!-- finance-nvda-high-20261112:end -->
+
 <!-- finance-high-20261111:start -->
 ## 本次三期高精度合集：2026-11-09 至 2026-11-11
 

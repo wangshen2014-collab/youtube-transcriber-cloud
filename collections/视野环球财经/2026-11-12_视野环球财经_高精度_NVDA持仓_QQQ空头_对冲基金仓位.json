@@ -1,0 +1,236 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "3baf484795603fc7b68462191f20a60fc7f1730290fad4870dc0f422de4eb1ef",
+    "source_id": "audio-3baf484795603fc7b6846219"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-nvda-high-20261112/20261113-022919-a7eabbef",
+  "timings_seconds": {
+    "local_source_selection": 5.8548999732011e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.583844585999941,
+    "model_load": 7.601212069000212,
+    "transcription": 1673.052024748,
+    "total_this_invocation": 1684.2668387080003
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/ab401370-dff3-4643-a4b3-11c7890a7903/【频道 视野环球财经】美股 黄仁勋辞职，散户抄底！NVDA持仓计划补充！QQQ空头3年新高，对冲基金低仓位，会配合追涨吗？.webm",
+    "sha256": "3baf484795603fc7b68462191f20a60fc7f1730290fad4870dc0f422de4eb1ef",
+    "original_name": "【频道 视野环球财经】美股 黄仁勋辞职，散户抄底！NVDA持仓计划补充！QQQ空头3年新高，对冲基金低仓位，会配合追涨吗？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 黄仁勋辞职，散户抄底！NVDA持仓计划补充！QQQ空头3年新高，对冲基金低仓位，会配合追涨吗？.webm",
+  "audio_duration_seconds": 1644.3093125,
+  "selected_start": 0.0,
+  "selected_end": 1644.3093125,
+  "language_probability": 0.996773898601532,
+  "segment_count": 813,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1643.3400000000001,
+  "peak_ram_mb": 4034.1,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5",
+  "broadcast_date": "2026-11-12",
+  "broadcast_timezone": "America/New_York",
+  "broadcast_date_source": "Spoken video introduction",
+  "transcription_date_local": "2026-11-12",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 814,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "那指",
+        "after": "纳指",
+        "count": 1
+      },
+      {
+        "before": "临选工作",
+        "after": "遴选工作",
+        "count": 1
+      },
+      {
+        "before": "因为打可能",
+        "after": "英伟达可能",
+        "count": 1
+      },
+      {
+        "before": "博文斯坦",
+        "after": "伯恩斯坦",
+        "count": 1
+      },
+      {
+        "before": "被强力的埋起来",
+        "after": "被强力地买起来",
+        "count": 1
+      },
+      {
+        "before": "市场的压住",
+        "after": "市场的押注",
+        "count": 1
+      },
+      {
+        "before": "Wanda Research",
+        "after": "Vanda Research",
+        "count": 1
+      },
+      {
+        "before": "竟买入",
+        "after": "净买入",
+        "count": 1
+      },
+      {
+        "before": "开盘进零售买入额",
+        "after": "开盘净零售买入额",
+        "count": 1
+      },
+      {
+        "before": "值得推销",
+        "after": "值得推敲",
+        "count": 1
+      },
+      {
+        "before": "第99.8%位",
+        "after": "第99.8百分位",
+        "count": 1
+      },
+      {
+        "before": "蹦迪吸纳",
+        "after": "逢低吸纳",
+        "count": 1
+      },
+      {
+        "before": "王仁勋",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "长口",
+        "after": "敞口",
+        "count": 2
+      },
+      {
+        "before": "常识信心",
+        "after": "长持信心",
+        "count": 1
+      },
+      {
+        "before": "摩根大哈松",
+        "after": "摩根大通",
+        "count": 2
+      },
+      {
+        "before": "六重基金",
+        "after": "对冲基金",
+        "count": 1
+      },
+      {
+        "before": "做事业了",
+        "after": "都失业了",
+        "count": 1
+      },
+      {
+        "before": "QQQ的空投",
+        "after": "QQQ的空头",
+        "count": 1
+      },
+      {
+        "before": "嘎空",
+        "after": "轧空",
+        "count": 1
+      },
+      {
+        "before": "Wix",
+        "after": "VIX",
+        "count": 1
+      },
+      {
+        "before": "及时投资者",
+        "after": "基石投资者",
+        "count": 1
+      },
+      {
+        "before": "绿邪机制",
+        "after": "绿鞋机制",
+        "count": 1
+      },
+      {
+        "before": "竞售股",
+        "after": "禁售股",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 355.82,
+        "before": "不超过200",
+        "after": "不超过这个230块左右",
+        "end": 359.74
+      },
+      {
+        "start": 357.52,
+        "before": "这个30块左右",
+        "after": ""
+      },
+      {
+        "start": 385.6,
+        "before": "到230 40块钱",
+        "after": "到二百三四十块钱〔约数〕"
+      },
+      {
+        "start": 350.0,
+        "before": "280调到285",
+        "after": "280调到285〔目标价听辨待核〕"
+      },
+      {
+        "start": 635.28,
+        "before": "三天累计的净买入额是13.1",
+        "after": "三天累计的净买入额是13.1〔金额单位待核〕"
+      },
+      {
+        "start": 714.92,
+        "before": "不够多的筹码",
+        "after": "足够多的筹码"
+      },
+      {
+        "start": 1335.84,
+        "before": "据我所知呢其实在今年的10月份到10月初这一段下跌过程中",
+        "after": "据我所知呢其实在今年的10月份到10月初这一段下跌过程中〔时间区间听辨待核〕"
+      }
+    ],
+    "notes": [
+      "完整音轨使用large-v3、多语言、CPU int8、4线程、beam 5，VAD关闭、参考前文开启。",
+      "片头明确口述26年11月12号、周四；按此日期归档。",
+      "只规范有上下文支持的金融词与名称，不按市场常识改变讲者的数值或观点；不确定处标注。",
+      "264–294秒独立识别仍为MR；按口述简称保留，不猜机构全名。",
+      "348–389秒独立原音识别明确为“不超过这个230块左右”；合并原先拆成200/30的两个短段并扩展至原两段完整时长。后一句为“二百三四十”的口述约数，保留约数，不擅自设定唯一精确上沿。",
+      "目标价段两次独立片段分别识别为280调到225、280调到285；全文识别285，正文保留该数值并标记待核，不按评级调整方向猜数字。",
+      "628–654秒独立识别同样为净买入额13.1，未能可靠识别金额单位；不擅自补为亿美元，明确标记单位待核。",
+      "699–720秒独立片段明确为“这个区间吸了足够多的筹码”，据此修正全文相反的“不够多”，未仅凭上下文反转意思。",
+      "884–904秒独立识别明确为“长持信心”，修正全文的常识信心，不改写为另一个期限概念。",
+      "1330.84–1347.94秒独立识别仍为十月份到十月初，按原识别保留并标记时间区间待核，未自行改为九月或十一月。",
+      "全长1644.309313秒完整识别，原始814个字幕段，最后语音到1643.34秒；检查片头日期、片尾、金融术语、数值疑点及字幕一致性。独立复核7个短片段，未用市场常识改写不确定数值。"
+    ]
+  }
+}
