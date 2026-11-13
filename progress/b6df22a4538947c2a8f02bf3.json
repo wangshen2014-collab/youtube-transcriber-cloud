@@ -1,0 +1,260 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": false,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e9a4683fe9a287611286ee2571bf8c2dc2600dd9ec4966f8cb6e6969d4b4f3d5",
+    "source_id": "audio-e9a4683fe9a287611286ee25",
+    "multilingual_per_window": true,
+    "english_opening_seconds": 30
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "大家好,欢迎来到曼联亚辣舞投资频道,我是Liu"
+    },
+    {
+      "start": 3.0,
+      "end": 7.0,
+      "text": "就在几天前,英伟达第二桩高管婚外请实锤曝光"
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "text": "盘后股价直接跳水9%"
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "硬生生的跌破了160美元的关口"
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "就在全网一片恐慌的时候"
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "华尔街有一个人反手就逆势建仓,抄底了英伟达"
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "text": "这个人叫做丹尼尔斯"
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "text": "可能很多人没有听过他的名字"
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "但在华尔街科技投资圈里面"
+    },
+    {
+      "start": 24.0,
+      "end": 27.0,
+      "text": "他有一个外号叫做老狐狸中间的老狐狸"
+    },
+    {
+      "start": 27.0,
+      "end": 30.0,
+      "text": "早年是雷曼兄弟的首席半导体分析师"
+    },
+    {
+      "start": 30.0,
+      "end": 33.0,
+      "text": "2000年互联网泡沫破裂前精准的清仓淘顶"
+    },
+    {
+      "start": 33.0,
+      "end": 36.0,
+      "text": "08年金融危机的时候逆势保住本金"
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "30多年投资生涯"
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "他最出名的不是赚得多"
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "而是风控极其的苛刻"
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "text": "最擅长在泥沙巨下的时候"
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "text": "捡带雪的筹码"
+    },
+    {
+      "start": 46.0,
+      "end": 47.0,
+      "text": "更有意思的是"
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "text": "就在今年10月初"
+    },
+    {
+      "start": 49.0,
+      "end": 51.0,
+      "text": "全网都在吹AI万亿长牛"
+    },
+    {
+      "start": 51.0,
+      "end": 53.0,
+      "text": "英伟达永不倒的时候"
+    },
+    {
+      "start": 53.0,
+      "end": 55.0,
+      "text": "是他第一个站出来高调的看空半导体"
+    },
+    {
+      "start": 55.0,
+      "end": 59.0,
+      "text": "精准躲过了这一波板块36%的一个暴跌"
+    },
+    {
+      "start": 59.0,
+      "end": 62.0,
+      "text": "一个成功淘顶的人现在回来抄底了"
+    },
+    {
+      "start": 62.0,
+      "end": 65.0,
+      "text": "而且抄的是现在全市场争议最大"
+    },
+    {
+      "start": 65.0,
+      "end": 67.0,
+      "text": "负面消息满天飞"
+    },
+    {
+      "start": 67.0,
+      "end": 69.0,
+      "text": "人人避之不及的英伟达"
+    },
+    {
+      "start": 69.0,
+      "end": 72.0,
+      "text": "今天我们就来聊聊丹尼尔斯这笔"
+    },
+    {
+      "start": 72.0,
+      "end": 74.0,
+      "text": "抄底的完整逻辑"
+    },
+    {
+      "start": 74.0,
+      "end": 75.0,
+      "text": "欢迎大家点击视频下方的链接"
+    },
+    {
+      "start": 75.0,
+      "end": 77.0,
+      "text": "加入我的Patreon和Discord会员社群"
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "text": "在市场大跌的情况之下"
+    },
+    {
+      "start": 79.0,
+      "end": 81.0,
+      "text": "我一直在会员社群告诉大家"
+    },
+    {
+      "start": 81.0,
+      "end": 82.0,
+      "text": "可以分批建仓了"
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "text": "为了保证执行合一"
+    },
+    {
+      "start": 84.0,
+      "end": 86.0,
+      "text": "在我没有多少资金的情况下"
+    },
+    {
+      "start": 86.0,
+      "end": 89.0,
+      "text": "我也从10月30日开始到今天为止"
+    },
+    {
+      "start": 89.0,
+      "end": 92.0,
+      "text": "总共做了无比的加仓动作"
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "并且在会员社群也做了披露"
+    },
+    {
+      "start": 94.0,
+      "end": 98.0,
+      "text": "同时我也敢于在11月5日公开发布了"
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "text": "我的2026年底到2027年"
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "text": "最看好的15大A股票排名"
+    },
+    {
+      "start": 102.0,
+      "end": 105.0,
+      "text": "我有信心他们能够在接下来的时间之内"
+    },
+    {
+      "start": 105.0,
+      "end": 107.0,
+      "text": "远远跑赢標普500大盘"
+    },
+    {
+      "start": 107.0,
+      "end": 108.0,
+      "text": "感谢大家的加入"
+    },
+    {
+      "start": 108.0,
+      "end": 109.0,
+      "text": "Thank you for your participation."
+    }
+  ],
+  "resume_from": 109.0,
+  "run_id": "20261113-010741-f380ff81",
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/nvda-mid-20261112/2/20261113-010741-f380ff81",
+  "detected_language": "en"
+}
