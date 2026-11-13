@@ -32,6 +32,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [2026-11-09_视野环球财经_高精度_行情_CTA与仓位_NVDA_AMD_TSM_SPY_QQQ_CRWV](catalog/f813d58c4fe9deb9.md) | 单项结果 1 |
 | [2026-11-10_视野环球财经_高精度_Anthropic_IPO_MSFT_CRWV_软银_GEV](catalog/d671d009ea0dd327.md) | 单项结果 1 |
 | [2026-11-11_视野环球财经_高精度_NVDA风暴_持仓与反弹计划](catalog/65f123432727a3b0.md) | 单项结果 1 |
+| [2026-11-12_Henry_Nvidia股价与抄底价位_中高精度](catalog/c3f0945755cc7451.md) | 单项结果 1 |
 | [AI泡沫破灭？中国股市为何跌的这么惨？](catalog/5134964acba8c609.md) | 单项结果 1 |
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 1 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
@@ -81,4 +82,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[2026-11-11｜高精度｜【频道 视野环球财经】美股 NVDA风暴继续，利好谁？持仓计划更新！大盘反弹最简单部分走完！](jobs/5e031ce9289e8d183563720b/README.md)
+最新保存：[【频道 Henry 的慢思考】Nvidia股价继续崩盘，什么价格适合抄底？｜中高精度](jobs/887575a2d3a1f0e305aeb593/README.md)
