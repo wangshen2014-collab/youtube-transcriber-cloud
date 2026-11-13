@@ -17,7 +17,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "0d29f8561484f8e7a8b4e29ccba306f53f33fc699a2b32729593bf74c8030415",
@@ -43,7 +43,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "8400f4339fb99b374022cabae4e2ea6ef037dfe59ec6ce8eafc40202993a2497",
@@ -69,7 +69,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "7899aa83068456507756c1c385384a2a663fea73309aea977b0be0936c074e3f",
@@ -95,7 +95,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "d7f2c8b444dbeb286d2f911a3796c5c5a963724c69e61016ed6b583c95701eec",
@@ -109,6 +109,65 @@
       },
       "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/3be7654fad0a4df0e3438b72",
       "saved_at": 1794280132.609667
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 2,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "3175469c146c003024f5e60c9b912c70ba5e2b1445def32d1b924760bf3616a7",
+        "source_id": "audio-3175469c146c003024f5e60c"
+      },
+      "title": "【频道 Henry 的慢思考】Nvidia股价继续崩盘，什么价格适合抄底？｜中高精度",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/887575a2d3a1f0e305aeb593",
+      "saved_at": 1794532511.2692873,
+      "transcription_date_local": "2026-11-12",
+      "commit_sha": "b9f25f4d771f4e6001405d63f5226aa8ec18d15f"
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "medium",
+        "threads": 2,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": false,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e9a4683fe9a287611286ee2571bf8c2dc2600dd9ec4966f8cb6e6969d4b4f3d5",
+        "source_id": "audio-e9a4683fe9a287611286ee25",
+        "multilingual_per_window": true,
+        "english_opening_seconds": 30
+      },
+      "title": "【频道 Money&Love 投资频道】华尔街老狐狸，抄底英伟达！12倍PE，机会真的来了？｜中高精度",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b6df22a4538947c2a8f02bf3",
+      "saved_at": 1794532961.428178,
+      "transcription_date_local": "2026-11-12",
+      "commit_sha": "7517b00219a3c88302c19d724279e2c9a1afb11f"
     }
-  ]
+  ],
+  "updated_date_local": "2026-11-12"
 }

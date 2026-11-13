@@ -1,6 +1,6 @@
 # 黄仁勋出轨事件
 
-按用户指定主题整理的四个视频转录；保留各讲者的表述与疑问语气，未对视频中的指控作独立核实。
+按用户指定主题整理的视频转录；保留各讲者的表述与疑问语气，未对视频中的指控作独立核实。
 
 转录日期：2026-11-09（America/Los_Angeles）。
 
@@ -28,3 +28,21 @@
 
 [结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/3be7654fad0a4df0e3438b72)
 
+<!-- nvda-mid-20261112:start -->
+## 2026-11-12 新增：英伟达估值与抄底讨论
+
+两份均为 medium 模型、beam 5 的中高精度完整转录，由 Codex Cloud CPU 并行执行，并核对金融术语。各自独立保存 TXT/SRT/JSON，不生成 ZIP。日期为转录日期。
+
+### 【频道 Henry 的慢思考】Nvidia股价继续崩盘，什么价格适合抄底？｜中高精度
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/887575a2d3a1f0e305aeb593/2026-11-12_Henry_Nvidia%E8%82%A1%E4%BB%B7%E4%B8%8E%E6%8A%84%E5%BA%95%E4%BB%B7%E4%BD%8D_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json)
+
+[结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/887575a2d3a1f0e305aeb593)
+
+### 【频道 Money&Love 投资频道】华尔街老狐狸，抄底英伟达！12倍PE，机会真的来了？｜中高精度
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/b6df22a4538947c2a8f02bf3/2026-11-12_MoneyLove_%E8%8B%B1%E4%BC%9F%E8%BE%BE12%E5%80%8DPE_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json)
+
+[结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b6df22a4538947c2a8f02bf3)
+
+<!-- nvda-mid-20261112:end -->
