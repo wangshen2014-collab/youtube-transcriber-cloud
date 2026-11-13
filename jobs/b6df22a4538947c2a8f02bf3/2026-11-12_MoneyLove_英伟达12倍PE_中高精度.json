@@ -1,0 +1,623 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": false,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "e9a4683fe9a287611286ee2571bf8c2dc2600dd9ec4966f8cb6e6969d4b4f3d5",
+    "source_id": "audio-e9a4683fe9a287611286ee25",
+    "multilingual_per_window": true,
+    "english_opening_seconds": 30
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": true,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/nvda-mid-20261112/2/20261113-010741-f380ff81",
+  "timings_seconds": {
+    "local_source_selection": 5.280899995341315e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.6656962110000677,
+    "model_load": 2.816170876999877,
+    "transcription": 733.955299336,
+    "total_this_invocation": 739.4576544150002
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/b8f4d50e-8fd2-4cfc-aff0-cc412b29a24a/【频道 Money&Love 投资频道】华尔街老狐狸，抄底英伟达！12倍PE，机会真的来了？.webm",
+    "sha256": "e9a4683fe9a287611286ee2571bf8c2dc2600dd9ec4966f8cb6e6969d4b4f3d5",
+    "original_name": "【频道 Money&Love 投资频道】华尔街老狐狸，抄底英伟达！12倍PE，机会真的来了？.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Money&Love 投资频道】华尔街老狐狸，抄底英伟达！12倍PE，机会真的来了？.webm",
+  "audio_duration_seconds": 1128.0138125,
+  "selected_start": 0.0,
+  "selected_end": 1128.0138125,
+  "language_probability": 1,
+  "segment_count": 480,
+  "detected_language": "en",
+  "last_completed_audio_second": 1127.92,
+  "peak_ram_mb": 1986.1,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "中高精度：medium / beam 5",
+  "transcription_date_local": "2026-11-12",
+  "transcription_timezone": "America/Los_Angeles",
+  "parallel_primary_workers": 2,
+  "original_segment_count": 473,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "曼联亚辣舞投资频道",
+        "after": "Money&Love投资频道",
+        "count": 1
+      },
+      {
+        "before": "婚外请",
+        "after": "婚外情",
+        "count": 1
+      },
+      {
+        "before": "丹尼尔斯",
+        "after": "丹·奈尔斯",
+        "count": 4
+      },
+      {
+        "before": "淘顶",
+        "after": "逃顶",
+        "count": 2
+      },
+      {
+        "before": "泥沙巨下",
+        "after": "泥沙俱下",
+        "count": 1
+      },
+      {
+        "before": "带雪的筹码",
+        "after": "带血的筹码",
+        "count": 1
+      },
+      {
+        "before": "执行合一",
+        "after": "知行合一",
+        "count": 1
+      },
+      {
+        "before": "总共做了无比的加仓动作",
+        "after": "总共做了〔次数听辨待核〕的加仓动作",
+        "count": 1
+      },
+      {
+        "before": "15大A股票",
+        "after": "15大AI股票",
+        "count": 1
+      },
+      {
+        "before": "英伍达",
+        "after": "英伟达",
+        "count": 11
+      },
+      {
+        "before": "英武达",
+        "after": "英伟达",
+        "count": 6
+      },
+      {
+        "before": "黄荣勋",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "黄云勋",
+        "after": "黄仁勋",
+        "count": 2
+      },
+      {
+        "before": "黄勋",
+        "after": "黄仁勋",
+        "count": 6
+      },
+      {
+        "before": "黄磊",
+        "after": "黄乐",
+        "count": 1
+      },
+      {
+        "before": "私得風波",
+        "after": "私德風波",
+        "count": 1
+      },
+      {
+        "before": "半年前就不好的一个局",
+        "after": "半年前就布好的一个局",
+        "count": 1
+      },
+      {
+        "before": "终于选举",
+        "after": "中期选举",
+        "count": 1
+      },
+      {
+        "before": "新老国会全力交集",
+        "after": "新老国会权力交接",
+        "count": 1
+      },
+      {
+        "before": "金博里",
+        "after": "金博里〔姓名听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "the Sox",
+        "after": "the SOX",
+        "count": 3
+      },
+      {
+        "before": "英武大",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "印五大",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "鹰五达",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "鹰伟达",
+        "after": "英伟达",
+        "count": 4
+      },
+      {
+        "before": "因我答",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "阴谋的实际跌幅",
+        "after": "英伟达的实际跌幅",
+        "count": 1
+      },
+      {
+        "before": "才把黄迅的固执",
+        "after": "才把〔主体听辨待核〕的估值",
+        "count": 1
+      },
+      {
+        "before": "黄迅",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "黄巡",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "稍前速度",
+        "after": "烧钱速度",
+        "count": 1
+      },
+      {
+        "before": "出创公司",
+        "after": "初创公司",
+        "count": 1
+      },
+      {
+        "before": "云厂上",
+        "after": "云厂商",
+        "count": 1
+      },
+      {
+        "before": "利控",
+        "after": "利空",
+        "count": 1
+      },
+      {
+        "before": "市长担心",
+        "after": "市场担心",
+        "count": 1
+      },
+      {
+        "before": "何归处罚",
+        "after": "合规处罚",
+        "count": 1
+      },
+      {
+        "before": "政治的一个议价",
+        "after": "政治的一个溢价",
+        "count": 1
+      },
+      {
+        "before": "管理层信任的一个议价",
+        "after": "管理层信任的一个溢价",
+        "count": 1
+      },
+      {
+        "before": "三波利空蝶的业绩",
+        "after": "三波利空叠在一起",
+        "count": 1
+      },
+      {
+        "before": "现金率最好的",
+        "after": "现金流最好的",
+        "count": 1
+      },
+      {
+        "before": "非诚半导体",
+        "after": "费城半导体",
+        "count": 1
+      },
+      {
+        "before": "AS万里底座",
+        "after": "AI算力底座",
+        "count": 1
+      },
+      {
+        "before": "成熟消费者股",
+        "after": "成熟消费股",
+        "count": 1
+      },
+      {
+        "before": "丹尼斯",
+        "after": "丹·奈尔斯",
+        "count": 2
+      },
+      {
+        "before": "prison",
+        "after": "priced in",
+        "count": 1
+      },
+      {
+        "before": "超越期",
+        "after": "超预期",
+        "count": 1
+      },
+      {
+        "before": "疯狂唧唧磕磕",
+        "after": "风控极其苛刻",
+        "count": 1
+      },
+      {
+        "before": "掏顶",
+        "after": "逃顶",
+        "count": 1
+      },
+      {
+        "before": "轻描淡细",
+        "after": "轻描淡写",
+        "count": 1
+      },
+      {
+        "before": "仗不能这么算",
+        "after": "账不能这么算",
+        "count": 1
+      },
+      {
+        "before": "AA",
+        "after": "AI",
+        "count": 2
+      },
+      {
+        "before": "浓缩油",
+        "after": "浓缩铀",
+        "count": 1
+      },
+      {
+        "before": "正面枪声",
+        "after": "正面呛声",
+        "count": 1
+      },
+      {
+        "before": "新存不满",
+        "after": "心存不满",
+        "count": 1
+      },
+      {
+        "before": "吃骨只有",
+        "after": "持股只有",
+        "count": 1
+      },
+      {
+        "before": "治理闲息",
+        "after": "治理嫌隙",
+        "count": 1
+      },
+      {
+        "before": "上过去的",
+        "after": "〔时间表述听辨待核〕的",
+        "count": 1
+      },
+      {
+        "before": "老黄丝的问题",
+        "after": "老黄私德的问题",
+        "count": 1
+      },
+      {
+        "before": "老黄的微信",
+        "after": "老黄的威信",
+        "count": 1
+      },
+      {
+        "before": "英文的灵魂",
+        "after": "英伟达的灵魂",
+        "count": 1
+      },
+      {
+        "before": "LS生态",
+        "after": "iOS生态",
+        "count": 1
+      },
+      {
+        "before": "库达生态",
+        "after": "CUDA生态",
+        "count": 1
+      },
+      {
+        "before": "精准压住",
+        "after": "精准押注",
+        "count": 1
+      },
+      {
+        "before": "根本就不可能害怒",
+        "after": "根本就不可能撼动",
+        "count": 1
+      },
+      {
+        "before": "扩大生态",
+        "after": "CUDA生态",
+        "count": 1
+      },
+      {
+        "before": "开发者的年性",
+        "after": "开发者的黏性",
+        "count": 1
+      },
+      {
+        "before": "英伍伟达",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "固质议价",
+        "after": "估值溢价",
+        "count": 2
+      },
+      {
+        "before": "A的算力",
+        "after": "AI的算力",
+        "count": 1
+      },
+      {
+        "before": "A的浪潮",
+        "after": "AI的浪潮",
+        "count": 1
+      },
+      {
+        "before": "因为我拿的芯片",
+        "after": "英伟达的芯片",
+        "count": 1
+      },
+      {
+        "before": "黄仁逊",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "从重的情绪",
+        "after": "从众的情绪",
+        "count": 1
+      },
+      {
+        "before": "待续的筹码",
+        "after": "带血的筹码",
+        "count": 1
+      },
+      {
+        "before": "安全店",
+        "after": "安全垫",
+        "count": 1
+      },
+      {
+        "before": "倍批",
+        "after": "倍PE",
+        "count": 1
+      },
+      {
+        "before": "倍P的",
+        "after": "倍PE的",
+        "count": 1
+      },
+      {
+        "before": "正着资本舆论的一场合理",
+        "after": "政治、资本、舆论的一场合力",
+        "count": 1
+      },
+      {
+        "before": "应务答",
+        "after": "英伟达",
+        "count": 1
+      },
+      {
+        "before": "Sox",
+        "after": "SOX",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 371.1,
+        "before": "更不可能把估值砸到12倍的一个P1",
+        "after": "更不可能把估值砸到12倍的一个PE"
+      },
+      {
+        "start": 749.3,
+        "before": "对应现在的股价P1也才15倍",
+        "after": "对应现在的股价PE也才15倍"
+      },
+      {
+        "start": 755.22,
+        "before": "15倍的P1已经把最坏的预期全都算进去了",
+        "after": "15倍的PE已经把最坏的预期全都算进去了"
+      },
+      {
+        "start": 759.62,
+        "before": "丹尼斯反复说12倍P1的时候",
+        "after": "丹尼斯反复说12倍PE的时候"
+      },
+      {
+        "start": 1061.32,
+        "before": "因为他们总是在5-60倍批的时候冲进去",
+        "after": "因为他们总是在五六十倍PE的时候冲进去"
+      }
+    ],
+    "range_replacements": [
+      {
+        "start": 108.0,
+        "end": 181.34,
+        "segments": [
+          {
+            "start": 108.5,
+            "end": 113.1,
+            "text": "You started the day without any position in Nvidia, but you started to buy during the"
+          },
+          {
+            "start": 113.1,
+            "end": 114.1,
+            "text": "session."
+          },
+          {
+            "start": 114.1,
+            "end": 115.1,
+            "text": "Why?"
+          },
+          {
+            "start": 115.1,
+            "end": 120.34,
+            "text": "Well, you got to remember, unlike a lot of people, I put out something in early October"
+          },
+          {
+            "start": 120.34,
+            "end": 127.8,
+            "text": "saying I was terrified of the midterms, bipartisan pushback against data centers was the one"
+          },
+          {
+            "start": 127.8,
+            "end": 131.06,
+            "text": "thing that probably both sides of the aisle could agree on."
+          },
+          {
+            "start": 131.06,
+            "end": 134.22,
+            "text": "So that was the time to get negative, not now."
+          },
+          {
+            "start": 134.22,
+            "end": 139.4,
+            "text": "Now you've seen the aftermath of that."
+          },
+          {
+            "start": 139.4,
+            "end": 145.24,
+            "text": "I looked at Nvidia and where it's trading at 12 times PE, it's down this year, it underperformed"
+          },
+          {
+            "start": 145.24,
+            "end": 147.94,
+            "text": "the SOX by the way last year."
+          },
+          {
+            "start": 147.94,
+            "end": 154.34,
+            "text": "And so at a 12 times PE, I was like, this matches well with some other types of names"
+          },
+          {
+            "start": 154.34,
+            "end": 160.26,
+            "text": "that I want to short, which I don't think will survive one way or the other as you"
+          },
+          {
+            "start": 160.26,
+            "end": 161.62,
+            "text": "go out through time."
+          },
+          {
+            "start": 161.62,
+            "end": 166.96,
+            "text": "So it was, you know, it's an unfortunate situation with Jensen."
+          },
+          {
+            "start": 166.96,
+            "end": 167.96,
+            "text": "He made a mess."
+          },
+          {
+            "start": 167.96,
+            "end": 169.46,
+            "text": "He knows he's made a mess."
+          },
+          {
+            "start": 169.46,
+            "end": 171.66,
+            "text": "I'm hoping they work through that."
+          },
+          {
+            "start": 171.66,
+            "end": 177.54,
+            "text": "But also just an analogy, if you go back and you look at what's happened when founders"
+          },
+          {
+            "start": 177.54,
+            "end": 181.3,
+            "text": "have left, Apple's a great example of this, right?"
+          }
+        ],
+        "evidence_clip": "money-opening-correct",
+        "reason": "Original Chinese-detected opening omitted English speech. Independently transcribed original clip in English; omit final Steve Jobs fragment because the following primary segment contains the full sentence."
+      }
+    ],
+    "notes": [
+      "中高精度采用medium、多语言、CPU int8、beam 5，保持VAD关闭、参考前文开启。",
+      "纠正有明确上下文支持的金融术语和名称；不据行情常识改写讲者数值或投资判断。",
+      "80–107秒独立识别仍将加仓次数听为“无比”；不据语境猜为五笔，明确标记次数待核。AI股票拼写按行业术语规范，数字15保持。",
+      "同一影片后文明称黄乐，统一早段黄磊的误识；英伟达、黄仁勋的明显错字统一。P1按视频标题和英文采访中的PE规范，12倍数值保持。",
+      "中间约108–359秒为英文采访，已以逐窗口语言识别处理，保留英文原文。中文开头0–108秒按已完成正确稿保留。",
+      "108.5–181.9秒独立英文复核完整恢复采访问题和回答；最终替换108–181.34秒错误开头，排除末尾重复的Steve Jobs片段，衔接随后完整英文句。",
+      "实际恢复阶段关闭参考前文以避免中文提示导致英文误识；同一medium、beam5、int8不变，分阶段语言设置在报告中记录。",
+      "中文恢复段按本片指称对象统一英伟达、黄仁勋的明显错字；规范PE、SOX、溢价、持股、风控等术语。年份、股价和估值倍数按口述保留，未将前瞻PE/远期PE的差别擅自统一。",
+      "P1为PE的字母误识别，逐段记录修正；其余阿拉伯数字由程序核对，保留讲者的估值倍数、股价和年份。",
+      "1054–1069秒独立识别明确为“五六十倍P”，按口述写作五六十倍PE，避免把连读误写成5–60倍的区间；未擅自补一个精确倍数。",
+      "完整原音1128.0138125秒，原始473个字幕段，最后语音1127.92秒，含片尾告别；已阅读全文并检查中英语言切换、开头补复、数值/单位、公司名和估值术语。"
+    ]
+  },
+  "transcription_languages": [
+    "zh",
+    "en"
+  ],
+  "mixed_language_stages": {
+    "intro_seconds": [
+      0,
+      108
+    ],
+    "intro_condition_on_previous_text": true,
+    "remaining_condition_on_previous_text": false,
+    "language_detection": "per-window after explicitly English opening; opening independently rechecked"
+  }
+}
