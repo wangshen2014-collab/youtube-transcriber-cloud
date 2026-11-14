@@ -1,0 +1,261 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "388e7d559faba445461032ea384b19280adb78e26622aae49b2027069c88f20f",
+    "source_id": "audio-388e7d559faba445461032ea"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/terry-mid-high-20261114/20261114-212032-e7627ce8",
+  "timings_seconds": {
+    "local_source_selection": 5.600499571301043e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.7577743570145685,
+    "model_load": 12.703749573003734,
+    "transcription": 937.9491579749738,
+    "total_this_invocation": 952.4351726609748
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/e2af62fd-ed4a-438a-9abb-0167412aa755/【频道 Terry Chen 泰瑞】黃仁勳辭職，Nvidia 還能投資嗎？分享我的看法.webm",
+    "sha256": "388e7d559faba445461032ea384b19280adb78e26622aae49b2027069c88f20f",
+    "original_name": "【频道 Terry Chen 泰瑞】黃仁勳辭職，Nvidia 還能投資嗎？分享我的看法.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Terry Chen 泰瑞】黃仁勳辭職，Nvidia 還能投資嗎？分享我的看法.webm",
+  "audio_duration_seconds": 762.0906875,
+  "selected_start": 0.0,
+  "selected_end": 762.0906875,
+  "language_probability": 0.9970057606697083,
+  "segment_count": 359,
+  "detected_language": "zh",
+  "last_completed_audio_second": 761.74,
+  "peak_ram_mb": 4482.1,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "中高精度：large-v3 / beam 3",
+  "transcription_date_local": "2026-11-14",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 370,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "這個赤字的真正原因",
+        "after": "這個辭職的真正原因",
+        "count": 1
+      },
+      {
+        "before": "Jason",
+        "after": "Jensen",
+        "count": 1
+      },
+      {
+        "before": "救援川普",
+        "after": "就連川普",
+        "count": 1
+      },
+      {
+        "before": "Alpha Pix",
+        "after": "Alpha Picks",
+        "count": 1
+      },
+      {
+        "before": "BOSS的這個",
+        "after": "抱持著一個",
+        "count": 1
+      },
+      {
+        "before": "遺葬",
+        "after": "胰臟",
+        "count": 1
+      },
+      {
+        "before": "Rip Hastings",
+        "after": "Reed Hastings",
+        "count": 1
+      },
+      {
+        "before": "完全不可能或缺",
+        "after": "完全不可或缺",
+        "count": 1
+      },
+      {
+        "before": "偶像粗暴",
+        "after": "偶像出包",
+        "count": 1
+      },
+      {
+        "before": "檢倉",
+        "after": "減倉",
+        "count": 1
+      },
+      {
+        "before": "最回貨手",
+        "after": "罪魁禍首",
+        "count": 1
+      },
+      {
+        "before": "KBX",
+        "after": "CapEx",
+        "count": 1
+      },
+      {
+        "before": "RVGO",
+        "after": "AVGO",
+        "count": 1
+      },
+      {
+        "before": "黃人薰",
+        "after": "黃仁勳",
+        "count": 2
+      },
+      {
+        "before": "CK Alpha",
+        "after": "Seeking Alpha",
+        "count": 2
+      },
+      {
+        "before": "Portfolio最近回測了",
+        "after": "Portfolio最近回撤了",
+        "count": 1
+      },
+      {
+        "before": "華人薰",
+        "after": "黃仁勳",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 206.06,
+        "before": "還是會回來NVIDIA",
+        "after": ""
+      },
+      {
+        "start": 206.45999999999998,
+        "before": "還是會回來NVIDIA",
+        "after": ""
+      },
+      {
+        "start": 206.66,
+        "before": "還是會回來NVIDIA",
+        "after": ""
+      },
+      {
+        "start": 206.72,
+        "before": "還是會回來NVIDIA",
+        "after": ""
+      },
+      {
+        "start": 236.06,
+        "before": "這些都一定會說出來",
+        "after": "這些都一定會受到影響",
+        "end": 237.5
+      },
+      {
+        "start": 236.66,
+        "before": "會受到影響",
+        "after": ""
+      },
+      {
+        "start": 265.96,
+        "before": "那個時候",
+        "after": "那個時候Tim Cook就已經開始做很多他在做的事情",
+        "end": 269.0
+      },
+      {
+        "start": 266.46,
+        "before": "Tim",
+        "after": ""
+      },
+      {
+        "start": 266.64,
+        "before": "就已經開始做很多他在做的事情",
+        "after": ""
+      },
+      {
+        "start": 324.68,
+        "before": "要是Steve Jobs當時一切建議了的話呢",
+        "after": "要是Steve Jobs當時一切健康",
+        "end": 327.44
+      },
+      {
+        "start": 326.24,
+        "before": "要是他一切健康",
+        "after": ""
+      },
+      {
+        "start": 534.44,
+        "before": "而且現在市場",
+        "after": "而且現在市場最擔心的就是",
+        "end": 536.64
+      },
+      {
+        "start": 535.54,
+        "before": "外泄就是",
+        "after": ""
+      },
+      {
+        "start": 281.58,
+        "before": "然後Steve Jobs在11月份的時候呢",
+        "after": "然後Steve Jobs在10月份的時候呢"
+      },
+      {
+        "start": 595.34,
+        "before": "任何人能夠預測未來",
+        "after": "沒有任何人能夠預測未來"
+      },
+      {
+        "start": 682.04,
+        "before": "然後這個Portfolio呢",
+        "after": "然後這個Portfolio呢，最多會持有30檔的這個配息股票的這個投資組合",
+        "end": 687.24
+      },
+      {
+        "start": 683.24,
+        "before": "最多會持有",
+        "after": ""
+      },
+      {
+        "start": 684.54,
+        "before": "指導的這個配息股票的這個投資組合",
+        "after": ""
+      },
+      {
+        "start": 742.6400000000001,
+        "before": "是超過你總倉位的",
+        "after": "是超過你總倉位的5%"
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "完整音轨，large-v3、CPU int8、2线程、beam 3，自动语言、VAD关闭、参考前文开启；两份视频在Codex Cloud并行处理。",
+      "按用户要求保留最终TXT/SRT/JSON，保存至原黄仁勋专题，不生成ZIP。",
+      "保留讲者的推测与观点语气，金融术语按上下文校对；不能可靠确认的名称与数字注明待核，不按常识补造。",
+      "约206秒处同一句在不足一秒内被识别器连续重复输出，保留第一处正常时长的句子，清除其后4处不可能实际发音完成的重复尾段。",
+      "230–240秒及260–273秒独立片段复核，修复“这些都会受到影响”及Tim Cook姓名；相邻字幕合并后保留原音轨时间范围。",
+      "321–339秒独立复核，修复“一切健康”假设句及其重复尾部。",
+      "530–542及277–290秒独立复核，恢复“市场最担心的就是”，并依据本次独立识别将乔布斯离世月份从11修正为10；未按外部资料替换。",
+      "589–605及675–691秒独立复核，找回“没有”否定词及股息组合30档股票，数值只按本次音轨复核补回。",
+      "735–747秒独立复核明确单一持仓上限为5%，据实际音轨补回；没有从后文跌损例子反推。"
+    ]
+  }
+}
