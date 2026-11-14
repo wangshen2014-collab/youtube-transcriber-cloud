@@ -207,7 +207,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "388e7d559faba445461032ea384b19280adb78e26622aae49b2027069c88f20f",
@@ -224,6 +224,36 @@
       "transcription_date_local": "2026-11-14",
       "quality": "large-v3 / beam 3 / CPU int8",
       "commit_sha": "38cb59adc8b8d8b0cdf04853c242ef30aaaf393a"
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "088ae0eb610c29eb230c2844798553b9b68132ed5c33664171564f43eb109f74",
+        "source_id": "audio-088ae0eb610c29eb230c2844"
+      },
+      "title": "【频道 言究院】大盤漲、Nvidia 跌！黃仁勳辭職這一週，市場怎麼算這筆帳？｜言選週報 2026.11.14｜中高精度",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bc8c9f45b2359dc61943b815/2026-11-14_%E8%BD%AC%E5%BD%95_%E8%A8%80%E7%A9%B6%E9%99%A2_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_%E5%B8%82%E5%9C%BA%E5%91%A8%E6%8A%A5.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bc8c9f45b2359dc61943b815/2026-11-14_%E8%BD%AC%E5%BD%95_%E8%A8%80%E7%A9%B6%E9%99%A2_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_%E5%B8%82%E5%9C%BA%E5%91%A8%E6%8A%A5.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/bc8c9f45b2359dc61943b815/2026-11-14_%E8%BD%AC%E5%BD%95_%E8%A8%80%E7%A9%B6%E9%99%A2_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_%E5%B8%82%E5%9C%BA%E5%91%A8%E6%8A%A5.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/bc8c9f45b2359dc61943b815",
+      "saved_at": 1794692607.855531,
+      "transcription_date_local": "2026-11-14",
+      "quality": "large-v3 / beam 3 / CPU int8",
+      "broadcast_date": "2026-11-14",
+      "commit_sha": "94ebb24a98195cab157dcb457f66d6581fb332f8"
     }
   ],
   "updated_date_local": "2026-11-14"
