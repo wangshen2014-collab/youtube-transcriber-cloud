@@ -179,7 +179,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "47514a1bd14a19f25e1d3c27fe296688e95b4f29ceb5fc4e203f565ec4fe7357",
@@ -195,7 +195,36 @@
       "saved_at": 1794628207.2575324,
       "transcription_date_local": "2026-11-13",
       "commit_sha": "7078b61681897aa00bc4b5f66eb84fc16b919ce0"
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "388e7d559faba445461032ea384b19280adb78e26622aae49b2027069c88f20f",
+        "source_id": "audio-388e7d559faba445461032ea"
+      },
+      "title": "【频道 Terry Chen 泰瑞】黃仁勳辭職，Nvidia 還能投資嗎？分享我的看法｜中高精度",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c0531e530b682077668f69dd/2026-11-14_%E8%BD%AC%E5%BD%95_TerryChen_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_Nvidia.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c0531e530b682077668f69dd/2026-11-14_%E8%BD%AC%E5%BD%95_TerryChen_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_Nvidia.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c0531e530b682077668f69dd/2026-11-14_%E8%BD%AC%E5%BD%95_TerryChen_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C_Nvidia.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/c0531e530b682077668f69dd",
+      "saved_at": 1794692503.458252,
+      "transcription_date_local": "2026-11-14",
+      "quality": "large-v3 / beam 3 / CPU int8",
+      "commit_sha": "38cb59adc8b8d8b0cdf04853c242ef30aaaf393a"
     }
   ],
-  "updated_date_local": "2026-11-13"
+  "updated_date_local": "2026-11-14"
 }
