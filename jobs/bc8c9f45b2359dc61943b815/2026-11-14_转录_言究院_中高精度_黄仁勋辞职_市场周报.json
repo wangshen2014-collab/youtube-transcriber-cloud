@@ -1,0 +1,234 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "088ae0eb610c29eb230c2844798553b9b68132ed5c33664171564f43eb109f74",
+    "source_id": "audio-088ae0eb610c29eb230c2844"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/yanjiu-mid-high-20261114/20261114-212032-f28a89cb",
+  "timings_seconds": {
+    "local_source_selection": 5.246899672783911e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.890590484981658,
+    "model_load": 12.524832674011122,
+    "transcription": 977.6246396880015,
+    "total_this_invocation": 992.0635130890005
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/871accac-e325-410a-bbfa-4b271cb91f17/【频道 言究院】大盤漲、Nvidia 跌！黃仁勳辭職這一週，市場怎麼算這筆帳？｜言選週報 2026.11.14.webm",
+    "sha256": "088ae0eb610c29eb230c2844798553b9b68132ed5c33664171564f43eb109f74",
+    "original_name": "【频道 言究院】大盤漲、Nvidia 跌！黃仁勳辭職這一週，市場怎麼算這筆帳？｜言選週報 2026.11.14.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 言究院】大盤漲、Nvidia 跌！黃仁勳辭職這一週，市場怎麼算這筆帳？｜言選週報 2026.11.14.webm",
+  "audio_duration_seconds": 793.472,
+  "selected_start": 0.0,
+  "selected_end": 793.472,
+  "language_probability": 0.9979085922241211,
+  "segment_count": 350,
+  "detected_language": "zh",
+  "last_completed_audio_second": 782.8,
+  "peak_ram_mb": 4539.2,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "中高精度：large-v3 / beam 3",
+  "transcription_date_local": "2026-11-14",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 358,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "欢迎来到研究院",
+        "after": "欢迎来到言究院",
+        "count": 1
+      },
+      {
+        "before": "严选周报",
+        "after": "言选周报",
+        "count": 2
+      },
+      {
+        "before": "叠掉的",
+        "after": "跌掉的",
+        "count": 1
+      },
+      {
+        "before": "Colette Kress站待CEO",
+        "after": "Colette Kress暂代CEO",
+        "count": 1
+      },
+      {
+        "before": "第三张",
+        "after": "第三章",
+        "count": 1
+      },
+      {
+        "before": "暂待CEO",
+        "after": "暂代CEO",
+        "count": 1
+      },
+      {
+        "before": "Coreweave",
+        "after": "CoreWeave",
+        "count": 3
+      },
+      {
+        "before": "市场几乎压定",
+        "after": "市场几乎押定",
+        "count": 1
+      },
+      {
+        "before": "不配习",
+        "after": "不配息",
+        "count": 1
+      },
+      {
+        "before": "OdoBHF",
+        "after": "ODDO BHF",
+        "count": 1
+      },
+      {
+        "before": "Stefan Hury",
+        "after": "Stefan Hury〔姓名拼写待核〕",
+        "count": 1
+      },
+      {
+        "before": "研究院的看法",
+        "after": "言究院的看法",
+        "count": 1
+      },
+      {
+        "before": "财策",
+        "after": "财测",
+        "count": 1
+      },
+      {
+        "before": "美股价格区间",
+        "after": "每股价格区间",
+        "count": 1
+      },
+      {
+        "before": "照上线算",
+        "after": "照上限算",
+        "count": 1
+      },
+      {
+        "before": "沸尘半导体指数",
+        "after": "费城半导体指数",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 237.46,
+        "before": "恐吓了",
+        "after": ""
+      },
+      {
+        "start": 55.36,
+        "before": "带成一度全世界市值",
+        "after": "带成一度全世界市值最高的公司",
+        "end": 57.6
+      },
+      {
+        "start": 57.260000000000005,
+        "before": "最高的NVIDIA市值",
+        "after": ""
+      },
+      {
+        "start": 117.06,
+        "before": "这一周的NVIDIA财报",
+        "after": "这周我们一天一天来看",
+        "end": 119.16
+      },
+      {
+        "start": 117.62,
+        "before": "我们一天一天来看",
+        "after": ""
+      },
+      {
+        "start": 147.18,
+        "before": "扣掉了1.5%",
+        "after": ""
+      },
+      {
+        "start": 326.6,
+        "before": "第四位",
+        "after": "第三位被点名的人",
+        "end": 329.04
+      },
+      {
+        "start": 327.28000000000003,
+        "before": "第三位",
+        "after": ""
+      },
+      {
+        "start": 327.88000000000005,
+        "before": "被点名的人",
+        "after": ""
+      },
+      {
+        "start": 415.4,
+        "before": "12月一次升两码也不错了",
+        "after": "12月一次升两码也应该考虑",
+        "end": 418.44
+      },
+      {
+        "start": 417.2,
+        "before": "也应该考虑",
+        "after": ""
+      },
+      {
+        "start": 476.28,
+        "before": "要看下周三过去的股市会不会再上升了",
+        "after": "要看下周三公布的联准会会议记录和12月9号的利率决定",
+        "end": 481.32
+      },
+      {
+        "start": 477.2,
+        "before": "这就是Coreweave公布的联准会会议记录和12月9号的利率决定",
+        "after": ""
+      },
+      {
+        "start": 774.24,
+        "before": "NVIDIA AI公司值1兆美元以上",
+        "after": "一家AI公司值1兆美元以上"
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "完整音轨，large-v3、CPU int8、2线程、beam 3，自动语言、VAD关闭、参考前文开启；两份视频在Codex Cloud并行处理。",
+      "按用户要求保留最终TXT/SRT/JSON，保存至原黄仁勋专题，不生成ZIP。",
+      "保留讲者的推测与观点语气，金融术语按上下文校对；不能可靠确认的名称与数字注明待核，不按常识补造。",
+      "237.46–237.58秒“恐吓了”仅0.12秒，属于随后“恐慌指数”前的不完整识别尾段，予以清除。",
+      "44–62秒独立复核，修复片头公司描述句尾的NVIDIA市值误识别，恢复“最高的公司”。",
+      "105–121秒独立复核，清除宏观段落末尾误重复的NVIDIA财报，恢复“这周我们一天一天来看”。",
+      "138–155秒独立复核明确总体CPI月增0.4%、核心0.3%、高于预期0.1个百分点；删除全片识别多出的“扣掉了1.5%”。独立片段末尾超出音频裁切边界的重复识别不采用。",
+      "320–334及410–421秒独立复核，清理第三位人物前的第四位误识别，并恢复“升两码也应该考虑”的原有条件语气。",
+      "470–489秒独立复核，恢复下周三会议纪要与12月9日利率决定的完整句子，清除误植的CoreWeave主语。",
+      "767–780秒独立复核，将最后一句的误植NVIDIA改为“一家”，正确保留Anthropic估值陈述的主语。"
+    ]
+  },
+  "broadcast_date": "2026-11-14",
+  "broadcast_date_source": "Date explicitly provided in uploaded source title: 言選週報 2026.11.14; no independent publication-date verification"
+}
