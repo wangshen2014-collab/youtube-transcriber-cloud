@@ -46,3 +46,16 @@
 [结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/b6df22a4538947c2a8f02bf3)
 
 <!-- nvda-mid-20261112:end -->
+
+<!-- reporter-standard-20261113:start -->
+## 2026-11-13 新增转录｜记者易速利
+
+日期为转录日期；普通档medium、beam 3，在Codex Cloud CPU执行。保留讲者的推测与观点语气，短英文片段保留英文。
+
+### 【频道 记者易速利】黄仁勋风波的幕后主谋应该是卢比奥、贝森特等对华鹰派。｜普通精度
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0762e2633d5a7d486c729e5b/2026-11-13_%E8%BD%AC%E5%BD%95_%E8%AE%B0%E8%80%85%E6%98%93%E9%80%9F%E5%88%A9_%E9%BB%84%E4%BB%81%E5%8B%8B%E9%A3%8E%E6%B3%A2_%E6%99%AE%E9%80%9A%E7%B2%BE%E5%BA%A6.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0762e2633d5a7d486c729e5b/2026-11-13_%E8%BD%AC%E5%BD%95_%E8%AE%B0%E8%80%85%E6%98%93%E9%80%9F%E5%88%A9_%E9%BB%84%E4%BB%81%E5%8B%8B%E9%A3%8E%E6%B3%A2_%E6%99%AE%E9%80%9A%E7%B2%BE%E5%BA%A6.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0762e2633d5a7d486c729e5b/2026-11-13_%E8%BD%AC%E5%BD%95_%E8%AE%B0%E8%80%85%E6%98%93%E9%80%9F%E5%88%A9_%E9%BB%84%E4%BB%81%E5%8B%8B%E9%A3%8E%E6%B3%A2_%E6%99%AE%E9%80%9A%E7%B2%BE%E5%BA%A6.json)
+
+[结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0762e2633d5a7d486c729e5b)
+
+<!-- reporter-standard-20261113:end -->
