@@ -1,0 +1,725 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "47514a1bd14a19f25e1d3c27fe296688e95b4f29ceb5fc4e203f565ec4fe7357",
+    "source_id": "audio-47514a1bd14a19f25e1d3c27"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/reporter-standard-20261113/20261114-031237-77a4c3b0",
+  "timings_seconds": {
+    "local_source_selection": 0.00014054299390409142,
+    "download_or_cache": 0.0,
+    "audio_decode": 5.567107944007148,
+    "model_load": 2.6041983350005466,
+    "transcription": 2199.847021606998,
+    "total_this_invocation": 2208.0692733239994
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/ff94d485-8e03-4859-969b-fea0f7c20b15/【频道 记者易速利】黄仁勋风波的幕后主谋应该是卢比奥、贝森特等对华鹰派。.webm",
+    "sha256": "47514a1bd14a19f25e1d3c27fe296688e95b4f29ceb5fc4e203f565ec4fe7357",
+    "original_name": "【频道 记者易速利】黄仁勋风波的幕后主谋应该是卢比奥、贝森特等对华鹰派。.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 记者易速利】黄仁勋风波的幕后主谋应该是卢比奥、贝森特等对华鹰派。.webm",
+  "audio_duration_seconds": 2524.7573125,
+  "selected_start": 0.0,
+  "selected_end": 2524.7573125,
+  "language_probability": 0.994312047958374,
+  "segment_count": 1118,
+  "detected_language": "zh",
+  "last_completed_audio_second": 2524.7573125,
+  "peak_ram_mb": 3250.9,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "普通精度：medium / beam 3",
+  "transcription_date_local": "2026-11-13",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 1145,
+  "transcription_languages": [
+    "zh",
+    "en"
+  ],
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "黄人勋",
+        "after": "黄仁勋",
+        "count": 26
+      },
+      {
+        "before": "黄荣勋",
+        "after": "黄仁勋",
+        "count": 6
+      },
+      {
+        "before": "轰爱情",
+        "after": "婚外情",
+        "count": 4
+      },
+      {
+        "before": "红爱情",
+        "after": "婚外情",
+        "count": 3
+      },
+      {
+        "before": "烘爱情",
+        "after": "婚外情",
+        "count": 1
+      },
+      {
+        "before": "因为达的一位高管",
+        "after": "英伟达的一位高管",
+        "count": 1
+      },
+      {
+        "before": "因为答内部员工",
+        "after": "英伟达内部员工",
+        "count": 1
+      },
+      {
+        "before": "Perry Menopause",
+        "after": "perimenopause",
+        "count": 1
+      },
+      {
+        "before": "跟年前期",
+        "after": "更年前期",
+        "count": 1
+      },
+      {
+        "before": "连铃",
+        "after": "年龄",
+        "count": 2
+      },
+      {
+        "before": "Ork",
+        "after": "Oracle",
+        "count": 1
+      },
+      {
+        "before": "也赢",
+        "after": "野营",
+        "count": 1
+      },
+      {
+        "before": "周山",
+        "after": "周三",
+        "count": 1
+      },
+      {
+        "before": "教育日",
+        "after": "交易日",
+        "count": 1
+      },
+      {
+        "before": "法族界",
+        "after": "法租界",
+        "count": 1
+      },
+      {
+        "before": "望之路",
+        "after": "望志路",
+        "count": 1
+      },
+      {
+        "before": "Jensen Wong",
+        "after": "Jensen Huang",
+        "count": 1
+      },
+      {
+        "before": "朱可仁",
+        "after": "朱可仁〔姓名听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "九龄珠",
+        "after": "九龄珠〔外文名听辨待核〕",
+        "count": 1
+      },
+      {
+        "before": "黄云勋",
+        "after": "黄仁勋",
+        "count": 46
+      },
+      {
+        "before": "黄迅和黄乐",
+        "after": "黄仁勋和黄乐",
+        "count": 1
+      },
+      {
+        "before": "红外情",
+        "after": "婚外情",
+        "count": 3
+      },
+      {
+        "before": "互爱情",
+        "after": "婚外情",
+        "count": 1
+      },
+      {
+        "before": "洪爱琴",
+        "after": "婚外情",
+        "count": 2
+      },
+      {
+        "before": "努比奥",
+        "after": "卢比奥",
+        "count": 2
+      },
+      {
+        "before": "努特尼克",
+        "after": "卢特尼克",
+        "count": 5
+      },
+      {
+        "before": "伍德尼克",
+        "after": "卢特尼克",
+        "count": 1
+      },
+      {
+        "before": "鲁特尼克",
+        "after": "卢特尼克",
+        "count": 1
+      },
+      {
+        "before": "ASMO",
+        "after": "ASML",
+        "count": 1
+      },
+      {
+        "before": "Maxpeed",
+        "after": "Megaspeed",
+        "count": 3
+      },
+      {
+        "before": "Magspeed",
+        "after": "Megaspeed",
+        "count": 4
+      },
+      {
+        "before": "算运了大约",
+        "after": "转运了大约",
+        "count": 1
+      },
+      {
+        "before": "提讯两家大公司",
+        "after": "腾讯两家大公司",
+        "count": 1
+      },
+      {
+        "before": "月志暗面",
+        "after": "月之暗面",
+        "count": 1
+      },
+      {
+        "before": "Decapoline",
+        "after": "decoupling",
+        "count": 1
+      },
+      {
+        "before": "电器工程",
+        "after": "电气工程",
+        "count": 1
+      },
+      {
+        "before": "香港进会大学",
+        "after": "香港浸会大学",
+        "count": 1
+      },
+      {
+        "before": "印度黎夏",
+        "after": "印度尼西亚",
+        "count": 1
+      },
+      {
+        "before": "政治经济场",
+        "after": "政治竞技场",
+        "count": 1
+      },
+      {
+        "before": "一张战票",
+        "after": "一张站票",
+        "count": 1
+      },
+      {
+        "before": "过浓丽新年",
+        "after": "过农历新年",
+        "count": 1
+      },
+      {
+        "before": "表过胎",
+        "after": "表过态",
+        "count": 1
+      },
+      {
+        "before": "待遇借物",
+        "after": "待人接物",
+        "count": 1
+      },
+      {
+        "before": "起零由天",
+        "after": "杞人忧天",
+        "count": 1
+      },
+      {
+        "before": "生育风险",
+        "after": "声誉风险",
+        "count": 1
+      },
+      {
+        "before": "人工资源产业",
+        "after": "人工智能产业",
+        "count": 1
+      },
+      {
+        "before": "cheap security act",
+        "after": "Chip Security Act",
+        "count": 1
+      },
+      {
+        "before": "跟赚记作者",
+        "after": "跟传记作者",
+        "count": 1
+      },
+      {
+        "before": "Dennis",
+        "after": "Denny’s",
+        "count": 1
+      },
+      {
+        "before": "比德蒂尔",
+        "after": "彼得·蒂尔",
+        "count": 1
+      },
+      {
+        "before": "卢比奥是输流人物",
+        "after": "卢比奥是枢纽人物",
+        "count": 1
+      },
+      {
+        "before": "早就接下了梁子",
+        "after": "早就结下了梁子",
+        "count": 1
+      },
+      {
+        "before": "特朗普主格期间",
+        "after": "特朗普组阁期间",
+        "count": 1
+      },
+      {
+        "before": "完禅",
+        "after": "玩穿",
+        "count": 1
+      },
+      {
+        "before": "难以忘其项背",
+        "after": "难以望其项背",
+        "count": 1
+      },
+      {
+        "before": "因为达对中国",
+        "after": "英伟达对中国",
+        "count": 1
+      },
+      {
+        "before": "因为他和其他半导体公司",
+        "after": "英伟达和其他半导体公司",
+        "count": 1
+      },
+      {
+        "before": "因为他可能不得不支付",
+        "after": "英伟达可能不得不支付",
+        "count": 1
+      },
+      {
+        "before": "因为他自己",
+        "after": "英伟达自己",
+        "count": 1
+      },
+      {
+        "before": "因为他不违规",
+        "after": "英伟达不违规",
+        "count": 1
+      },
+      {
+        "before": "黄元勋",
+        "after": "黄仁勋",
+        "count": 3
+      },
+      {
+        "before": "由心冲冲",
+        "after": "忧心忡忡",
+        "count": 1
+      },
+      {
+        "before": "艾尔里修",
+        "after": "AI领袖",
+        "count": 1
+      },
+      {
+        "before": "德国总理莫茨",
+        "after": "德国总理默茨",
+        "count": 1
+      },
+      {
+        "before": "阿莫戴伊维代表",
+        "after": "阿莫戴伊为代表",
+        "count": 1
+      },
+      {
+        "before": "杰弗里 新顿",
+        "after": "杰弗里·辛顿",
+        "count": 1
+      },
+      {
+        "before": "约苏亚 本吉奥",
+        "after": "约书亚·本吉奥",
+        "count": 1
+      },
+      {
+        "before": "爱立泽 尤德克夫斯基",
+        "after": "埃利泽·尤德考斯基",
+        "count": 1
+      },
+      {
+        "before": "默认论",
+        "after": "末日论",
+        "count": 1
+      },
+      {
+        "before": "蓝色海啸的行程",
+        "after": "蓝色海啸的形成",
+        "count": 1
+      },
+      {
+        "before": "中百效应",
+        "after": "钟摆效应",
+        "count": 1
+      },
+      {
+        "before": "但一心中国赶超",
+        "after": "但担心中国赶超",
+        "count": 1
+      },
+      {
+        "before": "贝斯特",
+        "after": "贝森特",
+        "count": 1
+      },
+      {
+        "before": "特朗普、郑弗内、卢比奥",
+        "after": "特朗普政府内、卢比奥",
+        "count": 1
+      },
+      {
+        "before": "昂贵皮加克",
+        "after": "昂贵皮夹克",
+        "count": 1
+      },
+      {
+        "before": "最好的一选",
+        "after": "最好的人选",
+        "count": 1
+      },
+      {
+        "before": "转发倒赏",
+        "after": "转发打赏",
+        "count": 1
+      },
+      {
+        "before": "官议士",
+        "after": "官议士〔此处措辞听辨待核〕",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 692.64,
+        "before": "他的年龄在12岁到50岁之间更接近50岁",
+        "after": "他的年龄在12岁到50岁之间更接近50岁〔年龄数字听辨待核〕"
+      },
+      {
+        "start": 776.2,
+        "before": "从2023年的3300亿美元",
+        "after": "从2023年的3300亿美元〔金额单位听辨待核；与随后30亿美元及90倍的说法不一致〕"
+      },
+      {
+        "start": 1203.88,
+        "before": "合伙人John King牵头",
+        "after": "合伙人John King牵头〔姓名听辨待核〕"
+      },
+      {
+        "start": 1210.3200000000002,
+        "before": "含义的John King在著名的",
+        "after": "含义的John King在著名的〔姓名听辨待核〕"
+      },
+      {
+        "start": 1291.44,
+        "before": "克拉特克拉斯",
+        "after": "克拉特克拉斯〔姓名听辨待核〕"
+      },
+      {
+        "start": 2524.16,
+        "before": "中文字幕组",
+        "after": ""
+      }
+    ],
+    "range_replacements": [
+      {
+        "start": 43.4,
+        "end": 53.68,
+        "segments": [
+          {
+            "start": 43.7,
+            "end": 47.5,
+            "text": "〔英文片段〕In 2023, we also talked to Kimberly Powell."
+          },
+          {
+            "start": 47.5,
+            "end": 51.34,
+            "text": "It's now come out that Jensen Huang reportedly had an affair with her too."
+          },
+          {
+            "start": 51.34,
+            "end": 53.68,
+            "text": "We were able to achieve the Guinness World Record in…〔英文片段在此结束〕"
+          }
+        ],
+        "reason": "English news insert independently transcribed with medium beam 3; restore original English instead of full-file Chinese misrecognition."
+      },
+      {
+        "start": 214.28,
+        "end": 225.76,
+        "segments": [
+          {
+            "start": 214.28,
+            "end": 220.82,
+            "text": "〔英文片段〕NVIDIA Chief Executive Jensen Huang met his wife, Lori Mills, as engineering lab partners."
+          },
+          {
+            "start": 220.82,
+            "end": 225.2,
+            "text": "They met at Oregon State University in 1980 and married in 1985."
+          }
+        ],
+        "reason": "English biographical insert independently transcribed with medium beam 3; restore original English instead of full-file Chinese misrecognition."
+      },
+      {
+        "start": 2095.72,
+        "end": 2111.16,
+        "segments": [
+          {
+            "start": 2095.72,
+            "end": 2101.3,
+            "text": "〔英文片段〕His downfall is moving both parties in Congress to propose tighter restrictions on U.S. exports."
+          },
+          {
+            "start": 2101.3,
+            "end": 2110.3,
+            "text": "The export controls on chips to China has been a big issue around here. I'm in favor of that, of limiting those exports."
+          }
+        ]
+      },
+      {
+        "start": 2138.68,
+        "end": 2156.64,
+        "segments": [
+          {
+            "start": 2138.68,
+            "end": 2145.34,
+            "text": "〔英文片段〕I am the ultimate American dream, and if not for this country, the education, the ability"
+          },
+          {
+            "start": 2145.34,
+            "end": 2150.82,
+            "text": "to create a new company, pursue your dreams, and let merits be the reason why you succeed"
+          },
+          {
+            "start": 2150.82,
+            "end": 2154.88,
+            "text": "in your endeavor, your grit, your innovation."
+          },
+          {
+            "start": 2154.88,
+            "end": 2156.44,
+            "text": "Let that be the reason why you succeed."
+          }
+        ]
+      },
+      {
+        "start": 311.84,
+        "end": 319.76,
+        "segments": [
+          {
+            "start": 311.84,
+            "end": 316.52,
+            "text": "〔英文片段〕So you assume that DOJ learns that she is in fact a spy."
+          },
+          {
+            "start": 316.52,
+            "end": 318.2,
+            "text": "I'm not, nobody said that."
+          },
+          {
+            "start": 318.2,
+            "end": 319.76,
+            "text": "I certainly haven't said that, and I."
+          }
+        ]
+      },
+      {
+        "start": 354.76,
+        "end": 361.4,
+        "segments": [
+          {
+            "start": 354.76,
+            "end": 359.64,
+            "text": "〔英文片段〕There are no conclusions reached by the Department of Justice or by me or by Director Patel around"
+          },
+          {
+            "start": 359.64,
+            "end": 361.0,
+            "text": "who she is or is not."
+          }
+        ]
+      },
+      {
+        "start": 717.04,
+        "end": 725.28,
+        "segments": [
+          {
+            "start": 717.04,
+            "end": 724.64,
+            "text": "〔英文片段〕With her chin resting on his shoulder, Alice Huang and Jensen Huang appeared very cozy at a fine dining restaurant last year."
+          }
+        ]
+      },
+      {
+        "start": 842.28,
+        "end": 895.52,
+        "segments": [
+          {
+            "start": 842.28,
+            "end": 845.64,
+            "text": "虽然我们普通人还是倾向受到一些约束"
+          },
+          {
+            "start": 845.64,
+            "end": 849.06,
+            "text": "〔英文片段〕You have President Trump on speed dial."
+          },
+          {
+            "start": 849.06,
+            "end": 852.02,
+            "text": "What happens when your views differ from the president's?"
+          },
+          {
+            "start": 852.02,
+            "end": 853.02,
+            "text": "How do you walk that line?"
+          },
+          {
+            "start": 853.02,
+            "end": 855.7,
+            "text": "We don't have to agree on anything."
+          },
+          {
+            "start": 855.7,
+            "end": 860.44,
+            "text": "It's not my job to agree or disagree."
+          },
+          {
+            "start": 860.44,
+            "end": 864.4,
+            "text": "It's my job to inform him of the decisions that we make, impact not just the American"
+          },
+          {
+            "start": 864.4,
+            "end": 869.54,
+            "text": "citizens, the prosperity of our future, it impacts the world."
+          },
+          {
+            "start": 869.6,
+            "end": 872.6,
+            "text": "黄仁勋开始与黄乐交往的时候"
+          },
+          {
+            "start": 872.6,
+            "end": 873.6,
+            "text": "跟特朗普没有任何联系"
+          },
+          {
+            "start": 873.6,
+            "end": 874.6,
+            "text": "他对政治并不热心"
+          },
+          {
+            "start": 874.6,
+            "end": 876.6,
+            "text": "从来没有大额捐款"
+          },
+          {
+            "start": 876.6,
+            "end": 879.6,
+            "text": "也从来没有公开支持过任何政治候选人"
+          },
+          {
+            "start": 879.6,
+            "end": 882.6,
+            "text": "对公共政策呢 几乎没有表过态"
+          },
+          {
+            "start": 882.6,
+            "end": 885.6,
+            "text": "2024年大选马斯克这些人捐款啊"
+          },
+          {
+            "start": 885.6,
+            "end": 888.6,
+            "text": "以亿美元计 黄仁勋没有记录 可以看作零啊"
+          },
+          {
+            "start": 888.6,
+            "end": 891.6,
+            "text": "马斯克下注买下了政治竞技场的包厢"
+          },
+          {
+            "start": 891.6,
+            "end": 894.6,
+            "text": "黄仁勋连买一张站票都没有兴趣"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "按用户指定普通精度medium、beam 3、CPU int8，2线程；VAD关闭、参考前文开启。",
+      "仅做基本姓名与明显同音词校对，保留讲者的应该、推测、我认为等观点限定词，不将政治推测改为已核实事实。",
+      "两个短英文片段以相同普通模型独立识别，恢复英文原文；不按中文误译猜写英文。",
+      "文件名过长导致首次下载未成功，已使用用户重传的短文件名版，源音频不上传GitHub。",
+      "抽查中文人名、机构及金融术语，保留讲者的应该、推测、我认为、如果等限定词；不把评论中的指控当作经独立核实的事实。",
+      "另外独立复核5处英文插播，使用medium/beam 3恢复英文；年龄12至50与资产3300亿美元等识别经短片复核仍不能解决，明确标记待核而未推算补值。",
+      "删除尾部超出音轨时长的“中文字幕组”：位于片尾静音，no_speech_probability=0.9936，属于识别器尾部幻觉。",
+      "842.28–895.52秒完整片段复核，找回被漏掉的845.64–869.6秒英文访谈并恢复后续中文正确时序，替换全片识别反复输出“2024年大选”的幻觉。"
+    ]
+  }
+}
