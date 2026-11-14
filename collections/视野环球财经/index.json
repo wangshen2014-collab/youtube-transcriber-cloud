@@ -117,7 +117,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "3baf484795603fc7b68462191f20a60fc7f1730290fad4870dc0f422de4eb1ef",
@@ -139,6 +139,41 @@
         "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b40f25ccf07ebc88476b893/2026-11-12_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E6%8C%81%E4%BB%93_QQQ%E7%A9%BA%E5%A4%B4_%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91%E4%BB%93%E4%BD%8D.srt",
         "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/0b40f25ccf07ebc88476b893/2026-11-12_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E6%8C%81%E4%BB%93_QQQ%E7%A9%BA%E5%A4%B4_%E5%AF%B9%E5%86%B2%E5%9F%BA%E9%87%91%E4%BB%93%E4%BD%8D.json"
       }
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "387aed0843e0140735e09d4f44f2fdda451d9b4a886313af66b695eefc21526a",
+        "source_id": "audio-387aed0843e0140735e09d4f"
+      },
+      "title": "2026-11-13｜高精度｜【频道 视野环球财经】美股 循环信贷、梯云纵裂痕！半导体全军覆没！黄仁勋辞职，有融资机构要跑！ AMD、AVGO、MRVL、TSM！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/cfed49d15bb8d71e49d52ae1",
+      "saved_at": 1794627772.9470918,
+      "broadcast_date": "2026-11-13",
+      "transcription_date_local": "2026-11-13",
+      "commit_sha": "f352298ddee7ac53012f63aac058b3bbee82232c",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cfed49d15bb8d71e49d52ae1/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cfed49d15bb8d71e49d52ae1/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/cfed49d15bb8d71e49d52ae1/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.json"
+      },
+      "analysis_txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/analysis/2026-11-13_%E5%BE%AA%E7%8E%AF%E8%9E%8D%E8%B5%84%E4%B8%8E%E5%8D%8A%E5%AF%BC%E4%BD%93_%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90.txt"
     }
   ],
   "current_batch": {
@@ -262,9 +297,9 @@
     "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.txt"
   ],
   "latest_update": {
-    "transcription_date_local": "2026-11-12",
-    "broadcast_date": "2026-11-12",
+    "transcription_date_local": "2026-11-13",
+    "broadcast_date": "2026-11-13",
     "quality": "large-v3 / beam 5 / CPU int8",
-    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/0b40f25ccf07ebc88476b893"
+    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/cfed49d15bb8d71e49d52ae1"
   }
 }

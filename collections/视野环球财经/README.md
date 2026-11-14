@@ -1,5 +1,18 @@
 # 视野环球财经
 
+<!-- finance-credit-high-20261113:start -->
+## 2026-11-13｜高精度｜循环信贷与半导体
+
+归档日期为2026-11-13；片头年份识别存在歧义，正文及报告已标注待核。采用large-v3、beam 5，在Codex Cloud CPU完整转录并校对金融术语。保存TXT/SRT/JSON，各期独立，不生成ZIP。
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-13_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E5%BE%AA%E7%8E%AF%E4%BF%A1%E8%B4%B7_%E5%8D%8A%E5%AF%BC%E4%BD%93_AMD_AVGO_MRVL_TSM.json)
+
+[详细分析 TXT](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/analysis/2026-11-13_%E5%BE%AA%E7%8E%AF%E8%9E%8D%E8%B5%84%E4%B8%8E%E5%8D%8A%E5%AF%BC%E4%BD%93_%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90.txt)
+
+[独立结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/cfed49d15bb8d71e49d52ae1)
+
+<!-- finance-credit-high-20261113:end -->
+
 <!-- finance-nvda-high-20261112:start -->
 ## 2026-11-12｜高精度｜NVDA持仓、QQQ空头与对冲基金仓位
 
