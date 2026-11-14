@@ -1,0 +1,213 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "387aed0843e0140735e09d4f44f2fdda451d9b4a886313af66b695eefc21526a",
+    "source_id": "audio-387aed0843e0140735e09d4f"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-credit-high-20261113/20261114-030320-3e00c3e2",
+  "timings_seconds": {
+    "local_source_selection": 5.690599209628999e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.2158913659950485,
+    "model_load": 14.599999154990655,
+    "transcription": 1957.9895613940025,
+    "total_this_invocation": 1975.8388666190003
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/149b3060-5d27-401b-983a-5e477953adec/【频道 视野环球财经】美股 循环信贷、梯云纵裂痕！半导体全军覆没！黄仁勋辞职，有融资机构要跑！ AMD、AVGO、MRVL、TSM！.webm",
+    "sha256": "387aed0843e0140735e09d4f44f2fdda451d9b4a886313af66b695eefc21526a",
+    "original_name": "【频道 视野环球财经】美股 循环信贷、梯云纵裂痕！半导体全军覆没！黄仁勋辞职，有融资机构要跑！ AMD、AVGO、MRVL、TSM！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 循环信贷、梯云纵裂痕！半导体全军覆没！黄仁勋辞职，有融资机构要跑！ AMD、AVGO、MRVL、TSM！.webm",
+  "audio_duration_seconds": 1558.848,
+  "selected_start": 0.0,
+  "selected_end": 1558.848,
+  "language_probability": 0.9962194561958313,
+  "segment_count": 715,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1558.18,
+  "peak_ram_mb": 3906.8,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5",
+  "broadcast_date": "2026-11-13",
+  "broadcast_timezone": "America/New_York",
+  "broadcast_date_source": "Archive date inferred from Friday and current series context; spoken year recognized as 2016 remains marked",
+  "spoken_intro_date_as_recognized": "2016-11-13",
+  "date_uncertain": true,
+  "transcription_date_local": "2026-11-13",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 716,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "道指独掌",
+        "after": "道指独涨",
+        "count": 1
+      },
+      {
+        "before": "踢云纵",
+        "after": "梯云纵",
+        "count": 1
+      },
+      {
+        "before": "斯科",
+        "after": "思科",
+        "count": 2
+      },
+      {
+        "before": "黄文勋",
+        "after": "黄仁勋",
+        "count": 1
+      },
+      {
+        "before": "风险长口",
+        "after": "风险敞口",
+        "count": 2
+      },
+      {
+        "before": "大力的压住",
+        "after": "大力地押注",
+        "count": 1
+      },
+      {
+        "before": "店门",
+        "after": "电门",
+        "count": 1
+      },
+      {
+        "before": "Nscal",
+        "after": "Nscale",
+        "count": 2
+      },
+      {
+        "before": "Covid",
+        "after": "CoreWeave",
+        "count": 1
+      },
+      {
+        "before": "S1",
+        "after": "S-1",
+        "count": 1
+      },
+      {
+        "before": "外科担保",
+        "after": "外壳担保",
+        "count": 1
+      },
+      {
+        "before": "Marvel",
+        "after": "Marvell",
+        "count": 2
+      },
+      {
+        "before": "MD",
+        "after": "AMD",
+        "count": 1
+      },
+      {
+        "before": "倒行反转",
+        "after": "岛形反转",
+        "count": 2
+      },
+      {
+        "before": "S1A",
+        "after": "S-1/A",
+        "count": 1
+      },
+      {
+        "before": "anthropic",
+        "after": "Anthropic",
+        "count": 1
+      },
+      {
+        "before": "绿邪机制",
+        "after": "绿鞋机制",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 5.4,
+        "before": "2016年11月13号",
+        "after": "2016年11月13号〔片头年份按原识别保留；按本期上下文归档为2026年11月13日，年份待核〕"
+      },
+      {
+        "start": 87.86,
+        "before": "同比涨幅维持了6.5%",
+        "after": "同比涨幅维持在5%不变",
+        "end": 90.78
+      },
+      {
+        "start": 89.04,
+        "before": "在5%不变",
+        "after": ""
+      },
+      {
+        "start": 414.21999999999997,
+        "before": "5月份有权购买至多21亿美元的LEN的股票",
+        "after": "5月份有权购买至多21亿美元的LEN〔股票代码听辨待核〕的股票"
+      },
+      {
+        "start": 418.88,
+        "before": "那么这个月准备一下Nscal发行10亿美元的票据",
+        "after": "那么这个月准备一下Nscal发行10亿美元的票据〔票据认购／发行方向听辨待核〕"
+      },
+      {
+        "start": 543.1800000000001,
+        "before": "250亿的已承诺当时尚未注册的股权投资",
+        "after": "250亿的已承诺当时尚未注册的股权投资〔“注册”或“注资”听辨待核〕"
+      },
+      {
+        "start": 577.7800000000001,
+        "before": "俄亥俄州为OpenAI提供了1050亿美元的担保",
+        "after": "俄亥俄州为OpenAI提供了1050亿美元的担保〔此处实体名称听辨待核，不能据此确认担保主体〕"
+      },
+      {
+        "start": 1278.76,
+        "before": "306到378",
+        "after": "306到378〔前后价位识别不一致，区间下限待核〕"
+      },
+      {
+        "start": 1300.5600000000002,
+        "before": "但我觉得360到378的概率是比较高的",
+        "after": "但我觉得360到378的概率是比较高的〔前后价位识别不一致，区间下限待核〕"
+      },
+      {
+        "start": 1287.0,
+        "before": "直接形态",
+        "after": "止跌形态"
+      }
+    ],
+    "notes": [
+      "完整音轨使用large-v3、beam 5、CPU int8、4线程、VAD关闭、参考前文开启。",
+      "本次仅处理当前用户指定的循环信贷与半导体视频，前一份资本支出视频已忽略。",
+      "正文保留讲者的判断和模态词；金融术语按上下文校对，不根据行情常识擅改数字。",
+      "0–14秒独立复核仍识别年份2016，但同句为周五，且为当前2026年系列语境；编目按2026-11-13，正文保留原识别并明确标记年份待核。",
+      "79–104秒独立复核明确为核心PPI同比维持在5%不变，删除全片识别中多出的6.5%，仅修正此处，不改动整体PPI同比6.5%的另一指标。",
+      "402–435、531–594、1273–1305秒独立large-v3复核；仍不明确的股票代码、票据方向、股权注资措辞、担保实体和TSM区间下限在正文标记待核，未依据行业常识补造。"
+    ]
+  }
+}
