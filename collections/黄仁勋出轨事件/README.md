@@ -85,3 +85,16 @@
 [结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/bc8c9f45b2359dc61943b815)
 
 <!-- yanjiu-mid-high-20261114:end -->
+
+<!-- money-tpu-mid-high-20261116:start -->
+## 2026-11-16 新增转录｜Money&Love 投资频道
+
+日期为转录日期；large-v3、beam 3，中高精度，在Codex Cloud CPU完整转录并校对金融与芯片术语。保留讲者的观点与推测语气，不生成ZIP。
+
+### 【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！｜中高精度
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.json)
+
+[结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/ea6d00354028146af8b19844)
+
+<!-- money-tpu-mid-high-20261116:end -->
