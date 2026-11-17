@@ -1,0 +1,588 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "fe931b56a0124d19e35ce941f6271376dd38aeb6ac4c9c254ec1365b06f7aca8",
+    "source_id": "audio-fe931b56a0124d19e35ce941"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/money-tpu-mid-high-20261116/20261117-041103-b0e27da0",
+  "timings_seconds": {
+    "local_source_selection": 5.8077999995020946e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.06704202100002,
+    "model_load": 6.1267410890000065,
+    "transcription": 1460.250029038,
+    "total_this_invocation": 1469.473343543
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/b4dbfb27-4d5c-4208-a12e-3d3e2f6d5816/【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！.webm",
+    "sha256": "fe931b56a0124d19e35ce941f6271376dd38aeb6ac4c9c254ec1365b06f7aca8",
+    "original_name": "【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！.webm",
+  "audio_duration_seconds": 1486.843375,
+  "selected_start": 0.0,
+  "selected_end": 1486.843375,
+  "language_probability": 0.9975680708885193,
+  "segment_count": 694,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1486.54,
+  "peak_ram_mb": 3504.6,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "中高精度：large-v3 / beam 3",
+  "transcription_date_local": "2026-11-16",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 701,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "妈娘辣伍投资频道",
+        "after": "Money&Love 投资频道",
+        "count": 1
+      },
+      {
+        "before": "谷歌今年播出的资本开支",
+        "after": "谷歌今年拨出的资本开支",
+        "count": 1
+      },
+      {
+        "before": "人工智能技术设施",
+        "after": "人工智能基础设施",
+        "count": 2
+      },
+      {
+        "before": "Disco",
+        "after": "Discord",
+        "count": 1
+      },
+      {
+        "before": "知情合一",
+        "after": "知行合一",
+        "count": 1
+      },
+      {
+        "before": "IA",
+        "after": "AI",
+        "count": 1
+      },
+      {
+        "before": "编辑变量",
+        "after": "边际变量",
+        "count": 1
+      },
+      {
+        "before": "N-WOOD",
+        "after": "Ironwood",
+        "count": 4
+      },
+      {
+        "before": "8T",
+        "after": "8t",
+        "count": 3
+      },
+      {
+        "before": "19.2TBS",
+        "after": "19.2 TB/s",
+        "count": 1
+      },
+      {
+        "before": "贵格",
+        "after": "规格",
+        "count": 1
+      },
+      {
+        "before": "MOE",
+        "after": "MoE",
+        "count": 2
+      },
+      {
+        "before": "GBT-6",
+        "after": "GPT-6",
+        "count": 2
+      },
+      {
+        "before": "Gimlet",
+        "after": "Gemini",
+        "count": 6
+      },
+      {
+        "before": "AmpliOpik",
+        "after": "Anthropic",
+        "count": 1
+      },
+      {
+        "before": "Cloud包了成本最高的前四",
+        "after": "Claude包了成本最高的前四",
+        "count": 1
+      },
+      {
+        "before": "Cloud 5.5",
+        "after": "Claude 5.5",
+        "count": 1
+      },
+      {
+        "before": "GBT",
+        "after": "GPT",
+        "count": 1
+      },
+      {
+        "before": "Envod",
+        "after": "Ironwood",
+        "count": 2
+      },
+      {
+        "before": "同样一次制动任务",
+        "after": "同样一次智能任务",
+        "count": 1
+      },
+      {
+        "before": "第一个收益的是",
+        "after": "第一个受益的是",
+        "count": 1
+      },
+      {
+        "before": "谷歌和黑市的合资公司",
+        "after": "谷歌和黑石的合资公司",
+        "count": 1
+      },
+      {
+        "before": "再加上黑市全球最大的另类资产管理机构之一",
+        "after": "再加上黑石，全球最大的另类资产管理机构之一",
+        "count": 1
+      },
+      {
+        "before": "是水两个字",
+        "after": "试水两个字",
+        "count": 1
+      },
+      {
+        "before": "OpenA",
+        "after": "OpenAI",
+        "count": 1
+      },
+      {
+        "before": "全球越火",
+        "after": "全球月活",
+        "count": 1
+      },
+      {
+        "before": "AH",
+        "after": "AI",
+        "count": 1
+      },
+      {
+        "before": "资本和税中心的钥匙",
+        "after": "资本和数据中心的钥匙",
+        "count": 1
+      },
+      {
+        "before": "巴卡莱",
+        "after": "巴克莱",
+        "count": 3
+      },
+      {
+        "before": "参照戏",
+        "after": "参照系",
+        "count": 1
+      },
+      {
+        "before": "资本开支的保抚",
+        "after": "资本开支的包袱",
+        "count": 1
+      },
+      {
+        "before": "所有钱都到谷歌先掏",
+        "after": "所有钱都得谷歌先掏",
+        "count": 1
+      },
+      {
+        "before": "楼有客户自己去盖",
+        "after": "楼由客户自己去盖",
+        "count": 1
+      },
+      {
+        "before": "而且客户呢带有盖楼的一个钱",
+        "after": "而且客户呢得有盖楼的一个钱",
+        "count": 1
+      },
+      {
+        "before": "K2",
+        "after": "Q2",
+        "count": 1
+      },
+      {
+        "before": "完整基价",
+        "after": "完整机架",
+        "count": 1
+      },
+      {
+        "before": "TPU基价",
+        "after": "TPU机架",
+        "count": 1
+      },
+      {
+        "before": "夜冷散热系统",
+        "after": "液冷散热系统",
+        "count": 1
+      },
+      {
+        "before": "英伍达",
+        "after": "英伟达",
+        "count": 15
+      },
+      {
+        "before": "系统及工程能力",
+        "after": "系统级工程能力",
+        "count": 1
+      },
+      {
+        "before": "TPU8T",
+        "after": "TPU8t",
+        "count": 1
+      },
+      {
+        "before": "慢的那一刻",
+        "after": "慢的那一颗",
+        "count": 1
+      },
+      {
+        "before": "重新布显",
+        "after": "重新布线",
+        "count": 1
+      },
+      {
+        "before": "固定同连接",
+        "after": "固定铜连接",
+        "count": 1
+      },
+      {
+        "before": "极瓦级数域中心",
+        "after": "吉瓦级数据中心",
+        "count": 1
+      },
+      {
+        "before": "机甲级",
+        "after": "机架级",
+        "count": 1
+      },
+      {
+        "before": "橡干域",
+        "after": "相干域",
+        "count": 1
+      },
+      {
+        "before": "齐邦咨询",
+        "after": "集邦咨询",
+        "count": 1
+      },
+      {
+        "before": "相干预",
+        "after": "相干域",
+        "count": 1
+      },
+      {
+        "before": "当前的技嘉系统",
+        "after": "当前的机架系统",
+        "count": 1
+      },
+      {
+        "before": "单于上限",
+        "after": "单域上限",
+        "count": 1
+      },
+      {
+        "before": "追评英伟达",
+        "after": "追平英伟达",
+        "count": 1
+      },
+      {
+        "before": "在单于规模",
+        "after": "在单域规模",
+        "count": 1
+      },
+      {
+        "before": "芯片新链组",
+        "after": "芯片训练组",
+        "count": 1
+      },
+      {
+        "before": "已经追评",
+        "after": "已经追平",
+        "count": 1
+      },
+      {
+        "before": "吃平",
+        "after": "持平",
+        "count": 1
+      },
+      {
+        "before": "安佛罗贝克",
+        "after": "Anthropic",
+        "count": 3
+      },
+      {
+        "before": "这些动着账上",
+        "after": "这些动辄账上",
+        "count": 1
+      },
+      {
+        "before": "十六几瓦",
+        "after": "十六吉瓦",
+        "count": 1
+      },
+      {
+        "before": "在IHBM短缺",
+        "after": "在HBM短缺",
+        "count": 1
+      },
+      {
+        "before": "如果兑现上线的话",
+        "after": "如果兑现上限的话",
+        "count": 1
+      },
+      {
+        "before": "余股毛利率",
+        "after": "预估毛利率",
+        "count": 1
+      },
+      {
+        "before": "高度进入在Anthropic",
+        "after": "高度集中在Anthropic",
+        "count": 1
+      },
+      {
+        "before": "Vigo",
+        "after": "Virgo",
+        "count": 1
+      },
+      {
+        "before": "以国快的一个速度",
+        "after": "以多快的一个速度",
+        "count": 1
+      },
+      {
+        "before": "Simonelis",
+        "after": "SemiAnalysis",
+        "count": 1
+      },
+      {
+        "before": "Cable",
+        "after": "Kyber",
+        "count": 2
+      },
+      {
+        "before": "Keeper",
+        "after": "Kyber",
+        "count": 1
+      },
+      {
+        "before": "IGBM紧缺",
+        "after": "HBM紧缺",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 58.16,
+        "before": "那这背后是一场关于谁来定义下一代AS1的标准的一场暗战",
+        "after": ""
+      },
+      {
+        "start": 118.12,
+        "before": "我们先来看第一张图",
+        "after": ""
+      },
+      {
+        "start": 344.8,
+        "before": "Cloud",
+        "after": "Claude"
+      },
+      {
+        "start": 923.82,
+        "before": "而是系统及工程能力",
+        "after": ""
+      },
+      {
+        "start": 953.5600000000001,
+        "before": "本",
+        "after": "本质上面就是给这个系统装了一套",
+        "end": 956.12
+      },
+      {
+        "start": 953.82,
+        "before": "版制上面的就是给这个系统装了一套",
+        "after": ""
+      },
+      {
+        "start": 1398.8000000000002,
+        "before": "中性看大摩的1080亿",
+        "after": ""
+      },
+      {
+        "start": 52.599999999999994,
+        "before": "那这背后是一场关于谁来定义下一代AS1的标准的一场暗战",
+        "after": "那这背后是一场关于谁来定义下一代AI算力标准的一场暗战〔此处术语听辨待核〕"
+      },
+      {
+        "start": 700.02,
+        "before": "在眼下这个AS1里供不应求",
+        "after": "在眼下这个AI算力供不应求"
+      },
+      {
+        "start": 243.62,
+        "before": "也就是ICN",
+        "after": "也就是ICN〔缩写拼写待核〕"
+      },
+      {
+        "start": 261.02,
+        "before": "和飞板式TOP结构",
+        "after": "和〔名称听辨待核〕拓扑结构"
+      },
+      {
+        "start": 313.3,
+        "before": "更接近客户真实掏的要钱",
+        "after": "更接近客户真实掏的钱〔此处措辞听辨待核〕"
+      },
+      {
+        "start": 327.14,
+        "before": "3.5 Flash",
+        "after": "3.5 Flash〔型号前后识别不一致，待核〕"
+      },
+      {
+        "start": 386.28000000000003,
+        "before": "和谷歌对应的Gimlet 3.8 Flash",
+        "after": "和谷歌对应的Gimlet 3.8 Flash〔型号前后识别不一致，待核〕"
+      },
+      {
+        "start": 561.42,
+        "before": "PayPal预测是80亿",
+        "after": "PayPal预测是80亿〔机构名称拼写待核〕"
+      },
+      {
+        "start": 569.86,
+        "before": "而2018年巴卡莱给出的是2527亿美金",
+        "after": "而2018年巴卡莱给出的是2527亿美金〔年份按原识别保留，待核〕"
+      },
+      {
+        "start": 890.52,
+        "before": "FP4算力达到121",
+        "after": "FP4算力达到121〔单位听辨待核〕"
+      },
+      {
+        "start": 892.8199999999999,
+        "before": "每兆瓦性",
+        "after": "每兆瓦性能"
+      },
+      {
+        "start": 893.86,
+        "before": "大约是MW的两倍",
+        "after": "大约是Ironwood的两倍"
+      },
+      {
+        "start": 1081.6000000000001,
+        "before": "而谷歌的商业GPU收入呢",
+        "after": "而谷歌的商业GPU收入呢〔芯片类型听辨待核〕"
+      },
+      {
+        "start": 1088.24,
+        "before": "预计到2027年谷歌GPU芯片产量在880万到1000万颗之间",
+        "after": "预计到2027年谷歌GPU芯片产量在880万到1000万颗之间〔芯片类型听辨待核〕"
+      },
+      {
+        "start": 1102.32,
+        "before": "虽然其中大部分是自用给金面链供写",
+        "after": "虽然其中大部分是自用给Gemini供血"
+      },
+      {
+        "start": 1235.1799999999998,
+        "before": "行业高管的判断是2017年甚至是2018年都很难出现",
+        "after": "行业高管的判断是2017年甚至是2018年都很难出现〔年份按原识别保留，待核〕"
+      },
+      {
+        "start": 1054.44,
+        "before": "Cable机架因为PCB中板制造这个问题",
+        "after": "Cable机架因为PCB中板制造这个问题〔机架名称拼写待核〕"
+      },
+      {
+        "start": 1293.06,
+        "before": "表内或者是有负债",
+        "after": "表内或者是或有负债〔此处措辞听辨待核〕"
+      },
+      {
+        "start": 1351.44,
+        "before": "或者是表内或者是有负债",
+        "after": "或者是表内或者是或有负债〔此处措辞听辨待核〕"
+      },
+      {
+        "start": 1355.52,
+        "before": "AI XPV平台主动做这类客户融资了",
+        "after": "AI XPV平台主动做这类客户融资了〔平台缩写拼写待核〕"
+      },
+      {
+        "start": 1362.96,
+        "before": "是2027年爬坡期我们最值得关注的一个时间点之一",
+        "after": "是2027年爬坡期我们最值得关注的一个时间点之一〔年份听辨待核〕"
+      },
+      {
+        "start": 1442.52,
+        "before": "会在2017年到2018年",
+        "after": "会在2017年到2018年〔年份按原识别保留，待核〕"
+      },
+      {
+        "start": 1457.98,
+        "before": "而英伍达",
+        "after": "而英伟达路线图的任何延迟",
+        "end": 1460.52
+      },
+      {
+        "start": 1459.1399999999999,
+        "before": "录制了一门",
+        "after": ""
+      },
+      {
+        "start": 1459.26,
+        "before": "收线图的任何延迟",
+        "after": ""
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "完整音轨，large-v3 / beam 3 / CPU int8 / 4线程 / 自动语言 / VAD关闭 / condition_on_previous_text开启。",
+      "只转录与校对识别错误，保留讲者的观点和推测语气，不进行事实核查或添加分析。",
+      "金融和芯片术语按明确上下文规范；不能可靠确认的数字或专名标注待核，不按行情或参数常识补造。",
+      "保存至原黄仁勋／英伟达合集，保留TXT/SRT/JSON，不生成ZIP。",
+      "58.16–58.70秒将前一长句在不足一秒内重复输出，属于识别窗口尾部重复，保留第一句正常时长的识别。",
+      "118.12–118.38秒把前一句看图提示在0.26秒内重复输出，清除这处识别窗口尾段。",
+      "923.82–923.84秒重复上一长句，时长仅0.02秒，删除识别窗口尾部重复。",
+      "953秒处本质一词在相邻字幕中拆开并误重复，合并为本质上面就是，保留原时间范围与句意。",
+      "1398.80–1399.32秒在新句中误重复前面完整的大摩1080亿预测，0.52秒无法实际重复该长句，清除窗口尾部插入。",
+      "12–30、119–139、148–174秒独立复核，资本开支、收入、季度增速及HBM容量数值均按原口述保留，不据外部参数修改。AS1/AS1里按上下文写为AI算力，并在首次标注术语待核。",
+      "239–268与294–317秒独立复核：互联缩写和拓扑名称不能可靠确认，正文显式标注待核，不根据硬件常识补ICI或其他名称；成本短句只保留能确认的词并标注。",
+      "318–331与362–394秒独立复核仍分别为Flash3.5和3.8，两处版本均按识别保留并标待核；GPT6、GPT5.5、Claude5.5的原识别版本未改。404–415秒收入端一词未按语义推测改写。553–579秒PayPal拼写及2018年份无法可靠解决，保留并标注，不擅改投行或年份。",
+      "882–900秒复核未可靠得到121后的算力单位，未推算补写；恢复每兆瓦性能和Ironwood比较。1049–1077秒报道专名按语境规范为SemiAnalysis/Kyber，机架拼写保留待核，保留公开否认与尚未证实限定。1080–1108秒两处仍识别GPU，未因主题为TPU而强改，标明芯片类型待核；1233–1244秒仍为2017/2018，保留并标注。",
+      "1288–1298与1347–1368秒独立复核：或有负债按明确财务语境规范但保留措辞待核，XPV缩写未擅改SPV/XPU。1362秒年份全片2027与短片2017不一致，保留全片并标。1440–1475秒清除路线图前的短暂插入与错词，保留2017/2018并标待核，HBM按全文明确的高带宽内存主题规范。"
+    ]
+  }
+}

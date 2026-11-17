@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "fe931b56a0124d19e35ce941f6271376dd38aeb6ac4c9c254ec1365b06f7aca8",
+    "source_id": "audio-fe931b56a0124d19e35ce941"
+  },
+  "title": "【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！｜中高精度",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/ea6d00354028146af8b19844/2026-11-16_%E8%BD%AC%E5%BD%95_MoneyLove_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B0%B7%E6%AD%8CTPU_Anthropic_Meta.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/ea6d00354028146af8b19844",
+  "saved_at": 1794890633.8356156
+}
