@@ -1,5 +1,16 @@
 # 视野环球财经
 
+<!-- finance-purchase-high-20261117:start -->
+## 2026-11-17｜高精度｜NVDA采购、担保与NeoCloud
+
+日期据片头美东时间口播。large-v3、beam 5，Codex Cloud CPU完整转录并校对金融术语；保留讲者的观点与条件语气。保存最终TXT/SRT/JSON，不生成ZIP。
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.json)
+
+[独立结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/1ef036f7af1a41b28c5ea231)
+
+<!-- finance-purchase-high-20261117:end -->
+
 <!-- finance-credit-high-20261113:start -->
 ## 2026-11-13｜高精度｜循环信贷与半导体
 
