@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "38ffda31c0934a561c12be63b794c2c1a400fd43f2832d5d84822bcc361c523b",
+    "source_id": "audio-38ffda31c0934a561c12be63"
+  },
+  "title": "2026-11-17｜高精度｜【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/1ef036f7af1a41b28c5ea231",
+  "saved_at": 1794981058.7449763
+}

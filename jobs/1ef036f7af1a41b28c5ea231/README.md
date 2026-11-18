@@ -1,0 +1,7 @@
+# 2026-11-17｜高精度｜【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！
+
+- [TXT](2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.txt)
+- [SRT](2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.srt)
+- [JSON](2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.json)
+
+由 Codex Cloud 转录，原始音频未上传到本分支。

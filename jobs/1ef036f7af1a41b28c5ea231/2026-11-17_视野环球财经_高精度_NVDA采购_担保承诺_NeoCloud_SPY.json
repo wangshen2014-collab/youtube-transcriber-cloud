@@ -1,0 +1,272 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "38ffda31c0934a561c12be63b794c2c1a400fd43f2832d5d84822bcc361c523b",
+    "source_id": "audio-38ffda31c0934a561c12be63"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/finance-purchase-high-20261117/20261118-051304-a0122a34",
+  "timings_seconds": {
+    "local_source_selection": 7.179799999335046e-05,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.5747144130000095,
+    "model_load": 8.253764036999996,
+    "transcription": 1738.12915425,
+    "total_this_invocation": 1749.999581213
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/7e669b25-6071-42ca-a148-8b288fbaa4c5/【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！.webm",
+    "sha256": "38ffda31c0934a561c12be63b794c2c1a400fd43f2832d5d84822bcc361c523b",
+    "original_name": "【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！.webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！.webm",
+  "audio_duration_seconds": 1751.5740625,
+  "selected_start": 0.0,
+  "selected_end": 1751.5740625,
+  "language_probability": 0.9976339340209961,
+  "segment_count": 820,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1751.0,
+  "peak_ram_mb": 3883.1,
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5",
+  "broadcast_date": "2026-11-17",
+  "broadcast_timezone": "America/New_York",
+  "broadcast_date_source": "Spoken intro at4.28–9.08s: 26年11月17号，周二，美东晚上8点35分",
+  "date_uncertain": false,
+  "transcription_date_local": "2026-11-17",
+  "transcription_timezone": "America/Los_Angeles",
+  "original_segment_count": 824,
+  "terminology_review": {
+    "changes": [
+      {
+        "before": "Raino",
+        "after": "Ryno",
+        "count": 1
+      },
+      {
+        "before": "费正半导体",
+        "after": "费城半导体",
+        "count": 1
+      },
+      {
+        "before": "新闻数据中心",
+        "after": "新云数据中心",
+        "count": 2
+      },
+      {
+        "before": "嘎空",
+        "after": "轧空",
+        "count": 2
+      },
+      {
+        "before": "沾出来了",
+        "after": "粘出来了",
+        "count": 1
+      },
+      {
+        "before": "美股收益",
+        "after": "每股收益",
+        "count": 1
+      },
+      {
+        "before": "拖住股价",
+        "after": "托住股价",
+        "count": 1
+      },
+      {
+        "before": "星云数据中心",
+        "after": "新云数据中心",
+        "count": 1
+      },
+      {
+        "before": "自然力的",
+        "after": "自然历的",
+        "count": 1
+      },
+      {
+        "before": "他的钱债里面",
+        "after": "他的前瞻里面",
+        "count": 1
+      },
+      {
+        "before": "自然利28年",
+        "after": "自然历28年",
+        "count": 1
+      },
+      {
+        "before": "Connect Chris",
+        "after": "Colette Kress",
+        "count": 1
+      },
+      {
+        "before": "临选工作",
+        "after": "遴选工作",
+        "count": 2
+      },
+      {
+        "before": "Cornet",
+        "after": "Colette",
+        "count": 2
+      },
+      {
+        "before": "正职品格",
+        "after": "正直品格",
+        "count": 1
+      },
+      {
+        "before": "行为数据中心",
+        "after": "新云数据中心",
+        "count": 1
+      },
+      {
+        "before": "折积",
+        "after": "择机",
+        "count": 2
+      },
+      {
+        "before": "前瞻固执",
+        "after": "前瞻估值",
+        "count": 1
+      },
+      {
+        "before": "高盛的经济业务",
+        "after": "高盛的经纪业务",
+        "count": 1
+      },
+      {
+        "before": "空头一瓶",
+        "after": "空头一平",
+        "count": 1
+      },
+      {
+        "before": "负余量",
+        "after": "富余量",
+        "count": 2
+      },
+      {
+        "before": "空头投寸",
+        "after": "空头头寸",
+        "count": 1
+      },
+      {
+        "before": "波动下线",
+        "after": "波动下限",
+        "count": 1
+      }
+    ],
+    "segment_edits": [
+      {
+        "start": 504.14000000000004,
+        "before": "那么英伟达因此可以获得硬件销售的产品",
+        "after": ""
+      },
+      {
+        "start": 1729.96,
+        "before": "还是应该希望科技股能够稳定下来之后",
+        "after": ""
+      },
+      {
+        "start": 235.38,
+        "before": "向董事会主席的声明",
+        "after": "像董事会主席的声明"
+      },
+      {
+        "start": 237.45999999999998,
+        "before": "我记录的是",
+        "after": "我几乎是"
+      },
+      {
+        "start": 301.9,
+        "before": "还有超大规模数据中心是营收1601亿",
+        "after": "还有超大规模数据中心是营收1601亿[金额听辨待核]"
+      },
+      {
+        "start": 312.09999999999997,
+        "before": "那么之前预期的是7数",
+        "after": "那么之前预期的是[数值听辨待核]"
+      },
+      {
+        "start": 502.86,
+        "before": "那么英伟达因此可以获得硬件销售的产品",
+        "after": "那么英伟达因此可以获得硬件销售收入",
+        "end": 505.92
+      },
+      {
+        "start": 504.38,
+        "before": "并且被英伟达因此可以获得硬件销售的产品",
+        "after": ""
+      },
+      {
+        "start": 519.22,
+        "before": "用于Polspike园区土地",
+        "after": "用于Polspike[园区名称拼写待核]园区土地"
+      },
+      {
+        "start": 534.08,
+        "before": "9.5GW",
+        "after": ""
+      },
+      {
+        "start": 534.34,
+        "before": "主动建筑20年租赁期",
+        "after": "9栋建筑，20年租赁期"
+      },
+      {
+        "start": 651.1,
+        "before": "将2028财年营收的增长预期上升",
+        "after": "将2028财年营收的增长预期"
+      },
+      {
+        "start": 653.96,
+        "before": "一条至75%",
+        "after": "上调至75%"
+      },
+      {
+        "start": 1086.1599999999999,
+        "before": "27628年因为的下限在316",
+        "after": "[年份听辨待核]的下限在316"
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "完整音轨，large-v3 / beam 5 / CPU int8 / 4线程 / 自动语言 / VAD关闭 / condition_on_previous_text开启。",
+      "只转录并校对识别错误，保留讲者的观点和条件语气，不添加分析，不按行情或报表常识擅改数字。",
+      "金融、机构与证券名称按明确上下文规范；无法可靠听辨的专名、金额或日期标注待核。",
+      "保存至原视野环球财经栏目，保留TXT/SRT/JSON，不生成ZIP，不上传源音频或模型。",
+      "504.14–504.38秒用0.24秒重复前一整句，删除这处识别窗口尾部重复。",
+      "1729.96–1729.98秒用0.02秒重复前一整句，删除识别窗口尾部重复。",
+      "231–246秒独立复核引入声明段落，恢复我几乎是，并按列举语境规范同音字像，保留董事会主席声明的归属。",
+      "已用large-v3/beam5对11处共337秒独立分段复核，覆盖财报数字、采购及担保的条件、前瞻年份、董事会声明和SPY防守价位。",
+      "301–314秒另用medium/beam5做短段交叉听辨。两种模型均识别1601亿及不清楚的7数；不按合计关系推算替换，分别保留并标注金额待核、数值待核。",
+      "502–506秒分段复核恢复硬件销售收入，合并错误重复句；保留条件生效和第三方收入分成。",
+      "514–549秒分段复核恢复9栋建筑、20年租赁期，移除错误的9.5GW短碎片；保留4.25GW以及1050/95/35亿，园区拼写标待核。",
+      "2028财年增长预期恢复上调至75%，保留此前70%及财年截止月份。",
+      "907–934秒独立分段结果仍有董事会执行方面等重复语句，按原口述保留，不擅自删去。",
+      "1086秒年份在两次large-v3解码中均不清楚，标注年份听辨待核，保留316至474；不根据估值关系推算年份。",
+      "SPY728、200日均线729附近、条件性标普7000–7100点均复核保留，不混改ETF价格与指数点位。"
+    ]
+  }
+}

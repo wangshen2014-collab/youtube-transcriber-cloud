@@ -40,6 +40,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [2026-11-14_转录_TerryChen_中高精度_黄仁勋辞职_Nvidia](catalog/6a748a904b777d72.md) | 单项结果 1 |
 | [2026-11-14_转录_言究院_中高精度_黄仁勋辞职_市场周报](catalog/5358f62ca460a358.md) | 单项结果 1 |
 | [2026-11-16_转录_MoneyLove_中高精度_谷歌TPU_Anthropic_Meta](catalog/6e293229ee95cb74.md) | 单项结果 1 |
+| [2026-11-17_视野环球财经_高精度_NVDA采购_担保承诺_NeoCloud_SPY](catalog/9dd5d7ce2bc61715.md) | 单项结果 1 |
 | [AI泡沫破灭？中国股市为何跌的这么惨？](catalog/5134964acba8c609.md) | 单项结果 1 |
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 1 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
@@ -89,4 +90,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 Money&Love 投资频道】英伟达危险了！谷歌TPU全面爆发，Anthropic、Meta纷纷押注！｜中高精度](jobs/ea6d00354028146af8b19844/README.md)
+最新保存：[2026-11-17｜高精度｜【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！](jobs/1ef036f7af1a41b28c5ea231/README.md)
