@@ -65,6 +65,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [美股 天塌了？应该买还是卖？11月三大风险事件！](catalog/480be387f0c8b1bf.md) | 单项结果 1 |
 | [美股 科技股跳水锦标赛！AMZN、INTC跟随！ QQQ、SOXX多空博弈得如何？MSFT发债回吐，又不行了吗？](catalog/bad0746598a06b81.md) | 单项结果 1 |
 | [美股黑色星期五，是抄底还是雪崩前的回光返照？](catalog/0d2608594adef4a2.md) | 单项结果 1 |
+| [老周横眉_Anthropic上市_招股书与IPO_高精度](catalog/bc3ebfbdf0bee5ef.md) | 合并版 1 |
 
 ## 教育与访谈
 
@@ -90,4 +91,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[2026-11-17｜高精度｜【频道 视野环球财经】美股 NVDA提升采购、维持担保承诺！短拉存储、NeoCloud一把！标普SPY关键防守位置！](jobs/1ef036f7af1a41b28c5ea231/README.md)
+最新保存：[【频道 老周横眉】Anthropic上市：招股书与IPO｜高精度｜已上传分段合并](jobs/fff511432d37d4a773f54b34/README.md)
