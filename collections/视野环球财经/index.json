@@ -186,7 +186,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "38ffda31c0934a561c12be63b794c2c1a400fd43f2832d5d84822bcc361c523b",
@@ -208,6 +208,39 @@
         "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.txt",
         "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.srt",
         "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/1ef036f7af1a41b28c5ea231/2026-11-17_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_NVDA%E9%87%87%E8%B4%AD_%E6%8B%85%E4%BF%9D%E6%89%BF%E8%AF%BA_NeoCloud_SPY.json"
+      }
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "2d72b916267083e5127d6227992f4e606fd1cf066d845bf30c96303228993efe",
+        "source_id": "audio-2d72b916267083e5127d6227"
+      },
+      "title": "2026-11-19｜高精度｜【频道 视野环球财经】美股 标普SPY反转破位！恐慌过后，关键点位！个人持仓计划一览！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5b72e666fc3cf740e33befe8",
+      "saved_at": 1795160720.3020136,
+      "broadcast_date": "2026-11-19",
+      "quality": "large-v3 / beam 5 / CPU int8",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.json"
       }
     }
   ],
@@ -332,9 +365,9 @@
     "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.txt"
   ],
   "latest_update": {
-    "transcription_date_local": "2026-11-17",
-    "broadcast_date": "2026-11-17",
+    "transcription_date_local": "2026-11-19",
+    "broadcast_date": "2026-11-19",
     "quality": "large-v3 / beam 5 / CPU int8",
-    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/1ef036f7af1a41b28c5ea231"
+    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5b72e666fc3cf740e33befe8"
   }
 }

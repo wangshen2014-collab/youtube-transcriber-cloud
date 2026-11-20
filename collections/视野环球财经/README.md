@@ -1,5 +1,16 @@
 # 视野环球财经
 
+<!-- finance-spy-break-high-20261119:start -->
+## 2026-11-19｜高精度｜SPY反转破位、关键点位与持仓计划
+
+月日据片头口播，年份结合节目内时间语境归档；片头年份已标待核。Codex Cloud CPU完整转录，large-v3、beam 5；已校对金融术语及关键数字。保留讲者观点和条件语气，存疑内容标注待核。
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.json)
+
+[独立结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5b72e666fc3cf740e33befe8)
+
+<!-- finance-spy-break-high-20261119:end -->
+
 <!-- finance-purchase-high-20261117:start -->
 ## 2026-11-17｜高精度｜NVDA采购、担保与NeoCloud
 
