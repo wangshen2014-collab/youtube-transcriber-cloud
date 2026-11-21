@@ -42,6 +42,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [2026-11-16_转录_MoneyLove_中高精度_谷歌TPU_Anthropic_Meta](catalog/6e293229ee95cb74.md) | 单项结果 1 |
 | [2026-11-17_视野环球财经_高精度_NVDA采购_担保承诺_NeoCloud_SPY](catalog/9dd5d7ce2bc61715.md) | 单项结果 1 |
 | [2026-11-19_视野环球财经_高精度_SPY反转破位_关键点位_个人持仓计划](catalog/afdbb41873aee00c.md) | 单项结果 1 |
+| [2026-11-20_视野环球财经_高精度_踩踏暴跌_好坏消息_后市判断](catalog/6bba77fd61b6e5d1.md) | 单项结果 1 |
 | [AI泡沫破灭？中国股市为何跌的这么惨？](catalog/5134964acba8c609.md) | 单项结果 1 |
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 1 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
@@ -92,4 +93,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[2026-11-19｜高精度｜【频道 视野环球财经】美股 标普SPY反转破位！恐慌过后，关键点位！个人持仓计划一览！](jobs/5b72e666fc3cf740e33befe8/README.md)
+最新保存：[2026-11-20｜高精度｜【频道 视野环球财经】美股 踩踏暴跌一步到位！好消息、坏消息！后市重要判断！](jobs/79fee2d822ad3765d44cd5a4/README.md)
