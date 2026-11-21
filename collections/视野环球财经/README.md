@@ -1,5 +1,16 @@
 # 视野环球财经
 
+<!-- finance-selloff-high-20261120:start -->
+## 2026-11-20｜高精度｜踩踏暴跌、好坏消息与后市判断
+
+日期据片头美东时间口播。 Codex Cloud CPU完整转录，large-v3、beam 5；已校对金融术语及关键数字。保留讲者观点和条件语气，存疑内容标注待核。
+
+[TXT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.txt) · [SRT 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.srt) · [JSON 直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.json)
+
+[独立结果页](https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/79fee2d822ad3765d44cd5a4)
+
+<!-- finance-selloff-high-20261120:end -->
+
 <!-- finance-spy-break-high-20261119:start -->
 ## 2026-11-19｜高精度｜SPY反转破位、关键点位与持仓计划
 

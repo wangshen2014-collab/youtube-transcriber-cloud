@@ -221,7 +221,7 @@
         "compute_type": "int8",
         "vad_filter": false,
         "condition_on_previous_text": true,
-        "start": 0.0,
+        "start": 0,
         "end": null,
         "source_type": "audio_file",
         "audio_sha256": "2d72b916267083e5127d6227992f4e606fd1cf066d845bf30c96303228993efe",
@@ -241,6 +241,39 @@
         "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.txt",
         "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.srt",
         "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/5b72e666fc3cf740e33befe8/2026-11-19_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_SPY%E5%8F%8D%E8%BD%AC%E7%A0%B4%E4%BD%8D_%E5%85%B3%E9%94%AE%E7%82%B9%E4%BD%8D_%E4%B8%AA%E4%BA%BA%E6%8C%81%E4%BB%93%E8%AE%A1%E5%88%92.json"
+      }
+    },
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "70da37c4a58f33907be77360bc48b1818beb49cba4fe4508c43530be986ea74b",
+        "source_id": "audio-70da37c4a58f33907be77360"
+      },
+      "title": "2026-11-20｜高精度｜【频道 视野环球财经】美股 踩踏暴跌一步到位！好消息、坏消息！后市重要判断！",
+      "files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.json"
+      },
+      "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/79fee2d822ad3765d44cd5a4",
+      "saved_at": 1795233004.7038803,
+      "broadcast_date": "2026-11-20",
+      "quality": "large-v3 / beam 5 / CPU int8",
+      "job_files": {
+        "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/79fee2d822ad3765d44cd5a4/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.txt",
+        "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/79fee2d822ad3765d44cd5a4/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.srt",
+        "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/79fee2d822ad3765d44cd5a4/2026-11-20_%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F_%E9%AB%98%E7%B2%BE%E5%BA%A6_%E8%B8%A9%E8%B8%8F%E6%9A%B4%E8%B7%8C_%E5%A5%BD%E5%9D%8F%E6%B6%88%E6%81%AF_%E5%90%8E%E5%B8%82%E5%88%A4%E6%96%AD.json"
       }
     }
   ],
@@ -365,9 +398,9 @@
     "collections/视野环球财经/【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！.txt"
   ],
   "latest_update": {
-    "transcription_date_local": "2026-11-19",
-    "broadcast_date": "2026-11-19",
+    "transcription_date_local": "2026-11-20",
+    "broadcast_date": "2026-11-20",
     "quality": "large-v3 / beam 5 / CPU int8",
-    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/5b72e666fc3cf740e33befe8"
+    "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/79fee2d822ad3765d44cd5a4"
   }
 }
