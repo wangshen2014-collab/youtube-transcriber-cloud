@@ -1,0 +1,6 @@
+interface:
+  display_name: "视频转录与总结"
+  short_description: "财经高精度与通用普通转录、视频观点论据总结及按需分析"
+  default_prompt: "请使用 $video-transcription 按我的要求转录或总结本次视频，转录未指定精度时用普通档，仅在我要求时追加分析。"
+policy:
+  allow_implicit_invocation: false

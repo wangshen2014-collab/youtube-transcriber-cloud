@@ -8,14 +8,23 @@ and handoff checklist. Keep it in sync when changing product behavior; distingui
 implemented functionality from proposals. Default workflow: local audio download →
 Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysis.
 
-## Explicit finance transcription skill
+## Video transcription and summary skill
 
-When the user explicitly invokes `$finance-transcription`, or asks to use the
-finance transcription skill, read `.agents/skills/finance-transcription/SKILL.md`.
-This direct path is also the fallback if a managed Cloud client does not expose
-repository skills in its selector. This does not change the ordinary defaults
-below for requests that do not invoke the skill. Skill installation does not
-supply a Cloud executor, model cache, or GitHub write authorization.
+When the user invokes `$video-transcription`, asks for the video skill, requests
+video summary, or specifies transcription precision, read
+`.agents/skills/video-transcription/SKILL.md`.
+The skill supports finance high-precision transcription, ordinary transcription
+for any topic, and video summaries with analysis only when requested.
+Unspecified transcription precision remains medium/beam3. Finance subject matter
+alone does not upgrade precision.
+Summary-only requests do not trigger the transcription-and-publish default below.
+Reuse supplied text or accessible same-video captions; internal recognition, if
+needed and not prohibited, must not automatically publish a transcript.
+Follow the current task's upload scope; summary upload does not authorize publishing
+the internal transcript or checkpoints. Installation does not supply a Cloud
+executor, model cache, GitHub authorization, or account-wide discovery.
+The direct path works as a fallback when repository skills are absent from a
+managed Cloud client's selector.
 
 ## Everyday workflow (default): Codex computes, GitHub stores results
 
