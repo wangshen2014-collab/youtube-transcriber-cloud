@@ -1,0 +1,6 @@
+interface:
+  display_name: "财经视频转录"
+  short_description: "云端财经转录、数字术语复核、按需上传GitHub"
+  default_prompt: "请使用 $finance-transcription 完整转录本次附件，默认中高精度；是否上传遵循本次授权，并返回TXT链接。"
+policy:
+  allow_implicit_invocation: false

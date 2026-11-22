@@ -8,6 +8,15 @@ and handoff checklist. Keep it in sync when changing product behavior; distingui
 implemented functionality from proposals. Default workflow: local audio download →
 Codex Cloud inference → GitHub transcripts branch → user-led ChatGPT analysis.
 
+## Explicit finance transcription skill
+
+When the user explicitly invokes `$finance-transcription`, or asks to use the
+finance transcription skill, read `.agents/skills/finance-transcription/SKILL.md`.
+This direct path is also the fallback if a managed Cloud client does not expose
+repository skills in its selector. This does not change the ordinary defaults
+below for requests that do not invoke the skill. Skill installation does not
+supply a Cloud executor, model cache, or GitHub write authorization.
+
 ## Everyday workflow (default): Codex computes, GitHub stores results
 
 - When uploaded audio is supplied and the user says "全部转录" / "转录", run
