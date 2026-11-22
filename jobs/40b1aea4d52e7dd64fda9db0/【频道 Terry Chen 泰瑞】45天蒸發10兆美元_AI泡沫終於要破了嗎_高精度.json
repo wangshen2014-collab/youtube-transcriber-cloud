@@ -1,0 +1,584 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 1,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "f77c5465aa5ae6dc08c892e48207f5b2955a87c58d33b1b9a8ef4b91763d54ed",
+    "source_id": "audio-f77c5465aa5ae6dc08c892e4"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/market-three-high-20261122/terry/20261122-175924-8cb8bc4b",
+  "timings_seconds": {
+    "local_source_selection": 0.00041105600030277856,
+    "download_or_cache": 0.0,
+    "audio_decode": 4.2227604479994625,
+    "model_load": 0.00017662899972492596,
+    "transcription": 2974.250939324,
+    "total_this_invocation": 2978.507966905
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/e180f48d-9792-4e0c-81f1-2bbf396b9f04/【频道 Terry Chen 泰瑞】45 天蒸發 10 兆美元：AI 泡沫終於要破了嗎？ (20261122-095234-d765).webm",
+    "sha256": "f77c5465aa5ae6dc08c892e48207f5b2955a87c58d33b1b9a8ef4b91763d54ed",
+    "original_name": "【频道 Terry Chen 泰瑞】45 天蒸發 10 兆美元：AI 泡沫終於要破了嗎？ (20261122-095234-d765).webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 Terry Chen 泰瑞】45 天蒸發 10 兆美元：AI 泡沫終於要破了嗎？ (20261122-095234-d765).webm",
+  "audio_duration_seconds": 828.608,
+  "selected_start": 0.0,
+  "selected_end": 828.608,
+  "language_probability": 0.9919536709785461,
+  "segment_count": 385,
+  "detected_language": "zh",
+  "last_completed_audio_second": 828.38,
+  "peak_ram_mb": 7702.5,
+  "shared_model": true,
+  "model_workers": 3,
+  "peak_ram_scope": "shared process, all concurrent jobs",
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5 / CPU int8",
+  "cpu_threads_per_worker": 1,
+  "broadcast_date": null,
+  "broadcast_date_source": "Unknown; filename timestamp records download, not verified publication",
+  "transcription_date_local": "2026-11-22",
+  "transcription_timezone": "America/Los_Angeles",
+  "channel": "Terry Chen 泰瑞",
+  "channel_source": "uploaded filename; not independently verified",
+  "original_segment_count": 385,
+  "terminology_review": {
+    "channel": "Terry Chen 泰瑞",
+    "title": "【频道 Terry Chen 泰瑞】45 天蒸發 10 兆美元：AI 泡沫終於要破了嗎？｜高精度",
+    "filename": "【频道 Terry Chen 泰瑞】45天蒸發10兆美元_AI泡沫終於要破了嗎_高精度",
+    "corrections": {
+      "Docum bubble": "dot-com bubble",
+      "QQ回調": "QQQ回調",
+      "QQ": "QQQ",
+      "Kevin Walsh": "Kevin Warsh",
+      "Documbubble": "dot-com bubble",
+      "Documb": "dot-com",
+      "QEQ": "QQQ",
+      "KEBEX": "CapEx",
+      "GPUSO": "GPU的時候",
+      "暴轉": "暴賺",
+      "做工機構": "做空機構",
+      "LM": "LLM",
+      "超低": "抄底",
+      "流士": "牛市",
+      "流市": "牛市",
+      "贏透證券": "盈透證券",
+      "付委託": "複委託",
+      "FORWARD P": "Forward PE",
+      "Thread上面": "Threads上面",
+      "叫揚聲": "叫兩聲",
+      "VO": "VOO",
+      "關稅債": "關稅戰",
+      "QQ620": "QQQ620",
+      "讓所有的公司都在搶": "當所有的公司都在搶"
+    },
+    "ready": true,
+    "method": "Machine transcription, contextual review and targeted acoustic redecoding; no human listening or financial fact verification",
+    "segment_edits": [
+      {
+        "start": 331.96,
+        "before": "要調查伊朗這些他們所謂的罪犯",
+        "after": "要調查[05:32 名稱聽辨不清]這些他們所謂的罪犯"
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "Preserve speaker claims, amounts, units and directional conditions; do not replace them using current market data.",
+      "Source is uploaded audio only; no charts or video frames inspected.",
+      "Publication/broadcast date unverified; embedded filename timestamp is download metadata.",
+      "Recognized political party wording 共產黨 is preserved rather than changed to agree with external political expectations."
+    ],
+    "uncertainties": [
+      {
+        "start": 331.96,
+        "end": 334,
+        "description": "Name phonetically recognized as 伊朗, identity cannot be reliably resolved from audio/context without guessing."
+      }
+    ]
+  },
+  "qa_redecodes": [
+    {
+      "start": 138.22,
+      "end": 162.54,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 138.22,
+          "end": 140.78,
+          "text": "但是你可以看到自從8月份開始"
+        },
+        {
+          "start": 140.78,
+          "end": 142.82,
+          "text": "通膨就沒有繼續往下掉"
+        },
+        {
+          "start": 142.82,
+          "end": 145.38,
+          "text": "9月份到了3.6%"
+        },
+        {
+          "start": 145.38,
+          "end": 148.46,
+          "text": "10月份衝到了3.8%到4.0%左右"
+        },
+        {
+          "start": 148.46,
+          "end": 150.76,
+          "text": "離美聯儲的目標還有一大半"
+        },
+        {
+          "start": 150.76,
+          "end": 153.58,
+          "text": "那為什麼會造成通膨持續降不下去呢?"
+        },
+        {
+          "start": 153.58,
+          "end": 155.12,
+          "text": "主要還是因為伊朗戰爭"
+        },
+        {
+          "start": 155.12,
+          "end": 157.42,
+          "text": "戰爭推高了原油的價格"
+        },
+        {
+          "start": 157.42,
+          "end": 160.5,
+          "text": "汽油、柴油、航空燃油全部都往上漲"
+        },
+        {
+          "start": 160.5,
+          "end": 162.54,
+          "text": "那油價上漲的這些"
+        }
+      ]
+    },
+    {
+      "start": 7.36,
+      "end": 33.46,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 7.36,
+          "end": 10.18,
+          "text": "大概是9兆加密货币额大概是1兆美元"
+        },
+        {
+          "start": 10.18,
+          "end": 12.22,
+          "text": "如果你对这个数字没有什么概念的话"
+        },
+        {
+          "start": 12.22,
+          "end": 14.02,
+          "text": "我们来看一下比较一下"
+        },
+        {
+          "start": 14.02,
+          "end": 15.3,
+          "text": "Documbubble的时候"
+        },
+        {
+          "start": 15.3,
+          "end": 19.4,
+          "text": "从2000年3月到2002年的10月"
+        },
+        {
+          "start": 19.4,
+          "end": 20.92,
+          "text": "一共31个月的时间"
+        },
+        {
+          "start": 20.92,
+          "end": 23.74,
+          "text": "总共蒸发了9.3兆美元的市值"
+        },
+        {
+          "start": 23.74,
+          "end": 26.3,
+          "text": "然后在2008年金融危机的时候"
+        },
+        {
+          "start": 26.3,
+          "end": 29.38,
+          "text": "17个月一共蒸发了11兆美元的市值"
+        },
+        {
+          "start": 29.38,
+          "end": 31.68,
+          "text": "COVID那段时间我记得很清楚"
+        },
+        {
+          "start": 31.68,
+          "end": 33.46,
+          "text": "美股一共熔断了4次"
+        }
+      ]
+    },
+    {
+      "start": 445.12,
+      "end": 469.94,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 445.12,
+          "end": 450.62,
+          "text": "S&P500公司的獲利在Q3的年增率是大概32%左右"
+        },
+        {
+          "start": 450.62,
+          "end": 455.62,
+          "text": "然後QQ公司的獲利Q3的年增率高達了50%以上"
+        },
+        {
+          "start": 455.62,
+          "end": 458.62,
+          "text": "也就是說AI確實讓這些公司更賺錢了"
+        },
+        {
+          "start": 458.62,
+          "end": 461.12,
+          "text": "只是說前期的投入成本很高"
+        },
+        {
+          "start": 461.12,
+          "end": 465.12,
+          "text": "然後後期的回本的時間還沒有經過歷史的驗證"
+        },
+        {
+          "start": 465.12,
+          "end": 467.62,
+          "text": "所以說現在市場是非常非常的恐慌"
+        },
+        {
+          "start": 467.62,
+          "end": 468.62,
+          "text": "那我的看法是"
+        },
+        {
+          "start": 468.62,
+          "end": 469.94,
+          "text": "如果你有认识"
+        }
+      ]
+    },
+    {
+      "start": 225.34,
+      "end": 249.9,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 225.34,
+          "end": 227.64,
+          "text": "誰就可以掌握AI的產值"
+        },
+        {
+          "start": 227.64,
+          "end": 229.04,
+          "text": "事實也是如此"
+        },
+        {
+          "start": 229.04,
+          "end": 231.34,
+          "text": "包含我自己也是因為有了AI"
+        },
+        {
+          "start": 231.34,
+          "end": 233.14,
+          "text": "至少我現在的生產效率"
+        },
+        {
+          "start": 233.14,
+          "end": 235.84,
+          "text": "是比沒有AI的時候多了3-4倍以上"
+        },
+        {
+          "start": 235.84,
+          "end": 238.14,
+          "text": "但是投資AI數據中心很貴"
+        },
+        {
+          "start": 238.14,
+          "end": 241.24,
+          "text": "當所有的公司都在搶最高階的GPU的時候"
+        },
+        {
+          "start": 241.24,
+          "end": 243.44,
+          "text": "這個短缺就造成了NVIDIA"
+        },
+        {
+          "start": 243.44,
+          "end": 246.54,
+          "text": "台積電、美光這些AI供應鏈的公司暴轉"
+        },
+        {
+          "start": 246.54,
+          "end": 249.9,
+          "text": "包含整個台股也是因為這次AI的供應鏈"
+        }
+      ]
+    },
+    {
+      "start": 163.1,
+      "end": 187.92,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 163.1,
+          "end": 165.66,
+          "text": "最終都pass down到整個供應鏈裡面"
+        },
+        {
+          "start": 165.66,
+          "end": 168.22,
+          "text": "最終就是吃到消費者錢包裡面"
+        },
+        {
+          "start": 168.22,
+          "end": 171.04,
+          "text": "你看美國在2月份跟伊朗開戰之前"
+        },
+        {
+          "start": 171.04,
+          "end": 173.86,
+          "text": "CPI的年增率只有2.4%"
+        },
+        {
+          "start": 173.86,
+          "end": 176.16,
+          "text": "現在已經基本上衝到了快4%"
+        },
+        {
+          "start": 176.16,
+          "end": 177.7,
+          "text": "當然關稅債也是有影響"
+        },
+        {
+          "start": 177.7,
+          "end": 179.74,
+          "text": "但是能源還是首要的因素"
+        },
+        {
+          "start": 179.74,
+          "end": 183.32,
+          "text": "那我們都知道美聯儲打通膨的手段就是加息"
+        },
+        {
+          "start": 183.32,
+          "end": 187.42,
+          "text": "這個加息的痛苦我們在2022年的時候已經經歷過一次了"
+        },
+        {
+          "start": 187.42,
+          "end": 187.92,
+          "text": "那個時候"
+        }
+      ]
+    }
+  ],
+  "supplemental_qa_redecodes": [
+    {
+      "tag": "terry",
+      "start": 10,
+      "end": 24,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 10.0,
+          "end": 12.0,
+          "text": "如果你對這個數字沒有什麼概念的話"
+        },
+        {
+          "start": 12.0,
+          "end": 14.0,
+          "text": "我們來看一下比較一下"
+        },
+        {
+          "start": 14.0,
+          "end": 15.0,
+          "text": ".com bubble的時候呢"
+        },
+        {
+          "start": 15.0,
+          "end": 19.0,
+          "text": "從2000年3月到2002年的10月"
+        },
+        {
+          "start": 19.0,
+          "end": 21.0,
+          "text": "一共31個月的時間"
+        },
+        {
+          "start": 21.0,
+          "end": 24.0,
+          "text": "總共蒸發了9.3兆美元的市值"
+        }
+      ]
+    },
+    {
+      "tag": "terry",
+      "start": 311,
+      "end": 338,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 311.0,
+          "end": 313.44,
+          "text": "三個也是最後一道倒下去的牆"
+        },
+        {
+          "start": 313.44,
+          "end": 315.56,
+          "text": "就是這次的中期選舉的結果"
+        },
+        {
+          "start": 315.56,
+          "end": 317.8,
+          "text": "11月3號共產黨慘敗"
+        },
+        {
+          "start": 317.8,
+          "end": 320.1,
+          "text": "同時輸掉了眾議院跟參議院"
+        },
+        {
+          "start": 320.1,
+          "end": 322.46,
+          "text": "美國政府內部也陷入了一個矛盾"
+        },
+        {
+          "start": 322.46,
+          "end": 323.8,
+          "text": "跟分裂的局勢"
+        },
+        {
+          "start": 323.8,
+          "end": 325.6,
+          "text": "民主黨除了一直強調說"
+        },
+        {
+          "start": 325.6,
+          "end": 328.06,
+          "text": "要放緩AI數據中心的建設"
+        },
+        {
+          "start": 328.06,
+          "end": 330.04,
+          "text": "跟禁止AI發展之外"
+        },
+        {
+          "start": 330.04,
+          "end": 332.0,
+          "text": "還一直強調說要調查川普"
+        },
+        {
+          "start": 332.0,
+          "end": 334.2,
+          "text": "要調查伊朗這些他們所謂的罪犯"
+        },
+        {
+          "start": 334.2,
+          "end": 336.46,
+          "text": "反正就是各種不同的威脅跟警告"
+        },
+        {
+          "start": 336.46,
+          "end": 338,
+          "text": "所以說現在市場也已經Price"
+        }
+      ]
+    },
+    {
+      "tag": "terry",
+      "start": 651,
+      "end": 665,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 651.0,
+          "end": 653.0,
+          "text": "所以說我也是非常非常痛的這一次"
+        },
+        {
+          "start": 653.0,
+          "end": 654.0,
+          "text": "但是接下來呢"
+        },
+        {
+          "start": 654.0,
+          "end": 656.0,
+          "text": "我也會開始加大力度的超低"
+        },
+        {
+          "start": 656.0,
+          "end": 658.0,
+          "text": "像在週五的時候呢"
+        },
+        {
+          "start": 658.0,
+          "end": 659.0,
+          "text": "QQ 620的時候"
+        },
+        {
+          "start": 659.0,
+          "end": 661.0,
+          "text": "我也加上了QQ跟VO"
+        },
+        {
+          "start": 661.0,
+          "end": 663.0,
+          "text": "這些呢我也都是全部100%公開"
+        },
+        {
+          "start": 663.0,
+          "end": 665.0,
+          "text": "發在我的TG群組裡面"
+        }
+      ]
+    }
+  ]
+}

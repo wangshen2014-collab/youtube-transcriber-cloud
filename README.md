@@ -51,6 +51,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！](catalog/7e4c4439f96c49dd.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链](catalog/59862750d27cbf1b.md) | 单项结果 1 |
 | [【频道 MaskFinance】黄金深度调整_中高精度](catalog/8a9d45460baa8ce6.md) | 单项结果 1 |
+| [【频道 Terry Chen 泰瑞】45天蒸發10兆美元_AI泡沫終於要破了嗎_高精度](catalog/4f0d64368344a4fb.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？](catalog/20d51c3639948b89.md) | 单项结果 1 |
 | [【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](catalog/5c58c8395e5f1c32.md) | 单项结果 1 |
