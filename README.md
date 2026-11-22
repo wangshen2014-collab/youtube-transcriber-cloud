@@ -55,6 +55,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？](catalog/20d51c3639948b89.md) | 单项结果 1 |
 | [【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](catalog/5c58c8395e5f1c32.md) | 单项结果 1 |
 | [【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109](catalog/fcbb2fe6f5022cb5.md) | 单项结果 1 |
+| [【频道 老汤美股财经】芯片股大崩盘_还能涨回去吗_抄底机会or陷阱_高精度](catalog/d070045fdf27969f.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！](catalog/544559d16c0634ad.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！](catalog/5b13e9859907ba3b.md) | 单项结果 1 |
 | [【频道 马方说管理】股市黄金白银石油加密货币崩盘_更大灾难将来临吗_高精度](catalog/3cac2b0d578df782.md) | 单项结果 1 |
@@ -96,5 +97,3 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
-
-最新保存：[【频道 科技浪】EP153 GPT-6 Astra 完整转录](jobs/c4168b26b85b0c0681fdb07d/README.md)

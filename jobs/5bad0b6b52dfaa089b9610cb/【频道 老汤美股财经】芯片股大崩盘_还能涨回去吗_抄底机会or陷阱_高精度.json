@@ -1,0 +1,700 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 1,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "5097d72ded86a0db866687679612b5e7a1bef45e2fbbfa60a69e28338146385b",
+    "source_id": "audio-5097d72ded86a0db86668767"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/market-three-high-20261122/laotang/20261122-175924-637095d7",
+  "timings_seconds": {
+    "local_source_selection": 0.00018330300008528866,
+    "download_or_cache": 0.0,
+    "audio_decode": 3.399826717999531,
+    "model_load": 0.000196806000531069,
+    "transcription": 2533.7740691829995,
+    "total_this_invocation": 2537.2033184330003
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/6b6408e7-7c60-4a3e-960c-6648f24904b1/【频道 老汤美股财经】芯片股大崩盘! 还能涨回去吗_ 抄底机会 or 陷阱_【美股分析】 (20261122-095231-b434).webm",
+    "sha256": "5097d72ded86a0db866687679612b5e7a1bef45e2fbbfa60a69e28338146385b",
+    "original_name": "【频道 老汤美股财经】芯片股大崩盘! 还能涨回去吗_ 抄底机会 or 陷阱_【美股分析】 (20261122-095231-b434).webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 老汤美股财经】芯片股大崩盘! 还能涨回去吗_ 抄底机会 or 陷阱_【美股分析】 (20261122-095231-b434).webm",
+  "audio_duration_seconds": 569.216,
+  "selected_start": 0.0,
+  "selected_end": 569.216,
+  "language_probability": 0.9961612224578857,
+  "segment_count": 352,
+  "detected_language": "zh",
+  "last_completed_audio_second": 568.46,
+  "peak_ram_mb": 7702.5,
+  "shared_model": true,
+  "model_workers": 3,
+  "peak_ram_scope": "shared process, all concurrent jobs",
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5 / CPU int8",
+  "cpu_threads_per_worker": 1,
+  "broadcast_date": null,
+  "broadcast_date_source": "Unknown; filename timestamp records download, not verified publication",
+  "transcription_date_local": "2026-11-22",
+  "transcription_timezone": "America/Los_Angeles",
+  "channel": "老汤美股财经",
+  "channel_source": "uploaded filename; not independently verified",
+  "original_segment_count": 353,
+  "terminology_review": {
+    "channel": "老汤美股财经",
+    "title": "【频道 老汤美股财经】芯片股大崩盘！还能涨回去吗？抄底机会 or 陷阱？｜高精度",
+    "filename": "【频道 老汤美股财经】芯片股大崩盘_还能涨回去吗_抄底机会or陷阱_高精度",
+    "corrections": {
+      "VEX": "VIX",
+      "飘普": "标普",
+      "智能暴跌": "这轮暴跌",
+      "铁技术性走凶了": "且技术性走熊了",
+      "消化了很多固执": "消化了很多估值",
+      "车身年负增长率": "折成年复合增长率",
+      "凭显": "明显",
+      "AH潮": "AI潮",
+      "税中心": "数据中心",
+      "华人逊": "黄仁勋",
+      "算你紧缺": "算力紧缺",
+      "芯片股推潮": "芯片股退潮",
+      "那只": "纳指",
+      "甘虚燃料": "刚需燃料",
+      "4WPE": "Forward PE",
+      "AS": "AI",
+      "帮助体": "半导体",
+      "优势资产": "优质资产",
+      "零点击股": "零点几股",
+      "XOXX": "SOXX",
+      "QQM": "QQQM",
+      "车博下跌": "这波下跌",
+      "分离失门": "分析师们",
+      "但是花了15年": "当时花了15年"
+    },
+    "ready": true,
+    "method": "Machine transcription, contextual review and targeted acoustic redecoding; no human listening or financial fact verification",
+    "segment_edits": [
+      {
+        "start": 115.8,
+        "before": "芯片板块",
+        "after": ""
+      },
+      {
+        "start": 356.1,
+        "before": "那现在为何又要还账了",
+        "after": "那现在为何又要[05:56 听辨不清]呢"
+      },
+      {
+        "start": 522.84,
+        "before": "我也把微牛50股的MHES",
+        "after": "我也把微牛50股的[08:43 股票代码听辨不清]"
+      }
+    ],
+    "range_replacements": [
+      {
+        "start": 28.26,
+        "end": 31.28,
+        "segments": [
+          {
+            "start": 28.26,
+            "end": 31.28,
+            "text": "每次它收在35后的一个月后"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Preserve speaker claims, amounts, units and directional conditions; do not replace them using current market data.",
+      "Source is uploaded audio only; no charts or video frames inspected.",
+      "Publication/broadcast date unverified; embedded filename timestamp is download metadata."
+    ],
+    "uncertainties": [
+      {
+        "start": 356.1,
+        "end": 357.58,
+        "description": "Final verb uncertain across acoustic decodes; marked, not guessed."
+      },
+      {
+        "start": 522.84,
+        "end": 524.44,
+        "description": "Sold holding ticker differs between decodes (MHES / mhs); no ticker guessed."
+      }
+    ]
+  },
+  "qa_redecodes": [
+    {
+      "start": 531.38,
+      "end": 554.58,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 531.38,
+          "end": 532.08,
+          "text": "在270"
+        },
+        {
+          "start": 532.08,
+          "end": 533.86,
+          "text": "以及小加仓的10股的甲骨文"
+        },
+        {
+          "start": 533.86,
+          "end": 534.66,
+          "text": "在115"
+        },
+        {
+          "start": 534.66,
+          "end": 536.96,
+          "text": "如果大家想学习更多关于股票知识呢"
+        },
+        {
+          "start": 536.96,
+          "end": 538.22,
+          "text": "我们现在有会员福利"
+        },
+        {
+          "start": 538.22,
+          "end": 540.58,
+          "text": "新会员每个月只需要3块9毛9"
+        },
+        {
+          "start": 540.58,
+          "end": 542.46,
+          "text": "却能够解锁5个会员大福利"
+        },
+        {
+          "start": 542.46,
+          "end": 544.34,
+          "text": "比如每天更新我的账户情况"
+        },
+        {
+          "start": 544.34,
+          "end": 545.64,
+          "text": "我们的会员帖子"
+        },
+        {
+          "start": 545.64,
+          "end": 546.46,
+          "text": "会员群"
+        },
+        {
+          "start": 546.46,
+          "end": 547.86,
+          "text": "和解锁会员视频等等"
+        },
+        {
+          "start": 547.86,
+          "end": 549.62,
+          "text": "未来可能还会有更多福利"
+        },
+        {
+          "start": 549.62,
+          "end": 550.72,
+          "text": "感兴趣的朋友们呢"
+        },
+        {
+          "start": 550.72,
+          "end": 553.38,
+          "text": "可以点击视频底下订阅按钮旁边的加入按钮"
+        },
+        {
+          "start": 553.38,
+          "end": 554.54,
+          "text": "如果你是用手机在"
+        }
+      ]
+    },
+    {
+      "start": 38.58,
+      "end": 62.8,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 38.58,
+          "end": 40.06,
+          "text": "73%的时候啊"
+        },
+        {
+          "start": 40.06,
+          "end": 41.22,
+          "text": "美股也是上涨的"
+        },
+        {
+          "start": 41.22,
+          "end": 42.78,
+          "text": "飘普的平均累计涨幅呢"
+        },
+        {
+          "start": 42.78,
+          "end": 44.34,
+          "text": "更是高达4.8%"
+        },
+        {
+          "start": 44.34,
+          "end": 46.6,
+          "text": "半年后和一年后的平均累计涨幅啊"
+        },
+        {
+          "start": 46.6,
+          "end": 48.8,
+          "text": "更是分别高达10%和15%"
+        },
+        {
+          "start": 48.8,
+          "end": 50.0,
+          "text": "而上周五啊"
+        },
+        {
+          "start": 50.0,
+          "end": 51.8,
+          "text": "VIX又收掉了35%啊"
+        },
+        {
+          "start": 51.8,
+          "end": 53.62,
+          "text": "这是不是意味着接下来"
+        },
+        {
+          "start": 53.62,
+          "end": 54.4,
+          "text": "当然了"
+        },
+        {
+          "start": 54.4,
+          "end": 55.76,
+          "text": "VIX呢还能往上涨啊"
+        },
+        {
+          "start": 55.76,
+          "end": 57.02,
+          "text": "股市也能继续往下跌啊"
+        },
+        {
+          "start": 57.02,
+          "end": 58.44,
+          "text": "只不过我们能看到啊"
+        },
+        {
+          "start": 58.44,
+          "end": 60.3,
+          "text": "美股它一直都是熊短牛长啊"
+        },
+        {
+          "start": 60.3,
+          "end": 62.18,
+          "text": "也就是短则熬一到三个月呢"
+        },
+        {
+          "start": 62.18,
+          "end": 62.8,
+          "text": "就能见到起"
+        }
+      ]
+    },
+    {
+      "start": 464.5,
+      "end": 488.8,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 464.5,
+          "end": 470.14,
+          "text": "而且,不管是美国身份,外国身份,还是中国身份的用户都可以在IBKR上开户"
+        },
+        {
+          "start": 470.14,
+          "end": 473.98,
+          "text": "闲置资金在账户里还可以赚取最多3.14%的利息"
+        },
+        {
+          "start": 473.98,
+          "end": 478.32,
+          "text": "感兴趣的朋友们可以点击视频底下描述栏或评论区里的链接开户哦"
+        },
+        {
+          "start": 478.32,
+          "end": 479.6,
+          "text": "感谢大家的支持"
+        },
+        {
+          "start": 479.6,
+          "end": 481.9,
+          "text": "视频的最后,我们会来看一下我的公开账户"
+        },
+        {
+          "start": 481.9,
+          "end": 483.7,
+          "text": "猜这周都做了些什么操作"
+        },
+        {
+          "start": 483.7,
+          "end": 485.74,
+          "text": "自从2021年7月开始定投的"
+        },
+        {
+          "start": 485.74,
+          "end": 487.8,
+          "text": "M1定投账户的股票价值有"
+        }
+      ]
+    },
+    {
+      "start": 497.98,
+      "end": 522.32,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 497.98,
+          "end": 501.54,
+          "text": "这周一我给微牛账户定投了500到QQQM"
+        },
+        {
+          "start": 501.54,
+          "end": 503.42,
+          "text": "然后也给XLK定投了300"
+        },
+        {
+          "start": 503.42,
+          "end": 504.42,
+          "text": "在周五的时候"
+        },
+        {
+          "start": 504.42,
+          "end": 508.32,
+          "text": "我给微牛账户小加仓了24股的XOXX在129"
+        },
+        {
+          "start": 508.32,
+          "end": 511.14,
+          "text": "原因是因为芯片ETF已经跌到了今年年初的位置了"
+        },
+        {
+          "start": 511.14,
+          "end": 514.94,
+          "text": "车博下跌也已经几乎把今年芯片板块炒作水分给挤掉了"
+        },
+        {
+          "start": 514.94,
+          "end": 517.62,
+          "text": "所以我就开始慢慢分批接芯片ETF的飞刀"
+        },
+        {
+          "start": 517.62,
+          "end": 521.1,
+          "text": "同时这周五我也给微牛账户小加仓了15股的QQM"
+        },
+        {
+          "start": 521.1,
+          "end": 522.22,
+          "text": "才255"
+        }
+      ]
+    }
+  ],
+  "supplemental_qa_redecodes": [
+    {
+      "tag": "laotang",
+      "start": 5.4,
+      "end": 10,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 5.4,
+          "end": 6.88,
+          "text": "畢竟誰沒有幫到鐵人對吧"
+        },
+        {
+          "start": 6.88,
+          "end": 9.28,
+          "text": "所以這輪爆碟到底該怎麼辦呢"
+        },
+        {
+          "start": 9.28,
+          "end": 10.0,
+          "text": "芯片版快樂"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 22.9,
+      "end": 29,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 22.9,
+          "end": 25.5,
+          "text": "恐慌指數VEX更是收割了35"
+        },
+        {
+          "start": 25.5,
+          "end": 28.22,
+          "text": "但自30多年前VEX誕生以來"
+        },
+        {
+          "start": 28.22,
+          "end": 29,
+          "text": "每次他收割"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 26,
+      "end": 36,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 26.0,
+          "end": 28.24,
+          "text": "30多年前vex誕生以來"
+        },
+        {
+          "start": 28.24,
+          "end": 31.4,
+          "text": "每次他說在35後的一個月後"
+        },
+        {
+          "start": 31.4,
+          "end": 32.96,
+          "text": "有66%的時候"
+        },
+        {
+          "start": 32.96,
+          "end": 34.68,
+          "text": "美股會反彈上漲的"
+        },
+        {
+          "start": 34.68,
+          "end": 35.92,
+          "text": "平均累積漲幅有"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 125,
+      "end": 135,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 125.0,
+          "end": 126.8,
+          "text": "往後看四年的話"
+        },
+        {
+          "start": 126.8,
+          "end": 128.2,
+          "text": "那麼當時四年漲幅呢"
+        },
+        {
+          "start": 128.2,
+          "end": 130.2,
+          "text": "就高達541%"
+        },
+        {
+          "start": 130.2,
+          "end": 132.6,
+          "text": "車車年負債漲率有59%"
+        },
+        {
+          "start": 132.6,
+          "end": 133.8,
+          "text": "評審是很誇張的"
+        },
+        {
+          "start": 133.8,
+          "end": 135.0,
+          "text": "也遠高於均值"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 232,
+      "end": 242,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 232.0,
+          "end": 235.0,
+          "text": "可能到時候實際上就沒那麼便宜了"
+        },
+        {
+          "start": 235.0,
+          "end": 239.0,
+          "text": "股價也不會等到分離失門真的把預期往下調的時候才下跌的"
+        },
+        {
+          "start": 239.0,
+          "end": 241.0,
+          "text": "它肯定會提前反應的嘛"
+        },
+        {
+          "start": 241.0,
+          "end": 242.0,
+          "text": "所以最近下跌就是"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 330,
+      "end": 360,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 330.0,
+          "end": 333.68,
+          "text": "科技是未来 半导体是未来科技发展的干绪燃料"
+        },
+        {
+          "start": 333.68,
+          "end": 335.32,
+          "text": "现在酸力是远远不够的"
+        },
+        {
+          "start": 335.32,
+          "end": 337.72,
+          "text": "因此某些科技个股可能不好说"
+        },
+        {
+          "start": 337.72,
+          "end": 339.96,
+          "text": "碳纸数额ETF最终回到高位"
+        },
+        {
+          "start": 339.96,
+          "end": 341.28,
+          "text": "我认为问题是不大的"
+        },
+        {
+          "start": 341.28,
+          "end": 343.4,
+          "text": "还有现在NASA100的FoldPE"
+        },
+        {
+          "start": 343.4,
+          "end": 345.56,
+          "text": "已经要回到2022年时的水平"
+        },
+        {
+          "start": 345.56,
+          "end": 348.4,
+          "text": "然后标普500的信息科技板块的FoldPE"
+        },
+        {
+          "start": 348.4,
+          "end": 350.16,
+          "text": "也回到了2018年年底"
+        },
+        {
+          "start": 350.16,
+          "end": 352.52,
+          "text": "2020年和2022年的水平"
+        },
+        {
+          "start": 352.52,
+          "end": 356.08,
+          "text": "如果现在后悔在当时在当年那个年份买少了"
+        },
+        {
+          "start": 356.08,
+          "end": 357.88,
+          "text": "那现在为何又要还债呢对吧"
+        },
+        {
+          "start": 357.88,
+          "end": 359.08,
+          "text": "只要没有开杠杆了"
+        },
+        {
+          "start": 359.08,
+          "end": 360,
+          "text": "只要手里还有"
+        }
+      ]
+    },
+    {
+      "tag": "laotang",
+      "start": 518,
+      "end": 529,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 518.0,
+          "end": 521.2,
+          "text": "同时呢 这周五我也给威牛账户小加仓了15股的qqm"
+        },
+        {
+          "start": 521.2,
+          "end": 522.4,
+          "text": "才255"
+        },
+        {
+          "start": 522.4,
+          "end": 524.6,
+          "text": "另外呢 我也把威牛50股的mhs"
+        },
+        {
+          "start": 524.6,
+          "end": 526.6,
+          "text": "全部换成了21股的xlk"
+        },
+        {
+          "start": 526.6,
+          "end": 528.8,
+          "text": "因为我感觉目前xlk的性价比较更高"
+        }
+      ]
+    }
+  ]
+}
