@@ -875,5 +875,71 @@
       ]
     },
     "merged_into": "54a82e726bf03730f38e1043"
+  },
+  "aa2d076186f09891b35edf6b": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 4,
+      "beam_size": 5,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285",
+      "source_id": "audio-39d3ce4bcad73d49e112525c",
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      }
+    },
+    "merged_into": "c4168b26b85b0c0681fdb07d"
+  },
+  "013291b3aaa98c9499ac2e54": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 4,
+      "beam_size": 5,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "87b18526ad5e7e73fbbb412bf3d4ce0fa9a1f62e396def51e0cd650b02db4309",
+      "source_id": "audio-87b18526ad5e7e73fbbb412b",
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      }
+    },
+    "merged_into": "c4168b26b85b0c0681fdb07d"
+  },
+  "86aed1dac55357da7d3f4359": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 4,
+      "beam_size": 5,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65",
+      "source_id": "audio-126141f3b8f3250a97572190",
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      }
+    },
+    "merged_into": "c4168b26b85b0c0681fdb07d"
   }
 }
