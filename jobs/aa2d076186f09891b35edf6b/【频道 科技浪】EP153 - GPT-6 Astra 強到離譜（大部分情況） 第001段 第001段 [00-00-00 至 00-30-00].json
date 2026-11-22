@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 4,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285",
+    "source_id": "audio-39d3ce4bcad73d49e112525c",
+    "attribution": {
+      "channel": "科技浪",
+      "channel_source": "音频文件名"
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/keji-ep153/part001/20261122-043428-66efeabf",
+  "timings_seconds": {
+    "local_source_selection": 0.00012798399984603748,
+    "download_or_cache": 0.0,
+    "audio_decode": 2.166148661999614,
+    "model_load": 8.600681161999091,
+    "transcription": 4039.1014707920003,
+    "total_this_invocation": 4050.6016604560027
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/be34d108-eba0-4ba9-8de2-4e7f217711dd/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 第001段 [00-00-00 至 00-30-00].m4a",
+    "sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285",
+    "original_name": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 第001段 [00-00-00 至 00-30-00].m4a"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "attribution": {
+    "channel": "科技浪",
+    "channel_source": "音频文件名"
+  },
+  "title": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 第001段 [00-00-00 至 00-30-00]",
+  "audio_duration_seconds": 1800.0,
+  "selected_start": 0.0,
+  "selected_end": 1800.0,
+  "language_probability": 0.9949584603309631,
+  "segment_count": 864,
+  "detected_language": "zh",
+  "last_completed_audio_second": 1800.0,
+  "peak_ram_mb": 4015.4,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
