@@ -63,6 +63,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [但斌：AI投资机会和布局](catalog/2339dc488ab1fe63.md) | 合并版 1 |
 | [但斌：错失一个时代比泡沫更贵](catalog/fd69a4a2c69a15dd.md) | 合并版 1 |
 | [再次提醒：AI泡沫离破裂不远了【汤山老王】](catalog/4f5063d9406573d4.md) | 单项结果 1 |
+| [完整转录](catalog/7e2579b0e6ee406f.md) | 单项结果 1 |
 | [对话孙宇晨：年轻人如何抓住AI时代的机会？](catalog/f634f8821a400cec.md) | 合并版 1 |
 | [支撑AI繁荣的红灯和绿灯](catalog/4e95f3e136cbe888.md) | 单项结果 1 |
 | [科技股暴跌，抄底机会到了吗？](catalog/3e050f4bbbc3f0af.md) | 单项结果 1 |
@@ -97,4 +98,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 _01-00-00 至 01-11-22_](jobs/86aed1dac55357da7d3f4359/README.md)
+最新保存：[【频道 科技浪】EP153 GPT-6 Astra 完整转录](jobs/c4168b26b85b0c0681fdb07d/README.md)

@@ -678,7 +678,7 @@
         "title": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22]",
         "kind": "单段",
         "path": "jobs/86aed1dac55357da7d3f4359/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22].txt",
-        "sha": null,
+        "sha": "c4c3805b5d96ab95239a5d1902979dc85d74cf2f",
         "files": {
           "txt": "jobs/86aed1dac55357da7d3f4359/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22].txt",
           "srt": "jobs/86aed1dac55357da7d3f4359/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22].srt",
@@ -809,6 +809,23 @@
           "txt": "jobs/c4cde4e82457ff7daf6bb902/再次提醒：AI泡沫离破裂不远了【汤山老王】.txt",
           "srt": "jobs/c4cde4e82457ff7daf6bb902/再次提醒：AI泡沫离破裂不远了【汤山老王】.srt",
           "json": "jobs/c4cde4e82457ff7daf6bb902/再次提醒：AI泡沫离破裂不远了【汤山老王】.json"
+        }
+      }
+    ]
+  },
+  {
+    "title": "完整转录",
+    "category": "投资、经济与访谈",
+    "page": "catalog/7e2579b0e6ee406f.md",
+    "versions": [
+      {
+        "title": "完整转录",
+        "kind": "单项结果",
+        "path": "jobs/c4168b26b85b0c0681fdb07d/完整转录.txt",
+        "sha": null,
+        "files": {
+          "txt": "jobs/c4168b26b85b0c0681fdb07d/完整转录.txt",
+          "srt": "jobs/c4168b26b85b0c0681fdb07d/完整转录.srt"
         }
       }
     ]

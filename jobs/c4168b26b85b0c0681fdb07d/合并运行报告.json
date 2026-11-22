@@ -1,0 +1,203 @@
+{
+  "status": "completed",
+  "source_type": "verified-parts-merge",
+  "title": "科技浪 EP153 - GPT-6 Astra 強到離譜（大部分情況）",
+  "duration_seconds": 4282,
+  "offsets_seconds": [
+    0,
+    1800,
+    3600
+  ],
+  "segment_count": 2044,
+  "parts": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285",
+        "source_id": "audio-39d3ce4bcad73d49e112525c",
+        "attribution": {
+          "channel": "科技浪",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/youtube-transcriber-cloud/outputs/keji-ep153/part001/20261122-043428-66efeabf",
+      "timings_seconds": {
+        "local_source_selection": 0.00012798399984603748,
+        "download_or_cache": 0.0,
+        "audio_decode": 2.166148661999614,
+        "model_load": 8.600681161999091,
+        "transcription": 4039.1014707920003,
+        "total_this_invocation": 4050.6016604560027
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/be34d108-eba0-4ba9-8de2-4e7f217711dd/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 第001段 [00-00-00 至 00-30-00].m4a",
+        "sha256": "39d3ce4bcad73d49e112525ce5a6d25ed9125a4c2dec7c963365623fea419285"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      },
+      "title": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第001段 第001段 [00-00-00 至 00-30-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9949584603309631,
+      "segment_count": 864,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1800.0,
+      "peak_ram_mb": 4015.4
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "87b18526ad5e7e73fbbb412bf3d4ce0fa9a1f62e396def51e0cd650b02db4309",
+        "source_id": "audio-87b18526ad5e7e73fbbb412b",
+        "attribution": {
+          "channel": "科技浪",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/youtube-transcriber-cloud/outputs/keji-ep153/part002/20261122-164847-5f8b9fe1",
+      "timings_seconds": {
+        "local_source_selection": 0.0001228030000106628,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.8010782350000056,
+        "model_load": 22.957605062,
+        "transcription": 4371.18172115,
+        "total_this_invocation": 4396.439117016
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/db94216f-0f51-4342-8784-8c99c79bba18/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第002段 第002段 [00-30-00 至 01-00-00].m4a",
+        "sha256": "87b18526ad5e7e73fbbb412bf3d4ce0fa9a1f62e396def51e0cd650b02db4309"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      },
+      "title": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第002段 第002段 [00-30-00 至 01-00-00].m4a",
+      "audio_duration_seconds": 1800.0,
+      "selected_start": 0.0,
+      "selected_end": 1800.0,
+      "language_probability": 0.9861371517181396,
+      "segment_count": 856,
+      "detected_language": "zh",
+      "last_completed_audio_second": 1799.8600000000001,
+      "peak_ram_mb": 5411.6
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 4,
+        "beam_size": 5,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65",
+        "source_id": "audio-126141f3b8f3250a97572190",
+        "attribution": {
+          "channel": "科技浪",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "output_directory": "/workspace/youtube-transcriber-cloud/outputs/keji-ep153/part003/20261122-180204-b2f6e21a",
+      "timings_seconds": {
+        "local_source_selection": 9.264499931305181e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.8962149359995237,
+        "model_load": 8.071773332999328,
+        "transcription": 1495.3089557849999,
+        "total_this_invocation": 1504.7250459060006
+      },
+      "source": {
+        "type": "audio_file",
+        "path": "/workspace/attachments/93d97b3b-6704-44f2-b6bb-fe119e518513/【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22].m4a",
+        "sha256": "126141f3b8f3250a97572190b51c87884f1f493d6a8125fdda63d3ae0e09ac65"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "科技浪",
+        "channel_source": "音频文件名"
+      },
+      "title": "【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第003段 第003段 [01-00-00 至 01-11-22].m4a",
+      "audio_duration_seconds": 682.0053125,
+      "selected_start": 0.0,
+      "selected_end": 682.0053125,
+      "language_probability": 0.9583463668823242,
+      "segment_count": 324,
+      "detected_language": "zh",
+      "last_completed_audio_second": 681.98,
+      "peak_ram_mb": 5005.1
+    }
+  ],
+  "settings": {
+    "source_type": "verified-parts-merge",
+    "parts": [
+      "aa2d076186f09891b35edf6b",
+      "013291b3aaa98c9499ac2e54",
+      "86aed1dac55357da7d3f4359"
+    ]
+  },
+  "selected_start": 0,
+  "selected_end": 4282,
+  "execution_backend": "direct-python-process",
+  "storage_backend": "github-git"
+}
