@@ -58,6 +58,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況）](catalog/2e3225f5928d0d63.md) | 单段 2 |
 | [【频道 视野环球财经】美股 半导体打爆，还能玩吗？AMZN、MSFT为何大涨？NVDA、TSM、GOOG、ISRG持仓计划！](catalog/544559d16c0634ad.md) | 单项结果 1 |
 | [【频道 视野环球财经】美股 异常资金推动滚雪球下跌！好消息，坏消息！计划内建仓一只股票！SOXX、QQQ、SPY、TSM、APP！](catalog/5b13e9859907ba3b.md) | 单项结果 1 |
+| [【频道 马方说管理】股市黄金白银石油加密货币崩盘_更大灾难将来临吗_高精度](catalog/3cac2b0d578df782.md) | 单项结果 1 |
 | [两期美股节目_前科技股跳水_后天塌了_高精度合并](catalog/fee1474a40e88d26.md) | 合并版 1 |
 | [但斌：AI投资机会和布局](catalog/2339dc488ab1fe63.md) | 合并版 1 |
 | [但斌：错失一个时代比泡沫更贵](catalog/fd69a4a2c69a15dd.md) | 合并版 1 |
@@ -95,5 +96,3 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
-
-最新保存：[【频道 科技浪】EP153 - GPT-6 Astra 強到離譜（大部分情況） 第002段 第002段 _00-30-00 至 01-00-00_](jobs/013291b3aaa98c9499ac2e54/README.md)

@@ -1,0 +1,395 @@
+{
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "threads": 1,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "6c3d5dda83cf3cb162db1b3e934a8c39d05b3bc9837a5dcc754a8ad31e1f1fe3",
+    "source_id": "audio-6c3d5dda83cf3cb162db1b3e"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.4.0",
+    "yt-dlp": "2026.8.19",
+    "av": "16.0.1"
+  },
+  "status": "completed",
+  "resumed": false,
+  "output_directory": "/workspace/youtube-transcriber-cloud/outputs/market-three-high-20261122/mafang/20261122-175924-22aef606",
+  "timings_seconds": {
+    "local_source_selection": 0.00011408800037315814,
+    "download_or_cache": 0.0,
+    "audio_decode": 1.521568393999587,
+    "model_load": 0.000294239999675483,
+    "transcription": 1211.0931919559998,
+    "total_this_invocation": 1212.6402895889996
+  },
+  "source": {
+    "type": "audio_file",
+    "path": "/workspace/attachments/7814d32b-a52b-42fe-813d-02aa88b1b5d5/【频道 马方说管理】股市、黄金、白银、石油、加密货币都开始崩盘，是不是意味着更大的灾难即将来临？ (20261122-095233-497f).webm",
+    "sha256": "6c3d5dda83cf3cb162db1b3e934a8c39d05b3bc9837a5dcc754a8ad31e1f1fe3",
+    "original_name": "【频道 马方说管理】股市、黄金、白银、石油、加密货币都开始崩盘，是不是意味着更大的灾难即将来临？ (20261122-095233-497f).webm"
+  },
+  "download_skipped": true,
+  "used_cached_audio": false,
+  "title": "【频道 马方说管理】股市、黄金、白银、石油、加密货币都开始崩盘，是不是意味着更大的灾难即将来临？ (20261122-095233-497f).webm",
+  "audio_duration_seconds": 373.88775,
+  "selected_start": 0.0,
+  "selected_end": 373.88775,
+  "language_probability": 0.99946528673172,
+  "segment_count": 162,
+  "detected_language": "zh",
+  "last_completed_audio_second": 373.88775,
+  "peak_ram_mb": 7702.5,
+  "shared_model": true,
+  "model_workers": 3,
+  "peak_ram_scope": "shared process, all concurrent jobs",
+  "execution_backend": "Codex Cloud CPU",
+  "storage_backend": "github-git",
+  "quality_mode": "高精度：large-v3 / beam 5 / CPU int8",
+  "cpu_threads_per_worker": 1,
+  "broadcast_date": null,
+  "broadcast_date_source": "Unknown; filename timestamp records download, not verified publication",
+  "transcription_date_local": "2026-11-22",
+  "transcription_timezone": "America/Los_Angeles",
+  "channel": "马方说管理",
+  "channel_source": "uploaded filename; not independently verified",
+  "original_segment_count": 162,
+  "terminology_review": {
+    "channel": "马方说管理",
+    "title": "【频道 马方说管理】股市、黄金、白银、石油、加密货币都开始崩盘，是不是意味着更大的灾难即将来临？｜高精度",
+    "filename": "【频道 马方说管理】股市黄金白银石油加密货币崩盘_更大灾难将来临吗_高精度",
+    "corrections": {
+      "黑市星期五": "黑色星期五",
+      "和美联储对的感": "和美联储对着干",
+      "黄仁兴": "黄仁勋",
+      "留定流动性": "流动性",
+      "市场泡跌": "市场暴跌",
+      "计算不赢": "鸡犬不宁",
+      "没债": "美债",
+      "越来越之前": "越来越值钱",
+      "美元之前大家都在美债": "美元值钱大家都在买美债",
+      "手里五号现金": "手里捂好现金",
+      "一百马万买完": "一把买完"
+    },
+    "ready": true,
+    "method": "Machine transcription, contextual review and targeted acoustic redecoding; no human listening or financial fact verification",
+    "segment_edits": [
+      {
+        "start": 87.42,
+        "before": "所有的加息",
+        "after": "所有的钱"
+      },
+      {
+        "start": 89.22,
+        "before": "加钱都开始买美债",
+        "after": "都开始买美债"
+      },
+      {
+        "start": 304,
+        "before": "这时候你保留租屋的现金",
+        "after": "这时候你保留[05:04 听辨不清]的现金"
+      }
+    ],
+    "range_replacements": [],
+    "notes": [
+      "Preserve speaker claims, amounts, units and directional conditions; do not replace them using current market data.",
+      "Source is uploaded audio only; no charts or video frames inspected.",
+      "Publication/broadcast date unverified; embedded filename timestamp is download metadata."
+    ],
+    "uncertainties": [
+      {
+        "start": 304,
+        "end": 306.28,
+        "description": "Modifier before 现金 differs between acoustic decodes; not guessed."
+      }
+    ]
+  },
+  "qa_redecodes": [
+    {
+      "start": 200.58,
+      "end": 228.84,
+      "reason": "financial figures/terms",
+      "model": "large-v3",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 200.58,
+          "end": 202.3,
+          "text": "这个这个这个这个去杠杆"
+        },
+        {
+          "start": 202.3,
+          "end": 206.76,
+          "text": "这种情况下出现出现一些极其特殊的问题"
+        },
+        {
+          "start": 206.76,
+          "end": 208.16,
+          "text": "第一个就"
+        },
+        {
+          "start": 208.16,
+          "end": 214.78,
+          "text": "就是这种这种这种像08年的那种情况会出现"
+        },
+        {
+          "start": 214.78,
+          "end": 216.54,
+          "text": "但是这个小概率的事"
+        },
+        {
+          "start": 216.54,
+          "end": 219.86,
+          "text": "除非是跌得很厉害"
+        },
+        {
+          "start": 219.86,
+          "end": 221.86,
+          "text": "引起更大的恐慌"
+        },
+        {
+          "start": 221.86,
+          "end": 227.26,
+          "text": "还有一个就是慢慢的演变成真正的经济衰退或信用危机"
+        },
+        {
+          "start": 227.26,
+          "end": 228.6,
+          "text": "这种情况"
+        }
+      ]
+    }
+  ],
+  "supplemental_qa_redecodes": [
+    {
+      "tag": "mafang",
+      "start": 13,
+      "end": 20,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 13.0,
+          "end": 14.28,
+          "text": "是極其小的概率"
+        },
+        {
+          "start": 15.56,
+          "end": 18.12,
+          "text": "因為昨天是星期五嘛 黑色星期五嘛"
+        },
+        {
+          "start": 18.88,
+          "end": 20,
+          "text": "黃金跌 然後"
+        }
+      ]
+    },
+    {
+      "tag": "mafang",
+      "start": 122,
+      "end": 138,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 122.0,
+          "end": 126.0,
+          "text": "另外一个原因就是黄仁新出轨"
+        },
+        {
+          "start": 126.0,
+          "end": 130.0,
+          "text": "他搞个小事然后搞得整个世界稀巴烂"
+        },
+        {
+          "start": 130.0,
+          "end": 134.0,
+          "text": "这是天下找小事这个代价最大的"
+        },
+        {
+          "start": 134.0,
+          "end": 138.0,
+          "text": "搞得整个世界鸡犬不宁"
+        }
+      ]
+    },
+    {
+      "tag": "mafang",
+      "start": 32,
+      "end": 48,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 32.9,
+          "end": 39.5,
+          "text": "没那么恐怖 只不过是流动性的挤兑或强制平仓的连锁反应"
+        },
+        {
+          "start": 40.78,
+          "end": 47.7,
+          "text": "就说白了就是股价一跌的时候 市场泡跌的时候 它继续要现金补偿"
+        }
+      ]
+    },
+    {
+      "tag": "mafang",
+      "start": 85,
+      "end": 93,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 85.0,
+          "end": 87.56,
+          "text": "英派加息,加息的话是美元值钱"
+        },
+        {
+          "start": 88.84,
+          "end": 91.14,
+          "text": "所有的钱都开始买美债"
+        },
+        {
+          "start": 91.4,
+          "end": 92.94,
+          "text": "比如股票、黄金"
+        }
+      ]
+    },
+    {
+      "tag": "mafang",
+      "start": 278,
+      "end": 308,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 278.0,
+          "end": 280.04,
+          "text": "是不是在增加"
+        },
+        {
+          "start": 280.04,
+          "end": 281.52,
+          "text": "就是美元是不是越来越值钱"
+        },
+        {
+          "start": 281.52,
+          "end": 282.8,
+          "text": "美元值钱大家都买美债"
+        },
+        {
+          "start": 282.8,
+          "end": 287.28,
+          "text": "然后再看美债的收益率是不是一直超过5"
+        },
+        {
+          "start": 288.16,
+          "end": 288.96,
+          "text": "就这两个指标"
+        },
+        {
+          "start": 288.96,
+          "end": 289.84,
+          "text": "如果一直是这样"
+        },
+        {
+          "start": 289.84,
+          "end": 290.56,
+          "text": "那就会出问题"
+        },
+        {
+          "start": 291.32,
+          "end": 293.84,
+          "text": "但是对我们老百姓来说"
+        },
+        {
+          "start": 293.84,
+          "end": 296.28,
+          "text": "你守留5号现金"
+        },
+        {
+          "start": 296.28,
+          "end": 296.76,
+          "text": "你别动"
+        },
+        {
+          "start": 296.76,
+          "end": 300.12,
+          "text": "因为万一它出现大的经济危机的话"
+        },
+        {
+          "start": 300.12,
+          "end": 301.32,
+          "text": "有的长得好几年"
+        },
+        {
+          "start": 301.88,
+          "end": 303.4,
+          "text": "一般都受不了"
+        },
+        {
+          "start": 303.88,
+          "end": 305.68,
+          "text": "这时候你保留诸如此类的现金"
+        },
+        {
+          "start": 306.08,
+          "end": 307.16,
+          "text": "比什么时候都重要"
+        }
+      ]
+    },
+    {
+      "tag": "mafang",
+      "start": 314,
+      "end": 323,
+      "model": "medium",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "segments": [
+        {
+          "start": 314.0,
+          "end": 316.0,
+          "text": "现在分期分批买"
+        },
+        {
+          "start": 316.0,
+          "end": 318.0,
+          "text": "现在就可以开始抄底"
+        },
+        {
+          "start": 318.0,
+          "end": 320.0,
+          "text": "但是你别一把买完"
+        },
+        {
+          "start": 320.0,
+          "end": 322.0,
+          "text": "一把买完没到底 光吃亏"
+        },
+        {
+          "start": 322.0,
+          "end": 323,
+          "text": "你分期买"
+        }
+      ]
+    }
+  ]
+}
