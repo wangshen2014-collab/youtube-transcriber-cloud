@@ -46,6 +46,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [AI泡沫破灭？中国股市为何跌的这么惨？](catalog/5134964acba8c609.md) | 单项结果 1 |
 | [Passive Income Expert_ Buying A House Makes You Poorer Than Renting!](catalog/a14ad43679749365.md) | 合并版 1 |
 | [【2026-10-30最新】 付鹏最新判断 AI最残酷的阶段可能已经开始 家底先烧光了](catalog/36790522588c773c.md) | 单项结果 1 |
+| [【频道 Decoding Finance】付鹏_黄金VS_AI_中高精度](catalog/91253529450c904b.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】民主党大胜，终结AI超级周期？](catalog/f515a50b5e755686.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！](catalog/7e4c4439f96c49dd.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链](catalog/59862750d27cbf1b.md) | 单项结果 1 |
@@ -94,4 +95,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 MaskFinance】黄金深度调整、狂热退潮，利空还能砸出多大空间？｜中高精度](jobs/26b243b4ad94bf55885ea2a8/README.md)
+最新保存：[【频道 Decoding Finance】付鹏《黄金 VS AI：下一个机会在哪？》｜中高精度](jobs/0a845e38cba34a860381cf2a/README.md)
