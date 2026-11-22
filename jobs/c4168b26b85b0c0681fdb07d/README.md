@@ -1,7 +1,17 @@
-# 【频道 科技浪】EP153 GPT-6 Astra 完整转录
+# 科技浪 EP153 转录和分析
 
-- [TXT](%E5%AE%8C%E6%95%B4%E8%BD%AC%E5%BD%95.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4168b26b85b0c0681fdb07d/%E5%AE%8C%E6%95%B4%E8%BD%AC%E5%BD%95.txt)
-- [SRT](%E5%AE%8C%E6%95%B4%E8%BD%AC%E5%BD%95.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4168b26b85b0c0681fdb07d/%E5%AE%8C%E6%95%B4%E8%BD%AC%E5%BD%95.srt)
-- [JSON](%E5%90%88%E5%B9%B6%E8%BF%90%E8%A1%8C%E6%8A%A5%E5%91%8A.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/c4168b26b85b0c0681fdb07d/%E5%90%88%E5%B9%B6%E8%BF%90%E8%A1%8C%E6%8A%A5%E5%91%8A.json)
+节目音频全长 1 小时 11 分 22 秒，三段已按原时间顺序合并。转录采用 large-v3、CPU int8、4 线程、beam 5；源音频未上传。
 
-由 Codex Cloud 转录，原始音频未上传到本分支。
+## 易读分析
+
+- [在线阅读分析与建议](分析与建议.md)
+- [下载 Word 文档](分析与建议.docx)
+- [HTML 阅读版](分析与建议.html)
+
+分析分别呈现主持人的观点、节目中的论据、论证边界与建设性建议，并附原节目时间戳。音频转录与分析分开保存。
+
+## 原始转录与报告
+
+- [完整 TXT 文稿](完整转录.txt)
+- [连续时间戳 SRT 字幕](完整转录.srt)
+- [运行报告](合并运行报告.json)
