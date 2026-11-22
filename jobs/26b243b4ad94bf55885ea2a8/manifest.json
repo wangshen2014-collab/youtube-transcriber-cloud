@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "medium",
+    "threads": 2,
+    "beam_size": 5,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "6c8609635930b86b1c722f562b204edce99860df6c3929f94383634c6b9b3eaf",
+    "source_id": "audio-6c8609635930b86b1c722f56"
+  },
+  "title": "【频道 MaskFinance】黄金深度调整、狂热退潮，利空还能砸出多大空间？｜中高精度",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/26b243b4ad94bf55885ea2a8/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E9%BB%84%E9%87%91%E6%B7%B1%E5%BA%A6%E8%B0%83%E6%95%B4_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/26b243b4ad94bf55885ea2a8/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E9%BB%84%E9%87%91%E6%B7%B1%E5%BA%A6%E8%B0%83%E6%95%B4_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/26b243b4ad94bf55885ea2a8/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E9%BB%84%E9%87%91%E6%B7%B1%E5%BA%A6%E8%B0%83%E6%95%B4_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/26b243b4ad94bf55885ea2a8",
+  "saved_at": 1795322538.8918755
+}
