@@ -1,0 +1,1301 @@
+{
+  "status": "completed",
+  "title": "【频道 MaskFinance】两期独立视频合并｜救市与融资保证金、美联储加息预期｜中高精度",
+  "settings": {
+    "source_type": "two_independent_uploads",
+    "layout": "upload_order_with_episode_boundaries",
+    "independent_audio_settings": [
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e3fd791dcc934628fb6c81ad58b3ecd61ef753e5c07012f4a217578f58c389b6",
+        "source_id": "audio-e3fd791dcc934628fb6c81ad",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "bc11ee273c02df90673f563424d10da23be15c902196e009e32629da266e5350",
+        "source_id": "audio-bc11ee273c02df90673f5634",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      }
+    ]
+  },
+  "processed_at": "2026-11-24T09:52:49-08:00",
+  "publication_date_verified": false,
+  "audio_duration_seconds": 632.186,
+  "episode_count": 2,
+  "segment_count": 308,
+  "episodes": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "e3fd791dcc934628fb6c81ad58b3ecd61ef753e5c07012f4a217578f58c389b6",
+        "source_id": "audio-e3fd791dcc934628fb6c81ad",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "timings_seconds": {
+        "local_source_selection": 8.480399992549792e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.7661618000001909,
+        "model_load": 11.81927952299975,
+        "transcription": 995.8659408559997,
+        "total_this_invocation": 1008.9852723080003
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 MaskFinance】全球齐救市，放宽融资保证金比例，如何看待政策的双刃剑效应？.webm",
+        "sha256": "e3fd791dcc934628fb6c81ad58b3ecd61ef753e5c07012f4a217578f58c389b6"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "MaskFinance",
+        "channel_source": "音频文件名"
+      },
+      "title": "全球齐救市，放宽融资保证金比例，如何看待政策的双刃剑效应？",
+      "audio_duration_seconds": 242.3234375,
+      "selected_start": 0.0,
+      "selected_end": 242.3234375,
+      "language_probability": 0.9963501691818237,
+      "segment_count": 96,
+      "detected_language": "zh",
+      "last_completed_audio_second": 236.57999999999998,
+      "peak_ram_mb": 6235.3,
+      "raw_segment_count": 95,
+      "main_model_invocations": 1,
+      "execution_backend": "Codex Cloud CPU",
+      "recognition_completed_at": "2026-11-24T09:52:49-08:00",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 7,
+        "clip_seconds": 82.82,
+        "clips": [
+          {
+            "start": 28.0,
+            "end": 39.4,
+            "reason": "1987年股灾与格林斯潘姓名",
+            "segments": [
+              {
+                "start": 28.0,
+                "end": 28.84,
+                "text": "我们就说远的不说",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 28.84,
+                "end": 30.04,
+                "text": "就说08年以来走过来",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 30.04,
+                "end": 31.1,
+                "text": "其实最早可以追溯到",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 31.1,
+                "end": 32.44,
+                "text": "1987年的黑色星期一",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 32.44,
+                "end": 32.98,
+                "text": "就是那个股灾",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 32.98,
+                "end": 33.54,
+                "text": "其实那个时候",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 33.54,
+                "end": 34.52,
+                "text": "格林斯派认为联储主席",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 34.52,
+                "end": 35.8,
+                "text": "他就开始介入市场了",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 35.8,
+                "end": 36.22,
+                "text": "我意思是说",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 36.22,
+                "end": 37.16,
+                "text": "这个市场有形的时候",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 37.16,
+                "end": 38.12,
+                "text": "对市场的干预",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              },
+              {
+                "start": 38.12,
+                "end": 39.28,
+                "text": "其实已经来自",
+                "avg_logprob": -0.123,
+                "no_speech_probability": 0.213
+              }
+            ],
+            "rms": 0.31646,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 73.0,
+            "end": 88.5,
+            "reason": "融资保证金比例、政策方向及可能漏句",
+            "segments": [
+              {
+                "start": 73.0,
+                "end": 74.28,
+                "text": "包括我们今天晚上也是一样",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 74.28,
+                "end": 76.08,
+                "text": "我们是搞了一个降费",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 76.08,
+                "end": 78.88,
+                "text": "还有一个就是融资保证金的比例的降低",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 78.88,
+                "end": 80.94,
+                "text": "其实如果现在市场是一个比较超跌的区域",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 80.94,
+                "end": 82.98,
+                "text": "其实这个时候降低保证金的比例",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 82.98,
+                "end": 84.52,
+                "text": "有助于补充市场的流动性",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 84.52,
+                "end": 86.56,
+                "text": "补充市场的子弹",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              },
+              {
+                "start": 86.56,
+                "end": 88.36,
+                "text": "其实可以偏利好来看",
+                "avg_logprob": -0.162,
+                "no_speech_probability": 0.692
+              }
+            ],
+            "rms": 0.29584,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 89.0,
+            "end": 106.0,
+            "reason": "杠杆比例与政策适用条件",
+            "segments": [
+              {
+                "start": 89.0,
+                "end": 90.24,
+                "text": "那你说如果还像10月份那样",
+                "avg_logprob": -0.079,
+                "no_speech_probability": 0.057
+              },
+              {
+                "start": 90.24,
+                "end": 106.0,
+                "text": "变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化变化",
+                "avg_logprob": -0.094,
+                "no_speech_probability": 0.423
+              }
+            ],
+            "rms": 0.28623,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 110.6,
+            "end": 121.7,
+            "reason": "杠杆的第二个比例和融资金额举例",
+            "segments": [
+              {
+                "start": 110.6,
+                "end": 112.1,
+                "text": "就如果我说有些人比较激进的话",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 112.1,
+                "end": 113.2,
+                "text": "把杠杆比例打到1比1.5",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 113.2,
+                "end": 114.16,
+                "text": "因为不是说每一个融资客",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 114.16,
+                "end": 115.04,
+                "text": "他都是说一定要",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 115.04,
+                "end": 116.56,
+                "text": "比如说投了100万要借125万",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 116.56,
+                "end": 117.96,
+                "text": "但如果你真的杠杆打得很满",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 118.1,
+                "end": 118.34,
+                "text": "对吧",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 118.34,
+                "end": 119.5,
+                "text": "然后如果市场还没到底",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 119.5,
+                "end": 120.86,
+                "text": "那就是爆仓风险会更大",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              },
+              {
+                "start": 121.1,
+                "end": 121.8,
+                "text": "会更大",
+                "avg_logprob": -0.189,
+                "no_speech_probability": 0.112
+              }
+            ],
+            "rms": 0.32556,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 136.4,
+            "end": 146.1,
+            "reason": "政策生效日期与历史政策日期",
+            "segments": [
+              {
+                "start": 136.4,
+                "end": 137.04,
+                "text": "关键节点",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 137.04,
+                "end": 138.1,
+                "text": "对月底是月底开始",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 138.1,
+                "end": 138.64,
+                "text": "但是有预期",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 138.64,
+                "end": 140.18,
+                "text": "是11月3号开始",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 140.18,
+                "end": 140.9,
+                "text": "但是这个东西近了",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 140.9,
+                "end": 141.58,
+                "text": "我意思这个东西",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 141.58,
+                "end": 142.16,
+                "text": "我们怎么思考",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 142.16,
+                "end": 142.64,
+                "text": "怎么去考虑",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 142.64,
+                "end": 143.9,
+                "text": "你看23年8月27号",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 143.9,
+                "end": 144.56,
+                "text": "出了这个政策以后",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              },
+              {
+                "start": 144.56,
+                "end": 145.74,
+                "text": "市场反而还加速下跌了",
+                "avg_logprob": -0.124,
+                "no_speech_probability": 0.386
+              }
+            ],
+            "rms": 0.30009,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 233.0,
+            "end": 242.32,
+            "reason": "最后一句与片尾是否有漏句",
+            "segments": [
+              {
+                "start": 233.0,
+                "end": 233.6,
+                "text": "利空还是利好",
+                "avg_logprob": -0.183,
+                "no_speech_probability": 0.504
+              },
+              {
+                "start": 233.6,
+                "end": 234.28,
+                "text": "但这是个双刃剑",
+                "avg_logprob": -0.183,
+                "no_speech_probability": 0.504
+              },
+              {
+                "start": 234.28,
+                "end": 235.04,
+                "text": "实话实说",
+                "avg_logprob": -0.183,
+                "no_speech_probability": 0.504
+              },
+              {
+                "start": 235.04,
+                "end": 236.64,
+                "text": "还在于关键市场到底怎么走",
+                "avg_logprob": -0.183,
+                "no_speech_probability": 0.504
+              }
+            ],
+            "rms": 0.19802,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 91.7,
+            "end": 100.5,
+            "reason": "绕开句首卡顿，核对1比1与1比1.25的口述",
+            "segments": [
+              {
+                "start": 91.7,
+                "end": 93.3,
+                "text": "你说你的杠杆比例都增加了",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              },
+              {
+                "start": 93.3,
+                "end": 95.2,
+                "text": "从1比1变成1比1.25了",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              },
+              {
+                "start": 95.2,
+                "end": 96.34,
+                "text": "那不是更要命了",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              },
+              {
+                "start": 96.34,
+                "end": 97.92,
+                "text": "所以说监管层他敢在这",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              },
+              {
+                "start": 97.92,
+                "end": 99.68,
+                "text": "降低融资保证你比例",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              },
+              {
+                "start": 99.68,
+                "end": 100.5,
+                "text": "至少从他的角度",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.195
+              }
+            ],
+            "rms": 0.29142,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 4,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 30.22,
+            "end": 35.34,
+            "before": "其实最早可以追溯到1987年的那个黑色星期一 就是那个股灾 其实那个时候格林斯巴日美联储主席嘛 他就开始介入市场",
+            "after": "其实最早可以追溯到1987年的那个黑色星期一，就是那个股灾。其实那个时候格林斯潘是美联储主席嘛，他就开始介入市场。",
+            "basis": "28–39.4 秒独立解码支持年份、事件和格林斯潘的姓名。"
+          },
+          {
+            "start": 65.8,
+            "end": 67.08,
+            "before": "就是收摆的也是救市资金嘛",
+            "after": "就是说白了，也是救市资金嘛",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 72.7,
+            "end": 75.0,
+            "before": "处救市政策 包括我们今天晚上也是一样 是吧 我们是",
+            "after": "出救市政策 包括我们今天晚上也是一样 是吧 我们是",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 139.06,
+            "end": 145.46,
+            "before": "是11月3号开始 但是这个东西近了嘛 我意思这个东西我们怎么思考 怎么去考虑 你看23年8月27号出了这个政策以后市场反而还加速下跌了",
+            "after": "是11月3号开始[生效日期待核 02:19]。但是这个东西近了嘛，我意思这个东西我们怎么思考、怎么去考虑。你看23年8月27号出了这个政策以后，市场反而还加速下跌了。",
+            "basis": "136.4–146.1 秒复核同样给出「11月3号」，前一句为「月底开始」，保留口述并标记。"
+          },
+          {
+            "start": 183.34,
+            "end": 187.44,
+            "before": "还在漫漫雄图之中的话 那你这杠杆加了杠杆以后 其实爆仓平仓不更快吗",
+            "after": "还在漫漫熊途之中的话 那你这杠杆加了杠杆以后 其实爆仓平仓不更快吗",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 187.94,
+            "end": 192.56,
+            "before": "大家能理解吗 所以这是个双刃剑 在这是个双刃剑 但是监管层他赶出这个政策 他可能对这个",
+            "after": "大家能理解吗 所以这是个双刃剑 在这是个双刃剑 但是监管层他敢出这个政策 他可能对这个",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 75.26,
+            "end": 77.56,
+            "before": "搞了一个降费 还有一个就是这个融资",
+            "after": null,
+            "basis": "73–88.5 秒复核补齐融资保证金下调一语。"
+          },
+          {
+            "start": 79.92,
+            "end": 83.0,
+            "before": "是一个比较超跌的一个区域啊 其实这个时候降低保证金的比例啊",
+            "after": null,
+            "basis": "73–88.5 秒复核补齐超跌判断的前提并重新对齐。"
+          }
+        ],
+        "added_cues": [
+          {
+            "start": 75.0,
+            "end": 78.88,
+            "text": "搞了一个降费，还有一个就是融资保证金的比例降低。",
+            "basis": "73–88.5 秒独立解码补回下调的对象。"
+          },
+          {
+            "start": 78.88,
+            "end": 80.94,
+            "text": "其实如果现在市场是一个比较超跌的区域，",
+            "basis": "73–88.5 秒独立解码补回条件从句。"
+          },
+          {
+            "start": 80.94,
+            "end": 82.98,
+            "text": "其实这个时候降低保证金的比例，",
+            "basis": "73–88.5 秒独立解码对齐。"
+          }
+        ],
+        "uncertainties": [
+          {
+            "start": 138.64,
+            "end": 140.18,
+            "reason": "机器解码给出「11月3号」，前一句为「月底开始」。"
+          }
+        ]
+      },
+      "episode_number": 1,
+      "srt_offset_seconds": 0.0,
+      "combined_srt_end_seconds": 242.323
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "bc11ee273c02df90673f563424d10da23be15c902196e009e32629da266e5350",
+        "source_id": "audio-bc11ee273c02df90673f5634",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "timings_seconds": {
+        "local_source_selection": 9.151700032816734e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.4443955979995735,
+        "model_load": 11.142597523000404,
+        "transcription": 977.1551130959997,
+        "total_this_invocation": 990.2762767730001
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 MaskFinance】加息概率微降，美联储加息预期如何影响市场？.webm",
+        "sha256": "bc11ee273c02df90673f563424d10da23be15c902196e009e32629da266e5350"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "MaskFinance",
+        "channel_source": "音频文件名"
+      },
+      "title": "加息概率微降，美联储加息预期如何影响市场？",
+      "audio_duration_seconds": 389.8630625,
+      "selected_start": 0.0,
+      "selected_end": 389.8630625,
+      "language_probability": 0.9978471994400024,
+      "segment_count": 212,
+      "detected_language": "zh",
+      "last_completed_audio_second": 384.88,
+      "peak_ram_mb": 4468.7,
+      "raw_segment_count": 213,
+      "main_model_invocations": 1,
+      "execution_backend": "Codex Cloud CPU",
+      "recognition_completed_at": "2026-11-24T09:52:30-08:00",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 8,
+        "clip_seconds": 89.26,
+        "clips": [
+          {
+            "start": 0.0,
+            "end": 16.0,
+            "reason": "消费贡献、财富集中与GDP中的消费占比",
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 1.42,
+                "text": "美国的这个居民啊",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 1.42,
+                "end": 2.96,
+                "text": "他的这个头部的10%的人",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 2.96,
+                "end": 4.46,
+                "text": "可以贡献50%的消费",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 4.46,
+                "end": 5.82,
+                "text": "所以说呢",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 5.82,
+                "end": 7.82,
+                "text": "这个当美股暴跌的时候呢",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 7.82,
+                "end": 9.78,
+                "text": "其实也会很伤害美国的消费的",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 9.78,
+                "end": 11.7,
+                "text": "就是美国的消费里面",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 11.7,
+                "end": 13.62,
+                "text": "美国的经济的GDP里面",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 13.62,
+                "end": 14.92,
+                "text": "70%是消费嘛",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 14.92,
+                "end": 15.8,
+                "text": "那消费呢",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              },
+              {
+                "start": 15.8,
+                "end": 16.0,
+                "text": "其实",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.046
+              }
+            ],
+            "rms": 0.27861,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 46.8,
+            "end": 54.4,
+            "reason": "保护期权和格林斯潘的英文术语",
+            "segments": [
+              {
+                "start": 46.8,
+                "end": 47.94,
+                "text": "关乎美股",
+                "avg_logprob": -0.253,
+                "no_speech_probability": 0.416
+              },
+              {
+                "start": 47.94,
+                "end": 49.26,
+                "text": "就是美联储有一个外号啊",
+                "avg_logprob": -0.253,
+                "no_speech_probability": 0.416
+              },
+              {
+                "start": 49.26,
+                "end": 51.16,
+                "text": "就是对这个市场的一个保护期权",
+                "avg_logprob": -0.253,
+                "no_speech_probability": 0.416
+              },
+              {
+                "start": 51.16,
+                "end": 52.86,
+                "text": "就是格林斯班普大家听说过吧",
+                "avg_logprob": -0.253,
+                "no_speech_probability": 0.416
+              },
+              {
+                "start": 52.86,
+                "end": 54.44,
+                "text": "就是每次美股下",
+                "avg_logprob": -0.253,
+                "no_speech_probability": 0.416
+              }
+            ],
+            "rms": 0.27999,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 99.8,
+            "end": 117.0,
+            "reason": "Fed put 和 2018 年的加息次数",
+            "segments": [
+              {
+                "start": 99.8,
+                "end": 101.72,
+                "text": "大家听说过美联储",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 101.72,
+                "end": 102.38,
+                "text": "Fedput",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 102.38,
+                "end": 103.5,
+                "text": "美联储其实",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 103.5,
+                "end": 105.58,
+                "text": "它为什么起了这么个外号",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 105.58,
+                "end": 107.58,
+                "text": "就是每次美股一大跌的时候",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 107.58,
+                "end": 109.12,
+                "text": "美联储经常会跳出来",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 109.12,
+                "end": 109.96,
+                "text": "保护这个市场",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 109.96,
+                "end": 111.78,
+                "text": "不管是2020年的",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 111.78,
+                "end": 113.56,
+                "text": "疫情也好",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 113.56,
+                "end": 114.9,
+                "text": "还是2018年",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 114.9,
+                "end": 115.92,
+                "text": "四四加息也好",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              },
+              {
+                "start": 115.92,
+                "end": 116.92,
+                "text": "或者是",
+                "avg_logprob": -0.17,
+                "no_speech_probability": 0.365
+              }
+            ],
+            "rms": 0.25877,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 120.5,
+            "end": 128.0,
+            "reason": "日元套息交易",
+            "segments": [
+              {
+                "start": 120.5,
+                "end": 124.06,
+                "text": "那次他那次这个这个这个就业市场的恐慌啊",
+                "avg_logprob": -0.269,
+                "no_speech_probability": 0.683
+              },
+              {
+                "start": 124.06,
+                "end": 126.7,
+                "text": "就是包括日元的淘气交易逆转也是他都是",
+                "avg_logprob": -0.269,
+                "no_speech_probability": 0.683
+              },
+              {
+                "start": 126.7,
+                "end": 127.92,
+                "text": "就是",
+                "avg_logprob": -0.269,
+                "no_speech_probability": 0.683
+              }
+            ],
+            "rms": 0.26387,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 202.0,
+            "end": 213.6,
+            "reason": "来源介绍、短字幕重复与通胀判断",
+            "segments": [
+              {
+                "start": 202.0,
+                "end": 204.06,
+                "text": "这股通缩的力量来的厉害",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 205.06,
+                "end": 206.14,
+                "text": "就是外往外边啊",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 206.14,
+                "end": 207.94,
+                "text": "有一个也是有一个分析师啊",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 207.94,
+                "end": 209.0,
+                "text": "一个也是一个",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 209.2,
+                "end": 209.96,
+                "text": "他讲了这句话",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 209.96,
+                "end": 212.26,
+                "text": "他说这个最大的通胀来源其实是美股",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 212.36,
+                "end": 213.76,
+                "text": "不是什么别的东西",
+                "avg_logprob": -0.245,
+                "no_speech_probability": 0.673
+              }
+            ],
+            "rms": 0.26067,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 327.4,
+            "end": 334.7,
+            "reason": "CME 利率预期工具的名称",
+            "segments": [
+              {
+                "start": 327.4,
+                "end": 328.78,
+                "text": "现在手头有的话",
+                "avg_logprob": -0.218,
+                "no_speech_probability": 0.175
+              },
+              {
+                "start": 328.78,
+                "end": 329.44,
+                "text": "FedWatch2",
+                "avg_logprob": -0.218,
+                "no_speech_probability": 0.175
+              },
+              {
+                "start": 329.44,
+                "end": 330.32,
+                "text": "这个网站可以看",
+                "avg_logprob": -0.218,
+                "no_speech_probability": 0.175
+              },
+              {
+                "start": 330.32,
+                "end": 331.94,
+                "text": "它是芝加哥商品交易所的",
+                "avg_logprob": -0.218,
+                "no_speech_probability": 0.175
+              },
+              {
+                "start": 331.94,
+                "end": 333.9,
+                "text": "预测每两种加息概率的这么一个",
+                "avg_logprob": -0.218,
+                "no_speech_probability": 0.175
+              }
+            ],
+            "rms": 0.28122,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 339.5,
+            "end": 353.8,
+            "reason": "12月日期、88%／此前概率及50个基点",
+            "segments": [
+              {
+                "start": 339.5,
+                "end": 342.38,
+                "text": "大家可以看一下12月9号的加息概率降了",
+                "avg_logprob": -0.168,
+                "no_speech_probability": 0.01
+              },
+              {
+                "start": 342.38,
+                "end": 345.2,
+                "text": "12月9号的加息概率现在只有88%了",
+                "avg_logprob": -0.168,
+                "no_speech_probability": 0.01
+              },
+              {
+                "start": 345.2,
+                "end": 346.22,
+                "text": "之前可是100%",
+                "avg_logprob": -0.168,
+                "no_speech_probability": 0.01
+              },
+              {
+                "start": 346.22,
+                "end": 352.5,
+                "text": "之前12月份12月9号加息50个基点的概率甚至有10%",
+                "avg_logprob": -0.168,
+                "no_speech_probability": 0.01
+              },
+              {
+                "start": 352.5,
+                "end": 353.8,
+                "text": "所以大家看到发生什么了",
+                "avg_logprob": -0.168,
+                "no_speech_probability": 0.01
+              }
+            ],
+            "rms": 0.26727,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 382.1,
+            "end": 389.86,
+            "reason": "最后一句与片尾是否有漏句",
+            "segments": [
+              {
+                "start": 382.1,
+                "end": 382.4,
+                "text": "的时候",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.42
+              },
+              {
+                "start": 382.4,
+                "end": 383.9,
+                "text": "美联储都会跳出来",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.42
+              },
+              {
+                "start": 383.9,
+                "end": 384.68,
+                "text": "保护这个市场",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.42
+              }
+            ],
+            "rms": 0.16151,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 51.14,
+            "end": 52.06,
+            "before": "就是跟进spam pool",
+            "after": "就是 Greenspan put。",
+            "basis": "46.8–54.4 秒复核与前句的保护期权用语一致。"
+          },
+          {
+            "start": 100.6,
+            "end": 102.6,
+            "before": "就是大家听说过美联储这个 fat put 吧",
+            "after": "就是大家听说过美联储这个 Fed put 吧？",
+            "basis": "99.8–117 秒复核识别缩写。"
+          },
+          {
+            "start": 113.86,
+            "end": 116.32,
+            "before": "还是2018年44加息也好啊",
+            "after": "还是2018年四次加息也好啊，",
+            "basis": "99.8–117 秒复核支持年份和「四次」的读法。"
+          },
+          {
+            "start": 124.06,
+            "end": 126.2,
+            "before": "就是包括日元的淘气交易逆转也是",
+            "after": "就是包括日元的套息交易逆转也是",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 233.26,
+            "end": 235.34,
+            "before": "我们这个 cpi 一直都还挺",
+            "after": "我们这个 CPI 一直都还挺",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 239.36,
+            "end": 240.86,
+            "before": "我们 cpi 也还行啊",
+            "after": "我们 CPI 也还行啊",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 264.3,
+            "end": 265.44,
+            "before": "无一信念啊",
+            "after": "无一幸免啊",
+            "basis": "根据同一期语境及术语的通行写法规范错识。"
+          },
+          {
+            "start": 328.88,
+            "end": 330.44,
+            "before": "FedWatch2啊这个网站可以看下",
+            "after": "FedWatch Tool 啊，这个网站可以看一下。",
+            "basis": "327.4–334.7 秒复核支持工具名及芝加哥商品交易所语境。"
+          },
+          {
+            "start": 206.02,
+            "end": 207.36,
+            "before": "有一个也是有一个分",
+            "after": null,
+            "basis": "202–213.6 秒复核补齐分析师一词。"
+          },
+          {
+            "start": 207.36,
+            "end": 207.4,
+            "before": "一分一分的分析力啊",
+            "after": null,
+            "basis": "202–213.6 秒复核不支持插入的 0.04 秒错识。"
+          },
+          {
+            "start": 207.4,
+            "end": 209.0,
+            "before": "有一个也是一个",
+            "after": null,
+            "basis": "202–213.6 秒复核重新对齐说话人的犹豫重复。"
+          }
+        ],
+        "added_cues": [
+          {
+            "start": 206.14,
+            "end": 207.94,
+            "text": "有一个，也是有一个分析师啊，",
+            "basis": "202–213.6 秒独立解码。"
+          },
+          {
+            "start": 207.94,
+            "end": 209.0,
+            "text": "一个，也是一个，",
+            "basis": "202–213.6 秒独立解码，保留讲者犹豫。"
+          }
+        ],
+        "uncertainties": []
+      },
+      "episode_number": 2,
+      "srt_offset_seconds": 242.323,
+      "combined_srt_end_seconds": 632.186
+    }
+  ]
+}
