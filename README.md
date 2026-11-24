@@ -55,6 +55,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Terry Chen 泰瑞】45天蒸發10兆美元_AI泡沫終於要破了嗎_高精度](catalog/4f0d64368344a4fb.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？](catalog/20d51c3639948b89.md) | 单项结果 1 |
+| [【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度](catalog/d6b458c5d21c6216.md) | 单项结果 1 |
 | [【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](catalog/5c58c8395e5f1c32.md) | 单项结果 1 |
 | [【频道 王志安】黄仁勋：中共美女间谍疑云？｜英伟达｜黄乐Alice Huang｜特朗普｜FBI｜卢比奥｜B200显卡｜王局拍案20261109](catalog/fcbb2fe6f5022cb5.md) | 单项结果 1 |
 | [【频道 老汤美股财经】芯片股大崩盘_还能涨回去吗_抄底机会or陷阱_高精度](catalog/d070045fdf27969f.md) | 单项结果 1 |
@@ -100,4 +101,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 MaskFinance】三期独立视频合并｜科技估值、泡沫与衰退信号｜中高精度](jobs/98062a927250c507412ee01c/README.md)
+最新保存：[【频道 孙富贵】全球泡沫爆了，AI的需求被高估？｜中高精度](jobs/be2aa6df3beda02d30dffdca/README.md)

@@ -566,7 +566,7 @@
         "title": "【频道 MaskFinance】三期独立视频合并_中高精度",
         "kind": "合并版",
         "path": "jobs/98062a927250c507412ee01c/【频道 MaskFinance】三期独立视频合并_中高精度.txt",
-        "sha": null,
+        "sha": "37e82bc0f5c5e50612a8ed95562521341fe5b68f",
         "files": {
           "txt": "jobs/98062a927250c507412ee01c/【频道 MaskFinance】三期独立视频合并_中高精度.txt",
           "srt": "jobs/98062a927250c507412ee01c/【频道 MaskFinance】三期独立视频合并_中高精度.srt",
@@ -643,6 +643,24 @@
           "txt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.txt",
           "srt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.srt",
           "json": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.json"
+        }
+      }
+    ]
+  },
+  {
+    "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度",
+    "category": "投资、经济与访谈",
+    "page": "catalog/d6b458c5d21c6216.md",
+    "versions": [
+      {
+        "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度",
+        "kind": "单项结果",
+        "path": "jobs/be2aa6df3beda02d30dffdca/【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度.txt",
+        "sha": null,
+        "files": {
+          "txt": "jobs/be2aa6df3beda02d30dffdca/【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度.txt",
+          "srt": "jobs/be2aa6df3beda02d30dffdca/【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度.srt",
+          "json": "jobs/be2aa6df3beda02d30dffdca/【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度.json"
         }
       }
     ]

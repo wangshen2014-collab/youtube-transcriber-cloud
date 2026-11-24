@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+    "source_id": "audio-0060f2c59a0167e90a35ec5f",
+    "attribution": {
+      "channel": "孙富贵",
+      "channel_source": "音频文件名"
+    },
+    "recognition_regions": [
+      {
+        "start": 0.0,
+        "end": 105.08,
+        "threads": 1
+      },
+      {
+        "start": 105.08,
+        "end": 293.67,
+        "threads": 2
+      },
+      {
+        "start": 293.67,
+        "end": 457.72,
+        "threads": 2
+      },
+      {
+        "start": 457.72,
+        "end": 672.0,
+        "threads": 2
+      },
+      {
+        "start": 672.0,
+        "end": 831.72,
+        "threads": 2
+      },
+      {
+        "start": 831.72,
+        "end": 1035.2616875,
+        "threads": 2
+      }
+    ]
+  },
+  "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？｜中高精度",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/be2aa6df3beda02d30dffdca/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E5%85%A8%E7%90%83%E6%B3%A1%E6%B2%AB%E7%88%86%E4%BA%86%EF%BC%8CAI%E7%9A%84%E9%9C%80%E6%B1%82%E8%A2%AB%E9%AB%98%E4%BC%B0_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/be2aa6df3beda02d30dffdca/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E5%85%A8%E7%90%83%E6%B3%A1%E6%B2%AB%E7%88%86%E4%BA%86%EF%BC%8CAI%E7%9A%84%E9%9C%80%E6%B1%82%E8%A2%AB%E9%AB%98%E4%BC%B0_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/be2aa6df3beda02d30dffdca/%E3%80%90%E9%A2%91%E9%81%93%20%E5%AD%99%E5%AF%8C%E8%B4%B5%E3%80%91%E5%85%A8%E7%90%83%E6%B3%A1%E6%B2%AB%E7%88%86%E4%BA%86%EF%BC%8CAI%E7%9A%84%E9%9C%80%E6%B1%82%E8%A2%AB%E9%AB%98%E4%BC%B0_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/be2aa6df3beda02d30dffdca",
+  "saved_at": 1795499220.3627884
+}

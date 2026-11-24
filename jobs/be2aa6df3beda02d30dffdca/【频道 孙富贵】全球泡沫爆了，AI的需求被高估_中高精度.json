@@ -1,0 +1,1487 @@
+{
+  "status": "completed",
+  "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？｜中高精度",
+  "settings": {
+    "language": "auto",
+    "model": "large-v3",
+    "beam_size": 3,
+    "device": "cpu",
+    "compute_type": "int8",
+    "vad_filter": false,
+    "condition_on_previous_text": true,
+    "start": 0.0,
+    "end": null,
+    "source_type": "audio_file",
+    "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+    "source_id": "audio-0060f2c59a0167e90a35ec5f",
+    "attribution": {
+      "channel": "孙富贵",
+      "channel_source": "音频文件名"
+    },
+    "recognition_regions": [
+      {
+        "start": 0.0,
+        "end": 105.08,
+        "threads": 1
+      },
+      {
+        "start": 105.08,
+        "end": 293.67,
+        "threads": 2
+      },
+      {
+        "start": 293.67,
+        "end": 457.72,
+        "threads": 2
+      },
+      {
+        "start": 457.72,
+        "end": 672.0,
+        "threads": 2
+      },
+      {
+        "start": 672.0,
+        "end": 831.72,
+        "threads": 2
+      },
+      {
+        "start": 831.72,
+        "end": 1035.2616875,
+        "threads": 2
+      }
+    ]
+  },
+  "processed_at": "2026-11-23T21:44:05-08:00",
+  "publication_date_verified": false,
+  "audio_duration_seconds": 1035.262,
+  "episode_count": 1,
+  "segment_count": 348,
+  "episodes": [
+    {
+      "status": "completed",
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+        "source_id": "audio-0060f2c59a0167e90a35ec5f",
+        "attribution": {
+          "channel": "孙富贵",
+          "channel_source": "音频文件名"
+        },
+        "recognition_regions": [
+          {
+            "start": 0.0,
+            "end": 105.08,
+            "threads": 1
+          },
+          {
+            "start": 105.08,
+            "end": 293.67,
+            "threads": 2
+          },
+          {
+            "start": 293.67,
+            "end": 457.72,
+            "threads": 2
+          },
+          {
+            "start": 457.72,
+            "end": 672.0,
+            "threads": 2
+          },
+          {
+            "start": 672.0,
+            "end": 831.72,
+            "threads": 2
+          },
+          {
+            "start": 831.72,
+            "end": 1035.2616875,
+            "threads": 2
+          }
+        ]
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+        "sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080"
+      },
+      "audio_duration_seconds": 1035.2616875,
+      "selected_start": 0.0,
+      "selected_end": 1035.2616875,
+      "detected_language": "zh",
+      "attribution": {
+        "channel": "孙富贵",
+        "channel_source": "音频文件名"
+      },
+      "segment_count": 348,
+      "timings_seconds_summed_over_completed_regions": {
+        "local_source_selection": 0.0003769079999074165,
+        "download_or_cache": 0.0,
+        "audio_decode": 22.280666091000057,
+        "model_load": 77.12974102099997,
+        "transcription": 2538.7872946250004,
+        "total_this_invocation": 2638.5796051859998
+      },
+      "peak_ram_mb": 3406.8,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "main_model_invocations": 6,
+      "regions": [
+        {
+          "status": "saved_prefix",
+          "selected_start": 0.0,
+          "selected_end": 105.08,
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 1,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 0.0,
+            "end": null,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "segment_count": 9
+        },
+        {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 2,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 105.08,
+            "end": 293.67,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "timings_seconds": {
+            "local_source_selection": 7.753999989290605e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 7.3972330470001,
+            "model_load": 23.40080479900007,
+            "transcription": 550.7440633390001,
+            "total_this_invocation": 581.5992042399998
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "attribution": {
+            "channel": "孙富贵",
+            "channel_source": "音频文件名"
+          },
+          "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+          "audio_duration_seconds": 1035.2616875,
+          "selected_start": 105.08,
+          "selected_end": 293.67,
+          "language_probability": 0.9981246590614319,
+          "segment_count": 100,
+          "detected_language": "zh",
+          "last_completed_audio_second": 293.34000000000003,
+          "peak_ram_mb": 3312.2
+        },
+        {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 2,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 293.67,
+            "end": 457.72,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "timings_seconds": {
+            "local_source_selection": 7.829700007278007e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.506080625999857,
+            "model_load": 11.573142810999798,
+            "transcription": 459.29155300599996,
+            "total_this_invocation": 474.46286324899984
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "attribution": {
+            "channel": "孙富贵",
+            "channel_source": "音频文件名"
+          },
+          "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+          "audio_duration_seconds": 1035.2616875,
+          "selected_start": 293.67,
+          "selected_end": 457.72,
+          "language_probability": 0.9978581070899963,
+          "segment_count": 88,
+          "detected_language": "zh",
+          "last_completed_audio_second": 457.47,
+          "peak_ram_mb": 3313.0
+        },
+        {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 2,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 457.72,
+            "end": 672.0,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "timings_seconds": {
+            "local_source_selection": 7.694099986110814e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.470100048000404,
+            "model_load": 16.676632342000175,
+            "transcription": 558.2392717940002,
+            "total_this_invocation": 578.4590475690002
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "attribution": {
+            "channel": "孙富贵",
+            "channel_source": "音频文件名"
+          },
+          "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+          "audio_duration_seconds": 1035.2616875,
+          "selected_start": 457.72,
+          "selected_end": 672.0,
+          "language_probability": 0.9981663823127747,
+          "segment_count": 41,
+          "detected_language": "zh",
+          "last_completed_audio_second": 671.98,
+          "peak_ram_mb": 3406.8
+        },
+        {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 2,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 672.0,
+            "end": 831.72,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "timings_seconds": {
+            "local_source_selection": 7.233199994516326e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 3.880963328999769,
+            "model_load": 13.047673295000095,
+            "transcription": 437.4075431269998,
+            "total_this_invocation": 454.4069299429998
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "attribution": {
+            "channel": "孙富贵",
+            "channel_source": "音频文件名"
+          },
+          "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+          "audio_duration_seconds": 1035.2616875,
+          "selected_start": 672.0,
+          "selected_end": 831.72,
+          "language_probability": 0.9973630309104919,
+          "segment_count": 81,
+          "detected_language": "zh",
+          "last_completed_audio_second": 831.72,
+          "peak_ram_mb": 3385.0
+        },
+        {
+          "settings": {
+            "language": "auto",
+            "model": "large-v3",
+            "threads": 2,
+            "beam_size": 3,
+            "device": "cpu",
+            "compute_type": "int8",
+            "vad_filter": false,
+            "condition_on_previous_text": true,
+            "start": 831.72,
+            "end": null,
+            "source_type": "audio_file",
+            "audio_sha256": "0060f2c59a0167e90a35ec5f0764772d6fcd2354473411e6f21712989c2aa080",
+            "source_id": "audio-0060f2c59a0167e90a35ec5f",
+            "attribution": {
+              "channel": "孙富贵",
+              "channel_source": "音频文件名"
+            }
+          },
+          "versions": {
+            "python": "3.12.14",
+            "faster-whisper": "1.2.1",
+            "ctranslate2": "4.4.0",
+            "yt-dlp": "2026.8.19",
+            "av": "16.0.1"
+          },
+          "status": "completed",
+          "resumed": false,
+          "timings_seconds": {
+            "local_source_selection": 7.1798000135459e-05,
+            "download_or_cache": 0.0,
+            "audio_decode": 4.026289040999927,
+            "model_load": 12.431487773999834,
+            "transcription": 533.1048633590003,
+            "total_this_invocation": 549.6515601850001
+          },
+          "download_skipped": true,
+          "used_cached_audio": false,
+          "attribution": {
+            "channel": "孙富贵",
+            "channel_source": "音频文件名"
+          },
+          "title": "【频道 孙富贵】全球泡沫爆了，AI的需求被高估？.webm",
+          "audio_duration_seconds": 1035.2616875,
+          "selected_start": 831.72,
+          "selected_end": 1035.2616875,
+          "language_probability": 0.9969004392623901,
+          "segment_count": 33,
+          "detected_language": "zh",
+          "last_completed_audio_second": 1031.54,
+          "peak_ram_mb": 3263.6
+        }
+      ],
+      "source_date_verified": false,
+      "recognition_completed_at": "2026-11-23T21:44:05-08:00",
+      "prefix_note": "首段来自原始任务的同一音频断点，后续各段按低音量位置分段识别。",
+      "title": "全球泡沫爆了，AI的需求被高估？",
+      "raw_segment_count": 352,
+      "execution_backend": "Codex Cloud CPU",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 17,
+        "clip_seconds": 224.56,
+        "clips": [
+          {
+            "start": 0.0,
+            "end": 19.0,
+            "reason": "标普、纳指跌幅及回调条件",
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 19.0,
+                "text": "最近一段时间,美股开启了惨烈的自由落体模式,过去一周,标普纳指均已进入回调区间,标普下跌11.6%,纳指更是跌了近20%,直接进入技术性熊市,基本抹掉了今年以来的全部涨幅,要说最惨的,",
+                "avg_logprob": -0.064,
+                "no_speech_probability": 0.252
+              }
+            ],
+            "rms": 0.11255,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 102.0,
+            "end": 119.0,
+            "reason": "原断点与第一处分段接缝",
+            "segments": [
+              {
+                "start": 102.0,
+                "end": 105.0,
+                "text": "所以之前有人戏称英伟达是AI圈的央行",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 105.0,
+                "end": 107.04,
+                "text": "现在黄仁勋一走",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 107.04,
+                "end": 110.08,
+                "text": "相当于整个行业的信用担保人退出了",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 110.08,
+                "end": 112.62,
+                "text": "AI产业的流动性也就跟着缩水了",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 112.62,
+                "end": 115.34,
+                "text": "可还没等市场完全反应过来",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 115.34,
+                "end": 116.84,
+                "text": "紧接着又来了一记重拳",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              },
+              {
+                "start": 116.84,
+                "end": 118.56,
+                "text": "美联储突然放鹰",
+                "avg_logprob": -0.087,
+                "no_speech_probability": 0.604
+              }
+            ],
+            "rms": 0.11445,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 118.4,
+            "end": 135.0,
+            "reason": "会议纪要、沃勒姓名和加息幅度",
+            "segments": [
+              {
+                "start": 119.06,
+                "end": 121.96,
+                "text": "11月18日公布的十月会议纪要显示",
+                "avg_logprob": -0.111,
+                "no_speech_probability": 0.953
+              },
+              {
+                "start": 121.96,
+                "end": 125.88,
+                "text": "几乎所有与会者都认为进一步加息是合适的",
+                "avg_logprob": -0.111,
+                "no_speech_probability": 0.953
+              },
+              {
+                "start": 125.88,
+                "end": 129.64,
+                "text": "同一天美联储李士沃勒在采访中呼吁",
+                "avg_logprob": -0.111,
+                "no_speech_probability": 0.953
+              },
+              {
+                "start": 129.64,
+                "end": 131.82,
+                "text": "12月直接加息50个纪典",
+                "avg_logprob": -0.111,
+                "no_speech_probability": 0.953
+              },
+              {
+                "start": 131.82,
+                "end": 135.0,
+                "text": "到了11月20日又有两位官员",
+                "avg_logprob": -0.111,
+                "no_speech_probability": 0.953
+              }
+            ],
+            "rms": 0.1309,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 140.0,
+            "end": 153.5,
+            "reason": "沃什姓名、加息时间与基点",
+            "segments": [
+              {
+                "start": 140.0,
+                "end": 140.74,
+                "text": "早有苗头",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 140.74,
+                "end": 142.14,
+                "text": "今年8月底",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 142.14,
+                "end": 143.9,
+                "text": "新任主席沃什的讲话",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 143.9,
+                "end": 145.2,
+                "text": "前所未有的强硬",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 145.2,
+                "end": 147.5,
+                "text": "当时就给市场下了个猎钱",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 147.5,
+                "end": 150.02,
+                "text": "9月美联储就真的加息了",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 150.02,
+                "end": 150.94,
+                "text": "25个基点",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              },
+              {
+                "start": 150.94,
+                "end": 153.04,
+                "text": "这是三年来的第一次加息",
+                "avg_logprob": -0.117,
+                "no_speech_probability": 0.851
+              }
+            ],
+            "rms": 0.1085,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 278.0,
+            "end": 286.5,
+            "reason": "美联储可解决与不可解决的问题",
+            "segments": [
+              {
+                "start": 278.0,
+                "end": 280.5,
+                "text": "但美联储能够解决的",
+                "avg_logprob": -0.083,
+                "no_speech_probability": 0.132
+              },
+              {
+                "start": 280.5,
+                "end": 283.18,
+                "text": "也只是短期情绪和固执的问题",
+                "avg_logprob": -0.083,
+                "no_speech_probability": 0.132
+              },
+              {
+                "start": 283.18,
+                "end": 285.0,
+                "text": "真正核心的问题",
+                "avg_logprob": -0.083,
+                "no_speech_probability": 0.132
+              },
+              {
+                "start": 285.0,
+                "end": 286.26,
+                "text": "美联储解决不了",
+                "avg_logprob": -0.083,
+                "no_speech_probability": 0.132
+              }
+            ],
+            "rms": 0.12334,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 290.0,
+            "end": 297.5,
+            "reason": "第二处分段接缝",
+            "segments": [
+              {
+                "start": 290.0,
+                "end": 291.42,
+                "text": "如果AI不行",
+                "avg_logprob": -0.105,
+                "no_speech_probability": 0.13
+              },
+              {
+                "start": 291.42,
+                "end": 293.38,
+                "text": "美联储就算是降息",
+                "avg_logprob": -0.105,
+                "no_speech_probability": 0.13
+              },
+              {
+                "start": 293.38,
+                "end": 296.14,
+                "text": "股市也会失去它最核心的动能",
+                "avg_logprob": -0.105,
+                "no_speech_probability": 0.13
+              },
+              {
+                "start": 296.14,
+                "end": 297.5,
+                "text": "即便反弹了",
+                "avg_logprob": -0.105,
+                "no_speech_probability": 0.13
+              }
+            ],
+            "rms": 0.12769,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 407.2,
+            "end": 418.5,
+            "reason": "AI短剧示例、重复与否定限定",
+            "segments": [
+              {
+                "start": 407.2,
+                "end": 417.18,
+                "text": "完全相反的例子,那就是AI短距平台,它不需要用户有目标,甚至不需要用户知道自己想看什么,内容会主动送上门。",
+                "avg_logprob": -0.097,
+                "no_speech_probability": 0.954
+              }
+            ],
+            "rms": 0.12004,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 454.3,
+            "end": 461.3,
+            "reason": "第三处分段接缝",
+            "segments": [
+              {
+                "start": 454.3,
+                "end": 455.7,
+                "text": "十分钟一次高潮",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 455.7,
+                "end": 457.38,
+                "text": "多巴案源源不断",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 457.38,
+                "end": 458.88,
+                "text": "更重要的是",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.673
+              },
+              {
+                "start": 458.88,
+                "end": 461.24,
+                "text": "面对一个空白的AI对话",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.673
+              }
+            ],
+            "rms": 0.13158,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 556.5,
+            "end": 572.4,
+            "reason": "QuestMobile 名称、年月、两项月活与差额",
+            "segments": [
+              {
+                "start": 556.5,
+                "end": 557.4,
+                "text": "Mobile的报告",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 557.4,
+                "end": 559.0,
+                "text": "2026年9月",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 559.0,
+                "end": 560.86,
+                "text": "红果月活4.3亿",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 560.86,
+                "end": 562.66,
+                "text": "豆包4.19亿",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 562.66,
+                "end": 564.84,
+                "text": "两者相差1100万",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 564.84,
+                "end": 566.4,
+                "text": "约2.6%",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 566.4,
+                "end": 567.56,
+                "text": "很明显",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 567.56,
+                "end": 569.22,
+                "text": "从月活规模上说",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              },
+              {
+                "start": 569.22,
+                "end": 571.8,
+                "text": "红果谈不上什么压倒性胜利",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.874
+              }
+            ],
+            "rms": 0.10322,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 572.5,
+            "end": 593.6,
+            "reason": "使用时长和主识别的短句重复",
+            "segments": [
+              {
+                "start": 572.5,
+                "end": 575.46,
+                "text": "但真正值得关注的是使用时长的增量",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              },
+              {
+                "start": 575.46,
+                "end": 579.42,
+                "text": "短距视频行业同比净增133.29亿小时",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              },
+              {
+                "start": 579.42,
+                "end": 582.4,
+                "text": "短视频净增57.17亿小时",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              },
+              {
+                "start": 582.4,
+                "end": 585.3,
+                "text": "而AIGC只有9.78亿小时",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              },
+              {
+                "start": 585.3,
+                "end": 589.22,
+                "text": "短距的时长增量是AIGC的约13.6倍",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              },
+              {
+                "start": 589.22,
+                "end": 593.26,
+                "text": "足以说明当前移动互联网的注意力正在往哪里集中",
+                "avg_logprob": -0.073,
+                "no_speech_probability": 0.124
+              }
+            ],
+            "rms": 0.12582,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 593.0,
+            "end": 606.5,
+            "reason": "豆包使用次数、月均分钟数和日均单位",
+            "segments": [
+              {
+                "start": 593.0,
+                "end": 606.46,
+                "text": "其中,报告里还有一个数据,豆包用户月人均使用72次,132.5分钟,也就是说平均到每个自然日只有约4.4分钟,一个已经拥有",
+                "avg_logprob": -0.127,
+                "no_speech_probability": 0.925
+              }
+            ],
+            "rms": 0.12533,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 669.4,
+            "end": 675.5,
+            "reason": "第四处分段接缝",
+            "segments": [
+              {
+                "start": 669.4,
+                "end": 671.64,
+                "text": "自己把结果录制到现实世界",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.828
+              },
+              {
+                "start": 671.64,
+                "end": 674.42,
+                "text": "这对专业用户来说不是问题",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.828
+              },
+              {
+                "start": 674.42,
+                "end": 675.5,
+                "text": "但对普通人来说",
+                "avg_logprob": -0.147,
+                "no_speech_probability": 0.828
+              }
+            ],
+            "rms": 0.13298,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 753.8,
+            "end": 770.1,
+            "reason": "短剧与 AI 外溢效应、短时重复",
+            "segments": [
+              {
+                "start": 753.8,
+                "end": 754.38,
+                "text": "什么算法",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 754.38,
+                "end": 755.38,
+                "text": "此外",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 755.38,
+                "end": 756.58,
+                "text": "还有一个问题",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 756.58,
+                "end": 758.74,
+                "text": "AI与短距最大的不同",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 758.74,
+                "end": 761.34,
+                "text": "在于它可以产生生产性回报",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 761.34,
+                "end": 763.5,
+                "text": "一个人刷十个小时短距",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 763.5,
+                "end": 764.94,
+                "text": "获得的主要是",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 764.94,
+                "end": 766.26,
+                "text": "十个小时的娱乐效用",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 766.26,
+                "end": 768.48,
+                "text": "一个人使用十个小时AI",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              },
+              {
+                "start": 768.48,
+                "end": 769.92,
+                "text": "却可能完成了",
+                "avg_logprob": -0.133,
+                "no_speech_probability": 0.934
+              }
+            ],
+            "rms": 0.11215,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 828.8,
+            "end": 835.0,
+            "reason": "第五处分段接缝",
+            "segments": [
+              {
+                "start": 828.8,
+                "end": 831.32,
+                "text": "产生的经济价值可能依然很有限",
+                "avg_logprob": -0.149,
+                "no_speech_probability": 0.905
+              },
+              {
+                "start": 831.32,
+                "end": 832.2,
+                "text": "当然",
+                "avg_logprob": -0.149,
+                "no_speech_probability": 0.905
+              },
+              {
+                "start": 832.2,
+                "end": 834.46,
+                "text": "未来更加智能的agent",
+                "avg_logprob": -0.149,
+                "no_speech_probability": 0.905
+              },
+              {
+                "start": 834.46,
+                "end": 834.92,
+                "text": "可以",
+                "avg_logprob": -0.149,
+                "no_speech_probability": 0.905
+              }
+            ],
+            "rms": 0.12717,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 881.7,
+            "end": 898.2,
+            "reason": "智能体算例的次数、节省成本和短时重复",
+            "segments": [
+              {
+                "start": 881.7,
+                "end": 883.8,
+                "text": "任务工作流和最终交付",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 883.8,
+                "end": 885.54,
+                "text": "如果一个agent",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 885.54,
+                "end": 887.52,
+                "text": "每个月只被调用十次",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 887.52,
+                "end": 890.6,
+                "text": "却能替企业节省几十万元的人力成本",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 890.6,
+                "end": 892.1,
+                "text": "那他的商业价值",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 892.1,
+                "end": 893.82,
+                "text": "可能远远超过一个",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 893.82,
+                "end": 896.72,
+                "text": "拥有大量免费用户的聊天机器人",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              },
+              {
+                "start": 896.72,
+                "end": 897.9,
+                "text": "未来衡量",
+                "avg_logprob": -0.098,
+                "no_speech_probability": 0.872
+              }
+            ],
+            "rms": 0.12796,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 4,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 907.5,
+            "end": 925.8,
+            "reason": "通用AI的需求及「充分」附近的断句",
+            "segments": [
+              {
+                "start": 907.5,
+                "end": 910.82,
+                "text": "对AI的真实需求究竟有没有被高估",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 910.82,
+                "end": 912.28,
+                "text": "目前来看",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 912.28,
+                "end": 915.86,
+                "text": "普通人对主动使用通用AI助手的需求",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 915.86,
+                "end": 917.42,
+                "text": "大概率被高估了",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 917.42,
+                "end": 919.98,
+                "text": "但AI能够满足的真实需求",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 919.98,
+                "end": 922.2,
+                "text": "应该远远没有被充分开发",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 922.2,
+                "end": 924.58,
+                "text": "今天AI行业的很多产品",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              },
+              {
+                "start": 924.58,
+                "end": 925.68,
+                "text": "还处在一个",
+                "avg_logprob": -0.09,
+                "no_speech_probability": 0.917
+              }
+            ],
+            "rms": 0.12015,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 4,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 1025.0,
+            "end": 1035.26,
+            "reason": "最后一句与随后的片尾",
+            "segments": [
+              {
+                "start": 1025.0,
+                "end": 1027.34,
+                "text": "打开手机之后最想做的是",
+                "avg_logprob": -0.084,
+                "no_speech_probability": 0.093
+              },
+              {
+                "start": 1027.34,
+                "end": 1029.04,
+                "text": "依然是想看看",
+                "avg_logprob": -0.084,
+                "no_speech_probability": 0.093
+              },
+              {
+                "start": 1029.04,
+                "end": 1030.16,
+                "text": "那个霸道总裁",
+                "avg_logprob": -0.084,
+                "no_speech_probability": 0.093
+              },
+              {
+                "start": 1030.16,
+                "end": 1031.54,
+                "text": "下一集会不会被打脸",
+                "avg_logprob": -0.084,
+                "no_speech_probability": 0.093
+              }
+            ],
+            "rms": 0.07358,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 4,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 145.18,
+            "end": 147.5,
+            "before": "当时就给市场下了个猎钱",
+            "after": "当时就给市场[口语措辞听辨待核 02:25]。",
+            "basis": "主识别及局部复核的短语均无法可靠判定。"
+          },
+          {
+            "start": 280.48,
+            "end": 282.42,
+            "before": "也只是短期情绪和",
+            "after": "也只是短期情绪和估值的问题。",
+            "basis": "278–286.5 秒复核补齐缺落的名词，按财经语境规范同音词。"
+          },
+          {
+            "start": 573.38,
+            "end": 574.72,
+            "before": "但真正值得关注的,是使用10亿的红果月活",
+            "after": "但真正值得关注的是使用时长的增量。",
+            "basis": "572.5–593.6 秒复核支持完整的指标名称。"
+          },
+          {
+            "start": 600.62,
+            "end": 604.72,
+            "before": "也就是说,平均到每个自然日,只有约4.4%",
+            "after": "也就是说，平均到每个自然日，只有约4.4分钟。",
+            "basis": "593–606.5 秒复核明确口述单位为分钟。"
+          },
+          {
+            "start": 27.06,
+            "end": 48.88,
+            "before": "而美光,AMD,台积电等热门股票更是全部跌超20%,另一边,AI相关的大科技们也没能幸免,谷歌,微软,亚马逊,据高点全部跌超10%,如此惨烈的全面下跌,背后到底发生了什么事?一切还得从11月12日美银公布的那份调查说起。",
+            "after": "而美光,AMD,台积电等热门股票更是全部跌超20%,另一边,AI相关的大科技们也没能幸免,谷歌,微软,亚马逊,距高点全部跌超10%,如此惨烈的全面下跌,背后到底发生了什么事?一切还得从11月12日美银公布的那份调查说起。",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 65.08,
+            "end": 72.58,
+            "before": "到了2028年,将没有一家的增速会超过20%,而甲骨纹甚至将是负增长。",
+            "after": "到了2028年,将没有一家的增速会超过20%,而甲骨文甚至将是负增长。",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 72.58,
+            "end": 82.88,
+            "before": "要知道,资本性开支是半导体行业的生命线,它一放缓,整个半导体的支撑就垮了,结果乌漏偏逢连夜雨。",
+            "after": "要知道,资本性开支是半导体行业的生命线,它一放缓,整个半导体的支撑就垮了,结果屋漏偏逢连夜雨。",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 126.8,
+            "end": 129.64,
+            "before": "美联储李士沃勒在采访中呼吁",
+            "after": "美联储理事沃勒在采访中呼吁",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 142.14,
+            "end": 143.9,
+            "before": "新任主席沃石的讲话",
+            "after": "新任主席沃什的讲话",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 249.66,
+            "end": 252.78,
+            "before": "接下来12月8日的美联储一席会议",
+            "after": "接下来12月8日的美联储议息会议",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 265.72,
+            "end": 268.22,
+            "before": "美联储出手就市的概率",
+            "after": "美联储出手救市的概率",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 408.01,
+            "end": 410.05,
+            "before": "那就是AI短距平台",
+            "after": "那就是AI短剧平台",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 446.97,
+            "end": 449.03,
+            "before": "哪有刷短距来的舒服",
+            "after": "哪有刷短剧来的舒服",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 557.1,
+            "end": 568.3,
+            "before": "根据Questmobile的报告,2026年9月红果月活4.3亿,豆包4.19亿,两者相差1100万,约2.6%",
+            "after": "根据QuestMobile的报告,2026年9月红果月活4.3亿,豆包4.19亿,两者相差1100万,约2.6%",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 574.74,
+            "end": 585.28,
+            "before": "短距视频行业同比净增133.29亿小时,短视频净增57.17亿小时,而AIGC只有9.78亿小时",
+            "after": "短剧视频行业同比净增133.29亿小时,短视频净增57.17亿小时,而AIGC只有9.78亿小时",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 585.28,
+            "end": 593.26,
+            "before": "短距的时长增量是AIGC的约13.6倍,足以说明当前移动互联网的注意力正在往哪里集中",
+            "after": "短剧的时长增量是AIGC的约13.6倍,足以说明当前移动互联网的注意力正在往哪里集中",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 623.44,
+            "end": 627.4,
+            "before": "但结合短距的数据,至少能够看到一个现实",
+            "after": "但结合短剧的数据,至少能够看到一个现实",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 871.86,
+            "end": 877.3,
+            "before": "这也是为什么AI行业不能简单照搬移动互联网时代的使用时常逻辑。",
+            "after": "这也是为什么AI行业不能简单照搬移动互联网时代的使用时长逻辑。",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 412.11,
+            "end": 413.39,
+            "before": "甚至不需要用户有目标",
+            "after": null,
+            "basis": "407.2–418.5 秒复核确认此处否定与下一条构成同一句。"
+          },
+          {
+            "start": 413.43,
+            "end": 415.73,
+            "before": "需要用户知道自己想看什么",
+            "after": null,
+            "basis": "407.2–418.5 秒复核确认与上一条合为同一句。"
+          },
+          {
+            "start": 760.26,
+            "end": 760.34,
+            "before": "最大的不同",
+            "after": null,
+            "basis": "753.8–770.1 秒独立解码不支持重复短句。"
+          },
+          {
+            "start": 891.06,
+            "end": 891.7,
+            "before": "那他的商业节省是多少?",
+            "after": null,
+            "basis": "881.7–898.2 秒复核支持完整的商业价值陈述，无插入问句。"
+          },
+          {
+            "start": 891.72,
+            "end": 896.72,
+            "before": "AI价值可能远远超过一个拥有大量免费用户的聊天机器人。",
+            "after": null,
+            "basis": "881.7–898.2 秒复核确认与上一条为同一句。"
+          },
+          {
+            "start": 917.7,
+            "end": 921.7,
+            "before": "但AI能够满足的真实需求应该远远没有被冲锋。",
+            "after": null,
+            "basis": "907.5–925.8 秒复核补全「充分开发」。"
+          },
+          {
+            "start": 921.72,
+            "end": 922.2,
+            "before": "但AI能够满足的真实需求应该远远没有被冲锋。",
+            "after": null,
+            "basis": "907.5–925.8 秒复核不支持此重复短句。"
+          }
+        ],
+        "added_cues": [
+          {
+            "start": 412.11,
+            "end": 415.73,
+            "text": "甚至不需要用户知道自己想看什么。",
+            "basis": "407.2–418.5 秒局部独立解码确认否定词和句序。"
+          },
+          {
+            "start": 890.6,
+            "end": 896.72,
+            "text": "那它的商业价值可能远远超过一个拥有大量免费用户的聊天机器人。",
+            "basis": "881.7–898.2 秒局部独立解码。"
+          },
+          {
+            "start": 917.42,
+            "end": 922.2,
+            "text": "但AI能够满足的真实需求，应该远远没有被充分开发。",
+            "basis": "907.5–925.8 秒局部独立解码确认用词及对应时间。"
+          }
+        ],
+        "uncertainties": [
+          {
+            "start": 145.18,
+            "end": 147.5,
+            "reason": "沃什讲话后的短语。"
+          }
+        ]
+      },
+      "episode_number": 1,
+      "srt_offset_seconds": 0.0,
+      "combined_srt_end_seconds": 1035.262
+    }
+  ]
+}
