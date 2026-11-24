@@ -1,0 +1,2016 @@
+{
+  "status": "completed",
+  "title": "【频道 MaskFinance】三期独立视频合并｜科技估值、泡沫与衰退信号｜中高精度",
+  "settings": {
+    "source_type": "three_independent_uploads",
+    "layout": "upload_order_with_episode_boundaries",
+    "independent_audio_settings": [
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "f9fd777011063a57a627001bd5a7995e7bf48cbd62661aed4d4f94cdbf565154",
+        "source_id": "audio-f9fd777011063a57a627001b",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "df5992393fb6b98bef42d8986b7da32bba7110635a35526f033c66df9c827b39",
+        "source_id": "audio-df5992393fb6b98bef42d898",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "c8bd473176229d3612db48734f4e0e82638b37b6638ec9f7bed3171e420663ca",
+        "source_id": "audio-c8bd473176229d3612db4873",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      }
+    ]
+  },
+  "processed_at": "2026-11-23T21:25:23-08:00",
+  "publication_date_verified": false,
+  "audio_duration_seconds": 1014.573,
+  "episode_count": 3,
+  "segment_count": 497,
+  "episodes": [
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "f9fd777011063a57a627001bd5a7995e7bf48cbd62661aed4d4f94cdbf565154",
+        "source_id": "audio-f9fd777011063a57a627001b",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "timings_seconds": {
+        "local_source_selection": 0.0001023359999976492,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.3133618920000174,
+        "model_load": 23.786847148999982,
+        "transcription": 1039.0574766710001,
+        "total_this_invocation": 1064.742441207
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 MaskFinance】科技老登跷跷板效应持续，罕见低估值的科技是陷阱还是机会？.webm",
+        "sha256": "f9fd777011063a57a627001bd5a7995e7bf48cbd62661aed4d4f94cdbf565154"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "MaskFinance",
+        "channel_source": "音频文件名"
+      },
+      "title": "科技老登跷跷板效应持续，罕见低估值的科技是陷阱还是机会？",
+      "audio_duration_seconds": 249.4751875,
+      "selected_start": 0.0,
+      "selected_end": 249.4751875,
+      "language_probability": 0.9943742752075195,
+      "segment_count": 117,
+      "detected_language": "zh",
+      "last_completed_audio_second": 244.0,
+      "peak_ram_mb": 4482.5,
+      "raw_segment_count": 117,
+      "main_model_invocations": 1,
+      "execution_backend": "Codex Cloud CPU",
+      "recognition_completed_at": "2026-11-23T21:01:33-08:00",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 6,
+        "clip_seconds": 77.87,
+        "clips": [
+          {
+            "start": 2.0,
+            "end": 23.2,
+            "reason": "科技泡沫、指数全称、思科估值与标普科技估值",
+            "segments": [
+              {
+                "start": 2.0,
+                "end": 4.0,
+                "text": "显示就是纳斯达克泡沫时期",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 4.0,
+                "end": 5.84,
+                "text": "当时的消费品",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 5.84,
+                "end": 6.68,
+                "text": "可选消费品",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 6.68,
+                "end": 11.44,
+                "text": "必选消费品和科技估值的水平",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 11.44,
+                "end": 11.92,
+                "text": "大家可以看到",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 11.92,
+                "end": 13.1,
+                "text": "在2000年3月",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 13.1,
+                "end": 14.82,
+                "text": "纳斯达克泡沫破灭前的时候",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 14.82,
+                "end": 17.26,
+                "text": "像斯科 西斯科是130倍的估值",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 17.26,
+                "end": 19.68,
+                "text": "然后整个标普的估值",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 19.68,
+                "end": 21.06,
+                "text": "科技的估值是55倍",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              },
+              {
+                "start": 21.06,
+                "end": 21.98,
+                "text": "然后",
+                "avg_logprob": -0.184,
+                "no_speech_probability": 0.283
+              }
+            ],
+            "rms": 0.27018,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 25.8,
+            "end": 42.8,
+            "reason": "纳指100、英伟达、美光、沃尔玛和Costco的估值",
+            "segments": [
+              {
+                "start": 25.8,
+                "end": 31.94,
+                "text": "然后再看一下今天11月份现在的科技的估值和避悬科技的估值",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              },
+              {
+                "start": 32.72,
+                "end": 35.02,
+                "text": "现在的纳斯达克100的估值18倍",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              },
+              {
+                "start": 35.52,
+                "end": 36.8,
+                "text": "英伟达是11倍",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              },
+              {
+                "start": 37.06,
+                "end": 38.08,
+                "text": "美光是4倍",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              },
+              {
+                "start": 38.34,
+                "end": 40.64,
+                "text": "沃尔玛现在是40倍",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              },
+              {
+                "start": 40.9,
+                "end": 41.92,
+                "text": "Costco是42倍",
+                "avg_logprob": -0.202,
+                "no_speech_probability": 0.11
+              }
+            ],
+            "rms": 0.27812,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 113.0,
+            "end": 129.0,
+            "reason": "科技持仓、比较基准与年月份",
+            "segments": [
+              {
+                "start": 113.0,
+                "end": 116.5,
+                "text": "你再看一下现在的整个科技的持仓",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 116.5,
+                "end": 118.5,
+                "text": "科技的持仓已经到了就是26年的",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 118.5,
+                "end": 120.94,
+                "text": "比26年已经非常低的一个地位了",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 120.94,
+                "end": 123.3,
+                "text": "整个投资人在科技上疯狂的砍仓",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 123.3,
+                "end": 124.7,
+                "text": "这个水平已经到了什么",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 124.7,
+                "end": 127.7,
+                "text": "这个水平已经到了一个06年6月份的水平",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              },
+              {
+                "start": 127.7,
+                "end": 129.0,
+                "text": "反正整个现在全市场就是到了",
+                "avg_logprob": -0.221,
+                "no_speech_probability": 0.158
+              }
+            ],
+            "rms": 0.29816,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 242.0,
+            "end": 249.47,
+            "reason": "末尾缺口与最后一句",
+            "segments": [
+              {
+                "start": 242.0,
+                "end": 242.64,
+                "text": "继续往前走",
+                "avg_logprob": -0.259,
+                "no_speech_probability": 0.318
+              },
+              {
+                "start": 242.64,
+                "end": 243.54,
+                "text": "这就是分水岭",
+                "avg_logprob": -0.259,
+                "no_speech_probability": 0.318
+              },
+              {
+                "start": 243.54,
+                "end": 244.34,
+                "text": "看你心哪里靠",
+                "avg_logprob": -0.259,
+                "no_speech_probability": 0.318
+              }
+            ],
+            "rms": 0.15773,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 134.0,
+            "end": 142.0,
+            "reason": "A股与美股市场名称",
+            "segments": [
+              {
+                "start": 134.0,
+                "end": 134.94,
+                "text": "在高高在上",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 134.94,
+                "end": 135.64,
+                "text": "而且这个跳跃板",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 135.64,
+                "end": 136.92,
+                "text": "我发现现在大家发现没有",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 136.92,
+                "end": 137.98,
+                "text": "它不光出现在大银",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 137.98,
+                "end": 139.56,
+                "text": "它也发生在这个美股",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 139.56,
+                "end": 140.78,
+                "text": "全球市场都有这个问题",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              },
+              {
+                "start": 140.78,
+                "end": 141.46,
+                "text": "都有这个",
+                "avg_logprob": -0.214,
+                "no_speech_probability": 0.36
+              }
+            ],
+            "rms": 0.27109,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 169.8,
+            "end": 178.0,
+            "reason": "交易衰退或出清的语义",
+            "segments": [
+              {
+                "start": 169.8,
+                "end": 172.56,
+                "text": "就是你到底认为这块市场",
+                "avg_logprob": -0.182,
+                "no_speech_probability": 0.334
+              },
+              {
+                "start": 172.56,
+                "end": 174.36,
+                "text": "它到底是要该什么",
+                "avg_logprob": -0.182,
+                "no_speech_probability": 0.334
+              },
+              {
+                "start": 174.36,
+                "end": 175.4,
+                "text": "要该衰退萧桥了",
+                "avg_logprob": -0.182,
+                "no_speech_probability": 0.334
+              },
+              {
+                "start": 175.4,
+                "end": 176.82,
+                "text": "全球经济衰退和萧桥了呢",
+                "avg_logprob": -0.182,
+                "no_speech_probability": 0.334
+              },
+              {
+                "start": 176.82,
+                "end": 177.82,
+                "text": "还是又到了一个",
+                "avg_logprob": -0.182,
+                "no_speech_probability": 0.334
+              }
+            ],
+            "rms": 0.3006,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 0.0,
+            "end": 12.0,
+            "before": "这张图显示NASA和泡沫时期的可选消费品和科技估值水平",
+            "after": "这张图显示，就是纳斯达克泡沫时期，当时的消费品、可选消费品、必选消费品和科技估值的水平。大家可以看到，",
+            "basis": "2–23.2 秒独立解码补全比较板块。"
+          },
+          {
+            "start": 12.0,
+            "end": 15.0,
+            "before": "在2000年3月NASA和泡沫破灭前的时候",
+            "after": "在2000年3月纳斯达克泡沫破灭前的时候，",
+            "basis": "2–23.2 秒复核及 185 秒同一期口播。"
+          },
+          {
+            "start": 15.0,
+            "end": 18.0,
+            "before": "像思科和Cisco是130倍的估值",
+            "after": "像思科，Cisco是130倍的估值。",
+            "basis": "2–23.2 秒复核支持同一实体的中英文名称。"
+          },
+          {
+            "start": 18.0,
+            "end": 21.0,
+            "before": "整个标普科技的估值是55倍",
+            "after": "然后整个标普的估值，科技的估值是55倍。",
+            "basis": "2–23.2 秒复核。"
+          },
+          {
+            "start": 26.0,
+            "end": 32.0,
+            "before": "现在的科技估值和必选科技估值",
+            "after": "然后再看一下今天11月份，现在的科技估值和[对照板块名称听辨待核 00:26]的估值。",
+            "basis": "25.8–42.8 秒复核补齐句首，板块名称仍有歧义。"
+          },
+          {
+            "start": 32.0,
+            "end": 35.0,
+            "before": "NASA 100的估值是18倍",
+            "after": "现在的纳斯达克100的估值是18倍。",
+            "basis": "25.8–42.8 秒复核。"
+          },
+          {
+            "start": 38.0,
+            "end": 42.0,
+            "before": "沃尔玛现在是40倍,Cisco是42倍",
+            "after": "沃尔玛现在是40倍，Costco是42倍。",
+            "basis": "25.8–42.8 秒复核确认 Costco。"
+          },
+          {
+            "start": 53.0,
+            "end": 56.0,
+            "before": "在2000年的时候你可以说泡沫是NASA的泡沫",
+            "after": "在2000年的时候，你可以说泡沫是纳斯达克的泡沫。",
+            "basis": "同一期明确口述纳斯达克，主题一致。"
+          },
+          {
+            "start": 113.0,
+            "end": 116.0,
+            "before": "你再看一下现在整个科技的质量",
+            "after": "你再看一下现在的整个科技的持仓。",
+            "basis": "113–129 秒独立识别为持仓。"
+          },
+          {
+            "start": 137.0,
+            "end": 139.0,
+            "before": "它不光出现在大银",
+            "after": "它不光出现在[市场名称听辨待核 02:17]，",
+            "basis": "134–142 秒复核仍无法可靠确定市场名称。"
+          },
+          {
+            "start": 173.0,
+            "end": 174.0,
+            "before": "它到底是要该什么",
+            "after": "它到底是[动词听辨待核 02:53]什么？",
+            "basis": "169.8–178 秒复核仍无法确定动词。"
+          },
+          {
+            "start": 174.0,
+            "end": 175.0,
+            "before": "要该衰退萧条的全球经济",
+            "after": "[动词听辨待核 02:54]衰退、萧条的全球经济，",
+            "basis": "两次解码均保留经济衰退语境，前面的动词不清。"
+          },
+          {
+            "start": 243.0,
+            "end": 244.0,
+            "before": "看你信哪一个",
+            "after": "[末句听辨待核 04:03]",
+            "basis": "片尾独立解码与主结果用词不同。"
+          },
+          {
+            "start": 72.0,
+            "end": 77.0,
+            "before": "在这的话,美股和A股一样都出现了翘翘板的问题",
+            "after": "在这的话,美股和A股一样都出现了跷跷板的问题",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 77.0,
+            "end": 80.0,
+            "before": "都出现了翘翘板的问题",
+            "after": "都出现了跷跷板的问题",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 80.0,
+            "end": 83.0,
+            "before": "都出现了翘翘板,很严重的翘翘板的问题",
+            "after": "都出现了跷跷板,很严重的跷跷板的问题",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 83.0,
+            "end": 86.0,
+            "before": "而且翘翘板又走向另外一个机制",
+            "after": "而且跷跷板又走向另外一个机制",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 135.0,
+            "end": 137.0,
+            "before": "而且这个翘翘板现在大家发现没有",
+            "after": "而且这个跷跷板现在大家发现没有",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 227.0,
+            "end": 229.0,
+            "before": "科技完了以后肯定要杀这些老灯的",
+            "after": "科技完了以后肯定要杀这些老登的",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 237.0,
+            "end": 238.0,
+            "before": "一次阶段性的初清",
+            "after": "一次阶段性的出清",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 238.0,
+            "end": 239.0,
+            "before": "阶段性的初清",
+            "after": "阶段性的出清",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 239.0,
+            "end": 240.0,
+            "before": "初清完了以后继续往上走",
+            "after": "出清完了以后继续往上走",
+            "basis": "同一期语境和标准术语写法。"
+          }
+        ],
+        "added_cues": [],
+        "uncertainties": [
+          {
+            "start": 26.0,
+            "end": 32.0,
+            "reason": "对照板块名称。"
+          },
+          {
+            "start": 137.0,
+            "end": 139.0,
+            "reason": "与美股对照的市场名称。"
+          },
+          {
+            "start": 173.0,
+            "end": 175.0,
+            "reason": "讲者提出市场二选一问题时使用的动词。"
+          },
+          {
+            "start": 243.0,
+            "end": 244.34,
+            "reason": "最后一句的具体措辞。"
+          }
+        ]
+      },
+      "episode_number": 1,
+      "srt_offset_seconds": 0.0,
+      "combined_srt_end_seconds": 249.475
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "df5992393fb6b98bef42d8986b7da32bba7110635a35526f033c66df9c827b39",
+        "source_id": "audio-df5992393fb6b98bef42d898",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": true,
+      "timings_seconds": {
+        "local_source_selection": 0.00017589300000508956,
+        "download_or_cache": 0.0,
+        "audio_decode": 2.072355233000053,
+        "model_load": 32.3848628369999,
+        "transcription": 1188.0708675049998,
+        "total_this_invocation": 1223.1987927790003
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 MaskFinance】全球科技市盈率骤降，成长和价值如何衡量泡沫？.webm",
+        "sha256": "df5992393fb6b98bef42d8986b7da32bba7110635a35526f033c66df9c827b39"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "MaskFinance",
+        "channel_source": "音频文件名"
+      },
+      "title": "全球科技市盈率骤降，成长和价值如何衡量泡沫？",
+      "audio_duration_seconds": 321.8285625,
+      "selected_start": 0.0,
+      "selected_end": 321.8285625,
+      "language_probability": 1,
+      "resume_from": 317.32000000000005,
+      "detected_language": "zh",
+      "last_completed_audio_second": 317.32000000000005,
+      "peak_ram_mb": 6170.3,
+      "primary_job_status": "paused_after_last_detected_speech",
+      "segment_count": 141,
+      "main_model_invocations": 2,
+      "completion_method": "已保存的主识别续做结果，加独立解码复核至源音频结束。",
+      "raw_segment_count": 145,
+      "execution_backend": "Codex Cloud CPU",
+      "recognition_completed_at": "2026-11-23T21:25:23-08:00",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 6,
+        "clip_seconds": 89.52,
+        "clips": [
+          {
+            "start": 24.3,
+            "end": 40.2,
+            "reason": "英伟达财报增长、预测增长与滚动市盈率",
+            "segments": [
+              {
+                "start": 24.3,
+                "end": 26.2,
+                "text": "你可以说黄仁勋的离职",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 26.2,
+                "end": 26.98,
+                "text": "对他有影响",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 26.98,
+                "end": 28.08,
+                "text": "但是这样一家",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 28.08,
+                "end": 29.18,
+                "text": "财报刚刚披露的",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 29.18,
+                "end": 30.32,
+                "text": "同比业绩增长百分之百",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 30.32,
+                "end": 31.62,
+                "text": "环比增长百分之二十",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 31.62,
+                "end": 33.18,
+                "text": "明年给出还要增长",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 33.18,
+                "end": 34.18,
+                "text": "百分之七十的一家公司",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 34.18,
+                "end": 35.22,
+                "text": "现在的前瞻估值",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 35.22,
+                "end": 36.08,
+                "text": "只有十倍",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 36.08,
+                "end": 37.46,
+                "text": "TTM滚动适用率",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 37.46,
+                "end": 38.08,
+                "text": "只有十六倍",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              },
+              {
+                "start": 38.08,
+                "end": 40.18,
+                "text": "这是非常便宜的",
+                "avg_logprob": -0.119,
+                "no_speech_probability": 0.817
+              }
+            ],
+            "rms": 0.29384,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 92.0,
+            "end": 112.9,
+            "reason": "费城半导体、纳指与标普的远期估值",
+            "segments": [
+              {
+                "start": 92.0,
+                "end": 92.92,
+                "text": "像沸腾半导体",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 92.92,
+                "end": 94.72,
+                "text": "我们说沸腾半导体指数的估值",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 94.72,
+                "end": 95.6,
+                "text": "整个的估值",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 95.6,
+                "end": 97.16,
+                "text": "前年估值只有13 14倍",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 97.16,
+                "end": 99.92,
+                "text": "也是非常便宜的一个水平",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 99.92,
+                "end": 100.48,
+                "text": "非常便宜",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 100.48,
+                "end": 101.76,
+                "text": "比25年4月份还要便宜",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 101.76,
+                "end": 103.5,
+                "text": "基本是22年10月份",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 103.5,
+                "end": 105.12,
+                "text": "那一轮大跌以后的估值水平",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 105.12,
+                "end": 106.36,
+                "text": "那纳斯达克100呢",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 106.36,
+                "end": 108.74,
+                "text": "纳斯达克100的前年估值只有多少",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 108.74,
+                "end": 110.04,
+                "text": "只有不到20倍",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 110.04,
+                "end": 110.92,
+                "text": "18 9倍",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              },
+              {
+                "start": 110.92,
+                "end": 112.62,
+                "text": "标普500也只有18倍",
+                "avg_logprob": -0.14,
+                "no_speech_probability": 0.21
+              }
+            ],
+            "rms": 0.28397,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 133.4,
+            "end": 144.8,
+            "reason": "核对断点与转折语句",
+            "segments": [
+              {
+                "start": 133.4,
+                "end": 135.42,
+                "text": "就认为这是全球科技泡沫的破裂",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 135.42,
+                "end": 136.98,
+                "text": "以及全球经济衰退的开始",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 136.98,
+                "end": 137.9,
+                "text": "因为第一",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 137.9,
+                "end": 139.36,
+                "text": "关于全球经济衰退这一块",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 139.36,
+                "end": 140.02,
+                "text": "我还是一句话",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 140.02,
+                "end": 140.94,
+                "text": "美国经济不衰退",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 140.94,
+                "end": 142.32,
+                "text": "全球经济不可能衰退",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 142.32,
+                "end": 143.4,
+                "text": "局部可能有衰退",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              },
+              {
+                "start": 143.4,
+                "end": 144.22,
+                "text": "东南亚金融危机",
+                "avg_logprob": -0.076,
+                "no_speech_probability": 0.769
+              }
+            ],
+            "rms": 0.31486,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 209.8,
+            "end": 223.8,
+            "reason": "纳斯达克100、英伟达等估值与股票名称",
+            "segments": [
+              {
+                "start": 209.8,
+                "end": 211.28,
+                "text": "压缩的已经像价值股了",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 211.28,
+                "end": 212.6,
+                "text": "纳斯达克118倍",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 212.6,
+                "end": 213.7,
+                "text": "英伟达11倍",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 213.7,
+                "end": 214.86,
+                "text": "美光4倍",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 214.86,
+                "end": 216.78,
+                "text": "当然你说美光是半导体",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 216.78,
+                "end": 217.56,
+                "text": "可能有点周期怎么样",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 217.56,
+                "end": 218.82,
+                "text": "但是也够便宜了",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 218.82,
+                "end": 221.72,
+                "text": "然后沃尔玛和Costco像这种消费股",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 221.72,
+                "end": 222.92,
+                "text": "是40倍42倍",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              },
+              {
+                "start": 222.92,
+                "end": 223.78,
+                "text": "你看看",
+                "avg_logprob": -0.152,
+                "no_speech_probability": 0.064
+              }
+            ],
+            "rms": 0.29473,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 282.0,
+            "end": 301.5,
+            "reason": "清理短时重复与复核讲者结论",
+            "segments": [
+              {
+                "start": 282.0,
+                "end": 287.24,
+                "text": "我觉得难道不应该践行",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 287.24,
+                "end": 289.14,
+                "text": "当然我们巴菲特这个话",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 289.14,
+                "end": 290.96,
+                "text": "就是说我们可能说都没有办法",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 290.96,
+                "end": 292.1,
+                "text": "那么好的践行",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 292.1,
+                "end": 293.06,
+                "text": "有那么高的能力",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 293.06,
+                "end": 294.72,
+                "text": "但是这个道理确实是道理",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 294.72,
+                "end": 295.54,
+                "text": "人弃我取",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 295.54,
+                "end": 296.64,
+                "text": "人取我欲",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 296.64,
+                "end": 297.4,
+                "text": "对不对",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 297.4,
+                "end": 298.68,
+                "text": "别人贪婪是我恐慌",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 298.68,
+                "end": 299.6,
+                "text": "别人恐慌是我贪婪",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 299.6,
+                "end": 300.8,
+                "text": "说起来道理很简单",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              },
+              {
+                "start": 300.8,
+                "end": 301.5,
+                "text": "但这个东西怎么解释",
+                "avg_logprob": -0.208,
+                "no_speech_probability": 0.588
+              }
+            ],
+            "rms": 0.30621,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 314.0,
+            "end": 321.82,
+            "reason": "末尾是否有漏句",
+            "segments": [
+              {
+                "start": 314.0,
+                "end": 314.56,
+                "text": "叫价值投资",
+                "avg_logprob": -0.198,
+                "no_speech_probability": 0.651
+              },
+              {
+                "start": 314.56,
+                "end": 315.5,
+                "text": "不就是跌的便宜的时候",
+                "avg_logprob": -0.198,
+                "no_speech_probability": 0.651
+              },
+              {
+                "start": 315.5,
+                "end": 316.34,
+                "text": "就是价值投资吗",
+                "avg_logprob": -0.198,
+                "no_speech_probability": 0.651
+              }
+            ],
+            "rms": 0.16771,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 36.06,
+            "end": 38.08,
+            "before": "TTM滚动使用率只有十六倍",
+            "after": "TTM滚动市盈率只有16倍。",
+            "basis": "24.3–40.2 秒复核支持缩写、倍数及市盈率语境。"
+          },
+          {
+            "start": 110.06,
+            "end": 110.92,
+            "before": "18 9倍",
+            "after": "十八九倍。",
+            "basis": "92–112.9 秒复核与前一句「不到20倍」。"
+          },
+          {
+            "start": 124.88,
+            "end": 126.88,
+            "before": "把这种狂热的情绪去洗尽千花",
+            "after": "把这种狂热的情绪去洗尽铅华",
+            "basis": "规范同音成语。"
+          },
+          {
+            "start": 178.82,
+            "end": 182.86,
+            "before": "东大还是中国都是BOOST一样 全球科技是同频共振的",
+            "after": "东大还是中国都是[词语听辨待核 02:59]一样，全球科技是同频共振的。",
+            "basis": "主识别英文片段与上下文连接不清。"
+          },
+          {
+            "start": 211.44,
+            "end": 215.18,
+            "before": "纳斯达克118倍 英伟达11倍 美光4倍",
+            "after": "纳斯达克[估值倍数听辨待核 03:31]，英伟达11倍，美光4倍。",
+            "basis": "主识别与复核都将指数与估值数字连写，无法从该段可靠判定分隔。"
+          },
+          {
+            "start": 255.76,
+            "end": 258.08,
+            "before": "看它的这个PAC ratio PEG ratio",
+            "after": "看它的这个[首个缩写听辨待核 04:16]，PEG ratio。",
+            "basis": "主识别在此处给出两种缩写。"
+          },
+          {
+            "start": 288.04,
+            "end": 289.12,
+            "before": "我们巴菲特这个话",
+            "after": "当然，我们巴菲特这个话，",
+            "basis": "282–301.5 秒复核支持一次转折和后续口述。"
+          },
+          {
+            "start": 294.74,
+            "end": 297.38,
+            "before": "人弃我取 人取我欲 对不对",
+            "after": "人弃我取，人取我予，对不对？",
+            "basis": "282–301.5 秒复核与固定表达。"
+          },
+          {
+            "start": 308.22,
+            "end": 310.42,
+            "before": "没有不发生这个事情的概率",
+            "after": "[条件句听辨待核 05:08]这个事情的概率，",
+            "basis": "主识别在连续否定处存在歧义。"
+          },
+          {
+            "start": 95.6,
+            "end": 97.18,
+            "before": "前年估值只有13 14倍",
+            "after": "前瞻估值只有13 14倍",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 106.36,
+            "end": 108.74,
+            "before": "纳斯达克100的前年估值只有多少",
+            "after": "纳斯达克100的前瞻估值只有多少",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 123.76,
+            "end": 124.88,
+            "before": "一个阶段性的初清",
+            "after": "一个阶段性的出清",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 188.84,
+            "end": 193.36,
+            "before": "那是像斯科 标普500的科技板块 你看它估值 斯科是130倍",
+            "after": "那是像思科 标普500的科技板块 你看它估值 思科是130倍",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 272.76,
+            "end": 276.06,
+            "before": "尤其是我们看到英伟达的财报和Athropic的上市",
+            "after": "尤其是我们看到英伟达的财报和Anthropic的上市",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 287.74,
+            "end": 287.88,
+            "before": "当然我们也不应该践行这个",
+            "after": null,
+            "basis": "282–301.5 秒独立解码不支持此反复短句。"
+          },
+          {
+            "start": 287.88,
+            "end": 287.9,
+            "before": "当然我们也不应该践行这个",
+            "after": null,
+            "basis": "282–301.5 秒独立解码不支持此反复短句。"
+          },
+          {
+            "start": 287.9,
+            "end": 287.98,
+            "before": "当然我们也不应该践行这个",
+            "after": null,
+            "basis": "282–301.5 秒独立解码不支持此反复短句。"
+          },
+          {
+            "start": 287.98,
+            "end": 288.04,
+            "before": "当然我们也不应该践行这个",
+            "after": null,
+            "basis": "282–301.5 秒独立解码不支持此反复短句。"
+          }
+        ],
+        "added_cues": [],
+        "uncertainties": [
+          {
+            "start": 178.82,
+            "end": 182.86,
+            "reason": "指数比较前的短语。"
+          },
+          {
+            "start": 211.44,
+            "end": 212.6,
+            "reason": "纳斯达克指数与估值倍数连读。"
+          },
+          {
+            "start": 255.76,
+            "end": 258.08,
+            "reason": "PEG ratio 前的缩写。"
+          },
+          {
+            "start": 308.22,
+            "end": 310.42,
+            "reason": "衰退概率句中的否定限定。"
+          }
+        ]
+      },
+      "episode_number": 2,
+      "srt_offset_seconds": 249.475,
+      "combined_srt_end_seconds": 571.304
+    },
+    {
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "c8bd473176229d3612db48734f4e0e82638b37b6638ec9f7bed3171e420663ca",
+        "source_id": "audio-c8bd473176229d3612db4873",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "status": "completed",
+      "resumed": false,
+      "timings_seconds": {
+        "local_source_selection": 0.00010486200000059398,
+        "download_or_cache": 0.0,
+        "audio_decode": 2.1275854619999848,
+        "model_load": 19.767048079999995,
+        "transcription": 1885.2521337379999,
+        "total_this_invocation": 1907.758923476
+      },
+      "source": {
+        "type": "user_uploaded_audio",
+        "original_name": "【频道 MaskFinance】美股科技下跌：熊市开端还是阶段性回调？关键看全球经济是否衰退，这几个关键信号别漏！.webm",
+        "sha256": "c8bd473176229d3612db48734f4e0e82638b37b6638ec9f7bed3171e420663ca"
+      },
+      "download_skipped": true,
+      "used_cached_audio": false,
+      "attribution": {
+        "channel": "MaskFinance",
+        "channel_source": "音频文件名"
+      },
+      "title": "美股科技下跌：熊市开端还是阶段性回调？关键看全球经济是否衰退，这几个关键信号别漏！",
+      "audio_duration_seconds": 443.2689375,
+      "selected_start": 0.0,
+      "selected_end": 443.2689375,
+      "language_probability": 0.9966390132904053,
+      "segment_count": 239,
+      "detected_language": "zh",
+      "last_completed_audio_second": 438.12,
+      "peak_ram_mb": 4616.5,
+      "raw_segment_count": 239,
+      "main_model_invocations": 1,
+      "execution_backend": "Codex Cloud CPU",
+      "recognition_completed_at": "2026-11-23T21:15:36-08:00",
+      "review": {
+        "method": "原音片段独立机器解码与文字对照",
+        "clip_count": 5,
+        "clip_seconds": 74.66,
+        "clips": [
+          {
+            "start": 9.1,
+            "end": 18.7,
+            "reason": "进出口增速与外需",
+            "segments": [
+              {
+                "start": 9.1,
+                "end": 12.56,
+                "text": "第一点 从中国的出口去验证全球的需求并不弱",
+                "avg_logprob": -0.239,
+                "no_speech_probability": 0.387
+              },
+              {
+                "start": 12.56,
+                "end": 14.78,
+                "text": "十分的出口30%多的增长",
+                "avg_logprob": -0.239,
+                "no_speech_probability": 0.387
+              },
+              {
+                "start": 14.78,
+                "end": 16.72,
+                "text": "进口增长40%多",
+                "avg_logprob": -0.239,
+                "no_speech_probability": 0.387
+              },
+              {
+                "start": 16.72,
+                "end": 18.56,
+                "text": "外讯一路高歌猛进",
+                "avg_logprob": -0.239,
+                "no_speech_probability": 0.387
+              }
+            ],
+            "rms": 0.29679,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 83.8,
+            "end": 100.4,
+            "reason": "非农新增就业、失业率和变动方向",
+            "segments": [
+              {
+                "start": 83.8,
+                "end": 86.64,
+                "text": "是关于一个呃衰退的金标准",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 86.64,
+                "end": 87.94,
+                "text": "也就是非农就业啊",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 87.94,
+                "end": 88.86,
+                "text": "就非农就业",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 89.06,
+                "end": 90.56,
+                "text": "是在这个上个月的非农就业",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 90.56,
+                "end": 92.0,
+                "text": "新增非农就业呢是",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 93.3,
+                "end": 95.44,
+                "text": "16万人啊失业率是4.1啊",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 95.44,
+                "end": 97.46,
+                "text": "那整个的失业率的下行啊",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 97.46,
+                "end": 99.94,
+                "text": "包括新增非农数就业的这个数据啊",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              },
+              {
+                "start": 99.94,
+                "end": 100.74,
+                "text": "等等来讲",
+                "avg_logprob": -0.15,
+                "no_speech_probability": 0.494
+              }
+            ],
+            "rms": 0.30661,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 148.8,
+            "end": 164.7,
+            "reason": "制造业PMI及其数值",
+            "segments": [
+              {
+                "start": 148.8,
+                "end": 149.98,
+                "text": "为啥不看偏卖",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 149.98,
+                "end": 151.1,
+                "text": "偏卖我告诉你",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 151.1,
+                "end": 152.32,
+                "text": "我看过好多年了",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 152.32,
+                "end": 153.84,
+                "text": "我给你讲个简单的逻辑",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 153.84,
+                "end": 154.76,
+                "text": "你就知道了",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 154.76,
+                "end": 156.4,
+                "text": "比如说制造业偏卖指数",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 156.4,
+                "end": 158.54,
+                "text": "在下到48 49的时候",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 158.54,
+                "end": 160.08,
+                "text": "像在23年的时候",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 160.08,
+                "end": 161.66,
+                "text": "包括24年很多时候",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 161.66,
+                "end": 162.88,
+                "text": "都很低的时候",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              },
+              {
+                "start": 162.88,
+                "end": 164.48,
+                "text": "制造业偏卖低于50",
+                "avg_logprob": -0.131,
+                "no_speech_probability": 0.251
+              }
+            ],
+            "rms": 0.27333,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 369.0,
+            "end": 391.3,
+            "reason": "纳指、半导体、消费股估值和倍率",
+            "segments": [
+              {
+                "start": 369.0,
+                "end": 370.4,
+                "text": "比老灯便宜",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 370.4,
+                "end": 371.64,
+                "text": "比消费便宜",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 371.64,
+                "end": 373.2,
+                "text": "在美股科技",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 373.2,
+                "end": 374.22,
+                "text": "纳斯达克100",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 374.22,
+                "end": 376.3,
+                "text": "前年估值19倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 376.3,
+                "end": 377.04,
+                "text": "不到20倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 377.04,
+                "end": 378.1,
+                "text": "非诚半导体",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 378.1,
+                "end": 379.2,
+                "text": "前年估值13倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 379.2,
+                "end": 379.7,
+                "text": "14倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 379.7,
+                "end": 380.52,
+                "text": "对吧",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 380.52,
+                "end": 382.4,
+                "text": "这个科技跌的像什么",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 382.4,
+                "end": 382.98,
+                "text": "像价值",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 382.98,
+                "end": 384.9,
+                "text": "价值涨的像成长",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 384.9,
+                "end": 386.44,
+                "text": "比如说Costco40倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 386.44,
+                "end": 388.04,
+                "text": "沃尔玛40倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 388.04,
+                "end": 388.96,
+                "text": "可口可乐40倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 388.96,
+                "end": 389.58,
+                "text": "三四十倍",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              },
+              {
+                "start": 389.58,
+                "end": 390.48,
+                "text": "这些",
+                "avg_logprob": -0.157,
+                "no_speech_probability": 0.921
+              }
+            ],
+            "rms": 0.26252,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          },
+          {
+            "start": 433.0,
+            "end": 443.26,
+            "reason": "末尾是否有漏句",
+            "segments": [
+              {
+                "start": 433.0,
+                "end": 434.44,
+                "text": "或者全球经济不衰退",
+                "avg_logprob": -0.161,
+                "no_speech_probability": 0.023
+              },
+              {
+                "start": 434.44,
+                "end": 435.9,
+                "text": "你很难证明",
+                "avg_logprob": -0.161,
+                "no_speech_probability": 0.023
+              },
+              {
+                "start": 435.9,
+                "end": 438.14,
+                "text": "美股牛市到头了",
+                "avg_logprob": -0.161,
+                "no_speech_probability": 0.023
+              }
+            ],
+            "rms": 0.22284,
+            "model": "large-v3",
+            "beam_size": 5,
+            "threads": 2,
+            "temperature": 0.0,
+            "condition_on_previous_text": false
+          }
+        ],
+        "edits": [
+          {
+            "start": 28.5,
+            "end": 32.12,
+            "before": "更多的生态资料的进口",
+            "after": "更多的[资料类型听辨待核 00:29]的进口。",
+            "basis": "进口资料的类型无法从主识别可靠判定。"
+          },
+          {
+            "start": 154.88,
+            "end": 158.72,
+            "before": "比如说制造业偏卖指数在下到48 49的时候",
+            "after": "比如说制造业PMI指数，在下到48、49的时候",
+            "basis": "148.8–164.7 秒复核保留两组点位，将同音识别规范为 PMI。"
+          },
+          {
+            "start": 184.48,
+            "end": 186.56,
+            "before": "当你偏卖在55的56的时候",
+            "after": "当你PMI在55、56的时候，",
+            "basis": "同一期在讨论制造业和服务业 PMI 点位。"
+          },
+          {
+            "start": 187.56,
+            "end": 189.56,
+            "before": "包括服务业偏卖55 56的时候",
+            "after": "包括服务业PMI 55、56的时候，",
+            "basis": "同一期的点位举例。"
+          },
+          {
+            "start": 383.12,
+            "end": 385.12,
+            "before": "价值嘛长得像成长",
+            "after": "价值嘛，涨得像成长。",
+            "basis": "369–391.3 秒独立识别支持涨价的语境。"
+          },
+          {
+            "start": 388.12,
+            "end": 390.12,
+            "before": "可口可乐40倍340倍",
+            "after": "可口可乐40倍，三四十倍。",
+            "basis": "369–391.3 秒独立识别保留讲者紧接着说出的「三四十倍」。"
+          },
+          {
+            "start": 16.74,
+            "end": 18.56,
+            "before": "外讯一路高歌猛进",
+            "after": "外需一路高歌猛进",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 110.96,
+            "end": 112.48,
+            "before": "密西哥消费者信心指数",
+            "after": "密歇根消费者信心指数",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 149.2,
+            "end": 150.34,
+            "before": "为啥不看偏卖",
+            "after": "为啥不看PMI",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 150.34,
+            "end": 151.14,
+            "before": "偏卖我告诉你",
+            "after": "PMI我告诉你",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 162.98,
+            "end": 164.56,
+            "before": "制造业偏卖低于50",
+            "after": "制造业PMI低于50",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 168.86,
+            "end": 171.38,
+            "before": "当制造业偏卖指数低于50的时候",
+            "after": "当制造业PMI指数低于50的时候",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 186.56,
+            "end": 187.56,
+            "before": "制造业偏卖",
+            "after": "制造业PMI",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 197.98,
+            "end": 199.56,
+            "before": "你制造业偏卖在低位的时候",
+            "after": "你制造业PMI在低位的时候",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 279.48,
+            "end": 281.0,
+            "before": "包括美国经济的贺批书啊",
+            "after": "包括美国经济的褐皮书啊",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 357.12,
+            "end": 360.12,
+            "before": "一次短暂的初心或者阶段性的初心",
+            "after": "一次短暂的出清或者阶段性的出清",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 369.12,
+            "end": 371.12,
+            "before": "比老灯便宜比消费便宜啊",
+            "after": "比老登便宜比消费便宜啊",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 374.12,
+            "end": 377.12,
+            "before": "前年估值19倍不到20倍啊",
+            "after": "前瞻估值19倍不到20倍啊",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 377.12,
+            "end": 380.12,
+            "before": "费城半导体前年估值13倍14倍",
+            "after": "费城半导体前瞻估值13倍14倍",
+            "basis": "同一期语境和标准术语写法。"
+          },
+          {
+            "start": 401.12,
+            "end": 404.12,
+            "before": "这个在中美股市都出现了这种翘脚板的这种现象",
+            "after": "这个在中美股市都出现了这种跷跷板的这种现象",
+            "basis": "同一期语境和标准术语写法。"
+          }
+        ],
+        "added_cues": [],
+        "uncertainties": [
+          {
+            "start": 28.5,
+            "end": 32.12,
+            "reason": "生产投入品名称。"
+          }
+        ]
+      },
+      "episode_number": 3,
+      "srt_offset_seconds": 571.304,
+      "combined_srt_end_seconds": 1014.573
+    }
+  ]
+}

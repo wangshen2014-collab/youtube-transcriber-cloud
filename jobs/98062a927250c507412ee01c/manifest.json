@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "three_independent_uploads",
+    "layout": "upload_order_with_episode_boundaries",
+    "independent_audio_settings": [
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "f9fd777011063a57a627001bd5a7995e7bf48cbd62661aed4d4f94cdbf565154",
+        "source_id": "audio-f9fd777011063a57a627001b",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "df5992393fb6b98bef42d8986b7da32bba7110635a35526f033c66df9c827b39",
+        "source_id": "audio-df5992393fb6b98bef42d898",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      },
+      {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 1,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "c8bd473176229d3612db48734f4e0e82638b37b6638ec9f7bed3171e420663ca",
+        "source_id": "audio-c8bd473176229d3612db4873",
+        "attribution": {
+          "channel": "MaskFinance",
+          "channel_source": "音频文件名"
+        }
+      }
+    ]
+  },
+  "title": "【频道 MaskFinance】三期独立视频合并｜科技估值、泡沫与衰退信号｜中高精度",
+  "files": {
+    "txt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt",
+    "srt": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt",
+    "json": "https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json"
+  },
+  "result_url": "https://github.com/wangshen2014-collab/youtube-transcriber-cloud/tree/transcripts/jobs/98062a927250c507412ee01c",
+  "saved_at": 1795498047.8013546
+}

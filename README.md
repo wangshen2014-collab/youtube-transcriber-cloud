@@ -50,6 +50,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Henry 的慢思考】民主党大胜，终结AI超级周期？](catalog/f515a50b5e755686.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】美股急速48小时，从天堂到地狱只用了6分钟！](catalog/7e4c4439f96c49dd.md) | 单项结果 1 |
 | [【频道 Henry 的慢思考】黄仁勋_间谍门__一段婚外情背后的芯片走私链](catalog/59862750d27cbf1b.md) | 单项结果 1 |
+| [【频道 MaskFinance】三期独立视频合并_中高精度](catalog/b9503eb3e698b1f2.md) | 合并版 1 |
 | [【频道 MaskFinance】黄金深度调整_中高精度](catalog/8a9d45460baa8ce6.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】45天蒸發10兆美元_AI泡沫終於要破了嗎_高精度](catalog/4f0d64368344a4fb.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
@@ -98,3 +99,5 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/528db679cde57bd2d2d17f94](collections/528db679cde57bd2d2d17f94/README.md)
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
+
+最新保存：[【频道 MaskFinance】三期独立视频合并｜科技估值、泡沫与衰退信号｜中高精度](jobs/98062a927250c507412ee01c/README.md)

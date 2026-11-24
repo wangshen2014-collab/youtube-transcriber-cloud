@@ -1,0 +1,7 @@
+# 【频道 MaskFinance】三期独立视频合并｜科技估值、泡沫与衰退信号｜中高精度
+
+- [TXT](%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.txt)
+- [SRT](%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.srt)
+- [JSON](%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json) · [直接下载](https://raw.githubusercontent.com/wangshen2014-collab/youtube-transcriber-cloud/transcripts/jobs/98062a927250c507412ee01c/%E3%80%90%E9%A2%91%E9%81%93%20MaskFinance%E3%80%91%E4%B8%89%E6%9C%9F%E7%8B%AC%E7%AB%8B%E8%A7%86%E9%A2%91%E5%90%88%E5%B9%B6_%E4%B8%AD%E9%AB%98%E7%B2%BE%E5%BA%A6.json)
+
+由 Codex Cloud 转录，原始音频未上传到本分支。
