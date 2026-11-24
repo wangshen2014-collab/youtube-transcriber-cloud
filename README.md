@@ -56,6 +56,7 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 | [【频道 Terry Chen 泰瑞】45天蒸發10兆美元_AI泡沫終於要破了嗎_高精度](catalog/4f0d64368344a4fb.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】AI 終於要崩盤了嗎？美國中期選舉大爆雷](catalog/2366e05da4ef5ea8.md) | 单项结果 1 |
 | [【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？](catalog/20d51c3639948b89.md) | 单项结果 1 |
+| [【频道 The Diary Of A CEO】James Talarico - Here Is How They Designed The System To Keep You Poor!](catalog/7e7c57c4a931120c.md) | 合并版 1 |
 | [【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail!](catalog/0a826b23684741b2.md) | 合并版 1 |
 | [【频道 孙富贵】全球泡沫爆了，AI的需求被高估_中高精度](catalog/d6b458c5d21c6216.md) | 单项结果 1 |
 | [【频道 孙富贵】黄仁勋出大事了：承认出轨，恋上女间谍？](catalog/5c58c8395e5f1c32.md) | 单项结果 1 |
@@ -103,4 +104,4 @@ TXT 用于阅读和交给 ChatGPT，SRT 用于时间定位，JSON 保存转录�
 - [collections/视野环球财经](collections/%E8%A7%86%E9%87%8E%E7%8E%AF%E7%90%83%E8%B4%A2%E7%BB%8F/README.md)
 - [collections/黄仁勋出轨事件](collections/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%87%BA%E8%BD%A8%E4%BA%8B%E4%BB%B6/README.md)
 
-最新保存：[【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! _已上传分段合并_](jobs/8204230c21e24b3162d5546b/README.md)
+最新保存：[【频道 The Diary Of A CEO】James Talarico - Here Is How They Designed The System To Keep You Poor! _已上传分段合并_](jobs/506eed277e115f1d65c599ea/README.md)

@@ -1,0 +1,755 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge",
+    "parts": [
+      "d4fcb2ff1e88152389111074",
+      "1a50b282bcca332cbae53d48",
+      "14c45e457a6fb825aa2cc7a2",
+      "8acf06fcd2226a8d5f342efb"
+    ]
+  },
+  "title": "【频道 The Diary Of A CEO】James Talarico - Here Is How They Designed The System To Keep You Poor! [已上传分段合并]",
+  "attribution": {
+    "channel": "The Diary Of A CEO",
+    "channel_source": "音频文件名及 YouTube 节目页",
+    "interviewee": "James Talarico",
+    "interviewee_source": "YouTube 节目页",
+    "source_url": "https://www.youtube.com/watch?v=FpIN6tYC5XM"
+  },
+  "detected_language": "en",
+  "selected_start": 0,
+  "selected_end": 5807.0186875,
+  "segment_count": 1368,
+  "parts": [
+    {
+      "part": 1,
+      "resumed_from_checkpoint": false,
+      "model_loads": 1,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】James Talarico_ Here Is How They Designed The System To Keep You Poor!  第001段 [00-00-00 至 00-30-00].m4a",
+      "selected_start": 0,
+      "selected_end": 1800.0,
+      "filename_end": 1800,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "ccdd75c7dce1b7f279432f55b1e99a7a28f5e2113d9c10b226de825aecc75d75",
+        "source_id": "audio-ccdd75c7dce1b7f279432f55",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 0.9969027638435364,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 3460.8,
+      "timings_seconds": {
+        "local_source_selection": 5.413200000248253e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.9643654609999999,
+        "model_load": 4.462465341999973,
+        "transcription": 1220.6031409,
+        "total_this_invocation": 1226.315202648
+      },
+      "original_segment_count": 557
+    },
+    {
+      "part": 2,
+      "resumed_from_checkpoint": true,
+      "model_loads": 2,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】James Talarico_ Here Is How They Designed The System To Keep You Poor!  第002段 [00-30-00 至 01-00-00].m4a",
+      "selected_start": 1800,
+      "selected_end": 3600.0,
+      "filename_end": 3600,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "999ad64bf8555afa5370d14daca7bcbb69c3478dfe4db70e7576ba25964bb317",
+        "source_id": "audio-999ad64bf8555afa5370d14d",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 1,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 3360.6,
+      "timings_seconds": {
+        "local_source_selection": 6.031100019754376e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.9652399390001847,
+        "model_load": 7.842597002000275,
+        "transcription": 188.57004505399982,
+        "total_this_invocation": 197.68663442999969
+      },
+      "original_segment_count": 335
+    },
+    {
+      "part": 3,
+      "resumed_from_checkpoint": true,
+      "model_loads": 2,
+      "decoder_adjustments": [
+        "Resumed with max_new_tokens=176 and temperature=(0.0, 0.2)"
+      ],
+      "input_filename": "【频道 The Diary Of A CEO】James Talarico_ Here Is How They Designed The System To Keep You Poor!  第003段 [01-00-00 至 01-30-00].m4a",
+      "selected_start": 3600,
+      "selected_end": 5400.0,
+      "filename_end": 5400,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "5c98c0d2f74b85620089dc205fa8614cd1517129f67d4b898a1557c5ab05dea3",
+        "source_id": "audio-5c98c0d2f74b85620089dc20",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 1,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 5165.9,
+      "timings_seconds": {
+        "local_source_selection": 7.348200051637832e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.9519939860001614,
+        "model_load": 6.961097065000104,
+        "transcription": 1418.9185907500005,
+        "total_this_invocation": 1426.857447243
+      },
+      "original_segment_count": 420
+    },
+    {
+      "part": 4,
+      "resumed_from_checkpoint": false,
+      "model_loads": 1,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】James Talarico_ Here Is How They Designed The System To Keep You Poor!  第004段 [01-30-00 至 01-36-47].m4a",
+      "selected_start": 5400,
+      "selected_end": 5807.0186875,
+      "filename_end": 5807,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "9898694280ff6e67a6a3298fe508c52f370c8ff8d6c374abab257db52407d6c5",
+        "source_id": "audio-9898694280ff6e67a6a3298f",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 0.9998205304145813,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 6175.4,
+      "timings_seconds": {
+        "local_source_selection": 8.990599962999113e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.3791645259998404,
+        "model_load": 6.419312731999526,
+        "transcription": 310.63737479500014,
+        "total_this_invocation": 317.7793705520007
+      },
+      "original_segment_count": 84
+    }
+  ],
+  "accuracy": "Whisper large-v3, CPU int8, beam 3",
+  "review": {
+    "method": "时间轴与语音活动扫描，重点抽样以 large-v3/beam 5 无前文独立机器解码复核",
+    "main_model_starts": 6,
+    "clip_count": 31,
+    "seconds": 599.36,
+    "clips": [
+      {
+        "start": 0,
+        "end": 14.36,
+        "reason": "数字、金融概念或专名",
+        "similarity": 1.0
+      },
+      {
+        "start": 969.9,
+        "end": 989.9,
+        "reason": "相邻字幕重复",
+        "similarity": 0.826
+      },
+      {
+        "start": 1545.4,
+        "end": 1565.4,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.908
+      },
+      {
+        "start": 1702.0,
+        "end": 1722.0,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.941
+      },
+      {
+        "start": 1756.65,
+        "end": 1776.65,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.811
+      },
+      {
+        "start": 1788.0,
+        "end": 1800.0,
+        "reason": "段落边界",
+        "similarity": 0.854
+      },
+      {
+        "start": 1825.88,
+        "end": 1845.88,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.859
+      },
+      {
+        "start": 1968.86,
+        "end": 1988.86,
+        "reason": "声音时间轴缺口 178.140–179.580",
+        "similarity": 0.839
+      },
+      {
+        "start": 2561.36,
+        "end": 2581.36,
+        "reason": "相邻字幕重复",
+        "similarity": 0.603
+      },
+      {
+        "start": 2619.5,
+        "end": 2639.5,
+        "reason": "字幕时长异常",
+        "similarity": 0.667
+      },
+      {
+        "start": 2975.1,
+        "end": 2995.1,
+        "reason": "字幕时长异常",
+        "similarity": 0.754
+      },
+      {
+        "start": 3154.68,
+        "end": 3174.68,
+        "reason": "字幕时长异常",
+        "similarity": 0.7
+      },
+      {
+        "start": 3214.8,
+        "end": 3234.8,
+        "reason": "字幕时长异常",
+        "similarity": 0.659
+      },
+      {
+        "start": 3352.2,
+        "end": 3372.2,
+        "reason": "声音时间轴缺口 1561.600–1562.800",
+        "similarity": 0.903
+      },
+      {
+        "start": 3600,
+        "end": 3612.0,
+        "reason": "段落边界",
+        "similarity": 0.676
+      },
+      {
+        "start": 3840.5,
+        "end": 3860.5,
+        "reason": "主转录异常词句，需要核对",
+        "similarity": 0.089
+      },
+      {
+        "start": 4258.82,
+        "end": 4278.82,
+        "reason": "相邻字幕重复",
+        "similarity": 0.717
+      },
+      {
+        "start": 4625.16,
+        "end": 4645.16,
+        "reason": "相邻字幕重复",
+        "similarity": 0.732
+      },
+      {
+        "start": 4736.6,
+        "end": 4756.6,
+        "reason": "相邻字幕重复",
+        "similarity": 0.756
+      },
+      {
+        "start": 5070.27,
+        "end": 5090.27,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.924
+      },
+      {
+        "start": 5388.0,
+        "end": 5400.0,
+        "reason": "段落边界",
+        "similarity": 0.877
+      },
+      {
+        "start": 5400,
+        "end": 5412.0,
+        "reason": "段落边界",
+        "similarity": 0.853
+      },
+      {
+        "start": 5533.58,
+        "end": 5553.58,
+        "reason": "字幕时长异常",
+        "similarity": 0.715
+      },
+      {
+        "start": 5658.52,
+        "end": 5678.52,
+        "reason": "声音时间轴缺口 267.780–269.260",
+        "similarity": 0.828
+      },
+      {
+        "start": 5776.44,
+        "end": 5796.44,
+        "reason": "相邻字幕重复",
+        "similarity": 0.912
+      },
+      {
+        "start": 5795.019,
+        "end": 5807.019,
+        "reason": "段落边界",
+        "similarity": 0.964
+      },
+      {
+        "start": 3825,
+        "end": 3847,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 3841,
+        "end": 3865,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 3855,
+        "end": 3880,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 3899,
+        "end": 3925,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 3917,
+        "end": 3945,
+        "reason": "独立复核异常词句和分段交界"
+      }
+    ],
+    "edits": [
+      {
+        "start": 1791.7,
+        "before": "And so if we're all going to invest in text in Tesla,",
+        "after": "And so if we're all going to invest in Tesla,",
+        "basis": "复核 00:29:48–00:30:00"
+      },
+      {
+        "start": 2566.16,
+        "before": "significant job disruption. And a lot of that value is going to accrue to the big technology companies that are the frontier labs and the Navidias of the world. It appears to me when I when I ask a very, very small question, and I'm not going to ask a question that's not a big one, but I'm going to ask a question that's not a big one.",
+        "after": "significant job disruption. And a lot of that value is going to accrue to the big technology",
+        "basis": "00:42:41 局部解码支持移除重复生成的问句"
+      },
+      {
+        "start": 2570.76,
+        "before": "I'm going to ask a question that's not a big one.",
+        "after": "",
+        "basis": "00:42:41 局部解码支持移除重复生成的问句"
+      },
+      {
+        "start": 2571.36,
+        "before": "I'm going to ask a question that's not a big one.",
+        "after": "",
+        "basis": "00:42:41 局部解码支持移除重复生成的问句"
+      },
+      {
+        "start": 2571.42,
+        "before": "I'm going to ask a question that's not a big one.",
+        "after": "",
+        "basis": "00:42:41 局部解码支持移除重复生成的问句"
+      },
+      {
+        "start": 2571.92,
+        "before": "labs and the Navidias of the world. It appears to me, when I ask very, very smart people in",
+        "after": "companies that are the frontier labs and the NVIDIAs of the world. It appears to me, when I ask very, very smart people in",
+        "basis": "复核 00:42:41–00:43:01"
+      },
+      {
+        "start": 2629.08,
+        "before": "the rules of the world, are not going to be able to do that. And so, I think it's a lot of",
+        "after": "the rules of the game,",
+        "basis": "复核 00:43:39–00:43:59"
+      },
+      {
+        "start": 2629.5,
+        "before": "anxiety. I think it's a lot of anxiety. I think it's a lot of anxiety. I think it's a lot of anxiety.",
+        "after": "",
+        "basis": "复核 00:43:39–00:43:59"
+      },
+      {
+        "start": 2979.38,
+        "before": "approximately 400,000 people in Texas work as professional drivers as their primary payroll",
+        "after": "approximately 400,000 people in Texas work as professional drivers as their primary payroll occupation.",
+        "basis": "复核 00:49:35–00:49:55"
+      },
+      {
+        "start": 2985.1,
+        "before": "opportunity. And that's a lot of money. And that's a lot of money. And that's a lot of money.",
+        "after": "",
+        "basis": "移除 00:49:45 处重复生成的词句"
+      },
+      {
+        "start": 3164.32,
+        "before": "be an expert on. And I think that's a really good answer. And I think that's a really good answer.",
+        "after": "be an expert on yet.",
+        "basis": "复核 00:52:34–00:52:54"
+      },
+      {
+        "start": 3164.68,
+        "before": "I think that's a really good answer. I think that's a really good answer. I think that's a really good answer.",
+        "after": "",
+        "basis": "移除 00:52:44 处重复生成的词句"
+      },
+      {
+        "start": 3222.2,
+        "before": "can go toward investing in AI. And I think that's a really good answer. And I think that's a really good answer.",
+        "after": "can go toward investing",
+        "basis": "复核 00:53:34–00:53:54"
+      },
+      {
+        "start": 3224.8,
+        "before": "And I think that's a really good answer. And I think that's a really good answer. And I think that's a really good answer.",
+        "after": "",
+        "basis": "移除 00:53:44 处重复生成的词句"
+      },
+      {
+        "start": 3834.94,
+        "before": "making sure that our people are included and they have that opportunity to be included in remain",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3839.38,
+        "before": "aware and we're on the track for so many supermarket changes and economic으면",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3842.34,
+        "before": "we're also ensuring that more наконец we continue to build bring adjacent transportation",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3846.24,
+        "before": "housing there was a",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3859.9,
+        "before": "national",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3860.7,
+        "before": "location",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3860.86,
+        "before": "national",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3861.06,
+        "before": "his",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3863.46,
+        "before": "feels",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3863.74,
+        "before": "like",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3863.94,
+        "before": "i",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3864.04,
+        "before": "don't",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3864.74,
+        "before": "really",
+        "after": "",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "start": 3910.2,
+        "before": "I realize that the Diverse Here audience are struggling.",
+        "after": "I realize that the [name unclear] audience are strivers.",
+        "basis": "复核 01:04:59–01:05:25，句尾清楚，名称待核"
+      },
+      {
+        "start": 5540.74,
+        "before": "you've seen this probably on the doorstep, is everybody's different. And I think that's a great",
+        "after": "you've seen this probably on the doorstep, is",
+        "basis": "01:32:13–01:32:33 独立解码核对，消除重复生成"
+      },
+      {
+        "start": 5543.58,
+        "before": "thing. I think that's a great thing. I think that's a great thing. I think that's a great thing.",
+        "after": "",
+        "basis": "01:32:13–01:32:33 独立解码核对，消除重复生成"
+      },
+      {
+        "start": 5543.68,
+        "before": "Everybody says it's going to be different this time, but it ends up being kind of more of the",
+        "after": "everybody says it's going to be different this time, but it ends up being kind of more of the",
+        "basis": "01:32:13–01:32:33 独立解码核对，消除重复生成"
+      },
+      {
+        "start": 4266.08,
+        "before": "They're split into lots of these smaller factions that are weaponized.",
+        "after": "",
+        "basis": "01:10:58–01:11:18 独立解码复核，合并重复生成的句子"
+      },
+      {
+        "start": 4268.84,
+        "before": "They're split into lots of these smaller factions that are weaponized.",
+        "after": "",
+        "basis": "01:10:58–01:11:18 独立解码复核，合并重复生成的句子"
+      },
+      {
+        "start": 4269.7,
+        "before": "They're split into lots of these smaller factions that are weaponized in their own way.",
+        "after": "",
+        "basis": "01:10:58–01:11:18 独立解码复核，合并重复生成的句子"
+      },
+      {
+        "start": 4746.52,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4746.98,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.28,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.3,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.32,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.34,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.4,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.42,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.44,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.46,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.48,
+        "before": "Right.",
+        "after": "",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "start": 4747.7,
+        "before": "In Jesus's story, the Samaritan is the one who stops and bandages the man's wounds, nurses him back to health, takes him to an inn, pays the innkeeper to look after him until he comes back.",
+        "after": "And so in Jesus's story, the Samaritan is the one who stops and bandages the man's wounds, nurses him back to health, takes him to an inn, pays the innkeeper to look after him until he comes back.",
+        "basis": "01:18:56–01:19:16 独立解码复核，消除亚秒重复"
+      },
+      {
+        "insert": true,
+        "start": 3833.8,
+        "end": 3839.64,
+        "text": "It is the lifeblood of our economy. It is what has made Texas and America so great.",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 3840.32,
+        "end": 3847.04,
+        "text": "And so we can uphold both of those values at the same time and pass comprehensive immigration reform that can do both of those things simultaneously.",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 3847.38,
+        "end": 3855.5,
+        "text": "What would you do about the issue of undocumented young people that have come here, that are in the country, that, you know, maybe were brought here by no fault of their own, but",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 3855.54,
+        "end": 3857.88,
+        "text": "now find themselves in the U.S. without documents?",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 3858.16,
+        "end": 3862.78,
+        "text": "Yeah, I taught a lot of DACA students, a lot of Dreamers in Room 112 at Rhodes Middle School",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 3862.78,
+        "end": 3864.26,
+        "text": "on the west side of San Antonio.",
+        "basis": "重叠原音片段独立解码，替换由混合语种和重复生成造成的错识"
+      },
+      {
+        "insert": true,
+        "start": 4266.08,
+        "end": 4270.54,
+        "text": "They're split into lots of these smaller factions that are weaponized in their own way.",
+        "basis": "01:10:58–01:11:18 独立解码复核，合并重复生成的句子"
+      }
+    ],
+    "uncertainties": [
+      {
+        "start": 3910.2,
+        "end": 3912.2,
+        "description": "节目推广读到的专名待核，正文保留标记。"
+      }
+    ],
+    "spelling_normalizations": [
+      [
+        "\\bNavidias\\b|\\bNvidias\\b",
+        "NVIDIAs"
+      ],
+      [
+        "\\bNvidia\\b",
+        "NVIDIA"
+      ]
+    ]
+  },
+  "note": "按附件的原始时间范围合并四段。转录保留英文原话。"
+}
