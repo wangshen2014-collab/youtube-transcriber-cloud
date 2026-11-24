@@ -941,5 +941,93 @@
       }
     },
     "merged_into": "c4168b26b85b0c0681fdb07d"
+  },
+  "6cd25fcac8e36e25a5aed775": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 2,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "46ac1300622899dec24efc25c0acd12d6e83fe7c9d482c7459555c03cc9615fd",
+      "source_id": "audio-46ac1300622899dec24efc25",
+      "attribution": {
+        "channel": "The Diary Of A CEO",
+        "channel_source": "用户提供"
+      }
+    },
+    "merged_into": "8204230c21e24b3162d5546b"
+  },
+  "3cbf8b447d1fb12d8daf34f8": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 2,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "078dc0fd3f8b7ca8b4e9acb418ac6747ed0e593097b1460bcd68ea05194bf6ab",
+      "source_id": "audio-078dc0fd3f8b7ca8b4e9acb4",
+      "attribution": {
+        "channel": "The Diary Of A CEO",
+        "channel_source": "用户提供"
+      }
+    },
+    "merged_into": "8204230c21e24b3162d5546b"
+  },
+  "a47b79aac505c4d6f79e3249": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 2,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "dba258167fb652f66c3b1951b73fd8640cd0a8f64e3df66dd2091eebfcf98f44",
+      "source_id": "audio-dba258167fb652f66c3b1951",
+      "attribution": {
+        "channel": "The Diary Of A CEO",
+        "channel_source": "用户提供"
+      }
+    },
+    "merged_into": "8204230c21e24b3162d5546b"
+  },
+  "6d099ca55a549943ca84b1de": {
+    "settings": {
+      "language": "auto",
+      "model": "large-v3",
+      "threads": 2,
+      "beam_size": 3,
+      "device": "cpu",
+      "compute_type": "int8",
+      "vad_filter": false,
+      "condition_on_previous_text": true,
+      "start": 0.0,
+      "end": null,
+      "source_type": "audio_file",
+      "audio_sha256": "314561ad0d8c18d9eb68fb7de6cf2b7898d450223a8ea0c9bd43af8a109a9fdd",
+      "source_id": "audio-314561ad0d8c18d9eb68fb7d",
+      "attribution": {
+        "channel": "The Diary Of A CEO",
+        "channel_source": "用户提供"
+      }
+    },
+    "merged_into": "8204230c21e24b3162d5546b"
   }
 }
