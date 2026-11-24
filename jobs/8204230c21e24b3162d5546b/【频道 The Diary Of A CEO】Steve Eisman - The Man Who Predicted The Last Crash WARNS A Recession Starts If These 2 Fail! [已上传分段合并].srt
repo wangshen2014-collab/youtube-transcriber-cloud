@@ -1,0 +1,6562 @@
+1
+00:00:00,000 --> 00:00:04,200
+【来源信息，非音频原话】
+频道：The Diary Of A CEO（音频文件名及 YouTube 节目页）
+受访者：Steve Eisman（YouTube 节目页）
+视频来源：https://www.youtube.com/watch?v=4Unch--PmW0
+以上为来源说明，不代表已逐句识别说话人或核实观点归属。
+【转录正文】
+If Anthropic and OpenAI went bankrupt tomorrow, the U.S. would go into a recession the next day.
+
+2
+00:00:04,280 --> 00:00:07,820
+In the history of the United States, no sector has ever been this big.
+
+3
+00:00:08,040 --> 00:00:10,400
+Sam Altman said the development of superintelligence
+
+4
+00:00:10,400 --> 00:00:13,880
+is probably the greatest threat to the continued existence of humanity.
+
+5
+00:00:14,280 --> 00:00:14,920
+Utter nonsense.
+
+6
+00:00:15,300 --> 00:00:19,280
+And Anthropic and OpenAI decided to create a conspiracy that the world was going to end.
+
+7
+00:00:19,420 --> 00:00:21,300
+I'll give you why I think it's nonsense.
+
+8
+00:00:21,540 --> 00:00:23,160
+Because I'm a professional investor.
+
+9
+00:00:23,400 --> 00:00:24,600
+I've done this my whole life.
+
+10
+00:00:24,700 --> 00:00:27,860
+You predicted in 2007 the market was about to collapse.
+
+11
+00:00:27,860 --> 00:00:30,900
+Yes, because Wall Street created an entire industry
+
+12
+00:00:30,900 --> 00:00:34,360
+where they were all incentivized on volume, not on quality.
+
+13
+00:00:34,500 --> 00:00:37,840
+So they were going to originate loans until planet Earth literally burned,
+
+14
+00:00:38,000 --> 00:00:39,520
+which is exactly what they did.
+
+15
+00:00:39,760 --> 00:00:40,820
+And how much money did you make?
+
+16
+00:00:40,940 --> 00:00:42,260
+Like a billion dollars.
+
+17
+00:00:42,600 --> 00:00:44,260
+Life is a roller coaster just like the markets.
+
+18
+00:00:44,480 --> 00:00:47,100
+And I was reading about what happened to you and your wife,
+
+19
+00:00:47,180 --> 00:00:49,420
+Valerie, when you were 35 years old, the loss of your son, Max.
+
+20
+00:00:49,700 --> 00:00:50,880
+Our son was born.
+
+21
+00:00:51,020 --> 00:00:51,720
+I was totally healthy.
+
+22
+00:00:52,160 --> 00:00:56,600
+And 24 days later, the baby nurse came into our bedroom
+
+23
+00:00:56,600 --> 00:00:57,840
+at 7 o'clock in the morning.
+
+24
+00:00:58,000 --> 00:00:58,940
+It's funny to say that Max was dead.
+
+25
+00:01:01,760 --> 00:01:04,860
+And I never looked at the world as being safe ever again.
+
+26
+00:01:05,980 --> 00:01:08,640
+If you watch the movie and see how angry Steve Carell is,
+
+27
+00:01:08,720 --> 00:01:09,700
+I was really like that.
+
+28
+00:01:09,880 --> 00:01:13,420
+It's one of the reasons why I think I was very prominent
+
+29
+00:01:13,420 --> 00:01:14,960
+in the whole financial crisis,
+
+30
+00:01:14,960 --> 00:01:17,480
+because I was looking for people to hate.
+
+31
+00:01:17,600 --> 00:01:19,000
+And I found them on Wall Street.
+
+32
+00:01:19,340 --> 00:01:19,960
+So I'm really curious.
+
+33
+00:01:20,080 --> 00:01:22,000
+Do you think we're in a bubble now with AI?
+
+34
+00:01:22,220 --> 00:01:24,420
+I lean in the direction of yes,
+
+35
+00:01:24,420 --> 00:01:27,720
+because you get like manias and people overinvest.
+
+36
+00:01:27,860 --> 00:01:29,860
+And things seem great, and then they crash.
+
+37
+00:01:29,860 --> 00:01:31,860
+And also, if I want to be an even better investor,
+
+38
+00:01:31,860 --> 00:01:33,860
+what are some of the principles?
+
+39
+00:01:33,860 --> 00:01:35,860
+And if you had $1,000 today, what would you do?
+
+40
+00:01:35,860 --> 00:01:37,860
+And then with all the companies in your portfolio,
+
+41
+00:01:37,860 --> 00:01:39,860
+if you had to move all of your wealth into just one,
+
+42
+00:01:39,860 --> 00:01:41,860
+which one would it be?
+
+43
+00:01:41,860 --> 00:01:42,360
+One.
+
+44
+00:01:42,360 --> 00:01:42,860
+Yeah.
+
+45
+00:01:42,860 --> 00:01:43,860
+I don't believe it.
+
+46
+00:01:45,860 --> 00:01:47,860
+Before this episode starts, I have a small favour to ask you.
+
+47
+00:01:47,860 --> 00:01:50,860
+Two months ago, 61% of the people that watched this channel weren't subscribed.
+
+48
+00:01:50,860 --> 00:01:52,860
+We're now down to 58%.
+
+49
+00:01:52,860 --> 00:01:54,860
+My goal is 50%.
+
+50
+00:01:54,860 --> 00:01:56,860
+So if you've ever liked any of the videos we've made on this channel,
+
+51
+00:01:56,860 --> 00:01:57,860
+if you like this channel,
+
+52
+00:01:57,860 --> 00:02:00,860
+do me a small quick favour and hit the subscribe button.
+
+53
+00:02:00,860 --> 00:02:01,860
+It helps this channel more than you know,
+
+54
+00:02:01,860 --> 00:02:02,860
+and the bigger the channel gets,
+
+55
+00:02:02,860 --> 00:02:04,860
+the more we can invest in the guests and the production.
+
+56
+00:02:04,860 --> 00:02:06,860
+Thank you, and enjoy this episode.
+
+57
+00:02:10,860 --> 00:02:11,360
+Steve.
+
+58
+00:02:11,360 --> 00:02:11,860
+Yeah.
+
+59
+00:02:11,860 --> 00:02:13,860
+Do you think we're in a bubble now with AI?
+
+60
+00:02:13,860 --> 00:02:15,860
+I'm not 100% sure.
+
+61
+00:02:15,860 --> 00:02:19,860
+I lean in the direction of yes.
+
+62
+00:02:19,860 --> 00:02:23,860
+But after the midterm elections, I'm not so sure anymore.
+
+63
+00:02:23,860 --> 00:02:24,860
+Okay.
+
+64
+00:02:24,860 --> 00:02:25,860
+To understand that,
+
+65
+00:02:25,860 --> 00:02:26,860
+this thing that people are talking about,
+
+66
+00:02:26,860 --> 00:02:27,860
+the AI bubble,
+
+67
+00:02:27,860 --> 00:02:31,860
+what we're seeing post-midterms with the market seeming to come down,
+
+68
+00:02:31,860 --> 00:02:33,860
+and how it affects ordinary people that are listening right now,
+
+69
+00:02:33,860 --> 00:02:37,860
+I think it's useful to go through history and spot how these bubbles emerge,
+
+70
+00:02:37,860 --> 00:02:38,860
+crashes occur.
+
+71
+00:02:38,860 --> 00:02:42,860
+So walk me through this sort of historical timeline if you can.
+
+72
+00:02:42,860 --> 00:02:43,860
+Sure.
+
+73
+00:02:43,860 --> 00:02:47,860
+You only have from 1843 and then you jump to 1929.
+
+74
+00:02:47,860 --> 00:02:52,860
+There were probably four recession depressions in between there.
+
+75
+00:02:52,860 --> 00:02:53,860
+Okay.
+
+76
+00:02:53,860 --> 00:02:56,860
+Because prior to the Great Depression,
+
+77
+00:02:56,860 --> 00:03:00,860
+the US was a completely unregulated economy.
+
+78
+00:03:00,860 --> 00:03:03,860
+It had boom and busts like every 20 years,
+
+79
+00:03:03,860 --> 00:03:05,860
+like almost like clockwork.
+
+80
+00:03:05,860 --> 00:03:10,860
+In fact, the one that you don't even have here is 1870.
+
+81
+00:03:10,860 --> 00:03:13,860
+That depression lasted like 10 years.
+
+82
+00:03:13,860 --> 00:03:15,860
+It was horrible.
+
+83
+00:03:15,860 --> 00:03:23,860
+So what happens in the pre-regulated world is you get like manias.
+
+84
+00:03:23,860 --> 00:03:24,860
+Sound familiar?
+
+85
+00:03:24,860 --> 00:03:25,860
+And people overinvest.
+
+86
+00:03:25,860 --> 00:03:27,860
+And things seem great.
+
+87
+00:03:27,860 --> 00:03:28,860
+And then they crash.
+
+88
+00:03:28,860 --> 00:03:29,860
+So then look,
+
+89
+00:03:29,860 --> 00:03:34,860
+you had the Great Depression and capitalism in the United States completely changed.
+
+90
+00:03:34,860 --> 00:03:35,860
+It became,
+
+91
+00:03:35,860 --> 00:03:37,860
+you had deposit insurance.
+
+92
+00:03:37,860 --> 00:03:38,860
+The banks were regulated.
+
+93
+00:03:38,860 --> 00:03:40,860
+Wall Street got regulated.
+
+94
+00:03:40,860 --> 00:03:42,860
+The economy was much more regulated.
+
+95
+00:03:42,860 --> 00:03:45,860
+And we didn't have any crashes.
+
+96
+00:03:45,860 --> 00:03:46,860
+I mean,
+
+97
+00:03:46,860 --> 00:03:47,860
+we had slowdowns.
+
+98
+00:03:47,860 --> 00:03:49,860
+The 1970s certainly weren't pleasant.
+
+99
+00:03:49,860 --> 00:03:54,860
+But you didn't really have anything disastrous until the depression.
+
+100
+00:03:54,860 --> 00:03:56,860
+Until the dot-com bubble.
+
+101
+00:03:56,860 --> 00:03:58,860
+1995 to 2002?
+
+102
+00:03:58,860 --> 00:03:59,860
+Yeah.
+
+103
+00:03:59,860 --> 00:04:01,860
+And then the Great Financial Crisis.
+
+104
+00:04:01,860 --> 00:04:08,860
+You had a conversation in 2007 with a guy called Wing in Las Vegas at dinner.
+
+105
+00:04:08,860 --> 00:04:15,860
+And I think that conversation helped to form your thesis about why the market was about to collapse.
+
+106
+00:04:15,860 --> 00:04:18,860
+Can you take me into that conversation?
+
+107
+00:04:18,860 --> 00:04:22,860
+And what was it you learned about human incentives or the markets
+
+108
+00:04:22,860 --> 00:04:23,860
+that is still broadly applicable today from the point of view of the market?
+
+109
+00:04:23,860 --> 00:04:25,860
+You know,
+
+110
+00:04:25,860 --> 00:04:34,860
+I really don't like to pick on him too much because what he did in his defense was no different from what anybody in his industry did.
+
+111
+00:04:34,860 --> 00:04:35,860
+He was not unique.
+
+112
+00:04:35,860 --> 00:04:39,860
+He's the only one that people talk about because Michael wrote the book and put him in there.
+
+113
+00:04:39,860 --> 00:04:42,860
+He was a guy who started out,
+
+114
+00:04:42,860 --> 00:04:43,860
+I think,
+
+115
+00:04:43,860 --> 00:04:48,860
+at New York Life Insurance and then it ended up in the asset management business.
+
+116
+00:04:48,860 --> 00:04:50,860
+And he was managing CDOs,
+
+117
+00:04:50,860 --> 00:04:53,860
+which is a form of subprime paper.
+
+118
+00:04:53,860 --> 00:04:54,860
+What's a subprime paper?
+
+119
+00:04:54,860 --> 00:04:57,860
+There's something in the United States known as credit scoring.
+
+120
+00:04:57,860 --> 00:05:00,860
+So you go for a mortgage.
+
+121
+00:05:00,860 --> 00:05:04,860
+Your lender feeds it into what's called the Fair Isaac system.
+
+122
+00:05:04,860 --> 00:05:06,860
+Fair Isaac gives you a score.
+
+123
+00:05:06,860 --> 00:05:11,860
+Anything below 650 is considered not so good.
+
+124
+00:05:11,860 --> 00:05:13,860
+That's subprime.
+
+125
+00:05:13,860 --> 00:05:18,860
+Anything above 720 is considered basically prime.
+
+126
+00:05:18,860 --> 00:05:19,860
+So,
+
+127
+00:05:19,860 --> 00:05:20,860
+you know,
+
+128
+00:05:20,860 --> 00:05:22,860
+Wall Street created an entire industry.
+
+129
+00:05:22,860 --> 00:05:34,860
+Where you had mortgage originators originating in the end about $600 billion a year of subprime mortgages that got sold to Wall Street.
+
+130
+00:05:34,860 --> 00:05:37,860
+Giving people mortgages that basically had poor credit scores.
+
+131
+00:05:37,860 --> 00:05:38,860
+Correct.
+
+132
+00:05:38,860 --> 00:05:39,860
+Now,
+
+133
+00:05:39,860 --> 00:05:42,860
+people have always gotten mortgages who have had poor credit scores,
+
+134
+00:05:42,860 --> 00:05:44,860
+but not to that extent.
+
+135
+00:05:44,860 --> 00:05:50,860
+And then that would get put into what's called a securitization,
+
+136
+00:05:50,860 --> 00:05:51,860
+which is,
+
+137
+00:05:51,860 --> 00:05:52,860
+let's talk about it,
+
+138
+00:05:52,860 --> 00:05:54,860
+but it's a fancy term for a bond.
+
+139
+00:05:54,860 --> 00:05:56,860
+And that stuff gets sold to investors all over the world.
+
+140
+00:05:56,860 --> 00:05:57,860
+They package it together.
+
+141
+00:05:57,860 --> 00:05:59,860
+They package it together.
+
+142
+00:05:59,860 --> 00:06:00,860
+He managed,
+
+143
+00:06:00,860 --> 00:06:01,860
+quote unquote,
+
+144
+00:06:01,860 --> 00:06:04,860
+those bonds and he got a small fee.
+
+145
+00:06:04,860 --> 00:06:07,860
+He didn't own any himself.
+
+146
+00:06:07,860 --> 00:06:08,860
+He was just,
+
+147
+00:06:08,860 --> 00:06:09,860
+quote unquote,
+
+148
+00:06:09,860 --> 00:06:10,860
+managing it.
+
+149
+00:06:10,860 --> 00:06:11,860
+But what I couldn't figure out,
+
+150
+00:06:11,860 --> 00:06:13,860
+which I figured out later was,
+
+151
+00:06:13,860 --> 00:06:16,860
+there's nothing to manage.
+
+152
+00:06:16,860 --> 00:06:20,860
+Because once the loans are created and put into a securitization,
+
+153
+00:06:20,860 --> 00:06:22,860
+it's not like a stock where,
+
+154
+00:06:22,860 --> 00:06:23,860
+you know,
+
+155
+00:06:23,860 --> 00:06:24,860
+I don't like that stock.
+
+156
+00:06:24,860 --> 00:06:26,860
+I'm going to sell that stock and replace it with another stock.
+
+157
+00:06:26,860 --> 00:06:30,860
+It's just a pool of loans and they'll do well or they'll do poorly.
+
+158
+00:06:30,860 --> 00:06:32,860
+It's got nothing to do with you.
+
+159
+00:06:32,860 --> 00:06:34,860
+There's nothing to manage.
+
+160
+00:06:34,860 --> 00:06:40,860
+What it really was all about in the end was Merrill Lynch was one of the
+
+161
+00:06:40,860 --> 00:06:45,860
+largest creators of subprime securitizations.
+
+162
+00:06:45,860 --> 00:06:50,860
+And they came to the conclusion that it didn't look seemly.
+
+163
+00:06:50,860 --> 00:06:55,860
+If they would create a subprime securitization and just sell it to investors.
+
+164
+00:06:55,860 --> 00:07:01,860
+So what they did was they found him and he bought all their security,
+
+165
+00:07:01,860 --> 00:07:02,860
+as many of his,
+
+166
+00:07:02,860 --> 00:07:04,860
+the securitizations as he could.
+
+167
+00:07:04,860 --> 00:07:06,860
+And Merrill would say,
+
+168
+00:07:06,860 --> 00:07:10,860
+go buy his stuff because he's managing it.
+
+169
+00:07:10,860 --> 00:07:13,860
+But it was really just Merrill securitizations.
+
+170
+00:07:13,860 --> 00:07:15,860
+It was like the beard for them.
+
+171
+00:07:15,860 --> 00:07:17,860
+That's really what was going on.
+
+172
+00:07:17,860 --> 00:07:19,860
+That's what I figured out.
+
+173
+00:07:19,860 --> 00:07:21,860
+And that's where I created my,
+
+174
+00:07:21,860 --> 00:07:23,860
+one of my things that I think about all the time,
+
+175
+00:07:23,860 --> 00:07:26,860
+which is that incentives trump ethics every time.
+
+176
+00:07:26,860 --> 00:07:27,860
+All these people,
+
+177
+00:07:27,860 --> 00:07:28,860
+the lenders,
+
+178
+00:07:28,860 --> 00:07:30,860
+Wall Street,
+
+179
+00:07:30,860 --> 00:07:31,860
+this guy,
+
+180
+00:07:31,860 --> 00:07:33,860
+they were all incentivized on volume,
+
+181
+00:07:33,860 --> 00:07:35,860
+not on quality.
+
+182
+00:07:35,860 --> 00:07:39,860
+And so they were going to originate loans until planet Earth literally burned,
+
+183
+00:07:39,860 --> 00:07:42,860
+which is exactly what they did.
+
+184
+00:07:42,860 --> 00:07:45,860
+And if someone's incentivized by volume versus quality,
+
+185
+00:07:45,860 --> 00:07:47,860
+they are inherently playing a short-term game.
+
+186
+00:07:47,860 --> 00:07:48,860
+Yes.
+
+187
+00:07:48,860 --> 00:07:49,860
+To,
+
+188
+00:07:49,860 --> 00:07:50,860
+sort of,
+
+189
+00:07:50,860 --> 00:07:52,860
+financially benefit in the near term.
+
+190
+00:07:52,860 --> 00:07:53,860
+Correct.
+
+191
+00:07:53,860 --> 00:07:57,860
+Because maybe the long-term doesn't affect them in the same way as the short-term.
+
+192
+00:07:57,860 --> 00:07:59,860
+Well, it's actually much worse than that.
+
+193
+00:07:59,860 --> 00:08:02,860
+Because if you go back to 2002,
+
+194
+00:08:02,860 --> 00:08:04,860
+when this story really got started,
+
+195
+00:08:04,860 --> 00:08:06,860
+the industry was much smaller.
+
+196
+00:08:06,860 --> 00:08:11,860
+Maybe it was originating 75 billion a year.
+
+197
+00:08:11,860 --> 00:08:13,860
+So the obvious question is,
+
+198
+00:08:13,860 --> 00:08:16,860
+if you're incentivized on volume,
+
+199
+00:08:16,860 --> 00:08:18,860
+you're going to want every year
+
+200
+00:08:18,860 --> 00:08:20,860
+to create more volume.
+
+201
+00:08:20,860 --> 00:08:22,860
+Well, how do you create more volume?
+
+202
+00:08:22,860 --> 00:08:25,860
+You have to loosen your underwriting standards.
+
+203
+00:08:25,860 --> 00:08:27,860
+So you loosen them.
+
+204
+00:08:27,860 --> 00:08:29,860
+So let's say year 2002,
+
+205
+00:08:29,860 --> 00:08:31,860
+you originated 75 billion.
+
+206
+00:08:31,860 --> 00:08:32,860
+And then you loosen them.
+
+207
+00:08:32,860 --> 00:08:33,860
+Next year,
+
+208
+00:08:33,860 --> 00:08:35,860
+maybe you originated 150 billion.
+
+209
+00:08:35,860 --> 00:08:36,860
+And then you loosen them again,
+
+210
+00:08:36,860 --> 00:08:37,860
+et cetera,
+
+211
+00:08:37,860 --> 00:08:38,860
+et cetera,
+
+212
+00:08:38,860 --> 00:08:39,860
+until you get to 600 billion.
+
+213
+00:08:39,860 --> 00:08:43,860
+One of the problems with lending is that the losses show up later.
+
+214
+00:08:43,860 --> 00:08:46,860
+So you can loosen standards for a while.
+
+215
+00:08:46,860 --> 00:08:47,860
+And then eventually,
+
+216
+00:08:47,860 --> 00:08:53,860
+you get so bad that losses really start to pop.
+
+217
+00:08:53,860 --> 00:08:54,860
+By then, it's too late.
+
+218
+00:08:54,860 --> 00:08:55,860
+But you've made your money.
+
+219
+00:08:55,860 --> 00:08:56,860
+But you made.
+
+220
+00:08:56,860 --> 00:08:57,860
+You got paid.
+
+221
+00:08:57,860 --> 00:08:59,860
+So just to repeat this back to you so that I understand it
+
+222
+00:08:59,860 --> 00:09:00,860
+and the viewers understand it.
+
+223
+00:09:00,860 --> 00:09:02,860
+Essentially, from 2002,
+
+224
+00:09:02,860 --> 00:09:04,860
+people are offering these mortgages,
+
+225
+00:09:04,860 --> 00:09:05,860
+let's say,
+
+226
+00:09:05,860 --> 00:09:06,860
+these subprime mortgages.
+
+227
+00:09:06,860 --> 00:09:09,860
+They're incentivized to offer more of them
+
+228
+00:09:09,860 --> 00:09:10,860
+because they benefit in the near term.
+
+229
+00:09:10,860 --> 00:09:12,860
+So they start lowering the bar
+
+230
+00:09:12,860 --> 00:09:14,860
+in terms of who can get one of these mortgages.
+
+231
+00:09:14,860 --> 00:09:15,860
+Correct.
+
+232
+00:09:15,860 --> 00:09:16,860
+Which means a lot of these mortgages are bad money.
+
+233
+00:09:16,860 --> 00:09:17,860
+They're going to default.
+
+234
+00:09:17,860 --> 00:09:18,860
+They're not going to be paid back.
+
+235
+00:09:19,920 --> 00:09:20,220
+Correct.
+
+236
+00:09:20,220 --> 00:09:25,540
+They then sell these to some other people, and eventually it all collapses. The house of cards collapses.
+
+237
+00:09:25,540 --> 00:09:33,300
+You are famous for, I mean, many things, but one of them is you saw this coming, you predicted it
+
+238
+00:09:33,300 --> 00:09:38,680
+and you did The Big Short, right? For someone that's never seen the movie, The Big Short.
+
+239
+00:09:38,780 --> 00:09:45,200
+Okay. What is it you did? Okay. Let me see if I can explain this in as plain English as possible.
+
+240
+00:09:45,200 --> 00:09:54,860
+Let me tell you what it's not. It's not like shorting a stock. When you short a stock, what happens is you go out and you borrow somebody's stock.
+
+241
+00:09:54,860 --> 00:09:55,860
+You sell it,
+
+242
+00:09:55,860 --> 00:09:57,860
+let's say at $100.
+
+243
+00:09:57,860 --> 00:09:58,860
+God willing,
+
+244
+00:09:58,860 --> 00:10:00,860
+the stock goes down to $50.
+
+245
+00:10:00,860 --> 00:10:03,860
+You buy it back at $50.
+
+246
+00:10:03,860 --> 00:10:04,860
+So you sold it at $100.
+
+247
+00:10:04,860 --> 00:10:05,860
+You bought it back at $50.
+
+248
+00:10:05,860 --> 00:10:06,860
+You made $50.
+
+249
+00:10:06,860 --> 00:10:07,860
+And you give the stock back
+
+250
+00:10:07,860 --> 00:10:08,860
+to the guy you borrowed it from.
+
+251
+00:10:08,860 --> 00:10:09,860
+That's shorting.
+
+252
+00:10:09,860 --> 00:10:11,860
+That is not what I did.
+
+253
+00:10:11,860 --> 00:10:14,860
+I did a form of insurance.
+
+254
+00:10:14,860 --> 00:10:15,860
+Okay.
+
+255
+00:10:15,860 --> 00:10:27,600
+This was created by J.P. Morgan in the late 90s, and it was designed to help people manage risk who are in the bond world.
+
+256
+00:10:28,260 --> 00:10:34,800
+Because let's say you own GE bonds, and let's say they're paying 6%.
+
+257
+00:10:34,800 --> 00:10:37,360
+Chances are GE is going to pay you back.
+
+258
+00:10:37,900 --> 00:10:39,180
+Let's say they're five-year bonds.
+
+259
+00:10:39,220 --> 00:10:41,040
+At the end of the five years, they're supposed to pay you back.
+
+260
+00:10:41,040 --> 00:10:47,140
+GE, well, was a great company, then became not just a great company, but they always paid their money back.
+
+261
+00:10:47,220 --> 00:10:52,480
+But there is a non-zero possibility that GE could go bankrupt during those five years.
+
+262
+00:10:52,840 --> 00:10:57,600
+So what you do is you buy insurance on your bond.
+
+263
+00:10:58,820 --> 00:11:05,700
+And you go to Goldman Sachs, and you say, I want to buy, let's say I own $100 million worth of five-year GE bonds.
+
+264
+00:11:05,900 --> 00:11:08,100
+So I want to buy five years worth of insurance.
+
+265
+00:11:08,180 --> 00:11:09,420
+That's called a credit default swap.
+
+266
+00:11:10,540 --> 00:11:11,020
+It's insurance.
+
+267
+00:11:11,040 --> 00:11:14,580
+And I say to Goldman, what will it cost me?
+
+268
+00:11:15,360 --> 00:11:17,700
+And Goldman, let's say, says half of a percent.
+
+269
+00:11:18,060 --> 00:11:18,800
+Of what?
+
+270
+00:11:19,420 --> 00:11:21,740
+Half of a percent of the $100 million that I'm buying.
+
+271
+00:11:21,740 --> 00:11:23,520
+I'm buying insurance on $100 million worth.
+
+272
+00:11:24,180 --> 00:11:26,440
+So GE pays me 6%.
+
+273
+00:11:26,440 --> 00:11:29,340
+I take half of a percent and give it to Goldman.
+
+274
+00:11:30,020 --> 00:11:32,100
+So now I'm only making 5.5%.
+
+275
+00:11:32,100 --> 00:11:39,840
+But now I sleep at night because I know that if GE goes bankrupt, Goldman will write me a check for $100 million.
+
+276
+00:11:39,840 --> 00:11:42,600
+That's a credit default swap.
+
+277
+00:11:43,180 --> 00:11:49,800
+Now, in this example, I own the bonds, and I'm buying insurance on the bonds.
+
+278
+00:11:50,520 --> 00:11:56,480
+I, however, can, if I want to, not own the bonds and just buy insurance on the bonds.
+
+279
+00:11:56,800 --> 00:11:58,100
+How can you do that?
+
+280
+00:11:58,280 --> 00:11:59,180
+Because you call Goldman.
+
+281
+00:11:59,400 --> 00:12:00,860
+It's all on ledgers.
+
+282
+00:12:01,620 --> 00:12:04,020
+This doesn't trade on exchanges.
+
+283
+00:12:04,020 --> 00:12:09,300
+So you call Goldman, and you just say, I would like to buy a credit default swap.
+
+284
+00:12:09,840 --> 00:12:14,520
+Of $100 million for five years, what will it cost me?
+
+285
+00:12:15,400 --> 00:12:18,040
+And Goldman says, half of a percent.
+
+286
+00:12:18,340 --> 00:12:22,360
+So now, instead of getting money from GE, you just pay Goldman half of a percent.
+
+287
+00:12:22,540 --> 00:12:25,900
+And if GE goes bankrupt, they write you a check for $100 million.
+
+288
+00:12:26,360 --> 00:12:27,560
+And you don't even need to own the asset.
+
+289
+00:12:27,660 --> 00:12:28,780
+You do not need to own the asset.
+
+290
+00:12:29,040 --> 00:12:30,580
+So that's what I did.
+
+291
+00:12:30,580 --> 00:12:36,140
+So there are all these subprime securitizations, and I picked various parts of them.
+
+292
+00:12:36,300 --> 00:12:38,620
+And I bought credit default swaps.
+
+293
+00:12:39,180 --> 00:12:39,820
+On the.
+
+294
+00:12:40,040 --> 00:12:41,160
+On all of that stuff.
+
+295
+00:12:42,160 --> 00:12:50,760
+It was about a, you know, it added up to like $700 million worth of value in terms of insurance on $700 million.
+
+296
+00:12:51,320 --> 00:12:52,140
+How much did it cost you?
+
+297
+00:12:52,880 --> 00:12:55,340
+When we started, it cost like 3%.
+
+298
+00:12:55,340 --> 00:12:56,820
+I thought it was a joke.
+
+299
+00:12:57,620 --> 00:13:00,320
+Like, I couldn't believe that it only cost 3%.
+
+300
+00:13:00,320 --> 00:13:02,720
+So 3% on the $700 million.
+
+301
+00:13:02,720 --> 00:13:05,960
+So you paid $21 million roughly for $700 million.
+
+302
+00:13:06,040 --> 00:13:07,720
+For $700 million a year.
+
+303
+00:13:08,620 --> 00:13:09,820
+And only, but it, I was.
+
+304
+00:13:09,960 --> 00:13:11,940
+I didn't even have the positions for even a year.
+
+305
+00:13:12,660 --> 00:13:13,620
+I mean, that's still a lot of money.
+
+306
+00:13:13,620 --> 00:13:15,000
+$21 million a year.
+
+307
+00:13:15,120 --> 00:13:15,300
+Yeah.
+
+308
+00:13:15,300 --> 00:13:16,500
+But you know, I had other positions.
+
+309
+00:13:16,500 --> 00:13:19,920
+I had stocks, you know, it was, it was in the context of an entire portfolio.
+
+310
+00:13:20,360 --> 00:13:24,960
+It just, it's at the time when we started and they said 3%, I thought they were joking.
+
+311
+00:13:25,480 --> 00:13:26,160
+That's why I did it.
+
+312
+00:13:26,640 --> 00:13:28,200
+I thought it was completely mispriced.
+
+313
+00:13:28,780 --> 00:13:29,940
+And how much money did you make?
+
+314
+00:13:30,860 --> 00:13:39,640
+The fund made, I think like a billion dollars and our take of it was.
+
+315
+00:13:39,640 --> 00:13:41,920
+20%, so that was 200 million.
+
+316
+00:13:42,280 --> 00:13:45,340
+And then Morgan Stanley, which owned our company took half of it.
+
+317
+00:13:46,000 --> 00:13:47,520
+So that left us with a hundred.
+
+318
+00:13:47,840 --> 00:13:50,200
+And then I split the hundred with me and all my partners.
+
+319
+00:13:50,960 --> 00:13:51,460
+A billion dollars.
+
+320
+00:13:51,460 --> 00:13:51,960
+It was a good year.
+
+321
+00:13:52,260 --> 00:13:54,100
+A billion dollars for a fund outcome is.
+
+322
+00:13:54,340 --> 00:13:55,580
+But I didn't make a billion dollars.
+
+323
+00:13:55,660 --> 00:13:56,400
+No, but the fund did.
+
+324
+00:13:56,400 --> 00:13:56,940
+Yeah, but the fund did.
+
+325
+00:13:56,940 --> 00:13:57,880
+Yeah, yeah, I get that.
+
+326
+00:13:58,360 --> 00:14:06,080
+So what you saw in that moment at that dinner with Wing back in 2007 in Vegas, I want to know how this applies to the moment we're living in right now.
+
+327
+00:14:06,160 --> 00:14:09,460
+I don't think the great financial crisis is as important.
+
+328
+00:14:09,880 --> 00:14:11,580
+A lesson to today.
+
+329
+00:14:12,080 --> 00:14:14,660
+I think the dot-com bubble is much more important lesson.
+
+330
+00:14:14,980 --> 00:14:20,740
+I don't know if you know, Henry Blodgett is, so Henry Blodgett was like the internet analyst in his day.
+
+331
+00:14:21,280 --> 00:14:21,860
+Great guy.
+
+332
+00:14:22,540 --> 00:14:30,040
+He eventually ended up at Merrill Lynch where he brought all these companies public and he got into big trouble because of it.
+
+333
+00:14:30,320 --> 00:14:31,420
+But he's a very decent guy.
+
+334
+00:14:31,780 --> 00:14:38,020
+But prior to Henry being at Merrill Lynch, he worked at Oppenheimer where I worked.
+
+335
+00:14:38,520 --> 00:14:39,340
+He, he was right across.
+
+336
+00:14:39,340 --> 00:14:39,440
+Yeah.
+
+337
+00:14:39,460 --> 00:14:40,180
+He was just a hawk for me.
+
+338
+00:14:40,440 --> 00:14:43,540
+And the funny thing about Henry was Henry was so green.
+
+339
+00:14:43,660 --> 00:14:44,620
+He was like grass.
+
+340
+00:14:44,680 --> 00:14:45,400
+I mean, you know, anything.
+
+341
+00:14:45,720 --> 00:14:50,240
+And the firm was basically, you know, we need an analyst to cover the internet.
+
+342
+00:14:51,300 --> 00:14:53,560
+Henry, he, he, he's looks reasonable.
+
+343
+00:14:53,820 --> 00:14:55,160
+Let's make him the analyst.
+
+344
+00:14:55,320 --> 00:14:56,880
+And that's how Henry got his start.
+
+345
+00:14:57,240 --> 00:15:07,620
+But, you know, he, one time he came out on the sales floor and he said, dynastic levels of wealth are going to be created because of the internet.
+
+346
+00:15:08,000 --> 00:15:09,440
+And he couldn't have been more right.
+
+347
+00:15:09,460 --> 00:15:19,740
+What's interesting is that literally everything that is being said about AI, like just line up all the sentences of the people who were very positive.
+
+348
+00:15:20,380 --> 00:15:27,860
+They are the exact same sentences that people said about the internet when it was, you know, going crazy.
+
+349
+00:15:28,640 --> 00:15:35,740
+But what happened was there was overinvestment because it was a mania, just like over here.
+
+350
+00:15:37,140 --> 00:15:37,700
+And.
+
+351
+00:15:38,400 --> 00:15:39,420
+You know, most.
+
+352
+00:15:39,460 --> 00:15:41,560
+Of all the companies were very, very new.
+
+353
+00:15:41,680 --> 00:15:46,420
+They had almost no revenue and they cracked and most of them went bankrupt.
+
+354
+00:15:47,140 --> 00:15:55,180
+It was only the second generation of internet companies like Google that went public that I guess the way to put it would be to say they went on to glory.
+
+355
+00:15:56,500 --> 00:16:01,240
+And they were able to use all the infrastructure that was created during the dot-com bubble.
+
+356
+00:16:01,540 --> 00:16:04,360
+They didn't have to spend the money on it because it had already been spent.
+
+357
+00:16:04,900 --> 00:16:06,040
+There's something about that.
+
+358
+00:16:06,140 --> 00:16:08,200
+That's very similar to what's going on right now.
+
+359
+00:16:08,740 --> 00:16:09,400
+How did the.
+
+360
+00:16:09,580 --> 00:16:11,980
+Dot-com bubble collapse affect ordinary people?
+
+361
+00:16:12,040 --> 00:16:14,140
+I wasn't, I mean, I was, I was, I was two years old.
+
+362
+00:16:14,200 --> 00:16:14,700
+It didn't.
+
+363
+00:16:16,420 --> 00:16:16,660
+Wow.
+
+364
+00:16:16,660 --> 00:16:17,260
+You're young.
+
+365
+00:16:17,480 --> 00:16:19,060
+We were since 1995.
+
+366
+00:16:19,060 --> 00:16:19,540
+I was born.
+
+367
+00:16:19,700 --> 00:16:20,260
+There you are.
+
+368
+00:16:20,300 --> 00:16:20,800
+Yeah.
+
+369
+00:16:20,900 --> 00:16:24,860
+Um, it didn't really impact regular people that much.
+
+370
+00:16:24,860 --> 00:16:27,380
+It was a, it was a tech recession.
+
+371
+00:16:27,860 --> 00:16:29,620
+I was a financial services analyst.
+
+372
+00:16:29,900 --> 00:16:37,180
+So we, all of us who covered financials, we were waiting for credit quality to get bad because we're in a recession.
+
+373
+00:16:37,520 --> 00:16:38,900
+Credit quality will get bad.
+
+374
+00:16:38,900 --> 00:16:54,260
+The consumer was fine the whole time there was, it didn't miss a blip, a blip, by the way, NASDAQ tech stocks and go up for like five, six years after the dot-com bubble, they were just basically flat, but it didn't really impact people and impact the technology companies a lot.
+
+375
+00:16:54,560 --> 00:17:00,900
+I've heard some people say that this is different because these companies, the AI companies are actually making huge revenues.
+
+376
+00:17:00,900 --> 00:17:04,380
+Whereas back in the dot-com bubble, they weren't really making many revenues.
+
+377
+00:17:04,380 --> 00:17:04,820
+The pet stock.
+
+378
+00:17:04,820 --> 00:17:06,440
+Well, it depends on who you're talking about.
+
+379
+00:17:06,580 --> 00:17:06,860
+Okay.
+
+380
+00:17:07,520 --> 00:17:07,820
+You know?
+
+381
+00:17:07,820 --> 00:17:08,860
+So if you look at your little book.
+
+382
+00:17:08,860 --> 00:17:12,940
+Prop over there, you know, obviously Microsoft has other businesses.
+
+383
+00:17:13,000 --> 00:17:13,240
+Yeah.
+
+384
+00:17:13,540 --> 00:17:14,260
+NVIDIA.
+
+385
+00:17:14,800 --> 00:17:17,200
+Well, NVIDIA is like the godfather of the whole story.
+
+386
+00:17:17,200 --> 00:17:18,520
+We'll talk about Jensen.
+
+387
+00:17:18,880 --> 00:17:20,640
+Amazon obviously has other businesses.
+
+388
+00:17:20,640 --> 00:17:23,600
+And when we all use Amazon, Google has other businesses.
+
+389
+00:17:23,600 --> 00:17:24,820
+Meta has other businesses.
+
+390
+00:17:24,820 --> 00:17:25,120
+Yes.
+
+391
+00:17:25,120 --> 00:17:27,460
+So these are much, much bigger companies.
+
+392
+00:17:27,700 --> 00:17:30,940
+But even the startups like Higgs field is the fastest growing.
+
+393
+00:17:31,140 --> 00:17:32,140
+I'm an investor in Higgs field.
+
+394
+00:17:32,620 --> 00:17:36,100
+They sent me a thing the other day saying we've just hit a billion, a billion dollars in ARR.
+
+395
+00:17:36,220 --> 00:17:37,600
+The company's a couple of years old.
+
+396
+00:17:37,600 --> 00:17:38,800
+I love when people say ARR.
+
+397
+00:17:38,860 --> 00:17:42,700
+They're so full of it, it means absolutely nothing.
+
+398
+00:17:42,700 --> 00:17:44,180
+What does that, what does ARR mean?
+
+399
+00:17:44,180 --> 00:17:48,580
+Does that mean you took one day's revenue and multiply it by 365 because it was a good day?
+
+400
+00:17:48,880 --> 00:17:51,160
+Or one week times 52 because it was a good week?
+
+401
+00:17:51,400 --> 00:17:55,240
+I mean, it drives me insane when people talk that nonsense.
+
+402
+00:17:55,240 --> 00:17:55,900
+I do agree.
+
+403
+00:17:56,080 --> 00:17:56,960
+I have to say, I do agree.
+
+404
+00:17:57,400 --> 00:18:01,660
+What I'm saying though, is when I look back at some of these dot-com bubbles, it was like people were just selling the idea.
+
+405
+00:18:01,780 --> 00:18:02,280
+Yes.
+
+406
+00:18:02,340 --> 00:18:03,140
+They had a deck.
+
+407
+00:18:03,220 --> 00:18:08,260
+Whereas a lot of the sort of ARR application layer companies at the moment do seem to be making pretty big revenues.
+
+408
+00:18:08,260 --> 00:18:10,800
+Like lovables and replets and-
+
+409
+00:18:10,800 --> 00:18:13,900
+They are, but, you know, they've benefited.
+
+410
+00:18:14,800 --> 00:18:19,000
+I mean, let's focus on the two most important of the new companies, which would be Anthropic and OpenAI.
+
+411
+00:18:19,480 --> 00:18:20,120
+These two here.
+
+412
+00:18:20,400 --> 00:18:20,660
+Right.
+
+413
+00:18:20,660 --> 00:18:26,680
+They have benefited enormously from what's called token maxing.
+
+414
+00:18:27,280 --> 00:18:32,160
+A token, the way to think about it most easily, it's like three quarters of a word.
+
+415
+00:18:32,780 --> 00:18:37,640
+When you do a simple search on AI, you ask it a question.
+
+416
+00:18:38,140 --> 00:18:38,240
+Like-
+
+417
+00:18:38,260 --> 00:18:40,800
+Why did the Roman empire fail?
+
+418
+00:18:41,620 --> 00:18:41,920
+Okay.
+
+419
+00:18:42,580 --> 00:18:43,180
+Good question.
+
+420
+00:18:44,480 --> 00:18:49,480
+AI starts doing this search and that search is done in tokens.
+
+421
+00:18:50,380 --> 00:18:56,320
+That has cost, which last year people really weren't paying for.
+
+422
+00:18:56,320 --> 00:18:58,760
+They were paying just a flat subscription.
+
+423
+00:18:59,040 --> 00:19:02,780
+Then that got changed and you started to have to pay for the tokens.
+
+424
+00:19:03,740 --> 00:19:08,060
+Token maxing was basically you're a software engineer in some company.
+
+425
+00:19:08,600 --> 00:19:17,640
+And your CEO literally calls you on the phone and says, dude, I want you to use AI all day and all night.
+
+426
+00:19:18,380 --> 00:19:19,420
+I don't care what the costs are.
+
+427
+00:19:19,580 --> 00:19:21,160
+Just use it, use it, use it, use it, use it.
+
+428
+00:19:21,740 --> 00:19:26,500
+So of course, well, if your CEO tells you to use AI day and night, you're going to use it day and night.
+
+429
+00:19:27,720 --> 00:19:32,240
+Well, what started to happen is that the costs went insane.
+
+430
+00:19:32,580 --> 00:19:37,360
+There was a report that said that Uber went, ran through its entire AI budget, like in three months.
+
+431
+00:19:37,360 --> 00:19:47,720
+And there was some company that was using AI so aggressively that it cost them $500 million before they even knew that it got the $500 million and they were like stunt.
+
+432
+00:19:48,280 --> 00:19:53,220
+So sometime this summer, token maxing stopped.
+
+433
+00:19:54,560 --> 00:19:58,340
+And then the Chinese models have really come in to take market share.
+
+434
+00:19:58,840 --> 00:20:02,960
+If you look at Anthropix S1, which has just come out.
+
+435
+00:20:03,500 --> 00:20:04,200
+Which is their IPO.
+
+436
+00:20:04,540 --> 00:20:06,140
+It's the IPO prospectus.
+
+437
+00:20:06,140 --> 00:20:07,140
+The numbers look great.
+
+438
+00:20:07,360 --> 00:20:15,440
+In the first quarter and the second quarter, you know, in the second quarter, revenue grew sequentially 150%.
+
+439
+00:20:15,440 --> 00:20:17,280
+Everybody's going, wow, that's so amazing.
+
+440
+00:20:17,320 --> 00:20:18,020
+And they're profitable.
+
+441
+00:20:18,620 --> 00:20:22,180
+But you get to the third quarter and the revenue grew 45%.
+
+442
+00:20:22,180 --> 00:20:25,500
+So it's, things have slowed down.
+
+443
+00:20:26,320 --> 00:20:29,160
+And I have my doubts about these two companies.
+
+444
+00:20:29,160 --> 00:20:36,940
+And the biggest reason why I have my doubts about these two companies is I think the AI business has basically no moats around it.
+
+445
+00:20:37,360 --> 00:20:37,660
+Okay.
+
+446
+00:20:37,740 --> 00:20:40,340
+So let's start then with your moat analogy.
+
+447
+00:20:40,680 --> 00:20:45,880
+Well, there's four risks that you've highlighted around the sort of AI economy and particularly these two companies.
+
+448
+00:20:46,320 --> 00:20:49,720
+This illustrates something quite important though, doesn't it?
+
+449
+00:20:49,820 --> 00:20:50,120
+Yes.
+
+450
+00:20:50,120 --> 00:20:54,960
+Let me just run through why Anthropic and OpenAI are so important.
+
+451
+00:20:55,160 --> 00:20:58,100
+There's a concept in business called concentration risk.
+
+452
+00:20:58,440 --> 00:21:05,180
+If we want to oversimplify, let's say you're a software company and you're growing very rapidly, but you only have one customer.
+
+453
+00:21:05,520 --> 00:21:06,700
+That'd be very risky.
+
+454
+00:21:07,200 --> 00:21:07,320
+Yeah.
+
+455
+00:21:07,360 --> 00:21:12,440
+Because if for some reason that one customer decided we're going elsewhere, you're out of business.
+
+456
+00:21:12,940 --> 00:21:13,380
+Okay.
+
+457
+00:21:14,300 --> 00:21:16,500
+So at the top of the food chain is NVIDIA.
+
+458
+00:21:18,120 --> 00:21:21,740
+So NVIDIA is the largest market cap company in the world.
+
+459
+00:21:22,880 --> 00:21:26,140
+And in the most recent quarter, it grew revenue by over 100%.
+
+460
+00:21:26,140 --> 00:21:26,760
+Wow.
+
+461
+00:21:27,000 --> 00:21:28,640
+And we're not, this is not a small cap company.
+
+462
+00:21:28,640 --> 00:21:34,320
+Now, if you said to me a billion dollar market cap company grew revenue 100%, I would say that's nice.
+
+463
+00:21:35,400 --> 00:21:37,200
+If you say the largest company on planet Earth.
+
+464
+00:21:37,200 --> 00:21:40,260
+If you say the largest company on planet Earth grew revenue over 100%, I'd say that's unbelievable.
+
+465
+00:21:40,780 --> 00:21:42,960
+So that tells you the power of what's happening.
+
+466
+00:21:43,780 --> 00:21:45,700
+Whether it lasts is another story.
+
+467
+00:21:46,240 --> 00:21:53,260
+However, in NVIDIA's 10Q, it also says that 70% of its revenue comes from five customers.
+
+468
+00:21:54,340 --> 00:21:55,900
+That's very concentrated.
+
+469
+00:21:57,180 --> 00:22:00,380
+Now, in one way or another, those customers are these people over here.
+
+470
+00:22:00,740 --> 00:22:00,940
+Which ones?
+
+471
+00:22:01,120 --> 00:22:01,920
+The hyperscalers.
+
+472
+00:22:02,360 --> 00:22:07,040
+Microsoft, Amazon, Google, maybe Oracle a little bit, maybe Meta a little bit.
+
+473
+00:22:07,640 --> 00:22:09,140
+We're very careful in how I say this.
+
+474
+00:22:09,500 --> 00:22:19,760
+70% of AI revenue that Microsoft, Amazon, and Google are currently generating is just from these two guys.
+
+475
+00:22:20,180 --> 00:22:22,360
+Well, so Anthropic and OpenAI are paying them.
+
+476
+00:22:22,560 --> 00:22:23,060
+Yes.
+
+477
+00:22:24,180 --> 00:22:33,920
+That equals mathematically something like 25 to 30% of their cloud revenue, which is like one of their most important businesses.
+
+478
+00:22:34,320 --> 00:22:37,020
+So these guys.
+
+479
+00:22:37,040 --> 00:22:49,960
+And then if we go to Oracle, which is another disaster in terms of the stock, but they're worse because half of their backlog, which is $600 billion, a total backlog of 600 billion.
+
+480
+00:22:50,080 --> 00:22:50,360
+What's backlog?
+
+481
+00:22:50,940 --> 00:22:57,160
+Orders for future AI usage that people are going to use.
+
+482
+00:22:57,520 --> 00:23:00,400
+50% of Oracle's backlog is just from OpenAI.
+
+483
+00:23:01,080 --> 00:23:02,800
+Now, sort of funny story.
+
+484
+00:23:02,960 --> 00:23:04,000
+Oracle doesn't think it's funny.
+
+485
+00:23:04,000 --> 00:23:07,000
+When Oracle reported around this time last year.
+
+486
+00:23:07,580 --> 00:23:14,720
+Their backlog jumped to like 350 billion from nothing.
+
+487
+00:23:16,100 --> 00:23:20,000
+And the stock went from $230 a share to $330 a share.
+
+488
+00:23:20,000 --> 00:23:24,720
+Cause everybody said, oh my God, look, look, look how much revenue Oracle's eventually going to generate.
+
+489
+00:23:25,400 --> 00:23:33,280
+And then a couple of days later, somebody figured out that that jump in backlog was all from OpenAI.
+
+490
+00:23:33,560 --> 00:23:34,280
+Well, like one order.
+
+491
+00:23:34,380 --> 00:23:36,640
+Multiple orders, but just from OpenAI.
+
+492
+00:23:37,040 --> 00:23:41,600
+And the stock went from 330 to 230, and it's now 130.
+
+493
+00:23:42,280 --> 00:23:43,160
+It's never recovered.
+
+494
+00:23:43,660 --> 00:24:00,860
+So the entire chain in a way is dependent upon these two, because these guys are ordering chips and equipment and stuff to build AI data centers, because they have commitments that are largely from these two.
+
+495
+00:24:01,400 --> 00:24:06,260
+If either one of these two were to die, the entire chain would stop.
+
+496
+00:24:06,260 --> 00:24:08,460
+We'd go into a recession immediately.
+
+497
+00:24:08,960 --> 00:24:11,680
+Because they would essentially default on their commitments.
+
+498
+00:24:11,680 --> 00:24:14,560
+Well, if you're out of business, you can't, you can't honor the commitment.
+
+499
+00:24:14,560 --> 00:24:20,500
+So then Microsoft's not going to order so many chips to build data centers, but they'll build fewer data centers.
+
+500
+00:24:20,640 --> 00:24:27,220
+And I guess Microsoft and Google, et cetera, they're spending money on CapEx on costs in order to support the future.
+
+501
+00:24:27,460 --> 00:24:28,060
+To support these two.
+
+502
+00:24:28,380 --> 00:24:36,020
+In the S1, the prospectus for, for Anthropic, they lay out very clearly that.
+
+503
+00:24:36,260 --> 00:24:42,560
+Hey, Anthropic have made $895 billion in commitments to these guys.
+
+504
+00:24:44,080 --> 00:24:44,940
+That's unbelievable.
+
+505
+00:24:45,080 --> 00:24:48,080
+I mean, this company didn't exist a few years ago.
+
+506
+00:24:49,160 --> 00:24:55,100
+And the crazy thing we could talk about it is the entire market is a basically an AI trade right now.
+
+507
+00:24:55,660 --> 00:24:57,980
+And you know what else is so is the U S economy.
+
+508
+00:24:58,740 --> 00:25:06,080
+So if, if this thing fails, if this whole AI story, and we'll talk about what could happen, but under an assumption that the.
+
+509
+00:25:06,080 --> 00:25:06,240
+AI.
+
+510
+00:25:06,380 --> 00:25:08,480
+Story does this.
+
+511
+00:25:08,820 --> 00:25:15,480
+I believe in AI as a technology, but I also believed in the internet as a technology that didn't stop the dot-com bubble.
+
+512
+00:25:16,280 --> 00:25:20,780
+We could have a situation where one of these two guys fails.
+
+513
+00:25:21,740 --> 00:25:23,500
+Everybody stops ordering all the chips.
+
+514
+00:25:23,500 --> 00:25:29,780
+We go into a recession, eventually we work our way out and then we, then we grow at a more, at a, at a better pace that could happen.
+
+515
+00:25:30,260 --> 00:25:31,760
+I think that's the more likely event.
+
+516
+00:25:31,820 --> 00:25:36,140
+I was going to ask you on, on a sort of balance of probability, if you had to bet.
+
+517
+00:25:36,540 --> 00:25:37,860
+Your net worth on one outcome.
+
+518
+00:25:37,920 --> 00:25:38,240
+Yeah.
+
+519
+00:25:38,560 --> 00:25:39,720
+Which outcome would you be betting on?
+
+520
+00:25:40,020 --> 00:25:43,620
+Well, I was thinking about betting it on that until the midterm elections.
+
+521
+00:25:43,620 --> 00:25:49,940
+So you've changed now and I've changed since last week, you know, as Senator Patrick Moynihan once said, facts change.
+
+522
+00:25:49,940 --> 00:25:50,480
+I change.
+
+523
+00:25:50,880 --> 00:25:54,480
+Just before we go into that, cause I feel like that's a, quite a, quite a punchline as to why you changed your mind.
+
+524
+00:25:54,820 --> 00:25:58,260
+You were going to mention, I believe how much of the market is AI.
+
+525
+00:25:58,780 --> 00:26:01,200
+So the S and P 500.
+
+526
+00:26:01,700 --> 00:26:06,220
+Which is the 500 largest companies in the United States is divided up into.
+
+527
+00:26:06,220 --> 00:26:18,520
+11 sectors, info tech, financial services, industrials, real estate, healthcare, consumer staples, consumer discretionary on and on and on today.
+
+528
+00:26:19,060 --> 00:26:30,440
+Info tech, just info tech is 40% of the S and P now in the history of the United States, no sector has ever been this big ever.
+
+529
+00:26:30,640 --> 00:26:32,920
+I think the biggest anybody ever got was like 25%.
+
+530
+00:26:33,040 --> 00:26:34,540
+And what's info tech by definition.
+
+531
+00:26:34,600 --> 00:26:35,140
+Technology.
+
+532
+00:26:35,240 --> 00:26:35,840
+Which would include.
+
+533
+00:26:35,840 --> 00:26:36,180
+Yeah.
+
+534
+00:26:36,760 --> 00:26:42,340
+NVIDIA, hardware companies like Dell, software companies like Salesforce.
+
+535
+00:26:42,480 --> 00:26:47,420
+It's basically the whole tech world with some exceptions, which we'll talk about in a second.
+
+536
+00:26:47,640 --> 00:26:50,300
+So that's 40% of the S and P.
+
+537
+00:26:50,660 --> 00:26:56,840
+Starting about 10 years ago, S and B rejiggered the sectors.
+
+538
+00:26:57,640 --> 00:27:05,140
+And so Amazon, which had been in tech, I think was, we got moved to consumer discretionary.
+
+539
+00:27:05,680 --> 00:27:14,960
+Google, which had been in tech, got moved to communication services, Meta, which had been in tech, got also moved to communication services.
+
+540
+00:27:14,960 --> 00:27:25,500
+So if you take out Google, Amazon, Meta, you know, a whole bunch of other companies that, that call them techie and add that to the 40%, you're at 50.
+
+541
+00:27:26,560 --> 00:27:32,720
+Now add the utility sector, which is 3% of the S and P small.
+
+542
+00:27:33,400 --> 00:27:34,480
+But it's going to provide all the.
+
+543
+00:27:34,640 --> 00:27:44,360
+Most of the power to the AI data centers, then add the investment banks and the alternative asset managers that are funding this stuff.
+
+544
+00:27:45,020 --> 00:27:55,380
+And then add industrial companies, GE, Vrnova that provide the power or an Eaton, which provides the electrification stuff that goes into the AI data center.
+
+545
+00:27:55,380 --> 00:28:02,300
+You you're at, I think, what do you want to show is this you're basically at 65% of the market.
+
+546
+00:28:02,860 --> 00:28:03,760
+So the blue is.
+
+547
+00:28:04,100 --> 00:28:04,460
+Basically.
+
+548
+00:28:04,460 --> 00:28:05,900
+The AI exposed companies.
+
+549
+00:28:05,900 --> 00:28:14,660
+The only two sectors that you could say have really no, no role whatsoever in AI would be healthcare and consumer staples.
+
+550
+00:28:15,060 --> 00:28:16,220
+That's some, that's kind of ironic.
+
+551
+00:28:18,080 --> 00:28:29,180
+In other words, the bubble burst, just as you said, drugs and toilet paper have nothing to do with AI, but the market is very, very, very, very heavily dependent upon the whole AI story.
+
+552
+00:28:30,140 --> 00:28:34,460
+Now the economy is also very heavily dependent upon the AI story.
+
+553
+00:28:34,560 --> 00:28:39,440
+Because us GDP will probably grow two ish percent this year.
+
+554
+00:28:39,860 --> 00:28:42,860
+Over half of that, I would say is all this AI capex.
+
+555
+00:28:43,460 --> 00:28:45,140
+All the money people are spending on the infrastructure for.
+
+556
+00:28:45,140 --> 00:28:50,220
+On all the infrastructure, the chips, the equipment, the construction, et cetera.
+
+557
+00:28:50,300 --> 00:28:53,580
+So if it's obviously, if it slows down all of a sudden, look, put it this way.
+
+558
+00:28:53,580 --> 00:28:54,620
+I have a very simple thing.
+
+559
+00:28:54,620 --> 00:29:04,220
+If, if Anthropic, if, and it's a big, if I'm not making that prediction right now, but if Anthropic and OpenAI went bankrupt tomorrow, the us would go into a recession the next day because the whole chain.
+
+560
+00:29:04,220 --> 00:29:04,340
+Would.
+
+561
+00:29:04,340 --> 00:29:04,440
+Slow.
+
+562
+00:29:04,440 --> 00:29:04,860
+Down.
+
+563
+00:29:05,580 --> 00:29:08,620
+That means Anthropic has 895 billion commitments.
+
+564
+00:29:08,920 --> 00:29:10,980
+OpenAI has similar levels of commitments.
+
+565
+00:29:10,980 --> 00:29:12,660
+They won't be able to honor those commitments.
+
+566
+00:29:12,840 --> 00:29:17,580
+If they're bankrupt throughout a business, one might say that means the us won't let it happen.
+
+567
+00:29:17,580 --> 00:29:18,480
+And therefore they're safe.
+
+568
+00:29:19,220 --> 00:29:20,280
+Now, how are they going to do that?
+
+569
+00:29:21,600 --> 00:29:22,260
+Bail them out.
+
+570
+00:29:23,100 --> 00:29:23,440
+Please.
+
+571
+00:29:23,440 --> 00:29:24,440
+God, not again.
+
+572
+00:29:25,620 --> 00:29:26,940
+I couldn't take it again.
+
+573
+00:29:27,120 --> 00:29:30,260
+If we did that, I don't think that's going to happen.
+
+574
+00:29:31,600 --> 00:29:32,200
+I could be wrong.
+
+575
+00:29:32,840 --> 00:29:34,320
+But if the us would go into recession.
+
+576
+00:29:34,320 --> 00:29:35,820
+You'd think the government might intervene.
+
+577
+00:29:36,000 --> 00:29:37,320
+I don't know how they would intervene.
+
+578
+00:29:37,320 --> 00:29:38,780
+I mean, I, I could be wrong about this.
+
+579
+00:29:38,780 --> 00:29:53,160
+Um, you know, there's a big difference between a great financial crisis versus a bubble, you know, in the great financial crisis, the banks were all at risk of going under when you can't get your money out of the bank.
+
+580
+00:29:54,040 --> 00:29:57,300
+That's on another level of disaster.
+
+581
+00:29:58,020 --> 00:30:00,220
+When companies go bankrupt, it's a recession.
+
+582
+00:30:00,760 --> 00:30:05,340
+The banks will be fine, by the way, because they're much better regulated. They have
+
+583
+00:30:05,340 --> 00:30:11,240
+much less leverage. So I'm not worried about the banks at all. But you'll have a recession. We've
+
+584
+00:30:11,240 --> 00:30:17,280
+had recessions before. It's painful. It's not pleasant. People lose their jobs. But the US is
+
+585
+00:30:17,280 --> 00:30:22,100
+the most dynamic economy in the world. We'll come out of it. And on the balance of probability,
+
+586
+00:30:22,480 --> 00:30:26,480
+what percentage might you weight that that's going to happen versus some other outcome now
+
+587
+00:30:26,480 --> 00:30:30,500
+that the midterms have cut in and gone? Well, the midterms like threw a whole wrinkle into this
+
+588
+00:30:30,500 --> 00:30:38,940
+thing. It really depends on how much AI data construction slows. Now it's going to slow.
+
+589
+00:30:38,940 --> 00:30:46,700
+The question is, how much is it slow? If Bernie Sanders had his way, there'd be a 100% moratorium
+
+590
+00:30:46,700 --> 00:30:51,740
+on all AI data center construction. And if he had his way, the US would go into recession that night
+
+591
+00:30:51,740 --> 00:30:56,340
+immediately. So if you see him, you could tell him I said that.
+
+592
+00:30:56,480 --> 00:30:57,260
+Maybe see it tomorrow.
+
+593
+00:30:57,380 --> 00:31:00,560
+I know. That's why I said it. It's not even debatable.
+
+594
+00:31:01,440 --> 00:31:07,560
+Actually, I am aware. And my response to him is that maybe they should have thought about that
+
+595
+00:31:07,560 --> 00:31:13,100
+before putting in massive amounts of money into a technology where the leaders of these
+
+596
+00:31:13,100 --> 00:31:16,580
+companies are literally telling us they don't know where it's going. And it could be very
+
+597
+00:31:16,580 --> 00:31:23,420
+dangerous. But if his point is, is the American economy today significantly impacted by AI? Yeah,
+
+598
+00:31:23,720 --> 00:31:24,720
+I'm more than aware of that.
+
+599
+00:31:25,340 --> 00:31:26,260
+$1 trillion.
+
+600
+00:31:26,480 --> 00:31:35,260
+$1 trillion worth of CapEx goes to zero. Just deduct that from GDP. You're in a recession.
+
+601
+00:31:35,820 --> 00:31:42,360
+It's a trillion. If it was a hundred billion, it wouldn't be a big deal. It's a trillion.
+
+602
+00:31:42,640 --> 00:31:49,800
+The entire economy is hinging on this. However, if AI data construction slows down, let's say 10,
+
+603
+00:31:49,880 --> 00:31:53,940
+20%, that might actually be a big positive for certain companies,
+
+604
+00:31:55,340 --> 00:31:56,460
+which is not an intuitive.
+
+605
+00:31:56,480 --> 00:32:02,320
+Obvious statement. Let me elaborate. Part of the problem with the whole AI story
+
+606
+00:32:02,320 --> 00:32:13,000
+is that because it's grown so rapidly, it's costing a fortune. You know, you're spending
+
+607
+00:32:13,000 --> 00:32:18,740
+a trillion dollars this year, but if you spent 250 billion, as opposed to a trillion, you'd get
+
+608
+00:32:18,740 --> 00:32:23,640
+there later, but you wouldn't be spending so much every single year. What's happened to these
+
+609
+00:32:23,920 --> 00:32:26,040
+hyperscalers, Amazon, Microsoft,
+
+610
+00:32:26,480 --> 00:32:31,400
+Google? These are like the most profitable companies in the history of planet earth.
+
+611
+00:32:31,860 --> 00:32:37,920
+And not just profitable on an accounting basis. They generate cash like lunatics. They don't even
+
+612
+00:32:37,920 --> 00:32:42,760
+know what to do with their cash. They generate so much cash until now. Because of this AI data
+
+613
+00:32:42,760 --> 00:32:49,340
+construction, it's so expensive that Google's cashflow is now negative. Amazon's cashflow is
+
+614
+00:32:49,340 --> 00:32:56,220
+negative. Microsoft is borderline. So what they're doing is they're raising capital and not just
+
+615
+00:32:56,220 --> 00:33:02,700
+debt. They're raising equity. Google raised $85 billion in equity a few months ago. Do you know
+
+616
+00:33:02,700 --> 00:33:09,440
+when the last time Google raised equity? When they went public in 2005. That's how profitable
+
+617
+00:33:09,440 --> 00:33:18,620
+this company was. So I think it's possible that let's say that AI data construction slows down by
+
+618
+00:33:18,620 --> 00:33:24,400
+10, 20%. Mathematically, what that would mean is that some of these guys would become cashflow
+
+619
+00:33:24,400 --> 00:33:25,700
+positive again, and they wouldn't be dependent on it. They wouldn't be dependent on it. They wouldn't
+
+620
+00:33:25,700 --> 00:33:26,200
+be dependent on it. They wouldn't be dependent on it. They wouldn't be dependent on it. They wouldn't
+
+621
+00:33:26,220 --> 00:33:30,780
+be dependent upon the fixed income markets anymore, which is what makes this story very
+
+622
+00:33:30,780 --> 00:33:38,660
+tenuous. So one of my rebuttals would be they're still violently racing against each other. And for
+
+623
+00:33:38,660 --> 00:33:43,420
+some of them, like Google, it feels existential. And I think their earnings report recently showed
+
+624
+00:33:43,420 --> 00:33:49,200
+that search is now, I mean, it's in a free fall that everyone predicted. Not free fall. It grew
+
+625
+00:33:49,200 --> 00:33:54,960
+12%. But in the first quarter, it was 19. So it's definitely slowing. And that's, I mean,
+
+626
+00:33:54,960 --> 00:34:00,900
+we understand that people aren't going to be using Google search products in the same way in the future.
+
+627
+00:34:00,900 --> 00:34:04,580
+Correct. And the AI business is not as profitable as Google search.
+
+628
+00:34:04,580 --> 00:34:05,940
+Yeah, exactly. You can't put ads in there.
+
+629
+00:34:05,940 --> 00:34:10,500
+Google search is such a, was such an amazing business. It's like a paradigm. Like when you get on your computer,
+
+630
+00:34:10,500 --> 00:34:16,260
+you want to look for something. The thought of looking for something outside of Google was unimaginable.
+
+631
+00:34:16,260 --> 00:34:23,620
+Like it never even occurred to you to even think about it, let alone do it. Now you've got ChatGPT,
+
+632
+00:34:23,620 --> 00:34:24,720
+you got Gemini,
+
+633
+00:34:24,720 --> 00:34:29,520
+you've got OpenAI, this one, that one, you've got a cornucopia of choices.
+
+634
+00:34:29,520 --> 00:34:33,440
+You don't even have to leave WhatsApp now with all these agents that you can speak to in WhatsApp
+
+635
+00:34:33,440 --> 00:34:40,640
+and they go out and do the shopping for you. And so Google, they desperately need a, I think
+
+636
+00:34:40,640 --> 00:34:46,080
+they desperately need a life raft. I know they've got other products and I know Alphabet's a big
+
+637
+00:34:46,080 --> 00:34:50,320
+company and all of those things, but their core business, their core cash cow is now at risk. So
+
+638
+00:34:50,320 --> 00:34:51,920
+they need to beat some of these other players.
+
+639
+00:34:51,920 --> 00:34:54,700
+Yeah, but this is not, given the politics, it's not up to them.
+
+640
+00:34:54,720 --> 00:35:01,600
+This whole issue about how much data construction you can do is a political issue now. And it's
+
+641
+00:35:01,600 --> 00:35:02,720
+mostly a local issue.
+
+642
+00:35:02,720 --> 00:35:04,160
+Wouldn't that need to get past Trump?
+
+643
+00:35:04,160 --> 00:35:11,920
+No, these are local issues. This is, I'm Google. I want to build an AI data center here.
+
+644
+00:35:12,880 --> 00:35:19,120
+You know, I don't know. Choose a state. Wyoming. Okay. Middle of nowhere. To get that done,
+
+645
+00:35:19,120 --> 00:35:24,560
+I don't go to President Trump. He's not involved. I go to the local authorities. This is like town
+
+646
+00:35:24,560 --> 00:35:32,400
+by town, state by state to get all the permits, to get access to the water, the electricity. It's a
+
+647
+00:35:32,400 --> 00:35:37,120
+very local thing. So, you know, we're not going to know how much AI data center construction is
+
+648
+00:35:37,120 --> 00:35:42,240
+going to slow here for a while because it's, it's so many different decisions that are have to be
+
+649
+00:35:42,240 --> 00:35:42,480
+made.
+
+650
+00:35:42,480 --> 00:35:44,160
+Okay. I'm going to try and rebuttal it once more.
+
+651
+00:35:44,160 --> 00:35:44,560
+Okay.
+
+652
+00:35:44,560 --> 00:35:45,360
+I'm.
+
+653
+00:35:45,360 --> 00:35:45,840
+Please do.
+
+654
+00:35:45,840 --> 00:35:49,360
+I'm running Microsoft and I was going to build a data center in Wyoming.
+
+655
+00:35:49,360 --> 00:35:49,600
+Yeah.
+
+656
+00:35:49,600 --> 00:35:51,280
+Politics there has changed. I can't do it now.
+
+657
+00:35:51,280 --> 00:35:51,600
+Right.
+
+658
+00:35:51,760 --> 00:36:02,960
+That just means for me, I'm still going to want to build the data centers, but now I'm going to want to go do it in, let's say Florida, where they are much more happy to accommodate.
+
+659
+00:36:02,960 --> 00:36:06,800
+However, the problem I have now is so Sam Altman wants to do it in Florida as well.
+
+660
+00:36:06,800 --> 00:36:07,040
+Right.
+
+661
+00:36:07,040 --> 00:36:11,680
+So the opportunities become more scarce to build data centers. Therefore they just become more expensive.
+
+662
+00:36:11,680 --> 00:36:17,200
+Okay. And, and you just missed a couple of years of, of you did all the permits and everything,
+
+663
+00:36:17,200 --> 00:36:20,400
+and now you've got to go to Florida. You got to start the whole process again.
+
+664
+00:36:20,400 --> 00:36:21,680
+I mean, Florida has a.
+
+665
+00:36:21,680 --> 00:36:25,760
+Process. They may be, they may welcome you with open arms, but they still have a process
+
+666
+00:36:25,760 --> 00:36:28,800
+that you got to work your way through. You just lost two years.
+
+667
+00:36:28,800 --> 00:36:29,760
+I lost a lot of money.
+
+668
+00:36:29,760 --> 00:36:34,720
+You lost money and you lost time. But you know, it's interesting. I think it actually
+
+669
+00:36:34,720 --> 00:36:39,600
+would be healthier for it to be slower, not crazy slower, but slower. So, you know, one of
+
+670
+00:36:39,600 --> 00:36:45,120
+the nice things about what we do is we have communities where people give responses to like,
+
+671
+00:36:45,120 --> 00:36:51,600
+you know, our, our podcasts. So I, I had a response on Substack by a viewer
+
+672
+00:36:51,680 --> 00:36:58,240
+he was a electrical engineer who ran a company and he was involved in AI data construction
+
+673
+00:36:58,240 --> 00:37:02,320
+in Michigan. So as soon as that was like the first two sentences, like, okay, I gotta read,
+
+674
+00:37:02,320 --> 00:37:06,800
+I gotta read this. And basically what he said is that so much is being built,
+
+675
+00:37:08,080 --> 00:37:15,280
+that the binding constraint is not money. It's power that these data centers can be built
+
+676
+00:37:16,080 --> 00:37:21,600
+and they got nothing to plug it into. And, and at the very end, he said the thing that like really
+
+677
+00:37:21,600 --> 00:37:28,960
+shocked me was he said that, um, we don't even have enough poles to get the electricity from
+
+678
+00:37:28,960 --> 00:37:34,400
+here to here. The system of construction is very stressed because so much money has been poured
+
+679
+00:37:34,400 --> 00:37:38,160
+into this stuff so rapidly. I guess what I'm trying to figure out is do you, are you saying
+
+680
+00:37:38,160 --> 00:37:43,360
+that spending is going to slow? Yes. Because, and what I was saying is, well, I just think they're
+
+681
+00:37:43,360 --> 00:37:46,160
+going to continue to spend the money they've allocated anyway, but it's just, they're just
+
+682
+00:37:46,160 --> 00:37:51,440
+going to get less for their money. I think that it'll slow. Uh, you know, one report that I read
+
+683
+00:37:51,600 --> 00:37:57,760
+said that, that peak CapEx will be next year, mid next year. And then it'll slow, really slow.
+
+684
+00:37:57,760 --> 00:38:00,800
+And then some of these companies will start to return to cashflow positive.
+
+685
+00:38:01,600 --> 00:38:06,000
+The market is, the market's very schizophrenic about this. You know, on the one hand, they're
+
+686
+00:38:06,000 --> 00:38:10,480
+like, you know, on this, this last week, they freaked out about the midterms because it was
+
+687
+00:38:10,480 --> 00:38:14,880
+like Bernie Sanders is going to kill all AI data center construction. Like, you know, let's go
+
+688
+00:38:14,880 --> 00:38:21,120
+hide in a cave for a day. But the prior week they were freaking out.
+
+689
+00:38:21,760 --> 00:38:30,000
+Because they realized that because this has become so capital intensive and so debt intensive
+
+690
+00:38:30,000 --> 00:38:34,480
+that these companies don't control their destiny anymore. They're completely beholden to the fixed
+
+691
+00:38:34,480 --> 00:38:39,600
+income markets. And believe me, you don't want to be completely beholden to the fixed income
+
+692
+00:38:39,600 --> 00:38:43,680
+markets because the fixed income markets are fickle. You know, they, they learned this with
+
+693
+00:38:43,680 --> 00:38:49,440
+this company CoreWeave, which is what's called a Neo cloud. It's like a small version of this,
+
+694
+00:38:50,000 --> 00:38:51,600
+except that they don't have any other businesses.
+
+695
+00:38:52,160 --> 00:38:55,760
+So they're building data centers and all they do is they raise debt.
+
+696
+00:38:56,800 --> 00:39:01,600
+They build a data center and they rent it out. That's all they do. So that's, that's CoreWeave.
+
+697
+00:39:01,600 --> 00:39:10,720
+I ran nebious and core weeds debt went from 9% to 15%. At 15%, you can't build a data center.
+
+698
+00:39:11,600 --> 00:39:15,520
+That's too expensive. And, and all of a sudden the equity markets were like, wow,
+
+699
+00:39:16,080 --> 00:39:21,280
+these companies are too dependent upon the fixed income markets. Let's freak.
+
+700
+00:39:22,160 --> 00:39:24,640
+Now there'll be less of them than on the fixed income markets,
+
+701
+00:39:24,640 --> 00:39:27,120
+but they're still freaking because they don't know how much this is going to slow.
+
+702
+00:39:28,960 --> 00:39:32,880
+You'd think the former president of Nespresso would be a pretty hard person to convert
+
+703
+00:39:32,880 --> 00:39:39,680
+to a new coffee company, but just one sip of comity coffee made him invest.
+
+704
+00:39:43,120 --> 00:39:46,800
+But let me tell you the reason why I became an investor. So I had a big box of this arrive
+
+705
+00:39:46,800 --> 00:39:51,440
+on my desk in the London office. And then I'd say within about an hour and a half,
+
+706
+00:39:51,440 --> 00:39:55,120
+the Slack channel that we have starts blowing up with people asking
+
+707
+00:39:55,120 --> 00:40:00,080
+what the hell is that thing that's been left in the kitchen. It is unbelievable. So instead
+
+708
+00:40:00,080 --> 00:40:04,720
+of trying to make it yourself at home and balance the flavors, they flash freeze at the
+
+709
+00:40:04,720 --> 00:40:08,800
+perfect moments. All you have to do is pop it out of here into a cup, pour hot water on it.
+
+710
+00:40:08,800 --> 00:40:13,520
+And it tastes like nothing you've tasted before. You can also make delicious iced coffee drinks
+
+711
+00:40:13,520 --> 00:40:20,800
+as well. Just pour it in. No machine, no brewing with plastic and all that nasty stuff. And you can
+
+712
+00:40:20,800 --> 00:40:28,940
+get $30 off your first order at cometeer.com slash Stephen today. That's cometeer.com slash Stephen.
+
+713
+00:40:29,620 --> 00:40:34,140
+I love it when our sponsors line up with our values and our partners at Progressive are a
+
+714
+00:40:34,140 --> 00:40:38,220
+perfect example of this. What I love about Progressive is they share what we call the
+
+715
+00:40:38,220 --> 00:40:42,760
+first believer mindset. Everyone needs someone to believe in them and to back them, even when no one
+
+716
+00:40:42,760 --> 00:40:46,540
+else will. I had someone believe in me. I had a guy called Alistair believe in me when I dropped
+
+717
+00:40:46,540 --> 00:40:51,280
+out of university in Manchester. I had this idea called Walpark, sent him a cold email. He met me,
+
+718
+00:40:51,460 --> 00:40:55,260
+said he would back me, even though he didn't know what my idea was, because he said these
+
+719
+00:40:55,260 --> 00:40:59,280
+words that I'll never forget to me. He says, I know you're going to do something good one day.
+
+720
+00:40:59,600 --> 00:41:03,540
+It wasn't Alistair giving me £10,000 that changed my life. It was that someone believed in me.
+
+721
+00:41:03,540 --> 00:41:06,960
+I think that story is proof that belief can help someone see what's possible.
+
+722
+00:41:07,760 --> 00:41:12,420
+For 90 years, Progressive has backed people and created opportunities for them that didn't exist
+
+723
+00:41:12,420 --> 00:41:16,520
+before. They're keys to progress initiatives. It has gifted more than
+
+724
+00:41:16,520 --> 00:41:23,440
+1,200 vehicles to veterans since 2013, because Progressive understands people go further when
+
+725
+00:41:23,440 --> 00:41:28,800
+someone believes in what they can become. To see how Progressive is helping people move forward,
+
+726
+00:41:28,800 --> 00:41:35,720
+head to progressive.com slash purpose. You said these companies don't have a moat.
+
+727
+00:41:36,020 --> 00:41:36,240
+Yes.
+
+728
+00:41:36,680 --> 00:41:40,340
+So I've got a, for people that don't know what a moat is, I've got a very literal
+
+729
+00:41:40,340 --> 00:41:45,700
+illustration of what a moat is. What is a moat? And when you say they don't have one.
+
+730
+00:41:45,700 --> 00:41:46,240
+So we're talking about...
+
+731
+00:41:46,520 --> 00:41:52,120
+You're talking about the anthropics of the world, the open AIs of the world, all the people who were
+
+732
+00:41:52,120 --> 00:41:58,460
+involved in creating large language models in agentic AI. So let's go back to the Google example.
+
+733
+00:41:59,060 --> 00:42:05,920
+Google had the biggest moat, like in the history of the world. So a moat is a, is a barrier to entry
+
+734
+00:42:06,620 --> 00:42:12,100
+for business. There are two types of barriers to entry. There's a regulatory barrier to entry, and
+
+735
+00:42:12,100 --> 00:42:16,520
+there's a business barrier to entry. Google's barrier to entry was a business barrier.
+
+736
+00:42:16,520 --> 00:42:24,620
+It was just such a powerful algorithm that swept the world. A regulatory moat would be like, let's
+
+737
+00:42:24,620 --> 00:42:30,020
+say you exist in a small town and you own a grocery store and you go to the mayor of the town and
+
+738
+00:42:30,020 --> 00:42:34,100
+there's only one grocery store in the town, you and somebody else wants to open up another grocery
+
+739
+00:42:34,100 --> 00:42:38,660
+store and you go to the mayor of the town and he passes a regulation that says no other, no other
+
+740
+00:42:38,660 --> 00:42:41,860
+grocery stores allowed in the town. That's a regulatory moat.
+
+741
+00:42:42,360 --> 00:42:44,280
+And a moat is named after the water around.
+
+742
+00:42:44,480 --> 00:42:45,700
+Around the, around the castle.
+
+743
+00:42:45,860 --> 00:42:46,500
+To stop people getting lost.
+
+744
+00:42:46,520 --> 00:42:47,840
+To stop people getting in. So it's like the defense.
+
+745
+00:42:47,840 --> 00:42:48,980
+Very Game of Thrones.
+
+746
+00:42:49,040 --> 00:42:49,280
+Yeah.
+
+747
+00:42:49,780 --> 00:42:57,680
+What happened earlier this year was it started to become clear that these Chinese models were, that
+
+748
+00:42:57,680 --> 00:43:03,900
+are called open weight models are much, much cheaper than Anthropic and OpenAI.
+
+749
+00:43:05,020 --> 00:43:08,540
+As I like to say, you don't need to take a Mercedes Benz to the grocery store.
+
+750
+00:43:08,640 --> 00:43:09,800
+You could take a bike.
+
+751
+00:43:10,460 --> 00:43:16,400
+So people were, are starting to switch and even with, even within the top level, there's like
+
+752
+00:43:16,400 --> 00:43:16,500
+nothing.
+
+753
+00:43:16,520 --> 00:43:21,440
+There's no loyalty, but you know, you use Claude, then somebody else shows up with something else.
+
+754
+00:43:21,440 --> 00:43:25,700
+Yeah, I'll try that, you know, and, and, and they're like interchangeable.
+
+755
+00:43:26,120 --> 00:43:28,300
+So that's how there's no moat.
+
+756
+00:43:28,300 --> 00:43:33,680
+So what Anthropic and OpenAI decided to do was, was in my view, create a conspiracy.
+
+757
+00:43:34,680 --> 00:43:35,780
+The world was going to end.
+
+758
+00:43:36,340 --> 00:43:37,400
+You think that's a conspiracy?
+
+759
+00:43:37,440 --> 00:43:42,080
+Not even a, not a single doubt in my mind, not for one minute.
+
+760
+00:43:42,080 --> 00:43:44,860
+Do I think any of these guys believe the bullshit that they just said?
+
+761
+00:43:45,640 --> 00:43:46,400
+So all this doom.
+
+762
+00:43:46,400 --> 00:43:47,180
+The stuff around AI.
+
+763
+00:43:47,180 --> 00:43:48,020
+It's nonsense.
+
+764
+00:43:48,400 --> 00:43:49,520
+It's utter nonsense.
+
+765
+00:43:49,580 --> 00:43:52,460
+I sit here, obviously with safety experts that have been working on this for 15 years.
+
+766
+00:43:52,460 --> 00:43:53,220
+Ridiculous.
+
+767
+00:43:53,360 --> 00:43:53,660
+Really?
+
+768
+00:43:53,720 --> 00:43:54,560
+It's ridiculous.
+
+769
+00:43:55,020 --> 00:43:56,160
+It's utterly ridiculous.
+
+770
+00:43:57,200 --> 00:43:59,520
+Listen, terminator was a great movie.
+
+771
+00:44:00,160 --> 00:44:01,340
+The world's not going to end.
+
+772
+00:44:02,200 --> 00:44:03,860
+And these guys don't believe it's going to end.
+
+773
+00:44:04,400 --> 00:44:07,640
+It may be in some fantasy level, you know, cause they read too much science fiction.
+
+774
+00:44:08,200 --> 00:44:11,120
+They think maybe it'll end, but it's, that's not going to end.
+
+775
+00:44:11,180 --> 00:44:15,160
+What they did was create his, they tried to create hysteria.
+
+776
+00:44:15,160 --> 00:44:18,980
+So that they'd get regulated.
+
+777
+00:44:19,880 --> 00:44:25,560
+And by getting regulated, they thought they could manipulate the regulation to X out the Chinese models.
+
+778
+00:44:26,260 --> 00:44:28,060
+And that would be their regulatory moat.
+
+779
+00:44:28,240 --> 00:44:35,480
+They would own the, in the US, the entire AI world, because no competition from China was going to be allowed in.
+
+780
+00:44:36,560 --> 00:44:37,640
+That's what that was all about.
+
+781
+00:44:38,220 --> 00:44:39,240
+So explain the reasoning to me.
+
+782
+00:44:39,240 --> 00:44:41,260
+So I'm Sam Altman or Dario.
+
+783
+00:44:41,360 --> 00:44:42,380
+I'm worried now.
+
+784
+00:44:43,120 --> 00:44:44,740
+These Chinese models are coming in.
+
+785
+00:44:45,160 --> 00:44:45,680
+They're pretty good.
+
+786
+00:44:45,840 --> 00:44:48,500
+They're not quite as good as my model, but they're good.
+
+787
+00:44:48,640 --> 00:44:50,460
+And they're one-tenth the cost.
+
+788
+00:44:50,880 --> 00:44:52,960
+And I can't, I, I lose money.
+
+789
+00:44:53,020 --> 00:44:54,400
+I can't afford a price war.
+
+790
+00:44:54,540 --> 00:44:56,660
+I can't afford to cut price.
+
+791
+00:44:57,620 --> 00:45:01,000
+I need to find a way to keep them out.
+
+792
+00:45:01,860 --> 00:45:03,060
+So what do I do?
+
+793
+00:45:03,400 --> 00:45:04,380
+I create hysteria.
+
+794
+00:45:05,260 --> 00:45:07,140
+And then the hysteria leads to what?
+
+795
+00:45:07,440 --> 00:45:07,880
+Regulation.
+
+796
+00:45:08,360 --> 00:45:09,460
+What kind of regulation?
+
+797
+00:45:09,680 --> 00:45:15,040
+Well, you can unclear, but you're going to, the federal government's going to come in and regulate because how could it not?
+
+798
+00:45:15,040 --> 00:45:24,760
+If the planet earth's going to end, we got to regulate this business and then, then these guys will somehow convince the regulators to throw the Chinese models out of the country.
+
+799
+00:45:25,300 --> 00:45:37,360
+I mean, you might've seen all of these CEOs Sundar from Google, Dario from Anthropic, Mark from Meta, Greg from OpenAI and Elon Musk and Jensen Huang all went to the white house to speak to Donald Trump.
+
+800
+00:45:37,360 --> 00:45:38,500
+And they signed this.
+
+801
+00:45:38,920 --> 00:45:40,060
+They signed this deal with Donald Trump.
+
+802
+00:45:40,060 --> 00:45:44,920
+It says that they all agree to implement robust internal controls to monitor the capabilities.
+
+803
+00:45:44,920 --> 00:46:14,600
+And alignment of the AI models, things like cybersecurity, biosecurity, et cetera, to empower an internal team, to ensure all of the controls and monitoring direction operating as intended partner with an independent external auditor or evaluated to carry out independent assessments of whether the controls monitoring and detection operating as intended designate an independent committee of the board of directors to oversee and receive reports from the teams operating the controls and the internal and external auditors and evaluators, as well as to ensure any issues identified.
+
+804
+00:46:14,600 --> 00:46:14,880
+Right.
+
+805
+00:46:14,920 --> 00:46:16,480
+Remediated and together.
+
+806
+00:46:16,480 --> 00:46:20,920
+These steps will give each company, its customers and the public confidence that the technology is operating as intended.
+
+807
+00:46:21,060 --> 00:46:26,740
+The participating companies will meet regularly to establish standards and best practices to improve the safety of the systems.
+
+808
+00:46:27,220 --> 00:46:27,940
+That's nice.
+
+809
+00:46:28,060 --> 00:46:34,660
+And lastly, over time, it may make sense to codify these steps into laws and regulations, regardless of whether this is required by the companies.
+
+810
+00:46:36,140 --> 00:46:40,600
+And we believe that implementing these controls and audits is critical to ensuring a safe future for everyone.
+
+811
+00:46:41,320 --> 00:46:43,320
+And each of our companies is committed to doing so.
+
+812
+00:46:43,880 --> 00:46:44,900
+Signed by Donald Trump.
+
+813
+00:46:44,920 --> 00:46:46,260
+And all of those CEOs.
+
+814
+00:46:47,160 --> 00:46:47,480
+Lovely.
+
+815
+00:46:48,100 --> 00:46:49,760
+It's got nothing to do with the world ending.
+
+816
+00:46:51,400 --> 00:46:51,800
+Nothing.
+
+817
+00:46:52,460 --> 00:46:56,900
+I mean, I think they should be better run companies so that their models don't hack everybody.
+
+818
+00:46:57,520 --> 00:47:01,820
+That I think is within their control, which is basically what they're talking about in that document.
+
+819
+00:47:02,860 --> 00:47:05,880
+But that's not going to get regulation.
+
+820
+00:47:06,140 --> 00:47:08,160
+What was going to get regulation is the end of the world.
+
+821
+00:47:08,940 --> 00:47:13,700
+They've all come out with pretty horrific quotes regarding what might happen, including Elon Musk.
+
+822
+00:47:13,700 --> 00:47:14,400
+Yeah, I know.
+
+823
+00:47:14,920 --> 00:47:16,420
+You don't think any of these quotes are?
+
+824
+00:47:16,680 --> 00:47:17,700
+I don't believe one word.
+
+825
+00:47:18,580 --> 00:47:20,340
+I've read a lot of science fiction, too.
+
+826
+00:47:20,880 --> 00:47:23,700
+Their teammates have come out as well and said these dystopian things.
+
+827
+00:47:23,780 --> 00:47:24,900
+Some of them, they believe it.
+
+828
+00:47:25,000 --> 00:47:26,060
+I just think it's ridiculous.
+
+829
+00:47:26,900 --> 00:47:34,040
+Sam Altman said in 2015, the development of superintelligence is probably the greatest threat to the continued existence of humanity.
+
+830
+00:47:34,780 --> 00:47:35,180
+Thanks, Sam.
+
+831
+00:47:35,680 --> 00:47:37,260
+I don't believe a word Sam Altman says.
+
+832
+00:47:38,500 --> 00:47:38,900
+Literally.
+
+833
+00:47:40,620 --> 00:47:41,020
+Why?
+
+834
+00:47:41,680 --> 00:47:42,580
+That's his reputation.
+
+835
+00:47:43,100 --> 00:47:43,880
+What about Elon?
+
+836
+00:47:44,060 --> 00:47:44,580
+He said there's only...
+
+837
+00:47:44,920 --> 00:47:46,980
+There's only a 20% chance of annihilation.
+
+838
+00:47:47,380 --> 00:47:49,600
+Elon reads way too much science fiction.
+
+839
+00:47:50,080 --> 00:47:59,200
+You know, in his SpaceX prospectus, he had a list of things that he wanted SpaceX to eventually do.
+
+840
+00:47:59,600 --> 00:48:01,420
+And one of them was asteroid mining.
+
+841
+00:48:02,620 --> 00:48:09,240
+And I laughed because there's a show on Apple called For All Mankind, where that's like a major theme.
+
+842
+00:48:09,280 --> 00:48:12,920
+I'm thinking maybe Elon was just watching the show and he decided to shove it into his prospectus.
+
+843
+00:48:12,920 --> 00:48:13,720
+I would have liked to have seen that.
+
+844
+00:48:14,040 --> 00:48:17,920
+Well, you know, interestingly, you talked about how the midterms are going to change politics.
+
+845
+00:48:18,520 --> 00:48:23,340
+I saw Elon do a tweet regarding the data centers, where he said, data centers...
+
+846
+00:48:23,340 --> 00:48:24,460
+This was after the midterms.
+
+847
+00:48:24,600 --> 00:48:24,740
+Okay.
+
+848
+00:48:24,740 --> 00:48:28,280
+Data centers in space is looking pretty appealing right now.
+
+849
+00:48:28,720 --> 00:48:31,320
+And this is part of what SpaceX have been intending to do.
+
+850
+00:48:31,960 --> 00:48:32,520
+God bless Elon.
+
+851
+00:48:32,700 --> 00:48:33,060
+You know what?
+
+852
+00:48:33,300 --> 00:48:42,300
+I think data centers in space is a very technically extraordinarily difficult engineering construction story.
+
+853
+00:48:43,220 --> 00:48:45,320
+Better to try and build stuff on planet Earth.
+
+854
+00:48:49,440 --> 00:48:50,340
+You're silent.
+
+855
+00:48:51,560 --> 00:48:57,940
+Yeah, you know, part of the reason I think I'm silent is Elon has said a lot of crazy things.
+
+856
+00:48:58,040 --> 00:48:58,440
+He has.
+
+857
+00:48:58,760 --> 00:49:03,820
+And the remarkable part is how many of those crazy things actually then happen.
+
+858
+00:49:04,260 --> 00:49:11,200
+Like if you'd said the Neuralink thing to me, that people that can't speak or move would be able to control a computer with their brain,
+
+859
+00:49:11,200 --> 00:49:12,460
+I would have gone fucking crazy.
+
+860
+00:49:12,620 --> 00:49:17,840
+If you told me that you were going to be able to catch a rocket on chopsticks, I'd have gone fucking crazy.
+
+861
+00:49:18,340 --> 00:49:19,760
+So I hesitate, I think.
+
+862
+00:49:19,980 --> 00:49:21,140
+I understand your hesitation.
+
+863
+00:49:21,380 --> 00:49:24,080
+I just, this whole thing about end of the world, I don't buy it.
+
+864
+00:49:24,120 --> 00:49:25,060
+I just don't buy it at all.
+
+865
+00:49:25,280 --> 00:49:26,620
+Is there a way you could be wrong?
+
+866
+00:49:27,180 --> 00:49:27,460
+Sure.
+
+867
+00:49:27,860 --> 00:49:29,140
+And what does that look like?
+
+868
+00:49:29,240 --> 00:49:30,660
+What would be flawed in your assumptions?
+
+869
+00:49:30,980 --> 00:49:37,660
+You'd have to really be much, much closer or actually to achieve artificial general intelligence.
+
+870
+00:49:37,800 --> 00:49:38,600
+I don't think we're close.
+
+871
+00:49:39,500 --> 00:49:40,060
+You don't think we're close?
+
+872
+00:49:40,060 --> 00:49:41,000
+No, I don't think we're close.
+
+873
+00:49:41,960 --> 00:49:49,140
+I think these models, as they currently exist, are excellent word retrieval models.
+
+874
+00:49:49,540 --> 00:49:51,160
+But they're not even close to thinking.
+
+875
+00:49:51,680 --> 00:49:52,880
+That's what I think about it.
+
+876
+00:49:53,520 --> 00:49:58,760
+You heard about the Hugging Face incident where these agents escaped their sandboxes and started hacking other websites, didn't you?
+
+877
+00:49:58,800 --> 00:50:00,180
+Yeah, it's a word retrieval thing.
+
+878
+00:50:00,300 --> 00:50:01,360
+It's not, they're not thinking.
+
+879
+00:50:01,900 --> 00:50:04,240
+They're able to go out into the world and do things, though, aren't they?
+
+880
+00:50:04,280 --> 00:50:04,700
+They're able to.
+
+881
+00:50:04,780 --> 00:50:05,620
+Yes, they definitely are.
+
+882
+00:50:06,100 --> 00:50:06,700
+No question.
+
+883
+00:50:06,980 --> 00:50:08,020
+They're not sentient.
+
+884
+00:50:08,680 --> 00:50:09,580
+Do they need to be?
+
+885
+00:50:09,840 --> 00:50:11,180
+If they can just take, if they can take it?
+
+886
+00:50:11,180 --> 00:50:16,240
+If they can take actions, and sometimes they operate under their own, under their own motives.
+
+887
+00:50:16,780 --> 00:50:17,720
+In the Hugging Face incident.
+
+888
+00:50:17,740 --> 00:50:18,720
+I don't think they have motives.
+
+889
+00:50:19,040 --> 00:50:23,640
+Well, in the Hugging Face incident, they were set a task, and they end up cheating on the task, and then trying to cover up their cheating.
+
+890
+00:50:23,640 --> 00:50:24,640
+That's the official word.
+
+891
+00:50:25,200 --> 00:50:28,040
+I'm not sure we know really what happened with that.
+
+892
+00:50:28,520 --> 00:50:31,200
+Why are you fundamentally skeptical about what they say?
+
+893
+00:50:32,020 --> 00:50:34,960
+And do you think the Hugging Face incident thing was more propaganda?
+
+894
+00:50:35,400 --> 00:50:37,680
+I'll give you an example of why I think it's nonsense.
+
+895
+00:50:38,680 --> 00:50:40,620
+If I was Dario Amode.
+
+896
+00:50:41,180 --> 00:50:51,240
+And I seriously thought, like really seriously thought, that what I'm doing is going to end planet Earth.
+
+897
+00:50:52,080 --> 00:50:58,460
+The next sentence out of my mouth would not be, how much of an allocation for my IPO can I give you?
+
+898
+00:50:59,160 --> 00:51:04,900
+Because that's the next sentence out of his mouth, is I'm going public, and I'm going to raise a lot of capital.
+
+899
+00:51:05,160 --> 00:51:09,620
+It's not, I'm going to take a step back and try and figure out that this is going to be okay.
+
+900
+00:51:10,020 --> 00:51:11,020
+So, well, that's...
+
+901
+00:51:11,180 --> 00:51:14,560
+If that's what he's doing, then that's what I take seriously.
+
+902
+00:51:14,980 --> 00:51:18,480
+I'm a great believer in, watch what I do, not what I say.
+
+903
+00:51:19,580 --> 00:51:24,120
+I guess the rebuttal there is that, what if you said you don't trust Sam Altman?
+
+904
+00:51:24,560 --> 00:51:25,540
+I don't trust Dario either.
+
+905
+00:51:26,260 --> 00:51:32,940
+If you're Dario, and you don't trust Sam, and you think that this technology could lead to some sort of existential threat,
+
+906
+00:51:33,400 --> 00:51:38,360
+and you are currently the leader, or you currently have the best team, the best models,
+
+907
+00:51:39,160 --> 00:51:40,960
+you know that if you stop, you kind of hand...
+
+908
+00:51:41,180 --> 00:51:42,880
+And the first place...
+
+909
+00:51:42,880 --> 00:51:45,940
+So then go to the government and say, make us both stop.
+
+910
+00:51:46,120 --> 00:51:47,040
+But they didn't do that.
+
+911
+00:51:47,780 --> 00:51:49,140
+They wrote the letter, though, didn't they?
+
+912
+00:51:49,140 --> 00:51:51,380
+That letter says nothing about slowing down.
+
+913
+00:51:52,180 --> 00:51:56,500
+They wrote this petition called Pacing the Frontier, where they talk about...
+
+914
+00:51:56,500 --> 00:51:57,460
+And did they follow up?
+
+915
+00:51:57,660 --> 00:51:58,720
+They didn't follow up.
+
+916
+00:51:59,240 --> 00:51:59,900
+They wrote a letter.
+
+917
+00:52:00,080 --> 00:52:00,640
+Big deal.
+
+918
+00:52:01,980 --> 00:52:03,980
+I guess the other thing is, China might win.
+
+919
+00:52:05,120 --> 00:52:06,180
+That's possible, too.
+
+920
+00:52:06,780 --> 00:52:08,180
+So how can we stop if...
+
+921
+00:52:09,280 --> 00:52:11,180
+Like I said, I don't trust these...
+
+922
+00:52:11,180 --> 00:52:11,560
+I don't trust these guys.
+
+923
+00:52:11,700 --> 00:52:12,500
+I don't believe them.
+
+924
+00:52:13,520 --> 00:52:14,640
+They're all going public.
+
+925
+00:52:14,840 --> 00:52:15,960
+They want to make a lot of money.
+
+926
+00:52:16,520 --> 00:52:17,580
+That's what motivates them.
+
+927
+00:52:18,620 --> 00:52:20,480
+You said earlier about incentives trumping.
+
+928
+00:52:20,640 --> 00:52:21,520
+That's their incentives.
+
+929
+00:52:21,660 --> 00:52:22,480
+They need to make money.
+
+930
+00:52:22,860 --> 00:52:25,220
+They need to raise capital because they burn it.
+
+931
+00:52:25,720 --> 00:52:27,140
+So they need to raise capital now.
+
+932
+00:52:28,360 --> 00:52:32,220
+[name unclear, possibly Anthropic] needs to go public now, and OpenAI needs to go public next year.
+
+933
+00:52:32,960 --> 00:52:34,220
+That, they don't have a choice.
+
+934
+00:52:34,620 --> 00:52:36,700
+Otherwise, their companies will just collapse.
+
+935
+00:52:37,780 --> 00:52:41,060
+Do you think any of them are altruistic, or do you think any of them are...
+
+936
+00:52:41,060 --> 00:52:46,640
+really care about the future of civilization more so than their near-term revenue profits money?
+
+937
+00:52:47,340 --> 00:52:49,560
+I know they care about their revenues and profits.
+
+938
+00:52:49,820 --> 00:52:52,400
+What else motivates them is immaterial.
+
+939
+00:52:54,180 --> 00:52:56,900
+We've talked about, I think, all four of the risks now.
+
+940
+00:52:57,000 --> 00:53:00,020
+We've talked about them having no moats, the capital intensitivity.
+
+941
+00:53:00,020 --> 00:53:05,660
+We talked about the data centers, and we've talked about how the whole industry depends on just these two guys,
+
+942
+00:53:05,720 --> 00:53:06,780
+Anthropic and OpenAI.
+
+943
+00:53:08,200 --> 00:53:10,900
+Is there anything else that's front of mind for you as it relates to the
+
+944
+00:53:10,900 --> 00:53:11,040
+moment?
+
+945
+00:53:11,060 --> 00:53:14,420
+We're in now with the midterms and AI and what might happen next?
+
+946
+00:53:14,820 --> 00:53:17,000
+Wall Street does very badly with politics.
+
+947
+00:53:17,680 --> 00:53:20,500
+And I'm not speaking about this from a partisan perspective.
+
+948
+00:53:21,140 --> 00:53:24,380
+It has great difficulty handicapping politics.
+
+949
+00:53:25,220 --> 00:53:34,740
+And the more local the politics, the harder it is to handicap because it just, I mean, like, do I need to know what's going on in Wichita?
+
+950
+00:53:35,040 --> 00:53:39,500
+And yet it turns out that maybe what's going on in Wichita or Wyoming or wherever is important.
+
+951
+00:53:39,820 --> 00:53:40,320
+So.
+
+952
+00:53:40,320 --> 00:53:49,320
+I think we're in a, uh, an environment, at least for the next couple of months where politics is going to subsume everything.
+
+953
+00:53:50,400 --> 00:53:52,820
+And that's very hard to have for the market to handicap.
+
+954
+00:53:52,820 --> 00:53:54,060
+It doesn't really know what to do.
+
+955
+00:53:54,480 --> 00:53:56,700
+When you say politics is going to subsume everything.
+
+956
+00:53:57,040 --> 00:53:57,900
+Can you give me some detail?
+
+957
+00:53:57,940 --> 00:53:58,300
+What do you mean?
+
+958
+00:53:58,560 --> 00:54:10,080
+Oh, so in other words, in all these localities and states, you know, you're talking about, you know, the governor in some state is going to put a moratorium on AI data center construction, or some localities going to
+
+959
+00:54:10,080 --> 00:54:13,740
+slow walk the permits, you know, this, this is what's going to go on throughout the country.
+
+960
+00:54:13,740 --> 00:54:17,040
+And then the real question is going to be how much of that's going on.
+
+961
+00:54:17,880 --> 00:54:24,480
+You know, in some localities where these data centers were built, they're paying the property taxes of people.
+
+962
+00:54:25,460 --> 00:54:32,460
+So the technology industry has done a horrific job explaining the benefits.
+
+963
+00:54:32,800 --> 00:54:35,760
+Like, wouldn't you like to live in a town where you don't have to pay property taxes?
+
+964
+00:54:35,760 --> 00:54:37,320
+Cause we'll pay them for you.
+
+965
+00:54:38,040 --> 00:54:38,340
+But.
+
+966
+00:54:38,340 --> 00:54:43,320
+The data center is so unpopular all over the country.
+
+967
+00:54:43,500 --> 00:54:44,400
+It's extraordinary.
+
+968
+00:54:45,060 --> 00:54:48,840
+It represents more than just the sort of environmental impacts people talk about.
+
+969
+00:54:48,840 --> 00:54:55,320
+It represents like tech oligarchy and it represents the threat of me losing my job.
+
+970
+00:54:56,100 --> 00:55:03,420
+You know, that's another one that the AI industry had, you know, another one of this is one of the reasons I don't believe their predictions early in the year.
+
+971
+00:55:03,420 --> 00:55:04,800
+They were talking about everybody's lose their job.
+
+972
+00:55:05,880 --> 00:55:07,800
+Nobody lost their job now.
+
+973
+00:55:07,920 --> 00:55:08,320
+It's true.
+
+974
+00:55:08,520 --> 00:55:15,620
+That it's harder for young people to get jobs that that's fair, but it's not wiping out jobs.
+
+975
+00:55:15,620 --> 00:55:19,940
+And in the history of technology, no new technology has ever been a net destroyer of jobs.
+
+976
+00:55:20,240 --> 00:55:27,760
+And yet these guys decided that they were going to make this prediction that was going to get everybody really upset, which proved to be untrue.
+
+977
+00:55:28,580 --> 00:55:31,480
+It's proven to be untrue so far for most people.
+
+978
+00:55:31,700 --> 00:55:32,300
+For most people.
+
+979
+00:55:32,440 --> 00:55:33,600
+It's completely untrue.
+
+980
+00:55:33,680 --> 00:55:38,060
+I mean, you know, for example, radiologists were told don't become a radiologist.
+
+981
+00:55:38,860 --> 00:55:43,220
+Because when you go for your radiology exam, AI will read the whole thing.
+
+982
+00:55:43,220 --> 00:55:44,440
+You don't need a radiologist.
+
+983
+00:55:45,560 --> 00:55:47,500
+Turned out that's not true.
+
+984
+00:55:48,240 --> 00:55:50,780
+You need a radiologist even to read what AI has to say.
+
+985
+00:55:50,780 --> 00:55:53,300
+And so now in the United States, there's a shortage of radiologists.
+
+986
+00:55:53,680 --> 00:56:07,060
+One of the things that gave me a little bit of optimism in this regard is I read some stats that said there are, there has been an explosion in new companies, but the average size of a company is now smaller.
+
+987
+00:56:07,100 --> 00:56:07,620
+Yes.
+
+988
+00:56:07,860 --> 00:56:08,320
+So I was thinking.
+
+989
+00:56:08,320 --> 00:56:28,580
+Oh, that does make a lot of sense that a K it's possible that we could be entering a great age of entrepreneurship because the cost, I mean, as you know, from running your business and Iroh know from running my podcast business, the cost to create what we create, it's like a hundredth of what it costs, you know, your typical old media to create it.
+
+990
+00:56:28,640 --> 00:56:29,620
+And I think that's true.
+
+991
+00:56:29,780 --> 00:56:31,920
+I'm going to be true in a lot of different businesses.
+
+992
+00:56:32,420 --> 00:56:37,440
+And so it's probably going to be a great time to be, you know, to create a new business.
+
+993
+00:56:37,440 --> 00:56:37,800
+Yeah.
+
+994
+00:56:37,800 --> 00:56:41,580
+The stats I read really opened my eyes because it said, so I can't remember the exact numbers.
+
+995
+00:56:41,580 --> 00:56:49,800
+I'll throw them up on the screen, but essentially there was this huge explosion and new businesses started last year in the U S and the businesses are now smaller in headcount on average.
+
+996
+00:56:49,800 --> 00:56:50,860
+That makes a hundred percent.
+
+997
+00:56:50,860 --> 00:56:51,660
+A hundred percent.
+
+998
+00:56:51,660 --> 00:56:54,400
+Because, you know, you can start a business today with a lot fewer people.
+
+999
+00:56:54,900 --> 00:56:58,800
+We run our business, which is, it's just basically me and my CEO.
+
+1000
+00:56:58,800 --> 00:56:59,460
+Who's my wife.
+
+1001
+00:56:59,820 --> 00:57:00,320
+That's it.
+
+1002
+00:57:00,680 --> 00:57:03,480
+The two of us, we don't need anybody else.
+
+1003
+00:57:03,960 --> 00:57:07,300
+And maybe that's what technology ends up doing like Shopify meant that you didn't need to have a company.
+
+1004
+00:57:07,300 --> 00:57:07,400
+Yeah.
+
+1005
+00:57:07,400 --> 00:57:12,120
+Have a physical store and a gazillion people in one person doing this, that, and the other, you could do it from.
+
+1006
+00:57:12,120 --> 00:57:13,580
+This goes even to another level.
+
+1007
+00:57:13,620 --> 00:57:13,960
+Yeah.
+
+1008
+00:57:14,020 --> 00:57:17,840
+Well, you can have your marketing team run by AI and your, your storefront and all sorts.
+
+1009
+00:57:17,840 --> 00:57:18,080
+Yeah.
+
+1010
+00:57:18,080 --> 00:57:27,560
+That, that, that is, um, that is a forecast that nobody has shared with me, but I think makes a ton of sense, which means that we could all just become, you know, more entrepreneurial, I guess.
+
+1011
+00:57:28,140 --> 00:57:29,420
+A lot more small businesses.
+
+1012
+00:57:31,100 --> 00:57:32,920
+What are you investing in, in this moment?
+
+1013
+00:57:33,920 --> 00:57:35,160
+I've been thinking a lot about this.
+
+1014
+00:57:36,080 --> 00:57:37,360
+I mean, I had a lot of the.
+
+1015
+00:57:37,640 --> 00:57:41,300
+Technology companies in my portfolio and about four months or so.
+
+1016
+00:57:41,300 --> 00:57:47,660
+I, uh, I shorted most of them against the box to reduce my risk.
+
+1017
+00:57:47,960 --> 00:57:49,620
+You shorted most of them against the box.
+
+1018
+00:57:49,620 --> 00:57:49,820
+Yeah.
+
+1019
+00:57:49,940 --> 00:57:50,480
+What does that mean?
+
+1020
+00:57:50,900 --> 00:57:54,780
+So let's say I own a hundred shares of NVIDIA.
+
+1021
+00:57:55,080 --> 00:58:02,060
+Let's make up a, a number and I've owned it for a very long time and I'm nervous.
+
+1022
+00:58:02,600 --> 00:58:06,560
+The problem is if I sell my NVIDIA, I gotta pay massive taxes on the game.
+
+1023
+00:58:07,400 --> 00:58:12,560
+I don't want to do that unless I'm so freaked out that I'll do it anyway.
+
+1024
+00:58:12,560 --> 00:58:14,720
+I mean, you're talking about 30, 35% taxes.
+
+1025
+00:58:14,720 --> 00:58:15,320
+It's a lot.
+
+1026
+00:58:16,220 --> 00:58:26,360
+So what you can do for a time, you can't do it forever is I can short 50 shares or 75 shares or even a hundred shares of NVIDIA.
+
+1027
+00:58:27,640 --> 00:58:30,020
+So now my NVIDIA exposure is a lot lower.
+
+1028
+00:58:30,320 --> 00:58:37,100
+If I were to do that today, I'd have to cover the entire position at the end of January.
+
+1029
+00:58:37,100 --> 00:58:42,740
+That's just the way the tax rules work, but during that period, I wouldn't have any real exposure to NVIDIA.
+
+1030
+00:58:43,040 --> 00:58:43,760
+That's what I did.
+
+1031
+00:58:44,420 --> 00:58:45,680
+So you're shorting the video.
+
+1032
+00:58:46,340 --> 00:58:51,080
+Well, I'm long it and I shorted like half of my position.
+
+1033
+00:58:51,340 --> 00:58:53,060
+What companies do you invest in?
+
+1034
+00:58:53,900 --> 00:58:55,520
+I think you wrote, you write about this in your sub stack.
+
+1035
+00:58:55,620 --> 00:58:55,980
+I did.
+
+1036
+00:58:56,140 --> 00:59:05,720
+I put out a whole, my, went through my entire portfolio, you know, NVIDIA, uh, Microsoft, Eli Lilly, Moody's, Visa.
+
+1037
+00:59:06,200 --> 00:59:07,060
+Why Eli Lilly?
+
+1038
+00:59:07,560 --> 00:59:15,020
+Oh, because they own the whole GLP one drug, probably forever sweeping the whole world.
+
+1039
+00:59:15,620 --> 00:59:17,540
+The, the company's put up crazy numbers.
+
+1040
+00:59:19,580 --> 00:59:27,080
+And if you were, um, if you had a thousand dollars, yeah, let's say today, what would you do?
+
+1041
+00:59:27,180 --> 00:59:27,680
+What would you do?
+
+1042
+00:59:27,720 --> 00:59:29,600
+I have very simple advice to people.
+
+1043
+00:59:30,860 --> 00:59:36,320
+Uh, my advice to them is that look, the United States long-term is the most dynamic
+
+1044
+00:59:36,320 --> 00:59:37,040
+economy in the world.
+
+1045
+00:59:37,280 --> 00:59:40,520
+So you want to invest in it, but you don't want to pick stocks.
+
+1046
+00:59:41,240 --> 00:59:47,480
+So take your thousand dollars and buy the S and P 500 index.
+
+1047
+00:59:47,960 --> 00:59:56,600
+And every month or two months or three months, whatever it is that you've saved some money that you can afford to invest, buy some more.
+
+1048
+00:59:57,900 --> 00:59:59,600
+And then three months later, buy some more.
+
+1049
+01:00:00,000 --> 01:00:07,660
+And forget about it because if you're young, you know, your time horizon is 40, 50 years.
+
+1050
+01:00:08,040 --> 01:00:14,200
+If you keep doing that at the end of the day, you will have a very nice nest egg, but don't
+
+1051
+01:00:14,200 --> 01:00:15,280
+try and time the market.
+
+1052
+01:00:16,020 --> 01:00:18,540
+Don't sell your index and buy it back.
+
+1053
+01:00:18,620 --> 01:00:19,240
+Don't trade.
+
+1054
+01:00:19,340 --> 01:00:20,420
+Don't do options.
+
+1055
+01:00:20,860 --> 01:00:24,600
+Just buy the index and keep buying it over time.
+
+1056
+01:00:24,800 --> 01:00:26,240
+And don't even look at it.
+
+1057
+01:00:27,020 --> 01:00:28,060
+A little bit of crypto.
+
+1058
+01:00:28,780 --> 01:00:29,220
+Never.
+
+1059
+01:00:30,000 --> 01:00:33,940
+No, absolutely never.
+
+1060
+01:00:35,440 --> 01:00:35,960
+Why?
+
+1061
+01:00:36,560 --> 01:00:42,420
+So I remember during COVID, I listened to a lot of podcasts and some of the podcasts
+
+1062
+01:00:42,420 --> 01:00:44,560
+that I listened to were crypto podcasts.
+
+1063
+01:00:44,840 --> 01:00:50,620
+And they were all like guys that I sort of knew who had been on wall street and had left
+
+1064
+01:00:50,620 --> 01:00:52,080
+after the great financial crisis.
+
+1065
+01:00:52,080 --> 01:00:54,000
+And we're now a crypto bros.
+
+1066
+01:00:54,300 --> 01:00:58,400
+And so the question always came up, which was here's crypto.
+
+1067
+01:00:58,980 --> 01:00:59,840
+What's the thesis?
+
+1068
+01:00:59,840 --> 01:01:01,580
+This is to why should I should invest in crypto.
+
+1069
+01:01:02,180 --> 01:01:03,920
+And the answer was always the same.
+
+1070
+01:01:04,160 --> 01:01:06,020
+It didn't matter which podcast you listened to.
+
+1071
+01:01:06,260 --> 01:01:13,880
+Same answer that there's been a terror, been a terrible debasement of fear currency, which
+
+1072
+01:01:13,880 --> 01:01:14,960
+is government currency.
+
+1073
+01:01:15,380 --> 01:01:16,460
+There's too much debt.
+
+1074
+01:01:16,460 --> 01:01:18,140
+The deficit is too big.
+
+1075
+01:01:18,680 --> 01:01:21,920
+And one day it's quite possible this whole system will crash.
+
+1076
+01:01:22,560 --> 01:01:29,060
+And so as a hedge against that, you should own crypto.
+
+1077
+01:01:29,840 --> 01:01:37,600
+And don't, you know, put 3% of your money in crypto as a hedge against basically the end of the world.
+
+1078
+01:01:37,940 --> 01:01:39,140
+That was the thesis.
+
+1079
+01:01:39,860 --> 01:01:48,020
+I've never heard an alternative thesis other than it's good for money laundering, but you can't, most people can't do.
+
+1080
+01:01:48,140 --> 01:01:49,280
+So it's not a thesis.
+
+1081
+01:01:49,880 --> 01:01:59,600
+The problem with the thesis was that if that's the thesis, then on days where inflation numbers are
+
+1082
+01:01:59,600 --> 01:01:59,820
+terrible.
+
+1083
+01:02:00,420 --> 01:02:03,600
+And interest rates are up a lot and NASDAQ is down a lot.
+
+1084
+01:02:04,140 --> 01:02:05,040
+Crypto should be up.
+
+1085
+01:02:06,120 --> 01:02:13,500
+And on days where everything is good and NVIDIA is up 6% and NASDAQ is up 2% and everybody's feeling great.
+
+1086
+01:02:13,940 --> 01:02:14,700
+Crypto should be down.
+
+1087
+01:02:16,320 --> 01:02:17,980
+And it acts exactly inversely to that.
+
+1088
+01:02:19,380 --> 01:02:27,780
+On days where NVIDIA is up, crypto is up and on days where, where NVIDIA is down and, and, and people are upset, crypto is down.
+
+1089
+01:02:28,620 --> 01:02:29,800
+So here you go.
+
+1090
+01:02:29,940 --> 01:02:34,380
+You have a thesis and your, your asset acts inversely to your thesis.
+
+1091
+01:02:34,860 --> 01:02:41,520
+So that means a, your thesis is nonsense and B it's just a way of speculating about speculating.
+
+1092
+01:02:41,700 --> 01:02:44,160
+So what do you think crypto is then over the long term?
+
+1093
+01:02:44,700 --> 01:02:47,160
+I don't think it's nothing now.
+
+1094
+01:02:47,160 --> 01:02:59,820
+Stable coins, which is, which is a part of the crypto world might have some value because stable coin is a crypto whose value doesn't fluctuate and that could be used as part of the payments.
+
+1095
+01:02:59,980 --> 01:03:09,900
+But you can't use Bitcoin as part of the payment system, the thing fluctuates all over the place, and it's not a store of value because again, it acts inversely to its own thesis.
+
+1096
+01:03:10,620 --> 01:03:12,240
+What about this gold?
+
+1097
+01:03:12,540 --> 01:03:15,360
+So I'll be the first to admit I'm not into gold.
+
+1098
+01:03:15,780 --> 01:03:23,700
+I never have been, you know, I have, there are plenty of people I know who, you know, made a fortune in gold over the last, it's, it's the same thesis as crypto.
+
+1099
+01:03:25,200 --> 01:03:28,440
+Th the, the, the crypto thesis was basically digital gold.
+
+1100
+01:03:29,020 --> 01:03:29,620
+Yeah.
+
+1101
+01:03:30,620 --> 01:03:37,060
+Except gold mostly acts like that, according to the thesis and crypto acts inversely to the thesis.
+
+1102
+01:03:37,660 --> 01:03:43,900
+I just am not a believer that the, that the us deficit is going to cause a calamity anytime soon.
+
+1103
+01:03:44,280 --> 01:03:45,580
+So I don't invest in gold.
+
+1104
+01:03:45,980 --> 01:03:49,660
+Gold also has a utility and I just got engaged to my fiance.
+
+1105
+01:03:49,740 --> 01:03:50,860
+Oh, congratulations.
+
+1106
+01:03:51,580 --> 01:03:53,440
+Yeah, but that's not why people own gold.
+
+1107
+01:03:54,580 --> 01:03:56,240
+But it has value in the real world is what I'm saying.
+
+1108
+01:03:56,240 --> 01:03:56,580
+Yeah.
+
+1109
+01:03:56,580 --> 01:03:58,020
+But again, that's not why people own gold.
+
+1110
+01:03:58,020 --> 01:03:59,780
+People own gold because you know, again, as a.
+
+1111
+01:03:59,820 --> 01:04:05,820
+Hedge against the end of the world, you're saying that the us deficit, you don't see it as being a problem.
+
+1112
+01:04:06,200 --> 01:04:06,940
+I didn't say that.
+
+1113
+01:04:07,060 --> 01:04:07,280
+Okay.
+
+1114
+01:04:07,280 --> 01:04:07,780
+What did you say?
+
+1115
+01:04:07,820 --> 01:04:16,580
+What I say is that the people who have been complaining about the us deficit have been complaining about it for 40 years.
+
+1116
+01:04:17,360 --> 01:04:21,480
+Pete Peterson used to talk, he said exactly the same thing in the nineties.
+
+1117
+01:04:22,580 --> 01:04:29,740
+So I think the more important question is when somebody or some group of people makes a prediction for 40 years.
+
+1118
+01:04:30,360 --> 01:04:31,620
+And nothing happens.
+
+1119
+01:04:32,980 --> 01:04:36,520
+The question you should ask yourself first is why hasn't it happened?
+
+1120
+01:04:38,200 --> 01:04:43,360
+Then maybe we could talk about the deficit, but let's address you've been predicting the end of the world for 40 years.
+
+1121
+01:04:43,360 --> 01:04:45,280
+And the us is only just a lot bigger and a lot richer.
+
+1122
+01:04:45,940 --> 01:04:55,120
+So I think the reason why it hasn't happened is that the us is not just the reserve currency of the world.
+
+1123
+01:04:55,700 --> 01:04:59,620
+Treasuries are what banks all over the globe.
+
+1124
+01:04:59,620 --> 01:04:59,780
+Use.
+
+1125
+01:05:00,440 --> 01:05:01,320
+Every single day.
+
+1126
+01:05:01,660 --> 01:05:03,980
+It's, it's the lifeblood of the financial system.
+
+1127
+01:05:04,160 --> 01:05:06,280
+So for example, there's something called the repo market.
+
+1128
+01:05:06,780 --> 01:05:08,780
+It's a three and a half trillion dollar market.
+
+1129
+01:05:09,580 --> 01:05:11,480
+It's where banks lend to each other overnight.
+
+1130
+01:05:13,160 --> 01:05:16,320
+That market only uses short term treasuries.
+
+1131
+01:05:16,860 --> 01:05:17,200
+That's it.
+
+1132
+01:05:17,580 --> 01:05:21,440
+Treasuries being like an asset that a country can.
+
+1133
+01:05:21,820 --> 01:05:23,060
+No us treasuries.
+
+1134
+01:05:23,200 --> 01:05:23,700
+What is that?
+
+1135
+01:05:24,320 --> 01:05:28,820
+Short term overnight debt that the United States government issues.
+
+1136
+01:05:28,860 --> 01:05:29,160
+Okay.
+
+1137
+01:05:29,200 --> 01:05:29,780
+That's what it is.
+
+1138
+01:05:29,900 --> 01:05:47,160
+You know, some, uh, big, um, institution on planet earth, like, you know, the sovereign wealth fund of Norway, you know, they got a lot of money and they want to park money for five years, they're going to buy five-year treasuries of the United States government.
+
+1139
+01:05:47,620 --> 01:05:49,120
+They're not buying Chinese bonds.
+
+1140
+01:05:49,820 --> 01:05:53,160
+They might buy some gold, but they're going to buy us treasuries.
+
+1141
+01:05:53,160 --> 01:05:54,280
+They're not buying French bonds.
+
+1142
+01:05:54,360 --> 01:05:54,980
+That's for sure.
+
+1143
+01:05:55,280 --> 01:05:59,160
+So the difference between us and France is.
+
+1144
+01:05:59,160 --> 01:06:06,160
+There is not one institution in the world that has to own French sovereign bonds, except for some French banks.
+
+1145
+01:06:06,160 --> 01:06:06,660
+That's it.
+
+1146
+01:06:06,920 --> 01:06:08,660
+Why do people need to own us treasuries?
+
+1147
+01:06:08,660 --> 01:06:09,660
+What is it about the us?
+
+1148
+01:06:09,660 --> 01:06:18,280
+Because the big institutions need to park money and they need to park it in something that is safe and very liquid.
+
+1149
+01:06:19,040 --> 01:06:20,960
+Don't underestimate the liquid part.
+
+1150
+01:06:21,160 --> 01:06:24,920
+You want to buy something that, you know, you're not going to lose any money in it.
+
+1151
+01:06:24,960 --> 01:06:26,820
+You're going to make the, whatever interest they're going to pay you.
+
+1152
+01:06:27,580 --> 01:06:28,080
+And.
+
+1153
+01:06:28,080 --> 01:06:31,700
+And if you need to sell it, you could sell it like that.
+
+1154
+01:06:32,200 --> 01:06:36,500
+There's only one market that, that, that, where that description applies to, which is us treasuries.
+
+1155
+01:06:37,740 --> 01:06:39,240
+There's something your business depends on that.
+
+1156
+01:06:39,240 --> 01:06:45,580
+Most of us never even think about one thing you realize when you're building your business is just how dependent you become on being connected.
+
+1157
+01:06:45,660 --> 01:06:52,460
+Your team is on video calls files are in the cloud payments, customer conversations, teams collaborating across the globe.
+
+1158
+01:06:52,700 --> 01:06:57,700
+So much of the business is happening online and you don't really think about your internet when it's working.
+
+1159
+01:06:58,080 --> 01:07:00,000
+You notice it when it stops working.
+
+1160
+01:07:00,320 --> 01:07:04,160
+T-Mobile is now a sponsor of the show provider that I've used for the longest time.
+
+1161
+01:07:04,380 --> 01:07:16,460
+And they have developed something called super broadband, the only nationwide broadband solution to integrate 5g and Starlink, which by the way, is a lifesaver for virtually unbreakable connectivity.
+
+1162
+01:07:16,780 --> 01:07:27,700
+Terrestrial 5g and Starlink satellites are two independent pathways that work together to keep you online through outages and disruptions, which means if one of them fails, the other instantly takes over.
+
+1163
+01:07:28,080 --> 01:07:51,240
+Without anything being interrupted, all with one contract and coverage that reaches every zip code in the United States, super broadband from T-Mobile is a new era of business internet discover more at superbroadband.com speeds vary due to local network characteristics and management satellite connectivity requires hardware installation and clear view of the sky with 36th month commitment.
+
+1164
+01:07:52,080 --> 01:07:55,080
+What I'm about to say is an ad the company paying for it.
+
+1165
+01:07:55,500 --> 01:07:57,580
+Really, really, really have changed my business.
+
+1166
+01:07:57,740 --> 01:07:57,920
+Yeah.
+
+1167
+01:07:58,080 --> 01:08:04,620
+They reached out to me about three weeks after I posted this particular Slack message to my team saying how obsessed I was with this product.
+
+1168
+01:08:04,780 --> 01:08:09,540
+I almost feel like I'm letting the cat out the bag by telling you guys about it, but I'm going to because I like them.
+
+1169
+01:08:09,740 --> 01:08:14,620
+Grokbot now sponsors the show and I've already invested in SpaceX, which is the company that owns Grokbot.
+
+1170
+01:08:14,840 --> 01:08:17,140
+Grokbot is an app on my phone, but it's also my computer.
+
+1171
+01:08:17,500 --> 01:08:21,100
+And basically I have all of these different agents.
+
+1172
+01:08:21,100 --> 01:08:24,960
+You can think of them like team members that are working with me to do work right now.
+
+1173
+01:08:25,080 --> 01:08:27,860
+Like this graph here is a graph showing my usage.
+
+1174
+01:08:28,080 --> 01:08:38,320
+And my team's usage in four weeks, daily use rose from a hundred requests by one person to about 63,000 requests.
+
+1175
+01:08:38,500 --> 01:08:39,960
+It has taken hold.
+
+1176
+01:08:40,080 --> 01:08:47,740
+It's freed me up again to do the things that only I should be doing as a creative, as an entrepreneur, as an investor, which is the sort of higher level things around taste, creativity, judgment.
+
+1177
+01:08:47,740 --> 01:08:57,740
+You will get more done with Grokbot today, and you can get 50% off your first month by heading to x.ai.doac.
+
+1178
+01:08:58,080 --> 01:09:05,320
+The other asset, a lot of people think about buying.
+
+1179
+01:09:05,400 --> 01:09:06,260
+Oh, it's a house.
+
+1180
+01:09:06,640 --> 01:09:07,200
+Our houses.
+
+1181
+01:09:07,260 --> 01:09:07,580
+Yeah.
+
+1182
+01:09:08,660 --> 01:09:09,220
+Don't do it.
+
+1183
+01:09:10,100 --> 01:09:11,140
+Don't buy that house.
+
+1184
+01:09:11,720 --> 01:09:12,040
+Why?
+
+1185
+01:09:13,040 --> 01:09:21,800
+The cost of buying a house is the mortgage, property and casualty insurance, taxes.
+
+1186
+01:09:22,760 --> 01:09:24,280
+There are the junk fees.
+
+1187
+01:09:24,760 --> 01:09:26,140
+You add that all up.
+
+1188
+01:09:26,480 --> 01:09:27,900
+It is probably.
+
+1189
+01:09:28,480 --> 01:09:34,760
+50% more expensive today to own a house in the United States than it was just five years ago.
+
+1190
+01:09:35,260 --> 01:09:37,080
+Now don't forget five years ago, rates were zero.
+
+1191
+01:09:37,580 --> 01:09:50,260
+So you have a situation number one in the United States with it, where the most of the housing market is locked because the people who were sitting in the houses have mortgages of 3%, which they refinanced during COVID.
+
+1192
+01:09:51,260 --> 01:09:54,560
+The people who want to buy the house have mortgages of 7%.
+
+1193
+01:09:55,900 --> 01:09:57,320
+That transaction is not going to happen.
+
+1194
+01:09:58,560 --> 01:10:07,700
+So I actually think it's more likely than not that over the next several years, housing prices in the United States fall.
+
+1195
+01:10:08,780 --> 01:10:17,900
+So what I tell people, especially young people, if you're going to buy a house, be sure you can afford all the costs.
+
+1196
+01:10:18,160 --> 01:10:27,220
+Number one, and number two, go into it under the assumption that at best, when you sell the house, you'll get your money back.
+
+1197
+01:10:27,220 --> 01:10:27,240
+Okay.
+
+1198
+01:10:28,080 --> 01:10:30,780
+The big rebuttal here is people say renting is just throwing money away.
+
+1199
+01:10:31,120 --> 01:10:35,400
+It's not, you can invest the extra money in the stock market.
+
+1200
+01:10:35,760 --> 01:10:37,500
+It's definitely not throwing your money away.
+
+1201
+01:10:37,500 --> 01:10:40,520
+That is a complete mistake to think of it that way.
+
+1202
+01:10:40,520 --> 01:10:42,740
+It's more expensive to own the house and to rent.
+
+1203
+01:10:43,360 --> 01:10:45,060
+So you could take the extra money and invest.
+
+1204
+01:10:45,880 --> 01:10:50,560
+The other rebuttal is a home is the primary way for everyday people to build wealth and equity.
+
+1205
+01:10:50,560 --> 01:10:53,240
+It was, that is true.
+
+1206
+01:10:53,280 --> 01:10:55,660
+It was, I think those days are over.
+
+1207
+01:10:56,560 --> 01:10:57,220
+I've thought that for.
+
+1208
+01:10:57,220 --> 01:11:04,000
+A long time, you know, in New York, for example, people haven't made any money in Manhattan real estate in 10 years.
+
+1209
+01:11:04,600 --> 01:11:09,580
+Another argument is you'll eventually pay off the mortgage and live rent free in retirement.
+
+1210
+01:11:10,120 --> 01:11:13,840
+Or you could have rented and invest the money in the stock market and had a much bigger nest egg.
+
+1211
+01:11:14,920 --> 01:11:19,020
+And people talk about how it, you know, it's forced savings for some people, which is useful.
+
+1212
+01:11:19,420 --> 01:11:26,980
+That I can't tell people, but I look, I think the house that you're going to buy, like I said, when eventually you sell it, you'd be lucky to get your money out.
+
+1213
+01:11:26,980 --> 01:11:32,640
+And the last one's probably an emotional one, which is renting off is no stability or security for families.
+
+1214
+01:11:33,340 --> 01:11:34,000
+You know what?
+
+1215
+01:11:34,020 --> 01:11:34,420
+I rent.
+
+1216
+01:11:35,720 --> 01:11:36,720
+I feel okay.
+
+1217
+01:11:37,360 --> 01:11:38,000
+You don't own a home?
+
+1218
+01:11:38,580 --> 01:11:38,980
+No.
+
+1219
+01:11:40,040 --> 01:11:41,120
+Have you ever owned a home?
+
+1220
+01:11:41,360 --> 01:11:41,640
+Sure.
+
+1221
+01:11:42,700 --> 01:11:45,020
+And you sold it and you sold it and rent.
+
+1222
+01:11:45,380 --> 01:11:46,560
+I really like renting.
+
+1223
+01:11:46,840 --> 01:11:48,220
+You know what I like about renting?
+
+1224
+01:11:48,420 --> 01:11:50,840
+When there's a problem, I call the building.
+
+1225
+01:11:51,080 --> 01:11:51,800
+They fix it.
+
+1226
+01:11:52,000 --> 01:11:53,040
+Doesn't cost me anything.
+
+1227
+01:11:54,480 --> 01:11:56,960
+Some people might say, well, I want to personalize.
+
+1228
+01:11:57,040 --> 01:12:02,440
+And I want to knock down this wall and build a conservatory and put in nice furniture.
+
+1229
+01:12:03,160 --> 01:12:04,660
+That's what I say to that.
+
+1230
+01:12:05,500 --> 01:12:12,220
+Well, one of your, um, investing rules that I've heard you talk a lot about is just this idea of being patient and like sort of unromantic.
+
+1231
+01:12:13,060 --> 01:12:18,140
+Like if I want to be an even better investor, what are the, what are some of these other principles?
+
+1232
+01:12:18,140 --> 01:12:23,560
+So patience means just like invest in the thing and go long and don't check it and maybe lose my password.
+
+1233
+01:12:23,860 --> 01:12:25,960
+Yeah, exactly.
+
+1234
+01:12:26,500 --> 01:12:26,960
+I got it.
+
+1235
+01:12:26,960 --> 01:12:31,880
+I got a question from someone recently where they were saying, what about options?
+
+1236
+01:12:31,880 --> 01:12:32,900
+What about this?
+
+1237
+01:12:32,900 --> 01:12:34,960
+You know, don't, don't you want to beat the market?
+
+1238
+01:12:35,480 --> 01:12:38,940
+And I, my response was why beat?
+
+1239
+01:12:38,960 --> 01:12:40,020
+You don't need to beat the market.
+
+1240
+01:12:40,340 --> 01:12:43,400
+Just if the market does really well, you'll be fine.
+
+1241
+01:12:43,700 --> 01:12:46,360
+You know, don't stop looking for an edge.
+
+1242
+01:12:46,700 --> 01:12:48,620
+People lose too much money looking for an edge.
+
+1243
+01:12:49,040 --> 01:12:52,160
+I was thinking the other day I was investing some money and I was looking at the S and P 500.
+
+1244
+01:12:52,160 --> 01:12:54,720
+And then I was looking at the, is it like the NASDAQ 100?
+
+1245
+01:12:54,800 --> 01:12:55,640
+NASDAQ 100.
+
+1246
+01:12:55,660 --> 01:12:56,960
+Which is the top 100 companies.
+
+1247
+01:12:57,020 --> 01:12:57,460
+Which is pretty.
+
+1248
+01:12:57,460 --> 01:12:58,220
+A NASDAQ.
+
+1249
+01:12:58,400 --> 01:12:58,720
+Yeah.
+
+1250
+01:12:59,280 --> 01:12:59,640
+Yeah.
+
+1251
+01:12:59,940 --> 01:13:03,720
+And I was thinking, we know the NASDAQ 100 seems to grow much faster than the S and P 500.
+
+1252
+01:13:03,720 --> 01:13:04,580
+But it's more volatile.
+
+1253
+01:13:05,120 --> 01:13:11,460
+You know, for someone who wants, who's willing to tolerate the volatility, I would say do half S and P 500, half NASDAQ 100.
+
+1254
+01:13:11,720 --> 01:13:13,020
+Do you invest in the S and P 500?
+
+1255
+01:13:13,200 --> 01:13:13,400
+No.
+
+1256
+01:13:13,520 --> 01:13:14,360
+Then why are you telling me to?
+
+1257
+01:13:15,980 --> 01:13:17,480
+I'm a professional investor.
+
+1258
+01:13:19,700 --> 01:13:20,960
+I've done this my whole life.
+
+1259
+01:13:21,220 --> 01:13:22,940
+You know, I do this full time.
+
+1260
+01:13:23,460 --> 01:13:26,180
+You know, most, most people like, let's say you.
+
+1261
+01:13:26,420 --> 01:13:26,800
+You're.
+
+1262
+01:13:26,800 --> 01:13:28,480
+You have a full time job, right?
+
+1263
+01:13:28,720 --> 01:13:32,620
+You don't have a lot of time to research stocks and to really pay attention to what's going on.
+
+1264
+01:13:32,620 --> 01:13:34,300
+You, you have a whole life, you know?
+
+1265
+01:13:35,260 --> 01:13:35,800
+And you know what?
+
+1266
+01:13:35,800 --> 01:13:37,840
+God bless you do your job very well.
+
+1267
+01:13:38,040 --> 01:13:38,920
+Keep doing it.
+
+1268
+01:13:39,280 --> 01:13:40,940
+Stay away from the investing side.
+
+1269
+01:13:40,940 --> 01:13:42,100
+You could only hurt yourself.
+
+1270
+01:13:44,380 --> 01:13:49,000
+What are the other principles that, um, sort of your, your personal investing
+
+1271
+01:13:49,000 --> 01:13:50,620
+rules that have guided your success?
+
+1272
+01:13:50,980 --> 01:13:52,660
+Management is really important.
+
+1273
+01:13:52,960 --> 01:13:53,440
+What does that mean?
+
+1274
+01:13:54,360 --> 01:13:56,740
+If you think that management is.
+
+1275
+01:13:56,740 --> 01:13:58,840
+Dishonest in any way.
+
+1276
+01:13:59,560 --> 01:14:04,000
+Oh, the management of the company, of the company, of the stock that you're going to invest in run.
+
+1277
+01:14:05,240 --> 01:14:07,180
+Like I'll give you a new example.
+
+1278
+01:14:07,180 --> 01:14:09,820
+Now I'm a company I would never invest in CoreWeave.
+
+1279
+01:14:10,120 --> 01:14:15,440
+So we talked about CoreWeave, which is one of these Neo clouds that creates data centers.
+
+1280
+01:14:15,820 --> 01:14:16,980
+CoreWeave went public.
+
+1281
+01:14:18,120 --> 01:14:26,500
+I think like the spring of 2025, it has three founders between the spring of 2025 and today, the
+
+1282
+01:14:26,500 --> 01:14:32,320
+three founders combined have sold over $3 billion worth of stock.
+
+1283
+01:14:33,820 --> 01:14:36,040
+The market cap of the entire company is only 24 billion.
+
+1284
+01:14:37,720 --> 01:14:44,380
+I think that's outrageous that a management team founders would sell so much stuff.
+
+1285
+01:14:44,620 --> 01:14:47,020
+You want to sell a little stock because you got to pay taxes.
+
+1286
+01:14:47,440 --> 01:14:50,320
+God bless, but a billion a piece.
+
+1287
+01:14:50,660 --> 01:14:51,500
+It's insane.
+
+1288
+01:14:51,500 --> 01:14:52,420
+It's outrageous.
+
+1289
+01:14:52,460 --> 01:14:54,780
+I would, wouldn't invest in that company ever.
+
+1290
+01:14:55,940 --> 01:14:56,480
+Because it shows.
+
+1291
+01:14:56,480 --> 01:14:57,020
+That they don't believe.
+
+1292
+01:14:57,020 --> 01:14:58,000
+I think they're dishonest.
+
+1293
+01:14:58,040 --> 01:14:59,060
+That's dishonest.
+
+1294
+01:14:59,580 --> 01:15:00,980
+Do you invest in Elon's companies?
+
+1295
+01:15:01,040 --> 01:15:01,640
+SpaceX?
+
+1296
+01:15:01,640 --> 01:15:02,240
+Never have.
+
+1297
+01:15:02,580 --> 01:15:02,840
+Why?
+
+1298
+01:15:03,320 --> 01:15:04,340
+That's a great question.
+
+1299
+01:15:04,460 --> 01:15:07,100
+I've always found the valuation is just too crazy for me.
+
+1300
+01:15:07,940 --> 01:15:16,040
+And you know, when it comes to Tesla, he's, he's been promising, uh, autonomous driving cars for ages and somehow it never comes to fruition.
+
+1301
+01:15:16,580 --> 01:15:17,720
+So I've just stayed away.
+
+1302
+01:15:17,960 --> 01:15:19,160
+My Tesla drives itself.
+
+1303
+01:15:19,520 --> 01:15:22,600
+I'm talking about the autonomous taxi business that he wants to create.
+
+1304
+01:15:23,240 --> 01:15:25,700
+I mean, his companies go up into the right.
+
+1305
+01:15:27,000 --> 01:15:27,840
+Until they don't.
+
+1306
+01:15:28,160 --> 01:15:29,000
+Is there one that hasn't?
+
+1307
+01:15:29,100 --> 01:15:29,540
+Tesla.
+
+1308
+01:15:29,540 --> 01:15:32,520
+Tesla's under a lot of pressure of like, I mean, look at the graph for Tesla.
+
+1309
+01:15:32,520 --> 01:15:34,080
+It looks up into the right to me.
+
+1310
+01:15:35,780 --> 01:15:38,700
+This is the, this is a nice looking graph.
+
+1311
+01:15:39,020 --> 01:15:40,760
+It hasn't done anything for the last several years.
+
+1312
+01:15:41,000 --> 01:15:42,620
+Of all the companies in your portfolio.
+
+1313
+01:15:43,520 --> 01:15:49,220
+If you had to move all of your wealth into just one, one in this moment in time, which one would it be?
+
+1314
+01:15:50,240 --> 01:15:51,140
+Probably visa.
+
+1315
+01:15:51,660 --> 01:15:52,160
+Really?
+
+1316
+01:15:52,220 --> 01:15:52,520
+Yeah.
+
+1317
+01:15:52,880 --> 01:15:53,700
+Wasn't expecting that.
+
+1318
+01:15:54,040 --> 01:15:54,800
+Or Moody's.
+
+1319
+01:15:55,260 --> 01:15:56,480
+I like natural duopoly.
+
+1320
+01:15:57,000 --> 01:15:59,720
+Visa and MasterCard are a duopoly insurmountable.
+
+1321
+01:15:59,720 --> 01:16:07,820
+I don't care about what stable coin, none of the, any of that stuff, it's not, don't matter, they're duopolies that are insurmountable.
+
+1322
+01:16:07,820 --> 01:16:14,720
+I mean, Visa and MasterCard connect billions of consumers with hundreds upon hundreds of millions of merchants.
+
+1323
+01:16:14,720 --> 01:16:19,580
+It's impossible to recreate and Moody's and S and P have similar type.
+
+1324
+01:16:19,880 --> 01:16:20,660
+What's Moody's?
+
+1325
+01:16:20,960 --> 01:16:21,860
+It's a ratings agency.
+
+1326
+01:16:22,460 --> 01:16:23,180
+They rate bonds.
+
+1327
+01:16:24,020 --> 01:16:24,320
+Yeah.
+
+1328
+01:16:24,320 --> 01:16:25,100
+It's a rating agency.
+
+1329
+01:16:25,100 --> 01:16:26,060
+It's a rating agency.
+
+1330
+01:16:26,060 --> 01:16:26,420
+Hmm.
+
+1331
+01:16:27,380 --> 01:16:28,520
+Do you not like monopolies?
+
+1332
+01:16:28,520 --> 01:16:30,440
+Like SpaceX is clearly a monopoly.
+
+1333
+01:16:31,400 --> 01:16:41,280
+Oh, I don't like monopolies, but, but, uh, there's, there's a company that, that I was short called FICO, which was a monopoly and it lost its monopoly and it did very well.
+
+1334
+01:16:41,280 --> 01:16:42,700
+Cause it, that stock got crushed.
+
+1335
+01:16:44,180 --> 01:16:46,460
+It was it's a FICO is the scoring company.
+
+1336
+01:16:46,500 --> 01:16:54,200
+You know, if you go for a mortgage and you get a FICO score, they had a monopoly on mortgage scoring and they lost it because of tremendous arrogance.
+
+1337
+01:16:55,180 --> 01:16:55,980
+And you know, those.
+
+1338
+01:16:56,060 --> 01:16:59,820
+Two guys, you talked about Anthropic and OpenAI are leading up to IPOs at the moment.
+
+1339
+01:16:59,820 --> 01:17:01,760
+By the looks of it, they've both submitted their S ones.
+
+1340
+01:17:02,000 --> 01:17:09,620
+No, no, only did, did, did OpenAI submit an S one they've they filed for IPO, but I don't think they've released their S one yet.
+
+1341
+01:17:09,620 --> 01:17:10,800
+And it's definitely not released.
+
+1342
+01:17:10,820 --> 01:17:11,840
+Anthropic just released that.
+
+1343
+01:17:11,840 --> 01:17:12,740
+I read the whole thing.
+
+1344
+01:17:12,860 --> 01:17:13,220
+Yeah.
+
+1345
+01:17:13,300 --> 01:17:14,520
+I saw a lot of people talking about it.
+
+1346
+01:17:15,080 --> 01:17:16,840
+Do you think those are good investments?
+
+1347
+01:17:17,160 --> 01:17:17,960
+If you were trying to get.
+
+1348
+01:17:17,960 --> 01:17:18,820
+No, I don't.
+
+1349
+01:17:19,460 --> 01:17:20,420
+Cause I had no moats.
+
+1350
+01:17:21,420 --> 01:17:22,340
+It's the moat problem.
+
+1351
+01:17:22,700 --> 01:17:25,960
+So if I want to invest in AI, where should I be investing?
+
+1352
+01:17:25,960 --> 01:17:26,040
+So.
+
+1353
+01:17:26,060 --> 01:17:29,940
+If you believe in the AI story, I think the best place to go is picks and shovels.
+
+1354
+01:17:30,740 --> 01:17:51,140
+Look at that, a pick and a shovel, you know, companies like Cisco, Arista, they put all the networking equipment in, in, in the AI data center, Dell super micro companies that create the power like G for Nova or quanta, which builds, builds new utilities.
+
+1355
+01:17:51,540 --> 01:17:55,800
+Eaton, which puts all the electrification in vertive, which puts in all the.
+
+1356
+01:17:55,800 --> 01:17:56,060
+Cool.
+
+1357
+01:17:56,060 --> 01:17:56,660
+Cooling in.
+
+1358
+01:17:56,860 --> 01:17:58,140
+I mean, these things are hot.
+
+1359
+01:17:58,740 --> 01:18:01,900
+One thing's for sure about these data centers and hot.
+
+1360
+01:18:01,900 --> 01:18:07,060
+I mean, the temperatures inside can be, will be crushing unless they had all this coolant stuff inside.
+
+1361
+01:18:07,700 --> 01:18:10,760
+So that's, that's kind of what I, what I, what I like to look at.
+
+1362
+01:18:11,680 --> 01:18:13,880
+I don't have to worry about whether whose model is best.
+
+1363
+01:18:14,440 --> 01:18:15,900
+Could it be turbulent times either way?
+
+1364
+01:18:15,900 --> 01:18:16,120
+Really?
+
+1365
+01:18:16,120 --> 01:18:16,460
+Isn't it?
+
+1366
+01:18:16,500 --> 01:18:16,880
+Isn't it?
+
+1367
+01:18:17,200 --> 01:18:20,000
+That's how it feels in terms of these companies in the markets.
+
+1368
+01:18:20,160 --> 01:18:20,300
+Yeah.
+
+1369
+01:18:20,300 --> 01:18:22,120
+Because the politics have changed the game.
+
+1370
+01:18:23,240 --> 01:18:26,060
+You know, the, the, the question we, if, if we were meeting here.
+
+1371
+01:18:26,220 --> 01:18:37,920
+Two weeks ago, what I would have said to you is the moat thing, which I still believe in and the fixed income world being, having more control over the story.
+
+1372
+01:18:38,500 --> 01:18:42,820
+And then all these data centers, can they be built?
+
+1373
+01:18:42,840 --> 01:18:49,300
+Isn't that like building, you know, Legos, this is engineering complexity and, you know, can these things get built?
+
+1374
+01:18:49,300 --> 01:18:50,600
+Will they have power?
+
+1375
+01:18:51,000 --> 01:18:55,040
+You know, will there be enough compute given the demand?
+
+1376
+01:18:55,200 --> 01:18:55,800
+That would have been the.
+
+1377
+01:18:55,800 --> 01:18:56,220
+Debate.
+
+1378
+01:18:56,480 --> 01:19:01,680
+The wrinkle now is the localities will make this whole story slower.
+
+1379
+01:19:02,980 --> 01:19:05,200
+And do you think the Democrats will be elected in 2028?
+
+1380
+01:19:05,400 --> 01:19:06,120
+I have no idea.
+
+1381
+01:19:06,800 --> 01:19:11,040
+I mean, it would make a big AI as a subject is definitely like going to be on the ballot.
+
+1382
+01:19:11,040 --> 01:19:25,680
+I mean, it already is, but for sure, but it's two years from now, you know, things have moved so fast in the last two years, I had a joke with the two analysts that I had on recently, who I had on three months before, where I said, you know.
+
+1383
+01:19:26,400 --> 01:19:30,560
+I made this great prediction with you guys when I, when I had you on in July and they said, what was it?
+
+1384
+01:19:30,560 --> 01:19:36,860
+I said, I said, I'll have you back in three to four months, because in three to four months, the world will have turned over at least 15 times.
+
+1385
+01:19:37,480 --> 01:19:38,480
+And I said, you know what?
+
+1386
+01:19:39,300 --> 01:19:41,160
+It's turned over more than 15 times.
+
+1387
+01:19:42,160 --> 01:19:45,200
+So I, what'll happen in two years, who knows?
+
+1388
+01:19:45,200 --> 01:19:46,380
+It's impossible to tell.
+
+1389
+01:19:46,840 --> 01:19:54,560
+And as a civilian, not as an investor or a business person, do you see any of these, you know, things we've talked about today having an impact on the, the average person?
+
+1390
+01:19:54,560 --> 01:19:55,780
+And if so, what might.
+
+1391
+01:19:55,800 --> 01:19:56,640
+That impact look like?
+
+1392
+01:19:57,120 --> 01:20:04,980
+I look, I think AI is going to have a very big impact on a whole bunch of different businesses, which is going to mean what people do for a living is going to change.
+
+1393
+01:20:06,300 --> 01:20:08,060
+How that's going to materialize.
+
+1394
+01:20:08,100 --> 01:20:09,360
+I don't, I don't know.
+
+1395
+01:20:09,360 --> 01:20:11,100
+I don't think anybody really knows at this point.
+
+1396
+01:20:11,300 --> 01:20:16,860
+If another Steve Eisman was sat here and he was 18 and he was starting his career today.
+
+1397
+01:20:16,900 --> 01:20:17,240
+Right.
+
+1398
+01:20:17,580 --> 01:20:20,740
+What life advice might you offer him so that he could be successful and happy?
+
+1399
+01:20:21,160 --> 01:20:25,560
+So I'll tell you a little story about me, which, which, which will get you to the.
+
+1400
+01:20:25,560 --> 01:20:25,800
+More.
+
+1401
+01:20:25,800 --> 01:20:26,160
+Moral.
+
+1402
+01:20:26,580 --> 01:20:33,180
+Um, I went to law school and then I worked as a lawyer, corporate lawyer, and I was utterly miserable.
+
+1403
+01:20:33,920 --> 01:20:36,120
+And not only was I miserable, I was terrible at it.
+
+1404
+01:20:37,020 --> 01:20:45,200
+And I went for a full day examination at a place called the Johnson O'Connor Institute, which doesn't exist anymore.
+
+1405
+01:20:45,240 --> 01:20:47,460
+And what they did was they test your aptitudes.
+
+1406
+01:20:48,300 --> 01:20:52,500
+So think of aptitude is like, what are you naturally good at?
+
+1407
+01:20:52,560 --> 01:20:53,580
+It's not intelligence.
+
+1408
+01:20:54,120 --> 01:20:54,240
+Yeah.
+
+1409
+01:20:54,240 --> 01:20:55,200
+You could have two people.
+
+1410
+01:20:55,200 --> 01:20:55,800
+One person's good.
+
+1411
+01:20:55,800 --> 01:20:56,220
+At math.
+
+1412
+01:20:56,220 --> 01:20:57,660
+One person's good at writing.
+
+1413
+01:20:57,920 --> 01:20:59,760
+That's those are aptitudes.
+
+1414
+01:21:00,660 --> 01:21:03,660
+So they gave me a whole battery of tests less the whole day.
+
+1415
+01:21:04,500 --> 01:21:10,920
+And at the end of it, they said, you generate a lot of ideas.
+
+1416
+01:21:11,400 --> 01:21:16,500
+That's what you're good at, but you are incredibly not detailed oriented.
+
+1417
+01:21:16,980 --> 01:21:21,240
+The worst thing you could be is a corporate lawyer, which was great.
+
+1418
+01:21:21,240 --> 01:21:22,920
+Cause now I understood why I was miserable.
+
+1419
+01:21:23,800 --> 01:21:25,780
+So eventually I ended up on wall.
+
+1420
+01:21:26,300 --> 01:21:32,240
+But I think what I would tell young people is try and figure out what's your aptitudes.
+
+1421
+01:21:32,620 --> 01:21:34,840
+What are you naturally good at?
+
+1422
+01:21:34,840 --> 01:21:38,680
+You don't want to be and be at a job of being a square peg in a round hole.
+
+1423
+01:21:39,180 --> 01:21:42,160
+You'll be fighting against your own inclinations all the time.
+
+1424
+01:21:42,640 --> 01:21:49,300
+You know, for people who want to go to wall street, for example, I say to him, are you a math person or are you a story person?
+
+1425
+01:21:49,840 --> 01:21:50,740
+I'm a story person.
+
+1426
+01:21:51,040 --> 01:21:55,300
+If you're a math person, you should go to the fixed income world, the bond world.
+
+1427
+01:21:55,660 --> 01:21:55,760
+Yeah.
+
+1428
+01:21:55,780 --> 01:21:58,060
+If you're a story person, you should go to the equity world.
+
+1429
+01:21:58,120 --> 01:21:59,200
+You got to know who you are.
+
+1430
+01:22:00,280 --> 01:22:02,260
+Once you know who you are, then you can make a decision.
+
+1431
+01:22:03,400 --> 01:22:04,720
+And how does one find out who they are?
+
+1432
+01:22:05,040 --> 01:22:07,940
+You could take some of these tests online and figure, figure this out.
+
+1433
+01:22:07,960 --> 01:22:10,100
+But I get, I guess life itself is a test.
+
+1434
+01:22:10,720 --> 01:22:12,400
+It is a test, but put this way.
+
+1435
+01:22:12,780 --> 01:22:15,460
+I remember in high school, I had very good friends.
+
+1436
+01:22:15,460 --> 01:22:18,900
+Some of them were great in science and some of them were great in history.
+
+1437
+01:22:20,460 --> 01:22:23,360
+There was no way the science guys were ever going to be good in history.
+
+1438
+01:22:23,580 --> 01:22:25,740
+And there was no way the history guys were ever going to be good.
+
+1439
+01:22:25,740 --> 01:22:27,660
+In science, that's just who they were.
+
+1440
+01:22:28,200 --> 01:22:34,520
+Do you think you can generally be successful or rich or whatever people might be concerned about doing anything as long as it's your thing?
+
+1441
+01:22:34,940 --> 01:22:42,820
+Some people are just really obsessed with, I don't know how violins get made and, but their, their, their first generation immigrant parents told them to go be a doctor and a lawyer.
+
+1442
+01:22:43,000 --> 01:22:43,320
+Right.
+
+1443
+01:22:43,380 --> 01:22:49,720
+And so they kind of trudged through that career, but actually if they just focused on the fucking violins, the thing that gave them traction, you're talking about being pulled.
+
+1444
+01:22:49,840 --> 01:22:50,540
+That would have been better.
+
+1445
+01:22:50,900 --> 01:22:51,020
+Yeah.
+
+1446
+01:22:51,040 --> 01:22:51,780
+That's what I believe.
+
+1447
+01:22:52,260 --> 01:22:53,340
+Go for your aptitude.
+
+1448
+01:22:53,740 --> 01:22:54,980
+Is there anything else you'd say to him?
+
+1449
+01:22:54,980 --> 01:23:03,440
+18 year old Steve sat here now specifically as like, in terms of how the world is changing in this moment in time, it's becoming more technological.
+
+1450
+01:23:03,980 --> 01:23:05,600
+It's more connected than ever before.
+
+1451
+01:23:06,200 --> 01:23:15,560
+It feels like there's more division, but I don't know enough of history to understand if that's just a myopic perspective of this moment, or if this is more divided.
+
+1452
+01:23:15,560 --> 01:23:17,060
+Everybody likes to think like that.
+
+1453
+01:23:17,060 --> 01:23:24,620
+This is the worst period in the history of the world that I don't know why people like to think that, but they do think it it's not.
+
+1454
+01:23:25,100 --> 01:23:26,940
+There've been plenty of times that have been a lot worse.
+
+1455
+01:23:27,560 --> 01:23:32,860
+You know, I interviewed a guy, John Cassidy, who wrote a book called Capitalism and Its Critics.
+
+1456
+01:23:34,400 --> 01:23:36,880
+And it was a really good book.
+
+1457
+01:23:37,220 --> 01:23:41,840
+But at the beginning, he had this chart that blew my mind.
+
+1458
+01:23:42,640 --> 01:23:50,000
+And the chart was global GDP per capita from the year zero till 2022.
+
+1459
+01:23:51,620 --> 01:23:53,560
+And it looked like this.
+
+1460
+01:23:54,980 --> 01:24:00,800
+Flat line, flat as a pancake, until about 1830, and then completely vertical.
+
+1461
+01:24:01,640 --> 01:24:09,140
+Basically, what that chart said was that from the time of Jesus until like 1830, there was no creation of human wealth.
+
+1462
+01:24:09,860 --> 01:24:13,100
+All human wealth has been created only in the last 150 years.
+
+1463
+01:24:13,400 --> 01:24:16,460
+We live in a much better time than people have ever lived in.
+
+1464
+01:24:18,180 --> 01:24:21,680
+Be nice for most people to acknowledge that once in a while.
+
+1465
+01:24:23,140 --> 01:24:24,980
+Life is, um, life is a roller coaster.
+
+1466
+01:24:25,180 --> 01:24:26,100
+Just like the markets.
+
+1467
+01:24:26,100 --> 01:24:26,360
+Yeah.
+
+1468
+01:24:26,960 --> 01:24:33,140
+And I was reading about what happened to you and your wife, Valerie, when you were 35 years old, the loss of your son, Max.
+
+1469
+01:24:34,280 --> 01:24:37,400
+I'm moving into a stage of my life where I'm thinking about becoming a father.
+
+1470
+01:24:37,740 --> 01:24:41,800
+My brother has three kids that are under the age of seven and he's a year older than me.
+
+1471
+01:24:41,800 --> 01:24:43,400
+So I spend a lot of time with those little ones.
+
+1472
+01:24:43,400 --> 01:24:51,200
+And when I heard about the incident that took place at 30, when you were 35 years old in 96, it was unimaginable.
+
+1473
+01:24:51,660 --> 01:24:53,180
+I've read it over and over again.
+
+1474
+01:24:53,300 --> 01:24:54,660
+Cause I, I first time I read it.
+
+1475
+01:24:54,660 --> 01:24:54,920
+I thought.
+
+1476
+01:24:54,980 --> 01:24:55,520
+I got it wrong.
+
+1477
+01:24:56,940 --> 01:25:01,400
+Can you, can you take me into that moment and how, how did that shift your perspective on life?
+
+1478
+01:25:01,460 --> 01:25:02,480
+Oh, it changed my whole life.
+
+1479
+01:25:03,380 --> 01:25:11,580
+So we, our son was born October 29th, 1996.
+
+1480
+01:25:11,600 --> 01:25:12,500
+It was totally healthy.
+
+1481
+01:25:13,220 --> 01:25:21,500
+And, um, 24 days later, uh, what I think happened was the baby nurse, um, kind of got sick.
+
+1482
+01:25:22,340 --> 01:25:23,060
+Didn't tell us.
+
+1483
+01:25:23,960 --> 01:25:24,740
+And then max.
+
+1484
+01:25:24,740 --> 01:25:26,960
+Was grumpy or something.
+
+1485
+01:25:26,960 --> 01:25:32,240
+And she took him to bed with her and she fell asleep and she smothered him.
+
+1486
+01:25:33,920 --> 01:25:37,700
+And she came into our bedroom at seven o'clock in the morning to say that max was dead.
+
+1487
+01:25:41,160 --> 01:25:49,580
+You know, up until that point, I thought if I always felt like I had lived something of a charmed life, you know, I went to great schools.
+
+1488
+01:25:49,940 --> 01:25:52,220
+I came from a pretty well to do family.
+
+1489
+01:25:52,640 --> 01:25:54,740
+I married, uh, the perfect woman.
+
+1490
+01:25:54,740 --> 01:25:56,540
+Who lived next, literally lived next door.
+
+1491
+01:25:57,320 --> 01:25:58,400
+We were really happy.
+
+1492
+01:25:58,460 --> 01:26:06,860
+And, and then basically we got run over by a truck and I never looked at the world as being safe ever again.
+
+1493
+01:26:08,620 --> 01:26:09,560
+And I got very angry.
+
+1494
+01:26:10,460 --> 01:26:24,720
+It's one of the reasons why I think I, I, I was very prominent in the whole financial crisis because I was, I was looking for people to hate and I found them on wall street.
+
+1495
+01:26:24,740 --> 01:26:37,340
+You said you think what happened was she, she rolled on top of max and that's what she told us, she told you that, so you're skeptical about what she told you.
+
+1496
+01:26:37,340 --> 01:26:38,620
+No, I'm not skeptical at all.
+
+1497
+01:26:38,620 --> 01:26:39,360
+You just don't know.
+
+1498
+01:26:39,360 --> 01:26:40,320
+I think it was an accident.
+
+1499
+01:26:41,000 --> 01:26:41,560
+I really do.
+
+1500
+01:26:41,700 --> 01:26:43,020
+And was she ever prosecuted for that?
+
+1501
+01:26:43,020 --> 01:26:43,760
+Was there any, ever?
+
+1502
+01:26:43,980 --> 01:26:44,940
+No, she wasn't prosecuted.
+
+1503
+01:26:44,940 --> 01:26:45,520
+It was an accident.
+
+1504
+01:26:47,620 --> 01:26:53,980
+And that anger is part of the reason why you did the big short against.
+
+1505
+01:26:54,120 --> 01:26:54,460
+I think.
+
+1506
+01:26:54,460 --> 01:26:55,480
+Looking back on it.
+
+1507
+01:26:55,480 --> 01:27:01,420
+I mean, if you watch the movie and see how angry Steve Carell is in the movie, I was really like that.
+
+1508
+01:27:03,780 --> 01:27:06,680
+And, uh, I think that's one of the causes, the reasons why.
+
+1509
+01:27:09,660 --> 01:27:13,040
+Did you ever go to go to therapy or get any professional help to deal with the grief?
+
+1510
+01:27:13,040 --> 01:27:13,220
+Sure.
+
+1511
+01:27:13,680 --> 01:27:14,040
+I did.
+
+1512
+01:27:14,420 --> 01:27:16,440
+My wife did too for a long time.
+
+1513
+01:27:16,500 --> 01:27:18,540
+It helped, but I was still angry.
+
+1514
+01:27:20,220 --> 01:27:20,840
+Are you still angry?
+
+1515
+01:27:21,340 --> 01:27:22,420
+No, I'm not.
+
+1516
+01:27:23,780 --> 01:27:24,340
+Kind of worked.
+
+1517
+01:27:24,340 --> 01:27:24,440
+It.
+
+1518
+01:27:24,460 --> 01:27:25,300
+Through over time.
+
+1519
+01:27:26,800 --> 01:27:30,400
+What is the process of like working that type of anger through?
+
+1520
+01:27:30,940 --> 01:27:33,360
+Is it just time or is there, I think it's just time.
+
+1521
+01:27:33,700 --> 01:27:34,880
+You know, there's a great line.
+
+1522
+01:27:35,800 --> 01:27:48,520
+I forget who said it about grief, where they say when you're in the throes of grief, it's the first thing you think about every morning.
+
+1523
+01:27:50,500 --> 01:27:54,420
+And you know, when it's starting to change is that one morning.
+
+1524
+01:27:54,420 --> 01:27:56,340
+You wake up and it's the second.
+
+1525
+01:28:02,760 --> 01:28:04,060
+And at some point it was the second.
+
+1526
+01:28:04,200 --> 01:28:05,700
+At some point it was the second.
+
+1527
+01:28:06,120 --> 01:28:07,680
+I couldn't tell you what that point was.
+
+1528
+01:28:07,700 --> 01:28:08,660
+It took quite a while.
+
+1529
+01:28:09,660 --> 01:28:12,240
+You know, I remember the first year.
+
+1530
+01:28:13,200 --> 01:28:14,460
+I love classical music.
+
+1531
+01:28:15,260 --> 01:28:17,880
+I could not listen to classical music for a year.
+
+1532
+01:28:19,180 --> 01:28:21,720
+It wouldn't matter what it was.
+
+1533
+01:28:22,140 --> 01:28:23,100
+I just start to cry.
+
+1534
+01:28:28,680 --> 01:28:30,500
+How did it impact your relationship with Valerie?
+
+1535
+01:28:31,980 --> 01:28:37,480
+Most people, we were told when that happens to them, breaks up the marriage.
+
+1536
+01:28:38,800 --> 01:28:45,000
+We went into therapy. We managed to stabilize our relationship, but it was hard. And the other
+
+1537
+01:28:45,000 --> 01:28:58,420
+thing that happened was, so Max was born with artificial insemination. And we went away for a
+
+1538
+01:28:58,420 --> 01:29:04,620
+little bit. And then Valerie decided that we're just going to go back and do this again as fast
+
+1539
+01:29:04,620 --> 01:29:13,860
+as possible. So we tried once in February and it didn't take. And then we tried one more time
+
+1540
+01:29:13,860 --> 01:29:14,980
+in March.
+
+1541
+01:29:15,000 --> 01:29:23,880
+March. And she was pregnant with our daughters. So that, you know, we had something else to focus
+
+1542
+01:29:23,880 --> 01:29:24,220
+on.
+
+1543
+01:29:25,320 --> 01:29:25,760
+Twins.
+
+1544
+01:29:25,940 --> 01:29:28,260
+Twins, which is very different.
+
+1545
+01:29:29,620 --> 01:29:32,560
+But it's still right there. I can see it in you. It's still, it's still.
+
+1546
+01:29:32,700 --> 01:29:35,920
+You know, I think about it. I mean, I don't think about it every day,
+
+1547
+01:29:36,100 --> 01:29:37,940
+but I still think about it a lot.
+
+1548
+01:29:38,780 --> 01:29:39,540
+What are those thoughts?
+
+1549
+01:29:40,320 --> 01:29:44,860
+I relive it. You know, people never forget. When I came,
+
+1550
+01:29:45,000 --> 01:29:50,540
+I was an Oppenheimer at the time. So I decided, you know, at some point I went back to work.
+
+1551
+01:29:50,980 --> 01:29:55,580
+So everybody starts to come into my office because I, you know, I was friendly with everybody.
+
+1552
+01:29:56,040 --> 01:30:00,000
+Everybody came into my office and starts to cry. Literally every...
+
+1553
+01:30:00,000 --> 01:30:03,480
+like 30 guys come in, start, they like, they were uncontrollable.
+
+1554
+01:30:03,480 --> 01:30:04,360
+They just started to cry.
+
+1555
+01:30:04,360 --> 01:30:06,380
+It's like, guys, this is not helping me.
+
+1556
+01:30:10,120 --> 01:30:13,660
+You, you relive that day.
+
+1557
+01:30:13,660 --> 01:30:14,400
+What happened?
+
+1558
+01:30:14,400 --> 01:30:16,660
+What could have been, how it could have been different?
+
+1559
+01:30:16,660 --> 01:30:17,820
+All those types of things.
+
+1560
+01:30:20,280 --> 01:30:21,300
+Ah, it's just unthinkable.
+
+1561
+01:30:21,300 --> 01:30:24,660
+I don't even have kids and I'm just like, oh, something that, you know,
+
+1562
+01:30:24,700 --> 01:30:28,320
+parents, parents tell me is their worst nightmare.
+
+1563
+01:30:28,380 --> 01:30:29,320
+Ultimate nightmare.
+
+1564
+01:30:30,760 --> 01:30:31,440
+It just is.
+
+1565
+01:30:34,320 --> 01:30:35,280
+Valerie wrote you a letter.
+
+1566
+01:30:35,880 --> 01:30:36,640
+She did not.
+
+1567
+01:30:37,200 --> 01:30:37,780
+Seriously.
+
+1568
+01:30:37,780 --> 01:30:38,380
+It might be for me.
+
+1569
+01:30:38,380 --> 01:30:41,340
+Cause it says Steve, but I think it's, I thought you were a pH.
+
+1570
+01:30:42,640 --> 01:30:44,300
+No, I'm not, but I've got an N on it.
+
+1571
+01:30:44,300 --> 01:30:45,520
+People tend to call me Steven.
+
+1572
+01:30:45,520 --> 01:30:46,340
+She wrote a little letter.
+
+1573
+01:30:46,400 --> 01:30:49,240
+It's not too long, but she, she just wanted to send you a little message.
+
+1574
+01:30:49,320 --> 01:30:49,780
+Oh, wow.
+
+1575
+01:30:50,860 --> 01:30:52,040
+This I did not expect.
+
+1576
+01:30:54,100 --> 01:30:54,700
+You read it out.
+
+1577
+01:30:56,960 --> 01:30:57,740
+I'm going to cry.
+
+1578
+01:30:58,700 --> 01:30:59,360
+Dear Steve.
+
+1579
+01:30:59,360 --> 01:31:00,000
+There is no way.
+
+1580
+01:31:00,120 --> 01:31:00,960
+Else on earth.
+
+1581
+01:31:00,960 --> 01:31:03,100
+I would rather be, and no one else on earth.
+
+1582
+01:31:03,100 --> 01:31:04,860
+I would rather be with, with you.
+
+1583
+01:31:04,860 --> 01:31:06,100
+I am safe with you.
+
+1584
+01:31:06,100 --> 01:31:06,900
+I am home.
+
+1585
+01:31:07,440 --> 01:31:10,020
+I would marry you again tomorrow from Valerie.
+
+1586
+01:31:10,620 --> 01:31:11,040
+Wow.
+
+1587
+01:31:12,180 --> 01:31:13,620
+That made my year.
+
+1588
+01:31:16,240 --> 01:31:16,580
+With you.
+
+1589
+01:31:16,580 --> 01:31:17,340
+I am safe.
+
+1590
+01:31:18,100 --> 01:31:18,780
+That's amazing.
+
+1591
+01:31:19,260 --> 01:31:19,880
+You can keep that.
+
+1592
+01:31:20,460 --> 01:31:21,300
+Oh, I'm going to keep it.
+
+1593
+01:31:22,960 --> 01:31:23,980
+I'm not leaving it with you.
+
+1594
+01:31:25,880 --> 01:31:26,160
+Steve.
+
+1595
+01:31:26,160 --> 01:31:26,880
+Thank you so much.
+
+1596
+01:31:26,880 --> 01:31:27,360
+Thank you.
+
+1597
+01:31:27,360 --> 01:31:29,900
+Thank you so much for your wisdom and insights in you're both.
+
+1598
+01:31:29,900 --> 01:31:31,280
+Hilarious and very smart.
+
+1599
+01:31:31,500 --> 01:31:32,420
+Oh, well, I appreciate that.
+
+1600
+01:31:32,420 --> 01:31:34,580
+It's a rare combination and you're also incredibly human.
+
+1601
+01:31:34,580 --> 01:31:38,900
+So, um, I've learned a huge amount on so many different levels and I'm very, very
+
+1602
+01:31:38,900 --> 01:31:42,800
+excited to see how all of the things that you've, you've talked about here play out
+
+1603
+01:31:42,800 --> 01:31:44,480
+and hopefully we'll have an optimistic outcome.
+
+1604
+01:31:44,720 --> 01:31:47,960
+Um, we have a closing tradition on this podcast with the last guest
+
+1605
+01:31:47,960 --> 01:31:48,900
+leaves a question for the next.
+
+1606
+01:31:49,340 --> 01:31:53,100
+The question left for you is, are you happy today?
+
+1607
+01:31:56,660 --> 01:31:59,300
+I haven't been this happy in years.
+
+1608
+01:32:00,660 --> 01:32:10,280
+I, you know, working with my wife on an entirely new venture, where what we do is we teach people is a joy.
+
+1609
+01:32:11,940 --> 01:32:29,220
+You know, we, we, we write together, you know, I mean, obviously I do the podcast thing, but you know, we create together, you know, there's a scene in the, in this show, the diplomat where Kerry Russell was sitting next to Rufus Sewell, their husband and wife team, and she's got a laptop and he turns and they're sitting on a couch.
+
+1610
+01:32:29,240 --> 01:32:29,620
+Rufus.
+
+1611
+01:32:29,620 --> 01:32:32,980
+Sewell turns to Kerry Russell and says, what are you doing?
+
+1612
+01:32:33,460 --> 01:32:35,240
+And she says, I'm writing a speech for you.
+
+1613
+01:32:35,440 --> 01:32:39,000
+At which point Valerie and I simultaneously go, that's us.
+
+1614
+01:32:40,300 --> 01:32:42,220
+And that literally is us.
+
+1615
+01:32:42,520 --> 01:32:51,040
+And, and I gotta tell you, working, doing what I'm doing, you know, creating stuff, talking to people, meeting new people and doing with my wife.
+
+1616
+01:32:52,240 --> 01:32:53,080
+I'm over the moon.
+
+1617
+01:32:54,400 --> 01:32:59,240
+Where can people go to listen to your podcast to hear about your education materials, et cetera?
+
+1618
+01:32:59,240 --> 01:32:59,620
+Sure.
+
+1619
+01:32:59,780 --> 01:33:03,160
+So we do three podcasts a week, two are free on YouTube.
+
+1620
+01:33:03,340 --> 01:33:11,920
+One is a Monday interview and one is a, one would be called the Friday wrap, where I just talk about the market during the week and tell people what I think, what, what, what happened.
+
+1621
+01:33:12,580 --> 01:33:17,320
+And then for those who want to subscribe on Substack, we do an additional podcast.
+
+1622
+01:33:17,360 --> 01:33:18,460
+Sometimes it's an interview.
+
+1623
+01:33:18,460 --> 01:33:24,100
+Sometimes it's a lecture, you know, things like how to analyze banks, um, which is on Substack.
+
+1624
+01:33:24,340 --> 01:33:25,860
+I'll link all of them below.
+
+1625
+01:33:25,860 --> 01:33:27,940
+Highly recommend you go check out his podcast from YouTube.
+
+1626
+01:33:27,940 --> 01:33:29,500
+So that will be linked below and on.
+
+1627
+01:33:29,500 --> 01:33:30,460
+On the screen right now.
+
+1628
+01:33:30,860 --> 01:33:36,100
+And also the Substack, which is, um, where I got lots of the sort of notes from today for today's conversation is phenomenal.
+
+1629
+01:33:36,500 --> 01:33:37,420
+Steve, thank you so much.
+
+1630
+01:33:37,420 --> 01:33:37,900
+Thank you.
+
+1631
+01:33:37,980 --> 01:33:38,880
+It's been an absolute pleasure.
+
+1632
+01:33:38,880 --> 01:33:39,620
+It was a pleasure.
+
+1633
+01:33:39,660 --> 01:33:40,260
+Thank you so much.
+
+1634
+01:33:40,260 --> 01:33:40,540
+We're done.
+
+1635
+01:33:41,660 --> 01:33:48,940
+YouTube have this new crazy algorithm where they know exactly what video you would like to watch next based on AI and all of your viewing behavior.
+
+1636
+01:33:49,120 --> 01:33:53,800
+And the algorithm says that this video is the perfect video for you.
+
+1637
+01:33:53,800 --> 01:33:55,360
+It's different for everybody looking right now.
+
+1638
+01:33:55,660 --> 01:33:56,680
+Check this video out.
+
+1639
+01:33:56,820 --> 01:33:58,220
+I bet you, you might love it.
+

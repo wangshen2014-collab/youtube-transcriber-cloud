@@ -584,7 +584,7 @@
         "title": "【频道 MaskFinance】救市与融资保证金_美联储加息预期_两期合并_中高精度",
         "kind": "合并版",
         "path": "jobs/7bc972506454244c23cadfd5/【频道 MaskFinance】救市与融资保证金_美联储加息预期_两期合并_中高精度.txt",
-        "sha": null,
+        "sha": "a40805d366d9e1daa96a9d44a3510e0cf87c4c6f",
         "files": {
           "txt": "jobs/7bc972506454244c23cadfd5/【频道 MaskFinance】救市与融资保证金_美联储加息预期_两期合并_中高精度.txt",
           "srt": "jobs/7bc972506454244c23cadfd5/【频道 MaskFinance】救市与融资保证金_美联储加息预期_两期合并_中高精度.srt",
@@ -661,6 +661,24 @@
           "txt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.txt",
           "srt": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.srt",
           "json": "jobs/096f0da6c132fa9fa70c2728/【频道 Terry Chen 泰瑞】突發：黃仁勳出軌中國美女間諜，Nvidia 投資人該擔心什麼？.json"
+        }
+      }
+    ]
+  },
+  {
+    "title": "【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail!",
+    "category": "投资、经济与访谈",
+    "page": "catalog/0a826b23684741b2.md",
+    "versions": [
+      {
+        "title": "【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并]",
+        "kind": "合并版",
+        "path": "jobs/8204230c21e24b3162d5546b/【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并].txt",
+        "sha": "2cd5caafbd5bc6b2d6ae7e0e6f58944f03b1603c",
+        "files": {
+          "txt": "jobs/8204230c21e24b3162d5546b/【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并].txt",
+          "srt": "jobs/8204230c21e24b3162d5546b/【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并].srt",
+          "json": "jobs/8204230c21e24b3162d5546b/【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并].json"
         }
       }
     ]

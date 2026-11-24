@@ -1,0 +1,1011 @@
+{
+  "status": "completed",
+  "settings": {
+    "source_type": "verified-parts-merge",
+    "parts": [
+      "6cd25fcac8e36e25a5aed775",
+      "3cbf8b447d1fb12d8daf34f8",
+      "a47b79aac505c4d6f79e3249",
+      "6d099ca55a549943ca84b1de"
+    ]
+  },
+  "title": "【频道 The Diary Of A CEO】Steve Eisman - The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! [已上传分段合并]",
+  "attribution": {
+    "channel": "The Diary Of A CEO",
+    "channel_source": "音频文件名及 YouTube 节目页",
+    "interviewee": "Steve Eisman",
+    "interviewee_source": "YouTube 节目页",
+    "source_url": "https://www.youtube.com/watch?v=4Unch--PmW0"
+  },
+  "detected_language": "en",
+  "selected_start": 0,
+  "selected_end": 5638.8053125,
+  "segment_count": 1639,
+  "parts": [
+    {
+      "part": 1,
+      "resumed_from_checkpoint": false,
+      "model_loads": 1,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】The Man Who Predicted The Last Crash WARNS A Recession Starts If These  第001段 [00-00-00 至 00-30-00].m4a",
+      "selected_start": 0,
+      "selected_end": 1800.0,
+      "filename_end": 1800,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "46ac1300622899dec24efc25c0acd12d6e83fe7c9d482c7459555c03cc9615fd",
+        "source_id": "audio-46ac1300622899dec24efc25",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 0.9929306507110596,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 5286.7,
+      "timings_seconds": {
+        "local_source_selection": 6.039099997678932e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.9858038039999997,
+        "model_load": 4.442112195999982,
+        "transcription": 1497.870114887,
+        "total_this_invocation": 1503.577884249
+      },
+      "original_segment_count": 607
+    },
+    {
+      "part": 2,
+      "resumed_from_checkpoint": true,
+      "model_loads": 2,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】The Man Who Predicted The Last Crash WARNS A Recession Starts If These  第002段 [00-30-00 至 01-00-00].m4a",
+      "selected_start": 1800,
+      "selected_end": 3600.0,
+      "filename_end": 3600,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "078dc0fd3f8b7ca8b4e9acb418ac6747ed0e593097b1460bcd68ea05194bf6ab",
+        "source_id": "audio-078dc0fd3f8b7ca8b4e9acb4",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 1,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 5186.9,
+      "timings_seconds": {
+        "local_source_selection": 5.8678999721450964e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.9329544899997018,
+        "model_load": 7.911623116999635,
+        "transcription": 510.5133576970002,
+        "total_this_invocation": 519.6475835770002
+      },
+      "original_segment_count": 471
+    },
+    {
+      "part": 3,
+      "resumed_from_checkpoint": true,
+      "model_loads": 3,
+      "decoder_adjustments": [
+        "Resumed with max_new_tokens=176 and temperature=(0.0, 0.2)"
+      ],
+      "input_filename": "【频道 The Diary Of A CEO】The Man Who Predicted The Last Crash WARNS A Recession Starts If These  第003段 [01-00-00 至 01-30-00].m4a",
+      "selected_start": 3600,
+      "selected_end": 5400.0,
+      "filename_end": 5400,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "dba258167fb652f66c3b1951b73fd8640cd0a8f64e3df66dd2091eebfcf98f44",
+        "source_id": "audio-dba258167fb652f66c3b1951",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 1,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 3150.8,
+      "timings_seconds": {
+        "local_source_selection": 0.00010807400030898862,
+        "download_or_cache": 0.0,
+        "audio_decode": 1.1541888480005582,
+        "model_load": 4.782111657999849,
+        "transcription": 79.1969381810004,
+        "total_this_invocation": 85.15733122100028
+      },
+      "original_segment_count": 519
+    },
+    {
+      "part": 4,
+      "resumed_from_checkpoint": false,
+      "model_loads": 1,
+      "decoder_adjustments": [],
+      "input_filename": "【频道 The Diary Of A CEO】The Man Who Predicted The Last Crash WARNS A Recession Starts If These  第004段 [01-30-00 至 01-33-58].m4a",
+      "selected_start": 5400,
+      "selected_end": 5638.8053125,
+      "filename_end": 5638,
+      "settings": {
+        "language": "auto",
+        "model": "large-v3",
+        "threads": 2,
+        "beam_size": 3,
+        "device": "cpu",
+        "compute_type": "int8",
+        "vad_filter": false,
+        "condition_on_previous_text": true,
+        "start": 0.0,
+        "end": null,
+        "source_type": "audio_file",
+        "audio_sha256": "314561ad0d8c18d9eb68fb7de6cf2b7898d450223a8ea0c9bd43af8a109a9fdd",
+        "source_id": "audio-314561ad0d8c18d9eb68fb7d",
+        "attribution": {
+          "channel": "The Diary Of A CEO",
+          "channel_source": "用户提供"
+        }
+      },
+      "detected_language": "en",
+      "language_probability": 0.9996238946914673,
+      "versions": {
+        "python": "3.12.14",
+        "faster-whisper": "1.2.1",
+        "ctranslate2": "4.4.0",
+        "yt-dlp": "2026.8.19",
+        "av": "16.0.1"
+      },
+      "peak_ram_mb": 4369.6,
+      "timings_seconds": {
+        "local_source_selection": 9.069699990504887e-05,
+        "download_or_cache": 0.0,
+        "audio_decode": 0.1462747320001654,
+        "model_load": 3.986291199000334,
+        "transcription": 247.57482068300033,
+        "total_this_invocation": 251.97825813300005
+      },
+      "original_segment_count": 87
+    }
+  ],
+  "accuracy": "Whisper large-v3, CPU int8, beam 3",
+  "review": {
+    "method": "时间轴与语音活动扫描，重点抽样以 large-v3/beam 5 无前文独立机器解码复核",
+    "main_model_starts": 7,
+    "clip_count": 34,
+    "seconds": 660.1,
+    "clips": [
+      {
+        "start": 0,
+        "end": 12.1,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.917
+      },
+      {
+        "start": 347.86,
+        "end": 367.86,
+        "reason": "相邻字幕重复",
+        "similarity": 0.897
+      },
+      {
+        "start": 507.86,
+        "end": 527.86,
+        "reason": "相邻字幕重复",
+        "similarity": 0.975
+      },
+      {
+        "start": 572.86,
+        "end": 592.86,
+        "reason": "相邻字幕重复",
+        "similarity": 0.592
+      },
+      {
+        "start": 934.05,
+        "end": 954.05,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.846
+      },
+      {
+        "start": 1353.5,
+        "end": 1373.5,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.743
+      },
+      {
+        "start": 1687.15,
+        "end": 1707.15,
+        "reason": "声音时间轴缺口 1696.220–1698.080",
+        "similarity": 0.8
+      },
+      {
+        "start": 1729.42,
+        "end": 1749.42,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.862
+      },
+      {
+        "start": 1875.8,
+        "end": 1895.8,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.835
+      },
+      {
+        "start": 1925.87,
+        "end": 1945.87,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.891
+      },
+      {
+        "start": 2141.6,
+        "end": 2161.6,
+        "reason": "字幕时长异常",
+        "similarity": 0.748
+      },
+      {
+        "start": 2570.79,
+        "end": 2590.79,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.836
+      },
+      {
+        "start": 2675.04,
+        "end": 2695.04,
+        "reason": "字幕时长异常",
+        "similarity": 0.752
+      },
+      {
+        "start": 3137.75,
+        "end": 3157.75,
+        "reason": "声音时间轴缺口 1347.140–1348.360",
+        "similarity": 0.973
+      },
+      {
+        "start": 3474.58,
+        "end": 3494.58,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.857
+      },
+      {
+        "start": 3530.93,
+        "end": 3550.93,
+        "reason": "数字、金融概念或专名",
+        "similarity": 0.721
+      },
+      {
+        "start": 3794.45,
+        "end": 3814.45,
+        "reason": "声音时间轴缺口 203.700–205.200",
+        "similarity": 0.866
+      },
+      {
+        "start": 4368.72,
+        "end": 4388.72,
+        "reason": "相邻字幕重复",
+        "similarity": 0.929
+      },
+      {
+        "start": 4388.59,
+        "end": 4408.59,
+        "reason": "声音时间轴缺口 797.480–799.700",
+        "similarity": 0.889
+      },
+      {
+        "start": 4413.24,
+        "end": 4433.24,
+        "reason": "声音时间轴缺口 822.100–824.380",
+        "similarity": 0.901
+      },
+      {
+        "start": 4575.1,
+        "end": 4595.1,
+        "reason": "相邻字幕重复",
+        "similarity": 0.698
+      },
+      {
+        "start": 4686.46,
+        "end": 4706.46,
+        "reason": "相邻字幕重复",
+        "similarity": 0.738
+      },
+      {
+        "start": 4994.98,
+        "end": 5014.98,
+        "reason": "字幕时长异常",
+        "similarity": 0.643
+      },
+      {
+        "start": 5291.0,
+        "end": 5311.0,
+        "reason": "主转录异常重复，需要核对",
+        "similarity": 0.8
+      },
+      {
+        "start": 5400,
+        "end": 5412.0,
+        "reason": "段落边界",
+        "similarity": 0.807
+      },
+      {
+        "start": 5431.99,
+        "end": 5451.99,
+        "reason": "声音时间轴缺口 41.340–42.640",
+        "similarity": 0.979
+      },
+      {
+        "start": 5472.13,
+        "end": 5492.13,
+        "reason": "声音时间轴缺口 81.300–82.960",
+        "similarity": 0.933
+      },
+      {
+        "start": 5549.65,
+        "end": 5569.65,
+        "reason": "声音时间轴缺口 159.000–160.300",
+        "similarity": 0.914
+      },
+      {
+        "start": 5626.805,
+        "end": 5638.805,
+        "reason": "段落边界",
+        "similarity": 0.804
+      },
+      {
+        "start": 552,
+        "end": 581,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 568,
+        "end": 596,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 1785,
+        "end": 1800,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 1800,
+        "end": 1812,
+        "reason": "独立复核异常词句和分段交界"
+      },
+      {
+        "start": 1790,
+        "end": 1810,
+        "reason": "独立复核异常词句和分段交界"
+      }
+    ],
+    "edits": [
+      {
+        "start": 2151.6,
+        "before": "That just means for me, I'm still going to want to build a data center. I'm going to want to build a data center in Wyoming.",
+        "after": "",
+        "basis": "00:35:41 局部解码支持移除亚秒重复"
+      },
+      {
+        "start": 2151.66,
+        "before": "Right.",
+        "after": "",
+        "basis": "00:35:41 局部解码支持移除亚秒重复"
+      },
+      {
+        "start": 2151.68,
+        "before": "That just means for me, I'm still going to want to build a data center in Wyoming.",
+        "after": "",
+        "basis": "00:35:41 局部解码支持移除亚秒重复"
+      },
+      {
+        "start": 2151.76,
+        "before": "But now I'm going to want to go do it in, let's say Florida, where they are much more happy to accommodate.",
+        "after": "That just means for me, I'm still going to want to build the data centers, but now I'm going to want to go do it in, let's say Florida, where they are much more happy to accommodate.",
+        "basis": "复核 00:35:41–00:36:01"
+      },
+      {
+        "start": 2685.04,
+        "before": "No one's going to buy them.",
+        "after": "",
+        "basis": "00:44:35 局部解码及上下文支持移除亚秒误识"
+      },
+      {
+        "start": 2688.64,
+        "before": "And they're one 10th the cost.",
+        "after": "And they're one-tenth the cost.",
+        "basis": "同一数值的拼写规范化，复核 00:44:35–00:44:55"
+      },
+      {
+        "start": 3148.36,
+        "before": "Antropa needs to go public now, and OpenAI needs to go public next year.",
+        "after": "[name unclear, possibly Anthropic] needs to go public now, and OpenAI needs to go public next year.",
+        "basis": "00:52:17 局部解码对该专名读法不一致"
+      },
+      {
+        "start": 558.86,
+        "before": "Correct.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 559.86,
+        "before": "They then sell these to some other people.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 560.86,
+        "before": "And eventually,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 561.86,
+        "before": "it all collapses.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 562.86,
+        "before": "The house of cards collapses.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 563.86,
+        "before": "You are famous for,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 564.86,
+        "before": "I mean,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 565.86,
+        "before": "many things.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 566.86,
+        "before": "But one of them is,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 567.86,
+        "before": "you saw this coming.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 568.86,
+        "before": "You predicted it.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 569.86,
+        "before": "And you did the big short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 570.86,
+        "before": "Right.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 571.86,
+        "before": "For someone that's never seen the movie,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 572.86,
+        "before": "The Big Short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 573.86,
+        "before": "Okay.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 574.86,
+        "before": "What is it you did?",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 575.86,
+        "before": "Okay.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 576.86,
+        "before": "Let me see if I can explain this in as plain English as possible.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 577.86,
+        "before": "Let me tell you what it's not.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 578.86,
+        "before": "Okay.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 579.86,
+        "before": "It's a movie called The Big Short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 580.86,
+        "before": "Okay.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 581.86,
+        "before": "It's a movie called The Big Short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 582.86,
+        "before": "It's a movie called The Big Short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 583.86,
+        "before": "Okay.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 584.86,
+        "before": "It's a movie called The Big Short.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 585.86,
+        "before": "Let me tell you what it's not.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 586.86,
+        "before": "It's not like shorting a stock.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 587.86,
+        "before": "When you short a stock,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 590.86,
+        "before": "what happens is,",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 591.86,
+        "before": "you go out and you borrow somebody's stock.",
+        "after": "",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "start": 5303.1,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.34,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.4,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.46,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.52,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.58,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.64,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.7,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.76,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.8,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.82,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.88,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5303.96,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5304.06,
+        "before": "Yeah.",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5304.12,
+        "before": "How did it impact your relationship with Valerie?",
+        "after": "",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "start": 5004.98,
+        "before": "I don't know why people like to think that, but I don't know enough of history to understand if that's just a myopic perspective of this moment in time, or if this is more divided.",
+        "after": "",
+        "basis": "01:23:14 局部解码支持移除重复生成的词句"
+      },
+      {
+        "start": 1798.48,
+        "before": "When companies go bankrupt, it's real.",
+        "after": "",
+        "basis": "合并交界前后各 10 秒原音后独立解码"
+      },
+      {
+        "start": 1800.0,
+        "before": "recession. The banks will be fine, by the way, because they're much better regulated. They have",
+        "after": "",
+        "basis": "合并交界前后各 10 秒原音后独立解码"
+      },
+      {
+        "start": 0.0,
+        "before": "If anthropic and open AI went bankrupt tomorrow, the U.S. would go into a recession the next day.",
+        "after": "If Anthropic and OpenAI went bankrupt tomorrow, the U.S. would go into a recession the next day.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 15.3,
+        "before": "And anthropic and open AI decided to create a conspiracy that the world was going to end.",
+        "after": "And Anthropic and OpenAI decided to create a conspiracy that the world was going to end.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1033.54,
+        "before": "Nvidia.",
+        "after": "NVIDIA.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1034.8,
+        "before": "Well, Nvidia is like the godfather of the whole story.",
+        "after": "Well, NVIDIA is like the godfather of the whole story.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1596.76,
+        "before": "Nvidia, hardware companies like Dell, software companies like Salesforce.",
+        "after": "NVIDIA, hardware companies like Dell, software companies like Salesforce.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1734.62,
+        "before": "If, if anthropic, if, and it's a big, if I'm not making that prediction right now, but if anthropic and open AI went bankrupt tomorrow, the us would go into a recession the next day because the whole chain.",
+        "after": "If, if Anthropic, if, and it's a big, if I'm not making that prediction right now, but if Anthropic and OpenAI went bankrupt tomorrow, the us would go into a recession the next day because the whole chain.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1745.58,
+        "before": "That means anthropic has 895 billion commitments.",
+        "after": "That means Anthropic has 895 billion commitments.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 1748.92,
+        "before": "Open AI has similar levels of commitments.",
+        "after": "OpenAI has similar levels of commitments.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 2323.68,
+        "before": "this company core weave, which is what's called a Neo cloud. It's like a small version of this,",
+        "after": "this company CoreWeave, which is what's called a Neo cloud. It's like a small version of this,",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 2336.8,
+        "before": "They build a data center and they rent it out. That's all they do. So that's, that's core weave.",
+        "after": "They build a data center and they rent it out. That's all they do. So that's, that's CoreWeave.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 2577.68,
+        "before": "are called open weight models are much, much cheaper than anthropic and open AI.",
+        "after": "are called open weight models are much, much cheaper than Anthropic and OpenAI.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 2608.3,
+        "before": "So what anthropic and open AI decided to do was, was in my view, create a conspiracy.",
+        "after": "So what Anthropic and OpenAI decided to do was, was in my view, create a conspiracy.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3470.9,
+        "before": "So let's say I own a hundred shares of Nvidia.",
+        "after": "So let's say I own a hundred shares of NVIDIA.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3482.6,
+        "before": "The problem is if I sell my Nvidia, I gotta pay massive taxes on the game.",
+        "after": "The problem is if I sell my NVIDIA, I gotta pay massive taxes on the game.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3496.22,
+        "before": "So what you can do for a time, you can't do it forever is I can short 50 shares or 75 shares or even a hundred shares of Nvidia.",
+        "after": "So what you can do for a time, you can't do it forever is I can short 50 shares or 75 shares or even a hundred shares of NVIDIA.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3507.64,
+        "before": "So now my Nvidia exposure is a lot lower.",
+        "after": "So now my NVIDIA exposure is a lot lower.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3517.1,
+        "before": "That's just the way the tax rules work, but during that period, I wouldn't have any real exposure to Nvidia.",
+        "after": "That's just the way the tax rules work, but during that period, I wouldn't have any real exposure to NVIDIA.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3536.14,
+        "before": "I put out a whole, my, went through my entire portfolio, you know, Nvidia, uh, Microsoft, Eli Lilly, Moody's, Visa.",
+        "after": "I put out a whole, my, went through my entire portfolio, you know, NVIDIA, uh, Microsoft, Eli Lilly, Moody's, Visa.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3726.12,
+        "before": "And on days where everything is good and Nvidia is up 6% and NASDAQ is up 2% and everybody's feeling great.",
+        "after": "And on days where everything is good and NVIDIA is up 6% and NASDAQ is up 2% and everybody's feeling great.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 3739.38,
+        "before": "On days where Nvidia is up, crypto is up and on days where, where Nvidia is down and, and, and people are upset, crypto is down.",
+        "after": "On days where NVIDIA is up, crypto is up and on days where, where NVIDIA is down and, and, and people are upset, crypto is down.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 4447.18,
+        "before": "Now I'm a company I would never invest in core weave.",
+        "after": "Now I'm a company I would never invest in CoreWeave.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 4450.12,
+        "before": "So we talked about core weave, which is one of these Neo clouds that creates data centers.",
+        "after": "So we talked about CoreWeave, which is one of these Neo clouds that creates data centers.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 4455.82,
+        "before": "Core weave went public.",
+        "after": "CoreWeave went public.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 4616.06,
+        "before": "Two guys, you talked about anthropic and open AI are leading up to IPOs at the moment.",
+        "after": "Two guys, you talked about Anthropic and OpenAI are leading up to IPOs at the moment.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "start": 4622.0,
+        "before": "No, no, only did, did, did open AI submit an S one they've they filed for IPO, but I don't think they've released their S one yet.",
+        "after": "No, no, only did, did, did OpenAI submit an S one they've they filed for IPO, but I don't think they've released their S one yet.",
+        "basis": "专名拼写规范化"
+      },
+      {
+        "insert": true,
+        "start": 559.92,
+        "end": 560.22,
+        "text": "Correct.",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 560.22,
+        "end": 565.54,
+        "text": "They then sell these to some other people, and eventually it all collapses. The house of cards collapses.",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 565.54,
+        "end": 573.3,
+        "text": "You are famous for, I mean, many things, but one of them is you saw this coming, you predicted it",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 573.3,
+        "end": 578.68,
+        "text": "and you did The Big Short, right? For someone that's never seen the movie, The Big Short.",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 578.78,
+        "end": 585.2,
+        "text": "Okay. What is it you did? Okay. Let me see if I can explain this in as plain English as possible.",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 585.2,
+        "end": 594.86,
+        "text": "Let me tell you what it's not. It's not like shorting a stock. When you short a stock, what happens is you go out and you borrow somebody's stock.",
+        "basis": "两个重叠的原音片段独立解码并使用词时间戳重新定位，消除重复生成"
+      },
+      {
+        "insert": true,
+        "start": 5308.68,
+        "end": 5310.5,
+        "text": "How did it impact your relationship with Valerie?",
+        "basis": "复核 01:28:11–01:28:31，消除亚秒重复并重新定位下一问"
+      },
+      {
+        "insert": true,
+        "start": 1798.02,
+        "end": 1800.22,
+        "text": "When companies go bankrupt, it's a recession.",
+        "basis": "合并交界前后各 10 秒原音后独立解码"
+      },
+      {
+        "insert": true,
+        "start": 1800.76,
+        "end": 1805.34,
+        "text": "The banks will be fine, by the way, because they're much better regulated. They have",
+        "basis": "合并交界前后各 10 秒原音后独立解码"
+      }
+    ],
+    "uncertainties": [
+      {
+        "start": 3148.36,
+        "end": 3152.22,
+        "description": "公司名在两次解码中有分歧，正文已标注。"
+      }
+    ],
+    "spelling_normalizations": [
+      [
+        "\\bOpen[ -]AI\\b|\\bOpenai\\b",
+        "OpenAI"
+      ],
+      [
+        "\\banthropic\\b",
+        "Anthropic"
+      ],
+      [
+        "\\bNvidia\\b",
+        "NVIDIA"
+      ],
+      [
+        "\\bCore[ -]Weave\\b|\\bCoreweave\\b",
+        "CoreWeave"
+      ]
+    ]
+  },
+  "note": "按附件的原始时间范围合并四段。转录保留英文原话。"
+}
