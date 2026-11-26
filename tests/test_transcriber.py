@@ -135,6 +135,16 @@ class YouTubeDownloadTests(unittest.TestCase):
         with patch("transcribe_cli.find_spec", return_value=None):
             self.assertIn("缺少 yt-dlp-ejs", str(cli.youtube_failure(error, options, "YouTube 音频")))
 
+    def test_caption_file_timeout_does_not_blame_js_and_preserves_url_delimiters(self):
+        error = RuntimeError('The read timed out ("https://www.youtube.com/api/timedtext?v=private")')
+        for runtimes in ({}, {"node": {}}):
+            with self.subTest(runtimes=runtimes), patch("transcribe_cli.find_spec") as find_spec:
+                message = str(cli.youtube_failure(error, {"js_runtimes": runtimes}, "字幕文件"))
+            self.assertEqual(
+                message, '字幕文件获取失败。The read timed out ("https://www.youtube.com/api/timedtext?<请求参数已隐藏>")'
+            )
+            find_spec.assert_not_called()
+
 
 class AudioDecodeTests(unittest.TestCase):
     def test_real_wav_decodes_with_installed_pyav(self):

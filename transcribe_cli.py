@@ -76,13 +76,15 @@ def youtube_failure(error, options, stage):
             hint = "YouTube 音频媒体流返回 HTTP 403"
         else:
             hint = "YouTube 请求返回 HTTP 403（未确认是媒体流）"
+    elif stage == "字幕文件":
+        hint = "字幕文件获取失败"
     elif not options["js_runtimes"]:
         hint = f"{stage}获取失败，且未检测到 Deno 或 Node"
     elif find_spec("yt_dlp_ejs") is None:
         hint = f"{stage}获取失败，且缺少 yt-dlp-ejs，请安装 yt-dlp[default]"
     else:
         hint = f"{stage}获取失败"
-    message = re.sub(r"(https?://[^\s?]+)\?[^\s]+", r"\1?<请求参数已隐藏>", message)
+    message = re.sub(r"""(https?://[^\s?'")>]+)\?[^\s'")>]+""", r"\1?<请求参数已隐藏>", message)
     return RuntimeError(f"{hint}。{message}")
 
 

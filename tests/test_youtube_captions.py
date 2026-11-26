@@ -60,10 +60,30 @@ class CaptionTests(unittest.TestCase):
 
     def test_unknown_original_with_multiple_manual_tracks_requires_selection(self):
         self.info["automatic_captions"] = {}
-        with self.assertRaisesRegex(ValueError, "没有找到"):
+        with self.assertRaisesRegex(ValueError, "可用语言.*频道方字幕为 en, zh-Hans"):
             captions.select_caption(self.info, VIDEO_ID)
         _, source, lang, original = captions.select_caption(self.info, VIDEO_ID, "en")
         self.assertEqual((source, lang, original), ("channel", "en", None))
+
+    def test_multiple_manual_variants_do_not_fall_back_to_automatic_captions(self):
+        traditional = timedtext("zh-Hant")
+        self.info["subtitles"]["zh-Hant"] = traditional
+        for language in (None, "zh"):
+            with self.subTest(language=language), self.assertRaises(ValueError) as failure:
+                captions.select_caption(self.info, VIDEO_ID, language)
+            message = str(failure.exception)
+            self.assertIn("频道方字幕有多个匹配的语言或变体（zh-Hans, zh-Hant）", message)
+            self.assertIn("YouTube 自动字幕为 zh", message)
+            self.assertIn("--language", message)
+        for language, track in (("zh-Hans", self.manual), ("zh-Hant", traditional)):
+            with self.subTest(language=language):
+                self.assertEqual(captions.select_caption(self.info, VIDEO_ID, language),
+                                 (track[0]["url"], "channel", language, "zh"))
+
+    def test_unmatched_language_lists_available_same_video_tracks(self):
+        self.info["subtitles"]["fr"] = timedtext("fr", video_id="lmnopqrstuv")
+        with self.assertRaisesRegex(ValueError, "可用语言.*频道方字幕为 en, zh-Hans；YouTube 自动字幕为 zh。"):
+            captions.select_caption(self.info, VIDEO_ID, "ja")
 
     def test_unconfirmed_video_id_or_public_status_stops_before_caption_request(self):
         for change in ({"id": "lmnopqrstuv"}, {"availability": "subscriber_only"}):

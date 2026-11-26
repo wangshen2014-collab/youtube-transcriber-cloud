@@ -30,15 +30,13 @@ def caption_tracks(info, identifier, automatic):
     return tracks
 
 
-def matching_language(tracks, original):
-    if not original:
-        return next(iter(tracks)) if len(tracks) == 1 else None
-    exact = [lang for lang in tracks if lang.casefold() == original.casefold()]
-    if len(exact) == 1:
-        return exact[0]
-    primary = original.casefold().split("-")[0]
-    same_language = [lang for lang in tracks if lang.casefold().split("-")[0] == primary]
-    return same_language[0] if len(same_language) == 1 else None
+def matching_languages(tracks, preferred):
+    if not preferred:
+        return list(tracks)
+    preferred = preferred.casefold()
+    exact = [lang for lang in tracks if lang.casefold() == preferred]
+    primary = preferred.split("-")[0]
+    return exact or [lang for lang in tracks if lang.casefold().split("-")[0] == primary]
 
 
 def select_caption(info, identifier, requested_language=None):
@@ -53,11 +51,20 @@ def select_caption(info, identifier, requested_language=None):
         originals = {fmt["language"] for fmt in info.get("formats", [])
                      if fmt.get("language_preference") == 10 and fmt.get("language")}
     original = next(iter(originals)) if len(originals) == 1 else None
-    for tracks, source in ((manual, "channel"), (automatic, "youtube_auto")):
-        language = matching_language(tracks, requested_language or original)
-        if language:
+    sources = ((manual, "channel", "频道方字幕"), (automatic, "youtube_auto", "YouTube 自动字幕"))
+    reason = "没有找到该视频可明确选择的同源字幕"
+    for tracks, source, label in sources:
+        matches = matching_languages(tracks, requested_language or original)
+        if len(matches) == 1:
+            language = matches[0]
             return tracks[language], source, language, original
-    raise ValueError("没有找到该视频可明确选择的同源字幕；可能没有字幕，或无法确定原语言")
+        if matches:
+            reason = f"{label}有多个匹配的语言或变体（{', '.join(sorted(matches))}）"
+            break
+    available = "；".join(f"{label}为 {', '.join(sorted(tracks))}" for tracks, _, label in sources if tracks)
+    if available:
+        raise ValueError(f"{reason}。可用语言：{available}。请用 --language 指定具体语言或变体")
+    raise ValueError(f"{reason}。未检测到可用字幕语言")
 
 
 def caption_cues(data):
