@@ -1,12 +1,14 @@
 """CPU transcription of YouTube or local audio; no GUI or account cookies."""
 import argparse
 import hashlib
+from importlib.util import find_spec
 import json
 import logging
 import os
 from pathlib import Path
 import re
 import signal
+import shutil
 import sys
 import time
 from urllib.parse import parse_qs, urlparse
@@ -49,6 +51,39 @@ def video_id(url):
     if not re.fullmatch(r"[A-Za-z0-9_-]{11}", value):
         raise ValueError("无法识别 YouTube 视频 ID；请提供单个视频链接")
     return value
+
+
+def youtube_options():
+    return {
+        "noplaylist": True,
+        "quiet": True,
+        "js_runtimes": {name: {} for name in ("deno", "node") if shutil.which(name)},
+        "socket_timeout": 30,
+        "retries": 3,
+        "fragment_retries": 3,
+    }
+
+
+def youtube_failure(error, options, stage):
+    message = str(error)
+    detail = message.casefold()
+    if "403" in detail and ("tunnel" in detail or "proxy" in detail):
+        hint = "代理隧道返回 HTTP 403"
+    elif "403" in detail:
+        if stage == "字幕文件":
+            hint = "YouTube 字幕请求返回 HTTP 403"
+        elif "unable to download video data" in detail:
+            hint = "YouTube 音频媒体流返回 HTTP 403"
+        else:
+            hint = "YouTube 请求返回 HTTP 403（未确认是媒体流）"
+    elif not options["js_runtimes"]:
+        hint = f"{stage}获取失败，且未检测到 Deno 或 Node"
+    elif find_spec("yt_dlp_ejs") is None:
+        hint = f"{stage}获取失败，且缺少 yt-dlp-ejs，请安装 yt-dlp[default]"
+    else:
+        hint = f"{stage}获取失败"
+    message = re.sub(r"(https?://[^\s?]+)\?[^\s]+", r"\1?<请求参数已隐藏>", message)
+    return RuntimeError(f"{hint}。{message}")
 
 
 def read_json(path, default=None):
@@ -96,15 +131,20 @@ def cached_audio(url, cache, force=False):
     if force and name and Path(name).name == name and audio.is_file():
         audio.unlink()
     LOG.info("正在下载音频：%s", identifier)
-    with yt_dlp.YoutubeDL({
-        "format": "bestaudio", "noplaylist": True, "quiet": True,
+    options = {
+        **youtube_options(),
+        "format": "bestaudio",
         "outtmpl": str(folder / "source.%(ext)s"),
         "overwrites": force,
-    }) as downloader:
-        info = downloader.extract_info(url, download=True)
-        if info.get("id") != identifier:
-            raise RuntimeError("下载结果的视频 ID 与请求不符")
-        audio = Path(downloader.prepare_filename(info))
+    }
+    try:
+        with yt_dlp.YoutubeDL(options) as downloader:
+            info = downloader.extract_info(url, download=True)
+            if info.get("id") != identifier:
+                raise RuntimeError("下载结果的视频 ID 与请求不符")
+            audio = Path(downloader.prepare_filename(info))
+    except yt_dlp.utils.DownloadError as exc:
+        raise youtube_failure(exc, options, "YouTube 音频") from exc
     if not audio.is_file() or audio.stat().st_size == 0:
         raise RuntimeError("下载完成但未找到有效音频文件")
     now = time.time()

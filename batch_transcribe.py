@@ -19,6 +19,11 @@ from desktop import source_attribution as credits
 
 STOP = False
 SUFFIXES = {'.webm', '.m4a', '.mp3', '.wav', '.flac', '.ogg', '.opus', '.aac', '.mp4'}
+QUALITY_PRESETS = {
+    'standard': ('medium', 3),
+    'medium-high': ('large-v3', 3),
+    'high': ('large-v3', 5),
+}
 
 
 def stop(_signal, _frame):
@@ -49,8 +54,9 @@ def inputs(paths, directory=None):
 
 def job_args(options, source, key=None):
     root = options.state_dir / 'jobs' / (key or 'pending')
+    model, beam_size = QUALITY_PRESETS[options.quality]
     args = argparse.Namespace(url=None, audio_file=source, language=options.language,
-        model='medium', threads=6, beam_size=3, start=options.start, end=options.end,
+        model=model, threads=options.threads, beam_size=beam_size, start=options.start, end=options.end,
         state_dir=root, model_dir=options.model_dir, output_dir=options.output_dir / (key or 'pending'),
         pause_file=options.pause_file)
     for name, value in credits.copy_options(options).items():
@@ -80,7 +86,7 @@ def run_worker(args, checkpoint, store, key, interval=600):
     args.state_dir.mkdir(parents=True, exist_ok=True)
     command = [sys.executable, str(Path(__file__).with_name('transcribe_cli.py')),
         '--audio-file', str(args.audio_file), '--language', args.language,
-        '--model', 'medium', '--threads', '6', '--beam-size', '3',
+        '--model', args.model, '--threads', str(args.threads), '--beam-size', str(args.beam_size),
         '--start', str(int(args.start)), '--state-dir', str(args.state_dir),
         '--model-dir', str(args.model_dir), '--output-dir', str(args.output_dir)]
     command += credits.worker_arguments(args)
@@ -359,6 +365,9 @@ def main(argv=None):
     parser.add_argument('--input-dir', type=Path, help='只扫描此目录顶层音频，按自然文件名顺序')
     parser.add_argument('--repo', default=os.getenv('YT_GITHUB_REPO', REPO))
     parser.add_argument('--language', choices=('auto', 'zh', 'en'), default='auto')
+    parser.add_argument('--quality', choices=QUALITY_PRESETS, default='standard',
+                        help='standard: medium/beam3；medium-high: large-v3/beam3；high: large-v3/beam5')
+    parser.add_argument('--threads', type=int, default=6, help='每个识别进程的 CPU 线程数，默认 6')
     parser.add_argument('--start', type=cli.timestamp, default=0.0)
     parser.add_argument('--end', type=cli.timestamp)
     parser.add_argument('--state-dir', type=Path, default=Path('state/cloud-batch'))
@@ -367,6 +376,8 @@ def main(argv=None):
     parser.add_argument('--pause-file', type=Path)
     parser.add_argument('--checkpoint-seconds', type=int, default=600)
     options = parser.parse_args(argv)
+    if options.threads < 1:
+        parser.error('线程数必须为正整数')
     if options.checkpoint_seconds < 60 or (options.end is not None and options.end <= options.start):
         parser.error('检查点同步间隔至少60秒，结束时间必须晚于开始时间')
     signal.signal(signal.SIGINT, stop)

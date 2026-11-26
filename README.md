@@ -36,6 +36,8 @@ AGENTS.md 会指示代理运行批量脚本；上传本身不会自动触发脚�
 .venv/bin/python batch_transcribe.py --input-dir incoming/本批音频
 # 可选：对所有输入使用同一部分范围
 .venv/bin/python batch_transcribe.py '/path/音频.m4a' --start 02:15 --end 08:40
+# 明确选择中高精度和 2 个 CPU 线程
+.venv/bin/python batch_transcribe.py '/path/音频.m4a' --quality medium-high --threads 2
 ```
 
 先验证 GitHub 写入授权，再逐个转录。每个完成后立即保存 TXT/SRT/JSON；
@@ -60,7 +62,10 @@ AGENTS.md 会指示代理运行批量脚本；上传本身不会自动触发脚�
 允许访问 api.github.com；模型下载所需的 Hugging Face/CDN 主机仍须放行。
 凭据必须在执行脚本时可用，不要假定只在环境安装阶段可用的密钥会自动传给任务阶段。
 
-计算参数不变：multilingual medium、CPU int8、6线程、beam3、VAD关闭、
+批量精度由 `--quality` 选择：`standard`（默认，medium / beam 3）、
+`medium-high`（large-v3 / beam 3）、`high`（large-v3 / beam 5）。
+`--threads` 为正整数，默认固定为 6。用相同音频和实际参数可以续做；换档或改线程数会建立独立任务。
+其余计算参数保持 CPU int8、VAD关闭、
 condition_on_previous_text=True、自动语言、原语言转录。每份使用独立子进程，
 模型文件缓存复用，但会重新加载进内存；不以修改推理逻辑换取提速。
 大量进度保存在每份的 worker.log，不向模型输出整篇字幕或音频数据。
@@ -217,13 +222,26 @@ bash scripts/setup.sh
 依赖保留 faster-whisper 1.2.1、CTranslate2 4.4.0（与现有本机版本一致）。
 旧版 CTranslate2 依赖 pkg_resources，因此限制 setuptools<81。
 PyAV 固定为 16.0.1；19.x 移除了 faster-whisper 1.2.1 解码时仍使用的 `metadata_errors` 参数。
-yt-dlp 跟随安装时可用版本，实际版本写入报告；无需改变推理依赖即可更新它：
+YouTube 链接需要 PATH 中有 Deno 2.3+ 或 Node 22+。`yt-dlp[default]` 安装匹配的 EJS
+组件，实际 yt-dlp 版本写入转录报告。本地音频无需 JS 运行时。可单独更新下载依赖：
 
 ```bash
-.venv/bin/python -m pip install --upgrade yt-dlp
+.venv/bin/python -m pip install --upgrade 'yt-dlp[default]>=2026.11.23'
 ```
 
 ## 使用
+
+如果要用公开字幕总结视频，可以单独读取该视频已有的字幕：
+
+```bash
+.venv/bin/python youtube_captions.py --url 'https://www.youtube.com/watch?v=VIDEO_ID'
+```
+
+输出为 JSON，包含纯文字 `text`、视频 ID、字幕来源和语言、首末字幕时间及视频时长。
+默认优先该视频的频道方原语言字幕，其次为同视频的原语言 YouTube 自动字幕；字幕语言
+无法确定时可明确填写 `--language en` 等所需语言。只取该视频自带的字幕，不用搜索结果、
+其他版本或机器翻译字幕补缺。自动字幕的关键数字、术语、引语应回听原音频核对。
+字幕入口不下载音视频、不运行 Whisper、不发布结果。完整或高精度转录仍以原音频为准。
 
 ```bash
 # 完整视频，默认 multilingual medium / 6 threads / beam 3 / CPU int8
