@@ -102,6 +102,50 @@ class TranscriptionTests(unittest.TestCase):
         self.assertFalse(list(self.args.output_dir.rglob("*.txt")))
 
 
+class YouTubeDownloadTests(unittest.TestCase):
+    def test_cached_audio_passes_runtime_timeout_and_retries(self):
+        with tempfile.TemporaryDirectory() as folder, \
+             patch("transcribe_cli.shutil.which", side_effect=lambda name: "/bin/node" if name == "node" else None), \
+             patch("yt_dlp.YoutubeDL") as factory:
+            audio = Path(folder) / "abcdefghijk" / "source.webm"
+            audio.parent.mkdir()
+            audio.write_bytes(b"test")
+            downloader = factory.return_value.__enter__.return_value
+            downloader.extract_info.return_value = {"id": "abcdefghijk", "title": "test"}
+            downloader.prepare_filename.return_value = str(audio)
+            path, _, reused = cli.cached_audio("https://youtu.be/abcdefghijk", Path(folder))
+            self.assertEqual(path, audio)
+            self.assertFalse(reused)
+            options = factory.call_args.args[0]
+            self.assertEqual(options["js_runtimes"], {"node": {}})
+            self.assertEqual(options["socket_timeout"], 30)
+            self.assertEqual((options["retries"], options["fragment_retries"]), (3, 3))
+
+    def test_youtube_failure_categories(self):
+        options = {"js_runtimes": {"node": {}}}
+        for error, label in (
+            ("Tunnel connection failed: 403 Forbidden", "代理隧道"),
+            ("unable to download video data: HTTP Error 403", "音频媒体流"),
+            ("Unable to download webpage: HTTP Error 403", "未确认是媒体流"),
+        ):
+            with self.subTest(error=error):
+                self.assertIn(label, str(cli.youtube_failure(RuntimeError(error), options, "YouTube 音频")))
+        error = RuntimeError("No video formats found")
+        self.assertIn("未检测到", str(cli.youtube_failure(error, {"js_runtimes": {}}, "YouTube 音频")))
+        with patch("transcribe_cli.find_spec", return_value=None):
+            self.assertIn("缺少 yt-dlp-ejs", str(cli.youtube_failure(error, options, "YouTube 音频")))
+
+    def test_caption_file_timeout_does_not_blame_js_and_preserves_url_delimiters(self):
+        error = RuntimeError('The read timed out ("https://www.youtube.com/api/timedtext?v=private")')
+        for runtimes in ({}, {"node": {}}):
+            with self.subTest(runtimes=runtimes), patch("transcribe_cli.find_spec") as find_spec:
+                message = str(cli.youtube_failure(error, {"js_runtimes": runtimes}, "字幕文件"))
+            self.assertEqual(
+                message, '字幕文件获取失败。The read timed out ("https://www.youtube.com/api/timedtext?<请求参数已隐藏>")'
+            )
+            find_spec.assert_not_called()
+
+
 class AudioDecodeTests(unittest.TestCase):
     def test_real_wav_decodes_with_installed_pyav(self):
         from faster_whisper.audio import decode_audio

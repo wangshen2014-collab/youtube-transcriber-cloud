@@ -1,5 +1,8 @@
 import argparse
 import base64
+import contextlib
+import hashlib
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -114,6 +117,7 @@ class BatchTests(unittest.TestCase):
         for n, source in enumerate(self.sources):
             source.write_bytes(b'audio-' + str(n).encode())
         self.options = argparse.Namespace(files=self.sources, input_dir=None, language='auto',
+            quality='standard', threads=6,
             start=0.0, end=None, state_dir=self.root / 'state', model_dir=self.root / 'models',
             output_dir=self.root / 'out', pause_file=None, checkpoint_seconds=600)
         self.store = ResultStore(MemoryAPI())
@@ -167,15 +171,55 @@ class BatchTests(unittest.TestCase):
 
     def test_checkpoint_restore_rewrites_foreign_path(self):
         self.store.ensure()
-        args = batch.job_args(self.options, self.sources[0])
-        config = cli.settings(args); key = cli.task_key(config)
+        source = self.sources[0]
+        digest = hashlib.sha256(source.read_bytes()).hexdigest()
+        config = {
+            'language': 'auto', 'model': 'medium', 'threads': 6, 'beam_size': 3,
+            'device': 'cpu', 'compute_type': 'int8', 'vad_filter': False,
+            'condition_on_previous_text': True, 'start': 0.0, 'end': None,
+            'source_type': 'audio_file', 'audio_sha256': digest, 'source_id': 'audio-' + digest[:24],
+        }
+        key = hashlib.sha256(json.dumps(config, sort_keys=True).encode()).hexdigest()[:24]
         self.store.checkpoint(key, {'settings': config, 'segments': [], 'resume_from': 3,
             'run_id': '20261020-010101-12345678', 'output_directory': '/foreign/machine/path'})
-        args = batch.job_args(self.options, self.sources[0], key)
-        path = batch.restore_checkpoint(self.store, key, config, args)
-        restored = cli.read_json(path)
-        self.assertTrue(restored['output_directory'].startswith(str(args.output_dir.resolve())))
-        self.assertEqual(restored['resume_from'], 3)
+
+        def check_resume(args, path, store, actual_key, interval):
+            self.assertEqual(cli.settings(args), config)
+            self.assertEqual(actual_key, key)
+            restored = cli.read_json(path)
+            self.assertTrue(restored['output_directory'].startswith(str(args.output_dir.resolve())))
+            self.assertEqual(restored['resume_from'], 3)
+            return 75
+
+        self.assertEqual(batch.run_batch(self.options, self.store, check_resume), 75)
+
+    def test_same_audio_at_different_quality_runs_and_deduplicates_separately(self):
+        self.options.files = self.sources[:1]
+        keys = set()
+        for quality, model, beam_size in (
+            ('standard', 'medium', 3), ('medium-high', 'large-v3', 3), ('high', 'large-v3', 5)
+        ):
+            self.options.quality = quality
+            self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
+            key = cli.read_json(self.options.state_dir / 'batch-status.json')['jobs'][0]['key']
+            keys.add(key)
+            record = json.loads(self.store.read(f'jobs/{key}/manifest.json'))
+            self.assertEqual((record['settings']['model'], record['settings']['beam_size']), (model, beam_size))
+            self.assertNotIn('quality', record['settings'])
+        self.assertEqual(len(keys), 3)
+        self.assertEqual(batch.run_batch(self.options, self.store, self.worker), 0)
+        self.assertEqual(len(self.worked), 3)
+
+    def test_main_passes_quality_and_threads_and_defaults(self):
+        for extra, expected in (([], ('standard', 6)), (['--quality', 'high', '--threads', '2'], ('high', 2))):
+            with self.subTest(extra=extra), mock.patch.object(batch, 'auth_token', return_value='unused'), \
+                 mock.patch.object(batch, 'run_batch', return_value=0) as run:
+                self.assertEqual(batch.main(['--state-dir', str(self.options.state_dir), str(self.sources[0]), *extra]), 0)
+                options = run.call_args.args[0]
+                self.assertEqual((options.quality, options.threads), expected)
+        with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as failure:
+            batch.main(['--threads', '0', str(self.sources[0])])
+        self.assertEqual(failure.exception.code, 2)
 
     def test_input_directory_natural_order_and_no_recursive_sweep(self):
         for name in ('part10.wav', 'part2.wav', 'readme.txt'):
@@ -184,7 +228,9 @@ class BatchTests(unittest.TestCase):
         self.assertLess([p.name for p in paths].index('part2.wav'), [p.name for p in paths].index('part10.wav'))
         self.assertNotIn('readme.txt', [p.name for p in paths])
 
-    def test_worker_command_preserves_defaults_without_model_log_spam(self):
+    def test_worker_command_uses_resolved_quality_and_threads(self):
+        self.options.quality = 'high'
+        self.options.threads = 2
         args = batch.job_args(self.options, self.sources[0], 'a' * 24)
         process = mock.Mock(returncode=0)
         process.poll.side_effect = [None, 0, 0]
@@ -193,7 +239,7 @@ class BatchTests(unittest.TestCase):
             code = batch.run_worker(args, args.state_dir / 'absent.json', self.store, 'a' * 24)
         command = popen.call_args.args[0]
         self.assertEqual(code, 0)
-        for flag, value in [('--model', 'medium'), ('--threads', '6'), ('--beam-size', '3')]:
+        for flag, value in [('--model', 'large-v3'), ('--threads', '2'), ('--beam-size', '5')]:
             self.assertEqual(command[command.index(flag) + 1], value)
         self.assertIn('--audio-file', command)
         self.assertNotIn('cloud_job.py', ' '.join(command))

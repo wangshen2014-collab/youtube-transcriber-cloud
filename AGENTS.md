@@ -18,8 +18,12 @@ for any topic, and video summaries with analysis only when requested.
 Unspecified transcription precision remains medium/beam3. Finance subject matter
 alone does not upgrade precision.
 Summary-only requests do not trigger the transcription-and-publish default below.
-Reuse supplied text or accessible same-video captions; internal recognition, if
-needed and not prohibited, must not automatically publish a transcript.
+Reuse supplied text or use `youtube_captions.py --url "URL"` for public captions
+attached to the requested video ID. Prefer the channel's original-language
+captions. Label YouTube automatic captions and review key numbers, terminology
+and quotes against the source audio. Never substitute another upload's captions
+or captions found by title search. Internal recognition, if needed and not
+prohibited, must not automatically publish a transcript.
 Follow the current task's upload scope; summary upload does not authorize publishing
 the internal transcript or checkpoints. Installation does not supply a Cloud
 executor, model cache, GitHub authorization, or account-wide discovery.
@@ -33,6 +37,9 @@ managed Cloud client's selector.
   Enumerate ONLY this request's audio attachments. Do not sweep the whole workspace.
   Default to full audio, auto language; preserve multilingual medium, CPU int8,
   6 threads, beam 3, condition_on_previous_text true, VAD false, task=transcribe.
+  For explicitly requested precision pass `--quality medium-high` (large-v3/beam3)
+  or `--quality high` (large-v3/beam5). Pass `--threads` only when changing the
+  fixed default; use the same effective settings to resume a job.
 - Run inference INSIDE the current Codex Cloud task. Never dispatch Actions unless
   the user explicitly requests GitHub Actions. Do not run cloud_job.py by default.
   This does not authorize using the user's Windows executor for cloud computation.
